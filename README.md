@@ -54,6 +54,7 @@ That's it — no env file needed. Optional configuration: `cp .env.example .env.
 | `npm run scrape` | run the job scraper (all companies) |
 | `npm run scrape -- --company Stripe --company OpenAI` | scrape specific companies |
 | `npm run scrape -- --json out/jobs.json` | also export normalized jobs as JSON |
+| `npm run board` | scrape + regenerate JOBS.md and the README job board |
 | `npm test` | unit tests (encryption, scraper classification/dedupe, status logic) |
 | `npm run db:migrate` / `db:generate` / `db:seed` | drizzle migrations / codegen / seed |
 | `npm run app:build` | package the Mac app into `dist/` |
@@ -145,18 +146,32 @@ applications by posting URL or company+title; statuses only move forward
 each application session — it's idempotent. Generic CSVs (Sheets/Notion
 trackers) with company + title columns also work.
 
-### GitHub Actions (optional)
+### Editing your profile in plain English
 
-[`.github/workflows/scrape.yml`](.github/workflows/scrape.yml) can run the
-scraper in CI and upload `discovered-jobs.json` as an artifact. It is
-**manual-trigger only by default**; uncomment the `schedule` block to run it
-daily. It uses a throwaway database in the runner — your local data and
-credentials are never involved.
+If the Claude Code CLI is installed (`npm i -g @anthropic-ai/claude-code`),
+the career card in **Settings** gains a text box: type things like
+*"add Rust and Go to my skills"*, *"exclude defense companies"*, or
+*"I also want Fall 2027 internships"* and the app runs `claude -p` locally to
+rewrite `career/profile.md` / `career/preferences.md` for you. Updates are
+validated (a bad edit can never leave the scraper with an empty config) and
+land in git like any other change. No CLI? Just edit the files by hand — the
+scraper doesn't depend on Claude.
+
+### Auto-updating job board (every 12 hours)
+
+[`.github/workflows/job-board.yml`](.github/workflows/job-board.yml) runs the
+scraper twice a day in CI (jobscanner-style), regenerates **[JOBS.md](JOBS.md)**
+— the full board with an **Apply** link per role — refreshes the *Top job
+matches* section at the bottom of this README, and commits the result.
+`board/jobs.json` is committed alongside so "first seen" dates and 🆕 badges
+survive between runs. Run it on demand with `npm run board` locally or via
+the Actions tab (`workflow_dispatch`). The CI run uses a throwaway database —
+your local data and credentials are never involved.
 
 ## Tests & verification
 
 ```bash
-npm test           # 24 unit tests
+npm test           # 45 unit tests
 npm run build      # type-safe production build
 npm run scrape -- --company Stripe   # live end-to-end scraper check
 ```
@@ -170,3 +185,32 @@ status twice and check the timeline → run a scrape and save a discovered job.
 See [docs/architecture.md](docs/architecture.md) for the module map, data
 model, and the reasoning behind the stack (Next.js + Drizzle/SQLite,
 TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
+
+<!-- JOB-BOARD:START -->
+## 🎯 Top job matches right now
+
+Updated **2026-07-04 20:13 UTC** · 221 open roles tracked · **[Full job board ➜ JOBS.md](JOBS.md)**
+
+| Company | Role | Location | Season | Match | First seen | Apply |
+|---|---|---|---|---|---|---|
+| Stripe | Software Engineer, Intern 🆕 | Sydney, Australia | — | 73 (2✓) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532256) |
+| Stripe | Software Engineer, New Grad, Developer & End User Experience Platform 🆕 | Toronto | — | 73 (2✓) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991718) |
+| Stripe | Global Sales Enablement Systems Administrator 🆕 | US-Remote | — | 53 (5✓) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7993682) |
+| Stripe | Fullstack Engineer, Privy 🆕 | NYC-Privy, US-Remote | — | 51 (4✓) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7091959) |
+| OpenAI | Software Engineer, Full Stack (People Innovation) 🆕 | Remote - US; San Francisco | — | 50 (3✓) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/d4780eac-03ad-4dae-861f-99af22b4287e) |
+| Stripe | Backend Engineer, Core Tech, Canada 🆕 | Toronto, CAN-Remote | — | 50 (3✓) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6567253) |
+| Stripe | Backend Engineer, Core Technology 🆕 | US-Remote, Chicago, Seattle, San Francisco | — | 50 (3✓) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6042172) |
+| OpenAI | Full-Stack SWE, Data Acquisition (Foundations) 🆕 | San Francisco | — | 49 (6✓) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/a886ff48-b8a1-4e28-b468-296713a5ad78) |
+| OpenAI | Software Engineer, Identity Infrastructure Engineering 🆕 | San Francisco; New York City; Seattle; Remote - US | — | 48 (2✓) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/551b0d0d-46c2-42fb-bb05-46e2fba8d4db) |
+| OpenAI | Manufacturing Test Engineer, AI Compute Infrastructure - Stargate 🆕 | Remote - US | — | 48 (2✓) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/8a950265-0527-48f8-be3c-2923d7d96940) |
+| OpenAI | Software Engineer, Infrastructure Security 🆕 | Remote - US; New York City; Seattle; San Francisco | — | 48 (2✓) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/98ad9beb-4f91-496c-bd16-ac0b2a8d5bb2) |
+| Stripe | Full Stack Engineer, Link 🆕 | Toronto, Remote in Canada | — | 48 (2✓) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6447175) |
+| Stripe | Software Engineer 🆕 | New York, NY | — | 48 (5✓) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8009143) |
+| OpenAI | Software Engineer, Security Observability 🆕 | San Francisco; New York City; Seattle; Remote - US | — | 47 (1✓) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/1e4e9985-babf-4bd9-8fe8-a2016250780d) |
+| OpenAI | Security Engineer, Infrastructure Security 🆕 | Remote - US; New York City; Seattle; San Francisco | — | 47 (1✓) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/f51f750f-a737-4441-8f96-30133a2a8049) |
+| Stripe | Software Engineer, Security Analytics Infrastructure 🆕 | US - Remote | — | 47 (1✓) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7826761) |
+| OpenAI | Capacity Systems Software Engineer 🆕 | San Francisco | — | 46 (4✓) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/11c51b12-3ba0-4a7a-a0d2-ed0661324dc3) |
+| OpenAI | Full-Stack Software Engineer, Compute Foundations 🆕 | San Francisco | — | 46 (4✓) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/1312f55e-ff56-4dab-9bf7-a91e2c157572) |
+| OpenAI | Full Stack Software Engineer, ChatGPT Finances 🆕 | San Francisco | — | 46 (4✓) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/39e06ef9-5e62-425d-81e2-e8690188011f) |
+| OpenAI | Full Stack Engineer, Fleet Scheduling 🆕 | San Francisco | — | 46 (4✓) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/9d11e1d8-af1d-413b-873f-d8fac2bdee99) |
+<!-- JOB-BOARD:END -->

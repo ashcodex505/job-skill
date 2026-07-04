@@ -48,6 +48,7 @@ const SENIOR_KEYWORDS = [
   /\blead\b/i,
   /\bmanager\b/i,
   /\bdirector\b/i,
+  /\badministrator\b/i,
   /\bvp\b/i,
   /\bhead of\b/i,
   /\barchitect\b/i,

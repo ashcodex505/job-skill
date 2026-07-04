@@ -13,6 +13,8 @@ interface CareerConfig {
   locations: string[];
   positiveKeywords: string[];
   negativeKeywords: string[];
+  claudeAvailable: boolean;
+  changedFiles?: string[];
 }
 
 export default function SettingsPage() {
@@ -156,6 +158,7 @@ export default function SettingsPage() {
             <CareerRow label="Exclusions" items={career.negativeKeywords} />
           </div>
         )}
+        {career ? <CareerEditor claudeAvailable={career.claudeAvailable} onUpdated={setCareer} /> : null}
       </Card>
 
       <Card className="p-4">
@@ -203,6 +206,65 @@ export default function SettingsPage() {
           </table>
         )}
       </Card>
+    </div>
+  );
+}
+
+function CareerEditor({ claudeAvailable, onUpdated }: { claudeAvailable: boolean; onUpdated: (c: CareerConfig) => void }) {
+  const [instruction, setInstruction] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [note, setNote] = useState<{ ok: boolean; text: string } | null>(null);
+
+  if (!claudeAvailable) {
+    return (
+      <p className="mt-3 border-t border-border pt-3 text-[11px] text-muted/80">
+        Tip: install the Claude Code CLI (<code className="rounded bg-accent-soft px-1">npm i -g @anthropic-ai/claude-code</code>)
+        to edit these preferences in plain English from here instead of editing the markdown by hand.
+      </p>
+    );
+  }
+
+  async function apply() {
+    setBusy(true);
+    setNote(null);
+    try {
+      const updated = await api<CareerConfig>("/api/career", {
+        method: "POST",
+        body: JSON.stringify({ instruction }),
+      });
+      onUpdated(updated);
+      setInstruction("");
+      setNote({ ok: true, text: `Updated ${updated.changedFiles?.join(" and ") ?? "career files"} — next scrape uses the new config.` });
+    } catch (e) {
+      setNote({ ok: false, text: (e as Error).message });
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <div className="mt-3 space-y-2 border-t border-border pt-3">
+      <p className="text-xs font-medium">Edit in plain English (via your local Claude Code CLI)</p>
+      <div className="flex gap-2">
+        <Input
+          value={instruction}
+          onChange={(e) => setInstruction(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && instruction.trim().length >= 3 && !busy && apply()}
+          placeholder='e.g. "add Rust and Go to my skills" or "exclude defense companies"'
+        />
+        <Button variant="primary" onClick={apply} disabled={busy || instruction.trim().length < 3}>
+          {busy ? "Thinking…" : "Apply"}
+        </Button>
+      </div>
+      {note ? (
+        <p className={`rounded-md border p-2 text-xs ${note.ok ? "border-emerald-300 bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40" : "border-red-300 bg-red-50 text-red-700 dark:bg-red-950/40"}`}>
+          {note.text}
+        </p>
+      ) : null}
+      <p className="text-[10px] text-muted/70">
+        Runs <code className="rounded bg-accent-soft px-1">claude -p</code> locally to rewrite career/profile.md and
+        career/preferences.md; changes are validated before saving and versioned in git.
+      </p>
     </div>
   );
 }
