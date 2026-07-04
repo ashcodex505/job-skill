@@ -1,0 +1,39 @@
+# OPTIONAL scheduled scrape (disabled by default — see README "GitHub Actions").
+#
+# Runs the job scraper daily against the official ATS APIs and uploads the
+# normalized results as a build artifact (discovered-jobs.json). Your local
+# database and credentials are never involved — the workflow uses a throwaway
+# SQLite file in the runner.
+#
+# To enable: uncomment the `schedule` block, or trigger manually from the
+# Actions tab (workflow_dispatch is always available once pushed).
+name: Scrape jobs
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "17 14 * * *" # daily 14:17 UTC
+
+permissions:
+  contents: read
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Run scraper
+        run: npm run scrape -- --json out/discovered-jobs.json
+        env:
+          DATABASE_PATH: /tmp/scrape.db
+      - uses: actions/upload-artifact@v4
+        with:
+          name: discovered-jobs
+          path: out/discovered-jobs.json
+          retention-days: 14
