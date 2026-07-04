@@ -161,7 +161,7 @@ export default function DiscoveryPage() {
                 <th className="px-3 py-2 font-medium">Type</th>
                 <th className="px-3 py-2 font-medium">Season</th>
                 <th className="px-3 py-2 font-medium">Location</th>
-                <th className="px-3 py-2 font-medium">Score</th>
+                <th className="px-3 py-2 font-medium">Match</th>
                 <th className="px-3 py-2 font-medium">Found</th>
                 <th className="px-3 py-2 font-medium">Actions</th>
               </tr>
@@ -187,9 +187,9 @@ export default function DiscoveryPage() {
                   <td className="whitespace-nowrap px-3 py-2 text-xs text-muted">{j.season ?? "—"}</td>
                   <td className="max-w-44 truncate px-3 py-2 text-xs text-muted">{j.location ?? "—"}</td>
                   <td className="px-3 py-2 tabular-nums text-xs text-muted">
-                    <span title={j.matchedSkills.length > 0 ? `Matches your skills: ${j.matchedSkills.join(", ")}` : "No profile-skill match data"}>
-                      {j.score}
-                      {j.matchedSkills.length > 0 ? <span className="ml-1 text-emerald-600">({j.matchedSkills.length}✓)</span> : null}
+                    <span title={j.matchedSkills.length > 0 ? `Matches your skills: ${j.matchedSkills.join(", ")}` : "No skills from career/profile.md found in this posting"}>
+                      {j.score}%
+                      {j.matchedSkills.length > 0 ? <span className="ml-1 text-emerald-600">({j.matchedSkills.length} skills)</span> : null}
                     </span>
                   </td>
                   <td className="whitespace-nowrap px-3 py-2 text-xs tabular-nums text-muted">{formatDate(j.firstSeenAt)}</td>

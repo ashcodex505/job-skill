@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-04T20:13:25.659Z",
+ "updatedAt": "2026-07-04T20:52:04.166Z",
  "jobs": [
   {
    "dedupeKey": "greenhouse:8044460",
@@ -489,25 +489,6 @@
    "roleType": "unknown",
    "score": 40,
    "matchedSkills": [],
-   "firstSeenAt": "2026-07-04T20:13:25.659Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7993682",
-   "source": "greenhouse",
-   "company": "Stripe",
-   "title": "Global Sales Enablement Systems Administrator",
-   "location": "US-Remote",
-   "url": "https://stripe.com/jobs/search?gh_jid=7993682",
-   "season": null,
-   "roleType": "unknown",
-   "score": 53,
-   "matchedSkills": [
-    "JavaScript",
-    "React",
-    "Next.js",
-    "Git",
-    "Data Structures"
-   ],
    "firstSeenAt": "2026-07-04T20:13:25.659Z"
   },
   {

@@ -57,7 +57,7 @@ describe("renderJobsMarkdown", () => {
     expect(md).toContain("## 🎓 New Grad (1)");
     expect(md).toContain("[**Apply ➜**](https://stripe.com/jobs/1)");
     expect(md).toContain("SWE Intern \\| Payments");
-    expect(md).toContain("80 (1✓)");
+    expect(md).toContain("80% (1 skills)");
   });
 });
 
