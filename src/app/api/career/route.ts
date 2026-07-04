@@ -7,15 +7,6 @@ import { claudeAvailable, ClaudeUnavailableError, runClaude } from "@/lib/claude
 
 const CAREER_DIR = process.env.CAREER_DIR ?? path.join(process.cwd(), "career");
 
-/** Parsed career/*.md personalization + whether the Claude CLI is present. */
-export const GET = handler(async () => {
-  return ok({ ...loadCareerConfig(), claudeAvailable: await claudeAvailable() });
-});
-
-const updateInput = z.object({
-  instruction: z.string().trim().min(3).max(4000),
-});
-
 const read = (file: string) => {
   try {
     return fs.readFileSync(path.join(CAREER_DIR, file), "utf8");
@@ -23,6 +14,19 @@ const read = (file: string) => {
     return "";
   }
 };
+
+/** Parsed career/*.md personalization, raw file contents, and Claude CLI presence. */
+export const GET = handler(async () => {
+  return ok({
+    ...loadCareerConfig(),
+    claudeAvailable: await claudeAvailable(),
+    files: { profile: read("profile.md"), preferences: read("preferences.md") },
+  });
+});
+
+const updateInput = z.object({
+  instruction: z.string().trim().min(3).max(4000),
+});
 
 /**
  * Plain-English editing of career/profile.md and career/preferences.md via
@@ -101,6 +105,7 @@ If a file needs no changes, omit its block entirely.`;
     ...nextConfig,
     claudeAvailable: true,
     changedFiles: [...updates.keys()],
+    files: { profile: read("profile.md"), preferences: read("preferences.md") },
   });
 });
 

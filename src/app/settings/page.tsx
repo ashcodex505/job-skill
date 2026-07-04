@@ -15,6 +15,7 @@ interface CareerConfig {
   negativeKeywords: string[];
   claudeAvailable: boolean;
   changedFiles?: string[];
+  files: { profile: string; preferences: string };
 }
 
 export default function SettingsPage() {
@@ -158,6 +159,12 @@ export default function SettingsPage() {
             <CareerRow label="Exclusions" items={career.negativeKeywords} />
           </div>
         )}
+        {career ? (
+          <div className="mt-3 space-y-2 border-t border-border pt-3">
+            <FileViewer name="career/profile.md" content={career.files.profile} />
+            <FileViewer name="career/preferences.md" content={career.files.preferences} />
+          </div>
+        ) : null}
         {career ? <CareerEditor claudeAvailable={career.claudeAvailable} onUpdated={setCareer} /> : null}
       </Card>
 
@@ -207,6 +214,28 @@ export default function SettingsPage() {
         )}
       </Card>
     </div>
+  );
+}
+
+function FileViewer({ name, content }: { name: string; content: string }) {
+  return (
+    <details className="group rounded-md border border-border">
+      <summary className="cursor-pointer select-none px-3 py-2 text-xs font-medium text-muted hover:text-foreground">
+        <code className="rounded bg-accent-soft px-1">{name}</code>
+        <span className="ml-2 text-[10px] text-muted/70">
+          {content ? `${content.split("\n").length} lines — click to view` : "file missing"}
+        </span>
+      </summary>
+      {content ? (
+        <pre className="max-h-72 overflow-auto whitespace-pre-wrap border-t border-border px-3 py-2 font-mono text-[11px] leading-relaxed text-foreground/90">
+          {content}
+        </pre>
+      ) : (
+        <p className="border-t border-border px-3 py-2 text-xs text-amber-600">
+          File not found — see career/README.md for the expected format.
+        </p>
+      )}
+    </details>
   );
 }
 
