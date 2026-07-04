@@ -91,15 +91,32 @@ export interface Classification {
   score: number;
 }
 
-export function classifyTitle(title: string, location?: string | null): Classification {
+/** career/preferences.md overrides/additions (see src/lib/career/config.ts). */
+export interface ClassifyPrefs {
+  targetRoles?: string[];
+  seasons?: string[];
+  locations?: string[];
+  positiveKeywords?: string[];
+  negativeKeywords?: string[];
+}
+
+const containsAny = (needles: string[] | undefined, text: string): boolean =>
+  Boolean(needles?.some((n) => n.trim() && text.toLowerCase().includes(n.trim().toLowerCase())));
+
+export function classifyTitle(title: string, location?: string | null, prefs?: ClassifyPrefs): Classification {
   const roleType = detectRoleType(title);
   const season = detectSeason(title);
-  const isRole = matchesAny(ROLE_KEYWORDS, title);
   const isEarlyCareer = roleType !== "unknown";
   const senior = isSeniorRole(title);
 
+  // User-defined hard exclusions (career/preferences.md → Negative title keywords).
+  if (containsAny(prefs?.negativeKeywords, title)) {
+    return { relevant: false, roleType, season, score: 0 };
+  }
   // Senior/staff/etc. is disqualifying unless the title is explicitly early-career.
   if (senior && !isEarlyCareer) return { relevant: false, roleType, season, score: 0 };
+
+  const isRole = matchesAny(ROLE_KEYWORDS, title) || containsAny(prefs?.targetRoles, title);
   // Must look like an engineering role or be an explicitly early-career SWE-ish posting.
   if (!isRole && !isEarlyCareer) return { relevant: false, roleType, season, score: 0 };
 
@@ -109,10 +126,18 @@ export function classifyTitle(title: string, location?: string | null): Classifi
   if (roleType === "new_grad") score += 30;
   if (season) {
     score += 10;
-    if (/summer 2027/i.test(season)) score += 15;
-    if (/(fall 2026|2027 new grad|spring 2027)/i.test(season)) score += 10;
+    if (prefs?.seasons?.length) {
+      if (prefs.seasons.some((s) => s.trim().toLowerCase() === season.toLowerCase())) score += 15;
+    } else {
+      if (/summer 2027/i.test(season)) score += 15;
+      if (/(fall 2026|2027 new grad|spring 2027)/i.test(season)) score += 10;
+    }
   }
-  if (location && /(remote|arizona|\baz\b|tempe|phoenix|scottsdale|chandler)/i.test(location)) score += 5;
+  const locationPreferred = prefs?.locations?.length
+    ? containsAny(prefs.locations, location ?? "")
+    : Boolean(location && /(remote|arizona|\baz\b|tempe|phoenix|scottsdale|chandler)/i.test(location));
+  if (locationPreferred) score += 5;
+  if (containsAny(prefs?.positiveKeywords, title)) score += 10;
   // Early-career-only titles without a clear SWE keyword ("2027 New Grad Program") stay relevant but score low.
   if (!isRole) score = Math.min(score, 35);
 

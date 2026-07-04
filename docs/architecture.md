@@ -74,3 +74,29 @@ Title classification (keywords, senior-exclusion, season extraction, 0–100
 relevance score) is ported from the user's career-ops `portals.yml` filter
 config and unit-tested. A failing company (wrong slug, API change) records an
 error in `scraper_runs` and never aborts the run.
+
+### Personalization (`career/*.md` → `src/lib/career/config.ts`)
+
+career-ops keeps the user's profile as editable files (`cv.md`,
+`profile.yml`); we do the same with `career/profile.md` (skills) and
+`career/preferences.md` (target roles/seasons/locations, extra
+positive/negative keywords). A ~50-line markdown-section parser turns bullets
+under known headings into config; the scraper re-reads it every run. ATS
+adapters fetch descriptions where the list API provides them for free
+(Greenhouse `?content=true`, Lever `descriptionPlain`, Ashby
+`descriptionHtml`), and `skillMatch()` boosts a posting's score by up to +25
+based on the fraction of profile skills found in title + description
+(word-boundary matching; matched skills stored in
+`discovered_jobs.matched_skills` and surfaced in the UI). Deterministic
+keyword matching, not LLM calls, so scraping stays offline-capable and free;
+an optional Claude-scored evaluation pass is a natural future extension.
+
+## Simplify.jobs import
+
+Simplify exposes no public API or webhooks; its data-out path is the
+tracker's CSV export. `src/lib/import/simplify.ts` parses the CSV
+(RFC-4180-ish parser, synonym-based header mapping so generic tracker
+exports work too), maps Simplify stages onto our pipeline statuses, and
+`POST /api/import/simplify` runs in preview or commit mode. Matching is by
+posting URL, else normalized company+title; status sync is forward-only so
+re-imports are idempotent and can never downgrade an application.

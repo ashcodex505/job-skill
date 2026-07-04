@@ -34,11 +34,13 @@ interface GreenhouseJob {
   updated_at?: string;
   location?: { name?: string };
   offices?: { name?: string }[];
+  /** HTML job description (present with ?content=true). */
+  content?: string;
 }
 
 async function scrapeGreenhouse(portal: CompanyPortal): Promise<RawJob[]> {
   const data = await fetchJson<{ jobs: GreenhouseJob[] }>(
-    `https://boards-api.greenhouse.io/v1/boards/${portal.slug}/jobs`,
+    `https://boards-api.greenhouse.io/v1/boards/${portal.slug}/jobs?content=true`,
   );
   return (data.jobs ?? []).map((j) => ({
     source: "greenhouse" as const,
@@ -48,6 +50,7 @@ async function scrapeGreenhouse(portal: CompanyPortal): Promise<RawJob[]> {
     location: j.location?.name ?? j.offices?.map((o) => o.name).filter(Boolean).join("; ") ?? null,
     url: j.absolute_url,
     postedAt: j.updated_at ?? null,
+    description: j.content ?? null,
   }));
 }
 
@@ -58,6 +61,7 @@ interface LeverJob {
   hostedUrl: string;
   createdAt?: number;
   categories?: { location?: string; allLocations?: string[] };
+  descriptionPlain?: string;
 }
 
 async function scrapeLever(portal: CompanyPortal): Promise<RawJob[]> {
@@ -70,6 +74,7 @@ async function scrapeLever(portal: CompanyPortal): Promise<RawJob[]> {
     location: j.categories?.allLocations?.join("; ") ?? j.categories?.location ?? null,
     url: j.hostedUrl,
     postedAt: j.createdAt ? new Date(j.createdAt).toISOString() : null,
+    description: j.descriptionPlain ?? null,
   }));
 }
 
@@ -81,6 +86,7 @@ interface AshbyJob {
   publishedAt?: string;
   location?: string;
   secondaryLocations?: { location: string }[];
+  descriptionHtml?: string;
 }
 
 async function scrapeAshby(portal: CompanyPortal): Promise<RawJob[]> {
@@ -96,6 +102,7 @@ async function scrapeAshby(portal: CompanyPortal): Promise<RawJob[]> {
       [j.location, ...(j.secondaryLocations?.map((l) => l.location) ?? [])].filter(Boolean).join("; ") || null,
     url: j.jobUrl,
     postedAt: j.publishedAt ?? null,
+    description: j.descriptionHtml ?? null,
   }));
 }
 
@@ -132,6 +139,7 @@ async function scrapeWorkday(portal: CompanyPortal): Promise<RawJob[]> {
           location: j.locationsText ?? null,
           url: `https://${wd.host}/en-US/${wd.site}${j.externalPath.replace(/^.*?(?=\/job\/)/, "")}`,
           postedAt: null,
+          description: null,
         });
       }
       if (page.length < limit || offset + limit >= (data.total ?? 0)) break;

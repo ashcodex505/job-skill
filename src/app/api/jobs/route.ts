@@ -1,6 +1,6 @@
 import { desc } from "drizzle-orm";
 import { db, tables } from "@/db";
-import { handler, ok } from "@/lib/api";
+import { handler, ok, parseTags } from "@/lib/api";
 
 export const GET = handler(async () => {
   const [jobs, lastRun] = await Promise.all([
@@ -13,7 +13,11 @@ export const GET = handler(async () => {
   // "New" = first seen during the most recent completed run window.
   const newSince = lastRun?.startedAt ?? null;
   return ok({
-    jobs: jobs.map((j) => ({ ...j, isNew: newSince !== null && j.firstSeenAt >= newSince })),
+    jobs: jobs.map((j) => ({
+      ...j,
+      matchedSkills: parseTags(j.matchedSkills),
+      isNew: newSince !== null && j.firstSeenAt >= newSince,
+    })),
     lastRun,
   });
 });

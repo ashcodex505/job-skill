@@ -186,7 +186,12 @@ export default function DiscoveryPage() {
                   </td>
                   <td className="whitespace-nowrap px-3 py-2 text-xs text-muted">{j.season ?? "—"}</td>
                   <td className="max-w-44 truncate px-3 py-2 text-xs text-muted">{j.location ?? "—"}</td>
-                  <td className="px-3 py-2 tabular-nums text-xs text-muted">{j.score}</td>
+                  <td className="px-3 py-2 tabular-nums text-xs text-muted">
+                    <span title={j.matchedSkills.length > 0 ? `Matches your skills: ${j.matchedSkills.join(", ")}` : "No profile-skill match data"}>
+                      {j.score}
+                      {j.matchedSkills.length > 0 ? <span className="ml-1 text-emerald-600">({j.matchedSkills.length}✓)</span> : null}
+                    </span>
+                  </td>
                   <td className="whitespace-nowrap px-3 py-2 text-xs tabular-nums text-muted">{formatDate(j.firstSeenAt)}</td>
                   <td className="whitespace-nowrap px-3 py-2">
                     {j.savedApplicationId ? (

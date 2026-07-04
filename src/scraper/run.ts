@@ -1,5 +1,6 @@
 import { eq, inArray, notInArray, and } from "drizzle-orm";
 import { db, newId, now, tables } from "@/db";
+import { loadCareerConfig } from "@/lib/career/config";
 import { ADAPTERS, sleep } from "./adapters";
 import { dedupeJobs, normalizeJob, type NormalizedJob } from "./normalize";
 import { COMPANY_PORTALS, type CompanyPortal } from "./registry";
@@ -44,6 +45,14 @@ export async function runScraper(options: { companies?: string[] } = {}): Promis
       p.ats !== "unsupported" && (!wanted || wanted.includes(p.name.toLowerCase())),
   );
 
+  // career/*.md personalization (career-ops style) — re-read every run.
+  const careerConfig = loadCareerConfig();
+  if (careerConfig.skills.length > 0) {
+    console.log(
+      `Career profile loaded: ${careerConfig.skills.length} skills, ${careerConfig.seasons.length} target seasons, ${careerConfig.negativeKeywords.length} exclusions`,
+    );
+  }
+
   const runId = newId();
   await db.insert(tables.scraperRuns).values({ id: runId, startedAt: now(), status: "running" });
 
@@ -55,7 +64,7 @@ export async function runScraper(options: { companies?: string[] } = {}): Promis
     try {
       const raw = await ADAPTERS[portal.ats](portal);
       const normalized = raw
-        .map(normalizeJob)
+        .map((job) => normalizeJob(job, careerConfig))
         .filter((j): j is NormalizedJob => j !== null);
       allJobs.push(...normalized);
       scannedCompanies.push(portal.name);
@@ -86,6 +95,7 @@ export async function runScraper(options: { companies?: string[] } = {}): Promis
           season: job.season,
           roleType: job.roleType,
           score: job.score,
+          matchedSkills: JSON.stringify(job.matchedSkills),
           lastSeenAt: timestamp,
           active: true,
         })
@@ -105,6 +115,7 @@ export async function runScraper(options: { companies?: string[] } = {}): Promis
         season: job.season,
         roleType: job.roleType,
         score: job.score,
+        matchedSkills: JSON.stringify(job.matchedSkills),
         postedAt: job.postedAt,
         firstSeenAt: timestamp,
         lastSeenAt: timestamp,

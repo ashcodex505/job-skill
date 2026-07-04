@@ -19,6 +19,14 @@ Summer 2027 internship postings straight from company ATS APIs.
 - **Encrypted credentials** — AES-256-GCM, key in the macOS Keychain (or a
   master-password mode). Passwords are never stored or logged in plaintext
   and never leave your machine. Details: [docs/security.md](docs/security.md).
+- **Simplify.jobs import** — apply with the Simplify Copilot extension as
+  usual, then export your Simplify tracker to CSV and hit **Import** on the
+  Applications page. New applications are created, statuses sync forward,
+  re-imports never duplicate.
+- **Career-ops-style personalization** — [`career/profile.md`](career/profile.md)
+  and [`career/preferences.md`](career/preferences.md) tell the scraper who
+  you are and what to hunt for; postings are scored against your skills
+  (descriptions included) so the best-fit roles rank first.
 
 Everything lives in a local SQLite database (`data/`, git-ignored). No
 accounts, no cloud — Supabase Storage is an optional add-on for resume files
@@ -107,6 +115,35 @@ with deep links to their early-career pages for manual checks.
 
 Per-run results (companies scanned, new jobs, per-company errors) are in
 **Settings → Scraper runs**.
+
+### Personalization (career-ops style)
+
+The scraper reads two human-editable markdown files on every run
+(see [career/README.md](career/README.md)):
+
+- **`career/profile.md`** — your skills (keep them matching your resume's
+  wording). Each posting's title + description is checked against them; the
+  match adds up to +25 to the job's score, and the matched skills show up in
+  the Discovery score tooltip (e.g. `76 (4✓)`).
+- **`career/preferences.md`** — target roles, seasons, preferred locations,
+  extra positive keywords, and hard exclusions layered onto the built-in
+  intern/new-grad filter.
+
+**Settings** shows exactly what was parsed. This is the same profile-driven
+filtering idea as the [career-ops](https://github.com/santifer/career-ops)
+system, implemented deterministically (keywords, not LLM calls) so it runs
+offline and free.
+
+### Import from Simplify.jobs
+
+Simplify's Copilot extension only writes to Simplify's own backend (no public
+API/webhooks), so the integration is import-based: **Simplify tracker →
+Export CSV → Applications → Import**. Rows are matched against existing
+applications by posting URL or company+title; statuses only move forward
+(a stale CSV can't downgrade your pipeline), imported rows are tagged
+`simplify`, and every change lands in the status timeline. Re-import after
+each application session — it's idempotent. Generic CSVs (Sheets/Notion
+trackers) with company + title columns also work.
 
 ### GitHub Actions (optional)
 

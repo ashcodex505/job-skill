@@ -1,10 +1,11 @@
 "use client";
 
-import { Briefcase, Columns3, KeyRound, Plus, Table2 } from "lucide-react";
+import { Briefcase, Columns3, Import, KeyRound, Plus, Table2 } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useCallback, useEffect, useMemo, useState } from "react";
 import { AppDrawer } from "@/components/applications/app-drawer";
 import { AppForm } from "@/components/applications/app-form";
+import { ImportModal } from "@/components/applications/import-modal";
 import { StatusBadge } from "@/components/status";
 import { Badge, Button, Card, EmptyState, Input, Select, Spinner, cn } from "@/components/ui";
 import { api, formatDate, relativeDays } from "@/lib/client";
@@ -35,6 +36,7 @@ function ApplicationsInner() {
   const [sortKey, setSortKey] = useState<SortKey>("updatedAt");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
   const [formOpen, setFormOpen] = useState(false);
+  const [importOpen, setImportOpen] = useState(false);
   const [editing, setEditing] = useState<ApplicationRow | null>(null);
   const openId = search.get("open");
 
@@ -106,6 +108,9 @@ function ApplicationsInner() {
               <Columns3 size={13} /> Board
             </button>
           </div>
+          <Button onClick={() => setImportOpen(true)} title="Import your Simplify.jobs tracker CSV">
+            <Import size={14} /> Import
+          </Button>
           <Button variant="primary" onClick={() => { setEditing(null); setFormOpen(true); }}>
             <Plus size={14} /> Add application
           </Button>
@@ -213,6 +218,7 @@ function ApplicationsInner() {
         </div>
       )}
 
+      {importOpen ? <ImportModal onClose={() => setImportOpen(false)} onImported={load} /> : null}
       {formOpen ? (
         <AppForm
           key={editing?.id ?? "new"}

@@ -79,6 +79,7 @@ export interface DiscoveredJob {
   season: string | null;
   roleType: string;
   score: number;
+  matchedSkills: string[];
   postedAt: string | null;
   firstSeenAt: string;
   lastSeenAt: string;

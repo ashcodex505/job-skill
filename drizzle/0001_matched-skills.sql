@@ -1,0 +1,1 @@
+ALTER TABLE `discovered_jobs` ADD `matched_skills` text DEFAULT '[]' NOT NULL;

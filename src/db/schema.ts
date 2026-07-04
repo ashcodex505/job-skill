@@ -136,8 +136,10 @@ export const discoveredJobs = sqliteTable(
     season: text("season"),
     /** internship | new_grad | unknown */
     roleType: text("role_type").notNull().default("unknown"),
-    /** 0-100 relevance score from the classifier. */
+    /** 0-100 relevance score from the classifier (+ career-profile skill match). */
     score: integer("score").notNull().default(0),
+    /** JSON array: skills from career/profile.md found in the posting. */
+    matchedSkills: text("matched_skills").notNull().default("[]"),
     postedAt: text("posted_at"),
     firstSeenAt: timestamp("first_seen_at").notNull(),
     lastSeenAt: timestamp("last_seen_at").notNull(),

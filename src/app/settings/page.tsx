@@ -2,9 +2,18 @@
 
 import { CheckCircle2, KeyRound, Lock, ShieldCheck, Unlock, XCircle } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
-import { Button, Card, Field, Input, Spinner } from "@/components/ui";
+import { Badge, Button, Card, Field, Input, Spinner } from "@/components/ui";
 import { api, formatDateTime } from "@/lib/client";
 import type { ScraperRun, VaultStatus } from "@/lib/app-types";
+
+interface CareerConfig {
+  skills: string[];
+  targetRoles: string[];
+  seasons: string[];
+  locations: string[];
+  positiveKeywords: string[];
+  negativeKeywords: string[];
+}
 
 export default function SettingsPage() {
   const [vault, setVault] = useState<VaultStatus | null>(null);
@@ -13,9 +22,12 @@ export default function SettingsPage() {
   const [message, setMessage] = useState<{ ok: boolean; text: string } | null>(null);
   const [busy, setBusy] = useState(false);
 
+  const [career, setCareer] = useState<CareerConfig | null>(null);
+
   const load = useCallback(() => {
     api<VaultStatus>("/api/vault").then(setVault).catch(() => setVault(null));
     api<ScraperRun[]>("/api/scrape").then(setRuns).catch(() => setRuns([]));
+    api<CareerConfig>("/api/career").then(setCareer).catch(() => setCareer(null));
   }, []);
   useEffect(load, [load]);
 
@@ -120,6 +132,33 @@ export default function SettingsPage() {
       </Card>
 
       <Card className="p-4">
+        <h2 className="mb-1 text-sm font-semibold">Career profile (scraper personalization)</h2>
+        <p className="mb-3 text-xs text-muted">
+          The scraper reads <code className="rounded bg-accent-soft px-1">career/profile.md</code> and{" "}
+          <code className="rounded bg-accent-soft px-1">career/preferences.md</code> (career-ops style) on every run:
+          your skills are matched against each posting&apos;s description (score boost up to +25), and your target
+          roles/seasons/locations and keyword exclusions steer the title filter. Edit the files, then scrape again.
+        </p>
+        {!career ? (
+          <Spinner />
+        ) : career.skills.length === 0 && career.targetRoles.length === 0 ? (
+          <p className="text-xs text-amber-600">
+            No career profile found — create <code>career/profile.md</code> and <code>career/preferences.md</code>{" "}
+            (see career/README.md) to personalize scoring.
+          </p>
+        ) : (
+          <div className="space-y-2 text-xs">
+            <CareerRow label={`Skills (${career.skills.length})`} items={career.skills} />
+            <CareerRow label="Target roles" items={career.targetRoles} />
+            <CareerRow label="Seasons" items={career.seasons} />
+            <CareerRow label="Locations" items={career.locations} />
+            <CareerRow label="Extra keywords" items={career.positiveKeywords} />
+            <CareerRow label="Exclusions" items={career.negativeKeywords} />
+          </div>
+        )}
+      </Card>
+
+      <Card className="p-4">
         <h2 className="mb-1 text-sm font-semibold">Resume storage</h2>
         <p className="text-xs text-muted">
           Files are stored via the <code className="rounded bg-accent-soft px-1">RESUME_STORAGE_DRIVER</code> in{" "}
@@ -164,6 +203,20 @@ export default function SettingsPage() {
           </table>
         )}
       </Card>
+    </div>
+  );
+}
+
+function CareerRow({ label, items }: { label: string; items: string[] }) {
+  if (items.length === 0) return null;
+  return (
+    <div className="flex gap-2">
+      <span className="w-28 shrink-0 pt-0.5 text-muted">{label}</span>
+      <span className="flex flex-wrap gap-1">
+        {items.map((item) => (
+          <Badge key={item} className="bg-accent-soft text-[10px]">{item}</Badge>
+        ))}
+      </span>
     </div>
   );
 }
