@@ -1,6 +1,6 @@
 import { createHash } from "node:crypto";
 import { skillMatch, stripHtml, type CareerConfig } from "@/lib/career/config";
-import { classifyTitle, type Classification } from "./classify";
+import { classifyTitle, type Classification, type ScoreBreakdown } from "./classify";
 
 export interface RawJob {
   source: "greenhouse" | "lever" | "ashby" | "workday";
@@ -14,13 +14,19 @@ export interface RawJob {
   description?: string | null;
 }
 
+/** Descriptions are stored for saved jobs but capped to keep rows sane. */
+const DESCRIPTION_MAX_CHARS = 10_000;
+
 export interface NormalizedJob extends Omit<RawJob, "description"> {
   dedupeKey: string;
   roleType: Classification["roleType"];
   season: string | null;
   score: number;
+  breakdown: ScoreBreakdown;
   /** Skills from career/profile.md found in the posting. */
   matchedSkills: string[];
+  /** Plaintext job description (HTML stripped, length-capped) or null. */
+  descriptionText: string | null;
 }
 
 /**
@@ -39,19 +45,20 @@ export function makeDedupeKey(job: RawJob): string {
  * and the score gets a skill-match boost (up to +25) based on how many of
  * your profile skills appear in the posting's title + description.
  */
-export function normalizeJob(raw: RawJob, config?: CareerConfig): NormalizedJob | null {
+export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new Date()): NormalizedJob | null {
   const title = raw.title.trim().replace(/\s+/g, " ");
   if (!title) return null;
-  const { relevant, roleType, season, score } = classifyTitle(title, raw.location, config);
+  const { relevant, roleType, season, score, breakdown } = classifyTitle(title, raw.location, config, ref);
   if (!relevant) return null;
 
-  let finalScore = score;
+  const descriptionText = raw.description ? stripHtml(raw.description).slice(0, DESCRIPTION_MAX_CHARS) || null : null;
+
+  let skillsScore = 0;
   let matchedSkills: string[] = [];
   if (config?.skills.length) {
-    const text = `${title} ${raw.description ? stripHtml(raw.description) : ""}`;
-    const match = skillMatch(config.skills, text);
+    const match = skillMatch(config.skills, `${title} ${descriptionText ?? ""}`);
     matchedSkills = match.matched;
-    finalScore = Math.min(100, score + Math.round(match.ratio * 25));
+    skillsScore = Math.round(match.ratio * 25);
   }
 
   const { description: _description, ...rest } = raw;
@@ -63,8 +70,10 @@ export function normalizeJob(raw: RawJob, config?: CareerConfig): NormalizedJob 
     dedupeKey: makeDedupeKey(raw),
     roleType,
     season,
-    score: finalScore,
+    score: Math.min(100, score + skillsScore),
+    breakdown: { ...breakdown, skills: skillsScore },
     matchedSkills,
+    descriptionText,
   };
 }
 

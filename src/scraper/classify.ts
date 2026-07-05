@@ -84,12 +84,45 @@ export function isSeniorRole(title: string): boolean {
   return matchesAny(SENIOR_KEYWORDS, title);
 }
 
+/** Per-signal score components; `skills` is filled in by normalizeJob. */
+export interface ScoreBreakdown {
+  role: number;
+  roleType: number;
+  season: number;
+  location: number;
+  keywords: number;
+  skills: number;
+}
+
 export interface Classification {
   relevant: boolean;
   roleType: RoleType;
   season: string | null;
-  /** 0–100 relevance for a SWE new-grad / Summer-2027-intern search. */
+  /** 0–100 relevance for a SWE early-career search (skills boost added later). */
   score: number;
+  breakdown: Omit<ScoreBreakdown, "skills">;
+}
+
+/**
+ * Target seasons derived from "today" instead of hardcoded years, so the
+ * scraper stays useful next cycle without edits. Jan–Apr still targets the
+ * current year's summer (those postings are open); from May on, the next one.
+ * career/preferences.md Seasons overrides this entirely.
+ */
+export function defaultSeasonTargets(ref: Date): { strong: string[]; medium: string[] } {
+  const y = ref.getUTCFullYear();
+  const m = ref.getUTCMonth() + 1;
+  const summerYear = m <= 4 ? y : y + 1;
+  return {
+    strong: [`Summer ${summerYear}`],
+    medium: [
+      `Fall ${m <= 8 ? y : y + 1}`,
+      `Spring ${summerYear}`,
+      `Winter ${summerYear}`,
+      `${y} New Grad`,
+      `${y + 1} New Grad`,
+    ],
+  };
 }
 
 /** career/preferences.md overrides/additions (see src/lib/career/config.ts). */
@@ -104,7 +137,14 @@ export interface ClassifyPrefs {
 const containsAny = (needles: string[] | undefined, text: string): boolean =>
   Boolean(needles?.some((n) => n.trim() && text.toLowerCase().includes(n.trim().toLowerCase())));
 
-export function classifyTitle(title: string, location?: string | null, prefs?: ClassifyPrefs): Classification {
+const NO_SCORE: Omit<ScoreBreakdown, "skills"> = { role: 0, roleType: 0, season: 0, location: 0, keywords: 0 };
+
+export function classifyTitle(
+  title: string,
+  location?: string | null,
+  prefs?: ClassifyPrefs,
+  ref: Date = new Date(),
+): Classification {
   const roleType = detectRoleType(title);
   const season = detectSeason(title);
   const isEarlyCareer = roleType !== "unknown";
@@ -112,35 +152,41 @@ export function classifyTitle(title: string, location?: string | null, prefs?: C
 
   // User-defined hard exclusions (career/preferences.md → Negative title keywords).
   if (containsAny(prefs?.negativeKeywords, title)) {
-    return { relevant: false, roleType, season, score: 0 };
+    return { relevant: false, roleType, season, score: 0, breakdown: NO_SCORE };
   }
   // Senior/staff/etc. is disqualifying unless the title is explicitly early-career.
-  if (senior && !isEarlyCareer) return { relevant: false, roleType, season, score: 0 };
+  if (senior && !isEarlyCareer) return { relevant: false, roleType, season, score: 0, breakdown: NO_SCORE };
 
   const isRole = matchesAny(ROLE_KEYWORDS, title) || containsAny(prefs?.targetRoles, title);
   // Must look like an engineering role or be an explicitly early-career SWE-ish posting.
-  if (!isRole && !isEarlyCareer) return { relevant: false, roleType, season, score: 0 };
+  if (!isRole && !isEarlyCareer) return { relevant: false, roleType, season, score: 0, breakdown: NO_SCORE };
 
-  let score = 0;
-  if (isRole) score += 40;
-  if (roleType === "internship") score += 30;
-  if (roleType === "new_grad") score += 30;
+  let seasonScore = 0;
   if (season) {
-    score += 10;
+    seasonScore += 10;
     if (prefs?.seasons?.length) {
-      if (prefs.seasons.some((s) => s.trim().toLowerCase() === season.toLowerCase())) score += 15;
+      if (prefs.seasons.some((s) => s.trim().toLowerCase() === season.toLowerCase())) seasonScore += 15;
     } else {
-      if (/summer 2027/i.test(season)) score += 15;
-      if (/(fall 2026|2027 new grad|spring 2027)/i.test(season)) score += 10;
+      const targets = defaultSeasonTargets(ref);
+      const match = (list: string[]) => list.some((s) => s.toLowerCase() === season.toLowerCase());
+      if (match(targets.strong)) seasonScore += 15;
+      else if (match(targets.medium)) seasonScore += 10;
     }
   }
   const locationPreferred = prefs?.locations?.length
     ? containsAny(prefs.locations, location ?? "")
     : Boolean(location && /(remote|arizona|\baz\b|tempe|phoenix|scottsdale|chandler)/i.test(location));
-  if (locationPreferred) score += 5;
-  if (containsAny(prefs?.positiveKeywords, title)) score += 10;
+
+  const breakdown: Omit<ScoreBreakdown, "skills"> = {
+    role: isRole ? 40 : 0,
+    roleType: isEarlyCareer ? 30 : 0,
+    season: seasonScore,
+    location: locationPreferred ? 5 : 0,
+    keywords: containsAny(prefs?.positiveKeywords, title) ? 10 : 0,
+  };
+  let score = breakdown.role + breakdown.roleType + breakdown.season + breakdown.location + breakdown.keywords;
   // Early-career-only titles without a clear SWE keyword ("2027 New Grad Program") stay relevant but score low.
   if (!isRole) score = Math.min(score, 35);
 
-  return { relevant: score >= 30, roleType, season, score: Math.min(score, 100) };
+  return { relevant: score >= 30, roleType, season, score: Math.min(score, 100), breakdown };
 }

@@ -16,6 +16,7 @@ export const GET = handler(async () => {
     jobs: jobs.map((j) => ({
       ...j,
       matchedSkills: parseTags(j.matchedSkills),
+      scoreBreakdown: j.scoreBreakdown ? JSON.parse(j.scoreBreakdown) : null,
       isNew: newSince !== null && j.firstSeenAt >= newSince,
     })),
     lastRun,

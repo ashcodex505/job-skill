@@ -98,6 +98,8 @@ export async function runScraper(options: { companies?: string[] } = {}): Promis
           roleType: job.roleType,
           score: job.score,
           matchedSkills: JSON.stringify(job.matchedSkills),
+          scoreBreakdown: JSON.stringify(job.breakdown),
+          description: job.descriptionText,
           lastSeenAt: timestamp,
           active: true,
         })
@@ -118,6 +120,8 @@ export async function runScraper(options: { companies?: string[] } = {}): Promis
         roleType: job.roleType,
         score: job.score,
         matchedSkills: JSON.stringify(job.matchedSkills),
+        scoreBreakdown: JSON.stringify(job.breakdown),
+        description: job.descriptionText,
         postedAt: job.postedAt,
         firstSeenAt: timestamp,
         lastSeenAt: timestamp,

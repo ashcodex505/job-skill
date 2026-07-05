@@ -67,6 +67,8 @@ export interface ApplicationDetail extends ApplicationRow {
   credential: CredentialView | null;
   resume: ResumeRow | null;
   coverLetter: ResumeRow | null;
+  /** Scraped posting description when saved from Job Discovery. */
+  jobDescription: string | null;
 }
 
 export interface DiscoveredJob {
@@ -80,6 +82,15 @@ export interface DiscoveredJob {
   roleType: string;
   score: number;
   matchedSkills: string[];
+  scoreBreakdown: {
+    role: number;
+    roleType: number;
+    season: number;
+    location: number;
+    keywords: number;
+    skills: number;
+  } | null;
+  description: string | null;
   postedAt: string | null;
   firstSeenAt: string;
   lastSeenAt: string;

@@ -1,8 +1,8 @@
 "use client";
 
-import { BookmarkPlus, CheckCircle2, ExternalLink, Radar, RefreshCw, Sparkles } from "lucide-react";
+import { BookmarkPlus, CheckCircle2, ChevronDown, ChevronRight, ExternalLink, Radar, RefreshCw, Sparkles } from "lucide-react";
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { Fragment, useCallback, useEffect, useMemo, useState } from "react";
 import { PostApplyModal } from "@/components/applications/post-apply-modal";
 import { Badge, Button, Card, EmptyState, Input, Select, Spinner, cn } from "@/components/ui";
 import { api, formatDate, formatDateTime } from "@/lib/client";
@@ -24,6 +24,7 @@ export default function DiscoveryPage() {
   const [minMatch, setMinMatch] = useState(0);
   const [savingId, setSavingId] = useState<string | null>(null);
   const [postApply, setPostApply] = useState<{ id: string; companyName: string; jobTitle: string } | null>(null);
+  const [expandedId, setExpandedId] = useState<string | null>(null);
 
   const load = useCallback(() => {
     api<{ jobs: DiscoveredJob[]; lastRun: ScraperRun | null }>("/api/jobs")
@@ -94,6 +95,20 @@ export default function DiscoveryPage() {
       })
       .sort((a, b) => b.score - a.score || b.firstSeenAt.localeCompare(a.firstSeenAt));
   }, [jobs, query, companyFilter, typeFilter, seasonFilter, sourceFilter, onlyNew, hideSaved, minMatch]);
+
+  function matchTooltip(j: DiscoveredJob): string {
+    const b = j.scoreBreakdown;
+    if (!b) return j.matchedSkills.length > 0 ? `Matches your skills: ${j.matchedSkills.join(", ")}` : "Scraped before score breakdowns — re-scrape to populate";
+    const lines = [
+      b.role ? `Engineering role fit +${b.role}` : null,
+      b.roleType ? `Intern/new-grad title +${b.roleType}` : null,
+      b.season ? `Season${j.season ? ` (${j.season})` : ""} +${b.season}` : null,
+      b.location ? `Preferred location +${b.location}` : null,
+      b.keywords ? `Preference keywords +${b.keywords}` : null,
+      b.skills ? `Your skills in posting +${b.skills} (${j.matchedSkills.join(", ")})` : "No profile skills found in posting",
+    ].filter(Boolean);
+    return lines.join("\n");
+  }
 
   return (
     <div className="space-y-4">
@@ -194,7 +209,8 @@ export default function DiscoveryPage() {
             </thead>
             <tbody className="divide-y divide-border">
               {filtered.map((j) => (
-                <tr key={j.id} className="hover:bg-accent-soft/40">
+                <Fragment key={j.id}>
+                <tr className="hover:bg-accent-soft/40">
                   <td className="whitespace-nowrap px-3 py-2 font-medium">
                     <span className="flex items-center gap-1.5">
                       {j.company}
@@ -202,10 +218,22 @@ export default function DiscoveryPage() {
                     </span>
                   </td>
                   <td className="max-w-72 px-3 py-2">
-                    <a href={j.url} target="_blank" rel="noreferrer" className="flex items-center gap-1 hover:text-accent">
-                      <span className="truncate">{j.title}</span>
-                      <ExternalLink size={11} className="shrink-0 text-muted/60" />
-                    </a>
+                    <span className="flex items-center gap-1">
+                      {j.description ? (
+                        <button
+                          className="shrink-0 cursor-pointer text-muted/60 hover:text-foreground"
+                          onClick={() => setExpandedId(expandedId === j.id ? null : j.id)}
+                          title="Show job description"
+                          aria-label="Toggle job description"
+                        >
+                          {expandedId === j.id ? <ChevronDown size={12} /> : <ChevronRight size={12} />}
+                        </button>
+                      ) : null}
+                      <a href={j.url} target="_blank" rel="noreferrer" className="flex min-w-0 items-center gap-1 hover:text-accent">
+                        <span className="truncate">{j.title}</span>
+                        <ExternalLink size={11} className="shrink-0 text-muted/60" />
+                      </a>
+                    </span>
                   </td>
                   <td className="whitespace-nowrap px-3 py-2 text-xs text-muted">
                     {j.roleType === "new_grad" ? "New Grad" : j.roleType === "internship" ? "Internship" : "—"}
@@ -213,7 +241,7 @@ export default function DiscoveryPage() {
                   <td className="whitespace-nowrap px-3 py-2 text-xs text-muted">{j.season ?? "—"}</td>
                   <td className="max-w-44 truncate px-3 py-2 text-xs text-muted">{j.location ?? "—"}</td>
                   <td className="px-3 py-2 tabular-nums text-xs text-muted">
-                    <span title={j.matchedSkills.length > 0 ? `Matches your skills: ${j.matchedSkills.join(", ")}` : "No skills from career/profile.md found in this posting"}>
+                    <span title={matchTooltip(j)} className="cursor-help underline decoration-dotted decoration-border underline-offset-2">
                       {j.score}%
                       {j.matchedSkills.length > 0 ? <span className="ml-1 text-emerald-600">({j.matchedSkills.length} skills)</span> : null}
                     </span>
@@ -236,6 +264,14 @@ export default function DiscoveryPage() {
                     )}
                   </td>
                 </tr>
+                {expandedId === j.id && j.description ? (
+                  <tr className="bg-accent-soft/20">
+                    <td colSpan={8} className="px-6 py-3">
+                      <p className="max-h-56 overflow-y-auto whitespace-pre-wrap text-xs leading-relaxed text-muted">{j.description}</p>
+                    </td>
+                  </tr>
+                ) : null}
+                </Fragment>
               ))}
             </tbody>
           </table>

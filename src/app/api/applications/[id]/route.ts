@@ -11,7 +11,7 @@ export const GET = handler(async (_req: Request, { params }: Ctx) => {
   const app = await db.query.applications.findFirst({ where: eq(tables.applications.id, id) });
   if (!app) return notFound("Application not found");
 
-  const [events, credential, resume, coverLetter] = await Promise.all([
+  const [events, credential, resume, coverLetter, discoveredJob] = await Promise.all([
     db
       .select()
       .from(tables.statusEvents)
@@ -22,6 +22,9 @@ export const GET = handler(async (_req: Request, { params }: Ctx) => {
     app.coverLetterId
       ? db.query.resumes.findFirst({ where: eq(tables.resumes.id, app.coverLetterId) })
       : null,
+    app.discoveredJobId
+      ? db.query.discoveredJobs.findFirst({ where: eq(tables.discoveredJobs.id, app.discoveredJobId) })
+      : null,
   ]);
 
   return ok({
@@ -31,6 +34,7 @@ export const GET = handler(async (_req: Request, { params }: Ctx) => {
     credential: credential ? toCredentialView(credential) : null,
     resume: resume ? { ...resume, tags: parseTags(resume.tags) } : null,
     coverLetter: coverLetter ? { ...coverLetter, tags: parseTags(coverLetter.tags) } : null,
+    jobDescription: discoveredJob?.description ?? null,
   });
 });
 

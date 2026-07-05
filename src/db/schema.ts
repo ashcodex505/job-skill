@@ -140,6 +140,10 @@ export const discoveredJobs = sqliteTable(
     score: integer("score").notNull().default(0),
     /** JSON array: skills from career/profile.md found in the posting. */
     matchedSkills: text("matched_skills").notNull().default("[]"),
+    /** JSON per-signal score components {role, roleType, season, location, keywords, skills}. */
+    scoreBreakdown: text("score_breakdown"),
+    /** Plaintext job description (HTML stripped, ~10k char cap). */
+    description: text("description"),
     postedAt: text("posted_at"),
     firstSeenAt: timestamp("first_seen_at").notNull(),
     lastSeenAt: timestamp("last_seen_at").notNull(),

@@ -14,7 +14,9 @@ const job = (overrides: Partial<NormalizedJob> = {}): NormalizedJob => ({
   roleType: "internship",
   season: "Summer 2027",
   score: 80,
+  breakdown: { role: 40, roleType: 30, season: 10, location: 0, keywords: 0, skills: 0 },
   matchedSkills: ["Python"],
+  descriptionText: null,
   ...overrides,
 });
 

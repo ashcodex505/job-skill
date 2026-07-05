@@ -1,3 +1,4 @@
+import type { ScoreBreakdown } from "./classify";
 import type { NormalizedJob } from "./normalize";
 
 /**
@@ -18,6 +19,8 @@ export interface BoardJob {
   roleType: string;
   score: number;
   matchedSkills: string[];
+  /** Optional: older board states predate score breakdowns. */
+  breakdown?: ScoreBreakdown;
   firstSeenAt: string;
 }
 
@@ -77,6 +80,7 @@ export function mergeBoard(
     roleType: j.roleType,
     score: j.score,
     matchedSkills: j.matchedSkills,
+    breakdown: j.breakdown,
     // Reopened jobs recover their original firstSeenAt from the closed list.
     firstSeenAt: prevByKey.get(j.dedupeKey)?.firstSeenAt ?? closedByKey.get(j.dedupeKey)?.firstSeenAt ?? now,
   }));
