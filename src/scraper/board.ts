@@ -55,16 +55,26 @@ const CLOSED_RETENTION_MS = 7 * 24 * 60 * 60 * 1000;
  * - Jobs absent from a scanned company's feed move to `closed`, kept for
  *   7 days so the board shows what you just missed.
  *
- * `scannedCompanies` omitted = treat every company as scanned (full replace).
+ * `scanned` omitted = treat everything as scanned (full replace). Jobs from
+ * whole-feed sources (simplifyjobs) are owned by the *feed*, not the company:
+ * they only close when their source was scanned, regardless of company.
  */
+export const FEED_SOURCES = new Set(["simplifyjobs"]);
+
 export function mergeBoard(
   previous: BoardData | null,
   scraped: NormalizedJob[],
   now: string,
-  scannedCompanies?: string[],
+  scanned?: string[] | { companies?: string[]; sources?: string[] },
 ): BoardData {
-  const scanned = scannedCompanies ? new Set(scannedCompanies.map((c) => c.toLowerCase())) : null;
-  const wasScanned = (company: string) => scanned === null || scanned.has(company.toLowerCase());
+  const norm = scanned === undefined ? null : Array.isArray(scanned) ? { companies: scanned } : scanned;
+  const companies = norm?.companies ? new Set(norm.companies.map((c) => c.toLowerCase())) : null;
+  const sources = new Set(norm?.sources ?? []);
+  const wasScanned = (job: { company: string; source: string }) => {
+    if (norm === null) return true;
+    if (FEED_SOURCES.has(job.source)) return sources.has(job.source);
+    return companies === null || companies.has(job.company.toLowerCase());
+  };
   const prevActive = previous?.jobs ?? [];
   const prevClosed = previous?.closed ?? [];
   const prevByKey = new Map(prevActive.map((j) => [j.dedupeKey, j]));
@@ -91,7 +101,7 @@ export function mergeBoard(
   const newlyClosed: ClosedJob[] = [];
   for (const j of prevActive) {
     if (scrapedKeys.has(j.dedupeKey)) continue;
-    if (!wasScanned(j.company)) {
+    if (!wasScanned(j)) {
       jobs.push(j); // carried forward — no fresh data for this company
     } else {
       newlyClosed.push({
@@ -192,8 +202,11 @@ export function renderJobsMarkdown(board: BoardData): string {
 **${jobs.length} open roles** across **${companies} companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
 Last updated: **${board.updatedAt.slice(0, 16).replace("T", " ")} UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
-${section("🆕 New this cycle", fresh, board.updatedAt, 100)}${section("🛠️ Internships", interns, board.updatedAt)}${section("🎓 New Grad", newGrad, board.updatedAt)}${section("🔍 Other early-career matches", other, board.updatedAt)}${closedSection(board.closed ?? [])}
-`;
+${section("🆕 New this cycle", fresh, board.updatedAt, 100)}${section("🛠️ Internships", interns, board.updatedAt)}${section("🎓 New Grad", newGrad, board.updatedAt)}${section("🔍 Other early-career matches", other, board.updatedAt)}${closedSection(board.closed ?? [])}${
+    jobs.some((j) => j.source === "simplifyjobs")
+      ? "\n---\n_Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) and SimplifyJobs Summer Internships._\n"
+      : ""
+  }`;
 }
 
 /** shields.io static badge (label/message must escape - _ and spaces). */

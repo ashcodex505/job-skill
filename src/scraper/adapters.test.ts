@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { ADAPTERS } from "./adapters";
+import { ADAPTERS, scrapeSimplifyFeeds } from "./adapters";
 import type { CompanyPortal } from "./registry";
 
 /** Mocked-fetch adapter tests: response shape → RawJob mapping. */
@@ -123,6 +123,59 @@ describe("workable adapter", () => {
       url: "https://apply.workable.com/huggingface/j/ABC123/",
       postedAt: "2026-06-15",
     });
+  });
+});
+
+describe("simplifyjobs feed", () => {
+  const NOW = new Date("2026-07-05T00:00:00Z");
+  const fresh = Math.floor(NOW.getTime() / 1000) - 86_400; // 1 day old
+  const stale = Math.floor(NOW.getTime() / 1000) - 200 * 86_400;
+
+  it("maps active+visible recent listings and falls back across repos/branches", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(async (url: string | URL) => {
+        const u = String(url);
+        // New-Grad repo: dev 404s, main resolves — exercises branch fallback.
+        if (u.includes("New-Grad-Positions/dev")) return new Response("nf", { status: 404 });
+        if (u.includes("New-Grad-Positions/main")) {
+          return new Response(
+            JSON.stringify([
+              {
+                id: "uuid-1",
+                company_name: "Google",
+                title: "Software Engineer, New Grad",
+                locations: ["Mountain View, CA"],
+                url: "https://google.com/careers/j/1",
+                date_posted: fresh,
+                active: true,
+                is_visible: true,
+              },
+              { id: "uuid-2", company_name: "Old Co", title: "SWE New Grad", url: "https://x.test/2", date_posted: stale, active: true, is_visible: true },
+              { id: "uuid-3", company_name: "Hidden Co", title: "SWE New Grad", url: "https://x.test/3", date_posted: fresh, active: false, is_visible: true },
+            ]),
+            { status: 200 },
+          );
+        }
+        return new Response("nf", { status: 404 }); // internships repos absent
+      }),
+    );
+    const jobs = await scrapeSimplifyFeeds(NOW);
+    expect(jobs).toHaveLength(1); // stale + inactive filtered out
+    expect(jobs[0]).toMatchObject({
+      source: "simplifyjobs",
+      sourceId: "uuid-1",
+      company: "Google",
+      title: "Software Engineer, New Grad",
+      location: "Mountain View, CA",
+      url: "https://google.com/careers/j/1",
+    });
+    expect(jobs[0].postedAt).toBe(new Date(fresh * 1000).toISOString());
+  });
+
+  it("throws only when no feed resolves at all", async () => {
+    vi.stubGlobal("fetch", vi.fn(async () => new Response("nf", { status: 404 })));
+    await expect(scrapeSimplifyFeeds(NOW)).rejects.toThrow(/No SimplifyJobs feed resolved/);
   });
 });
 

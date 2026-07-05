@@ -3,7 +3,7 @@ import { skillMatch, stripHtml, type CareerConfig } from "@/lib/career/config";
 import { classifyTitle, type Classification, type ScoreBreakdown } from "./classify";
 
 export interface RawJob {
-  source: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable";
+  source: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "simplifyjobs";
   sourceId: string | null;
   company: string;
   title: string;
@@ -77,12 +77,25 @@ export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new
   };
 }
 
-/** Removes intra-batch duplicates (same job appearing twice in one scrape). */
+/**
+ * Removes intra-batch duplicates: same dedupeKey (same provider job seen
+ * twice), then same exact URL across sources — the SimplifyJobs feed often
+ * lists postings our company adapters also fetch; the adapter copy wins
+ * (it carries descriptions/skill matches).
+ */
 export function dedupeJobs(jobs: NormalizedJob[]): NormalizedJob[] {
-  const seen = new Map<string, NormalizedJob>();
+  const byKey = new Map<string, NormalizedJob>();
   for (const job of jobs) {
-    const existing = seen.get(job.dedupeKey);
-    if (!existing || job.score > existing.score) seen.set(job.dedupeKey, job);
+    const existing = byKey.get(job.dedupeKey);
+    if (!existing || job.score > existing.score) byKey.set(job.dedupeKey, job);
   }
-  return [...seen.values()];
+  const byUrl = new Map<string, NormalizedJob>();
+  for (const job of byKey.values()) {
+    const url = job.url.replace(/\/+$/, "");
+    const existing = byUrl.get(url);
+    if (!existing || (existing.source === "simplifyjobs" && job.source !== "simplifyjobs")) {
+      byUrl.set(url, job);
+    }
+  }
+  return [...byUrl.values()];
 }

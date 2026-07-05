@@ -86,7 +86,10 @@ async function main() {
   }
 
   const now = new Date().toISOString();
-  let board = mergeBoard(previous, summary.jobs, now, summary.scannedCompanies);
+  let board = mergeBoard(previous, summary.jobs, now, {
+    companies: summary.scannedCompanies,
+    sources: summary.scannedSources,
+  });
 
   if (linkcheck && board.jobs.length > 0) {
     console.log(`Link-checking ${board.jobs.length} posting URLs...`);

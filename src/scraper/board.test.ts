@@ -93,6 +93,23 @@ describe("mergeBoard", () => {
   });
 });
 
+describe("mergeBoard feed-source semantics", () => {
+  it("feed jobs close only when the feed was scanned, never via company scans", () => {
+    const feedJob = { ...job({ dedupeKey: "simplifyjobs:u1", source: "simplifyjobs", company: "Stripe" }), firstSeenAt: NOW } as BoardData["jobs"][number];
+    const prev: BoardData = { updatedAt: NOW, jobs: [feedJob] };
+
+    // Stripe scanned but feed NOT scanned → carried forward.
+    const a = mergeBoard(prev, [], NOW, { companies: ["Stripe"], sources: [] });
+    expect(a.jobs.map((j) => j.dedupeKey)).toEqual(["simplifyjobs:u1"]);
+    expect(a.closed).toHaveLength(0);
+
+    // Feed scanned and listing gone → closed.
+    const b = mergeBoard(prev, [], NOW, { companies: [], sources: ["simplifyjobs"] });
+    expect(b.jobs).toHaveLength(0);
+    expect(b.closed!.map((c) => c.dedupeKey)).toEqual(["simplifyjobs:u1"]);
+  });
+});
+
 describe("closeJobs", () => {
   it("moves the named jobs to closed (dead links)", () => {
     const board = mergeBoard(null, [job(), job({ sourceId: "2", dedupeKey: "greenhouse:2" })], NOW);

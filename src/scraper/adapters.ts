@@ -221,6 +221,77 @@ export function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+// ── SimplifyJobs community feed (MIT-licensed listings.json) ──────────
+/**
+ * Not a per-company adapter: the SimplifyJobs repos aggregate early-career
+ * roles across hundreds of companies — including the anti-bot portals we
+ * refuse to scrape (Google, Amazon, Meta, …) — with true posted dates.
+ * We read the raw listings.json the maintainers publish; repo names roll
+ * over per season, so candidates are tried in order until one resolves.
+ */
+interface SimplifyListing {
+  id: string;
+  company_name: string;
+  title: string;
+  locations?: string[];
+  url: string;
+  date_posted?: number; // epoch seconds
+  active?: boolean;
+  is_visible?: boolean;
+}
+
+const SIMPLIFY_FEEDS: { repo: string; branches: string[] }[] = [
+  { repo: "SimplifyJobs/New-Grad-Positions", branches: ["dev", "main"] },
+  { repo: "SimplifyJobs/Summer2027-Internships", branches: ["dev", "main"] },
+  { repo: "SimplifyJobs/Summer2026-Internships", branches: ["dev", "main"] },
+];
+
+/** Skip stale listings the accumulating repos never prune. */
+const SIMPLIFY_MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
+
+export async function scrapeSimplifyFeeds(now: Date = new Date()): Promise<RawJob[]> {
+  const jobs: RawJob[] = [];
+  const seen = new Set<string>();
+  let anyResolved = false;
+
+  for (const feed of SIMPLIFY_FEEDS) {
+    let listings: SimplifyListing[] | null = null;
+    for (const branch of feed.branches) {
+      try {
+        listings = await fetchJson<SimplifyListing[]>(
+          `https://raw.githubusercontent.com/${feed.repo}/${branch}/.github/scripts/listings.json`,
+        );
+        break;
+      } catch {
+        // Try the next branch / feed; a season repo may not exist yet.
+      }
+    }
+    if (!listings) continue;
+    anyResolved = true;
+
+    for (const l of listings) {
+      if (!l.active || !l.is_visible || !l.url || !l.id || seen.has(l.id)) continue;
+      const postedMs = (l.date_posted ?? 0) * 1000;
+      if (!postedMs || now.getTime() - postedMs > SIMPLIFY_MAX_AGE_MS) continue;
+      seen.add(l.id);
+      jobs.push({
+        source: "simplifyjobs",
+        sourceId: l.id,
+        company: l.company_name,
+        title: l.title,
+        location: l.locations?.filter(Boolean).join("; ") || null,
+        url: l.url,
+        postedAt: new Date(postedMs).toISOString(),
+        description: null,
+      });
+    }
+    await sleep(300);
+  }
+
+  if (!anyResolved) throw new Error("No SimplifyJobs feed resolved (all candidate repos/branches failed)");
+  return jobs;
+}
+
 export const ADAPTERS: Record<string, (portal: CompanyPortal) => Promise<RawJob[]>> = {
   greenhouse: scrapeGreenhouse,
   lever: scrapeLever,

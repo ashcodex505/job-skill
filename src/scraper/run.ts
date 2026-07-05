@@ -1,7 +1,7 @@
-import { eq, inArray, notInArray, and } from "drizzle-orm";
+import { eq, inArray, ne, notInArray, and } from "drizzle-orm";
 import { db, newId, now, tables } from "@/db";
 import { loadCareerConfig } from "@/lib/career/config";
-import { ADAPTERS, sleep } from "./adapters";
+import { ADAPTERS, scrapeSimplifyFeeds, sleep } from "./adapters";
 import { dedupeJobs, normalizeJob, type NormalizedJob } from "./normalize";
 import { COMPANY_PORTALS, type CompanyPortal } from "./registry";
 
@@ -12,6 +12,8 @@ export interface ScrapeSummary {
   companiesScanned: number;
   /** Companies whose adapter succeeded this run (absence ≠ closure otherwise). */
   scannedCompanies: string[];
+  /** Whole-feed sources that succeeded this run (e.g. "simplifyjobs"). */
+  scannedSources: string[];
   jobsFound: number;
   newJobs: number;
   errors: { company: string; message: string }[];
@@ -39,7 +41,9 @@ export async function syncCompanies(): Promise<Map<string, string>> {
   return byName;
 }
 
-export async function runScraper(options: { companies?: string[] } = {}): Promise<ScrapeSummary> {
+export async function runScraper(
+  options: { companies?: string[]; simplifyFeed?: boolean } = {},
+): Promise<ScrapeSummary> {
   const companyIds = await syncCompanies();
   const wanted = options.companies?.map((c) => c.toLowerCase());
   const portals = COMPANY_PORTALS.filter(
@@ -61,6 +65,9 @@ export async function runScraper(options: { companies?: string[] } = {}): Promis
   const errors: { company: string; message: string }[] = [];
   const allJobs: NormalizedJob[] = [];
   const scannedCompanies: string[] = [];
+  const scannedSources: string[] = [];
+  // The community feed joins full runs by default; partial --company runs opt in.
+  const includeFeed = options.simplifyFeed ?? !wanted;
 
   for (const portal of portals) {
     try {
@@ -77,6 +84,20 @@ export async function runScraper(options: { companies?: string[] } = {}): Promis
       console.warn(`  ${portal.name}: FAILED — ${message}`);
     }
     await sleep(COMPANY_DELAY_MS);
+  }
+
+  if (includeFeed) {
+    try {
+      const raw = await scrapeSimplifyFeeds();
+      const normalized = raw.map((job) => normalizeJob(job, careerConfig)).filter((j): j is NormalizedJob => j !== null);
+      allJobs.push(...normalized);
+      scannedSources.push("simplifyjobs");
+      console.log(`  SimplifyJobs feed: ${raw.length} recent listings, ${normalized.length} relevant`);
+    } catch (err) {
+      const message = err instanceof Error ? err.message : String(err);
+      errors.push({ company: "SimplifyJobs feed", message });
+      console.warn(`  SimplifyJobs feed: FAILED — ${message}`);
+    }
   }
 
   const jobs = dedupeJobs(allJobs);
@@ -130,18 +151,28 @@ export async function runScraper(options: { companies?: string[] } = {}): Promis
     }
   }
 
-  // Jobs from successfully scanned companies that were NOT seen this run are gone.
+  // Jobs from successfully scanned companies/feeds NOT seen this run are gone.
+  // Feed-sourced rows are owned by the feed, not the company, so a company
+  // scan never deactivates them (and vice versa).
+  const seenKeys = jobs.map((j) => j.dedupeKey);
+  const unseen = seenKeys.length > 0 ? notInArray(tables.discoveredJobs.dedupeKey, seenKeys) : undefined;
   if (scannedCompanies.length > 0) {
-    const seenKeys = jobs.map((j) => j.dedupeKey);
     await db
       .update(tables.discoveredJobs)
       .set({ active: false })
       .where(
         and(
           inArray(tables.discoveredJobs.company, scannedCompanies),
-          seenKeys.length > 0 ? notInArray(tables.discoveredJobs.dedupeKey, seenKeys) : undefined,
+          ne(tables.discoveredJobs.source, "simplifyjobs"),
+          unseen,
         ),
       );
+  }
+  if (scannedSources.includes("simplifyjobs")) {
+    await db
+      .update(tables.discoveredJobs)
+      .set({ active: false })
+      .where(and(eq(tables.discoveredJobs.source, "simplifyjobs"), unseen));
   }
 
   await db
@@ -160,6 +191,7 @@ export async function runScraper(options: { companies?: string[] } = {}): Promis
     runId,
     companiesScanned: scannedCompanies.length,
     scannedCompanies,
+    scannedSources,
     jobsFound: jobs.length,
     newJobs,
     errors,

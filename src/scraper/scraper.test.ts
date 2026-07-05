@@ -161,7 +161,15 @@ describe("normalize + dedupe", () => {
 
   it("keeps distinct jobs from different sources", () => {
     const a = normalizeJob(raw())!;
-    const b = normalizeJob(raw({ source: "lever", sourceId: "xyz", company: "Palantir" }))!;
+    const b = normalizeJob(raw({ source: "lever", sourceId: "xyz", company: "Palantir", url: "https://palantir.com/1" }))!;
     expect(dedupeJobs([a, b])).toHaveLength(2);
+  });
+
+  it("collapses cross-source URL duplicates, preferring the adapter over the feed", () => {
+    const adapterJob = normalizeJob(raw())!;
+    const feedCopy = normalizeJob(raw({ source: "simplifyjobs", sourceId: "uuid-9", url: "https://stripe.com/jobs/123/" }))!;
+    const result = dedupeJobs([feedCopy, adapterJob]);
+    expect(result).toHaveLength(1);
+    expect(result[0].source).toBe("greenhouse");
   });
 });
