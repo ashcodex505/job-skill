@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: job-board
@@ -45,4 +46,29 @@ jobs:
             git commit -m "chore: refresh job board (${{ steps.board.outputs.summary }}) [skip ci]"
             git pull --rebase origin main
             git push
+          fi
+      # Upsert one pinned "new job matches" issue so new roles trigger a
+      # GitHub notification. Skipped cleanly when the cycle found nothing.
+      - name: Update job-alert issue
+        if: steps.board.outputs.new_count != '0' && steps.board.outputs.new_count != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NEW_JOBS_FILE: ${{ runner.temp }}/new-jobs.md
+        run: |
+          [ -s "$NEW_JOBS_FILE" ] || { echo "No new-jobs file; skipping."; exit 0; }
+          TITLE="🆕 New job matches"
+          {
+            echo "**${{ steps.board.outputs.new_count }} new roles** found on $(date -u '+%Y-%m-%d %H:%M') UTC — full board in [JOBS.md](../blob/main/JOBS.md)."
+            echo
+            cat "$NEW_JOBS_FILE"
+          } > /tmp/issue-body.md
+          gh label create job-alert --color 1D76DB --description "Automated new-job notifications" 2>/dev/null || true
+          NUMBER=$(gh issue list --label job-alert --state open --json number --jq '.[0].number // empty')
+          if [ -n "$NUMBER" ]; then
+            gh issue edit "$NUMBER" --title "$TITLE" --body-file /tmp/issue-body.md
+          else
+            NUMBER=$(gh issue create --title "$TITLE" --label job-alert --body-file /tmp/issue-body.md | grep -o '[0-9]*$')
+            # Best-effort pin; requires GraphQL and may be denied — never fail the run.
+            ISSUE_ID=$(gh api "repos/${{ github.repository }}/issues/$NUMBER" --jq .node_id) && \
+              gh api graphql -f query="mutation { pinIssue(input: {issueId: \"$ISSUE_ID\"}) { issue { number } } }" || true
           fi

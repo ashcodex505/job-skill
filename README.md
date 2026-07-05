@@ -169,6 +169,12 @@ survive between runs. Run it on demand with `npm run board` locally or via
 the Actions tab (`workflow_dispatch`). The CI run uses a throwaway database —
 your local data and credentials are never involved.
 
+Each run also link-checks posting URLs (definitive 404/410s move to the
+board's "Recently closed" section), writes a run summary with the new-jobs
+table to the Actions page, and upserts a pinned **"🆕 New job matches"**
+issue (label `job-alert`) whenever a cycle finds new roles — watch the repo
+to get those as notifications.
+
 ## Tests & verification
 
 ```bash
@@ -190,30 +196,30 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-220-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-220-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--05-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1413-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-1413-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--05-informational)
 
-Updated **2026-07-05 06:47 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-07-05 06:56 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | First seen | Apply |
 |---|---|---|---|---|---|---|
-| Stripe | Software Engineer, Intern 🆕 | Sydney, Australia | — | 83% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532256) |
-| Stripe | Software Engineer, New Grad, Developer & End User Experience Platform 🆕 | Toronto | — | 83% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991718) |
-| Stripe | Backend Engineer/API, Payments and Risk 🆕 | Dublin, Ireland | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=4921361) |
-| Stripe | Backend Engineer, Payments and Risk 🆕 | US | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7232592) |
-| Stripe | Backend Engineer, Payments and Risk 🆕 | US | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6163230) |
-| Stripe | Frontend Engineer, Payments & Risk 🆕 | N/A | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7325252) |
-| Stripe | Fullstack Engineer, Internal Tools 🆕 | Dublin | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532806) |
-| Stripe | Software Engineer, Internal Systems 🆕 | Bengaluru, India | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7543868) |
-| Stripe | Internal Product Engineer, Developer Productivity AI 🆕 | Toronto, Canada | — | 52% (1 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7896151) |
-| Stripe | Fullstack Engineer, Privy 🆕 | NYC-Privy, US-Remote | — | 51% (4 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7091959) |
-| OpenAI | Software Engineer, Full Stack (People Innovation) 🆕 | Remote - US; San Francisco | — | 50% (3 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/d4780eac-03ad-4dae-861f-99af22b4287e) |
-| Stripe | Backend Engineer, Core Tech, Canada 🆕 | Toronto, CAN-Remote | — | 50% (3 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6567253) |
-| Stripe | Backend Engineer, Core Technology 🆕 | US-Remote, Chicago, Seattle, San Francisco | — | 50% (3 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6042172) |
-| Stripe | Backend Engineer, Payments Experiences 🆕 | N/A | — | 50% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7895287) |
-| Stripe | Software Engineer, Payments 🆕 | Singapore | — | 50% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7529787) |
-| OpenAI | Full-Stack SWE, Data Acquisition (Foundations) 🆕 | San Francisco | — | 49% (6 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/a886ff48-b8a1-4e28-b468-296713a5ad78) |
-| OpenAI | Software Engineer, Identity Infrastructure Engineering 🆕 | San Francisco; New York City; Seattle; Remote - US | — | 48% (2 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/551b0d0d-46c2-42fb-bb05-46e2fba8d4db) |
-| OpenAI | Manufacturing Test Engineer, AI Compute Infrastructure - Stargate 🆕 | Remote - US | — | 48% (2 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/8a950265-0527-48f8-be3c-2923d7d96940) |
-| OpenAI | Software Engineer, Infrastructure Security 🆕 | Remote - US; New York City; Seattle; San Francisco | — | 48% (2 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/98ad9beb-4f91-496c-bd16-ac0b2a8d5bb2) |
-| Stripe | Full Stack Engineer, Link 🆕 | Toronto, Remote in Canada | — | 48% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6447175) |
+| Anduril | 2027 Early Career Software Engineer 🆕 | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 New Grad | 100% (4 skills) | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
+| MongoDB | Software Engineering Internship - Summer 2026/2027 🆕 | Sydney | Summer 2026 | 100% (7 skills) | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7768470) |
+| Notion | Software Engineer Intern (Fall 2026) 🆕 | San Francisco, California | Fall 2026 | 100% (4 skills) | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
+| NVIDIA | Software Engineering Intern, JAX - Fall 2026 🆕 | US, CA, Santa Clara | Fall 2026 | 100% | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745) |
+| NVIDIA | PhD Software Engineering Intern, Decision Intelligence - Fall 2026 🆕 | US, CA, Santa Clara | Fall 2026 | 100% | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
+| NVIDIA | PhD Research Intern, System Software and I/O Architecture - Fall 2026 🆕 | 3 Locations | Fall 2026 | 100% | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667) |
+| SpaceX | Fall 2026 Software Engineering Internship/Co-op 🆕 | Flexible - Any SpaceX Site | Fall 2026 | 100% (4 skills) | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002) |
+| Anduril | 2026 Early Career Software Engineer 🆕 | Atlanta, Georgia, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Seattle, Washington, United States | 2026 New Grad | 96% (4 skills) | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4802146007?gh_jid=4802146007) |
+| Roblox | [2026] Senior Machine Learning Engineer, Recommendation Systems - PhD Early Career 🆕 | San Mateo, CA, United States | 2026 New Grad | 95% (3 skills) | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7350081?gh_jid=7350081) |
+| Roblox | [2026] Senior Machine Learning Engineer, Account Identity - PhD Early Career 🆕 | San Mateo, CA, United States | 2026 New Grad | 93% (2 skills) | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7473686?gh_jid=7473686) |
+| Roblox | [2026] Senior Machine Learning Engineer, Engine Optimization - PhD Early Career 🆕 | San Mateo, CA, United States | 2026 New Grad | 93% (2 skills) | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7421746?gh_jid=7421746) |
+| Roblox | [2026] Senior Machine Learning Engineer (Systems), Embodied AI/NPCs, ML Platform - PhD Early Career 🆕 | San Mateo, CA, United States | 2026 New Grad | 92% (1 skills) | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8027587?gh_jid=8027587) |
+| Roblox | [2026] Senior Machine Learning Engineer (Systems), Embodied AI/NPCs, ML Platform - PhD Early Career 🆕 | San Mateo, CA, United States | 2026 New Grad | 92% (1 skills) | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8027588?gh_jid=8027588) |
+| Adobe | 2026 University Graduate - Machine Learning Engineer 🆕 | Seattle | 2026 New Grad | 90% | 2026-07-05 | [**Apply ➜**](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Seattle/XMLNAME-2026-University-Graduate---Machine-Learning-Engineer_R160133) |
+| NVIDIA | System Software Engineering Intern, Systems Infrastructure - Summer 2026 🆕 | China, Shanghai | Summer 2026 | 90% | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/System-Software-Engineer-Intern--Systems-Infrastructure--Summer-2026_JR2006824) |
+| NVIDIA | Software Engineering Intern, Neural Reconstruction - Summer 2026 🆕 | China, Shanghai | Summer 2026 | 90% | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--Neural-Reconstruction---Summer-2026_JR2010555-1) |
+| Instacart | Machine Learning Engineer, PhD Intern (Fall) 🆕 | United States - Remote | — | 88% (2 skills) | 2026-07-05 | [**Apply ➜**](https://instacart.careers/job/?gh_jid=5917202) |
+| Notion | Software Engineer, New Grad 🆕 | San Francisco, California | — | 88% (5 skills) | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555) |
+| Anduril | 2027 Software Engineer Intern 🆕 | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | — | 86% (4 skills) | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
+| Jump Trading | Campus Trading Team Software Engineer (Intern) 🆕 | Hong Kong | — | 86% (4 skills) | 2026-07-05 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=7565728) |
 <!-- JOB-BOARD:END -->
