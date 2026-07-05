@@ -192,9 +192,12 @@ panel (which re-checks every 5 minutes while the app is open), gets a
 board, and [watch.yml](.github/workflows/watch.yml) — an **hourly** light
 scan of just your watched companies + the feed — files a new issue titled
 `🚨 URGENT: <company> — <role>` (label `urgent`), which GitHub pushes to your
-phone. Remember to commit & push `career/watchlist.md` after changing watches
-(the dashboard shows a banner when it's unpushed); GitHub cron is best-effort,
-so "hourly" can occasionally drift.
+phone. Adding or removing a watch **auto-commits and pushes**
+`career/watchlist.md` (pathspec-scoped commit, rebase-and-retry on rejection),
+so CI always has your latest watches with no manual git work — the dashboard
+shows a warning banner only if that sync fails. Note the push carries any
+other local commits on `main` along with it. GitHub cron is best-effort, so
+"hourly" can occasionally drift.
 
 ## Tests & verification
 

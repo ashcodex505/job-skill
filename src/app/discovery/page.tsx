@@ -26,6 +26,9 @@ export default function DiscoveryPage() {
   const [postApply, setPostApply] = useState<{ id: string; companyName: string; jobTitle: string } | null>(null);
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [descriptions, setDescriptions] = useState<Record<string, string>>({});
+  const [postedWithin, setPostedWithin] = useState(0); // days; 0 = any
+  const [sortKey, setSortKey] = useState<SortKey>("score");
+  const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
 
   const load = useCallback(() => {
     api<{ jobs: DiscoveredJob[]; lastRun: ScraperRun | null }>("/api/jobs")
@@ -92,10 +95,41 @@ export default function DiscoveryPage() {
         if (hideSaved && j.savedApplicationId) return false;
         if (j.score < minMatch) return false;
         if (q && !`${j.company} ${j.title} ${j.location ?? ""}`.toLowerCase().includes(q)) return false;
+        if (postedWithin > 0) {
+          const opened = new Date(j.postedAt ?? j.firstSeenAt).getTime();
+          if (Date.now() - opened > postedWithin * 86_400_000) return false;
+        }
         return true;
       })
-      .sort((a, b) => b.score - a.score || b.firstSeenAt.localeCompare(a.firstSeenAt));
-  }, [jobs, query, companyFilter, typeFilter, seasonFilter, sourceFilter, onlyNew, hideSaved, minMatch]);
+      .sort((a, b) => {
+        const val = (j: DiscoveredJob): string | number => {
+          switch (sortKey) {
+            case "score": return j.score;
+            case "postedAt": return j.postedAt ?? j.firstSeenAt;
+            case "firstSeenAt": return j.firstSeenAt;
+            case "company": return j.company.toLowerCase();
+            case "title": return j.title.toLowerCase();
+            case "roleType": return j.roleType;
+            case "season": return j.season ?? "";
+            case "location": return j.location ?? "";
+          }
+        };
+        const av = val(a);
+        const bv = val(b);
+        const cmp = typeof av === "number" ? av - (bv as number) : av.localeCompare(bv as string);
+        // Stable tiebreaker: score desc, then newest first.
+        return (sortDir === "asc" ? cmp : -cmp) || b.score - a.score || b.firstSeenAt.localeCompare(a.firstSeenAt);
+      });
+  }, [jobs, query, companyFilter, typeFilter, seasonFilter, sourceFilter, onlyNew, hideSaved, minMatch, postedWithin, sortKey, sortDir]);
+
+  function setSort(key: SortKey) {
+    if (sortKey === key) setSortDir((d) => (d === "asc" ? "desc" : "asc"));
+    else {
+      setSortKey(key);
+      // Text columns start ascending; dates/score start with best/newest first.
+      setSortDir(key === "company" || key === "title" || key === "roleType" || key === "season" || key === "location" ? "asc" : "desc");
+    }
+  }
 
   function matchTooltip(j: DiscoveredJob): string {
     const b = j.scoreBreakdown;
@@ -157,6 +191,13 @@ export default function DiscoveryPage() {
             <option key={s} value={s}>{s}</option>
           ))}
         </Select>
+        <Select value={String(postedWithin)} onChange={(e) => setPostedWithin(Number(e.target.value))} title="How recently the role was posted (opened)">
+          <option value="0">Opened anytime</option>
+          <option value="1">Opened ≤ 24h</option>
+          <option value="3">Opened ≤ 3 days</option>
+          <option value="7">Opened ≤ 7 days</option>
+          <option value="30">Opened ≤ 30 days</option>
+        </Select>
         <Select value={String(minMatch)} onChange={(e) => setMinMatch(Number(e.target.value))} title="Minimum match percentage">
           <option value="0">Any match</option>
           <option value="50">50%+ match</option>
@@ -198,15 +239,15 @@ export default function DiscoveryPage() {
           <table className="w-full text-left text-sm">
             <thead className="border-b border-border text-xs text-muted">
               <tr>
-                <th className="px-3 py-2 font-medium">Company</th>
-                <th className="px-3 py-2 font-medium">Role</th>
-                <th className="px-3 py-2 font-medium">Type</th>
-                <th className="px-3 py-2 font-medium">Season</th>
-                <th className="px-3 py-2 font-medium">Location</th>
-                <th className="px-3 py-2 font-medium">Match</th>
-                <th className="px-3 py-2 font-medium">Posted</th>
-                <th className="px-3 py-2 font-medium">Found</th>
-                <th className="px-3 py-2 font-medium">Actions</th>
+                <Th label="Company" k="company" sortKey={sortKey} sortDir={sortDir} onSort={setSort} />
+                <Th label="Role" k="title" sortKey={sortKey} sortDir={sortDir} onSort={setSort} />
+                <Th label="Type" k="roleType" sortKey={sortKey} sortDir={sortDir} onSort={setSort} />
+                <Th label="Season" k="season" sortKey={sortKey} sortDir={sortDir} onSort={setSort} />
+                <Th label="Location" k="location" sortKey={sortKey} sortDir={sortDir} onSort={setSort} />
+                <Th label="Match" k="score" sortKey={sortKey} sortDir={sortDir} onSort={setSort} />
+                <Th label="Posted" k="postedAt" sortKey={sortKey} sortDir={sortDir} onSort={setSort} />
+                <Th label="First seen" k="firstSeenAt" sortKey={sortKey} sortDir={sortDir} onSort={setSort} />
+                <th className="px-3 py-2 font-medium">Apply / Track</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
@@ -306,5 +347,21 @@ export default function DiscoveryPage() {
         />
       ) : null}
     </div>
+  );
+}
+
+type SortKey = "company" | "title" | "roleType" | "season" | "location" | "score" | "postedAt" | "firstSeenAt";
+
+function Th({ label, k, sortKey, sortDir, onSort }: { label: string; k: SortKey; sortKey: SortKey; sortDir: "asc" | "desc"; onSort: (k: SortKey) => void }) {
+  const active = sortKey === k;
+  return (
+    <th
+      className="cursor-pointer select-none whitespace-nowrap px-3 py-2 font-medium hover:text-foreground"
+      onClick={() => onSort(k)}
+      title={`Sort by ${label}`}
+    >
+      {label}
+      <span className={active ? "ml-1" : "ml-1 opacity-25"}>{active ? (sortDir === "asc" ? "↑" : "↓") : "↕"}</span>
+    </th>
   );
 }
