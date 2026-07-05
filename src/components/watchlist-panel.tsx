@@ -15,6 +15,7 @@ interface WatchlistState {
   watches: Watch[];
   companies: string[];
   dirty: boolean;
+  syncError?: string | null;
 }
 
 /**
@@ -82,13 +83,17 @@ export function WatchlistPanel() {
       <div className="mb-2 flex items-center justify-between">
         <h2 className="flex items-center gap-2 text-sm font-semibold">
           <BellRing size={15} className="text-accent" /> Watchlist
-          <span className="text-xs font-normal to-muted text-muted">roles you want the moment they open · checks every 5 min while open, hourly via CI</span>
+          <span className="text-xs font-normal text-muted">roles you want the moment they open · checks every 5 min while open, hourly via CI · auto-syncs to GitHub</span>
         </h2>
       </div>
 
-      {state.dirty ? (
+      {state.syncError ? (
         <p className="mb-2 flex items-center gap-1.5 rounded-md border border-amber-300 bg-amber-50 p-2 text-xs text-amber-700 dark:bg-amber-950/30">
-          <AlertTriangle size={13} /> Watchlist changed locally — commit &amp; push career/watchlist.md so hourly CI alerts use it.
+          <AlertTriangle size={13} /> {state.syncError}
+        </p>
+      ) : state.dirty ? (
+        <p className="mb-2 flex items-center gap-1.5 rounded-md border border-amber-300 bg-amber-50 p-2 text-xs text-amber-700 dark:bg-amber-950/30">
+          <AlertTriangle size={13} /> Watchlist not yet on GitHub — add/remove any watch to auto-sync, or commit &amp; push career/watchlist.md manually.
         </p>
       ) : null}
 

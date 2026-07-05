@@ -13,8 +13,12 @@ export const GET = handler(async () => {
   // "New" = first seen during the most recent completed run window.
   const newSince = lastRun?.startedAt ?? null;
   return ok({
-    jobs: jobs.map((j) => ({
+    // Descriptions are up to 10k chars × thousands of jobs (a >10 MB payload
+    // the dashboard polls every 5 min) — send a flag; fetch text on demand
+    // via /api/jobs/[id]/description.
+    jobs: jobs.map(({ description, ...j }) => ({
       ...j,
+      hasDescription: Boolean(description),
       matchedSkills: parseTags(j.matchedSkills),
       scoreBreakdown: j.scoreBreakdown ? JSON.parse(j.scoreBreakdown) : null,
       isNew: newSince !== null && j.firstSeenAt >= newSince,

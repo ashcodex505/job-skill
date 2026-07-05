@@ -9,3 +9,4 @@ the hourly CI watch run reads the committed copy of this file.
 
 ## Watches
 
+- Airbnb — new-grad and intern 2027

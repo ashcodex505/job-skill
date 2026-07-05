@@ -90,7 +90,8 @@ export interface DiscoveredJob {
     keywords: number;
     skills: number;
   } | null;
-  description: string | null;
+  /** Description text is fetched on demand from /api/jobs/[id]/description. */
+  hasDescription: boolean;
   postedAt: string | null;
   firstSeenAt: string;
   lastSeenAt: string;

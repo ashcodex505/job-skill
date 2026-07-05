@@ -28,7 +28,7 @@ function writeWatches(watches: Watch[]): void {
   fs.renameSync(tmp, FILE);
 }
 
-/** Uncommitted local changes mean hourly CI alerts run on a stale watchlist. */
+/** Uncommitted/unpushed changes mean hourly CI alerts run on a stale watchlist. */
 async function isDirty(): Promise<boolean> {
   try {
     const { stdout } = await execFileAsync("git", ["status", "--porcelain", "--", FILE], {
@@ -41,11 +41,42 @@ async function isDirty(): Promise<boolean> {
   }
 }
 
-async function state() {
+/**
+ * Auto-sync: commit just the watchlist file and push, so the hourly CI run
+ * always sees the latest watches without manual git work. Pathspec-scoped
+ * commit leaves any other local changes untouched; a rejected push retries
+ * once after rebasing on the CI's board commits. Failures are non-fatal —
+ * the dashboard banner remains as the manual fallback. Note: `git push`
+ * pushes the whole branch, so any local commits you made ride along.
+ */
+async function gitSync(): Promise<string | null> {
+  const git = (args: string[]) => execFileAsync("git", args, { cwd: process.cwd(), timeout: 60_000 });
+  try {
+    await git(["add", "--", FILE]);
+    try {
+      await git(["commit", "-m", "chore: update watchlist from dashboard [skip ci]", "--", FILE]);
+    } catch {
+      return null; // nothing to commit — already in sync
+    }
+    try {
+      await git(["push"]);
+    } catch {
+      await git(["pull", "--rebase", "--autostash", "origin", "main"]);
+      await git(["push"]);
+    }
+    return null;
+  } catch (err) {
+    const detail = err instanceof Error ? err.message.split("\n")[0] : String(err);
+    return `Auto-sync to GitHub failed (${detail}) — commit & push career/watchlist.md manually.`;
+  }
+}
+
+async function state(syncError: string | null = null) {
   return ok({
     watches: readWatches(),
     companies: [...COMPANY_PORTALS.map((p) => p.name)].sort(),
     dirty: await isDirty(),
+    syncError,
   });
 }
 
@@ -61,7 +92,7 @@ export const POST = handler(async (req: Request) => {
   const watches = readWatches();
   if (watches.some((w) => watchEquals(w, watch))) return badRequest("That watch already exists");
   writeWatches([...watches, watch]);
-  return state();
+  return state(await gitSync());
 });
 
 export const DELETE = handler(async (req: Request) => {
@@ -70,5 +101,5 @@ export const DELETE = handler(async (req: Request) => {
   const remaining = watches.filter((w) => !watchEquals(w, watch));
   if (remaining.length === watches.length) return badRequest("Watch not found");
   writeWatches(remaining);
-  return state();
+  return state(await gitSync());
 });

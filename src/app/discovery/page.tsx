@@ -25,6 +25,7 @@ export default function DiscoveryPage() {
   const [savingId, setSavingId] = useState<string | null>(null);
   const [postApply, setPostApply] = useState<{ id: string; companyName: string; jobTitle: string } | null>(null);
   const [expandedId, setExpandedId] = useState<string | null>(null);
+  const [descriptions, setDescriptions] = useState<Record<string, string>>({});
 
   const load = useCallback(() => {
     api<{ jobs: DiscoveredJob[]; lastRun: ScraperRun | null }>("/api/jobs")
@@ -220,10 +221,18 @@ export default function DiscoveryPage() {
                   </td>
                   <td className="max-w-72 px-3 py-2">
                     <span className="flex items-center gap-1">
-                      {j.description ? (
+                      {j.hasDescription ? (
                         <button
                           className="shrink-0 cursor-pointer text-muted/60 hover:text-foreground"
-                          onClick={() => setExpandedId(expandedId === j.id ? null : j.id)}
+                          onClick={() => {
+                            const next = expandedId === j.id ? null : j.id;
+                            setExpandedId(next);
+                            if (next && descriptions[j.id] === undefined) {
+                              api<{ description: string | null }>(`/api/jobs/${j.id}/description`)
+                                .then((d) => setDescriptions((prev) => ({ ...prev, [j.id]: d.description ?? "" })))
+                                .catch(() => {});
+                            }
+                          }}
                           title="Show job description"
                           aria-label="Toggle job description"
                         >
@@ -271,10 +280,12 @@ export default function DiscoveryPage() {
                     )}
                   </td>
                 </tr>
-                {expandedId === j.id && j.description ? (
+                {expandedId === j.id && j.hasDescription ? (
                   <tr className="bg-accent-soft/20">
                     <td colSpan={9} className="px-6 py-3">
-                      <p className="max-h-56 overflow-y-auto whitespace-pre-wrap text-xs leading-relaxed text-muted">{j.description}</p>
+                      <p className="max-h-56 overflow-y-auto whitespace-pre-wrap text-xs leading-relaxed text-muted">
+                        {descriptions[j.id] === undefined ? "Loading…" : descriptions[j.id] || "No description available."}
+                      </p>
                     </td>
                   </tr>
                 ) : null}
