@@ -10,10 +10,10 @@ Summer 2027 internship postings straight from company ATS APIs.
   with a full status timeline, quick status updates, linked resume
   preview/download, and per-application credentials with reveal/copy.
 - **Job Discovery** — a built-in scraper pulls SWE early-career roles from
-  25+ companies (Stripe, OpenAI, Anthropic, NVIDIA, Palantir, Databricks, …)
-  via official Greenhouse/Lever/Ashby/Workday APIs, scores them for a
-  Summer-2027-intern / 2027-new-grad search, and one click saves a role into
-  the tracker.
+  45+ companies (Stripe, OpenAI, Anthropic, NVIDIA, Salesforce, Adobe,
+  DoorDash, Datadog, …) via official Greenhouse/Lever/Ashby/Workday/
+  SmartRecruiters/Workable APIs, scores them against your profile and target
+  seasons, and one click saves a role into the tracker.
 - **Resumes** — versioned library with PDF upload, preview, tags, archive;
   every application records exactly which version you submitted.
 - **Encrypted credentials** — AES-256-GCM, key in the macOS Keychain (or a
@@ -54,7 +54,8 @@ That's it — no env file needed. Optional configuration: `cp .env.example .env.
 | `npm run scrape` | run the job scraper (all companies) |
 | `npm run scrape -- --company Stripe --company OpenAI` | scrape specific companies |
 | `npm run scrape -- --json out/jobs.json` | also export normalized jobs as JSON |
-| `npm run board` | scrape + regenerate JOBS.md and the README job board |
+| `npm run board` | scrape + regenerate JOBS.md and the README job board (`--no-linkcheck` to skip URL probing) |
+| `npm run scrape:check` | slug doctor: verify every registry portal responds and count postings |
 | `npm test` | unit tests (encryption, scraper classification/dedupe, status logic) |
 | `npm run db:migrate` / `db:generate` / `db:seed` | drizzle migrations / codegen / seed |
 | `npm run app:build` | package the Mac app into `dist/` |

@@ -3,7 +3,7 @@ import { skillMatch, stripHtml, type CareerConfig } from "@/lib/career/config";
 import { classifyTitle, type Classification, type ScoreBreakdown } from "./classify";
 
 export interface RawJob {
-  source: "greenhouse" | "lever" | "ashby" | "workday";
+  source: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable";
   sourceId: string | null;
   company: string;
   title: string;

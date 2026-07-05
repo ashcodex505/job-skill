@@ -106,6 +106,74 @@ async function scrapeAshby(portal: CompanyPortal): Promise<RawJob[]> {
   }));
 }
 
+// ── SmartRecruiters (official public postings API) ────────────────────
+interface SmartRecruitersPosting {
+  id: string;
+  name: string;
+  releasedDate?: string;
+  location?: { city?: string; region?: string; country?: string; remote?: boolean };
+  company?: { identifier?: string };
+}
+
+async function scrapeSmartRecruiters(portal: CompanyPortal): Promise<RawJob[]> {
+  const jobs: RawJob[] = [];
+  const limit = 100;
+  // Capped at 5 pages (500 postings) to stay polite on giant boards.
+  for (let offset = 0; offset < 500; offset += limit) {
+    const data = await fetchJson<{ totalFound: number; content: SmartRecruitersPosting[] }>(
+      `https://api.smartrecruiters.com/v1/companies/${portal.slug}/postings?limit=${limit}&offset=${offset}`,
+    );
+    const page = data.content ?? [];
+    for (const p of page) {
+      const locationParts = [p.location?.city, p.location?.region, p.location?.country].filter(Boolean);
+      jobs.push({
+        source: "smartrecruiters",
+        sourceId: p.id,
+        company: portal.name,
+        title: p.name,
+        location: p.location?.remote ? `Remote${locationParts.length ? ` (${locationParts.join(", ")})` : ""}` : locationParts.join(", ") || null,
+        url: `https://jobs.smartrecruiters.com/${p.company?.identifier ?? portal.slug}/${p.id}`,
+        postedAt: p.releasedDate ?? null,
+        description: null, // list API has no JD; per-posting fetches would be 100s of extra requests
+      });
+    }
+    if (page.length < limit || offset + limit >= data.totalFound) break;
+    await sleep(300);
+  }
+  return jobs;
+}
+
+// ── Workable (official public widget API) ─────────────────────────────
+interface WorkableJob {
+  title: string;
+  shortcode: string;
+  url: string;
+  published_on?: string;
+  telecommuting?: boolean;
+  city?: string;
+  state?: string;
+  country?: string;
+}
+
+async function scrapeWorkable(portal: CompanyPortal): Promise<RawJob[]> {
+  const data = await fetchJson<{ jobs: WorkableJob[] }>(
+    `https://apply.workable.com/api/v1/widget/accounts/${portal.slug}`,
+  );
+  return (data.jobs ?? []).map((j) => {
+    const locationParts = [j.city, j.state, j.country].filter(Boolean);
+    return {
+      source: "workable" as const,
+      sourceId: j.shortcode,
+      company: portal.name,
+      title: j.title,
+      location: j.telecommuting ? `Remote${locationParts.length ? ` (${locationParts.join(", ")})` : ""}` : locationParts.join(", ") || null,
+      url: j.url,
+      postedAt: j.published_on ?? null,
+      description: null,
+    };
+  });
+}
+
 // ── Workday (career-site JSON endpoint) ───────────────────────────────
 interface WorkdayJob {
   title: string;
@@ -158,4 +226,6 @@ export const ADAPTERS: Record<string, (portal: CompanyPortal) => Promise<RawJob[
   lever: scrapeLever,
   ashby: scrapeAshby,
   workday: scrapeWorkday,
+  smartrecruiters: scrapeSmartRecruiters,
+  workable: scrapeWorkable,
 };

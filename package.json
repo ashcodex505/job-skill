@@ -13,7 +13,8 @@
     "db:seed": "tsx src/db/seed.ts",
     "scrape": "tsx src/scraper/cli.ts",
     "app:build": "./scripts/build-mac-app.sh",
-    "board": "tsx src/scraper/board-cli.ts"
+    "board": "tsx src/scraper/board-cli.ts",
+    "scrape:check": "tsx src/scraper/check-cli.ts"
   },
   "dependencies": {
     "@libsql/client": "^0.17.4",
