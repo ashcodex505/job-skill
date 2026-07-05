@@ -4,6 +4,7 @@ import { AlertTriangle, ArrowRight, Radar } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { StatusBadge } from "@/components/status";
+import { WatchlistPanel } from "@/components/watchlist-panel";
 import { Card, EmptyState, Spinner, cn } from "@/components/ui";
 import { api, formatDate, formatDateTime, relativeDays } from "@/lib/client";
 import { STATUS_LABELS } from "@/lib/types";
@@ -79,6 +80,8 @@ export default function DashboardPage() {
           <ArrowRight size={12} />
         </Link>
       </div>
+
+      <WatchlistPanel />
 
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
         {stats.map((s) => (
