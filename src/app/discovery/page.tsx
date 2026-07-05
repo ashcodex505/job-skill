@@ -3,6 +3,7 @@
 import { BookmarkPlus, CheckCircle2, ExternalLink, Radar, RefreshCw, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { PostApplyModal } from "@/components/applications/post-apply-modal";
 import { Badge, Button, Card, EmptyState, Input, Select, Spinner, cn } from "@/components/ui";
 import { api, formatDate, formatDateTime } from "@/lib/client";
 import type { DiscoveredJob, ScraperRun } from "@/lib/app-types";
@@ -19,7 +20,10 @@ export default function DiscoveryPage() {
   const [seasonFilter, setSeasonFilter] = useState("");
   const [sourceFilter, setSourceFilter] = useState("");
   const [onlyNew, setOnlyNew] = useState(false);
+  const [hideSaved, setHideSaved] = useState(false);
+  const [minMatch, setMinMatch] = useState(0);
   const [savingId, setSavingId] = useState<string | null>(null);
+  const [postApply, setPostApply] = useState<{ id: string; companyName: string; jobTitle: string } | null>(null);
 
   const load = useCallback(() => {
     api<{ jobs: DiscoveredJob[]; lastRun: ScraperRun | null }>("/api/jobs")
@@ -54,8 +58,13 @@ export default function DiscoveryPage() {
   async function save(job: DiscoveredJob, markApplied: boolean) {
     setSavingId(job.id);
     try {
-      await api(`/api/jobs/${job.id}/save`, { method: "POST", body: JSON.stringify({ markApplied }) });
+      const app = await api<{ id: string; companyName: string; jobTitle: string }>(`/api/jobs/${job.id}/save`, {
+        method: "POST",
+        body: JSON.stringify({ markApplied }),
+      });
       load();
+      // Just applied → prompt for the resume version + login used, while fresh.
+      if (markApplied) setPostApply({ id: app.id, companyName: app.companyName, jobTitle: app.jobTitle });
     } catch (e) {
       setError((e as Error).message);
     } finally {
@@ -78,11 +87,13 @@ export default function DiscoveryPage() {
         if (seasonFilter && j.season !== seasonFilter) return false;
         if (sourceFilter && j.source !== sourceFilter) return false;
         if (onlyNew && !j.isNew) return false;
+        if (hideSaved && j.savedApplicationId) return false;
+        if (j.score < minMatch) return false;
         if (q && !`${j.company} ${j.title} ${j.location ?? ""}`.toLowerCase().includes(q)) return false;
         return true;
       })
       .sort((a, b) => b.score - a.score || b.firstSeenAt.localeCompare(a.firstSeenAt));
-  }, [jobs, query, companyFilter, typeFilter, seasonFilter, sourceFilter, onlyNew]);
+  }, [jobs, query, companyFilter, typeFilter, seasonFilter, sourceFilter, onlyNew, hideSaved, minMatch]);
 
   return (
     <div className="space-y-4">
@@ -130,6 +141,12 @@ export default function DiscoveryPage() {
             <option key={s} value={s}>{s}</option>
           ))}
         </Select>
+        <Select value={String(minMatch)} onChange={(e) => setMinMatch(Number(e.target.value))} title="Minimum match percentage">
+          <option value="0">Any match</option>
+          <option value="50">50%+ match</option>
+          <option value="70">70%+ match</option>
+          <option value="85">85%+ match</option>
+        </Select>
         <button
           className={cn(
             "flex cursor-pointer items-center gap-1 rounded-md border px-2.5 py-1.5 text-xs",
@@ -138,6 +155,15 @@ export default function DiscoveryPage() {
           onClick={() => setOnlyNew((v) => !v)}
         >
           <Sparkles size={12} /> New since last scrape
+        </button>
+        <button
+          className={cn(
+            "flex cursor-pointer items-center gap-1 rounded-md border px-2.5 py-1.5 text-xs",
+            hideSaved ? "border-accent bg-accent-soft font-medium text-accent" : "border-border text-muted",
+          )}
+          onClick={() => setHideSaved((v) => !v)}
+        >
+          Hide saved
         </button>
         {jobs ? <span className="ml-auto text-xs text-muted">{filtered.length} roles</span> : null}
       </div>
@@ -215,6 +241,16 @@ export default function DiscoveryPage() {
           </table>
         </Card>
       )}
+
+      {postApply ? (
+        <PostApplyModal
+          applicationId={postApply.id}
+          companyName={postApply.companyName}
+          jobTitle={postApply.jobTitle}
+          onClose={() => setPostApply(null)}
+          onDone={load}
+        />
+      ) : null}
     </div>
   );
 }

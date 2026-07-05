@@ -14,13 +14,14 @@ reads.
 - Platform Engineer
 - Web Developer
 - Applications Engineer
+- Payments Engineer
 
 ## Seasons
 
-- Summer 2027
+- 2027 New Grad
 - Fall 2026
 - Spring 2027
-- 2027 New Grad
+- Summer 2027
 
 ## Preferred locations
 
@@ -33,10 +34,15 @@ reads.
 
 ## Positive title keywords
 
+- Intern
+- Internship
 - Co-op
+- New Grad
 - Student
 - Early Career
 - University Grad
+- Payments
+- Fintech
 
 ## Negative title keywords
 

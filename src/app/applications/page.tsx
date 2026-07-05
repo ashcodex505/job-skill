@@ -38,6 +38,8 @@ function ApplicationsInner() {
   const [formOpen, setFormOpen] = useState(false);
   const [importOpen, setImportOpen] = useState(false);
   const [editing, setEditing] = useState<ApplicationRow | null>(null);
+  // Bumped after edits so an open drawer remounts with fresh data.
+  const [drawerTick, setDrawerTick] = useState(0);
   const openId = search.get("open");
 
   const load = useCallback(() => {
@@ -224,12 +226,15 @@ function ApplicationsInner() {
           key={editing?.id ?? "new"}
           onClose={() => setFormOpen(false)}
           application={editing}
-          onSaved={() => load()}
+          onSaved={() => {
+            load();
+            setDrawerTick((t) => t + 1);
+          }}
         />
       ) : null}
       {openId ? (
         <AppDrawer
-          key={openId}
+          key={`${openId}:${drawerTick}`}
           applicationId={openId}
           onClose={() => openDetail(null)}
           onChanged={load}

@@ -1,9 +1,10 @@
 "use client";
 
-import { Download, ExternalLink, FileText, Pencil, Trash2, X } from "lucide-react";
+import { Download, ExternalLink, FilePlus2, FileText, Pencil, Trash2, X } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 import { StatusBadge, StatusSelect } from "@/components/status";
 import { Badge, Button, Drawer, Input, Spinner } from "@/components/ui";
+import { PostApplyModal } from "./post-apply-modal";
 import { api, formatDate, formatDateTime } from "@/lib/client";
 import type { ApplicationDetail } from "@/lib/app-types";
 import { JOB_TYPE_LABELS, STATUS_LABELS, type ApplicationStatus, type JobType } from "@/lib/types";
@@ -23,6 +24,7 @@ export function AppDrawer({ applicationId, onClose, onChanged, onEdit, onDeleted
   const [statusNote, setStatusNote] = useState("");
   const [pendingStatus, setPendingStatus] = useState<ApplicationStatus | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [attachOpen, setAttachOpen] = useState(false);
 
   const load = useCallback(() => {
     api<ApplicationDetail>(`/api/applications/${applicationId}`)
@@ -124,6 +126,19 @@ export function AppDrawer({ applicationId, onClose, onChanged, onEdit, onDeleted
               ) : null}
             </section>
 
+            {/* Resume missing on a submitted application → nudge to attach it */}
+            {!detail.resume && detail.status !== "interested" ? (
+              <section className="flex items-center gap-3 rounded-md border border-dashed border-amber-400/60 bg-amber-50/50 p-3 dark:bg-amber-950/20">
+                <FilePlus2 size={16} className="shrink-0 text-amber-500" />
+                <p className="flex-1 text-xs text-muted">
+                  No resume linked — which version did you apply with?
+                </p>
+                <Button size="sm" variant="primary" onClick={() => setAttachOpen(true)}>
+                  Attach resume
+                </Button>
+              </section>
+            ) : null}
+
             {/* Resume */}
             {detail.resume ? (
               <section className="flex items-center gap-3 rounded-md border border-border p-3">
@@ -195,6 +210,20 @@ export function AppDrawer({ applicationId, onClose, onChanged, onEdit, onDeleted
               </ol>
             </section>
           </div>
+
+          {attachOpen ? (
+            <PostApplyModal
+              applicationId={detail.id}
+              companyName={detail.companyName}
+              jobTitle={detail.jobTitle}
+              hasCredential={Boolean(detail.credential)}
+              onClose={() => setAttachOpen(false)}
+              onDone={() => {
+                load();
+                onChanged();
+              }}
+            />
+          ) : null}
         </div>
       )}
     </Drawer>

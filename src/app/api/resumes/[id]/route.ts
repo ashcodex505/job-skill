@@ -36,7 +36,12 @@ export const PATCH = handler(async (req: Request, { params }: Ctx) => {
       })
       .where(eq(tables.resumes.id, id));
   } else {
-    const input = resumeInput.partial().parse(await req.json());
+    const raw = (await req.json()) as Record<string, unknown>;
+    const parsed = resumeInput.partial().parse(raw);
+    // zod .partial() still injects .default() values — keep only sent keys.
+    const input = Object.fromEntries(
+      Object.entries(parsed).filter(([key]) => key in raw),
+    ) as typeof parsed;
     const { tags, ...rest } = input;
     await db
       .update(tables.resumes)

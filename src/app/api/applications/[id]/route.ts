@@ -39,7 +39,13 @@ export const PATCH = handler(async (req: Request, { params }: Ctx) => {
   const existing = await db.query.applications.findFirst({ where: eq(tables.applications.id, id) });
   if (!existing) return notFound("Application not found");
 
-  const input = applicationInput.partial().parse(await req.json());
+  const raw = (await req.json()) as Record<string, unknown>;
+  const parsed = applicationInput.partial().parse(raw);
+  // zod .partial() still injects .default() values — keep only keys the
+  // client actually sent, or a partial PATCH would reset other fields.
+  const input = Object.fromEntries(
+    Object.entries(parsed).filter(([key]) => key in raw),
+  ) as typeof parsed;
   // Status changes must go through /status so the timeline stays consistent.
   const { tags, status, ...rest } = input;
   void status;
@@ -58,6 +64,11 @@ export const PATCH = handler(async (req: Request, { params }: Ctx) => {
 
 export const DELETE = handler(async (_req: Request, { params }: Ctx) => {
   const { id } = await params;
+  // Unlink from Job Discovery so the posting can be saved again.
+  await db
+    .update(tables.discoveredJobs)
+    .set({ savedApplicationId: null })
+    .where(eq(tables.discoveredJobs.savedApplicationId, id));
   // status_events and credentials cascade via FK.
   await db.delete(tables.applications).where(eq(tables.applications.id, id));
   return ok({ deleted: true });
