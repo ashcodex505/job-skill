@@ -1,0 +1,50 @@
+# Monthly slug doctor: catches registry rot (companies renaming/moving their
+# ATS boards, like Vercel Ashby→Greenhouse or Two Sigma leaving Greenhouse)
+# before it silently costs scrape cycles. Files a maintenance issue with the
+# full table when any portal fails.
+name: Registry check
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "13 6 1 * *" # 06:13 UTC on the 1st of each month
+
+permissions:
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Run slug doctor
+        id: doctor
+        run: |
+          set +e
+          npm run scrape:check | tee /tmp/check.txt
+          echo "failed=$?" >> "$GITHUB_OUTPUT"
+      - name: File maintenance issue on failures
+        if: steps.doctor.outputs.failed != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create maintenance --color FBCA04 --description "Scraper registry needs attention" 2>/dev/null || true
+          {
+            echo "The monthly registry check found failing portals — a company likely moved or renamed its job board. Run \`npm run scrape:check\` locally and fix \`src/scraper/registry.ts\`."
+            echo
+            echo '```'
+            cat /tmp/check.txt
+            echo '```'
+          } > /tmp/issue.md
+          NUMBER=$(gh issue list --label maintenance --state open --json number --jq '.[0].number // empty')
+          if [ -n "$NUMBER" ]; then
+            gh issue comment "$NUMBER" --body-file /tmp/issue.md
+          else
+            gh issue create --title "🔧 Registry check: failing portals" --label maintenance --body-file /tmp/issue.md
+          fi
