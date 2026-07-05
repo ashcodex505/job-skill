@@ -65,7 +65,9 @@ jobs:
           gh label create job-alert --color 1D76DB --description "Automated new-job notifications" 2>/dev/null || true
           NUMBER=$(gh issue list --label job-alert --state open --json number --jq '.[0].number // empty')
           if [ -n "$NUMBER" ]; then
+            # Body edits don't notify — the comment is what pings phones.
             gh issue edit "$NUMBER" --title "$TITLE" --body-file /tmp/issue-body.md
+            gh issue comment "$NUMBER" --body-file /tmp/issue-body.md
           else
             NUMBER=$(gh issue create --title "$TITLE" --label job-alert --body-file /tmp/issue-body.md | grep -o '[0-9]*$')
             # Best-effort pin; requires GraphQL and may be denied — never fail the run.
