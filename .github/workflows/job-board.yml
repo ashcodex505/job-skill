@@ -35,6 +35,7 @@ jobs:
         env:
           DATABASE_PATH: /tmp/scrape.db
           BOARD_NEW_JOBS_FILE: ${{ runner.temp }}/new-jobs.md
+          BOARD_URGENT_FILE: ${{ runner.temp }}/urgent.md
       - name: Commit board updates
         run: |
           git config user.name "github-actions[bot]"
@@ -47,6 +48,18 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+      - name: Urgent watchlist alert
+        if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          URGENT_FILE: ${{ runner.temp }}/urgent.md
+        run: |
+          [ -s "$URGENT_FILE" ] || exit 0
+          gh label create urgent --color B60205 --description "Watchlist match — apply now" 2>/dev/null || true
+          gh issue create \
+            --title "🚨 URGENT: ${{ steps.board.outputs.urgent_title }}" \
+            --label urgent \
+            --body-file "$URGENT_FILE"
       # Upsert one pinned "new job matches" issue so new roles trigger a
       # GitHub notification. Skipped cleanly when the cycle found nothing.
       - name: Update job-alert issue

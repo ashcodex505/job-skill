@@ -2,11 +2,14 @@ import fs from "node:fs";
 import path from "node:path";
 import { migrate } from "drizzle-orm/libsql/migrator";
 import { db } from "@/db";
+import { matchWatches, parseWatchlist } from "@/lib/career/watchlist";
 import { closeJobs, mergeBoard, renderJobsMarkdown, updateReadme, type BoardData, type BoardJob } from "./board";
+import { COMPANY_PORTALS } from "./registry";
 import { runScraper } from "./run";
 
 /**
- * `npm run board [-- --company Stripe] [--no-linkcheck]` — scrape, then
+ * `npm run board [-- --company Stripe] [--no-linkcheck] [--watch]` — scrape,
+ * then
  * regenerate the committed job board: board/jobs.json (state), JOBS.md
  * (full board), and the marker-delimited section in README.md. Used locally
  * and by the 12h GitHub Action, which also consumes the summary outputs
@@ -64,19 +67,42 @@ function writeIfEnv(envVar: string, content: string, append: boolean): void {
   else fs.writeFileSync(file, content);
 }
 
+function loadWatches() {
+  try {
+    return parseWatchlist(fs.readFileSync(path.join(ROOT, "career", "watchlist.md"), "utf8"));
+  } catch {
+    return [];
+  }
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const companies: string[] = [];
+  const watchMode = args.includes("--watch");
   let linkcheck = !args.includes("--no-linkcheck");
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--company" && args[i + 1]) companies.push(args[++i]);
   }
+
+  const watches = loadWatches();
+  if (watchMode) {
+    // Lightweight hourly mode: only watchlisted supported companies + the
+    // SimplifyJobs feed (which covers unsupported companies like Google).
+    const watched = new Set(watches.map((w) => w.company.toLowerCase()));
+    for (const portal of COMPANY_PORTALS) {
+      if (portal.ats !== "unsupported" && watched.has(portal.name.toLowerCase())) companies.push(portal.name);
+    }
+    linkcheck = false;
+    console.log(`Watch mode: ${watches.length} watches → scraping ${companies.length} supported companies + SimplifyJobs feed`);
+  }
   // Partial runs skip the link check — it would probe companies we didn't scrape.
-  if (companies.length > 0) linkcheck = false;
+  if (!watchMode && companies.length > 0) linkcheck = false;
 
   await migrate(db, { migrationsFolder: "./drizzle" });
-  console.log(`Scraping${companies.length ? ` (${companies.join(", ")})` : ""}...`);
-  const summary = await runScraper(companies.length > 0 ? { companies } : {});
+  console.log(`Scraping${companies.length ? ` (${companies.join(", ") || "feed only"})` : ""}...`);
+  const summary = await runScraper(
+    watchMode ? { companies, simplifyFeed: true } : companies.length > 0 ? { companies } : {},
+  );
 
   let previous: BoardData | null = null;
   try {
@@ -98,14 +124,16 @@ async function main() {
     board = closeJobs(board, dead, now);
   }
 
-  fs.mkdirSync(path.dirname(STATE_FILE), { recursive: true });
-  fs.writeFileSync(STATE_FILE, JSON.stringify(board, null, 1));
-  fs.writeFileSync(JOBS_MD, renderJobsMarkdown(board));
-  fs.writeFileSync(README_MD, updateReadme(fs.readFileSync(README_MD, "utf8"), board));
-
   // Diff vs the previous board for humans and CI.
   const prevKeys = new Set((previous?.jobs ?? []).map((j) => j.dedupeKey));
   const newJobs = board.jobs.filter((j) => !prevKeys.has(j.dedupeKey));
+  // Urgent = watchlist matches among jobs that appeared THIS cycle.
+  const urgent = matchWatches(watches, newJobs);
+
+  fs.mkdirSync(path.dirname(STATE_FILE), { recursive: true });
+  fs.writeFileSync(STATE_FILE, JSON.stringify(board, null, 1));
+  fs.writeFileSync(JOBS_MD, renderJobsMarkdown(board, urgent));
+  fs.writeFileSync(README_MD, updateReadme(fs.readFileSync(README_MD, "utf8"), board, urgent));
   const closedNow = (board.closed ?? []).filter((c) => c.closedAt === now).length;
   const summaryLine = `+${newJobs.length} new, ${closedNow} closed, ${board.jobs.length} total`;
   console.log(`Board updated (${summaryLine}) → JOBS.md, README.md, board/jobs.json`);
@@ -114,7 +142,14 @@ async function main() {
   }
 
   // GitHub Actions integration: commit-message line + run summary + issue body.
-  writeIfEnv("GITHUB_OUTPUT", `summary=${summaryLine}\nnew_count=${newJobs.length}\n`, true);
+  const urgentTitle =
+    urgent.length === 1 ? `${urgent[0].company} — ${urgent[0].title}`.replace(/[\r\n]/g, " ").slice(0, 150) : `${urgent.length} watchlist matches`;
+  if (urgent.length > 0) console.log(`🚨 URGENT: ${urgent.map((j) => `${j.company} — ${j.title}`).join(" | ")}`);
+  writeIfEnv(
+    "GITHUB_OUTPUT",
+    `summary=${summaryLine}\nnew_count=${newJobs.length}\nurgent_count=${urgent.length}\nurgent_title=${urgentTitle}\n`,
+    true,
+  );
   const newJobsTable =
     newJobs.length > 0
       ? [
@@ -132,6 +167,17 @@ async function main() {
     true,
   );
   if (newJobsTable) writeIfEnv("BOARD_NEW_JOBS_FILE", `${newJobsTable}\n`, false);
+  if (urgent.length > 0) {
+    const urgentTable = [
+      "| Company | Role | Location | Season | Match | Posted | Apply |",
+      "|---|---|---|---|---|---|---|",
+      ...urgent.map(
+        (j) =>
+          `| 🔴 ${j.company} | ${j.title.replace(/\|/g, "\\|")} | ${j.location ?? "—"} | ${j.season ?? "—"} | ${j.score}% | ${j.postedAt?.slice(0, 10) ?? "—"} | [Apply](${j.url}) |`,
+      ),
+    ].join("\n");
+    writeIfEnv("BOARD_URGENT_FILE", `${urgentTable}\n`, false);
+  }
 
   // Sanity check the marker invariant before letting CI commit the result.
   const readme = fs.readFileSync(README_MD, "utf8");

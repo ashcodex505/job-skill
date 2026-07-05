@@ -55,6 +55,7 @@ That's it — no env file needed. Optional configuration: `cp .env.example .env.
 | `npm run scrape -- --company Stripe --company OpenAI` | scrape specific companies |
 | `npm run scrape -- --json out/jobs.json` | also export normalized jobs as JSON |
 | `npm run board` | scrape + regenerate JOBS.md and the README job board (`--no-linkcheck` to skip URL probing) |
+| `npm run board -- --watch` | lightweight watchlist scan (watched companies + SimplifyJobs feed) |
 | `npm run scrape:check` | slug doctor: verify every registry portal responds and count postings |
 | `npm test` | unit tests (encryption, scraper classification/dedupe, status logic) |
 | `npm run db:migrate` / `db:generate` / `db:seed` | drizzle migrations / codegen / seed |
@@ -175,6 +176,26 @@ table to the Actions page, and upserts a pinned **"🆕 New job matches"**
 issue (label `job-alert`) whenever a cycle finds new roles — watch the repo
 to get those as notifications.
 
+### Watchlist & urgent alerts
+
+The **Watchlist** panel at the top of the dashboard is the only place watches
+are added or removed (they're stored in the app-managed
+[career/watchlist.md](career/watchlist.md)). A watch is a company (or "Any")
+plus keywords, e.g. *Google — new grad software engineer*. Coverage for
+anti-bot portals (Google, Amazon, Meta, Apple, …) comes from the MIT-licensed
+[SimplifyJobs community feeds](https://github.com/SimplifyJobs/New-Grad-Positions),
+which also supply true posted dates.
+
+When a matching role first appears: it shows red-flagged in the dashboard
+panel (which re-checks every 5 minutes while the app is open), gets a
+🔴 **"🚨 Watchlist alerts"** section at the top of JOBS.md and the README
+board, and [watch.yml](.github/workflows/watch.yml) — an **hourly** light
+scan of just your watched companies + the feed — files a new issue titled
+`🚨 URGENT: <company> — <role>` (label `urgent`), which GitHub pushes to your
+phone. Remember to commit & push `career/watchlist.md` after changing watches
+(the dashboard shows a banner when it's unpushed); GitHub cron is best-effort,
+so "hourly" can occasionally drift.
+
 ## Tests & verification
 
 ```bash
@@ -196,9 +217,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1413-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-1413-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--05-informational)
+![open roles](https://img.shields.io/badge/open%20roles-2583-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-2583-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--05-informational)
 
-Updated **2026-07-05 08:13 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-07-05 08:25 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|

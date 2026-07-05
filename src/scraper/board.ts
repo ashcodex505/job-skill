@@ -174,6 +174,19 @@ function section(title: string, jobs: BoardJob[], updatedAt: string, cap = 400):
 const byScore = (a: BoardJob, b: BoardJob) =>
   b.score - a.score || b.firstSeenAt.localeCompare(a.firstSeenAt) || a.company.localeCompare(b.company);
 
+/** 🔴-prefixed rows for watchlist matches that appeared this cycle. */
+function urgentSection(urgent: BoardJob[], updatedAt: string): string {
+  if (urgent.length === 0) return "";
+  const rows = urgent.map((j) => jobRow(j, updatedAt).replace("| ", "| 🔴 "));
+  return `\n## 🚨 Watchlist alerts (${urgent.length})
+
+Roles matching [career/watchlist.md](career/watchlist.md) that appeared this cycle — these are the ones to apply to right now.
+
+${TABLE_HEADER}
+${rows.join("\n")}
+`;
+}
+
 function closedSection(closed: ClosedJob[]): string {
   if (closed.length === 0) return "";
   const rows = [...closed]
@@ -189,7 +202,7 @@ ${rows.join("\n")}
 `;
 }
 
-export function renderJobsMarkdown(board: BoardData): string {
+export function renderJobsMarkdown(board: BoardData, urgent: BoardJob[] = []): string {
   const jobs = [...board.jobs].sort(byScore);
   const fresh = jobs.filter((j) => isNewJob(j, board.updatedAt));
   const interns = jobs.filter((j) => j.roleType === "internship");
@@ -202,7 +215,7 @@ export function renderJobsMarkdown(board: BoardData): string {
 **${jobs.length} open roles** across **${companies} companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
 Last updated: **${board.updatedAt.slice(0, 16).replace("T", " ")} UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
-${section("🆕 New this cycle", fresh, board.updatedAt, 100)}${section("🛠️ Internships", interns, board.updatedAt)}${section("🎓 New Grad", newGrad, board.updatedAt)}${section("🔍 Other early-career matches", other, board.updatedAt)}${closedSection(board.closed ?? [])}${
+${urgentSection(urgent, board.updatedAt)}${section("🆕 New this cycle", fresh, board.updatedAt, 100)}${section("🛠️ Internships", interns, board.updatedAt)}${section("🎓 New Grad", newGrad, board.updatedAt)}${section("🔍 Other early-career matches", other, board.updatedAt)}${closedSection(board.closed ?? [])}${
     jobs.some((j) => j.source === "simplifyjobs")
       ? "\n---\n_Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) and SimplifyJobs Summer Internships._\n"
       : ""
@@ -218,12 +231,16 @@ function badge(label: string, message: string, color: string): string {
 export const README_START = "<!-- JOB-BOARD:START -->";
 export const README_END = "<!-- JOB-BOARD:END -->";
 
-export function renderReadmeSection(board: BoardData, top = 20): string {
+export function renderReadmeSection(board: BoardData, top = 20, urgent: BoardJob[] = []): string {
   const jobs = [...board.jobs].sort(byScore).slice(0, top);
   const rows = jobs.map((j) => jobRow(j, board.updatedAt));
+  const urgentBlock =
+    urgent.length > 0
+      ? `\n### 🚨 Watchlist alerts — apply now\n\n${TABLE_HEADER}\n${urgent.map((j) => jobRow(j, board.updatedAt).replace("| ", "| 🔴 ")).join("\n")}\n`
+      : "";
   return `${README_START}
 ## 🎯 Top job matches right now
-
+${urgentBlock}
 ${badge("open roles", String(board.jobs.length), "blue")} ${badge("new this cycle", String(board.jobs.filter((j) => isNewJob(j, board.updatedAt)).length), "brightgreen")} ${badge("updated", board.updatedAt.slice(0, 10), "informational")}
 
 Updated **${board.updatedAt.slice(0, 16).replace("T", " ")} UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
@@ -234,8 +251,8 @@ ${README_END}`;
 }
 
 /** Replace (or append) the marker-delimited board section in README content. */
-export function updateReadme(readme: string, board: BoardData): string {
-  const sectionMd = renderReadmeSection(board);
+export function updateReadme(readme: string, board: BoardData, urgent: BoardJob[] = []): string {
+  const sectionMd = renderReadmeSection(board, 20, urgent);
   const start = readme.indexOf(README_START);
   const end = readme.indexOf(README_END);
   if (start !== -1 && end !== -1) {

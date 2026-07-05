@@ -1,0 +1,62 @@
+# Hourly watchlist run: scrapes ONLY watchlisted supported companies plus the
+# SimplifyJobs community feed (which covers unsupported portals like Google/
+# Amazon), merges into the committed board without touching other companies,
+# and raises an URGENT issue for new watchlist matches. Much lighter than the
+# 12h full run in job-board.yml.
+name: Watchlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 * * * *" # hourly (best-effort; GitHub cron can lag)
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: job-board # shares the group with the full run so they never race
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Watch scrape
+        id: board
+        run: npm run board -- --watch
+        env:
+          DATABASE_PATH: /tmp/scrape.db
+          BOARD_NEW_JOBS_FILE: ${{ runner.temp }}/new-jobs.md
+          BOARD_URGENT_FILE: ${{ runner.temp }}/urgent.md
+      - name: Commit board updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JOBS.md README.md board/jobs.json
+          if git diff --cached --quiet; then
+            echo "No board changes."
+          else
+            git commit -m "chore: watchlist scan (${{ steps.board.outputs.summary }}) [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
+      - name: Urgent watchlist alert
+        if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          URGENT_FILE: ${{ runner.temp }}/urgent.md
+        run: |
+          [ -s "$URGENT_FILE" ] || exit 0
+          gh label create urgent --color B60205 --description "Watchlist match — apply now" 2>/dev/null || true
+          gh issue create \
+            --title "🚨 URGENT: ${{ steps.board.outputs.urgent_title }}" \
+            --label urgent \
+            --body-file "$URGENT_FILE"
