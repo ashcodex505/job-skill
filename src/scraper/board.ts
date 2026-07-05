@@ -21,6 +21,8 @@ export interface BoardJob {
   matchedSkills: string[];
   /** Optional: older board states predate score breakdowns. */
   breakdown?: ScoreBreakdown;
+  /** When the company posted the role (provider-supplied); null when unknown. */
+  postedAt?: string | null;
   firstSeenAt: string;
 }
 
@@ -81,6 +83,7 @@ export function mergeBoard(
     score: j.score,
     matchedSkills: j.matchedSkills,
     breakdown: j.breakdown,
+    postedAt: j.postedAt,
     // Reopened jobs recover their original firstSeenAt from the closed list.
     firstSeenAt: prevByKey.get(j.dedupeKey)?.firstSeenAt ?? closedByKey.get(j.dedupeKey)?.firstSeenAt ?? now,
   }));
@@ -144,11 +147,12 @@ const day = (iso: string) => iso.slice(0, 10);
 function jobRow(j: BoardJob, updatedAt: string): string {
   const badge = isNewJob(j, updatedAt) ? " 🆕" : "";
   const match = j.matchedSkills.length > 0 ? `${j.score}% (${j.matchedSkills.length} skills)` : `${j.score}%`;
-  return `| ${esc(j.company)} | ${esc(j.title)}${badge} | ${esc(j.location ?? "—")} | ${esc(j.season ?? "—")} | ${match} | ${day(j.firstSeenAt)} | [**Apply ➜**](${j.url}) |`;
+  const posted = j.postedAt ? day(j.postedAt) : "—";
+  return `| ${esc(j.company)} | ${esc(j.title)}${badge} | ${esc(j.location ?? "—")} | ${esc(j.season ?? "—")} | ${match} | ${posted} | ${day(j.firstSeenAt)} | [**Apply ➜**](${j.url}) |`;
 }
 
-const TABLE_HEADER = `| Company | Role | Location | Season | Match | First seen | Apply |
-|---|---|---|---|---|---|---|`;
+const TABLE_HEADER = `| Company | Role | Location | Season | Match | Posted | First seen | Apply |
+|---|---|---|---|---|---|---|---|`;
 
 function section(title: string, jobs: BoardJob[], updatedAt: string, cap = 400): string {
   if (jobs.length === 0) return "";

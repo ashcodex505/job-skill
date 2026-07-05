@@ -203,6 +203,7 @@ export default function DiscoveryPage() {
                 <th className="px-3 py-2 font-medium">Season</th>
                 <th className="px-3 py-2 font-medium">Location</th>
                 <th className="px-3 py-2 font-medium">Match</th>
+                <th className="px-3 py-2 font-medium">Posted</th>
                 <th className="px-3 py-2 font-medium">Found</th>
                 <th className="px-3 py-2 font-medium">Actions</th>
               </tr>
@@ -246,6 +247,12 @@ export default function DiscoveryPage() {
                       {j.matchedSkills.length > 0 ? <span className="ml-1 text-emerald-600">({j.matchedSkills.length} skills)</span> : null}
                     </span>
                   </td>
+                  <td className="whitespace-nowrap px-3 py-2 text-xs tabular-nums text-muted">
+                    <span title={j.postedAt ? "Posting date from the company's ATS" : "Company didn't publish a date — showing when the scraper first saw it"}>
+                      {formatDate(j.postedAt ?? j.firstSeenAt)}
+                      {!j.postedAt ? <span className="text-muted/50">*</span> : null}
+                    </span>
+                  </td>
                   <td className="whitespace-nowrap px-3 py-2 text-xs tabular-nums text-muted">{formatDate(j.firstSeenAt)}</td>
                   <td className="whitespace-nowrap px-3 py-2">
                     {j.savedApplicationId ? (
@@ -266,7 +273,7 @@ export default function DiscoveryPage() {
                 </tr>
                 {expandedId === j.id && j.description ? (
                   <tr className="bg-accent-soft/20">
-                    <td colSpan={8} className="px-6 py-3">
+                    <td colSpan={9} className="px-6 py-3">
                       <p className="max-h-56 overflow-y-auto whitespace-pre-wrap text-xs leading-relaxed text-muted">{j.description}</p>
                     </td>
                   </tr>
