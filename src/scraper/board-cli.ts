@@ -2,26 +2,77 @@ import fs from "node:fs";
 import path from "node:path";
 import { migrate } from "drizzle-orm/libsql/migrator";
 import { db } from "@/db";
-import { mergeBoard, renderJobsMarkdown, updateReadme, type BoardData } from "./board";
+import { closeJobs, mergeBoard, renderJobsMarkdown, updateReadme, type BoardData, type BoardJob } from "./board";
 import { runScraper } from "./run";
 
 /**
- * `npm run board [-- --company Stripe]` — scrape, then regenerate the
- * committed job board: board/jobs.json (state), JOBS.md (full board), and the
- * marker-delimited section in README.md. Used locally and by the 12h
- * GitHub Action.
+ * `npm run board [-- --company Stripe] [--no-linkcheck]` — scrape, then
+ * regenerate the committed job board: board/jobs.json (state), JOBS.md
+ * (full board), and the marker-delimited section in README.md. Used locally
+ * and by the 12h GitHub Action, which also consumes the summary outputs
+ * written to $GITHUB_OUTPUT / $GITHUB_STEP_SUMMARY / $BOARD_NEW_JOBS_FILE.
  */
 const ROOT = process.cwd();
 const STATE_FILE = path.join(ROOT, "board", "jobs.json");
 const JOBS_MD = path.join(ROOT, "JOBS.md");
 const README_MD = path.join(ROOT, "README.md");
 
+const LINKCHECK_CONCURRENCY = 5;
+const LINKCHECK_TIMEOUT_MS = 10_000;
+
+/**
+ * Returns dedupe keys whose posting URL is definitively gone (404/410 only —
+ * network errors, 403s, rate limits etc. are NOT evidence of closure).
+ */
+async function findDeadJobs(jobs: BoardJob[]): Promise<Set<string>> {
+  const dead = new Set<string>();
+  const queue = [...jobs];
+
+  async function probe(url: string): Promise<number> {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), LINKCHECK_TIMEOUT_MS);
+    try {
+      let res = await fetch(url, { method: "HEAD", redirect: "follow", signal: controller.signal });
+      if (res.status === 405 || res.status === 501) {
+        res = await fetch(url, { method: "GET", redirect: "follow", signal: controller.signal });
+      }
+      return res.status;
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  await Promise.all(
+    Array.from({ length: LINKCHECK_CONCURRENCY }, async () => {
+      for (let job = queue.shift(); job; job = queue.shift()) {
+        try {
+          const status = await probe(job.url);
+          if (status === 404 || status === 410) dead.add(job.dedupeKey);
+        } catch {
+          // Timeout / network error: keep the job.
+        }
+      }
+    }),
+  );
+  return dead;
+}
+
+function writeIfEnv(envVar: string, content: string, append: boolean): void {
+  const file = process.env[envVar];
+  if (!file) return;
+  if (append) fs.appendFileSync(file, content);
+  else fs.writeFileSync(file, content);
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const companies: string[] = [];
+  let linkcheck = !args.includes("--no-linkcheck");
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--company" && args[i + 1]) companies.push(args[++i]);
   }
+  // Partial runs skip the link check — it would probe companies we didn't scrape.
+  if (companies.length > 0) linkcheck = false;
 
   await migrate(db, { migrationsFolder: "./drizzle" });
   console.log(`Scraping${companies.length ? ` (${companies.join(", ")})` : ""}...`);
@@ -34,26 +85,55 @@ async function main() {
     /* first run */
   }
 
-  // Partial scrapes (--company) merge into the previous board instead of replacing it.
-  let scraped = summary.jobs;
-  if (companies.length > 0 && previous) {
-    const scrapedCompanies = new Set(scraped.map((j) => j.company.toLowerCase()));
-    const kept = previous.jobs.filter((j) => !scrapedCompanies.has(j.company.toLowerCase()));
-    scraped = [
-      ...scraped,
-      ...kept.map((j) => ({ ...j, matchedSkills: j.matchedSkills ?? [], sourceId: null, postedAt: null }) as (typeof scraped)[number]),
-    ];
+  const now = new Date().toISOString();
+  let board = mergeBoard(previous, summary.jobs, now, summary.scannedCompanies);
+
+  if (linkcheck && board.jobs.length > 0) {
+    console.log(`Link-checking ${board.jobs.length} posting URLs...`);
+    const dead = await findDeadJobs(board.jobs);
+    if (dead.size > 0) console.log(`  ${dead.size} dead links (404/410) moved to closed.`);
+    board = closeJobs(board, dead, now);
   }
 
-  const board = mergeBoard(previous, scraped, new Date().toISOString());
   fs.mkdirSync(path.dirname(STATE_FILE), { recursive: true });
   fs.writeFileSync(STATE_FILE, JSON.stringify(board, null, 1));
   fs.writeFileSync(JOBS_MD, renderJobsMarkdown(board));
   fs.writeFileSync(README_MD, updateReadme(fs.readFileSync(README_MD, "utf8"), board));
 
-  console.log(`Board updated: ${board.jobs.length} roles → JOBS.md, README.md, board/jobs.json`);
+  // Diff vs the previous board for humans and CI.
+  const prevKeys = new Set((previous?.jobs ?? []).map((j) => j.dedupeKey));
+  const newJobs = board.jobs.filter((j) => !prevKeys.has(j.dedupeKey));
+  const closedNow = (board.closed ?? []).filter((c) => c.closedAt === now).length;
+  const summaryLine = `+${newJobs.length} new, ${closedNow} closed, ${board.jobs.length} total`;
+  console.log(`Board updated (${summaryLine}) → JOBS.md, README.md, board/jobs.json`);
   if (summary.errors.length > 0) {
     console.log(`Company errors: ${summary.errors.map((e) => e.company).join(", ")}`);
+  }
+
+  // GitHub Actions integration: commit-message line + run summary + issue body.
+  writeIfEnv("GITHUB_OUTPUT", `summary=${summaryLine}\nnew_count=${newJobs.length}\n`, true);
+  const newJobsTable =
+    newJobs.length > 0
+      ? [
+          "| Company | Role | Season | Match | Apply |",
+          "|---|---|---|---|---|",
+          ...newJobs
+            .sort((a, b) => b.score - a.score)
+            .slice(0, 50)
+            .map((j) => `| ${j.company} | ${j.title.replace(/\|/g, "\\|")} | ${j.season ?? "—"} | ${j.score}% | [Apply](${j.url}) |`),
+        ].join("\n")
+      : "";
+  writeIfEnv(
+    "GITHUB_STEP_SUMMARY",
+    `## Job board: ${summaryLine}\n\n${newJobsTable || "_No new roles this cycle._"}\n`,
+    true,
+  );
+  if (newJobsTable) writeIfEnv("BOARD_NEW_JOBS_FILE", `${newJobsTable}\n`, false);
+
+  // Sanity check the marker invariant before letting CI commit the result.
+  const readme = fs.readFileSync(README_MD, "utf8");
+  if (readme.split("<!-- JOB-BOARD:START -->").length !== 2) {
+    throw new Error("README job-board markers corrupted — aborting");
   }
 }
 

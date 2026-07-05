@@ -1,19 +1,28 @@
 # 🎯 Job Board — SWE Early Career
 
 **220 open roles** across **2 companies**, scraped from official Greenhouse / Lever / Ashby / Workday APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-04 20:52 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-05 06:43 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (220)
 
 | Company | Role | Location | Season | Match | First seen | Apply |
 |---|---|---|---|---|---|---|
-| Stripe | Software Engineer, Intern 🆕 | Sydney, Australia | — | 73% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532256) |
-| Stripe | Software Engineer, New Grad, Developer & End User Experience Platform 🆕 | Toronto | — | 73% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991718) |
+| Stripe | Software Engineer, Intern 🆕 | Sydney, Australia | — | 83% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532256) |
+| Stripe | Software Engineer, New Grad, Developer & End User Experience Platform 🆕 | Toronto | — | 83% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991718) |
+| Stripe | Backend Engineer/API, Payments and Risk 🆕 | Dublin, Ireland | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=4921361) |
+| Stripe | Backend Engineer, Payments and Risk 🆕 | US | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7232592) |
+| Stripe | Backend Engineer, Payments and Risk 🆕 | US | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6163230) |
+| Stripe | Frontend Engineer, Payments & Risk 🆕 | N/A | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7325252) |
+| Stripe | Fullstack Engineer, Internal Tools 🆕 | Dublin | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532806) |
+| Stripe | Software Engineer, Internal Systems 🆕 | Bengaluru, India | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7543868) |
+| Stripe | Internal Product Engineer, Developer Productivity AI 🆕 | Toronto, Canada | — | 52% (1 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7896151) |
 | Stripe | Fullstack Engineer, Privy 🆕 | NYC-Privy, US-Remote | — | 51% (4 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7091959) |
 | OpenAI | Software Engineer, Full Stack (People Innovation) 🆕 | Remote - US; San Francisco | — | 50% (3 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/d4780eac-03ad-4dae-861f-99af22b4287e) |
 | Stripe | Backend Engineer, Core Tech, Canada 🆕 | Toronto, CAN-Remote | — | 50% (3 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6567253) |
 | Stripe | Backend Engineer, Core Technology 🆕 | US-Remote, Chicago, Seattle, San Francisco | — | 50% (3 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6042172) |
+| Stripe | Backend Engineer, Payments Experiences 🆕 | N/A | — | 50% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7895287) |
+| Stripe | Software Engineer, Payments 🆕 | Singapore | — | 50% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7529787) |
 | OpenAI | Full-Stack SWE, Data Acquisition (Foundations) 🆕 | San Francisco | — | 49% (6 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/a886ff48-b8a1-4e28-b468-296713a5ad78) |
 | OpenAI | Software Engineer, Identity Infrastructure Engineering 🆕 | San Francisco; New York City; Seattle; Remote - US | — | 48% (2 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/551b0d0d-46c2-42fb-bb05-46e2fba8d4db) |
 | OpenAI | Manufacturing Test Engineer, AI Compute Infrastructure - Stargate 🆕 | Remote - US | — | 48% (2 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/8a950265-0527-48f8-be3c-2923d7d96940) |
@@ -81,15 +90,9 @@ Last updated: **2026-07-04 20:52 UTC** · auto-refreshed every 12h by [job-board
 | OpenAI | Software Engineer, Cloud Agents 🆕 | San Francisco | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/f6278b60-dd42-4aa8-a3cd-c105f75ae8ae) |
 | Stripe | Backend/API Engineer, Money as a Service 🆕 | US | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6176758) |
 | Stripe | Backend / API Engineer, Payouts 🆕 | United Kingdom | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7369543) |
-| Stripe | Backend Engineer/API, Payments and Risk 🆕 | Dublin, Ireland | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=4921361) |
-| Stripe | Backend Engineer, Payments and Risk 🆕 | US | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7232592) |
-| Stripe | Backend Engineer, Payments and Risk 🆕 | US | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6163230) |
 | Stripe | Backend Engineer, Privy 🆕 | NYC-Privy | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7235875) |
-| Stripe | Frontend Engineer, Payments & Risk 🆕 | N/A | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7325252) |
-| Stripe | Fullstack Engineer, Internal Tools 🆕 | Dublin | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532806) |
 | Stripe | Machine Learning Engineer, Payment Intelligence 🆕 | Seattle | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7983456) |
 | Stripe | Software Engineer, Core Infrastructure 🆕 | Sydney, Australia | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7975725) |
-| Stripe | Software Engineer, Internal Systems 🆕 | Bengaluru, India | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7543868) |
 | OpenAI | Software Engineer, Privacy Infrastructure 🆕 | San Francisco | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/07153f7c-7e8b-4283-a879-cb07a224e083) |
 | OpenAI | Software Engineer, Productivity - Networking 🆕 | San Francisco | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/17daedbd-b3fb-4e8c-a17c-8bbc9ec1d0b5) |
 | OpenAI | Camera Software Engineer, Consumer Devices 🆕 | San Francisco | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/1dc05fc7-ceb7-4827-a905-9d1beb77a4a0) |
@@ -105,33 +108,39 @@ Last updated: **2026-07-04 20:52 UTC** · auto-refreshed every 12h by [job-board
 | OpenAI | Software Engineer, Data Acquisition 🆕 | San Francisco | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/41d9d129-2e58-4ad3-be81-2e5096f4da4d) |
 | OpenAI | Software Engineer, Habitat (Online Data) 🆕 | Seattle | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/460b4295-3803-4dda-983d-3b0fea0b0fc4) |
 | OpenAI | Applied AI Engineer, Codex Core Agent 🆕 | San Francisco; New York City; Seattle; London, UK | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/577e6673-0a4a-491b-9a0d-facbdd3bdf3c) |
-| OpenAI | Full Stack Software Engineer, Codex 🆕 | San Francisco | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/5ebd5f66-75db-4a96-8d39-babc14f1c582) |
-| OpenAI | Software Engineer, Codex App 🆕 | San Francisco; Seattle; London, UK | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/60e52bb7-3418-447c-8767-a6bb8e7dedd8) |
-| OpenAI | Software Engineer, Productivity - Model Performance 🆕 | San Francisco | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/6d403ec9-d5d3-4754-9092-8fd5e659562a) |
 
 _…and 120 more (raise the cap in src/scraper/board.ts)._
 ## 🛠️ Internships (1)
 
 | Company | Role | Location | Season | Match | First seen | Apply |
 |---|---|---|---|---|---|---|
-| Stripe | Software Engineer, Intern 🆕 | Sydney, Australia | — | 73% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532256) |
+| Stripe | Software Engineer, Intern 🆕 | Sydney, Australia | — | 83% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532256) |
 
 ## 🎓 New Grad (3)
 
 | Company | Role | Location | Season | Match | First seen | Apply |
 |---|---|---|---|---|---|---|
-| Stripe | Software Engineer, New Grad, Developer & End User Experience Platform 🆕 | Toronto | — | 73% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991718) |
-| Stripe | Tech Operations Associate, New Grad (Mexico) 🆕 | Mexico City, Mexico | — | 33% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7718947) |
-| Stripe | Operations Associate, New Grad (Mexico) 🆕 | Mexico City, Mexico | — | 30% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7544547) |
+| Stripe | Software Engineer, New Grad, Developer & End User Experience Platform 🆕 | Toronto | — | 83% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991718) |
+| Stripe | Tech Operations Associate, New Grad (Mexico) 🆕 | Mexico City, Mexico | — | 38% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7718947) |
+| Stripe | Operations Associate, New Grad (Mexico) 🆕 | Mexico City, Mexico | — | 35% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7544547) |
 
 ## 🔍 Other early-career matches (216)
 
 | Company | Role | Location | Season | Match | First seen | Apply |
 |---|---|---|---|---|---|---|
+| Stripe | Backend Engineer/API, Payments and Risk 🆕 | Dublin, Ireland | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=4921361) |
+| Stripe | Backend Engineer, Payments and Risk 🆕 | US | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7232592) |
+| Stripe | Backend Engineer, Payments and Risk 🆕 | US | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6163230) |
+| Stripe | Frontend Engineer, Payments & Risk 🆕 | N/A | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7325252) |
+| Stripe | Fullstack Engineer, Internal Tools 🆕 | Dublin | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532806) |
+| Stripe | Software Engineer, Internal Systems 🆕 | Bengaluru, India | — | 53% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7543868) |
+| Stripe | Internal Product Engineer, Developer Productivity AI 🆕 | Toronto, Canada | — | 52% (1 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7896151) |
 | Stripe | Fullstack Engineer, Privy 🆕 | NYC-Privy, US-Remote | — | 51% (4 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7091959) |
 | OpenAI | Software Engineer, Full Stack (People Innovation) 🆕 | Remote - US; San Francisco | — | 50% (3 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/d4780eac-03ad-4dae-861f-99af22b4287e) |
 | Stripe | Backend Engineer, Core Tech, Canada 🆕 | Toronto, CAN-Remote | — | 50% (3 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6567253) |
 | Stripe | Backend Engineer, Core Technology 🆕 | US-Remote, Chicago, Seattle, San Francisco | — | 50% (3 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6042172) |
+| Stripe | Backend Engineer, Payments Experiences 🆕 | N/A | — | 50% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7895287) |
+| Stripe | Software Engineer, Payments 🆕 | Singapore | — | 50% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7529787) |
 | OpenAI | Full-Stack SWE, Data Acquisition (Foundations) 🆕 | San Francisco | — | 49% (6 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/a886ff48-b8a1-4e28-b468-296713a5ad78) |
 | OpenAI | Software Engineer, Identity Infrastructure Engineering 🆕 | San Francisco; New York City; Seattle; Remote - US | — | 48% (2 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/551b0d0d-46c2-42fb-bb05-46e2fba8d4db) |
 | OpenAI | Manufacturing Test Engineer, AI Compute Infrastructure - Stargate 🆕 | Remote - US | — | 48% (2 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/8a950265-0527-48f8-be3c-2923d7d96940) |
@@ -199,15 +208,9 @@ _…and 120 more (raise the cap in src/scraper/board.ts)._
 | OpenAI | Software Engineer, Cloud Agents 🆕 | San Francisco | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/f6278b60-dd42-4aa8-a3cd-c105f75ae8ae) |
 | Stripe | Backend/API Engineer, Money as a Service 🆕 | US | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6176758) |
 | Stripe | Backend / API Engineer, Payouts 🆕 | United Kingdom | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7369543) |
-| Stripe | Backend Engineer/API, Payments and Risk 🆕 | Dublin, Ireland | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=4921361) |
-| Stripe | Backend Engineer, Payments and Risk 🆕 | US | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7232592) |
-| Stripe | Backend Engineer, Payments and Risk 🆕 | US | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6163230) |
 | Stripe | Backend Engineer, Privy 🆕 | NYC-Privy | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7235875) |
-| Stripe | Frontend Engineer, Payments & Risk 🆕 | N/A | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7325252) |
-| Stripe | Fullstack Engineer, Internal Tools 🆕 | Dublin | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532806) |
 | Stripe | Machine Learning Engineer, Payment Intelligence 🆕 | Seattle | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7983456) |
 | Stripe | Software Engineer, Core Infrastructure 🆕 | Sydney, Australia | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7975725) |
-| Stripe | Software Engineer, Internal Systems 🆕 | Bengaluru, India | — | 43% (2 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7543868) |
 | OpenAI | Software Engineer, Privacy Infrastructure 🆕 | San Francisco | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/07153f7c-7e8b-4283-a879-cb07a224e083) |
 | OpenAI | Software Engineer, Productivity - Networking 🆕 | San Francisco | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/17daedbd-b3fb-4e8c-a17c-8bbc9ec1d0b5) |
 | OpenAI | Camera Software Engineer, Consumer Devices 🆕 | San Francisco | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/1dc05fc7-ceb7-4827-a905-9d1beb77a4a0) |
@@ -250,7 +253,6 @@ _…and 120 more (raise the cap in src/scraper/board.ts)._
 | Stripe | Backend Engineer, Expansion 🆕 | N/A | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7775622) |
 | Stripe | Full-Stack Engineer 🆕 | San Francisco | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8003382) |
 | Stripe | Full Stack Engineer, Support Experience 🆕 | Dublin, Ireland | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6717520) |
-| Stripe | Internal Product Engineer, Developer Productivity AI 🆕 | Toronto, Canada | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7896151) |
 | Stripe | Software Engineer 🆕 | Seattle, WA | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7922832) |
 | Stripe | Software Engineer, Bridge 🆕 | San Francisco, NY, Seattle | — | 42% (1 skills) | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7277110) |
 | OpenAI | Forward Deployed Software Engineer - SF 🆕 | San Francisco | — | 40% | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/00207abc-49b7-465c-a219-f7c1140f8047) |
@@ -331,7 +333,6 @@ _…and 120 more (raise the cap in src/scraper/board.ts)._
 | OpenAI | Founding Full Stack Software Engineer, Legal 🆕 | San Francisco | — | 40% | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/fcb0ed1a-9329-4e8f-8aab-92bb626d8141) |
 | OpenAI | Quality Engineer - Rack Infrastructure & Site Operations - Stargate 🆕 | San Francisco | — | 40% | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/fff7b15d-a1a0-441f-90f1-5efcae7f0051) |
 | Stripe | Backend Engineer, Forward Deployed Engineering 🆕 | N/A | — | 40% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7249744) |
-| Stripe | Backend Engineer, Payments Experiences 🆕 | N/A | — | 40% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7895287) |
 | Stripe | Full Stack Engineer, Billing 🆕 | N/A | — | 40% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6786324) |
 | Stripe | Full Stack Engineer, Developer Experience & Product Platform 🆕 | N/A | — | 40% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6567104) |
 | Stripe | Full Stack Engineer, Money as a Service 🆕 | N/A | — | 40% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7325118) |
@@ -342,6 +343,5 @@ _…and 120 more (raise the cap in src/scraper/board.ts)._
 | Stripe | Software Engineer, Brazil 🆕 | Sao Paulo | — | 40% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7895284) |
 | Stripe | Software Engineer, Data & AI 🆕 | Bengaluru | — | 40% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7529428) |
 | Stripe | Software Engineer, Money Movement 🆕 | London | — | 40% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7208537) |
-| Stripe | Software Engineer, Payments 🆕 | Singapore | — | 40% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7529787) |
 | Stripe | Software Engineer - Smart Contract, Bridge 🆕 | San Francisco or New York | — | 40% | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7507904) |
 

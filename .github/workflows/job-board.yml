@@ -29,9 +29,11 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Scrape and render board
+        id: board
         run: npm run board
         env:
           DATABASE_PATH: /tmp/scrape.db
+          BOARD_NEW_JOBS_FILE: ${{ runner.temp }}/new-jobs.md
       - name: Commit board updates
         run: |
           git config user.name "github-actions[bot]"
@@ -40,7 +42,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No board changes."
           else
-            git commit -m "chore: refresh job board [skip ci]"
+            git commit -m "chore: refresh job board (${{ steps.board.outputs.summary }}) [skip ci]"
             git pull --rebase origin main
             git push
           fi

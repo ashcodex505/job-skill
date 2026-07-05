@@ -21,14 +21,51 @@ export interface BoardJob {
   firstSeenAt: string;
 }
 
+/** A job that vanished from its (successfully scanned) source feed. */
+export interface ClosedJob {
+  dedupeKey: string;
+  company: string;
+  title: string;
+  season: string | null;
+  roleType: string;
+  firstSeenAt: string;
+  closedAt: string;
+}
+
 export interface BoardData {
   updatedAt: string;
   jobs: BoardJob[];
+  closed?: ClosedJob[];
 }
 
-/** Merge a fresh scrape with the previous board so firstSeenAt survives CI runs. */
-export function mergeBoard(previous: BoardData | null, scraped: NormalizedJob[], now: string): BoardData {
-  const prevByKey = new Map((previous?.jobs ?? []).map((j) => [j.dedupeKey, j]));
+const CLOSED_RETENTION_MS = 7 * 24 * 60 * 60 * 1000;
+
+/**
+ * Merge a fresh scrape with the previous board.
+ *
+ * - firstSeenAt survives across stateless CI runs (and even a close/reopen).
+ * - Jobs from companies NOT successfully scanned this run (adapter error, or
+ *   a partial --company run) are carried forward untouched — absence of data
+ *   is not evidence of closure.
+ * - Jobs absent from a scanned company's feed move to `closed`, kept for
+ *   7 days so the board shows what you just missed.
+ *
+ * `scannedCompanies` omitted = treat every company as scanned (full replace).
+ */
+export function mergeBoard(
+  previous: BoardData | null,
+  scraped: NormalizedJob[],
+  now: string,
+  scannedCompanies?: string[],
+): BoardData {
+  const scanned = scannedCompanies ? new Set(scannedCompanies.map((c) => c.toLowerCase())) : null;
+  const wasScanned = (company: string) => scanned === null || scanned.has(company.toLowerCase());
+  const prevActive = previous?.jobs ?? [];
+  const prevClosed = previous?.closed ?? [];
+  const prevByKey = new Map(prevActive.map((j) => [j.dedupeKey, j]));
+  const closedByKey = new Map(prevClosed.map((c) => [c.dedupeKey, c]));
+  const scrapedKeys = new Set(scraped.map((j) => j.dedupeKey));
+
   const jobs: BoardJob[] = scraped.map((j) => ({
     dedupeKey: j.dedupeKey,
     source: j.source,
@@ -40,9 +77,55 @@ export function mergeBoard(previous: BoardData | null, scraped: NormalizedJob[],
     roleType: j.roleType,
     score: j.score,
     matchedSkills: j.matchedSkills,
-    firstSeenAt: prevByKey.get(j.dedupeKey)?.firstSeenAt ?? now,
+    // Reopened jobs recover their original firstSeenAt from the closed list.
+    firstSeenAt: prevByKey.get(j.dedupeKey)?.firstSeenAt ?? closedByKey.get(j.dedupeKey)?.firstSeenAt ?? now,
   }));
-  return { updatedAt: now, jobs };
+
+  const newlyClosed: ClosedJob[] = [];
+  for (const j of prevActive) {
+    if (scrapedKeys.has(j.dedupeKey)) continue;
+    if (!wasScanned(j.company)) {
+      jobs.push(j); // carried forward — no fresh data for this company
+    } else {
+      newlyClosed.push({
+        dedupeKey: j.dedupeKey,
+        company: j.company,
+        title: j.title,
+        season: j.season,
+        roleType: j.roleType,
+        firstSeenAt: j.firstSeenAt,
+        closedAt: now,
+      });
+    }
+  }
+
+  const closed = [...prevClosed.filter((c) => !scrapedKeys.has(c.dedupeKey)), ...newlyClosed].filter(
+    (c) => new Date(now).getTime() - new Date(c.closedAt).getTime() < CLOSED_RETENTION_MS,
+  );
+
+  return { updatedAt: now, jobs, closed };
+}
+
+/** Move specific active jobs (e.g. dead links) to the closed list. */
+export function closeJobs(board: BoardData, dedupeKeys: Set<string>, now: string): BoardData {
+  if (dedupeKeys.size === 0) return board;
+  const closing = board.jobs.filter((j) => dedupeKeys.has(j.dedupeKey));
+  return {
+    ...board,
+    jobs: board.jobs.filter((j) => !dedupeKeys.has(j.dedupeKey)),
+    closed: [
+      ...(board.closed ?? []),
+      ...closing.map((j) => ({
+        dedupeKey: j.dedupeKey,
+        company: j.company,
+        title: j.title,
+        season: j.season,
+        roleType: j.roleType,
+        firstSeenAt: j.firstSeenAt,
+        closedAt: now,
+      })),
+    ],
+  };
 }
 
 const NEW_WINDOW_MS = 13 * 60 * 60 * 1000; // a hair over the 12h schedule
@@ -73,6 +156,21 @@ function section(title: string, jobs: BoardJob[], updatedAt: string, cap = 400):
 const byScore = (a: BoardJob, b: BoardJob) =>
   b.score - a.score || b.firstSeenAt.localeCompare(a.firstSeenAt) || a.company.localeCompare(b.company);
 
+function closedSection(closed: ClosedJob[]): string {
+  if (closed.length === 0) return "";
+  const rows = [...closed]
+    .sort((a, b) => b.closedAt.localeCompare(a.closedAt))
+    .map((c) => `| ${esc(c.company)} | ${esc(c.title)} | ${esc(c.season ?? "—")} | ${day(c.closedAt)} |`);
+  return `\n## 🚪 Recently closed (last 7 days) (${closed.length})
+
+Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
+
+| Company | Role | Season | Closed |
+|---|---|---|---|
+${rows.join("\n")}
+`;
+}
+
 export function renderJobsMarkdown(board: BoardData): string {
   const jobs = [...board.jobs].sort(byScore);
   const fresh = jobs.filter((j) => isNewJob(j, board.updatedAt));
@@ -86,8 +184,14 @@ export function renderJobsMarkdown(board: BoardData): string {
 **${jobs.length} open roles** across **${companies} companies**, scraped from official Greenhouse / Lever / Ashby / Workday APIs and scored against [career/profile.md](career/profile.md).
 Last updated: **${board.updatedAt.slice(0, 16).replace("T", " ")} UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
-${section("🆕 New this cycle", fresh, board.updatedAt, 100)}${section("🛠️ Internships", interns, board.updatedAt)}${section("🎓 New Grad", newGrad, board.updatedAt)}${section("🔍 Other early-career matches", other, board.updatedAt)}
+${section("🆕 New this cycle", fresh, board.updatedAt, 100)}${section("🛠️ Internships", interns, board.updatedAt)}${section("🎓 New Grad", newGrad, board.updatedAt)}${section("🔍 Other early-career matches", other, board.updatedAt)}${closedSection(board.closed ?? [])}
 `;
+}
+
+/** shields.io static badge (label/message must escape - _ and spaces). */
+function badge(label: string, message: string, color: string): string {
+  const enc = (s: string) => encodeURIComponent(s.replace(/-/g, "--").replace(/_/g, "__"));
+  return `![${label}](https://img.shields.io/badge/${enc(label)}-${enc(message)}-${color})`;
 }
 
 export const README_START = "<!-- JOB-BOARD:START -->";
@@ -99,7 +203,9 @@ export function renderReadmeSection(board: BoardData, top = 20): string {
   return `${README_START}
 ## 🎯 Top job matches right now
 
-Updated **${board.updatedAt.slice(0, 16).replace("T", " ")} UTC** · ${board.jobs.length} open roles tracked · **[Full job board ➜ JOBS.md](JOBS.md)**
+${badge("open roles", String(board.jobs.length), "blue")} ${badge("new this cycle", String(board.jobs.filter((j) => isNewJob(j, board.updatedAt)).length), "brightgreen")} ${badge("updated", board.updatedAt.slice(0, 10), "informational")}
+
+Updated **${board.updatedAt.slice(0, 16).replace("T", " ")} UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 ${TABLE_HEADER}
 ${rows.join("\n")}

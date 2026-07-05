@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { isNewJob, mergeBoard, renderJobsMarkdown, updateReadme, README_END, README_START, type BoardData } from "./board";
+import { closeJobs, isNewJob, mergeBoard, renderJobsMarkdown, updateReadme, README_END, README_START, type BoardData } from "./board";
 import type { NormalizedJob } from "./normalize";
 
 const job = (overrides: Partial<NormalizedJob> = {}): NormalizedJob => ({
@@ -31,13 +31,72 @@ describe("mergeBoard", () => {
     expect(merged.jobs.find((j) => j.dedupeKey === "greenhouse:2")!.firstSeenAt).toBe(NOW);
   });
 
-  it("drops jobs that vanished from the scrape (closed postings)", () => {
+  it("moves vanished jobs to the closed list with a closedAt stamp", () => {
     const prev: BoardData = {
       updatedAt: NOW,
-      jobs: [{ ...job({ dedupeKey: "greenhouse:gone" }), firstSeenAt: NOW } as BoardData["jobs"][number]],
+      jobs: [{ ...job({ dedupeKey: "greenhouse:gone", title: "Gone Intern" }), firstSeenAt: "2026-06-01T00:00:00.000Z" } as BoardData["jobs"][number]],
     };
     const merged = mergeBoard(prev, [job()], NOW);
     expect(merged.jobs.map((j) => j.dedupeKey)).toEqual(["greenhouse:1"]);
+    expect(merged.closed).toHaveLength(1);
+    expect(merged.closed![0]).toMatchObject({
+      dedupeKey: "greenhouse:gone",
+      title: "Gone Intern",
+      closedAt: NOW,
+      firstSeenAt: "2026-06-01T00:00:00.000Z",
+    });
+  });
+
+  it("reopens a closed job with its original firstSeenAt", () => {
+    const prev: BoardData = {
+      updatedAt: NOW,
+      jobs: [],
+      closed: [
+        { dedupeKey: "greenhouse:1", company: "Stripe", title: "SWE Intern", season: null, roleType: "internship", firstSeenAt: "2026-06-01T00:00:00.000Z", closedAt: "2026-07-03T00:00:00.000Z" },
+      ],
+    };
+    const merged = mergeBoard(prev, [job()], NOW);
+    expect(merged.jobs[0].firstSeenAt).toBe("2026-06-01T00:00:00.000Z");
+    expect(merged.closed).toHaveLength(0); // no longer closed
+  });
+
+  it("prunes closed entries older than 7 days", () => {
+    const prev: BoardData = {
+      updatedAt: NOW,
+      jobs: [],
+      closed: [
+        { dedupeKey: "g:old", company: "X", title: "Old", season: null, roleType: "unknown", firstSeenAt: NOW, closedAt: "2026-06-20T00:00:00.000Z" },
+        { dedupeKey: "g:recent", company: "X", title: "Recent", season: null, roleType: "unknown", firstSeenAt: NOW, closedAt: "2026-07-01T00:00:00.000Z" },
+      ],
+    };
+    const merged = mergeBoard(prev, [], NOW);
+    expect(merged.closed!.map((c) => c.dedupeKey)).toEqual(["g:recent"]);
+  });
+
+  it("carries forward jobs from companies not scanned this run instead of closing them", () => {
+    const prev: BoardData = {
+      updatedAt: NOW,
+      jobs: [
+        { ...job({ company: "OpenAI", dedupeKey: "ashby:9" }), firstSeenAt: "2026-06-01T00:00:00.000Z" } as BoardData["jobs"][number],
+      ],
+    };
+    const merged = mergeBoard(prev, [job()], NOW, ["Stripe"]); // OpenAI not scanned
+    expect(merged.jobs.map((j) => j.dedupeKey).sort()).toEqual(["ashby:9", "greenhouse:1"]);
+    expect(merged.closed).toHaveLength(0);
+
+    // Same scrape but with OpenAI scanned → its missing job closes.
+    const merged2 = mergeBoard(prev, [job()], NOW, ["Stripe", "OpenAI"]);
+    expect(merged2.jobs.map((j) => j.dedupeKey)).toEqual(["greenhouse:1"]);
+    expect(merged2.closed!.map((c) => c.dedupeKey)).toEqual(["ashby:9"]);
+  });
+});
+
+describe("closeJobs", () => {
+  it("moves the named jobs to closed (dead links)", () => {
+    const board = mergeBoard(null, [job(), job({ sourceId: "2", dedupeKey: "greenhouse:2" })], NOW);
+    const result = closeJobs(board, new Set(["greenhouse:2"]), NOW);
+    expect(result.jobs.map((j) => j.dedupeKey)).toEqual(["greenhouse:1"]);
+    expect(result.closed!.map((c) => c.dedupeKey)).toEqual(["greenhouse:2"]);
   });
 });
 
@@ -50,6 +109,17 @@ describe("isNewJob", () => {
 });
 
 describe("renderJobsMarkdown", () => {
+  it("renders the recently-closed section without apply links", () => {
+    const prev: BoardData = {
+      updatedAt: NOW,
+      jobs: [{ ...job({ dedupeKey: "g:gone", title: "Closed Intern Role", url: "https://x.test/closed" }), firstSeenAt: NOW } as BoardData["jobs"][number]],
+    };
+    const md = renderJobsMarkdown(mergeBoard(prev, [job()], NOW));
+    expect(md).toContain("## 🚪 Recently closed (last 7 days) (1)");
+    expect(md).toContain("Closed Intern Role");
+    expect(md).not.toContain("https://x.test/closed"); // no apply link for closed roles
+  });
+
   it("renders sections with apply links and escapes pipes", () => {
     const board = mergeBoard(null, [job({ title: "SWE Intern | Payments" }), job({ sourceId: "3", dedupeKey: "g:3", roleType: "new_grad", title: "New Grad SWE" })], NOW);
     const md = renderJobsMarkdown(board);

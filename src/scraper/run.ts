@@ -10,6 +10,8 @@ const COMPANY_DELAY_MS = 400; // polite gap between companies
 export interface ScrapeSummary {
   runId: string;
   companiesScanned: number;
+  /** Companies whose adapter succeeded this run (absence ≠ closure otherwise). */
+  scannedCompanies: string[];
   jobsFound: number;
   newJobs: number;
   errors: { company: string; message: string }[];
@@ -150,5 +152,13 @@ export async function runScraper(options: { companies?: string[] } = {}): Promis
     })
     .where(eq(tables.scraperRuns.id, runId));
 
-  return { runId, companiesScanned: scannedCompanies.length, jobsFound: jobs.length, newJobs, errors, jobs };
+  return {
+    runId,
+    companiesScanned: scannedCompanies.length,
+    scannedCompanies,
+    jobsFound: jobs.length,
+    newJobs,
+    errors,
+    jobs,
+  };
 }

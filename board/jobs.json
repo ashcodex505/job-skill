@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-04T20:52:04.166Z",
+ "updatedAt": "2026-07-05T06:43:10.879Z",
  "jobs": [
   {
    "dedupeKey": "greenhouse:8044460",
@@ -88,7 +88,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=4921361",
    "season": null,
    "roleType": "unknown",
-   "score": 43,
+   "score": 53,
    "matchedSkills": [
     "AWS",
     "Docker"
@@ -226,7 +226,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=7232592",
    "season": null,
    "roleType": "unknown",
-   "score": 43,
+   "score": 53,
    "matchedSkills": [
     "AWS",
     "Docker"
@@ -242,7 +242,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=6163230",
    "season": null,
    "roleType": "unknown",
-   "score": 43,
+   "score": 53,
    "matchedSkills": [
     "AWS",
     "Docker"
@@ -258,7 +258,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=7895287",
    "season": null,
    "roleType": "unknown",
-   "score": 40,
+   "score": 50,
    "matchedSkills": [],
    "firstSeenAt": "2026-07-04T20:13:25.659Z"
   },
@@ -287,7 +287,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=7325252",
    "season": null,
    "roleType": "unknown",
-   "score": 43,
+   "score": 53,
    "matchedSkills": [
     "TypeScript",
     "React"
@@ -361,7 +361,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=7532806",
    "season": null,
    "roleType": "unknown",
-   "score": 43,
+   "score": 53,
    "matchedSkills": [
     "TypeScript",
     "React"
@@ -518,7 +518,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=7896151",
    "season": null,
    "roleType": "unknown",
-   "score": 42,
+   "score": 52,
    "matchedSkills": [
     "Algorithms"
    ],
@@ -562,7 +562,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=7544547",
    "season": null,
    "roleType": "new_grad",
-   "score": 30,
+   "score": 35,
    "matchedSkills": [],
    "firstSeenAt": "2026-07-04T20:13:25.659Z"
   },
@@ -761,7 +761,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=7532256",
    "season": null,
    "roleType": "internship",
-   "score": 73,
+   "score": 83,
    "matchedSkills": [
     "Java",
     "JavaScript"
@@ -777,7 +777,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=7543868",
    "season": null,
    "roleType": "unknown",
-   "score": 43,
+   "score": 53,
    "matchedSkills": [
     "AWS",
     "Docker"
@@ -806,7 +806,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=7991718",
    "season": null,
    "roleType": "new_grad",
-   "score": 73,
+   "score": 83,
    "matchedSkills": [
     "Java",
     "JavaScript"
@@ -822,7 +822,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=7529787",
    "season": null,
    "roleType": "unknown",
-   "score": 40,
+   "score": 50,
    "matchedSkills": [],
    "firstSeenAt": "2026-07-04T20:13:25.659Z"
   },
@@ -916,7 +916,7 @@
    "url": "https://stripe.com/jobs/search?gh_jid=7718947",
    "season": null,
    "roleType": "new_grad",
-   "score": 33,
+   "score": 38,
    "matchedSkills": [
     "Python",
     "SQL"
@@ -3233,5 +3233,6 @@
    "matchedSkills": [],
    "firstSeenAt": "2026-07-04T20:13:25.659Z"
   }
- ]
+ ],
+ "closed": []
 }
