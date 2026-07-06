@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-06T09:39:23.013Z",
+ "updatedAt": "2026-07-06T13:28:15.207Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:44f63b87-48fd-489b-9f6e-71d611ee69a1",
@@ -3356,6 +3356,28 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
+   "dedupeKey": "simplifyjobs:79e05eca-1049-4e66-b595-48c413a41398",
+   "source": "simplifyjobs",
+   "company": "Stevens Institute of Technology",
+   "title": "Postdoctoral Associate-Systems Engineering",
+   "location": "Union City, NJ",
+   "url": "https://stevens.wd5.myworkdayjobs.com/External/job/Hoboken-NJ---Main-Campus/Postdoctoral-Associate-Systems-Engineering_RQ29678-1",
+   "season": null,
+   "roleType": "unknown",
+   "score": 40,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-05-30T09:04:13.000Z",
+   "firstSeenAt": "2026-07-06T13:28:15.207Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:79cff93c-d811-4bef-a7ef-af475aef4d67",
    "source": "simplifyjobs",
    "company": "Snowflake",
@@ -5655,28 +5677,6 @@
     "skills": 0
    },
    "postedAt": "2026-06-22T14:05:01.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:768e4d7c-d1fc-4490-94ba-51a4efdf2cb3",
-   "source": "simplifyjobs",
-   "company": "PNC Financial Services",
-   "title": "Associate Software Engineer - Test",
-   "location": "Birmingham, AL; Dallas, TX; Pittsburgh, PA; Strongsville, OH",
-   "url": "https://pnc.wd5.myworkdayjobs.com/External/job/Two-PNC-Plaza-PA374/Associate-Software-Engineer---Test_R221948-1",
-   "season": null,
-   "roleType": "unknown",
-   "score": 40,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-06-22T14:09:45.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
@@ -9517,28 +9517,6 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
-   "dedupeKey": "simplifyjobs:9035c047-3404-4da2-b0da-fd96bc3406de",
-   "source": "simplifyjobs",
-   "company": "Kaluza",
-   "title": "Graduate AI Engineer",
-   "location": "London, UK",
-   "url": "https://www.kaluza.com/job?gh_jid=4853154101",
-   "season": null,
-   "roleType": "unknown",
-   "score": 40,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-07-02T22:29:39.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:553c1a91-6942-422b-9b0f-8dbfd4116a9f",
    "source": "simplifyjobs",
    "company": "Cotiviti",
@@ -12295,28 +12273,6 @@
    },
    "postedAt": "2026-05-05T22:03:18.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f1c88e67-8553-477d-8de8-7eb325c1360a",
-   "source": "simplifyjobs",
-   "company": "Regal Rexnord",
-   "title": "Lab Co-op",
-   "location": "Vandalia, OH",
-   "url": "https://regalrexnord.wd1.myworkdayjobs.com/careers/job/Tipp-City-Ohio-United-States/Lab-Co-Op--Fall-2026-_R26_02156",
-   "season": null,
-   "roleType": "internship",
-   "score": 35,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 0,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-05T22:10:04.000Z",
-   "firstSeenAt": "2026-07-06T09:15:24.162Z"
   },
   {
    "dedupeKey": "simplifyjobs:2b1522e6-dea2-45f4-ad2e-0ffa0f132863",
@@ -15311,28 +15267,6 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
-   "dedupeKey": "simplifyjobs:886288f5-3a87-4305-9ad8-236ac9eb9153",
-   "source": "simplifyjobs",
-   "company": "60decibelsinc",
-   "title": "Internship Senior Signal Associate",
-   "location": "London, UK; Bengaluru, Karnataka, India; NYC",
-   "url": "https://job-boards.greenhouse.io/60decibelsinc/jobs/4684949006",
-   "season": null,
-   "roleType": "internship",
-   "score": 35,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 0,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-28T14:11:29.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:41d0ba32-8c09-48c5-917a-2ee8e6af3a8d",
    "source": "simplifyjobs",
    "company": "Meta",
@@ -17493,28 +17427,6 @@
    },
    "postedAt": "2026-06-08T09:06:07.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c1b14eaf-e140-4275-b7b5-dee377f8421d",
-   "source": "simplifyjobs",
-   "company": "Duke University",
-   "title": "Administrative Intern - Sanford School of Public Policy",
-   "location": "Durham, NC",
-   "url": "https://careers.duke.edu/job/Durham-Administrative-Intern,-Sanford-School-of-Public-Policy-NC-27710/1395747700/?ats=successfactors",
-   "season": null,
-   "roleType": "internship",
-   "score": 35,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 0,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-02T22:05:00.000Z",
-   "firstSeenAt": "2026-07-06T09:15:24.162Z"
   },
   {
    "dedupeKey": "simplifyjobs:b70cf0fc-1a6d-451a-a737-885a6a68884f",
@@ -19714,6 +19626,28 @@
     "skills": 0
    },
    "postedAt": "2026-06-16T19:40:28.000Z",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:efc03c50-2d1e-44d3-be7f-f649e778c10b",
+   "source": "simplifyjobs",
+   "company": "Magna",
+   "title": "Systems Intern",
+   "location": "Southfield, MI",
+   "url": "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Southfield-Michigan-US/Intern---Engineering_R00235414",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-13T10:12:51.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
@@ -60352,15 +60286,6 @@
    "closedAt": "2026-07-06T09:15:24.162Z"
   },
   {
-   "dedupeKey": "simplifyjobs:efc03c50-2d1e-44d3-be7f-f649e778c10b",
-   "company": "Magna",
-   "title": "Systems Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:5ed7f6fd-9a93-4c69-bc9f-6bd7b68e363a",
    "company": "CIBC",
    "title": "Data Analyst Co-op - Global Asset Management - Bilingual",
@@ -60458,6 +60383,51 @@
    "roleType": "unknown",
    "firstSeenAt": "2026-07-04T20:13:25.659Z",
    "closedAt": "2026-07-06T09:15:24.162Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:768e4d7c-d1fc-4490-94ba-51a4efdf2cb3",
+   "company": "PNC Financial Services",
+   "title": "Associate Software Engineer - Test",
+   "season": null,
+   "roleType": "unknown",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-06T13:28:15.207Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:9035c047-3404-4da2-b0da-fd96bc3406de",
+   "company": "Kaluza",
+   "title": "Graduate AI Engineer",
+   "season": null,
+   "roleType": "unknown",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-06T13:28:15.207Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f1c88e67-8553-477d-8de8-7eb325c1360a",
+   "company": "Regal Rexnord",
+   "title": "Lab Co-op",
+   "season": null,
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-06T09:15:24.162Z",
+   "closedAt": "2026-07-06T13:28:15.207Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:886288f5-3a87-4305-9ad8-236ac9eb9153",
+   "company": "60decibelsinc",
+   "title": "Internship Senior Signal Associate",
+   "season": null,
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-06T13:28:15.207Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:c1b14eaf-e140-4275-b7b5-dee377f8421d",
+   "company": "Duke University",
+   "title": "Administrative Intern - Sanford School of Public Policy",
+   "season": null,
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-06T09:15:24.162Z",
+   "closedAt": "2026-07-06T13:28:15.207Z"
   }
  ]
 }

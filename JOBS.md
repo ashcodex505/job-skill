@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
-**2591 open roles** across **557 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-06 09:39 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**2588 open roles** across **555 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-07-06 13:28 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (40)
+## 🆕 New this cycle (39)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -20,6 +20,7 @@ Last updated: **2026-07-06 09:39 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Machine Learning Engineer Intern - Monetization Technology 🆕 | San Jose, CA | — | 80% | 2026-06-15 | 2026-07-06 | [**Apply ➜**](https://lifeattiktok.com/search/7562342433721862405) |
 | Tower Research Capital | Quantitative Developer Intern 🆕 | Chicago, IL; NYC | — | 80% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8044334) |
 | Citadel Securities | Graduate Software Engineer 🆕 | Miami, FL; NYC | — | 70% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/) |
+| Stevens Institute of Technology | Postdoctoral Associate-Systems Engineering 🆕 | Union City, NJ | — | 40% | 2026-05-30 | 2026-07-06 | [**Apply ➜**](https://stevens.wd5.myworkdayjobs.com/External/job/Hoboken-NJ---Main-Campus/Postdoctoral-Associate-Systems-Engineering_RQ29678-1) |
 | Concept Plus | Junior Software Developer 🆕 | Dayton, OH | — | 40% | 2026-06-04 | 2026-07-06 | [**Apply ➜**](https://ats.rippling.com/conceptplus/jobs/916978a4-fa79-4f6e-9eb6-515aa1cf3fb5) |
 | Diligent Corporation | Software Engineer 2 🆕 | Vancouver, BC, Canada | — | 40% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/diligentcorporation/jobs/6020954004) |
 | Metropolitan Transportation Authority | Application Developer 3 - Data and AI Engineering 🆕 | NYC | — | 40% | 2026-06-08 | 2026-07-06 | [**Apply ➜**](https://jobs.jobvite.com/metropolitantransportationauthority/job/oygdzfwk?nl=1&nl=1&fr=false) |
@@ -42,14 +43,12 @@ Last updated: **2026-07-06 09:39 UTC** · auto-refreshed every 12h by [job-board
 | Citadel Securities | Quantitative Trader Intern 🆕 | Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-trader-intern-us/) |
 | Copart | Strategic Analyst Intern 🆕 | Dallas, TX | — | 35% | 2026-07-02 | 2026-07-06 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Strategic-Analyst-Intern_JR104599-1) |
 | Docugami | Data Science PhD Intern 🆕 | Kirkland, WA | — | 35% | 2026-05-15 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/docugami/jobs/4192122003) |
-| Duke University | Administrative Intern - Sanford School of Public Policy 🆕 | Durham, NC | — | 35% | 2026-06-02 | 2026-07-06 | [**Apply ➜**](https://careers.duke.edu/job/Durham-Administrative-Intern,-Sanford-School-of-Public-Policy-NC-27710/1395747700/?ats=successfactors) |
 | Eurofins | Business Intelligence Intern 🆕 | Lancaster, PA | — | 35% | 2026-06-09 | 2026-07-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/Eurofins/744000131132249) |
-| Regal Rexnord | Lab Co-op 🆕 | Vandalia, OH | — | 35% | 2026-05-05 | 2026-07-06 | [**Apply ➜**](https://regalrexnord.wd1.myworkdayjobs.com/careers/job/Tipp-City-Ohio-United-States/Lab-Co-Op--Fall-2026-_R26_02156) |
 | Smiths Detection Group | Technical Service Engineer Intern 🆕 | Parsippany-Troy Hills, NJ | — | 35% | 2026-05-27 | 2026-07-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/SmithsGroup2/744000128739981) |
 | Tower Research Capital | Quantitative Trader Intern 🆕 | NYC | — | 35% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8024138) |
 | Tower Research Capital | Quantitative Trader Intern 🆕 | Chicago, IL; NYC | — | 35% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8024128) |
 
-## 🛠️ Internships (801)
+## 🛠️ Internships (799)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -178,6 +177,7 @@ Last updated: **2026-07-06 09:39 UTC** · auto-refreshed every 12h by [job-board
 | Kognitos | Software Engineer Intern - AI-Native | San Jose, CA | — | 80% | 2026-04-16 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/Kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5/application) |
 | kos.ai | Software Engineer Intern | SF | — | 80% | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/kos.ai/efab6ffb-9658-47f7-8b5f-a295c55957d3/application) |
 | Magna | Junior Full Stack Developer Co-op | Oakville, ON, Canada | — | 80% | 2026-05-30 | 2026-07-05 | [**Apply ➜**](https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Milton-Ontario-CA/Junior-Full-Stack-Developer-Coop_R00244793) |
+| Magna | Systems Intern | Southfield, MI | — | 80% | 2026-06-13 | 2026-07-05 | [**Apply ➜**](https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Southfield-Michigan-US/Intern---Engineering_R00235414) |
 | Magna | Software Engineering Co-op | Newmarket, ON, Canada | — | 80% | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Newmarket-Ontario-CA/Software-Engineering-Co-op_R00244013) |
 | Magnet Forensics | Software Developer Co-op | Halifax Regional Municipality, NS, Canada | — | 80% | 2026-05-06 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/magnetforensics/d393ab82-448a-4dc2-87d0-a00981a55785/apply) |
 | Magnet Forensics | Software Developer Co-op | Canada; Ottawa, ON, Canada; Kitchener, ON, Canada | — | 80% | 2026-05-06 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/magnetforensics/b9fdce72-4c58-46bb-b7e2-b4bdc90390e5/apply) |
@@ -391,13 +391,10 @@ Last updated: **2026-07-06 09:39 UTC** · auto-refreshed every 12h by [job-board
 | Citadel Securities | Quantitative Trader Intern 🆕 | Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-trader-intern-us/) |
 | Copart | Strategic Analyst Intern 🆕 | Dallas, TX | — | 35% | 2026-07-02 | 2026-07-06 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Strategic-Analyst-Intern_JR104599-1) |
 | Docugami | Data Science PhD Intern 🆕 | Kirkland, WA | — | 35% | 2026-05-15 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/docugami/jobs/4192122003) |
-| Duke University | Administrative Intern - Sanford School of Public Policy 🆕 | Durham, NC | — | 35% | 2026-06-02 | 2026-07-06 | [**Apply ➜**](https://careers.duke.edu/job/Durham-Administrative-Intern,-Sanford-School-of-Public-Policy-NC-27710/1395747700/?ats=successfactors) |
 | Eurofins | Business Intelligence Intern 🆕 | Lancaster, PA | — | 35% | 2026-06-09 | 2026-07-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/Eurofins/744000131132249) |
-| Regal Rexnord | Lab Co-op 🆕 | Vandalia, OH | — | 35% | 2026-05-05 | 2026-07-06 | [**Apply ➜**](https://regalrexnord.wd1.myworkdayjobs.com/careers/job/Tipp-City-Ohio-United-States/Lab-Co-Op--Fall-2026-_R26_02156) |
 | Smiths Detection Group | Technical Service Engineer Intern 🆕 | Parsippany-Troy Hills, NJ | — | 35% | 2026-05-27 | 2026-07-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/SmithsGroup2/744000128739981) |
 | Tower Research Capital | Quantitative Trader Intern 🆕 | NYC | — | 35% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8024138) |
 | Tower Research Capital | Quantitative Trader Intern 🆕 | Chicago, IL; NYC | — | 35% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8024128) |
-| 60decibelsinc | Internship Senior Signal Associate | London, UK; Bengaluru, Karnataka, India; NYC | — | 35% | 2026-05-28 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/60decibelsinc/jobs/4684949006) |
 | ABB | Integrated Motor Drive SW Intern | Greenville, SC | — | 35% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://abb.wd3.myworkdayjobs.com/external_career_page/job/Greenville-South-Carolina-United-States-of-America/Integrated-Motor-Drive-SW-Intern---Fall-2026_JR00038957) |
 | ACLU Kentucky | Undergraduate Intern - Technology and Analytics Department-Educate Pod | NYC | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/acluinternships/jobs/8612266002) |
 | Agilent Technologies | Predictive Sales Prospecting Intern | Wilmington, DE | — | 35% | 2026-05-30 | 2026-07-05 | [**Apply ➜**](https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---Predictive-Sales-Prospecting_4038245) |
@@ -453,8 +450,10 @@ Last updated: **2026-07-06 09:39 UTC** · auto-refreshed every 12h by [job-board
 | Bot Auto | Deep Learning Engineer Intern | Houston, TX | — | 35% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/botauto/jobs/5289440008) |
 | Boys Town | Artificial Intelligence & Machine Learning Intern | Omaha, NE | — | 35% | 2026-05-30 | 2026-07-05 | [**Apply ➜**](https://boystown.wd1.myworkdayjobs.com/boystowncareers/job/Omaha-NE/Artificial-Intelligence---Machine-Learning-Intern_REQ-2026-8543-1) |
 | BP | Finance & Risk Intern - Supply - Trading | Chicago, IL | — | 35% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Illinois---Chicago/Summer-Intern---Supply--Trading----Shipping-Finance---Risk---Chicago--IL_RQ112383) |
+| BP | Finance & Risk Intern - Multiple Teams | Houston, TX | — | 35% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Texas---Houston/Summer-Intern---Supply--Trading----Shipping-Finance---Risk---Houston--TX_RQ112380) |
+| BrightAI | Computer Vision Intern | Palo Alto, CA | — | 35% | 2026-05-21 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/brightai/jobs/6002012004) |
 
-_…and 401 more (raise the cap in src/scraper/board.ts)._
+_…and 399 more (raise the cap in src/scraper/board.ts)._
 ## 🎓 New Grad (223)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
@@ -683,7 +682,7 @@ _…and 401 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | Entry Level Production Technician - TWTA | Redmond, WA | — | 30% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8477675002?gh_jid=8477675002) |
 | Workday | Director, Global Emerging Talent Programs | 2 Locations | — | 30% | — | 2026-07-05 | [**Apply ➜**](https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USA-CA-Pleasanton/Director--Global-Early-Career-Talent-Acquisition_JR-0108314) |
 
-## 🔍 Other early-career matches (1567)
+## 🔍 Other early-career matches (1566)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -1088,13 +1087,18 @@ _…and 401 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | Software Engineer, C++ - Top Secret Clearance | Hawthorne, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8377056002?gh_jid=8377056002) |
 | SpaceX | Software Engineer, DevOps (Starlink) | Redmond, WA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8573204002?gh_jid=8573204002) |
 
-_…and 1167 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (32)
+_…and 1166 more (raise the cap in src/scraper/board.ts)._
+## 🚪 Recently closed (last 7 days) (36)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| PNC Financial Services | Associate Software Engineer - Test | — | 2026-07-06 |
+| Kaluza | Graduate AI Engineer | — | 2026-07-06 |
+| Regal Rexnord | Lab Co-op | — | 2026-07-06 |
+| 60decibelsinc | Internship Senior Signal Associate | — | 2026-07-06 |
+| Duke University | Administrative Intern - Sanford School of Public Policy | — | 2026-07-06 |
 | Robert Half | Software Engineer 1 | — | 2026-07-06 |
 | SpaceX | Full Stack Software Engineer - Application Software | — | 2026-07-06 |
 | RTX | Radio Frequency Test Software Engineer | — | 2026-07-06 |
@@ -1115,7 +1119,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Zipline | Computational Physics Intern | — | 2026-07-06 |
 | Magna | Systems Engineer Intern | — | 2026-07-06 |
 | Fife Council | Systems Developer Apprentice | — | 2026-07-06 |
-| Magna | Systems Intern | — | 2026-07-06 |
 | CIBC | Data Analyst Co-op - Global Asset Management - Bilingual | — | 2026-07-06 |
 | KLA | Algorithm Engineer Intern | — | 2026-07-06 |
 | Bank of Montreal | Database Analyst Co-op/Intern | — | 2026-07-06 |
