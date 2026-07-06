@@ -54,7 +54,8 @@ async function gitSync(): Promise<string | null> {
   try {
     await git(["add", "--", FILE]);
     try {
-      await git(["commit", "-m", "chore: update watchlist from dashboard [skip ci]", "--", FILE]);
+      // No [skip ci]: this push is what triggers the immediate watch.yml run.
+      await git(["commit", "-m", "chore: update watchlist from dashboard", "--", FILE]);
     } catch {
       return null; // nothing to commit — already in sync
     }

@@ -9,6 +9,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "41 * * * *" # hourly (best-effort; GitHub cron can lag)
+  push:
+    branches: [main]
+    paths: ["career/watchlist.md"] # adding a watch in the app triggers an immediate run
 
 permissions:
   contents: write
@@ -19,7 +22,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Cheap gate (~10s): with an empty watchlist there is nothing to alert on,
+  # so the scan is skipped entirely. The 12h job-board run keeps the board
+  # fresh either way.
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      has_watches: ${{ steps.count.outputs.has_watches }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: career
+      - id: count
+        run: |
+          n=$(sed -n '/^## Watches/,$p' career/watchlist.md 2>/dev/null | grep -c '^- ' || true)
+          echo "Watches found: $n"
+          echo "has_watches=$([ "$n" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
   watch:
+    needs: guard
+    if: needs.guard.outputs.has_watches == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
