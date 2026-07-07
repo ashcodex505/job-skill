@@ -20,9 +20,14 @@ interface WatchlistState {
 
 /**
  * Dashboard watchlist: the ONLY surface for adding/removing watches
- * (career/watchlist.md is app-managed). Polls /api/jobs every 5 minutes
- * while mounted so a running app surfaces new matches without a manual
- * scrape; roles first seen <24h ago are urgent-styled.
+ * (career/watchlist.md is app-managed).
+ *
+ * Polling only happens here — while this panel is mounted (dashboard open)
+ * AND at least one watch exists. Zero watches means zero client-side
+ * network activity; closing the app means zero client-side activity by
+ * construction (no JS running). The hourly watch.yml CI run is the only
+ * thing covering you the rest of the time (and it self-gates the same way:
+ * skips entirely on an empty watchlist).
  */
 export function WatchlistPanel() {
   const [state, setState] = useState<WatchlistState | null>(null);
@@ -38,14 +43,23 @@ export function WatchlistPanel() {
       .catch(() => {});
   }, []);
 
+  // Load watchlist state once on mount (cheap, no scan involved).
   useEffect(() => {
     api<WatchlistState>("/api/watchlist").then(setState).catch((e) => setError(e.message));
     loadJobs();
-    // Each tick kicks a server-side watch-scan (scrapes watched companies +
-    // the SimplifyJobs feed into the local DB; throttled server-side to
-    // ~10 min), then re-reads jobs — so new postings appear while the
-    // dashboard sits open, no manual scrape needed.
+  }, [loadJobs]);
+
+  const hasWatches = (state?.watches.length ?? 0) > 0;
+
+  // Live-scan polling: only while mounted AND watches exist. Starts/stops
+  // as watches are added/removed, not just on initial mount.
+  useEffect(() => {
+    if (!hasWatches) return;
     const tick = () => {
+      // Each tick kicks a server-side watch-scan (scrapes watched companies
+      // + the SimplifyJobs feed into the local DB; throttled server-side to
+      // ~10 min), then re-reads jobs — so new postings appear while the
+      // dashboard sits open, no manual scrape needed.
       api<{ ran: boolean }>("/api/scrape/watch", { method: "POST" })
         .catch(() => {})
         .finally(loadJobs);
@@ -53,7 +67,7 @@ export function WatchlistPanel() {
     tick();
     const timer = setInterval(tick, POLL_MS);
     return () => clearInterval(timer);
-  }, [loadJobs]);
+  }, [hasWatches, loadJobs]);
 
   async function add() {
     setBusy(true);
@@ -93,7 +107,11 @@ export function WatchlistPanel() {
       <div className="mb-2 flex items-center justify-between">
         <h2 className="flex items-center gap-2 text-sm font-semibold">
           <BellRing size={15} className="text-accent" /> Watchlist
-          <span className="text-xs font-normal text-muted">roles you want the moment they open · live-scans every ~10 min while this page is open, hourly via CI · auto-syncs to GitHub</span>
+          <span className="text-xs font-normal text-muted">
+            {hasWatches
+              ? "live-scans every ~10 min while this page is open, hourly via CI · auto-syncs to GitHub"
+              : "add a watch to start scanning — otherwise nothing runs"}
+          </span>
         </h2>
       </div>
 
