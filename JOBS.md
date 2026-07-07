@@ -1,71 +1,83 @@
 # 🎯 Job Board — SWE Early Career
 
-**2558 open roles** across **547 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-06 19:13 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**2600 open roles** across **562 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-07-07 04:28 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (56)
+## 🆕 New this cycle (68)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | NVIDIA | Performance Engineer Intern, Systems Software- Fall 2026 🆕 | US, MO, St. Louis | Fall 2026 | 100% | — | 2026-07-06 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779) |
 | Notion | Software Engineer, Early Career 🆕 | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
 | Notion | Software Engineer, Early Career (AI) 🆕 | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
-| Citadel | Software Engineer – University Graduate 🆕 | Greenwich, CT; Houston, TX; Miami, FL; NYC | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/software-engineer-university-graduate-us/) |
-| Citadel | Software Engineer Intern 🆕 | Greenwich, CT; Houston, TX; Miami, FL; NYC | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/software-engineer-intern-us/) |
-| Citadel Securities | Software Engineer Intern 🆕 | Miami, FL; NYC | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/) |
-| Headlands Tech Holdings | Research Developer New Grad 🆕 | London, UK; Chicago, IL; NYC | — | 80% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4227566009) |
-| Palantir | Software Engineer New Grad 🆕 | Denver, CO | — | 80% | 2026-06-29 | 2026-07-06 | [**Apply ➜**](https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29/apply) |
-| Palantir | Software Engineer Intern - Defense Tech 🆕 | Palo Alto, CA | — | 80% | 2026-06-29 | 2026-07-06 | [**Apply ➜**](https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d/apply) |
-| Palantir | Software Engineer Intern - Defense Tech 🆕 | NYC | — | 80% | 2026-06-29 | 2026-07-06 | [**Apply ➜**](https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e/apply) |
-| Seven Research | Core Developer Intern 🆕 | NYC | — | 80% | 2026-07-01 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/sevenresearch/jobs/4895047008) |
-| Susquehanna International Group (SIG) | Quantitative Strategy Developer Intern 🆕 | Philadelphia, PA | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11170/job?mobile=true&needsRedirect=false) |
-| TikTok | Machine Learning Engineer Intern - Monetization Technology 🆕 | San Jose, CA | — | 80% | 2026-06-15 | 2026-07-06 | [**Apply ➜**](https://lifeattiktok.com/search/7562342433721862405) |
-| Tower Research Capital | Quantitative Developer Intern 🆕 | Chicago, IL; NYC | — | 80% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8044334) |
-| Citadel Securities | Graduate Software Engineer 🆕 | Miami, FL; NYC | — | 70% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/) |
+| Ada | Software Engineer Intern 🆕 | Remote in Canada | — | 85% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/ada18/jobs/5180710007) |
+| American Bureau of Shipping | AI Software Engineering Intern 🆕 | St. John's, NL, Canada | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://hbbq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4564) |
+| Ciena | Wavelogic Systems Design Architecture Intern 🆕 | Ottawa, ON, Canada | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/WaveLogic-Systems-Design-Architecture-Intern--8-12-months-_R031286) |
+| Jane Street | Software Engineering Intern 🆕 | NYC | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/janestreet/jobs/8419303002) |
+| Notion | Software Engineer – Early Career - AI 🆕 | SF | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28/application) |
+| Notion | Software Engineer – Early Career 🆕 | SF | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application) |
+| Amentum | Entry Level Software Engineer 🆕 | Fredericksburg, VA; Dahlgren, VA | — | 70% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-VA-Dahlgren/Entry-Level-Software-Engineer_R0148259) |
+| Amentum | Entry Level Software Engineer 🆕 | Fredericksburg, VA; Dahlgren, VA | — | 70% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-VA-Dahlgren/Entry-Level-Software-Engineer_R0165144) |
 | Anduril | Software Engineer- Battlespace Awareness 🆕 | Fort Collins, Colorado, United States | — | 49% (6 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5180557007?gh_jid=5180557007) |
+| Intel | Software Engineer 🆕 | Hillsboro, OR; Phoenix, AZ | — | 45% | 2026-06-23 | 2026-07-07 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Software-Engineer_JR0285009) |
+| Stripe | Backend Engineer, Financial Connections 🆕 | NYC, Toronto, Remote in Canada | — | 45% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8047083) |
 | Hudson River Trading | Trading Systems Engineer 🆕 | Austin, TX, United States; Boulder, Colorado, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States | — | 45% (3 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8046163) |
 | Anduril | Software Engineer, Maneuver Dominance 🆕 | Costa Mesa, California, United States | — | 43% (2 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5113527007?gh_jid=5113527007) |
 | Hudson River Trading | Junior Trading Systems Engineer 🆕 | Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States | — | 43% (2 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8046074) |
 | Lyft | Machine Learning Engineer 🆕 | Toronto, Canada | — | 43% (2 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://app.careerpuck.com/job-board/lyft/job/8620859002?gh_jid=8620859002) |
+| Vestmark | Associate Java Software Engineer 🆕 | Wakefield, MA | — | 42% (1 skills) | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/vestmark/jobs/8042636) |
 | Anduril | Electrical Systems Engineer, C2 Integration 🆕 | Ashville, Ohio, United States | — | 42% (1 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5180570007?gh_jid=5180570007) |
+| Applied Systems, Inc. | Associate Software Engineer 🆕 | Toronto, ON, Canada; Dallas, TX; Chicago, IL | — | 40% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://careers-appliedsystems.icims.com/jobs/7318/job?mobile=true&needsRedirect=false) |
+| Beacon AI | Frontend Web App Engineer - Frontend/Web App 🆕 | San Carlos, CA | — | 40% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://jobs.ashbyhq.com/beaconai/c7c05f23-554c-4679-a34f-bfbd6e1de79c/application) |
+| Comcast | Full Stack Engineer - Engineer 2 - AI Agentic 🆕 | Philadelphia, PA | — | 40% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/PA---Philadelphia-1800-Arch-St/Full-Stack-Engineer-Engineer-2----AI-Agentic--_R434810) |
+| Equifax | Systems Analyst - Entry 🆕 | St. Louis, MO | — | 40% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://equifax.wd5.myworkdayjobs.com/external/job/USA---Missouri---St-Louis---Rider-Trail/Systems-Analyst---Entry_J00177495) |
+| Jane Street | Software Engineer 🆕 | NYC | — | 40% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/janestreet/jobs/8599644002) |
+| Jane Street | Machine Learning Engineer 🆕 | NYC | — | 40% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/janestreet/jobs/8611307002) |
+| Leidos | Junior System Integrator - Production Planning & Data Analysis 🆕 | Dulles, VA | — | 40% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/External/job/Sterling-VA/Junior-System-Integrator---Production-Planning---Data-Analysis_R-00186092) |
+| RTX | Software Engineer 1 🆕 | Marlborough, MA | — | 40% | 2026-05-08 | 2026-07-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/XMLNAME-2026-Raytheon-Full-Time--Software-Engineer-I--Onsite-_01844319) |
+| RTX | Software Engineer 1 🆕 | Anaheim, CA | — | 40% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-FULLERTON-676--1801-Hughes-Dr--BLDG-676/Software-Engineer-I---Onsite-_01857157) |
+| Schweitzer Engineering Laboratories | Associate Software Engineer - Artificial Intelligence / Machine Learning 🆕 | Moscow, ID | — | 40% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Associate-Software-Engineer---AI-ML_2026-21421) |
+| SpaceX | Software Engineer - Starshield 🆕 | West Athens, CA | — | 40% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8621649002) |
+| SpaceX | Software Engineer - Product Development - Starshield 🆕 | West Athens, CA | — | 40% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8621621002) |
+| STR | Associate Software Engineer 🆕 | Arlington, VA | — | 40% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4694805006) |
+| Sumitomo Electric Wiring Systems | Software Engineer 1 🆕 | Southfield, MI | — | 40% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://jobs.jobvite.com/sews/job/oYlrAfw4?nl=1&nl=1&fr=false) |
+| Tesla | AI Engineer - Whole Body Controls - Optimus 🆕 | Palo Alto, CA | — | 40% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://www.tesla.com/careers/search/job/275999) |
+| United Launch Alliance | Trajectory Simulation Software Engineer 1 🆕 | Centennial, CO | — | 40% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://jobs.ulalaunch.com/job/Centennial-Trajectory-Simulation-Software-Engineer-1-CO-80112/1406055600/?ats=successfactors) |
 | Anthropic | Software Engineer, Research Infrastructure 🆕 | San Francisco, CA \| New York City, NY | — | 40% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/anthropic/jobs/5283063008) |
 | Cloudflare | AI Builder Intern – Global Customer Engineering, Service Sales (Fall 2026) 🆕 | In-Office | Fall 2026 | 40% (3 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8044395?gh_jid=8044395) |
 | Everfox | Software Engineer 1 🆕 | Hereford, UK | — | 40% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://evergreenix.wd1.myworkdayjobs.com/external-careers2/job/GBR_WS_Malvern/Software-Engineer-I_JR500693-1) |
 | Quest Global | Software Engineer 🆕 | Wichita, KS | — | 40% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://careers.quest-global.com/global/en/job/P-120293) |
-| Stevens Institute of Technology | Postdoctoral Associate-Systems Engineering 🆕 | Union City, NJ | — | 40% | 2026-05-30 | 2026-07-06 | [**Apply ➜**](https://stevens.wd5.myworkdayjobs.com/External/job/Hoboken-NJ---Main-Campus/Postdoctoral-Associate-Systems-Engineering_RQ29678-1) |
-| Concept Plus | Junior Software Developer 🆕 | Dayton, OH | — | 40% | 2026-06-04 | 2026-07-06 | [**Apply ➜**](https://ats.rippling.com/conceptplus/jobs/916978a4-fa79-4f6e-9eb6-515aa1cf3fb5) |
-| Diligent Corporation | Software Engineer 2 🆕 | Vancouver, BC, Canada | — | 40% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/diligentcorporation/jobs/6020954004) |
-| Metropolitan Transportation Authority | Application Developer 3 - Data and AI Engineering 🆕 | NYC | — | 40% | 2026-06-08 | 2026-07-06 | [**Apply ➜**](https://jobs.jobvite.com/metropolitantransportationauthority/job/oygdzfwk?nl=1&nl=1&fr=false) |
-| PA Consulting | Salesforce Developer 🆕 | London, UK | — | 40% | 2026-06-13 | 2026-07-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/PAConsulting/744000105679055) |
-| Salesforce | Software Engineering SMTS- LLM Model building 🆕 | India - Bangalore | — | 40% | — | 2026-07-06 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Software-Engineering-SMTS--LLM-Model-building_JR350260) |
-| Salesforce | Software Engineering AMTS 🆕 | 2 Locations | — | 40% | — | 2026-07-06 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-AMTS_JR334858) |
-| Magna | Infrared Imaging & Algorithms Intern 🆕 | Goleta, CA | — | 37% (1 skills) | 2026-06-16 | 2026-07-06 | [**Apply ➜**](https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Goleta-California-US/Intern---Infrared-Imaging---Algorithms_R00247602) |
+| AlixPartners | Data Scientist Intern 🆕 | NYC | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://www.alixpartners.com/careers/7725335003?gh_jid=7725335003) |
+| Astranis | Radiation Effects Engineer Intern 🆕 | SF | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4694853006) |
+| Blue River Technology | Machine Learning Intern - Autonomy 🆕 | Santa Clara, CA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://www.bluerivertechnology.com/job/?gh_jid=7947246) |
+| Cloudflare | Data Engineer Intern 🆕 | Austin, TX | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8047201) |
+| CSL | Data Science/Analytics Co-op 🆕 | King of Prussia, PA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://csl.wd1.myworkdayjobs.com/CSL_External/job/Americas-US-PA-King-of-Prussia-CSL-Behring/Co-Op-Data-Science-Analytics_R-279483) |
+| CSL | AI Technology Product Co-op 🆕 | King of Prussia, PA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://csl.wd1.myworkdayjobs.com/CSL_External/job/Americas-US-PA-King-of-Prussia-CSL-Behring/AI-Technology-Product-Co-op_R-277204) |
+| CSL | Analytics Co-op - Strategic Forecasting & AI 🆕 | King of Prussia, PA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://csl.wd1.myworkdayjobs.com/CSL_External/job/Americas-US-PA-King-of-Prussia-CSL-Behring/Analytics-Co-op--Strategic-Forecasting---AI_R-278068) |
+| CSL | Data Science / Analytics Co-op 🆕 | King of Prussia, PA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://csl.wd1.myworkdayjobs.com/CSL_External/job/Americas-US-PA-King-of-Prussia-CSL-Behring/Co-Op-Data-Science---Analytics--Interim-6-Months-_R-278061) |
+| CSL | Data Science / Analytics Co-op 🆕 | King of Prussia, PA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://csl.wd1.myworkdayjobs.com/CSL_External/job/Americas-US-PA-King-of-Prussia-CSL-Behring/Co-Op-Data-Science---Analytics--Interim-6-Months-_R-278059) |
+| Everfox | Product Engineering Intern 🆕 | London, UK | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://evergreenix.wd1.myworkdayjobs.com/external-careers2/job/UK---London/Product-Intern_JR500719) |
+| Everfox | Product Engineer Intern 🆕 | London, UK | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://evergreenix.wd1.myworkdayjobs.com/external-careers2/job/Intern-Product-Engineeer_JR500721) |
+| Figure | Special Projects Intern 🆕 | San Jose, CA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/figureai/jobs/4694889006) |
+| General Motors | Research and Development Intern - Research & Development: AI/ML 🆕 | Mountain View, CA; Warren, MI | — | 35% | 2026-06-12 | 2026-07-07 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2026-Fall-Intern---Research---Development--AI-ML_JR-202612795) |
+| General Motors | Research and Development Intern - Research & Development 🆕 | Warren, MI | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2026-Fall-Intern---Research---Development_JR-202613027) |
+| GlobalFoundries | Design Engineer Verification New Grad 🆕 | Richardson, TX | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://globalfoundries.wd1.myworkdayjobs.com/External/job/Richardson/Design-Engineer-Verification--2026-New-College-Graduate-_JR-2601815) |
+| IMC Trading | Machine Learning Research Intern 🆕 | London, UK | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.eu.greenhouse.io/imc/jobs/4912874101) |
+| Jane Street | Quantitative Researcher Intern 🆕 | NYC | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/janestreet/jobs/8498547002) |
+| Meta | Research Scientist Intern - 3D Vision & World Simulation 🆕 | Redmond, WA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://www.metacareers.com/jobs/2839011673109571) |
+| NewsBreak | Newsbreak Venture New Grad - AI Growth Intelligence Engineer 🆕 | Mountain View, CA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/newsbreak/jobs/4694899006) |
+| Sandisk | Field Application Engineer New Grad 🆕 | Milpitas, CA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://jobs.smartrecruiters.com/Sandisk/744000136097669) |
+| TikTok | Applied Scientist Intern - Recommendation AI Lab 🆕 | San Jose, CA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://lifeattiktok.com/search/7659527183984019765) |
+| TikTok | Product Manager Intern - TikTok Ads Agent-Scaled Growth 🆕 | San Jose, CA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://lifeattiktok.com/search/7657728959042046213) |
 | Capital One | Product Development Intern 🆕 | Plano, TX; McLean, VA | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Product-Development-Internship-Program---Summer-2027_R246020-1) |
 | Capital One | Data Analyst Intern 🆕 | McLean, VA; Richmond, VA | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Data-Analyst-Intern---Summer-2027_R244317-1) |
 | Cloudflare | AI Builder Intern - Global Customer Engineering - Service Sales 🆕 | London, UK | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8044395) |
 | General Dynamics | Engineering Intern - Business Support 🆕 | Gadsden, AL | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://careers-gd-ots.icims.com/jobs/36564/job?mobile=true&needsRedirect=false) |
 | NVIDIA | Solution Architecture Intern, AI in Industry - 2026 🆕 | 3 Locations | — | 35% | — | 2026-07-06 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/Solution-Architecture-Intern--AI-in-Industry---2026_JR2014186) |
-| Citadel | Quantitative Trader Equities Quantitative Research Intern 🆕 | NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/quantitative-trader-equities-quantitative-research-intern-us/) |
-| Citadel Securities | Quantitative Research Analyst Intern 🆕 | Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-us/) |
-| Citadel Securities | Quantitative Research Analyst Bachelor's or master's degree Intern 🆕 | London, UK; Paris, France | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-bs-ms-europe/) |
-| Agilent Technologies | Predictive Sales Prospecting Intern 🆕 | Wilmington, DE | — | 35% | 2026-06-08 | 2026-07-06 | [**Apply ➜**](https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---Predictive-Sales-Prospecting_4038181) |
-| Citadel | Quantitative Research Analyst University Graduate 🆕 | Greenwich, CT; Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-us/) |
-| Citadel | Trader: Fixed Income & Macro Intern 🆕 | Greenwich, CT; Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/trader-fixed-income-macro-intern-us/) |
-| Citadel | Quantitative Research Analyst Intern 🆕 | Greenwich, CT; Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/quantitative-research-analyst-intern-us/) |
-| Citadel Securities | Quantitative Trader – University Graduate 🆕 | NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-trader-university-graduate-us-new-york/) |
-| Citadel Securities | Quantitative Trader – University Graduate 🆕 | Miami, FL | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-trader-university-graduate-us-miami/) |
-| Citadel Securities | Designated Market Maker Intern - Designated Market Maker - Trader 🆕 | NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/designated-market-maker-dmm-trader-intern-us/) |
-| Citadel Securities | Credit & Rates Rotational Trader Intern 🆕 | NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/credit-rates-rotational-trader-intern-us/) |
-| Citadel Securities | Quantitative Trader Intern 🆕 | Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-trader-intern-us/) |
-| Copart | Strategic Analyst Intern 🆕 | Dallas, TX | — | 35% | 2026-07-02 | 2026-07-06 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Strategic-Analyst-Intern_JR104599-1) |
-| Docugami | Data Science PhD Intern 🆕 | Kirkland, WA | — | 35% | 2026-05-15 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/docugami/jobs/4192122003) |
-| Eurofins | Business Intelligence Intern 🆕 | Lancaster, PA | — | 35% | 2026-06-09 | 2026-07-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/Eurofins/744000131132249) |
-| Smiths Detection Group | Technical Service Engineer Intern 🆕 | Parsippany-Troy Hills, NJ | — | 35% | 2026-05-27 | 2026-07-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/SmithsGroup2/744000128739981) |
-| Tower Research Capital | Quantitative Trader Intern 🆕 | NYC | — | 35% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8024138) |
-| Tower Research Capital | Quantitative Trader Intern 🆕 | Chicago, IL; NYC | — | 35% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8024128) |
+| Vanguard | Entry Level Application Engineer 🆕 | Charlotte, NC | — | 30% | 2026-07-02 | 2026-07-07 | [**Apply ➜**](https://vanguard.wd5.myworkdayjobs.com/en-US/contractors_restricted/job/Charlotte-NC/Entry-Level-Application-Engineer---2027-Start-Date_180113) |
 
-## 🛠️ Internships (781)
+## 🛠️ Internships (804)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -83,15 +95,14 @@ Last updated: **2026-07-06 19:13 UTC** · auto-refreshed every 12h by [job-board
 | Jump Trading | Campus Trading Team Software Engineer (Intern) | Hong Kong | — | 86% (4 skills) | 2026-02-12 | 2026-07-05 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=7565728) |
 | Palantir | Forward Deployed Software Engineer, Internship | Paris, France | — | 86% (4 skills) | 2026-05-06 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a) |
 | Ramp | Software Engineer Internship, Android | New York, NY (HQ); San Francisco, CA | — | 86% (4 skills) | 2025-08-07 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b) |
+| Ada | Software Engineer Intern 🆕 | Remote in Canada | — | 85% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/ada18/jobs/5180710007) |
 | 1Password | Developer Intern - Trust Platforms | Remote in USA; Remote in Canada | — | 85% | 2026-06-10 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/1password/8f8774dc-e400-48b1-8100-c6840b8eaed1/application) |
-| 1Password | Developer Intern - Service Development | Remote in USA; Remote in Canada | — | 85% | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/1password/b6b8c8ed-ff1c-4bc2-9dbe-5122207ea3a2/application) |
 | Ancestry | Machine Learning Engineer Co-op | Remote in USA | — | 85% | 2026-06-08 | 2026-07-05 | [**Apply ➜**](https://ancestry.wd501.myworkdayjobs.com/Careers/job/Remote/Machine-Learning-Engineer--Co-op_R003378) |
 | ASM International | Software Engineering Intern | Phoenix, AZ | — | 85% | 2026-04-22 | 2026-07-05 | [**Apply ➜**](https://www.asm.com/open-vacancies/?gh_jid=4830113101) |
 | Axway | Software Engineering Intern | Scottsdale, AZ | — | 85% | 2026-04-22 | 2026-07-05 | [**Apply ➜**](https://careers-axway.icims.com/jobs/8659/job?mobile=true&needsRedirect=false) |
 | Binance | Software Engineer Intern | Remote in USA | — | 85% | 2026-06-25 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/binance.us/c23e9aa3-0daa-4170-a5a7-b03aaa031895/application) |
 | Clerkie | Software Engineer Intern | Remote in USA | — | 85% | 2026-06-02 | 2026-07-05 | [**Apply ➜**](http://getfiber.ai/careers?gh_jid=5152467007) |
 | Great Question | AI Engineer Intern | SF; Remote in USA | — | 85% | 2026-05-21 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/greatquestion/c533196c-75d5-43b8-b1c8-dedf2437d544/application) |
-| Intel | AI Software Engineer Intern | Phoenix, AZ | — | 85% | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641) |
 | NVIDIA | PhD Research Intern - System Software and I/O Architecture | Urbana, IL; Remote in USA; Santa Clara, CA | — | 85% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667) |
 | Outmarket AI | AI Software Engineer Intern | Remote in India; Remote in USA | — | 85% | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/outmarket/8d192421-2422-42f5-854f-6a0765a949da/application) |
 | Peraton | Generative AI Engineer Intern | Remote in USA | — | 85% | 2026-06-05 | 2026-07-05 | [**Apply ➜**](https://careers-peraton.icims.com/jobs/167460/job?mobile=true&needsRedirect=false) |
@@ -120,14 +131,17 @@ Last updated: **2026-07-06 19:13 UTC** · auto-refreshed every 12h by [job-board
 | Tradeweb | Tradeweb International Intern Program - JavaScript UI Developer - Technology Division | London, UK | — | 82% (1 skills) | 2026-04-09 | 2026-07-05 | [**Apply ➜**](https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301721) |
 | Perplexity | Internship - Search Machine Learning Engineer | London | — | 82% (1 skills) | 2026-04-08 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/Perplexity/71168628-1998-47d3-87a9-be7bc56a430d) |
 | Perplexity | Internship - Search Machine Learning Engineer | Belgrade | — | 82% (1 skills) | 2026-01-13 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/Perplexity/9246cf02-26fd-4ae8-90c5-639c6e85e9e2) |
-| Citadel | Software Engineer Intern 🆕 | Greenwich, CT; Houston, TX; Miami, FL; NYC | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/software-engineer-intern-us/) |
-| Citadel Securities | Software Engineer Intern 🆕 | Miami, FL; NYC | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/) |
-| Palantir | Software Engineer Intern - Defense Tech 🆕 | Palo Alto, CA | — | 80% | 2026-06-29 | 2026-07-06 | [**Apply ➜**](https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d/apply) |
-| Palantir | Software Engineer Intern - Defense Tech 🆕 | NYC | — | 80% | 2026-06-29 | 2026-07-06 | [**Apply ➜**](https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e/apply) |
-| Seven Research | Core Developer Intern 🆕 | NYC | — | 80% | 2026-07-01 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/sevenresearch/jobs/4895047008) |
-| Susquehanna International Group (SIG) | Quantitative Strategy Developer Intern 🆕 | Philadelphia, PA | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11170/job?mobile=true&needsRedirect=false) |
-| TikTok | Machine Learning Engineer Intern - Monetization Technology 🆕 | San Jose, CA | — | 80% | 2026-06-15 | 2026-07-06 | [**Apply ➜**](https://lifeattiktok.com/search/7562342433721862405) |
-| Tower Research Capital | Quantitative Developer Intern 🆕 | Chicago, IL; NYC | — | 80% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8044334) |
+| American Bureau of Shipping | AI Software Engineering Intern 🆕 | St. John's, NL, Canada | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://hbbq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4564) |
+| Ciena | Wavelogic Systems Design Architecture Intern 🆕 | Ottawa, ON, Canada | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/WaveLogic-Systems-Design-Architecture-Intern--8-12-months-_R031286) |
+| Jane Street | Software Engineering Intern 🆕 | NYC | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/janestreet/jobs/8419303002) |
+| Citadel | Software Engineer Intern | Greenwich, CT; Houston, TX; Miami, FL; NYC | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/software-engineer-intern-us/) |
+| Citadel Securities | Software Engineer Intern | Miami, FL; NYC | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/) |
+| Palantir | Software Engineer Intern - Defense Tech | Palo Alto, CA | — | 80% | 2026-06-29 | 2026-07-06 | [**Apply ➜**](https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d/apply) |
+| Palantir | Software Engineer Intern - Defense Tech | NYC | — | 80% | 2026-06-29 | 2026-07-06 | [**Apply ➜**](https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e/apply) |
+| Seven Research | Core Developer Intern | NYC | — | 80% | 2026-07-01 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/sevenresearch/jobs/4895047008) |
+| Susquehanna International Group (SIG) | Quantitative Strategy Developer Intern | Philadelphia, PA | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11170/job?mobile=true&needsRedirect=false) |
+| TikTok | Machine Learning Engineer Intern - Monetization Technology | San Jose, CA | — | 80% | 2026-06-15 | 2026-07-06 | [**Apply ➜**](https://lifeattiktok.com/search/7562342433721862405) |
+| Tower Research Capital | Quantitative Developer Intern | Chicago, IL; NYC | — | 80% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8044334) |
 | Achievers | Software Engineering Co-op | Toronto, ON, Canada | — | 80% | 2026-05-20 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/achievers/6a348eef-0078-4d6a-bc90-f2d7077d2987/apply) |
 | ACI Worldwide  | Software Engineering Intern | Norcross, GA | — | 80% | 2026-06-19 | 2026-07-05 | [**Apply ➜**](https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19500) |
 | ACI Worldwide  | Software Engineering Intern | Norcross, GA | — | 80% | 2026-06-19 | 2026-07-05 | [**Apply ➜**](https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19501) |
@@ -175,17 +189,14 @@ Last updated: **2026-07-06 19:13 UTC** · auto-refreshed every 12h by [job-board
 | Electronic Arts | Rendering Software Engineer Intern | Orlando, FL | — | 80% | 2026-06-02 | 2026-07-05 | [**Apply ➜**](https://jobs.ea.com/en_US/careers/JobDetail/Rendering-Software-Engineer-Intern-Fall-2026/210865) |
 | EPRI | AI/ML for Power System Analysis Intern - Power Flow - State Estimation | Knoxville, TN | — | 80% | 2026-06-17 | 2026-07-05 | [**Apply ➜**](https://vhr-epri.wd1.myworkdayjobs.com/epricareers/job/Knoxville-TN/AI-ML-for-Power-System-Analysis--Power-Flow--and-State-Estimation-Fall-Student-Engineer_REQ-4018) |
 | Espa AI | Software Engineer Intern | SF | — | 80% | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/espa/6fa2d441-971f-44c4-9a4e-3304ea041cc8/application) |
-| Eulerity | Mobile iOS Developer Intern | NYC | — | 80% | 2026-04-07 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/eulerity/jobs/4671025006) |
-| Eulerity | Android Developer Intern | NYC | — | 80% | 2026-04-07 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/eulerity/jobs/4671031006) |
 | EUNA Solutions | Software Developer Co-op | Oakville, ON, Canada | — | 80% | 2026-06-02 | 2026-07-05 | [**Apply ➜**](https://euna.bamboohr.com/careers/652/) |
 | GE Appliances | Software Engineering Co-op | Louisville, KY | — | 80% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Spring-2027_REQ-26147) |
 | Gemini | Software Engineer Intern | NYC | — | 80% | 2026-05-01 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125) |
 | GenBio AI | Software Engineer Intern | Palo Alto, CA | — | 80% | 2026-06-01 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74/apply) |
+| HARMAN | Intern – Software Engineering | Sunnyvale, CA | — | 80% | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://jobsearch.harman.com/en_US/careers/JobDetail/Intern-Software-Engineering/31931) |
 | Hermeus | Modeling & Simulation Software Engineer Intern | LA | — | 80% | 2026-04-17 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d/apply) |
-| Illinois Tool Works | Software Engineer Intern | Appleton, WI | — | 80% | 2026-06-13 | 2026-07-05 | [**Apply ➜**](https://careers.itw.com/global/en/job/JR4585) |
 | IMC Trading | Software Engineer Intern | Chicago, IL | — | 80% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101) |
 | Instead | Software Engineer Intern | SF | — | 80% | 2026-06-03 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/instead/jobs/7761472003) |
-| Intel | AI Software Engineering Intern | Hillsboro, OR; Folsom, CA | — | 80% | 2026-04-29 | 2026-07-05 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639) |
 | Intuit | Software Developer Co-op | Toronto, ON, Canada | — | 80% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://jobs.intuit.com/job/toronto/fall-2026-software-developer-co-op-8-months/27595/97091591056) |
 | Kabam | Software Engineer Co-op - Gameplay | Vancouver, BC, Canada | — | 80% | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/kabam/ad42a9d4-838d-443e-be94-e18b9097851e/apply) |
 | Kinaxis | Software Developer Intern | Ottawa, ON, Canada | — | 80% | 2026-06-09 | 2026-07-05 | [**Apply ➜**](https://careers-kinaxis.icims.com/jobs/34899/job?mobile=true&needsRedirect=false) |
@@ -247,6 +258,7 @@ Last updated: **2026-07-06 19:13 UTC** · auto-refreshed every 12h by [job-board
 | Palo Alto Networks | Software Engineer Intern | California | — | 80% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011599) |
 | Palo Alto Networks | Software Engineer Intern | California | — | 80% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011589) |
 | Perplexity AI | Intern - Search Machine Learning Engineer | London, UK | — | 80% | 2026-04-08 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/Perplexity/71168628-1998-47d3-87a9-be7bc56a430d/application) |
+| Pinterest | PhD Machine Learning Intern - Visual - Recommender Systems | Palo Alto, CA; Seattle, WA; SF; NYC | — | 80% | 2026-04-20 | 2026-07-05 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=7255640) |
 | PlusAI | Machine Learning Infrastructure Engineer Intern | Santa Clara, CA | — | 80% | 2026-05-19 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/plus-2/30dd9b9b-48c8-4777-97f6-8edb30db12e4/apply) |
 | PlusAI | Software Engineer Intern - Data Infrastructure and Tools | Santa Clara, CA | — | 80% | 2026-05-19 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/plus-2/06b808df-85a1-4ddd-863c-3e1cbe61eda9/apply) |
 | PlusAI | Software Engineer Intern - Data | Santa Clara, CA | — | 80% | 2026-05-19 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/plus-2/012a2134-8a6a-4982-8f25-f906178a24e4/apply) |
@@ -381,7 +393,7 @@ Last updated: **2026-07-06 19:13 UTC** · auto-refreshed every 12h by [job-board
 | Cloudflare | Network Strategy Intern (Fall 2026) | In-Office | Fall 2026 | 38% (2 skills) | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8031027?gh_jid=8031027) |
 | Cloudflare | Network Strategy Intern (Fall 2026) | In-Office | Fall 2026 | 38% (2 skills) | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8013562?gh_jid=8013562) |
 | Instacart | Machine Learning PhD Intern, Economics (Fall) | United States - Remote | — | 38% (2 skills) | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://instacart.careers/job/?gh_jid=7532267) |
-| Magna | Infrared Imaging & Algorithms Intern 🆕 | Goleta, CA | — | 37% (1 skills) | 2026-06-16 | 2026-07-06 | [**Apply ➜**](https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Goleta-California-US/Intern---Infrared-Imaging---Algorithms_R00247602) |
+| Magna | Infrared Imaging & Algorithms Intern | Goleta, CA | — | 37% (1 skills) | 2026-06-16 | 2026-07-06 | [**Apply ➜**](https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Goleta-California-US/Intern---Infrared-Imaging---Algorithms_R00247602) |
 | Netflix | Video Algorithms Intern - Video Coding - Gaussian Splatting | LA; Los Gatos, CA | — | 37% (1 skills) | 2026-04-28 | 2026-07-05 | [**Apply ➜**](https://explore.jobs.netflix.net/careers/job/790315673635) |
 | NVIDIA | Java Engineer Intern | Santa Clara, CA | — | 37% (1 skills) | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Java-Engineering-Intern---Fall-2026_JR2019769) |
 | Airbnb | Sales Operations Intern, Italy | Milan, Italy | — | 37% (1 skills) | 2026-06-05 | 2026-07-05 | [**Apply ➜**](https://careers.airbnb.com/positions/7979270?gh_jid=7979270) |
@@ -391,26 +403,44 @@ Last updated: **2026-07-06 19:13 UTC** · auto-refreshed every 12h by [job-board
 | NVIDIA | Java Engineering Intern - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 37% (1 skills) | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Java-Engineering-Intern---Fall-2026_JR2019769) |
 | Palantir | Deployment Strategist, Internship - US Government | Honolulu, HI | — | 37% (1 skills) | 2025-12-11 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/a49d4181-a289-435a-b581-7f5af0497c8e) |
 | Verkada | Technical Support Engineering Intern - Fall 2026 | San Mateo, CA United States | Fall 2026 | 37% (1 skills) | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5017082007) |
+| AlixPartners | Data Scientist Intern 🆕 | NYC | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://www.alixpartners.com/careers/7725335003?gh_jid=7725335003) |
+| Astranis | Radiation Effects Engineer Intern 🆕 | SF | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4694853006) |
+| Blue River Technology | Machine Learning Intern - Autonomy 🆕 | Santa Clara, CA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://www.bluerivertechnology.com/job/?gh_jid=7947246) |
+| Cloudflare | Data Engineer Intern 🆕 | Austin, TX | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8047201) |
+| CSL | Data Science/Analytics Co-op 🆕 | King of Prussia, PA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://csl.wd1.myworkdayjobs.com/CSL_External/job/Americas-US-PA-King-of-Prussia-CSL-Behring/Co-Op-Data-Science-Analytics_R-279483) |
+| CSL | AI Technology Product Co-op 🆕 | King of Prussia, PA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://csl.wd1.myworkdayjobs.com/CSL_External/job/Americas-US-PA-King-of-Prussia-CSL-Behring/AI-Technology-Product-Co-op_R-277204) |
+| CSL | Analytics Co-op - Strategic Forecasting & AI 🆕 | King of Prussia, PA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://csl.wd1.myworkdayjobs.com/CSL_External/job/Americas-US-PA-King-of-Prussia-CSL-Behring/Analytics-Co-op--Strategic-Forecasting---AI_R-278068) |
+| CSL | Data Science / Analytics Co-op 🆕 | King of Prussia, PA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://csl.wd1.myworkdayjobs.com/CSL_External/job/Americas-US-PA-King-of-Prussia-CSL-Behring/Co-Op-Data-Science---Analytics--Interim-6-Months-_R-278061) |
+| CSL | Data Science / Analytics Co-op 🆕 | King of Prussia, PA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://csl.wd1.myworkdayjobs.com/CSL_External/job/Americas-US-PA-King-of-Prussia-CSL-Behring/Co-Op-Data-Science---Analytics--Interim-6-Months-_R-278059) |
+| Everfox | Product Engineering Intern 🆕 | London, UK | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://evergreenix.wd1.myworkdayjobs.com/external-careers2/job/UK---London/Product-Intern_JR500719) |
+| Everfox | Product Engineer Intern 🆕 | London, UK | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://evergreenix.wd1.myworkdayjobs.com/external-careers2/job/Intern-Product-Engineeer_JR500721) |
+| Figure | Special Projects Intern 🆕 | San Jose, CA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/figureai/jobs/4694889006) |
+| General Motors | Research and Development Intern - Research & Development: AI/ML 🆕 | Mountain View, CA; Warren, MI | — | 35% | 2026-06-12 | 2026-07-07 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2026-Fall-Intern---Research---Development--AI-ML_JR-202612795) |
+| General Motors | Research and Development Intern - Research & Development 🆕 | Warren, MI | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2026-Fall-Intern---Research---Development_JR-202613027) |
+| IMC Trading | Machine Learning Research Intern 🆕 | London, UK | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.eu.greenhouse.io/imc/jobs/4912874101) |
+| Jane Street | Quantitative Researcher Intern 🆕 | NYC | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/janestreet/jobs/8498547002) |
+| Meta | Research Scientist Intern - 3D Vision & World Simulation 🆕 | Redmond, WA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://www.metacareers.com/jobs/2839011673109571) |
+| TikTok | Applied Scientist Intern - Recommendation AI Lab 🆕 | San Jose, CA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://lifeattiktok.com/search/7659527183984019765) |
+| TikTok | Product Manager Intern - TikTok Ads Agent-Scaled Growth 🆕 | San Jose, CA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://lifeattiktok.com/search/7657728959042046213) |
 | Capital One | Product Development Intern 🆕 | Plano, TX; McLean, VA | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Product-Development-Internship-Program---Summer-2027_R246020-1) |
 | Capital One | Data Analyst Intern 🆕 | McLean, VA; Richmond, VA | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Data-Analyst-Intern---Summer-2027_R244317-1) |
 | Cloudflare | AI Builder Intern - Global Customer Engineering - Service Sales 🆕 | London, UK | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8044395) |
 | General Dynamics | Engineering Intern - Business Support 🆕 | Gadsden, AL | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://careers-gd-ots.icims.com/jobs/36564/job?mobile=true&needsRedirect=false) |
 | NVIDIA | Solution Architecture Intern, AI in Industry - 2026 🆕 | 3 Locations | — | 35% | — | 2026-07-06 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/Solution-Architecture-Intern--AI-in-Industry---2026_JR2014186) |
-| Citadel | Quantitative Trader Equities Quantitative Research Intern 🆕 | NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/quantitative-trader-equities-quantitative-research-intern-us/) |
-| Citadel Securities | Quantitative Research Analyst Intern 🆕 | Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-us/) |
-| Citadel Securities | Quantitative Research Analyst Bachelor's or master's degree Intern 🆕 | London, UK; Paris, France | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-bs-ms-europe/) |
-| Agilent Technologies | Predictive Sales Prospecting Intern 🆕 | Wilmington, DE | — | 35% | 2026-06-08 | 2026-07-06 | [**Apply ➜**](https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---Predictive-Sales-Prospecting_4038181) |
-| Citadel | Trader: Fixed Income & Macro Intern 🆕 | Greenwich, CT; Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/trader-fixed-income-macro-intern-us/) |
-| Citadel | Quantitative Research Analyst Intern 🆕 | Greenwich, CT; Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/quantitative-research-analyst-intern-us/) |
-| Citadel Securities | Designated Market Maker Intern - Designated Market Maker - Trader 🆕 | NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/designated-market-maker-dmm-trader-intern-us/) |
-| Citadel Securities | Credit & Rates Rotational Trader Intern 🆕 | NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/credit-rates-rotational-trader-intern-us/) |
-| Citadel Securities | Quantitative Trader Intern 🆕 | Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-trader-intern-us/) |
-| Copart | Strategic Analyst Intern 🆕 | Dallas, TX | — | 35% | 2026-07-02 | 2026-07-06 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Strategic-Analyst-Intern_JR104599-1) |
-| Docugami | Data Science PhD Intern 🆕 | Kirkland, WA | — | 35% | 2026-05-15 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/docugami/jobs/4192122003) |
-| Eurofins | Business Intelligence Intern 🆕 | Lancaster, PA | — | 35% | 2026-06-09 | 2026-07-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/Eurofins/744000131132249) |
-| Smiths Detection Group | Technical Service Engineer Intern 🆕 | Parsippany-Troy Hills, NJ | — | 35% | 2026-05-27 | 2026-07-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/SmithsGroup2/744000128739981) |
-| Tower Research Capital | Quantitative Trader Intern 🆕 | NYC | — | 35% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8024138) |
-| Tower Research Capital | Quantitative Trader Intern 🆕 | Chicago, IL; NYC | — | 35% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8024128) |
+| Citadel Securities | Quantitative Research Analyst Intern | Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-us/) |
+| Citadel Securities | Quantitative Research Analyst Bachelor's or master's degree Intern | London, UK; Paris, France | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-bs-ms-europe/) |
+| Agilent Technologies | Predictive Sales Prospecting Intern | Wilmington, DE | — | 35% | 2026-06-08 | 2026-07-06 | [**Apply ➜**](https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---Predictive-Sales-Prospecting_4038181) |
+| Citadel | Trader: Fixed Income & Macro Intern | Greenwich, CT; Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/trader-fixed-income-macro-intern-us/) |
+| Citadel | Quantitative Research Analyst Intern | Greenwich, CT; Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/quantitative-research-analyst-intern-us/) |
+| Citadel Securities | Designated Market Maker Intern - Designated Market Maker - Trader | NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/designated-market-maker-dmm-trader-intern-us/) |
+| Citadel Securities | Credit & Rates Rotational Trader Intern | NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/credit-rates-rotational-trader-intern-us/) |
+| Citadel Securities | Quantitative Trader Intern | Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-trader-intern-us/) |
+| Copart | Strategic Analyst Intern | Dallas, TX | — | 35% | 2026-07-02 | 2026-07-06 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Strategic-Analyst-Intern_JR104599-1) |
+| Docugami | Data Science PhD Intern | Kirkland, WA | — | 35% | 2026-05-15 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/docugami/jobs/4192122003) |
+| Eurofins | Business Intelligence Intern | Lancaster, PA | — | 35% | 2026-06-09 | 2026-07-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/Eurofins/744000131132249) |
+| Smiths Detection Group | Technical Service Engineer Intern | Parsippany-Troy Hills, NJ | — | 35% | 2026-05-27 | 2026-07-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/SmithsGroup2/744000128739981) |
+| Tower Research Capital | Quantitative Trader Intern | NYC | — | 35% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8024138) |
+| Tower Research Capital | Quantitative Trader Intern | Chicago, IL; NYC | — | 35% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://www.tower-research.com/open-positions/?gh_jid=8024128) |
 | ABB | Integrated Motor Drive SW Intern | Greenville, SC | — | 35% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://abb.wd3.myworkdayjobs.com/external_career_page/job/Greenville-South-Carolina-United-States-of-America/Integrated-Motor-Drive-SW-Intern---Fall-2026_JR00038957) |
 | ACLU Kentucky | Undergraduate Intern - Technology and Analytics Department-Educate Pod | NYC | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/acluinternships/jobs/8612266002) |
 | Agilent Technologies | Predictive Sales Prospecting Intern | Wilmington, DE | — | 35% | 2026-05-30 | 2026-07-05 | [**Apply ➜**](https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---Predictive-Sales-Prospecting_4038245) |
@@ -451,27 +481,9 @@ Last updated: **2026-07-06 19:13 UTC** · auto-refreshed every 12h by [job-board
 | Astranis | Reliability Design Associate Intern | SF | — | 35% | 2026-06-22 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4681416006) |
 | Astranis | Reliability Design Intern | SF | — | 35% | 2026-06-22 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4681472006) |
 | ATCO | Data Analytics Co-op | Edmonton, AB, Canada | — | 35% | 2026-05-14 | 2026-07-05 | [**Apply ➜**](https://eezy.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20111) |
-| ATCO | Customer Connections Co-op | Edmonton, AB, Canada | — | 35% | 2026-05-19 | 2026-07-05 | [**Apply ➜**](https://eezy.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20129) |
-| ATCO | Forestry Planning Co-op | Edmonton, AB, Canada | — | 35% | 2026-05-19 | 2026-07-05 | [**Apply ➜**](https://eezy.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20124) |
-| Axway | Business Analytics Intern | Scottsdale, AZ | — | 35% | 2026-04-22 | 2026-07-05 | [**Apply ➜**](https://careers-axway.icims.com/jobs/8663/job?mobile=true&needsRedirect=false) |
-| Blackstone | Blackstone Credit and Insurance – Quant and Portfolio Analytics Summer Analyst Intern | London, UK | — | 35% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Quant-and-Portfolio-Analytics-Summer-Analyst---London-_43819) |
-| Blue Cross Blue Shield of Michigan | IT Intern | Detroit, MI | — | 35% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/14393) |
-| Blue Origin | Avionics Software Intern | Seattle, WA; LA; Denver, CO | — | 35% | 2026-06-10 | 2026-07-05 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Spring-2027-Avionics-Software-Internship---Graduate_R66209) |
-| Bosch Home Comfort | A.1. Integration Intern | Columbia City, IN | — | 35% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://jobs.smartrecruiters.com/BoschGroup/744000134840254) |
-| Bosch Home Comfort | Foreign Trade Data Analytics Intern | Western Springs, IL | — | 35% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://jobs.smartrecruiters.com/BoschGroup/744000134542009) |
-| Boston Properties | IT Data Services Co-op | Boston, MA | — | 35% | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://edxn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_5001/job/26107) |
-| Bot Auto | Deep Learning Engineer Intern | Houston, TX | — | 35% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/botauto/jobs/5289440008) |
-| Boys Town | Artificial Intelligence & Machine Learning Intern | Omaha, NE | — | 35% | 2026-05-30 | 2026-07-05 | [**Apply ➜**](https://boystown.wd1.myworkdayjobs.com/boystowncareers/job/Omaha-NE/Artificial-Intelligence---Machine-Learning-Intern_REQ-2026-8543-1) |
-| BP | Finance & Risk Intern - Supply - Trading | Chicago, IL | — | 35% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Illinois---Chicago/Summer-Intern---Supply--Trading----Shipping-Finance---Risk---Chicago--IL_RQ112383) |
-| BP | Finance & Risk Intern - Multiple Teams | Houston, TX | — | 35% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Texas---Houston/Summer-Intern---Supply--Trading----Shipping-Finance---Risk---Houston--TX_RQ112380) |
-| BrightAI | Computer Vision Intern | Palo Alto, CA | — | 35% | 2026-05-21 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/brightai/jobs/6002012004) |
-| BSE Global | Ticket Strategy & Analytics Intern | Brooklyn, NY | — | 35% | 2026-06-30 | 2026-07-05 | [**Apply ➜**](https://www.bseglobal.net/job/?gh_jid=7637035003&gh_jid=7637035003) |
-| Bugcrowd | Engineering Intern | Remote in USA | — | 35% | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/bugcrowd/jobs/8016582) |
-| ByteDance | Research Intern - AI/LLM Network | Seattle, WA | — | 35% | 2026-06-02 | 2026-07-05 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7539992380817639687/detail) |
-| ByteDance | Researcher Intern - Virtual Network | Seattle, WA | — | 35% | 2026-06-02 | 2026-07-05 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7537163899668531474/detail) |
 
-_…and 381 more (raise the cap in src/scraper/board.ts)._
-## 🎓 New Grad (222)
+_…and 404 more (raise the cap in src/scraper/board.ts)._
+## 🎓 New Grad (230)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -499,9 +511,11 @@ _…and 381 more (raise the cap in src/scraper/board.ts)._
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Stripe | Software Engineer, New Grad, Developer & End User Experience Platform | Toronto | — | 83% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991718) |
-| Citadel | Software Engineer – University Graduate 🆕 | Greenwich, CT; Houston, TX; Miami, FL; NYC | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/software-engineer-university-graduate-us/) |
-| Headlands Tech Holdings | Research Developer New Grad 🆕 | London, UK; Chicago, IL; NYC | — | 80% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4227566009) |
-| Palantir | Software Engineer New Grad 🆕 | Denver, CO | — | 80% | 2026-06-29 | 2026-07-06 | [**Apply ➜**](https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29/apply) |
+| Notion | Software Engineer – Early Career - AI 🆕 | SF | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28/application) |
+| Notion | Software Engineer – Early Career 🆕 | SF | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application) |
+| Citadel | Software Engineer – University Graduate | Greenwich, CT; Houston, TX; Miami, FL; NYC | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/software-engineer-university-graduate-us/) |
+| Headlands Tech Holdings | Research Developer New Grad | London, UK; Chicago, IL; NYC | — | 80% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4227566009) |
+| Palantir | Software Engineer New Grad | Denver, CO | — | 80% | 2026-06-29 | 2026-07-06 | [**Apply ➜**](https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29/apply) |
 | Anduril | Early Career Software Engineer | Newport Beach, CA | — | 80% | 2026-04-22 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4802146007) |
 | Collective | Software Engineer New Grad | SF | — | 80% | 2026-06-17 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/collective/40516856-b29c-4b38-b434-68be5241bacf/application) |
 | Confido | Software Engineer New Grad | NYC | — | 80% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e/application) |
@@ -548,7 +562,9 @@ _…and 381 more (raise the cap in src/scraper/board.ts)._
 | Fuze Health | Graduate Software Engineer | Remote in USA | — | 75% | 2026-06-10 | 2026-07-05 | [**Apply ➜**](https://job-boards.eu.greenhouse.io/fuzehealth/jobs/4833389101) |
 | General Dynamics Mission Systems | Entry Level Software Engineer | Scottsdale, AZ | — | 75% | 2026-06-22 | 2026-07-05 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73193/job?mobile=true&needsRedirect=false) |
 | Datalab USA | Production Programmer – Entry Level SQL Developer | Germantown, MD | — | 72% (1 skills) | 2026-06-17 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885/apply) |
-| Citadel Securities | Graduate Software Engineer 🆕 | Miami, FL; NYC | — | 70% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/) |
+| Amentum | Entry Level Software Engineer 🆕 | Fredericksburg, VA; Dahlgren, VA | — | 70% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-VA-Dahlgren/Entry-Level-Software-Engineer_R0148259) |
+| Amentum | Entry Level Software Engineer 🆕 | Fredericksburg, VA; Dahlgren, VA | — | 70% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-VA-Dahlgren/Entry-Level-Software-Engineer_R0165144) |
+| Citadel Securities | Graduate Software Engineer | Miami, FL; NYC | — | 70% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/) |
 | Abound | Graduate Software Engineer | London, UK | — | 70% | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/Abound/7ae69c2b-1dae-40c6-a5b2-8f5b42157263/application) |
 | AeroVironment | Entry-Level Software Engineer | Dayton, OH | — | 70% | 2026-06-23 | 2026-07-05 | [**Apply ➜**](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Dayton-OH/Entry-Level-Software-Engineer_8010) |
 | AG Technologies | Entry Level Software Engineer | Chesterfield, MO | — | 70% | 2026-06-22 | 2026-07-05 | [**Apply ➜**](https://jobs.smartrecruiters.com/AGTechnologies1/100730616) |
@@ -593,9 +609,12 @@ _…and 381 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Electrical (Starshield) | Hawthorne, CA | — | 37% (1 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8483305002?gh_jid=8483305002) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 37% (1 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 37% (1 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
-| Citadel | Quantitative Research Analyst University Graduate 🆕 | Greenwich, CT; Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-us/) |
-| Citadel Securities | Quantitative Trader – University Graduate 🆕 | NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-trader-university-graduate-us-new-york/) |
-| Citadel Securities | Quantitative Trader – University Graduate 🆕 | Miami, FL | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-trader-university-graduate-us-miami/) |
+| GlobalFoundries | Design Engineer Verification New Grad 🆕 | Richardson, TX | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://globalfoundries.wd1.myworkdayjobs.com/External/job/Richardson/Design-Engineer-Verification--2026-New-College-Graduate-_JR-2601815) |
+| NewsBreak | Newsbreak Venture New Grad - AI Growth Intelligence Engineer 🆕 | Mountain View, CA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/newsbreak/jobs/4694899006) |
+| Sandisk | Field Application Engineer New Grad 🆕 | Milpitas, CA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://jobs.smartrecruiters.com/Sandisk/744000136097669) |
+| Citadel | Quantitative Research Analyst University Graduate | Greenwich, CT; Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-us/) |
+| Citadel Securities | Quantitative Trader – University Graduate | NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-trader-university-graduate-us-new-york/) |
+| Citadel Securities | Quantitative Trader – University Graduate | Miami, FL | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/quantitative-trader-university-graduate-us-miami/) |
 | Applied Materials | Field Service Engineer New College Graduate Rotational Program | Austin, TX; Hillsboro, OR; Boise, ID; Albany, NY; Phoenix, AZ | — | 35% | 2026-06-22 | 2026-07-05 | [**Apply ➜**](https://amat.wd1.myworkdayjobs.com/External/job/PhoenixAZ/XMLNAME-2027-Field-Service-Engineer---New-College-Graduate-Rotational-Program---Bachelor-s-Degree_R2614610) |
 | ASM International | Field Service Engineer - Early Careers | Austin, TX | — | 35% | 2026-06-09 | 2026-07-05 | [**Apply ➜**](https://www.asm.com/open-vacancies/?gh_jid=4881845101) |
 | Authorium | Software Enginner New Grad | SF | — | 35% | 2026-06-10 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/Authorium/e9384068-af40-47b2-83cf-ec76fd8b7222/application) |
@@ -669,6 +688,7 @@ _…and 381 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Propulsion (Starship) | Starbase, TX | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8497447002?gh_jid=8497447002) |
 | SpaceX | New Graduate Engineer, Software | Hawthorne, CA | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8493079002?gh_jid=8493079002) |
 | Stripe | Operations Associate, New Grad (Mexico) | Mexico City, Mexico | — | 35% | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7544547) |
+| Vanguard | Entry Level Application Engineer 🆕 | Charlotte, NC | — | 30% | 2026-07-02 | 2026-07-07 | [**Apply ➜**](https://vanguard.wd5.myworkdayjobs.com/en-US/contractors_restricted/job/Charlotte-NC/Entry-Level-Application-Engineer---2027-Start-Date_180113) |
 | AeroVironment | Entry-Level Radar Exploitation Engineer | Dayton, OH | — | 30% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/WPAFB/Entry-Level-Radar-Exploitation-Engineer_7886) |
 | Blue Sky Innovators | Anti-Tamper Entry-Level Engineer - Support | Washington, DC | — | 30% | 2026-05-05 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/blueskyinnovators/jobs/5210882008) |
 | BP | Supply and Shipping Graduate Program - Trading | Houston, TX | — | 30% | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Supply--Trading--and-Shipping-Graduate-Program--Trading--Houston--TX_RQ099316-1) |
@@ -698,7 +718,7 @@ _…and 381 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | Entry Level Production Technician - TWTA | Redmond, WA | — | 30% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8477675002?gh_jid=8477675002) |
 | Workday | Director, Global Emerging Talent Programs | 2 Locations | — | 30% | — | 2026-07-05 | [**Apply ➜**](https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USA-CA-Pleasanton/Director--Global-Early-Career-Talent-Acquisition_JR-0108314) |
 
-## 🔍 Other early-career matches (1555)
+## 🔍 Other early-career matches (1566)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -718,8 +738,8 @@ _…and 381 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | Software Engineer (Starlink) | Bastrop, TX | — | 53% (8 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8379301002?gh_jid=8379301002) |
 | SpaceX | Software Engineer (Starlink) | Redmond, WA | — | 53% (8 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8569790002?gh_jid=8569790002) |
 | Stripe | Backend Engineer/API, Payments and Risk | Dublin, Ireland | — | 53% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=4921361) |
-| Stripe | Backend Engineer, Payments and Risk | US | — | 53% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6163230) |
 | Stripe | Backend Engineer, Payments and Risk | US | — | 53% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7232592) |
+| Stripe | Backend Engineer, Payments and Risk | US | — | 53% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6163230) |
 | Stripe | Frontend Engineer, Payments & Risk | N/A | — | 53% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7325252) |
 | Stripe | Fullstack Engineer, Internal Tools | Dublin | — | 53% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532806) |
 | Stripe | Software Engineer, Internal Systems | Bengaluru, India | — | 53% (2 skills) | 2026-07-06 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7543868) |
@@ -865,7 +885,6 @@ _…and 381 more (raise the cap in src/scraper/board.ts)._
 | OpenAI | Software Engineer, Identity Infrastructure Engineering | San Francisco; New York City; Seattle; Remote - US | — | 48% (2 skills) | 2026-02-05 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/551b0d0d-46c2-42fb-bb05-46e2fba8d4db) |
 | OpenAI | Manufacturing Test Engineer, AI Compute Infrastructure - Stargate | Remote - US | — | 48% (2 skills) | 2026-04-13 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/8a950265-0527-48f8-be3c-2923d7d96940) |
 | OpenAI | Software Engineer, Infrastructure Security | Remote - US; New York City; Seattle; San Francisco | — | 48% (2 skills) | 2025-10-06 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/98ad9beb-4f91-496c-bd16-ac0b2a8d5bb2) |
-| Stripe | Full Stack Engineer, Link | Toronto, Remote in Canada | — | 48% (2 skills) | 2026-06-30 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6447175) |
 | Stripe | Software Engineer | New York, NY | — | 48% (5 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8009143) |
 | Buyers Edge Platform | Junior Developer - Python & Go | Remote in USA | — | 47% (1 skills) | 2026-06-17 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/buyersedgeplatformrecruiting/jobs/4706922005) |
 | iboss | Full Stack Java Software Engineer | New Mexico; Pennsylvania; Oregon; California; Washington, DC; Austin, TX; Texas; Florida; Nevada; Arizona; Concord, NH; Tennessee; Virginia; Minnesota; Colorado; Utah; Massachusetts; Atlanta, GA; Ohio; Michigan; Illinois | — | 47% (1 skills) | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://jobs.jobvite.com/iboss/job/orvdAfwt?nl=1&nl=1&fr=false) |
@@ -964,11 +983,14 @@ _…and 381 more (raise the cap in src/scraper/board.ts)._
 | Stripe | Full Stack Engineer, Startup Products | N/A | — | 46% (4 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7994887) |
 | Stripe | Infrastructure Engineer, Privy | New York | — | 46% (4 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7462961) |
 | Stripe | Software Engineer | Seattle | — | 46% (4 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991636) |
-| Stripe | Software Engineer, Product Security Data Platforms | Seattle | — | 46% (4 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7761694) |
 | Stripe | Software Engineer, Product Security Data Platforms | Seattle | — | 46% (4 skills) | 2026-07-01 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8039800) |
+| Stripe | Software Engineer, Product Security Data Platforms | Seattle | — | 46% (4 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7761694) |
+| Intel | Software Engineer 🆕 | Hillsboro, OR; Phoenix, AZ | — | 45% | 2026-06-23 | 2026-07-07 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Software-Engineer_JR0285009) |
+| Stripe | Backend Engineer, Financial Connections 🆕 | NYC, Toronto, Remote in Canada | — | 45% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8047083) |
 | Hudson River Trading | Trading Systems Engineer 🆕 | Austin, TX, United States; Boulder, Colorado, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States | — | 45% (3 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8046163) |
 | Aledade | Software Engineer 1 | Remote in USA | — | 45% | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/aledade/1f5c4e2f-d8f7-4c55-aefb-d4bf300b1e6f/apply) |
 | Andrew Morgan | OneStream Developer | Remote in USA | — | 45% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://andrew-morgan.com/current-openings/?gh_jid=5288472008) |
+| Anthropic | Anthropic Fellows Program - ML Systems & Performance | London, UK; SF; Remote in USA; Remote in Canada | — | 45% | 2026-04-10 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/anthropic/jobs/5183051008) |
 | Babel Street | Data Warehouse Software Engineer 1 | Cambridge, MA; Remote in USA; Reston, VA; Solon, OH | — | 45% | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/babelstreet/jobs/8030833) |
 | candidate fyi | Full Stack / Backend Software Engineer | Remote in USA | — | 45% | 2026-06-01 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/candidate.fyi/0448a10e-863f-437f-80bb-d65ee09f8b6e/application) |
 | Censys | Software Engineer - Backend - Core Services | Remote in USA; Remote in Canada | — | 45% | 2026-05-08 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/censys/jobs/8500307002) |
@@ -1100,38 +1122,49 @@ _…and 381 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | Software Engineer, C++ - Top Secret Clearance | Hawthorne, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8377056002?gh_jid=8377056002) |
 | SpaceX | Software Engineer, DevOps (Starlink) | Redmond, WA | — | 45% (3 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8573204002?gh_jid=8573204002) |
 | SpaceX | Software Engineer, Engineering Simulation & Automation (Vehicle Engineering) | Hawthorne, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8559054002?gh_jid=8559054002) |
-| SpaceX | Software Engineer, Flight Software C++ (Starshield) | Hawthorne, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8593183002?gh_jid=8593183002) |
-| SpaceX | Software Engineer, High Assurance Test (Starshield) | Hawthorne, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8550675002?gh_jid=8550675002) |
 
-_…and 1155 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (84)
+_…and 1166 more (raise the cap in src/scraper/board.ts)._
+## 🚪 Recently closed (last 7 days) (92)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Stripe | Backend Engineer, Financial Connections | — | 2026-07-07 |
+| Stripe | Full Stack Engineer, Link | — | 2026-07-07 |
+| Torc Robotics | Software Engineer 1 - Device Drivers | — | 2026-07-07 |
+| TikTok | Software Engineer Graduate | — | 2026-07-07 |
+| Beacon AI | Frontend Web App Engineer - Frontend/Web App | — | 2026-07-07 |
+| Charles Schwab | Associate Software Developer | — | 2026-07-07 |
+| Northern Trust | AI Engineer Associate | — | 2026-07-07 |
+| Northrop Grumman | Software Engineer - Level 1 | — | 2026-07-07 |
+| Citi | Junior Applications Developer - Programmer Analyst | — | 2026-07-07 |
+| Eulerity | Mobile iOS Developer Intern | — | 2026-07-07 |
+| Eulerity | Android Developer Intern | — | 2026-07-07 |
+| Intel | AI Software Engineering Intern | — | 2026-07-07 |
+| Metropolitan Transportation Authority | Application Developer Analyst 1 - Power Apps | — | 2026-07-07 |
+| Field AI | Field Application Engineer Intern | — | 2026-07-07 |
+| Intel | AI Software Engineer Intern | — | 2026-07-07 |
+| Illinois Tool Works | Software Engineer Intern | — | 2026-07-07 |
+| Metropolitan Transportation Authority | Application Developer 1 - Peoplesoft - Tcu | — | 2026-07-07 |
+| 1Password | Developer Intern - Service Development | — | 2026-07-07 |
+| Phamily | Machine Learning Intern | — | 2026-07-07 |
+| Magna | Computer Vision Engineering Co-op | — | 2026-07-07 |
+| Citadel | Quantitative Trader Equities Quantitative Research Intern | — | 2026-07-07 |
 | LetsGetChecked | Graduate Software Engineer | — | 2026-07-06 |
-| ServiceNow | Software Engineer - Agentic AI Systems - Moveworks | — | 2026-07-06 |
 | Field AI | Agentic AI/ML Engineer | — | 2026-07-06 |
 | Stripe | Software Engineer New Grad | — | 2026-07-06 |
 | Anaplan | Associate Backend Software Engineer - Python | — | 2026-07-06 |
 | Tauck | Associate Applied AI Engineer | — | 2026-07-06 |
 | Peraton | Software Engineer | — | 2026-07-06 |
-| ServiceNow | Software Engineer - Agentic AI Systems - Moveworks | — | 2026-07-06 |
 | Leidos | Junior Software Developer | — | 2026-07-06 |
 | Sysco | Associate Web Developer - NET | — | 2026-07-06 |
 | Leidos | Software Engineer/Developer | — | 2026-07-06 |
 | Northrop Grumman | Algorithms Software Engineer - Level 2 | — | 2026-07-06 |
-| Anthropic | Anthropic Fellows Program - ML Systems & Performance | — | 2026-07-06 |
-| Pinterest | PhD Machine Learning Intern - Visual - Recommender Systems | — | 2026-07-06 |
 | Nokia | Software Designer Co-op/Intern | — | 2026-07-06 |
 | Nokia | Software Designer Co-op/Intern | — | 2026-07-06 |
 | Nokia | Web Developer Co-op/Intern | — | 2026-07-06 |
 | Nokia | Web Developer Co-op/Intern | — | 2026-07-06 |
-| ServiceNow | Futures Summit Intern | — | 2026-07-06 |
-| Scale AI | AI Builder Intern | — | 2026-07-06 |
-| Block | Applied Research Intern PhD / Graduate Co-op | — | 2026-07-06 |
-| Block | Applied Research Intern Co-op | — | 2026-07-06 |
 | Arine | Full Stack Engineer Intern | — | 2026-07-06 |
 | General Dynamics UK | Software Developer Co-op | — | 2026-07-06 |
 | Point C | Data Science AI Intern | — | 2026-07-06 |
@@ -1152,12 +1185,7 @@ Postings that disappeared from their company's feed — if one of these was on y
 | NVIDIA | Machine Learning Intern - AI Agents Conversational AI | — | 2026-07-06 |
 | NVIDIA | Machine Learning Intern - Multimodal Models Generative AI | — | 2026-07-06 |
 | Salesforce | Software Engineering Systems Engineer | — | 2026-07-06 |
-| Cloudforce | AI Agent Builder Intern | — | 2026-07-06 |
-| Sandhills Global | Software Development Intern | — | 2026-07-06 |
 | Toyota Research Institute | Human-Centered AI Intern: Human-Computer Interaction | — | 2026-07-06 |
-| Cole Engineering Services | AI Intern | — | 2026-07-06 |
-| Sandhills Global | Software Development Intern | — | 2026-07-06 |
-| HARMAN | Intern – Software Engineering | — | 2026-07-06 |
 | PNC Financial Services | Associate Software Engineer - Test | — | 2026-07-06 |
 | Kaluza | Graduate AI Engineer | — | 2026-07-06 |
 | Regal Rexnord | Lab Co-op | — | 2026-07-06 |
