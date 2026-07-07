@@ -9,3 +9,4 @@ the hourly CI watch run reads the committed copy of this file.
 
 ## Watches
 
+- Stripe — intern
