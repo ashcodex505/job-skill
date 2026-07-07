@@ -41,7 +41,17 @@ export function WatchlistPanel() {
   useEffect(() => {
     api<WatchlistState>("/api/watchlist").then(setState).catch((e) => setError(e.message));
     loadJobs();
-    const timer = setInterval(loadJobs, POLL_MS);
+    // Each tick kicks a server-side watch-scan (scrapes watched companies +
+    // the SimplifyJobs feed into the local DB; throttled server-side to
+    // ~10 min), then re-reads jobs — so new postings appear while the
+    // dashboard sits open, no manual scrape needed.
+    const tick = () => {
+      api<{ ran: boolean }>("/api/scrape/watch", { method: "POST" })
+        .catch(() => {})
+        .finally(loadJobs);
+    };
+    tick();
+    const timer = setInterval(tick, POLL_MS);
     return () => clearInterval(timer);
   }, [loadJobs]);
 
@@ -83,7 +93,7 @@ export function WatchlistPanel() {
       <div className="mb-2 flex items-center justify-between">
         <h2 className="flex items-center gap-2 text-sm font-semibold">
           <BellRing size={15} className="text-accent" /> Watchlist
-          <span className="text-xs font-normal text-muted">roles you want the moment they open · checks every 5 min while open, hourly via CI · auto-syncs to GitHub</span>
+          <span className="text-xs font-normal text-muted">roles you want the moment they open · live-scans every ~10 min while this page is open, hourly via CI · auto-syncs to GitHub</span>
         </h2>
       </div>
 
