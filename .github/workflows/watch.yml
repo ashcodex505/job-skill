@@ -16,6 +16,7 @@ on:
 permissions:
   contents: write
   issues: write
+  actions: write # lets the guard disable this workflow while the watchlist is empty
 
 concurrency:
   group: job-board # shares the group with the full run so they never race
@@ -39,6 +40,14 @@ jobs:
           n=$(sed -n '/^## Watches/,$p' career/watchlist.md 2>/dev/null | grep -c '^- ' || true)
           echo "Watches found: $n"
           echo "has_watches=$([ "$n" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+      # Empty watchlist → stop the hourly schedule entirely (no more runs in
+      # the Actions list). The app re-enables + dispatches when a watch is
+      # added; the 12h job-board run re-syncs as a backstop.
+      - name: Disable self while watchlist is empty
+        if: steps.count.outputs.has_watches == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow disable watch.yml -R ${{ github.repository }} && echo "watch.yml disabled — add a watch in the dashboard to resume"
 
   watch:
     needs: guard
@@ -79,7 +88,8 @@ jobs:
         run: |
           [ -s "$URGENT_FILE" ] || exit 0
           gh label create urgent --color B60205 --description "Watchlist match — apply now" 2>/dev/null || true
+          { echo "cc @${{ github.repository_owner }}"; echo; cat "$URGENT_FILE"; } > /tmp/urgent-body.md
           gh issue create \
             --title "🚨 URGENT: ${{ steps.board.outputs.urgent_title }}" \
             --label urgent \
-            --body-file "$URGENT_FILE"
+            --body-file /tmp/urgent-body.md

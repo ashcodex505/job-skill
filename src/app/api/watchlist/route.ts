@@ -5,6 +5,7 @@ import { promisify } from "node:util";
 import { z } from "zod";
 import { badRequest, handler, ok } from "@/lib/api";
 import { parseWatchlist, serializeWatchlist, watchEquals, type Watch } from "@/lib/career/watchlist";
+import { syncWatchWorkflow } from "@/lib/github";
 import { COMPANY_PORTALS } from "@/scraper/registry";
 
 const execFileAsync = promisify(execFile);
@@ -93,7 +94,10 @@ export const POST = handler(async (req: Request) => {
   const watches = readWatches();
   if (watches.some((w) => watchEquals(w, watch))) return badRequest("That watch already exists");
   writeWatches([...watches, watch]);
-  return state(await gitSync());
+  // Push the file, then re-enable the (possibly self-disabled) CI workflow
+  // and dispatch an immediate scan — a disabled workflow ignores the push.
+  const errors = [await gitSync(), await syncWatchWorkflow(true)].filter(Boolean);
+  return state(errors.length ? errors.join(" ") : null);
 });
 
 export const DELETE = handler(async (req: Request) => {
@@ -102,5 +106,7 @@ export const DELETE = handler(async (req: Request) => {
   const remaining = watches.filter((w) => !watchEquals(w, watch));
   if (remaining.length === watches.length) return badRequest("Watch not found");
   writeWatches(remaining);
-  return state(await gitSync());
+  // Last watch removed → disable the hourly CI workflow entirely.
+  const errors = [await gitSync(), await syncWatchWorkflow(remaining.length > 0)].filter(Boolean);
+  return state(errors.length ? errors.join(" ") : null);
 });
