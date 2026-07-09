@@ -198,10 +198,14 @@ so CI always has your latest watches with no manual git work — the dashboard
 shows a warning banner only if that sync fails. Note the push carries any
 other local commits on `main` along with it.
 
-Run policy: with an **empty watchlist the hourly scan no-ops** (a ~10s guard
-job checks and skips the scrape). Adding your first watch pushes the file,
-which **triggers an immediate run**, and the hourly schedule covers it from
-then on. GitHub cron is best-effort, so "hourly" can occasionally drift.
+Run policy: with an **empty watchlist the workflow disables itself** — no
+hourly runs at all. Adding a watch in the dashboard re-enables it via the
+GitHub API and **dispatches an immediate scan**; removing your last watch
+disables it again (the 12h job-board run re-syncs this state as a backstop
+if the app-side toggle ever fails). GitHub cron is best-effort, so "hourly"
+can occasionally drift. Alert issues/comments **@mention you**, so they push
+to the GitHub mobile app by default (no special notification settings
+needed).
 
 ## Tests & verification
 
