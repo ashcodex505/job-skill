@@ -1,88 +1,81 @@
 # 🎯 Job Board — SWE Early Career
 
-**2629 open roles** across **581 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-09 19:04 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**2620 open roles** across **577 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-07-10 08:47 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (46)
+## 🆕 New this cycle (41)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Jump Trading | Campus UI Software Engineer (Intern) 🆕 | Chicago | — | 89% (6 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8003019) |
-| Jump Trading | Campus Software Engineer (Intern) 🆕 | Chicago | — | 86% (4 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8002989) |
-| Jump Trading | Campus Systems Engineer (Intern) 🆕 | Chicago | — | 83% (2 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8007788) |
-| CACI | Software Engineer Intern 🆕 | Annapolis Junction, MD | — | 80% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/external/job/Jessup-MD-US/Software-Engineering-Intern---Fall-2026_328740) |
-| Elwood Technologies | Graduate Software Engineer - User Interface 🆕 | London, UK | — | 70% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/elwoodtechnologies/jobs/6112453004) |
-| Cloudflare | Systems Engineer, Data Intelligence & Analytics Team 🆕 | In-Office | — | 53% (8 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8050813?gh_jid=8050813) |
-| SpaceX | Full Stack Software Engineer, Data (Starlink) 🆕 | Redmond, WA | — | 49% (6 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8625149002?gh_jid=8625149002) |
-| OpenAI | Software Engineer, ChatGPT Lifestyle 🆕 | San Francisco | — | 48% (5 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/ca54cd23-2bcc-4327-bcb6-46d81ed414a8) |
-| Anthropic | Finance Systems Integration Engineer 🆕 | San Francisco, CA \| Seattle, WA | — | 46% (4 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/anthropic/jobs/5315789008) |
-| Jump Trading | Campus Software Engineer (Full-Time) 🆕 | Chicago | — | 46% (4 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8000835) |
-| SpaceX | Software Engineer, Components (Starshield) 🆕 | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8625617002?gh_jid=8625617002) |
-| SpaceX | Software Engineer, Components Test (Starshield) 🆕 | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8625615002?gh_jid=8625615002) |
-| Anduril | Software Engineer 🆕 | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5133682007?gh_jid=5133682007) |
-| Jump Trading | Campus Systems Engineer (Full-Time) 🆕 | Chicago | — | 43% (2 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8008112) |
-| SpaceX | Software Engineer, Telemetry (Starlink) 🆕 | Redmond, WA | — | 43% (2 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8625182002?gh_jid=8625182002) |
-| Databricks | Applied AI Engineer, Learning Intelligence 🆕 | United States | — | 42% (1 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://databricks.com/company/careers/open-positions/job?gh_jid=8625462002) |
-| SpaceX | Security Software Engineer (Starlink) 🆕 | Bastrop, TX | — | 42% (1 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8624833002?gh_jid=8624833002) |
-| SpaceX | Software Engineer, CDN (Starlink) 🆕 | Palo Alto, CA | — | 42% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8624953002?gh_jid=8624953002) |
-| Jump Trading | Campus Data Engineer (Intern) 🆕 | Chicago | — | 41% (4 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8002998) |
-| Abbott | Associate Engineer - Vision Systems 🆕 | Brize Norton, Carterton, UK | — | 40% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-Kingdom---Witney/Associate-Engineer--Vision-Systems----Ideal-Graduate-Opportunity_31155414) |
-| CACI | Junior Software Engineer 🆕 | Springfield, VA; St. Louis, MO; Denver, CO; Dulles, VA | — | 40% | 2026-07-02 | 2026-07-09 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/external/job/Denver-CO-US/Junior-Software-Engineer_327867) |
-| Elwood Technologies | Graduate/Junior Software Engineer - Backend 🆕 | London, UK | — | 40% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/elwoodtechnologies/jobs/6112395004) |
-| Salesforce | Systems Engineering Associate - GovCloud [Salesforce National Security] 🆕 | Virginia - Herndon | — | 40% | — | 2026-07-09 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Virginia---Herndon/Systems-Engineering-Associate---GovCloud--Salesforce-National-Security-_JR345632-1) |
-| Salesforce | Software Engineering MTS 🆕 | 3 Locations | — | 40% | — | 2026-07-09 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Washington---Bellevue/Software-Engineering-MTS_JR349609) |
-| SpaceX | Mission Integration Engineer, Mission Systems (Starshield) 🆕 | Hawthorne, CA | — | 40% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8626679002?gh_jid=8626679002) |
-| State of North Carolina | Business Systems Analyst 1 🆕 | MCAS Cherry Point, NC | — | 40% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Carteret-County-NC/Business-Systems-Analyst-I--Temporary---Carteret-_JR-119671) |
-| Thermo Fisher Scientific | AI Developer 🆕 | Birmingham, UK | — | 40% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Birmingham-United-Kingdom/AI-Developer_R-01358937-1) |
-| Salesforce | Software Engineering MTS - Full-Stack/Agentic AI Engineer 🆕 | 2 Locations | — | 40% | — | 2026-07-09 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-MTS---Full-Stack-Agentic-AI-Engineer_JR350332) |
-| Salesforce | Software Engineering MTS - Full-Stack/Agentic AI Engineer 🆕 | 2 Locations | — | 40% | — | 2026-07-09 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-MTS---Full-Stack-Agentic-AI-Engineer_JR350329) |
-| Anduril | Early Career Product Operations Rotation Program 🆕 | Costa Mesa, California, United States | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5181983007?gh_jid=5181983007) |
-| Jump Trading | Campus AI Research Engineer - Deep Learning (Intern) 🆕 | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8052338) |
-| Jump Trading | Campus AI Research Engineer (Intern) 🆕 | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8052281) |
-| Jump Trading | Campus AI Research Engineer – Research Automation (Intern) 🆕 | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8052351) |
-| Jump Trading | Campus Quantitative Researcher, PhD (Intern) 🆕 | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8049938) |
-| Jump Trading | Campus Quantitative Researcher, UG/MS (Intern) 🆕 | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=7982648) |
-| Astera | Computational Neuroscience Intern - Data Analysis and Modeling 🆕 | Oakland, CA | — | 35% | 2026-05-14 | 2026-07-09 | [**Apply ➜**](https://jobs.ashbyhq.com/astera/d20c0641-1b3e-4666-bc08-4f90ee813261/application) |
-| Cloudflare | Marketing Events and Campaigns Intern (FALL 2026) 🆕 | In-Office | Fall 2026 | 35% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8053546?gh_jid=8053546) |
-| Eulerity | Digital Marketing Intern - Technical AI & Automation 🆕 | NYC | — | 35% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/eulerity/jobs/4695806006) |
-| General Motors | Materials Science Intern 🆕 | Warren, MI | — | 35% | 2026-07-06 | 2026-07-09 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2026-Fall-Intern---Research---Development--Materials-Science---Metallurgical-Engineering_JR-202612790) |
-| NVIDIA | Formal Verification Engineer - New College Grad 2026 🆕 | US, CA, Santa Clara | 2026 New Grad | 35% | — | 2026-07-09 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Formal-Verification-Engineer---New-College-Grad-2026_JR2020837) |
-| Salesforce | Internship- Sales or Solution Engineering Paths-Copenhagen 🆕 | Denmark - Copenhagen | — | 35% | — | 2026-07-09 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Denmark---Copenhagen/Internship--Sales-or-Solution-Engineering-Paths-Copenhagen_JR335115-1) |
-| Sentara Health | AI Intern 🆕 | Virginia Beach, VA | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Intern--AI_JR-102248) |
-| Uber Freight | Data Scientist Intern 🆕 | Chicago, IL | — | 35% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/uberfreight/jobs/5194491008) |
-| Jump Trading | Campus Quantitative Trader (Intern) 🆕 | Chicago; New York | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=7848371) |
-| Agiliti | Surgical Equipment Technician 1 - Entry Level 🆕 | Kansas City, KS | — | 30% | 2026-07-01 | 2026-07-09 | [**Apply ➜**](https://agiliti.wd5.myworkdayjobs.com/careers/job/Repair-Center-and-Rigid-Lab---Kansas/Surgical-Equipment-Technician--Entry---level-_JR43692-1) |
-| Salesforce | AI Builder, Emerging Talent 🆕 | 4 Locations | — | 30% | — | 2026-07-09 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/AI-Builder--Emerging-Talent_JR341276-1) |
+| Cotiviti | AI Engineer Intern 🆕 | Remote in USA | — | 85% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://careers-cotiviti.icims.com/jobs/19531/job?mobile=true&needsRedirect=false) |
+| Stripe | Software Engineer, Intern 🆕 | Bengaluru | — | 83% (2 skills) | 2026-07-10 | 2026-07-10 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8031833) |
+| Cadence Design Systems | Software Engineer New Grad - Undergrads 🆕 | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894) |
+| Cadence Design Systems | Software Engineer New Grad - Undergrads 🆕 | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-3) |
+| Cadence Design Systems | Software Engineer New Grad - Undergrads 🆕 | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-1) |
+| Microchip Technology | Applications Engineering Intern 🆕 | Roseville, CA | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---Roseville/Intern---Applications-Engineering_R2542-26) |
+| Pylon | Software Engineer New Grad 🆕 | SF | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://jobs.ashbyhq.com/pylon-labs/38814ce7-217b-40f2-9ba5-8a7733a5691d/application) |
+| Pylon | Software Engineer Intern 🆕 | SF | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://jobs.ashbyhq.com/pylon-labs/fcea8b52-81f1-4b0c-b575-d7b180faec4d/application) |
+| Tesla | Software Engineer Intern - Energy Engineering 🆕 | Palo Alto, CA | — | 80% | 2026-07-10 | 2026-07-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/276333) |
+| Vital Lyfe | Software Engineer Intern 🆕 | Carson, CA | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af/application) |
+| Leidos | Entry Level Software Developer 🆕 | St. Louis, MO | — | 70% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/External/job/St-Louis-MO/Entry-Level-Software-Developer_R-00186923) |
+| Anduril | Production Software Engineer 🆕 | Lexington, Massachusetts, United States | — | 48% (5 skills) | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5184036007?gh_jid=5184036007) |
+| Anduril | Software Engineer, Air Defense 🆕 | Broomfield, Colorado, United States | — | 43% (2 skills) | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5134169007?gh_jid=5134169007) |
+| OpenAI | Software Engineer, GPU Infrastructure- ChatGPT Engineering 🆕 | London, UK | — | 43% (2 skills) | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b) |
+| SpaceX | RF Software Engineer (Starlink) 🆕 | Bastrop, TX | — | 43% (2 skills) | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8624761002?gh_jid=8624761002) |
+| Denso | Systems Engineer 2 🆕 | Maryville, TN | — | 40% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://hcwt.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/24809) |
+| Discord | Oracle ERP Fusion Technical Developer 🆕 | San Francisco Bay Area | — | 40% | 2026-07-10 | 2026-07-10 | [**Apply ➜**](https://job-boards.greenhouse.io/discord/jobs/8627078002) |
+| iTradeNetwork | AI/ML Software Engineer 🆕 | Oakland, CA | — | 40% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://www.itradenetwork.com/jobs/5290252008?gh_jid=5290252008) |
+| L3Harris Technologies | Associate Software Engineer 🆕 | Richardson, TX | — | 40% | 2026-07-10 | 2026-07-10 | [**Apply ➜**](https://jobs.l3harris.com/job/Richardson-Associate-Software-Engineer-TX-75080/1407459900/?ats=successfactors) |
+| RTX | Raytheon Software Engineer 1 - Electro-Optical/Infrared Advanced Products and Solutions 🆕 | McKinney, TX | — | 40% | 2026-06-10 | 2026-07-10 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WC--2501-W-University-Dr--WING-C-BLDG/XMLNAME-2026-Raytheon-Full-Time-Software-Engineer-I---EOIR-Advanced-Products-and-Solutions--Onsite-_01851718) |
+| RTX | Software Engineer 1 🆕 | San Diego, CA | — | 40% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-SAN-DIEGO-SD1--8650-Balboa-Ave--SAN-ANTONIO-BLDG/Software-Engineer-I--Onsite-_01858576) |
+| RTX | Software Engineer 1 🆕 | Fulton, MD | — | 40% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-FULTON-8170--8170-Maple-Lawn-Blvd--MAPLE-LAWN-Ste-190-200--300/Software-Engineer-I--Onsite-_01858115) |
+| Salesforce | Cloud Infrastructure Engineer 🆕 | 3 Locations | — | 40% | — | 2026-07-10 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---Redwood-City/Software-Engineering-MTS_JR346259) |
+| Salesforce | Software Engineer (Backend) - MTS 🆕 | California - Redwood City | — | 40% | — | 2026-07-10 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---Redwood-City/Software-Engineer--Backend----MTS_JR342796) |
+| SpaceX | Power Systems Engineer (Starship Avionics) 🆕 | Hawthorne, CA | — | 40% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8627410002?gh_jid=8627410002) |
+| SpaceX | Power Systems Engineer (Starship Avionics) 🆕 | Starbase, TX | — | 40% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8627222002?gh_jid=8627222002) |
+| The Boeing Company | Entry and Associate Design and Analysis Engineers - Electronic Systems Design and Analysis 🆕 | Daytona Beach, FL | — | 40% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Daytona-Beach-FL/Entry-and-Associate-Design-and-Analysis-Engineers--Electronic-Sys-Design---Analy-_JR2026516394-2) |
+| The Walt Disney Company | Product Software Engineer 1 🆕 | Bristol, CT | — | 40% | 2026-07-10 | 2026-07-10 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Bristol-CT-USA/Product-Software-Engineer-I_10155293) |
+| Walmart | Software Engineer 3 🆕 | Sunnyvale, CA | — | 40% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Crossman-Service-Building-CA-SUNNYVALE-Home-Office/XMLNAME--USA--Software-Engineer-III_R-2499802-1) |
+| Advanced Energy | Electronics Service Intern 🆕 | Fort Collins, CO | — | 35% | 2026-05-08 | 2026-07-10 | [**Apply ➜**](https://jobs.advanced-energy.com/job/Fort-Collins-Intern-Electronics-Service-CO-80525/1389595200/?ats=successfactors) |
+| Aptiv | Engineer Intern 🆕 | Kanata, Ottawa, ON, Canada | — | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Engineering-Intern---CD1_J000700248) |
+| Environmental Defense Fund | Climate & Health Intern 🆕 | NYC | — | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://osv-edf.wd5.myworkdayjobs.com/en-US/Confidential/job/Remote---US-Home/Climate---Health-Intern_REQ-002561) |
+| Later | Software Development Co-op 🆕 | Vancouver, BC, Canada | — | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://job-boards.greenhouse.io/later/jobs/8621762002) |
+| McKesson | Data Governance Analyst Intern 🆕 | Mississauga, ON, Canada | — | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/CAN-ON-Mississauga/Data-Governance-Analyst-Intern---Fall-2026_JR0149860) |
+| Micron Technology | Design Engineer New Grad - Design Engineer - DRAM Technology and Products 🆕 | Boise, ID | — | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/New-College-Grad---Design-Engineer--DRAM-Technology-and-Products_JR105519) |
+| Royal Bank of Canada | Quant Rotation Program Associate New Grad 🆕 | Toronto, ON, Canada | — | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/TORONTO-Ontario-Canada/Quant-New-Grad-Rotation-Program-Associate_R-0000172286) |
+| Salesforce | Sales Strategy Associate Analyst, CRO Analytics - New Grad 🆕 | Mexico - Mexico City | — | 35% | — | 2026-07-10 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Mexico---Mexico-City/Sales-Strategy-Associate-Analyst--CRO-Analytics---New-Grad_JR351111-1) |
+| SpaceX | December 2026 New Graduate Engineer, Mechanical (Starship) 🆕 | Starbase, TX | 2026 New Grad | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8627507002?gh_jid=8627507002) |
+| SpaceX | December 2026 New Graduate Engineer, Propulsion (Starship) 🆕 | Starbase, TX | 2026 New Grad | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8627510002?gh_jid=8627510002) |
+| Salesforce | AI Builder - Emerging Talent 🆕 | SF; McLean, VA; Chicago, IL; NYC | — | 30% | 2026-05-16 | 2026-07-10 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/Futureforce_NewGradRoles/job/California---San-Francisco/AI-Builder--Emerging-Talent_JR341276) |
+| Salesforce | AI Builder - Emerging Talent 🆕 | SF; McLean, VA; Chicago, IL; NYC | — | 30% | 2026-05-16 | 2026-07-10 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/AI-Builder--Emerging-Talent_JR341276-1) |
 
-## 🛠️ Internships (821)
+## 🛠️ Internships (810)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | NVIDIA | Performance Engineer Intern, Systems Software- Fall 2026 | US, MO, St. Louis | Fall 2026 | 100% | — | 2026-07-06 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779) |
-| MongoDB | Software Engineering Internship - Summer 2026/2027 | Sydney | Summer 2026 | 100% (7 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7768470) |
 | Notion | Software Engineer Intern (Fall 2026) | San Francisco, California | Fall 2026 | 100% (4 skills) | 2026-04-06 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
 | NVIDIA | Software Engineering Intern, JAX - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 100% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745) |
 | NVIDIA | PhD Software Engineering Intern, Decision Intelligence - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 100% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
 | NVIDIA | PhD Research Intern, System Software and I/O Architecture - Fall 2026 | 3 Locations | Fall 2026 | 100% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667) |
-| SpaceX | Fall 2026 Software Engineering Internship/Co-op | Flexible - Any SpaceX Site | Fall 2026 | 100% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002) |
+| SpaceX | Fall 2026 Software Engineering Internship/Co-op | Flexible - Any SpaceX Site | Fall 2026 | 100% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002) |
 | NVIDIA | System Software Engineering Intern, Systems Infrastructure - Summer 2026 | China, Shanghai | Summer 2026 | 90% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/System-Software-Engineer-Intern--Systems-Infrastructure--Summer-2026_JR2006824) |
 | NVIDIA | Software Engineering Intern, Neural Reconstruction - Summer 2026 | China, Shanghai | Summer 2026 | 90% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--Neural-Reconstruction---Summer-2026_JR2010555-1) |
-| Jump Trading | Campus UI Software Engineer (Intern) 🆕 | Chicago | — | 89% (6 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8003019) |
+| Jump Trading | Campus UI Software Engineer (Intern) | Chicago | — | 89% (6 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8003019) |
 | Instacart | Machine Learning Engineer, PhD Intern (Fall) | United States - Remote | — | 88% (2 skills) | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://instacart.careers/job/?gh_jid=5917202) |
-| Jump Trading | Campus Software Engineer (Intern) 🆕 | Chicago | — | 86% (4 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8002989) |
+| Jump Trading | Campus Software Engineer (Intern) | Chicago | — | 86% (4 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8002989) |
 | Anduril | 2027 Software Engineer Intern | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | — | 86% (4 skills) | 2026-07-08 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 | Jump Trading | Campus Trading Team Software Engineer (Intern) | Hong Kong | — | 86% (4 skills) | 2026-02-12 | 2026-07-05 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=7565728) |
 | Palantir | Forward Deployed Software Engineer, Internship | Paris, France | — | 86% (4 skills) | 2026-05-06 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a) |
 | Ramp | Software Engineer Internship, Android | New York, NY (HQ); San Francisco, CA | — | 86% (4 skills) | 2025-08-07 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b) |
+| Cotiviti | AI Engineer Intern 🆕 | Remote in USA | — | 85% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://careers-cotiviti.icims.com/jobs/19531/job?mobile=true&needsRedirect=false) |
 | Ada | Software Engineer Intern | Remote in Canada | — | 85% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/ada18/jobs/5180710007) |
-| 1Password | Developer Intern - Trust Platforms | Remote in USA; Remote in Canada | — | 85% | 2026-06-10 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/1password/8f8774dc-e400-48b1-8100-c6840b8eaed1/application) |
 | Ancestry | Machine Learning Engineer Co-op | Remote in USA | — | 85% | 2026-06-08 | 2026-07-05 | [**Apply ➜**](https://ancestry.wd501.myworkdayjobs.com/Careers/job/Remote/Machine-Learning-Engineer--Co-op_R003378) |
 | ASM International | Software Engineering Intern | Phoenix, AZ | — | 85% | 2026-04-22 | 2026-07-05 | [**Apply ➜**](https://www.asm.com/open-vacancies/?gh_jid=4830113101) |
 | Binance | Software Engineer Intern | Remote in USA | — | 85% | 2026-06-25 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/binance.us/c23e9aa3-0daa-4170-a5a7-b03aaa031895/application) |
 | Clerkie | Software Engineer Intern | Remote in USA | — | 85% | 2026-06-02 | 2026-07-05 | [**Apply ➜**](http://getfiber.ai/careers?gh_jid=5152467007) |
 | Great Question | AI Engineer Intern | SF; Remote in USA | — | 85% | 2026-05-21 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/greatquestion/c533196c-75d5-43b8-b1c8-dedf2437d544/application) |
-| NVIDIA | PhD Research Intern - System Software and I/O Architecture | Urbana, IL; Remote in USA; Santa Clara, CA | — | 85% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667) |
 | Peraton | Generative AI Engineer Intern | Remote in USA | — | 85% | 2026-06-05 | 2026-07-05 | [**Apply ➜**](https://careers-peraton.icims.com/jobs/167460/job?mobile=true&needsRedirect=false) |
 | PsiQuantum | System Architecture Intern | Palo Alto, CA; Bristol, UK; Remote in USA; Warrington, UK | — | 85% | 2026-06-23 | 2026-07-05 | [**Apply ➜**](https://www.psiquantum.com/apply?gh_jid=7695577003) |
 | The Campbell's Company | Agentic AI Engineer Co-op | Remote in USA | — | 85% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66015) |
@@ -99,15 +92,20 @@ Last updated: **2026-07-09 19:04 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, Internship - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1) |
 | Palantir | Software Engineer, Internship - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116) |
 | Palantir | Software Engineer, Internship - Production Infrastructure | Washington, D.C. | — | 85% (3 skills) | 2025-08-19 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86) |
-| Jump Trading | Campus Systems Engineer (Intern) 🆕 | Chicago | — | 83% (2 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8007788) |
+| Stripe | Software Engineer, Intern 🆕 | Bengaluru | — | 83% (2 skills) | 2026-07-10 | 2026-07-10 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8031833) |
+| Jump Trading | Campus Systems Engineer (Intern) | Chicago | — | 83% (2 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8007788) |
 | Perplexity | Internship - Search Backend Infra Engineer | Belgrade | — | 83% (2 skills) | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/Perplexity/be94e89b-89d5-4f2a-a58b-7929c8d97f92) |
 | Pinterest | PhD Fall Machine Learning Intern (ATG — Visual, Multimodal, and Recommender Systems) | San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US | — | 83% (2 skills) | 2026-06-04 | 2026-07-05 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=7255640) |
 | ByteDance | Machine Learning Engineer Intern - E-commerce Governance Algorithms | Seattle, WA | — | 82% (1 skills) | 2026-06-03 | 2026-07-05 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7535168003103033618/detail) |
 | ByteDance | Machine Learning Engineer Intern - E-commerce Governance Algorithms | Seattle, WA | — | 82% (1 skills) | 2026-06-03 | 2026-07-05 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7535171166420453639/detail) |
 | Tesla | Software Engineer Intern - Linux Update Systems | Palo Alto, CA | — | 82% (1 skills) | 2026-06-07 | 2026-07-05 | [**Apply ➜**](https://www.tesla.com/careers/search/job/266986) |
-| Perplexity | Internship - Search Machine Learning Engineer | London | — | 82% (1 skills) | 2026-04-08 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/Perplexity/71168628-1998-47d3-87a9-be7bc56a430d) |
 | Perplexity | Internship - Search Machine Learning Engineer | Belgrade | — | 82% (1 skills) | 2026-01-13 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/Perplexity/9246cf02-26fd-4ae8-90c5-639c6e85e9e2) |
-| CACI | Software Engineer Intern 🆕 | Annapolis Junction, MD | — | 80% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/external/job/Jessup-MD-US/Software-Engineering-Intern---Fall-2026_328740) |
+| Perplexity | Internship - Search Machine Learning Engineer | London | — | 82% (1 skills) | 2026-04-08 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/Perplexity/71168628-1998-47d3-87a9-be7bc56a430d) |
+| Microchip Technology | Applications Engineering Intern 🆕 | Roseville, CA | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---Roseville/Intern---Applications-Engineering_R2542-26) |
+| Pylon | Software Engineer Intern 🆕 | SF | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://jobs.ashbyhq.com/pylon-labs/fcea8b52-81f1-4b0c-b575-d7b180faec4d/application) |
+| Tesla | Software Engineer Intern - Energy Engineering 🆕 | Palo Alto, CA | — | 80% | 2026-07-10 | 2026-07-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/276333) |
+| Vital Lyfe | Software Engineer Intern 🆕 | Carson, CA | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af/application) |
+| CACI | Software Engineer Intern | Annapolis Junction, MD | — | 80% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/external/job/Jessup-MD-US/Software-Engineering-Intern---Fall-2026_328740) |
 | Jump Trading | Campus UI Software Engineer Intern | Chicago, IL | — | 80% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?token=8003019) |
 | Jump Trading | Campus Software Engineer Intern | Chicago, IL | — | 80% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?token=8002989) |
 | National Laboratory of the Rockies | Software and Data Infrastructure Intern | Golden, CO | — | 80% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Undergraduate-graduate-intern---software-and-data-infrastructure-for-autonomous-thin-film-experimentation--Year-Round-_R14394) |
@@ -116,7 +114,6 @@ Last updated: **2026-07-09 19:04 UTC** · auto-refreshed every 12h by [job-board
 | Northrop Grumman | Software Engineer Intern | Melbourne, FL | — | 80% | 2026-07-08 | 2026-07-08 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275) |
 | Thales | System Integration & Test Integration, Verification, Validation & Qualification Intern | Trafford, UK | — | 80% | 2026-07-08 | 2026-07-08 | [**Apply ➜**](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Cheadle/SI-T-IVVQ-Intern_R0329325-1) |
 | Amgen | Software Engineer Co-op - Multiple Teams | Burnaby, BC, Canada | — | 80% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://amgen.wd1.myworkdayjobs.com/careers/job/Canada---Burnaby/Undergraduate--Co-op-Student---Software-Engineer---Large-Molecule-Discovery---Technology_R-249424) |
-| Caterpillar Inc. | Communications & AI Intern - AI Developer | Peoria, IL | — | 80% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Peoria-Illinois/Part-time-Intern---AI-Developer_R0000376582) |
 | Tencent | Software Engineering Intern - PC Game Client Development | London, UK | — | 80% | 2026-04-18 | 2026-07-08 | [**Apply ➜**](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UK-London/Software-Engineering-Intern_R107162-1) |
 | Tencent | Software Engineering Intern - PC Game Client Development | London, UK | — | 80% | 2026-04-18 | 2026-07-08 | [**Apply ➜**](https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/UK-London/Software-Engineering-Intern_R107162) |
 | Charles River Analytics | Software Engineer Intern | Cambridge, MA | — | 80% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://cra.com/job-listings/job?gh_jid=8047653) |
@@ -174,7 +171,6 @@ Last updated: **2026-07-09 19:04 UTC** · auto-refreshed every 12h by [job-board
 | Droyd Robotics | Software Engineer Intern | SF | — | 80% | 2026-07-04 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/droyd/8d46ed05-1b38-4c68-938e-f10b4c7d4694/application) |
 | EPRI | AI/ML for Power System Analysis Intern - Power Flow - State Estimation | Knoxville, TN | — | 80% | 2026-06-17 | 2026-07-05 | [**Apply ➜**](https://vhr-epri.wd1.myworkdayjobs.com/epricareers/job/Knoxville-TN/AI-ML-for-Power-System-Analysis--Power-Flow--and-State-Estimation-Fall-Student-Engineer_REQ-4018) |
 | Espa AI | Software Engineer Intern | SF | — | 80% | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/espa/6fa2d441-971f-44c4-9a4e-3304ea041cc8/application) |
-| EUNA Solutions | Software Developer Co-op | Oakville, ON, Canada | — | 80% | 2026-06-02 | 2026-07-05 | [**Apply ➜**](https://euna.bamboohr.com/careers/652/) |
 | Gemini | Software Engineer Intern | NYC | — | 80% | 2026-05-01 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125) |
 | GenBio AI | Software Engineer Intern | Palo Alto, CA | — | 80% | 2026-06-01 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74/apply) |
 | Hermeus | Modeling & Simulation Software Engineer Intern | LA | — | 80% | 2026-04-17 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d/apply) |
@@ -256,7 +252,6 @@ Last updated: **2026-07-09 19:04 UTC** · auto-refreshed every 12h by [job-board
 | Reply | Android Developer Intern | Detroit, MI | — | 80% | 2026-05-21 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/reply/0fb458db-7cb9-4bfd-b9b6-c1c681316061/apply) |
 | Reply | IOS Developer Intern | Michigan | — | 80% | 2026-05-21 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/reply/191d1794-e52a-4573-a2d0-2952b76f9cd5/apply) |
 | Rippling | Machine Learning Software Engineer Intern | SF | — | 80% | 2026-06-05 | 2026-07-05 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781) |
-| Rippling | Full Stack Software Engineer Intern | Seattle, WA; SF; NYC | — | 80% | 2026-06-05 | 2026-07-05 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
 | Rippling | Software Engineer Intern - Backend Focused | Seattle, WA; SF; NYC | — | 80% | 2026-06-05 | 2026-07-05 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
 | Rivian and Volkswagen Group Technologies | Software Engineer Intern - Applications | Palo Alto, CA; Irvine, CA | — | 80% | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c/application) |
 | Rivian and Volkswagen Group Technologies | Software Engineer Intern - Connected Systems | Palo Alto, CA; Irvine, CA | — | 80% | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92/application) |
@@ -358,43 +353,46 @@ Last updated: **2026-07-09 19:04 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Year at Palantir - Forward Deployed Software Engineer, Internship - USG | Washington, D.C. | — | 80% | 2026-04-23 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019) |
 | Palantir | Year at Palantir - Forward Deployed Software Engineer, Internship - USG | New York, NY | — | 80% | 2026-03-20 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333) |
 | Palantir | Year at Palantir - Software Engineer, Internship | New York, NY | — | 80% | 2026-03-20 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329) |
-| Jump Trading | Campus Data Engineer (Intern) 🆕 | Chicago | — | 41% (4 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8002998) |
+| Jump Trading | Campus Data Engineer (Intern) | Chicago | — | 41% (4 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8002998) |
 | Cloudflare | Technical Support Engineer Intern (Fall 2026) | In-Office | Fall 2026 | 41% (4 skills) | 2026-07-08 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8041135?gh_jid=8041135) |
 | Cloudflare | AI Transformation Intern – Global Customer Engineering, Service Sales (Fall 2026) | In-Office | Fall 2026 | 40% (3 skills) | 2026-07-08 | 2026-07-06 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8044395?gh_jid=8044395) |
 | Anduril | 2027 Electrical Engineer Intern | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | — | 40% (3 skills) | 2026-07-08 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) |
 | Palantir | Deployment Strategist, Internship | Paris, France | — | 40% (3 skills) | 2026-05-11 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/774cf5c9-bf6a-4d77-bf60-d50ef1beb1a0) |
 | Scale AI | AI Builder Intern | San Francisco, CA; New York, NY | — | 40% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4703343005) |
-| Cloudflare | Network Strategy Intern (Fall 2026) | In-Office | Fall 2026 | 38% (2 skills) | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8013562?gh_jid=8013562) |
 | Cloudflare | Network Strategy Intern (Fall 2026) | In-Office | Fall 2026 | 38% (2 skills) | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8031027?gh_jid=8031027) |
+| Cloudflare | Network Strategy Intern (Fall 2026) | In-Office | Fall 2026 | 38% (2 skills) | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8013562?gh_jid=8013562) |
 | Instacart | Machine Learning PhD Intern, Economics (Fall) | United States - Remote | — | 38% (2 skills) | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://instacart.careers/job/?gh_jid=7532267) |
-| Jump Trading | Campus AI Research Engineer - Deep Learning (Intern) 🆕 | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8052338) |
-| Jump Trading | Campus AI Research Engineer (Intern) 🆕 | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8052281) |
-| Jump Trading | Campus AI Research Engineer – Research Automation (Intern) 🆕 | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8052351) |
-| Jump Trading | Campus Quantitative Researcher, PhD (Intern) 🆕 | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8049938) |
-| Jump Trading | Campus Quantitative Researcher, UG/MS (Intern) 🆕 | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=7982648) |
+| Jump Trading | Campus AI Research Engineer - Deep Learning (Intern) | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8052338) |
+| Jump Trading | Campus AI Research Engineer (Intern) | Chicago; New York | — | 37% (1 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8052281) |
+| Jump Trading | Campus AI Research Engineer – Research Automation (Intern) | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8052351) |
+| Jump Trading | Campus Quantitative Researcher, PhD (Intern) | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8049938) |
+| Jump Trading | Campus Quantitative Researcher, UG/MS (Intern) | Chicago; New York | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=7982648) |
 | Netflix | Video Algorithms Intern - Video Coding - Gaussian Splatting | LA; Los Gatos, CA | — | 37% (1 skills) | 2026-04-28 | 2026-07-05 | [**Apply ➜**](https://explore.jobs.netflix.net/careers/job/790315673635) |
 | NVIDIA | Java Engineer Intern | Santa Clara, CA | — | 37% (1 skills) | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Java-Engineering-Intern---Fall-2026_JR2019769) |
 | Airbnb | Sales Operations Intern, Italy | Milan, Italy | — | 37% (1 skills) | 2026-06-05 | 2026-07-05 | [**Apply ➜**](https://careers.airbnb.com/positions/7979270?gh_jid=7979270) |
 | Anduril | Naval Architect Co-op - Winter 2027 | Costa Mesa, California, United States | Winter 2027 | 37% (1 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5170844007?gh_jid=5170844007) |
-| Block (Square) | Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op) | Bay Area, CA, United States of America | — | 37% (1 skills) | 2026-07-03 | 2026-07-05 | [**Apply ➜**](http://block.xyz/careers/jobs/5108007008?gh_jid=5108007008) |
 | Block (Square) | Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op) | Toronto, Ontario , Canada | — | 37% (1 skills) | 2026-07-03 | 2026-07-05 | [**Apply ➜**](http://block.xyz/careers/jobs/5108009008?gh_jid=5108009008) |
+| Block (Square) | Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op) | Bay Area, CA, United States of America | — | 37% (1 skills) | 2026-07-03 | 2026-07-05 | [**Apply ➜**](http://block.xyz/careers/jobs/5108007008?gh_jid=5108007008) |
 | NVIDIA | Java Engineering Intern - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 37% (1 skills) | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Java-Engineering-Intern---Fall-2026_JR2019769) |
 | Palantir | Deployment Strategist, Internship - US Government | Honolulu, HI | — | 37% (1 skills) | 2025-12-11 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/a49d4181-a289-435a-b581-7f5af0497c8e) |
 | Verkada | Technical Support Engineering Intern - Fall 2026 | San Mateo, CA United States | Fall 2026 | 37% (1 skills) | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5017082007) |
-| Astera | Computational Neuroscience Intern - Data Analysis and Modeling 🆕 | Oakland, CA | — | 35% | 2026-05-14 | 2026-07-09 | [**Apply ➜**](https://jobs.ashbyhq.com/astera/d20c0641-1b3e-4666-bc08-4f90ee813261/application) |
-| Cloudflare | Marketing Events and Campaigns Intern (FALL 2026) 🆕 | In-Office | Fall 2026 | 35% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8053546?gh_jid=8053546) |
-| Eulerity | Digital Marketing Intern - Technical AI & Automation 🆕 | NYC | — | 35% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/eulerity/jobs/4695806006) |
-| General Motors | Materials Science Intern 🆕 | Warren, MI | — | 35% | 2026-07-06 | 2026-07-09 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2026-Fall-Intern---Research---Development--Materials-Science---Metallurgical-Engineering_JR-202612790) |
-| Salesforce | Internship- Sales or Solution Engineering Paths-Copenhagen 🆕 | Denmark - Copenhagen | — | 35% | — | 2026-07-09 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Denmark---Copenhagen/Internship--Sales-or-Solution-Engineering-Paths-Copenhagen_JR335115-1) |
-| Sentara Health | AI Intern 🆕 | Virginia Beach, VA | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Intern--AI_JR-102248) |
-| Uber Freight | Data Scientist Intern 🆕 | Chicago, IL | — | 35% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/uberfreight/jobs/5194491008) |
-| Jump Trading | Campus Quantitative Trader (Intern) 🆕 | Chicago; New York | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=7848371) |
+| Advanced Energy | Electronics Service Intern 🆕 | Fort Collins, CO | — | 35% | 2026-05-08 | 2026-07-10 | [**Apply ➜**](https://jobs.advanced-energy.com/job/Fort-Collins-Intern-Electronics-Service-CO-80525/1389595200/?ats=successfactors) |
+| Aptiv | Engineer Intern 🆕 | Kanata, Ottawa, ON, Canada | — | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Engineering-Intern---CD1_J000700248) |
+| Environmental Defense Fund | Climate & Health Intern 🆕 | NYC | — | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://osv-edf.wd5.myworkdayjobs.com/en-US/Confidential/job/Remote---US-Home/Climate---Health-Intern_REQ-002561) |
+| Later | Software Development Co-op 🆕 | Vancouver, BC, Canada | — | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://job-boards.greenhouse.io/later/jobs/8621762002) |
+| McKesson | Data Governance Analyst Intern 🆕 | Mississauga, ON, Canada | — | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/CAN-ON-Mississauga/Data-Governance-Analyst-Intern---Fall-2026_JR0149860) |
+| Astera | Computational Neuroscience Intern - Data Analysis and Modeling | Oakland, CA | — | 35% | 2026-05-14 | 2026-07-09 | [**Apply ➜**](https://jobs.ashbyhq.com/astera/d20c0641-1b3e-4666-bc08-4f90ee813261/application) |
+| Cloudflare | Marketing Events and Campaigns Intern (FALL 2026) | In-Office | Fall 2026 | 35% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8053546?gh_jid=8053546) |
+| Eulerity | Digital Marketing Intern - Technical AI & Automation | NYC | — | 35% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/eulerity/jobs/4695806006) |
+| Salesforce | Internship- Sales or Solution Engineering Paths-Copenhagen | Denmark - Copenhagen | — | 35% | — | 2026-07-09 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Denmark---Copenhagen/Internship--Sales-or-Solution-Engineering-Paths-Copenhagen_JR335115-1) |
+| Sentara Health | AI Intern | Virginia Beach, VA | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Intern--AI_JR-102248) |
+| Uber Freight | Data Scientist Intern | Chicago, IL | — | 35% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/uberfreight/jobs/5194491008) |
+| Jump Trading | Campus Quantitative Trader (Intern) | Chicago; New York | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=7848371) |
 | ABB | Application Engineering Intern | Lombard, IL; Alpharetta, GA | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://abb.wd3.myworkdayjobs.com/external_career_page/job/Alpharetta-Georgia-United-States-of-America/Application-Engineering-Intern---Fall-2026_JR00038999) |
 | Autodesk | AI in Design & Manufacturing Intern | Toronto, ON, Canada | — | 35% | 2026-06-13 | 2026-07-09 | [**Apply ➜**](https://autodesk.wd1.myworkdayjobs.com/Ext/job/AMER---Canada---Ontario---Toronto---University-Ave/Intern--Model-Based-Systems-Engineering_26WD94900) |
 | Autodesk | AI in Design & Manufacturing Intern | Toronto, ON, Canada | — | 35% | 2026-06-13 | 2026-07-09 | [**Apply ➜**](https://autodesk.wd1.myworkdayjobs.com/uni/job/AMER---Canada---Ontario---Toronto---University-Ave/Intern--Model-Based-Systems-Engineering_26WD94900-2) |
 | Cooper University Health Care | Business Data Analytics Intern | Philadelphia, PA | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://careers-cooperhealth.icims.com/jobs/84535/job?mobile=true&needsRedirect=false) |
 | Datasite | AI Transformation / Forward Deployed Engineer Intern - Forward Deployed Engineer | NYC | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://datasite.wd1.myworkdayjobs.com/datasite/job/USA---NY---New-York-City/AI-Transformation---Forward-Deployed-Engineer--FDE--Intern_R36255) |
-| Draper | Microsystems Integration Co-op | Cambridge, MA | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Microsystems-Integration-Intern_JR002599) |
 | DTCC | Product Management Intern | Tampa, FL; NYC | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214160) |
 | Flow Traders | Quantitative Trading Intern | NYC | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/flowtraders/jobs/8047166) |
 | Hone Health | Data Engineering Intern | Remote in USA | — | 35% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/honehealth/jobs/5308958008) |
@@ -419,10 +417,10 @@ Last updated: **2026-07-09 19:04 UTC** · auto-refreshed every 12h by [job-board
 | Cadence Design Systems | Characterization and Support Intern | San Jose, CA | — | 35% | 2026-06-12 | 2026-07-08 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Intern---Characterization-and-Support_R54998) |
 | Cadence Design Systems | Characterization and Support Intern | San Jose, CA | — | 35% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/SAN-JOSE/Intern---Characterization-and-Support_R54998-3) |
 | Cadence Design Systems | Characterization and Support Intern | San Jose, CA | — | 35% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern/job/SAN-JOSE/Intern---Characterization-and-Support_R54998-2) |
+| Citadel | Quantitative Trader: Equity Quantitative Research Intern | NYC | — | 35% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://www.citadel.com/careers/details/quantitative-trader-equity-quantitative-research-intern-us/) |
 | Copart | Technology Product Analyst Intern | Dallas, TX | — | 35% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Technology-Product-Analyst-Intern_JR109793) |
 | Democratic Governors Association | Data and Coding Intern | Washington, DC | — | 35% | 2026-07-08 | 2026-07-08 | [**Apply ➜**](https://jobs.lever.co/dga/cc41da12-5af0-41b6-b85e-301af4868bca/apply) |
 | EquipmentShare | Uptime Management Center Intern | Columbia, MO | — | 35% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://www.equipmentshare.com/careers/openings/?gh_jid=7623013) |
-| GIA | Simulation & Optimization Analyst Intern | Carlsbad, CA | — | 35% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://gia.wd1.myworkdayjobs.com/GIA/job/Gemological-Institute-of-America-Inc-Carlsbad-California/Simulation---Optimization-Analyst-Intern_R0011449) |
 | Horizon Industries | Appian Intern | Washington, DC | — | 35% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://job-boards.greenhouse.io/horizonindustrieslimited/jobs/5301639008) |
 | Marshall Wace | Technology Intern | NYC | — | 35% | 2026-07-06 | 2026-07-08 | [**Apply ➜**](https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8606238002) |
 | Medpace | Clinical Business Intelligence Intern | Cincinnati, OH | — | 35% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://careers.medpace.com/jobs/12845?icims=1) |
@@ -433,7 +431,6 @@ Last updated: **2026-07-09 19:04 UTC** · auto-refreshed every 12h by [job-board
 | Global Infrastructure | Alternative Delivery Project Analytics Intern | Chicago, IL | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://gi.wd1.myworkdayjobs.com/Global_Infrastructure/job/US--IL--Chicago---200-South-Wacker-Drive/Alternative-Delivery-Project-Analytics-Intern_5963-1) |
 | Hitachi Energy | Software Analyst Intern | Burnaby, BC, Canada | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Burnaby-British-Columbia-Canada/Software-Analyst-Intern--Fall-2026--4-8-12-months-_R1012892-1) |
 | KLA Corporation | AI Intern | Cardiff, UK | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://kla.wd1.myworkdayjobs.com/Search/job/Newport-United-Kingdom/AI-Summer-Intern_2638689) |
-| Lambda | Security Engineer Intern | SF | — | 35% | 2026-05-14 | 2026-07-07 | [**Apply ➜**](https://jobs.ashbyhq.com/lambda/0663f04c-097d-414f-b0a0-414a7cf153d6/application) |
 | Marshall Wace | Technology Intern | London, UK | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8598324002) |
 | NVIDIA | PhD Research Intern - Security and Privacy | Santa Clara, CA | — | 35% | 2026-05-14 | 2026-07-07 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Security-and-Privacy---Fall-2026_JR2010492-1) |
 | Orennia | Analytics Intern | Calgary, AB, Canada | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://boards.greenhouse.io/orennia/jobs/5277706008) |
@@ -454,27 +451,25 @@ Last updated: **2026-07-09 19:04 UTC** · auto-refreshed every 12h by [job-board
 | Meta | Research Scientist Intern - 3D Vision & World Simulation | Redmond, WA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://www.metacareers.com/jobs/2839011673109571) |
 | TikTok | Applied Scientist Intern - Recommendation AI Lab | San Jose, CA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://lifeattiktok.com/search/7659527183984019765) |
 | TikTok | Product Manager Intern - TikTok Ads Agent-Scaled Growth | San Jose, CA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://lifeattiktok.com/search/7657728959042046213) |
-| Capital One | Product Development Intern | Plano, TX; McLean, VA | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Product-Development-Internship-Program---Summer-2027_R246020-1) |
-| Capital One | Data Analyst Intern | McLean, VA; Richmond, VA | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Data-Analyst-Intern---Summer-2027_R244317-1) |
 | Cloudflare | AI Builder Intern - Global Customer Engineering - Service Sales | London, UK | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8044395) |
 | General Dynamics | Engineering Intern - Business Support | Gadsden, AL | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://careers-gd-ots.icims.com/jobs/36564/job?mobile=true&needsRedirect=false) |
 | NVIDIA | Solution Architecture Intern, AI in Industry - 2026 | 3 Locations | — | 35% | — | 2026-07-06 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/Solution-Architecture-Intern--AI-in-Industry---2026_JR2014186) |
 
-_…and 421 more (raise the cap in src/scraper/board.ts)._
-## 🎓 New Grad (237)
+_…and 410 more (raise the cap in src/scraper/board.ts)._
+## 🎓 New Grad (241)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Anduril | 2027 Early Career Software Engineer | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 New Grad | 100% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
 | Anduril | 2026 Early Career Software Engineer | Atlanta, Georgia, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Seattle, Washington, United States | 2026 New Grad | 96% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4802146007?gh_jid=4802146007) |
 | Roblox | [2026] Senior Machine Learning Engineer, Recommendation Systems - PhD Early Career | San Mateo, CA, United States | 2026 New Grad | 95% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7350081?gh_jid=7350081) |
-| Roblox | [2026] Senior Machine Learning Engineer, Account Identity - PhD Early Career | San Mateo, CA, United States | 2026 New Grad | 93% (2 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7473686?gh_jid=7473686) |
-| Roblox | [2026] Senior Machine Learning Engineer, Engine Optimization - PhD Early Career | San Mateo, CA, United States | 2026 New Grad | 93% (2 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7421746?gh_jid=7421746) |
-| Roblox | [2026] Senior Machine Learning Engineer (Systems), Embodied AI/NPCs, ML Platform - PhD Early Career | San Mateo, CA, United States | 2026 New Grad | 92% (1 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8027587?gh_jid=8027587) |
+| Roblox | [2026] Senior Machine Learning Engineer, Account Identity - PhD Early Career | San Mateo, CA, United States | 2026 New Grad | 93% (2 skills) | 2026-07-10 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7473686?gh_jid=7473686) |
+| Roblox | [2026] Senior Machine Learning Engineer, Engine Optimization - PhD Early Career | San Mateo, CA, United States | 2026 New Grad | 93% (2 skills) | 2026-07-10 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7421746?gh_jid=7421746) |
 | Roblox | [2026] Senior Machine Learning Engineer (Systems), Embodied AI/NPCs, ML Platform - PhD Early Career | San Mateo, CA, United States | 2026 New Grad | 92% (1 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8027588?gh_jid=8027588) |
+| Roblox | [2026] Senior Machine Learning Engineer (Systems), Embodied AI/NPCs, ML Platform - PhD Early Career | San Mateo, CA, United States | 2026 New Grad | 92% (1 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8027587?gh_jid=8027587) |
 | Adobe | 2026 University Graduate - Machine Learning Engineer | Seattle | 2026 New Grad | 90% | — | 2026-07-05 | [**Apply ➜**](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Seattle/XMLNAME-2026-University-Graduate---Machine-Learning-Engineer_R160133) |
-| Notion | Software Engineer, Early Career | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
 | Notion | Software Engineer, Early Career (AI) | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
+| Notion | Software Engineer, Early Career | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
 | Notion | Software Engineer, New Grad | San Francisco, California | — | 88% (5 skills) | 2026-04-23 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555) |
 | Notion | Software Engineer, New Grad (AI) | San Francisco, California | — | 86% (4 skills) | 2026-04-27 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9) |
 | Quora | Machine Learning Engineer New Grad | Remote in USA; Remote in Canada | — | 85% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/3eb7e80e-6a0d-41b6-8ee4-f62421c486e4/application) |
@@ -490,7 +485,10 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Stripe | Software Engineer, New Grad, Developer & End User Experience Platform | Toronto | — | 83% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991718) |
-| EvenUp | Software Engineer – New Grad - Cases Product | Toronto, ON, Canada; SF | — | 80% | 2026-04-11 | 2026-07-09 | [**Apply ➜**](https://jobs.ashbyhq.com/evenup/41488eae-50a9-4ad3-b6e0-2fd28efb238e/application) |
+| Cadence Design Systems | Software Engineer New Grad - Undergrads 🆕 | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894) |
+| Cadence Design Systems | Software Engineer New Grad - Undergrads 🆕 | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-3) |
+| Cadence Design Systems | Software Engineer New Grad - Undergrads 🆕 | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-1) |
+| Pylon | Software Engineer New Grad 🆕 | SF | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://jobs.ashbyhq.com/pylon-labs/38814ce7-217b-40f2-9ba5-8a7733a5691d/application) |
 | Cerebras | Software Engineer New Grad | Sunnyvale, CA | — | 80% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://jobs.ashbyhq.com/cerebras/987d7f64-c957-4c8f-b89d-2f9d64738507/application) |
 | Cerebras | Software Engineer New Grad | Toronto, ON, Canada; Sunnyvale, CA | — | 80% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://jobs.ashbyhq.com/cerebras/99c289fa-8fc6-49f7-b7e8-78ac4e9d99ac/application) |
 | Notion | Software Engineer – Early Career - AI | SF | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28/application) |
@@ -540,7 +538,8 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Fuze Health | Graduate Software Engineer | Remote in USA | — | 75% | 2026-06-10 | 2026-07-05 | [**Apply ➜**](https://job-boards.eu.greenhouse.io/fuzehealth/jobs/4833389101) |
 | General Dynamics Mission Systems | Entry Level Software Engineer | Scottsdale, AZ | — | 75% | 2026-06-22 | 2026-07-05 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73193/job?mobile=true&needsRedirect=false) |
 | Datalab USA | Production Programmer – Entry Level SQL Developer | Germantown, MD | — | 72% (1 skills) | 2026-06-17 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885/apply) |
-| Elwood Technologies | Graduate Software Engineer - User Interface 🆕 | London, UK | — | 70% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/elwoodtechnologies/jobs/6112453004) |
+| Leidos | Entry Level Software Developer 🆕 | St. Louis, MO | — | 70% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/External/job/St-Louis-MO/Entry-Level-Software-Developer_R-00186923) |
+| Elwood Technologies | Graduate Software Engineer - User Interface | London, UK | — | 70% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/elwoodtechnologies/jobs/6112453004) |
 | Momentum | Launch Graduate Program: Associate Enterprise Systems Analyst | Dallas, TX | — | 70% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/momentumcompany3/jobs/8606824002) |
 | Applied Materials | Software Engineer 2 – New College Grad | Santa Clara, CA | — | 70% | 2026-07-08 | 2026-07-08 | [**Apply ➜**](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineer-II--New-College-Grad---Santa-Clara--CA-_R2622398) |
 | ByteDance | Graduate Software Engineer - Dev Infra | San Jose, CA | — | 70% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7536272435440716040/detail) |
@@ -562,7 +561,6 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | General Dynamics Mission Systems | Entry Level Infrastructure Software Engineer | Pittsfield, MA | — | 70% | 2026-05-13 | 2026-07-05 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72580/job?mobile=true&needsRedirect=false) |
 | General Dynamics Mission Systems | Software Engineer - Entry Level | Pittsfield, MA | — | 70% | 2026-05-27 | 2026-07-05 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72777/job?mobile=true&needsRedirect=false) |
 | General Dynamics Mission Systems | Entry Level Software Engineer | Manassas, VA | — | 70% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73140/job?mobile=true&needsRedirect=false) |
-| General Motors | Entry Level Developer - Simulation Platform - Galileo | Sunnyvale, CA | — | 70% | 2026-06-01 | 2026-07-05 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/Entry-Level-Developer---Simulation-Platform--Galileo-_JR-202611523) |
 | Graphcore | Graduate Software Engineer - Triton | Bristol, UK | — | 70% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/graphcore/jobs/8615504002) |
 | IMC Trading | Graduate Software Engineer | Chicago, IL | — | 70% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://job-boards.eu.greenhouse.io/imc/jobs/4818790101) |
 | Integration Innovation (i3) | Entry Level Software Engineer | Huntsville, AL | — | 70% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://careers-i3-corps.icims.com/jobs/5175/job?mobile=true&needsRedirect=false) |
@@ -576,23 +574,28 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | The Boeing Company | Entry-Level Software Engineer | Creve Coeur, MO; Hazelwood, MO | — | 70% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Maryland-Heights-MO/Entry-Level-Software-Engineer_JR2026516748-2) |
 | Anduril | 2026 Early Career Electrical Engineer | Costa Mesa, California, United States; Fort Collins, Colorado, United States | 2026 New Grad | 40% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4802172007?gh_jid=4802172007) |
 | Anduril | 2027 Early Career Electrical Engineer | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 New Grad | 40% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5136925007?gh_jid=5136925007) |
-| SpaceX | New Graduate Engineer, Software (Starlink) | Bastrop, TX | — | 38% (2 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8399140002?gh_jid=8399140002) |
+| SpaceX | New Graduate Engineer, Software (Starlink) | Bastrop, TX | — | 38% (2 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8399140002?gh_jid=8399140002) |
 | Verkada | Technical Support Engineer - University Graduate 2026 | New York City, NY United States | 2026 New Grad | 38% (2 skills) | 2026-06-25 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5172974007) |
 | Verkada | Technical Support Engineer - University Graduate 2026 | San Mateo, CA United States | 2026 New Grad | 38% (2 skills) | 2026-06-25 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/4715534007) |
 | Stripe | Tech Operations Associate, New Grad (Mexico) | Mexico City, Mexico | — | 38% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7718947) |
-| Anduril | Early Career Product Operations Rotation Program 🆕 | Costa Mesa, California, United States | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5181983007?gh_jid=5181983007) |
+| Anduril | Early Career Product Operations Rotation Program | Costa Mesa, California, United States | — | 37% (1 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5181983007?gh_jid=5181983007) |
 | Susquehanna International Group (SIG) | Associate Linux/Windows Engineer New Grad | Ardmore, PA | — | 37% (1 skills) | 2026-05-13 | 2026-07-05 | [**Apply ➜**](https://careers-sig.icims.com/jobs/9408/job?mobile=true&needsRedirect=false) |
 | Anduril | Mission Engineer, Air Dominance & Strike, Early Career | Costa Mesa, California, United States | — | 37% (1 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5174562007?gh_jid=5174562007) |
-| SpaceX | New Graduate Engineer, Electrical - Satellites (Starlink) | Redmond, WA | — | 37% (1 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8541336002?gh_jid=8541336002) |
-| SpaceX | New Graduate Engineer, Electrical (Starlink) | Bastrop, TX | — | 37% (1 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8565726002?gh_jid=8565726002) |
-| SpaceX | New Graduate Engineer, Electrical (Starshield) | Hawthorne, CA | — | 37% (1 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8483305002?gh_jid=8483305002) |
-| SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 37% (1 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
-| SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 37% (1 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
-| NVIDIA | Formal Verification Engineer - New College Grad 2026 🆕 | US, CA, Santa Clara | 2026 New Grad | 35% | — | 2026-07-09 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Formal-Verification-Engineer---New-College-Grad-2026_JR2020837) |
+| SpaceX | New Graduate Engineer, Electrical - Satellites (Starlink) | Redmond, WA | — | 37% (1 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8541336002?gh_jid=8541336002) |
+| SpaceX | New Graduate Engineer, Electrical (Starlink) | Bastrop, TX | — | 37% (1 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8565726002?gh_jid=8565726002) |
+| SpaceX | New Graduate Engineer, Electrical (Starshield) | Hawthorne, CA | — | 37% (1 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8483305002?gh_jid=8483305002) |
+| SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 37% (1 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
+| SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 37% (1 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
+| Micron Technology | Design Engineer New Grad - Design Engineer - DRAM Technology and Products 🆕 | Boise, ID | — | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/New-College-Grad---Design-Engineer--DRAM-Technology-and-Products_JR105519) |
+| Royal Bank of Canada | Quant Rotation Program Associate New Grad 🆕 | Toronto, ON, Canada | — | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/TORONTO-Ontario-Canada/Quant-New-Grad-Rotation-Program-Associate_R-0000172286) |
+| Salesforce | Sales Strategy Associate Analyst, CRO Analytics - New Grad 🆕 | Mexico - Mexico City | — | 35% | — | 2026-07-10 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Mexico---Mexico-City/Sales-Strategy-Associate-Analyst--CRO-Analytics---New-Grad_JR351111-1) |
+| SpaceX | December 2026 New Graduate Engineer, Mechanical (Starship) 🆕 | Starbase, TX | 2026 New Grad | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8627507002?gh_jid=8627507002) |
+| SpaceX | December 2026 New Graduate Engineer, Propulsion (Starship) 🆕 | Starbase, TX | 2026 New Grad | 35% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8627510002?gh_jid=8627510002) |
+| NVIDIA | Formal Verification Engineer - New College Grad 2026 | US, CA, Santa Clara | 2026 New Grad | 35% | — | 2026-07-09 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Formal-Verification-Engineer---New-College-Grad-2026_JR2020837) |
 | Ciena | Digital Verification Engineer New Grad | Rochester, NY | — | 35% | 2026-07-04 | 2026-07-09 | [**Apply ➜**](https://ciena.wd5.myworkdayjobs.com/Careers/job/US--NY--Pittsford--1250-Pittsford-Victor-Road-Rochester/Digital-Verification-Engineer_R029443) |
 | Citadel | Quantitative Trader: Equity Quantitative Research – University Graduate | NYC | — | 35% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://www.citadel.com/careers/details/quantitative-trader-equity-quantitative-research-university-graduate-us/) |
 | IXL Learning | Associate Product Manager New Grad | San Mateo, CA | — | 35% | 2026-07-02 | 2026-07-08 | [**Apply ➜**](https://www.ixl.com/company/jobs?gh_jid=8615730002) |
-| SpaceX | New Graduate Engineer, Mechanical (Cape Canaveral) | Cape Canaveral, FL | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8622574002?gh_jid=8622574002) |
+| SpaceX | New Graduate Engineer, Mechanical (Cape Canaveral) | Cape Canaveral, FL | — | 35% | 2026-07-09 | 2026-07-07 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8622574002?gh_jid=8622574002) |
 | NewsBreak | Newsbreak Venture New Grad - AI Growth Intelligence Engineer | Mountain View, CA | — | 35% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/newsbreak/jobs/4694899006) |
 | Sandisk | Field Application Engineer New Grad | Milpitas, CA | — | 35% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://jobs.smartrecruiters.com/Sandisk/744000136097669) |
 | Citadel | Quantitative Research Analyst University Graduate | Greenwich, CT; Miami, FL; NYC | — | 35% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-us/) |
@@ -629,8 +632,8 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Figma | Inside Sales Representative - Early Career (2026) | San Francisco, CA • New York, NY | 2026 New Grad | 35% | 2026-04-23 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/figma/jobs/5977327004?gh_jid=5977327004) |
 | Gusto | Future Opportunities: Early Career Sales Talent | Denver, CO;Atlanta, GA;Phoenix, AZ;Las Vegas, NV;Chicago, IL | — | 35% | 2026-06-25 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/gusto/jobs/8001931) |
 | Jump Trading | Early Career Talent Development Programs Specialist | Singapore | — | 35% | 2026-06-01 | 2026-07-05 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=7974587) |
-| Notion | Head of Early Career Recruiting | San Francisco, California; New York, New York | — | 35% | 2026-06-22 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/076371b1-e9b0-4ad7-b67b-ae9e4572f65a) |
 | Notion | People Strategy & Operations, Early Career | San Francisco, California | — | 35% | 2026-06-05 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/83c8907b-e05e-401a-a5de-9ebe0b1a800f) |
+| Notion | Head of Early Career Recruiting | San Francisco, California; New York, New York | — | 35% | 2026-06-22 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/076371b1-e9b0-4ad7-b67b-ae9e4572f65a) |
 | Notion | Technical Recruiter, Early Career | San Francisco, California; New York, New York | — | 35% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/e3e0c9e9-4c9a-4390-b713-27d465bce2f1) |
 | NVIDIA | Verification Engineer - New College Grad 2026 | 3 Locations | 2026 New Grad | 35% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Verification-Engineer---New-College-Grad-2026_JR2017633) |
 | NVIDIA | Power Architect - New College Grad 2026 | 2 Locations | 2026 New Grad | 35% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Power-Architect---New-College-Grad-2026_JR2017842) |
@@ -655,29 +658,28 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | NVIDIA | Compiler Engineer - Smart Network Devices- New College Grad 2026 | US, CA, Santa Clara | 2026 New Grad | 35% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compiler-Engineer---Smart-Network-Devices--New-College-Grad-2026_JR2020535) |
 | Palantir | Deployment Strategist, New Grad - Intel, US Government | Washington, D.C. | — | 35% | 2026-06-15 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/5d8286d6-992a-404b-94af-99c173d40299) |
 | Palantir | Privacy & Civil Liberties Engineer - New Grad | New York, NY | — | 35% | 2026-06-25 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/95e0d2b0-437a-4096-a5c6-0f247f426c90) |
-| Robinhood | Customer Experience Associate (New Grad) | Westlake, TX | — | 35% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/8024530?t=gh_src=&gh_jid=8024530) |
+| Robinhood | Customer Experience Associate (New Grad) | Westlake, TX | — | 35% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/8024530?t=gh_src=&gh_jid=8024530) |
 | Roblox | Senior Talent Business Partner, Early Career - AI/ML PhD (Short-Term) | Remote; San Mateo, CA, United States | — | 35% | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7998438?gh_jid=7998438) |
-| SpaceX | New Graduate Engineer, Launch & Test (Starship) | Starbase, TX | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8578087002?gh_jid=8578087002) |
-| SpaceX | New Graduate Engineer, Mechanical | McGregor, TX | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8497524002?gh_jid=8497524002) |
-| SpaceX | New Graduate Engineer, Mechanical (Starlink) | Redmond, WA | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8542046002?gh_jid=8542046002) |
-| SpaceX | New Graduate Engineer, Mechanical (Starlink) | Bastrop, TX | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8578053002?gh_jid=8578053002) |
-| SpaceX | New Graduate Engineer, Mechanical (Starshield) | Hawthorne, CA | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8493166002?gh_jid=8493166002) |
-| SpaceX | New Graduate Engineer, Mechanical (Starship) | Starbase, TX | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8497499002?gh_jid=8497499002) |
-| SpaceX | New Graduate Engineer, Propulsion (Raptor) | Hawthorne, CA | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8517361002?gh_jid=8517361002) |
-| SpaceX | New Graduate Engineer, Propulsion (Starship) | Starbase, TX | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8497447002?gh_jid=8497447002) |
-| SpaceX | New Graduate Engineer, Software | Hawthorne, CA | — | 35% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8493079002?gh_jid=8493079002) |
+| SpaceX | New Graduate Engineer, Launch & Test (Starship) | Starbase, TX | — | 35% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8578087002?gh_jid=8578087002) |
+| SpaceX | New Graduate Engineer, Mechanical | McGregor, TX | — | 35% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8497524002?gh_jid=8497524002) |
+| SpaceX | New Graduate Engineer, Mechanical (Starlink) | Redmond, WA | — | 35% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8542046002?gh_jid=8542046002) |
+| SpaceX | New Graduate Engineer, Mechanical (Starlink) | Bastrop, TX | — | 35% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8578053002?gh_jid=8578053002) |
+| SpaceX | New Graduate Engineer, Mechanical (Starshield) | Hawthorne, CA | — | 35% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8493166002?gh_jid=8493166002) |
+| SpaceX | New Graduate Engineer, Mechanical (Starship) | Starbase, TX | — | 35% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8497499002?gh_jid=8497499002) |
+| SpaceX | New Graduate Engineer, Propulsion (Raptor) | Hawthorne, CA | — | 35% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8517361002?gh_jid=8517361002) |
+| SpaceX | New Graduate Engineer, Propulsion (Starship) | Starbase, TX | — | 35% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8497447002?gh_jid=8497447002) |
+| SpaceX | New Graduate Engineer, Software | Hawthorne, CA | — | 35% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8493079002?gh_jid=8493079002) |
 | Stripe | Operations Associate, New Grad (Mexico) | Mexico City, Mexico | — | 35% | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7544547) |
-| Agiliti | Surgical Equipment Technician 1 - Entry Level 🆕 | Kansas City, KS | — | 30% | 2026-07-01 | 2026-07-09 | [**Apply ➜**](https://agiliti.wd5.myworkdayjobs.com/careers/job/Repair-Center-and-Rigid-Lab---Kansas/Surgical-Equipment-Technician--Entry---level-_JR43692-1) |
-| Salesforce | AI Builder, Emerging Talent 🆕 | 4 Locations | — | 30% | — | 2026-07-09 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/AI-Builder--Emerging-Talent_JR341276-1) |
+| Salesforce | AI Builder - Emerging Talent 🆕 | SF; McLean, VA; Chicago, IL; NYC | — | 30% | 2026-05-16 | 2026-07-10 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/Futureforce_NewGradRoles/job/California---San-Francisco/AI-Builder--Emerging-Talent_JR341276) |
+| Salesforce | AI Builder - Emerging Talent 🆕 | SF; McLean, VA; Chicago, IL; NYC | — | 30% | 2026-05-16 | 2026-07-10 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/AI-Builder--Emerging-Talent_JR341276-1) |
+| Agiliti | Surgical Equipment Technician 1 - Entry Level | Kansas City, KS | — | 30% | 2026-07-01 | 2026-07-09 | [**Apply ➜**](https://agiliti.wd5.myworkdayjobs.com/careers/job/Repair-Center-and-Rigid-Lab---Kansas/Surgical-Equipment-Technician--Entry---level-_JR43692-1) |
+| Salesforce | AI Builder, Emerging Talent | 4 Locations | — | 30% | — | 2026-07-09 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/AI-Builder--Emerging-Talent_JR341276-1) |
 | Micron Technology | New College Grad - Semiconductor Verification Design Engineer - DRAM Products Group | Boise, ID | — | 30% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/New-College-Grad---Semiconductor-Verification-Design-Engineer--DRAM-Products-Group_JR104793) |
 | The Boeing Company | Data Management Technical Specialist Entry Level | Long Beach, CA | — | 30% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Long-Beach-CA/Data-Management-Technical-Specialist--Entry-Level-_JR2026517304) |
 | The Boeing Company | Entry Level Configuration Manager | Hazelwood, MO | — | 30% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Berkeley-MO/Entry---Level-Configuration-Management-Engineer_JR2026517743) |
 | The Boeing Company | Entry Level Configuration Manager | Hazelwood, MO | — | 30% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Entry---Level-Configuration-Management-Engineer_JR2026517743-1) |
 | The Boeing Company | Data Management Technical Specialist Entry Level | Long Beach, CA | — | 30% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Long-Beach-CA/Data-Management-Technical-Specialist--Entry-Level-_JR2026517304-1) |
 | Marsh & McLennan | Entry Level Structured Credit Quantitative Analyst | London, UK | — | 30% | 2026-05-05 | 2026-07-08 | [**Apply ➜**](https://mmc.wd1.myworkdayjobs.com/en-US/MMC/job/London---Tower-Place-West/Structured-Credit-Quantitative-Analyst--Entry-Graduate-level-considered-_R_346873) |
-| Vanguard | Entry Level Application Engineer | Malvern, PA | — | 30% | 2026-07-08 | 2026-07-08 | [**Apply ➜**](https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Malvern-PA/Entry-Level-Application-Engineer---2026-Start-Date_168908) |
-| Vanguard | Entry Level Application Engineer | Charlotte, NC | — | 30% | 2026-07-08 | 2026-07-08 | [**Apply ➜**](https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Charlotte-NC/Entry-Level-Application-Engineer----2026-Start-Date_171145) |
-| Vanguard | Entry Level Application Engineer | Charlotte, NC | — | 30% | 2026-07-02 | 2026-07-07 | [**Apply ➜**](https://vanguard.wd5.myworkdayjobs.com/en-US/contractors_restricted/job/Charlotte-NC/Entry-Level-Application-Engineer---2027-Start-Date_180113) |
 | AeroVironment | Entry-Level Radar Exploitation Engineer | Dayton, OH | — | 30% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/WPAFB/Entry-Level-Radar-Exploitation-Engineer_7886) |
 | Blue Sky Innovators | Anti-Tamper Entry-Level Engineer - Support | Washington, DC | — | 30% | 2026-05-05 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/blueskyinnovators/jobs/5210882008) |
 | BP | Supply and Shipping Graduate Program - Trading | Houston, TX | — | 30% | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Supply--Trading--and-Shipping-Graduate-Program--Trading--Houston--TX_RQ099316-1) |
@@ -687,23 +689,20 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Dewberry | Entry Level GIS Professional | Atlanta, GA | — | 30% | 2026-06-25 | 2026-07-05 | [**Apply ➜**](https://careers-dewberry.icims.com/jobs/15844/job?mobile=true&needsRedirect=false) |
 | Draper | Entry Level Radio Frequency Engineer | Cambridge, MA | — | 30% | 2026-06-22 | 2026-07-05 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Entry-Level-RF-Engineer_JR002626) |
 | LiveFlow | Graduate Engineer - AI Agents | SF; Mountain View, CA | — | 30% | 2026-05-05 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/liveflow/93a4d132-b68c-42d7-ace0-7975661130ba/application) |
-| NVIDIA | Research Scientist – PhD New College Grad - Generative AI for Physical AI | Santa Clara, CA | — | 30% | 2026-04-10 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Generative-AI-for-Physical-AI---PhD-New-College-Grad-2026_JR2016032) |
 | NVIDIA | DFT Engineer – New College Grad | Santa Clara, CA | — | 30% | 2026-05-12 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/DFT-Engineer---New-College-Grad_JR2016865) |
 | Peraton | Image Scientist - Entry Level | Springfield, VA | — | 30% | 2026-05-29 | 2026-07-05 | [**Apply ➜**](https://careers-peraton.icims.com/jobs/165728/job?mobile=true&needsRedirect=false) |
 | Radiance Technologies | Entry Level Microelectronics R&D Engineer | Monroe, LA | — | 30% | 2026-06-22 | 2026-07-05 | [**Apply ➜**](https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Ruston-LA/Entry-level-Microelectronics-R-D-Engineer_HR102264-1) |
 | Radiance Technologies | Entry-level Microelectronics Engineer | Monroe, LA | — | 30% | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Ruston-LA/Entry-level-Microelectronics-R-D-Engineer_HR102277) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | Dallas, TX | — | 30% | 2026-06-17 | 2026-07-05 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 | NVIDIA | DFT Engineer - New College Grad | US, CA, Santa Clara | — | 30% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/DFT-Engineer---New-College-Grad_JR2016865) |
-| Salesforce | AI Builder, Emerging Talent Manager | Brazil - Sao Paulo | — | 30% | — | 2026-07-05 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Brazil---Sao-Paulo/AI-Builder--Emerging-Talent-Manager_JR348535) |
-| Salesforce | AI Builder, Emerging Talent Manager | Mexico - Mexico City | — | 30% | — | 2026-07-05 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Mexico---Mexico-City/AI-Builder--Emerging-Talent-Manager_JR348534) |
-| SpaceX | Entry Level Production Technician - PCBA | Redmond, WA | — | 30% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8352158002?gh_jid=8352158002) |
-| SpaceX | Entry Level - Production Technician (Starlink) | Redmond, WA | — | 30% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8591165002?gh_jid=8591165002) |
-| SpaceX | Entry Level Production Technician - Starlink | Redmond, WA | — | 30% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8589257002?gh_jid=8589257002) |
-| SpaceX | Entry Level Production Technician - Temporary | Woodinville, WA | — | 30% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8585699002?gh_jid=8585699002) |
-| SpaceX | Entry Level Production Technician - TWTA | Redmond, WA | — | 30% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8477675002?gh_jid=8477675002) |
+| SpaceX | Entry Level Production Technician - PCBA | Redmond, WA | — | 30% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8352158002?gh_jid=8352158002) |
+| SpaceX | Entry Level - Production Technician (Starlink) | Redmond, WA | — | 30% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8591165002?gh_jid=8591165002) |
+| SpaceX | Entry Level Production Technician - Starlink | Redmond, WA | — | 30% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8589257002?gh_jid=8589257002) |
+| SpaceX | Entry Level Production Technician - Temporary | Woodinville, WA | — | 30% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8585699002?gh_jid=8585699002) |
+| SpaceX | Entry Level Production Technician - TWTA | Redmond, WA | — | 30% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8477675002?gh_jid=8477675002) |
 | Workday | Director, Global Emerging Talent Programs | 2 Locations | — | 30% | — | 2026-07-05 | [**Apply ➜**](https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USA-CA-Pleasanton/Director--Global-Early-Career-Talent-Acquisition_JR-0108314) |
 
-## 🔍 Other early-career matches (1571)
+## 🔍 Other early-career matches (1569)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -713,29 +712,28 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Aramark | Student IT Associate - Application Developer - ASU-C-Store Markets | Tempe, AZ | — | 55% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://aramarkcareers.com/UnitedStates/job/Tempe-Student-IT-Associate-Application-Developer-ASU-C-Store-Markets-AZ-85281/1406888100/?ats=successfactors) |
 | DoorDash | Applications Engineer, Full Stack - People | Seattle, WA; Washington D.C.; Austin, TX; Baltimore, MD; Chicago, IL; Hartford, CT; New Haven, CT; Philadelphia, PA; Miami, FL; Atlanta, GA; | — | 54% (9 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/7733002) |
 | MongoDB | Software Engineer 3, App Analysis & Modelling | Sydney | — | 54% (9 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7523878) |
-| Cloudflare | Systems Engineer, Data Intelligence & Analytics Team 🆕 | In-Office | — | 53% (8 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8050813?gh_jid=8050813) |
+| Cloudflare | Systems Engineer, Data Intelligence & Analytics Team | In-Office | — | 53% (8 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8050813?gh_jid=8050813) |
 | Cloudflare | Systems Engineer (Data Intelligence & Analytics Team) | In-Office | — | 53% (8 skills) | 2026-07-08 | 2026-07-07 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8022909?gh_jid=8022909) |
 | Affirm | Software Engineer II, Full-Stack (Card Acquisition) | Remote Canada | — | 53% (5 skills) | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7618869003) |
 | Coinbase | Software Engineer, Enterprise Apps | Remote - USA | — | 53% (5 skills) | 2026-06-23 | 2026-07-05 | [**Apply ➜**](https://www.coinbase.com/careers/positions/7958901?gh_jid=7958901) |
 | MongoDB | Software Engineer, Data Migration | California; Oregon; Washington | — | 53% (8 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7523834) |
-| SpaceX | Full Stack Software Engineer (Components) | Hawthorne, CA | — | 53% (8 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8421359002?gh_jid=8421359002) |
-| SpaceX | Full Stack Software Engineer (Starlink) | Palo Alto, CA | — | 53% (8 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8501225002?gh_jid=8501225002) |
-| SpaceX | Software Engineer (Starlink) | Bastrop, TX | — | 53% (8 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8379301002?gh_jid=8379301002) |
-| SpaceX | Software Engineer (Starlink) | Redmond, WA | — | 53% (8 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8569790002?gh_jid=8569790002) |
+| SpaceX | Full Stack Software Engineer (Components) | Hawthorne, CA | — | 53% (8 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8421359002?gh_jid=8421359002) |
+| SpaceX | Full Stack Software Engineer (Starlink) | Palo Alto, CA | — | 53% (8 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8501225002?gh_jid=8501225002) |
+| SpaceX | Software Engineer (Starlink) | Bastrop, TX | — | 53% (8 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8379301002?gh_jid=8379301002) |
+| SpaceX | Software Engineer (Starlink) | Redmond, WA | — | 53% (8 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8569790002?gh_jid=8569790002) |
 | Stripe | Backend Engineer/API, Payments and Risk | Dublin, Ireland | — | 53% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=4921361) |
 | Stripe | Backend Engineer, Payments and Risk | US | — | 53% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6163230) |
 | Stripe | Backend Engineer, Payments and Risk | US | — | 53% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7232592) |
 | Stripe | Frontend Engineer, Payments & Risk | N/A | — | 53% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7325252) |
 | Stripe | Fullstack Engineer, Internal Tools | Dublin | — | 53% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7532806) |
 | Stripe | Software Engineer, Internal Systems | Bengaluru, India | — | 53% (2 skills) | 2026-07-06 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7543868) |
-| SpaceX | International Infrastructure Operations Specialist (Starlink) | Redmond, WA | — | 52% (1 skills) | 2026-07-03 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8619984002?gh_jid=8619984002) |
+| SpaceX | International Infrastructure Operations Specialist (Starlink) | Redmond, WA | — | 52% (1 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8619984002?gh_jid=8619984002) |
 | Stripe | Internal Product Engineer, Developer Productivity AI | Toronto, Canada | — | 52% (1 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7896151) |
 | Affirm | Software Engineer II, Backend (Capital Orchestration) | Remote US | — | 51% (4 skills) | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7749755003) |
 | Anduril | Data Platform Engineer, Air Dominance & Strike | Costa Mesa, California, United States | — | 51% (7 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5111264007?gh_jid=5111264007) |
 | Anduril | Optimization Software Engineer | Washington, District of Columbia, United States | — | 51% (7 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5089067007?gh_jid=5089067007) |
 | Databricks | Software Engineer - Fullstack | Amsterdam, Netherlands | — | 51% (7 skills) | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://databricks.com/company/careers/open-positions/job?gh_jid=8029677002) |
 | DoorDash | Front-End Web Developer, B2B, Marketing Technology | San Francisco, CA; New York, NY; Washington D.C.; United States - Remote | — | 51% (4 skills) | 2026-07-08 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8028899) |
-| Instacart | Software Engineer II, Technical Search Visibility | Canada - Remote (ON, AB, BC, or NS Only) | — | 51% (4 skills) | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://instacart.careers/job/?gh_jid=7963661) |
 | MongoDB | Software Engineer 2 | Dublin | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7613695) |
 | MongoDB | Software Engineer 3 | Dublin | — | 51% (7 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7581876) |
 | MongoDB | Software Engineer 3, Customer Observability | Dublin | — | 51% (7 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7717350) |
@@ -743,28 +741,28 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Ramp | Backend Engineer, Ops | New York, NY (HQ) | — | 51% (7 skills) | 2026-03-04 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/ramp/7bfa613e-151c-469b-9973-c89ee3d14838) |
 | Ramp | Software Engineer, Argentina | Remote (Buenos Aires, Argentina) | — | 51% (4 skills) | 2025-11-19 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/ramp/9320454f-f2ca-4c19-82d2-b51b8d75fd3a) |
 | Reddit | Fullstack Software Engineer, Notifications Lifecycle | Remote - United States | — | 51% (4 skills) | 2026-05-21 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/reddit/jobs/7895468) |
-| Scale AI | Software Engineer, Robotics | Argentina; Uruguay | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4612282005) |
 | Scale AI | Software Engineer, Robotics | Mexico City, MX | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4655050005) |
+| Scale AI | Software Engineer, Robotics | Argentina; Uruguay | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4612282005) |
 | Scale AI | Software Engineer, Robotics & Autonomous Systems | San Francisco, CA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4618065005) |
-| SpaceX | Application Software Engineer | Bastrop, TX | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8494240002?gh_jid=8494240002) |
-| SpaceX | Application Software Engineer | Hawthorne, CA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8494238002?gh_jid=8494238002) |
-| SpaceX | Application Software Engineer | Memphis, TN | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8611191002?gh_jid=8611191002) |
-| SpaceX | Application Software Engineer | Starbase, TX | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8611118002?gh_jid=8611118002) |
-| SpaceX | Application Software Engineer | Palo Alto, CA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8611189002?gh_jid=8611189002) |
-| SpaceX | Application Software Engineer | Redmond, WA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8402778002?gh_jid=8402778002) |
-| SpaceX | Application Software Engineer, Manufacturing | Hawthorne, CA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8603667002?gh_jid=8603667002) |
-| SpaceX | Application Software Engineer, Manufacturing Systems | Redmond, WA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8600019002?gh_jid=8600019002) |
-| SpaceX | Application Software Engineer, Manufacturing Systems | Bastrop, TX | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8600012002?gh_jid=8600012002) |
-| SpaceX | Application Software Engineer, Safety & Training | Hawthorne, CA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8593365002?gh_jid=8593365002) |
-| SpaceX | Full Stack Software Engineer (Application Software) | Bastrop, TX | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8495180002?gh_jid=8495180002) |
-| SpaceX | Full Stack Software Engineer (Application Software) | Hawthorne, CA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8495131002?gh_jid=8495131002) |
-| SpaceX | Full Stack Software Engineer (Application Software) | Redmond, WA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8600005002?gh_jid=8600005002) |
-| SpaceX | Software Engineer, Data - Top Secret Clearance (Starlink) | Hawthorne, CA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8449846002?gh_jid=8449846002) |
-| SpaceX | Software Engineer, Design Software (Starship) | Starbase, TX | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8466837002?gh_jid=8466837002) |
-| SpaceX | Software Engineer, Design Software (Starship) | Hawthorne, CA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8466905002?gh_jid=8466905002) |
-| SpaceX | Software Engineer (Flight Reliability) | Hawthorne, CA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8512876002?gh_jid=8512876002) |
-| SpaceX | Software Engineer, PCBA (Starlink) | Redmond, WA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8584271002?gh_jid=8584271002) |
-| SpaceX | Software Engineer (Starlink Enterprise) | Palo Alto, CA | — | 51% (7 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8586637002?gh_jid=8586637002) |
+| SpaceX | Application Software Engineer | Bastrop, TX | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8494240002?gh_jid=8494240002) |
+| SpaceX | Application Software Engineer | Hawthorne, CA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8494238002?gh_jid=8494238002) |
+| SpaceX | Application Software Engineer | Redmond, WA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8402778002?gh_jid=8402778002) |
+| SpaceX | Application Software Engineer | Memphis, TN | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8611191002?gh_jid=8611191002) |
+| SpaceX | Application Software Engineer | Palo Alto, CA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8611189002?gh_jid=8611189002) |
+| SpaceX | Application Software Engineer | Starbase, TX | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8611118002?gh_jid=8611118002) |
+| SpaceX | Application Software Engineer, Manufacturing | Hawthorne, CA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8603667002?gh_jid=8603667002) |
+| SpaceX | Application Software Engineer, Manufacturing Systems | Redmond, WA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8600019002?gh_jid=8600019002) |
+| SpaceX | Application Software Engineer, Manufacturing Systems | Bastrop, TX | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8600012002?gh_jid=8600012002) |
+| SpaceX | Application Software Engineer, Safety & Training | Hawthorne, CA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8593365002?gh_jid=8593365002) |
+| SpaceX | Full Stack Software Engineer (Application Software) | Bastrop, TX | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8495180002?gh_jid=8495180002) |
+| SpaceX | Full Stack Software Engineer (Application Software) | Redmond, WA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8600005002?gh_jid=8600005002) |
+| SpaceX | Full Stack Software Engineer (Application Software) | Hawthorne, CA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8495131002?gh_jid=8495131002) |
+| SpaceX | Software Engineer, Data - Top Secret Clearance (Starlink) | Hawthorne, CA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8449846002?gh_jid=8449846002) |
+| SpaceX | Software Engineer, Design Software (Starship) | Hawthorne, CA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8466905002?gh_jid=8466905002) |
+| SpaceX | Software Engineer, Design Software (Starship) | Starbase, TX | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8466837002?gh_jid=8466837002) |
+| SpaceX | Software Engineer (Flight Reliability) | Hawthorne, CA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8512876002?gh_jid=8512876002) |
+| SpaceX | Software Engineer, PCBA (Starlink) | Redmond, WA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8584271002?gh_jid=8584271002) |
+| SpaceX | Software Engineer (Starlink Enterprise) | Palo Alto, CA | — | 51% (7 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8586637002?gh_jid=8586637002) |
 | Supabase | Developer Relations Engineer (San Francisco, CA) | Remote | — | 51% (4 skills) | 2026-05-20 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/supabase/a1320bbf-bfae-49a8-a1b7-12eeccaf39ca) |
 | Supabase | Software Engineer - Auth | Remote | — | 51% (4 skills) | 2026-04-08 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/supabase/e569b7f7-fa8f-4139-86f6-4f52b456882d) |
 | Stripe | Fullstack Engineer, Privy | NYC-Privy, US-Remote | — | 51% (4 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7091959) |
@@ -772,8 +770,8 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Zoox | Student Worker - Manufacturing Software Engineer | Hayward, CA | — | 50% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://jobs.lever.co/zoox/02f4bebd-ab47-4d4c-b887-cffcfeea3494/apply) |
 | Priceline | Associate Data Developer - Fintech | Toronto, ON, Canada | — | 50% | 2026-04-27 | 2026-07-05 | [**Apply ➜**](https://priceline.wd1.myworkdayjobs.com/Priceline/job/Toronto/Associate-Data-Developer--FinTech_R5619) |
 | Vertiv | Placement Student - Software Engineering | Londonderry, UK | — | 50% | 2026-05-19 | 2026-07-05 | [**Apply ➜**](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20272952) |
-| Affirm | Software Engineer II, Backend (Merchant & Partner Lifecycle) | Remote US | — | 50% (3 skills) | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7708925003) |
 | Affirm | Software Engineer II, Backend (Merchant & Partner Lifecycle) | Remote Canada | — | 50% (3 skills) | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7708927003) |
+| Affirm | Software Engineer II, Backend (Merchant & Partner Lifecycle) | Remote US | — | 50% (3 skills) | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7708925003) |
 | Airbnb | AI Engineer, Community Support Engineering | China - Remote | — | 50% (3 skills) | 2026-06-02 | 2026-07-05 | [**Apply ➜**](https://careers.airbnb.com/positions/7946288?gh_jid=7946288) |
 | Databricks | Software Engineer - Database Engine Internals | Belgrade, Serbia | — | 50% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://databricks.com/company/careers/open-positions/job?gh_jid=8012658002) |
 | Pinterest | Site Reliability Engineer II, tvScientific | San Francisco, CA, US; Remote, US | — | 50% (3 skills) | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=7782538) |
@@ -784,50 +782,49 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Reddit | Software Engineer, Ads | Remote - Ontario, Canada | — | 50% (3 skills) | 2026-05-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/reddit/jobs/6512458) |
 | Reddit | Software Engineer, Ads | Remote - United States | — | 50% (3 skills) | 2026-05-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/reddit/jobs/6469397) |
 | Samsara | People Analytics AI Engineer | Remote - Seattle | — | 50% (3 skills) | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/7858719?gh_jid=7858719) |
-| OpenAI | Software Engineer, Payments | San Francisco | — | 50% | 2025-06-20 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/0da75470-7e1e-44c3-90df-6f93cf90b968) |
 | OpenAI | Software Engineer, Full Stack (People Innovation) | Remote - US; San Francisco | — | 50% (3 skills) | 2025-07-22 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/d4780eac-03ad-4dae-861f-99af22b4287e) |
+| OpenAI | Software Engineer, Payments | San Francisco | — | 50% | 2025-06-20 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/0da75470-7e1e-44c3-90df-6f93cf90b968) |
 | OpenAI | Software Engineer, Internal Applications - Enterprise | San Francisco | — | 50% | 2026-06-09 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/db053b0e-c1a5-4b7a-bcb6-6e766629e7b1) |
 | Stripe | Backend Engineer, Core Tech, Canada | Toronto, CAN-Remote | — | 50% (3 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6567253) |
 | Stripe | Backend Engineer, Core Technology | US-Remote, Chicago, Seattle, San Francisco | — | 50% (3 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6042172) |
 | Stripe | Backend Engineer, Payments Experiences | N/A | — | 50% | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7895287) |
 | Stripe | Software Engineer, Payments | Singapore | — | 50% | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7529787) |
 | Stripe | Software Engineer, Payments, Risk, & Premium Merchant Experiences | Dublin, Ireland | — | 50% | 2026-07-07 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=6717520) |
-| SpaceX | Full Stack Software Engineer, Data (Starlink) 🆕 | Redmond, WA | — | 49% (6 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8625149002?gh_jid=8625149002) |
+| SpaceX | Full Stack Software Engineer, Data (Starlink) | Redmond, WA | — | 49% (6 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8625149002?gh_jid=8625149002) |
 | Anduril | Software Engineer- Battlespace Awareness | Fort Collins, Colorado, United States | — | 49% (6 skills) | 2026-07-07 | 2026-07-06 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5180557007?gh_jid=5180557007) |
-| Airbnb | Software Engineer, BizTech(Python, LLM, GenAI, MCP) | Bangalore, India | — | 49% (6 skills) | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://careers.airbnb.com/positions/7902817?gh_jid=7902817) |
 | Anduril | Quantum Software Engineer | Washington, District of Columbia, United States | — | 49% (6 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5089054007?gh_jid=5089054007) |
 | Anthropic | Finance Systems Engineer, Revenue | San Francisco, CA | — | 49% (6 skills) | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/anthropic/jobs/5186669008) |
 | Cloudflare | Distributed Systems Engineer, Analytical Database Platform | Hybrid | — | 49% (6 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/7462799?gh_jid=7462799) |
 | Cloudflare | Machine Learning Engineer | In-Office | — | 49% (6 skills) | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/7581107?gh_jid=7581107) |
 | DoorDash | Software Engineer II, Data Engineering | San Francisco, CA; Sunnyvale, CA | — | 49% (6 skills) | 2026-05-28 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/6458514) |
 | Scale AI | Forward Deployed Software Engineer, Public Sector | Colorado Springs, CO; Honolulu, HI; St. Louis, MO; Washington, DC | — | 49% (6 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4481921005) |
-| SpaceX | AI Software Engineer (Vehicle Engineering) | Hawthorne, CA | — | 49% (6 skills) | 2026-06-30 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8559015002?gh_jid=8559015002) |
-| SpaceX | Full Stack Software Engineer, Constellation Tools (Starlink) | Redmond, WA | — | 49% (6 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8398604002?gh_jid=8398604002) |
-| SpaceX | Full Stack Software Engineer, Data (Starlink) | Hawthorne, CA | — | 49% (6 skills) | 2026-07-08 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8540435002?gh_jid=8540435002) |
-| SpaceX | Full Stack Software Engineer - Top Secret Clearance | Hawthorne, CA | — | 49% (6 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8397609002?gh_jid=8397609002) |
-| SpaceX | Software Engineer, Data (Starlink) | Hawthorne, CA | — | 49% (6 skills) | 2026-07-08 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8476427002?gh_jid=8476427002) |
-| SpaceX | Software Engineer, Data - Top Secret Clearance | Hawthorne, CA | — | 49% (6 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8397673002?gh_jid=8397673002) |
-| SpaceX | Software Engineer, HITL - Top Secret Clearance | Hawthorne, CA | — | 49% (6 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8397596002?gh_jid=8397596002) |
-| SpaceX | Software Engineer, Network Observability (Starlink) | Hawthorne, CA | — | 49% (6 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8577262002?gh_jid=8577262002) |
-| SpaceX | Software Engineer, Simulation | Hawthorne, CA | — | 49% (6 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8443290002?gh_jid=8443290002) |
-| SpaceX | Software Engineer, Test Infrastructure (Application Software) | Hawthorne, CA | — | 49% (6 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8585072002?gh_jid=8585072002) |
+| SpaceX | AI Software Engineer (Vehicle Engineering) | Hawthorne, CA | — | 49% (6 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8559015002?gh_jid=8559015002) |
+| SpaceX | Full Stack Software Engineer, Constellation Tools (Starlink) | Redmond, WA | — | 49% (6 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8398604002?gh_jid=8398604002) |
+| SpaceX | Full Stack Software Engineer, Data (Starlink) | Hawthorne, CA | — | 49% (6 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8540435002?gh_jid=8540435002) |
+| SpaceX | Full Stack Software Engineer - Top Secret Clearance | Hawthorne, CA | — | 49% (6 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8397609002?gh_jid=8397609002) |
+| SpaceX | Software Engineer, Data (Starlink) | Hawthorne, CA | — | 49% (6 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8476427002?gh_jid=8476427002) |
+| SpaceX | Software Engineer, Data - Top Secret Clearance | Hawthorne, CA | — | 49% (6 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8397673002?gh_jid=8397673002) |
+| SpaceX | Software Engineer, HITL - Top Secret Clearance | Hawthorne, CA | — | 49% (6 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8397596002?gh_jid=8397596002) |
+| SpaceX | Software Engineer, Network Observability (Starlink) | Hawthorne, CA | — | 49% (6 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8577262002?gh_jid=8577262002) |
+| SpaceX | Software Engineer, Simulation | Hawthorne, CA | — | 49% (6 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8443290002?gh_jid=8443290002) |
+| SpaceX | Software Engineer, Test Infrastructure (Application Software) | Hawthorne, CA | — | 49% (6 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8585072002?gh_jid=8585072002) |
 | OpenAI | Full-Stack SWE, Data Acquisition (Foundations) | San Francisco | — | 49% (6 skills) | 2025-02-12 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/a886ff48-b8a1-4e28-b468-296713a5ad78) |
-| OpenAI | Software Engineer, ChatGPT Lifestyle 🆕 | San Francisco | — | 48% (5 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/ca54cd23-2bcc-4327-bcb6-46d81ed414a8) |
+| Anduril | Production Software Engineer 🆕 | Lexington, Massachusetts, United States | — | 48% (5 skills) | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5184036007?gh_jid=5184036007) |
+| OpenAI | Software Engineer, ChatGPT Shopping | San Francisco | — | 48% (5 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/ca54cd23-2bcc-4327-bcb6-46d81ed414a8) |
 | Anduril | Software Engineer, Cloud OS | Seattle, Washington, United States | — | 48% (5 skills) | 2026-07-09 | 2026-07-08 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5130646007?gh_jid=5130646007) |
 | Coinbase | Machine Learning Engineer, CX Intelligence | Remote - Brazil | — | 48% (2 skills) | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://www.coinbase.com/careers/positions/8031260?gh_jid=8031260) |
 | Affirm | Analyst II, Full Stack (Core Analytics) | Remote US | — | 48% (2 skills) | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7726627003) |
 | Affirm | Analyst II, Full Stack (Credit Analytics) | Remote US | — | 48% (2 skills) | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7764035003) |
 | Affirm | Analyst II, Full Stack (Customer Servicing Analytics) | Remote US | — | 48% (2 skills) | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7726632003) |
 | Affirm | Analyst II, Full Stack (Fraud Analytics) | Remote US | — | 48% (2 skills) | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7533759003) |
-| Affirm | Software Engineer II, Back-end (Card Mgmt & Transaction Processing) | Remote US | — | 48% (2 skills) | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7766277003) |
 | Affirm | Software Engineer II, Back-end (Card Mgmt & Transaction Processing) | Remote Canada | — | 48% (2 skills) | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7777094003) |
+| Affirm | Software Engineer II, Back-end (Card Mgmt & Transaction Processing) | Remote US | — | 48% (2 skills) | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7766277003) |
 | Affirm | Software Engineer II, Backend (PMI Integrations) | Remote Canada | — | 48% (2 skills) | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7590373003) |
 | Affirm | Software Engineer II, Full-Stack (Marketplace Performance) | Remote Canada | — | 48% (2 skills) | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7678887003) |
 | Affirm | Software Engineer II (Money Movement & Card Ledger) | Remote Canada | — | 48% (2 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7779962003) |
 | Anduril | Full-Stack Software Engineer, Mission Autonomy | Costa Mesa, California, United States; Seattle, Washington, United States; Washington, District of Columbia, United States | — | 48% (5 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5160360007?gh_jid=5160360007) |
-| Anduril | Manufacturing Software Engineer, Intelligence Systems | Ashville, Ohio, United States | — | 48% (5 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5080387007?gh_jid=5080387007) |
 | Anduril | Manufacturing Software Engineer, Intelligence Systems | Santa Ana, California, United States | — | 48% (5 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5111318007?gh_jid=5111318007) |
-| Anduril | Production Software Engineer | Lexington, Massachusetts, United States | — | 48% (5 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5177962007?gh_jid=5177962007) |
+| Anduril | Manufacturing Software Engineer, Intelligence Systems | Ashville, Ohio, United States | — | 48% (5 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5080387007?gh_jid=5080387007) |
 | Anduril | Software Engineer, Data Engineering | Costa Mesa, California, United States | — | 48% (5 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4991618007?gh_jid=4991618007) |
 | Anduril | Software Engineer, Intelligence Systems | Reston, Virginia, United States | — | 48% (5 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5089662007?gh_jid=5089662007) |
 | Anduril | Software Engineer, Manufacturing Test | Costa Mesa, California, United States | — | 48% (5 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5161512007?gh_jid=5161512007) |
@@ -846,8 +843,8 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | DoorDash | Software Engineer, Infrastructure - Autonomy & Robotics | San Francisco, CA | — | 48% (5 skills) | 2026-05-28 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/6367350) |
 | Hudson River Trading | Software Engineer - AI Tools | Chicago, Illinois, United States; New York, NY, United States | — | 48% (5 skills) | 2026-06-25 | 2026-07-05 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=7583957) |
 | MongoDB | Software Engineer 3, Atlas API Experience Integrations | Dublin | — | 48% (5 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=8030945) |
-| MongoDB | Software Engineer 3, DevTools | Dublin | — | 48% (5 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7745890) |
 | MongoDB | Software Engineer 3, DevTools | Ireland | — | 48% (5 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7766302) |
+| MongoDB | Software Engineer 3, DevTools | Dublin | — | 48% (5 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7745890) |
 | MongoDB | Software Engineer 3, Query Integration | Austin; New York; New York City; San Francisco; United States | — | 48% (5 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=8010102) |
 | MongoDB | Software Engineer 3, Voyage Control Plane | Palo Alto; Seattle | — | 48% (5 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=8041664) |
 | Pinterest | Security Software Engineer II, Detection and Response | San Francisco, CA, US; Remote, US | — | 48% (2 skills) | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=8015490) |
@@ -861,26 +858,26 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Scale AI | Software Engineer, Enterprise | London, UK | — | 48% (5 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4536653005) |
 | Scale AI | Software Engineer, Enterprise AI | New York, NY; San Francisco, CA | — | 48% (5 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4513943005) |
 | Scale AI | Software Engineer, Platform | London, UK | — | 48% (5 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4703527005) |
-| SpaceX | Application Software Engineer (C#/ Python), Data | Starbase, TX | — | 48% (5 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8604664002?gh_jid=8604664002) |
-| SpaceX | Application Software Engineer, Data | Starbase, TX | — | 48% (5 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8420526002?gh_jid=8420526002) |
-| SpaceX | Full Stack Software Engineer, Data | Starbase, TX | — | 48% (5 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8553080002?gh_jid=8553080002) |
-| SpaceX | Site Reliability Engineer — HPC & Automation (Silicon Engineering) | Redmond, WA | — | 48% (5 skills) | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8614963002?gh_jid=8614963002) |
+| SpaceX | Application Software Engineer (C#/ Python), Data | Starbase, TX | — | 48% (5 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8604664002?gh_jid=8604664002) |
+| SpaceX | Application Software Engineer, Data | Starbase, TX | — | 48% (5 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8420526002?gh_jid=8420526002) |
+| SpaceX | Full Stack Software Engineer, Data | Starbase, TX | — | 48% (5 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8553080002?gh_jid=8553080002) |
+| SpaceX | Site Reliability Engineer — HPC & Automation (Silicon Engineering) | Redmond, WA | — | 48% (5 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8614963002?gh_jid=8614963002) |
 | Vercel | Security Software Engineer, IAM | Remote - United States | — | 48% (2 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6093255004) |
 | Vercel | Software Engineer, Compute | Remote - United States | — | 48% (2 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/5551619004) |
 | Vercel | Software Engineer, Deployment Infrastructure | Hybrid - San Francisco, New York City | — | 48% (5 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/5633880004) |
 | Verkada | Go Software Engineer | Poland | — | 48% (5 skills) | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/4702541007) |
-| OpenAI | Manufacturing Test Engineer, AI Compute Infrastructure - Stargate | Remote - US | — | 48% (2 skills) | 2026-04-13 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/8a950265-0527-48f8-be3c-2923d7d96940) |
 | OpenAI | Software Engineer, Infrastructure Security | Remote - US; New York City; Seattle; San Francisco | — | 48% (2 skills) | 2025-10-06 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/98ad9beb-4f91-496c-bd16-ac0b2a8d5bb2) |
+| OpenAI | Manufacturing Test Engineer, AI Compute Infrastructure - Stargate | Remote - US | — | 48% (2 skills) | 2026-04-13 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/8a950265-0527-48f8-be3c-2923d7d96940) |
 | Stripe | Software Engineer | New York, NY | — | 48% (5 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8009143) |
 | Pinterest | Security Software Engineer II, Corporate Security | San Francisco, CA, US; Remote, US | — | 47% (1 skills) | 2026-07-08 | 2026-07-08 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=7732971) |
 | Buyers Edge Platform | Junior Developer - Python & Go | Remote in USA | — | 47% (1 skills) | 2026-06-17 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/buyersedgeplatformrecruiting/jobs/4706922005) |
 | iboss | Full Stack Java Software Engineer | New Mexico; Pennsylvania; Oregon; California; Washington, DC; Austin, TX; Texas; Florida; Nevada; Arizona; Concord, NH; Tennessee; Virginia; Minnesota; Colorado; Utah; Massachusetts; Atlanta, GA; Ohio; Michigan; Illinois | — | 47% (1 skills) | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://jobs.jobvite.com/iboss/job/orvdAfwt?nl=1&nl=1&fr=false) |
 | Peraton | Java Software Engineer | Remote in USA | — | 47% (1 skills) | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://careers-peraton.icims.com/jobs/168173/job?mobile=true&needsRedirect=false) |
 | Affirm | Machine Learning Engineer II (Fraud) | Remote Canada | — | 47% (1 skills) | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7695818003) |
-| Affirm | Machine Learning Engineer II (Servicing ML) | Remote US | — | 47% (1 skills) | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7719651003) |
 | Affirm | Machine Learning Engineer II (Servicing ML) | Remote Canada | — | 47% (1 skills) | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7719653003) |
-| Affirm | Software Engineer II, Backend (Reliability Platform) | Remote US | — | 47% (1 skills) | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7764834003) |
+| Affirm | Machine Learning Engineer II (Servicing ML) | Remote US | — | 47% (1 skills) | 2026-06-18 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7719651003) |
 | Affirm | Software Engineer II, Backend (Reliability Platform) | Remote Canada | — | 47% (1 skills) | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7764836003) |
+| Affirm | Software Engineer II, Backend (Reliability Platform) | Remote US | — | 47% (1 skills) | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7764834003) |
 | Airbnb | Software Engineer, Cloud Networking | Remote - USA or Canada | — | 47% (1 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://careers.airbnb.com/positions/8037090?gh_jid=8037090) |
 | Anthropic | Anthropic Fellows Program, ML Systems & Performance | London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA | — | 47% (1 skills) | 2026-05-20 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/anthropic/jobs/5183051008) |
 | Anthropic | IT Systems Engineer, Client Platform Engineer | Boston, MA; New York City, NY; Remote-Friendly (Travel-Required) \|  Washington, DC | — | 47% (1 skills) | 2026-06-12 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/anthropic/jobs/5255853008) |
@@ -889,7 +886,6 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Pinterest | Data Scientist II, Infrastructure | San Francisco, CA, US; Remote, US | — | 47% (1 skills) | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=7816424) |
 | Pinterest | Machine Learning Engineer, Core Engineering | San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; Remote, US | — | 47% (1 skills) | 2026-06-13 | 2026-07-05 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=6121450) |
 | Pinterest | Machine Learning Engineer II, Computer Vision Applied Science | San Francisco, CA, US; Remote, US | — | 47% (1 skills) | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) |
-| Pinterest | Security Software Engineer II, Security Operations | Chicago, IL, US; Remote, US | — | 47% (1 skills) | 2026-06-04 | 2026-07-05 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=7816431) |
 | Ramp | Software Engineer, Production Engineering | New York, NY (HQ); Remote (Canada); San Francisco, CA; Remote (US) | — | 47% (1 skills) | 2026-04-27 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/ramp/be496b52-cfbf-494e-b862-61fb4a188b24) |
 | Samsara | AI Engineer | Remote - US | — | 47% (1 skills) | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/7491153?gh_jid=7491153) |
 | Samsara | AI Engineer | Remote - Canada | — | 47% (1 skills) | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/7589442?gh_jid=7589442) |
@@ -898,8 +894,8 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | OpenAI | Software Engineer, Security Observability | San Francisco; New York City; Seattle; Remote - US | — | 47% (1 skills) | 2026-04-15 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/1e4e9985-babf-4bd9-8fe8-a2016250780d) |
 | OpenAI | Security Engineer, Infrastructure Security | Remote - US; New York City; Seattle; San Francisco | — | 47% (1 skills) | 2025-10-06 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/f51f750f-a737-4441-8f96-30133a2a8049) |
 | Stripe | Software Engineer, Security Analytics Infrastructure | US - Remote | — | 47% (1 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7826761) |
-| Anthropic | Finance Systems Integration Engineer 🆕 | San Francisco, CA \| Seattle, WA | — | 46% (4 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/anthropic/jobs/5315789008) |
-| Jump Trading | Campus Software Engineer (Full-Time) 🆕 | Chicago | — | 46% (4 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8000835) |
+| Anthropic | Finance Systems Integration Engineer | San Francisco, CA \| Seattle, WA | — | 46% (4 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/anthropic/jobs/5315789008) |
+| Jump Trading | Campus Software Engineer (Full-Time) | Chicago | — | 46% (4 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=8000835) |
 | Anduril | Software Engineer - Maritime Integrated Systems | Costa Mesa, California, United States | — | 46% (4 skills) | 2026-07-09 | 2026-07-08 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5166602007?gh_jid=5166602007) |
 | Jump Trading | Trading Tools UI/UX Developer | Singapore | — | 46% (4 skills) | 2026-07-08 | 2026-07-08 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=7088272) |
 | Anduril | Software Engineer - Maritime Integrated Systems | Quincy, Massachusetts, United States | — | 46% (4 skills) | 2026-07-08 | 2026-07-08 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5167630007?gh_jid=5167630007) |
@@ -908,9 +904,9 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Airbnb | Frontend Engineer, Quality Platform | Brazil | — | 46% (4 skills) | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://careers.airbnb.com/positions/8031755?gh_jid=8031755) |
 | Airbnb | Software Engineer, Reliability Engineering Team | Brazil | — | 46% (4 skills) | 2026-06-26 | 2026-07-05 | [**Apply ➜**](https://careers.airbnb.com/positions/8025193?gh_jid=8025193) |
 | Anduril | Data Engineer, Infrastructure FinOps | Costa Mesa, California, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5090905007?gh_jid=5090905007) |
+| Anduril | Ground Software Engineer, Space | Washington, District of Columbia, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4767772007?gh_jid=4767772007) |
 | Anduril | Ground Software Engineer, Space | Costa Mesa, California, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4497427007?gh_jid=4497427007) |
 | Anduril | Ground Software Engineer, Space | Colorado Springs, Colorado, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5143734007?gh_jid=5143734007) |
-| Anduril | Ground Software Engineer, Space | Washington, District of Columbia, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4767772007?gh_jid=4767772007) |
 | Anduril | Mission Software Engineer - Connected Warfare | Canberra, Australian Capital Territory, Australia | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5128654007?gh_jid=5128654007) |
 | Anduril | Mission Software Engineer, EW | Costa Mesa, California, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5161108007?gh_jid=5161108007) |
 | Anduril | Platform Engineer / DevOps Engineer / Infrastructure Engineer / Site Reliability Engineer | Sydney, New South Wales, Australia | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5176775007?gh_jid=5176775007) |
@@ -918,13 +914,13 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Anduril | Robotics Software Engineer, Air Vehicle Autonomy | Costa Mesa, California, United States; Seattle, Washington, United States; Washington, District of Columbia, United States | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4673939007?gh_jid=4673939007) |
 | Anduril | Robotics Software Engineer, Vehicle Software | Costa Mesa, California, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4672892007?gh_jid=4672892007) |
 | Anduril | Site Reliability Engineer - Tactical Reconnaissance & Strike | Costa Mesa, California, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5104871007?gh_jid=5104871007) |
-| Anduril | Software Engineer | Melbourne, Victoria, Australia | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4948330007?gh_jid=4948330007) |
 | Anduril | Software Engineer | Sydney, New South Wales, Australia | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4948307007?gh_jid=4948307007) |
+| Anduril | Software Engineer | Melbourne, Victoria, Australia | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4948330007?gh_jid=4948330007) |
 | Anduril | Software Engineer, Anvil | Costa Mesa, California, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4932828007?gh_jid=4932828007) |
 | Anduril | Software Engineer, Ghost | Costa Mesa, California, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4932891007?gh_jid=4932891007) |
 | Anduril | Software Engineer, Intelligence Systems | Reston, Virginia, United States; Washington, District of Columbia, United States | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5068451007?gh_jid=5068451007) |
-| Anduril | Software Engineer, Maritime | Quincy, Massachusetts, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5049648007?gh_jid=5049648007) |
 | Anduril | Software Engineer, Maritime | Boston, Massachusetts, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5085712007?gh_jid=5085712007) |
+| Anduril | Software Engineer, Maritime | Quincy, Massachusetts, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5049648007?gh_jid=5049648007) |
 | Anduril | Software Engineer, Maritime | Costa Mesa, California, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5051550007?gh_jid=5051550007) |
 | Anduril | Software Engineer, Modeling and Simulation, Space | Colorado Springs, Colorado, United States | — | 46% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5145750007?gh_jid=5145750007) |
 | Anduril | Software Engineer, Training Platform | Washington, District of Columbia, United States | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5175168007?gh_jid=5175168007) |
@@ -949,29 +945,29 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Ramp | Software Engineer, Core Product | New York, NY (HQ) | — | 46% (4 skills) | 2026-01-20 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/ramp/5fe4c64e-9336-4384-9e6f-ff32eeb3fdae) |
 | Scale AI | ML Systems Engineer, Robotics | San Francisco, CA | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4663053005) |
 | Scale AI | Software Engineer, Identity | San Francisco, CA; New York, NY; Washington, DC | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4710484005) |
-| SpaceX | Full Stack Software Engineer (Build Reliability) | Hawthorne, CA | — | 46% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8555791002?gh_jid=8555791002) |
-| SpaceX | Full Stack Software Engineer (Starshield) | Hawthorne, CA | — | 46% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8610872002?gh_jid=8610872002) |
-| SpaceX | Satellite Systems Software Engineer (Starlink) | Redmond, WA | — | 46% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8395341002?gh_jid=8395341002) |
-| SpaceX | Site Reliability Engineer (Application Software) | Hawthorne, CA | — | 46% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8505386002?gh_jid=8505386002) |
-| SpaceX | Software Engineer (Platform Team) | Sunnyvale, CA | — | 46% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8558858002?gh_jid=8558858002) |
-| SpaceX | Software Engineer (Platform Team) | Bastrop, TX | — | 46% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8560546002?gh_jid=8560546002) |
-| SpaceX | Software Engineer (Platform Team) | Hawthorne, CA | — | 46% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8495882002?gh_jid=8495882002) |
-| SpaceX | Software Engineer (Platform Team) | Starbase, TX | — | 46% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8560537002?gh_jid=8560537002) |
-| SpaceX | Software Engineer (Platform Team) | Redmond, WA | — | 46% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8558857002?gh_jid=8558857002) |
-| SpaceX | Software Engineer (Platform Team) | Palo Alto, CA | — | 46% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8558859002?gh_jid=8558859002) |
-| SpaceX | Software Engineer, Satellite Operations (Starshield) | Hawthorne, CA | — | 46% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8382088002?gh_jid=8382088002) |
-| SpaceX | Software Engineer, Site Reliability Engineering (Application Software) | Hawthorne, CA | — | 46% (4 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8575857002?gh_jid=8575857002) |
+| SpaceX | Full Stack Software Engineer (Build Reliability) | Hawthorne, CA | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8555791002?gh_jid=8555791002) |
+| SpaceX | Full Stack Software Engineer (Starshield) | Hawthorne, CA | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8610872002?gh_jid=8610872002) |
+| SpaceX | Satellite Systems Software Engineer (Starlink) | Redmond, WA | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8395341002?gh_jid=8395341002) |
+| SpaceX | Site Reliability Engineer (Application Software) | Hawthorne, CA | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8505386002?gh_jid=8505386002) |
+| SpaceX | Software Engineer (Platform Team) | Hawthorne, CA | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8495882002?gh_jid=8495882002) |
+| SpaceX | Software Engineer (Platform Team) | Bastrop, TX | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8560546002?gh_jid=8560546002) |
+| SpaceX | Software Engineer (Platform Team) | Starbase, TX | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8560537002?gh_jid=8560537002) |
+| SpaceX | Software Engineer (Platform Team) | Palo Alto, CA | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8558859002?gh_jid=8558859002) |
+| SpaceX | Software Engineer (Platform Team) | Sunnyvale, CA | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8558858002?gh_jid=8558858002) |
+| SpaceX | Software Engineer (Platform Team) | Redmond, WA | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8558857002?gh_jid=8558857002) |
+| SpaceX | Software Engineer, Satellite Operations (Starshield) | Hawthorne, CA | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8382088002?gh_jid=8382088002) |
+| SpaceX | Software Engineer, Site Reliability Engineering (Application Software) | Hawthorne, CA | — | 46% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8575857002?gh_jid=8575857002) |
+| OpenAI | Full Stack Engineer, Fleet Scheduling | San Francisco | — | 46% (4 skills) | 2025-02-06 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/9d11e1d8-af1d-413b-873f-d8fac2bdee99) |
 | OpenAI | Capacity Systems Software Engineer | San Francisco | — | 46% (4 skills) | 2026-05-22 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/11c51b12-3ba0-4a7a-a0d2-ed0661324dc3) |
 | OpenAI | Full Stack Software Engineer, ChatGPT Finances | San Francisco | — | 46% (4 skills) | 2026-06-15 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/39e06ef9-5e62-425d-81e2-e8690188011f) |
-| OpenAI | Full Stack Engineer, Fleet Scheduling | San Francisco | — | 46% (4 skills) | 2025-02-06 | 2026-07-04 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/9d11e1d8-af1d-413b-873f-d8fac2bdee99) |
 | Stripe | AI Engineer | Chicago | — | 46% (4 skills) | 2026-07-07 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8044460) |
 | Stripe | Infrastructure Engineer, Privy | New York | — | 46% (4 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7462961) |
 | Stripe | Software Engineer | Seattle | — | 46% (4 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991636) |
 | Stripe | Software Engineer, Product Security Data Platforms | Seattle | — | 46% (4 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7761694) |
 | Stripe | Software Engineer, Product Security Data Platforms | Seattle | — | 46% (4 skills) | 2026-07-01 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8039800) |
-| SpaceX | Software Engineer, Components (Starshield) 🆕 | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8625617002?gh_jid=8625617002) |
-| SpaceX | Software Engineer, Components Test (Starshield) 🆕 | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8625615002?gh_jid=8625615002) |
-| Anduril | Software Engineer 🆕 | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5133682007?gh_jid=5133682007) |
+| SpaceX | Software Engineer, Components (Starshield) | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8625617002?gh_jid=8625617002) |
+| SpaceX | Software Engineer, Components Test (Starshield) | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8625615002?gh_jid=8625615002) |
+| Anduril | Software Engineer | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5133682007?gh_jid=5133682007) |
 | AcuityMD | Data Analyst - Software Engineering Track | Boston, MA; Remote in USA | — | 45% | 2026-07-08 | 2026-07-09 | [**Apply ➜**](https://job-boards.greenhouse.io/acuitymd/jobs/6111981004) |
 | Motorola | Junior Software Engineer - AI Agent Platform | Alberta, Canada; Remote in Canada | — | 45% | 2026-07-08 | 2026-07-08 | [**Apply ➜**](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Ontario-Remote-Work/Junior-Software-Engineer--AI-Agent-Platform_R66146) |
 | RoadRunner Recycling | Software Engineer 1 - Full-Stack | Remote in USA | — | 45% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://job-boards.greenhouse.io/roadrunner/jobs/4307451009) |
@@ -979,8 +975,8 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Scale AI | Software Engineer, Gen AI | San Francisco, CA; New York, NY | — | 45% (3 skills) | 2026-07-09 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4591300005) |
 | Vercel | Software Engineer, Observability | Hybrid - London | — | 45% (3 skills) | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/5428982004) |
 | OpenAI | Software Engineer, Codex Security | San Francisco; Seattle; Remote - US | — | 45% | 2026-07-07 | 2026-07-07 | [**Apply ➜**](https://jobs.ashbyhq.com/openai/eefeb527-4e36-432e-a787-88e4672e29e1) |
-| SpaceX | Software Engineer, Product Development (Starshield) | Hawthorne, CA | — | 45% (3 skills) | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8621621002?gh_jid=8621621002) |
-| SpaceX | Software Engineer (Starshield) - Top Secret Clearance | Hawthorne, CA | — | 45% (3 skills) | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8621649002?gh_jid=8621649002) |
+| SpaceX | Software Engineer, Product Development (Starshield) | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-07 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8621621002?gh_jid=8621621002) |
+| SpaceX | Software Engineer (Starshield) - Top Secret Clearance | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-07 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8621649002?gh_jid=8621649002) |
 | Hudson River Trading | Trading Systems Engineer | Austin, TX, United States; Boulder, Colorado, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States | — | 45% (3 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8046163) |
 | Aledade | Software Engineer 1 | Remote in USA | — | 45% | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/aledade/1f5c4e2f-d8f7-4c55-aefb-d4bf300b1e6f/apply) |
 | Andrew Morgan | OneStream Developer | Remote in USA | — | 45% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://andrew-morgan.com/current-openings/?gh_jid=5288472008) |
@@ -997,35 +993,35 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Airbnb | Software Engineer, Quality Platform | Brazil | — | 45% (3 skills) | 2026-06-25 | 2026-07-05 | [**Apply ➜**](https://careers.airbnb.com/positions/8026849?gh_jid=8026849) |
 | Anduril | Controls System Software Engineer | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5155901007?gh_jid=5155901007) |
 | Anduril | Frontend Software Engineer | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5147775007?gh_jid=5147775007) |
-| Anduril | Mission Software Engineer | London, England, United Kingdom | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5092737007?gh_jid=5092737007) |
 | Anduril | Mission Software Engineer | Amsterdam, North Holland, Netherlands | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5100655007?gh_jid=5100655007) |
+| Anduril | Mission Software Engineer | London, England, United Kingdom | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5092737007?gh_jid=5092737007) |
 | Anduril | Mission Software Engineer, Air Vehicle Autonomy, Backend | Costa Mesa, California, United States; Seattle, Washington, United States; Washington, District of Columbia, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4672848007?gh_jid=4672848007) |
-| Anduril | Mission Software Engineer, Air Vehicle Autonomy, Frontend | Seattle, Washington, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4674088007?gh_jid=4674088007) |
 | Anduril | Mission Software Engineer, Air Vehicle Autonomy, Frontend | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4673956007?gh_jid=4673956007) |
+| Anduril | Mission Software Engineer, Air Vehicle Autonomy, Frontend | Seattle, Washington, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4674088007?gh_jid=4674088007) |
 | Anduril | Mission Software Engineer, Air Vehicle Autonomy, GenSWE | Costa Mesa, California, United States; Seattle, Washington, United States; Washington, District of Columbia, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4800373007?gh_jid=4800373007) |
 | Anduril | Mission Software Engineer, Vehicle Software, Active Clearance | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4672916007?gh_jid=4672916007) |
-| Anduril | Site Reliability Engineer, Discovery | Seattle, Washington, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5102674007?gh_jid=5102674007) |
 | Anduril | Site Reliability Engineer, Discovery | Washington, District of Columbia, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5102673007?gh_jid=5102673007) |
+| Anduril | Site Reliability Engineer, Discovery | Seattle, Washington, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5102674007?gh_jid=5102674007) |
 | Anduril | Software Engineer | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5168961007?gh_jid=5168961007) |
 | Anduril | Software Engineer, Connected Warfare | Washington, District of Columbia, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4596297007?gh_jid=4596297007) |
-| Anduril | Software Engineer, Connected Warfare | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4776690007?gh_jid=4776690007) |
 | Anduril | Software Engineer, Connected Warfare | Seattle, Washington, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4541903007?gh_jid=4541903007) |
-| Anduril | Software Engineer, Connected Warfare (Active Clearance) | Washington, District of Columbia, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4263023007?gh_jid=4263023007) |
+| Anduril | Software Engineer, Connected Warfare | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4776690007?gh_jid=4776690007) |
 | Anduril | Software Engineer, Connected Warfare (Active Clearance) | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4263021007?gh_jid=4263021007) |
-| Anduril | Software Engineer, Connected Warfare (Active Clearance) | Honolulu, Hawaii, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5155536007?gh_jid=5155536007) |
 | Anduril | Software Engineer, Connected Warfare (Active Clearance) | Seattle, Washington, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4263030007?gh_jid=4263030007) |
+| Anduril | Software Engineer, Connected Warfare (Active Clearance) | Washington, District of Columbia, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4263023007?gh_jid=4263023007) |
+| Anduril | Software Engineer, Connected Warfare (Active Clearance) | Honolulu, Hawaii, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5155536007?gh_jid=5155536007) |
 | Anduril | Software Engineer, Discovery | Seattle, Washington, United States; Washington, District of Columbia, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4980592007?gh_jid=4980592007) |
 | Anduril | Software Engineer, Generalist | Irvine, California, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5009117007?gh_jid=5009117007) |
 | Anduril | Software Engineer, Perception | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5165250007?gh_jid=5165250007) |
 | Anduril | Software Engineer, Rapid Integration and Test | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5129324007?gh_jid=5129324007) |
-| Anduril | Software Engineer, Robotics | Irvine, California, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4932360007?gh_jid=4932360007) |
 | Anduril | Software Engineer, Robotics | Irvine, California, United States | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5102393007?gh_jid=5102393007) |
+| Anduril | Software Engineer, Robotics | Irvine, California, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/4932360007?gh_jid=4932360007) |
 | Anduril | Software Engineer, Sensor Simulation | Costa Mesa, California, United States | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5160996007?gh_jid=5160996007) |
 | Anduril | Software Engineer, Sensor Simulation | Seattle, Washington, United States | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5152591007?gh_jid=5152591007) |
 | Anduril | Software Engineer - Simulation Integrations | Seattle, Washington, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5120250007?gh_jid=5120250007) |
-| Anduril | Systems Engineer, Battlespace | Waltham, Massachusetts, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5169846007?gh_jid=5169846007) |
-| Anduril | Systems Engineer, Battlespace | Broomfield, Colorado, United States | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5178127007?gh_jid=5178127007) |
 | Anduril | Systems Engineer, Battlespace | Broomfield, Colorado, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5169845007?gh_jid=5169845007) |
+| Anduril | Systems Engineer, Battlespace | Broomfield, Colorado, United States | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5178127007?gh_jid=5178127007) |
+| Anduril | Systems Engineer, Battlespace | Waltham, Massachusetts, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5169846007?gh_jid=5169846007) |
 | Anduril | Systems Engineer, Battlespace | Waltham, Massachusetts, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5152322007?gh_jid=5152322007) |
 | Anduril | Systems Engineer, Battlespace | Broomfield, Colorado, United States | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5152311007?gh_jid=5152311007) |
 | Anthropic | Software Engineer, RL Data | San Francisco, CA \| New York City, NY | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/anthropic/jobs/5238606008) |
@@ -1063,14 +1059,14 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Jump Trading | Quantitative Developer \| Trading Team | New York City or Chicago | — | 45% (3 skills) | 2026-05-18 | 2026-07-05 | [**Apply ➜**](https://www.jumptrading.com/hr/job?gh_jid=7767735) |
 | Lyft | Business Systems Engineer, Oracle PTM | Toronto, Canada | — | 45% (3 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://app.careerpuck.com/job-board/lyft/job/8482826002?gh_jid=8482826002) |
 | MongoDB | Engineer 3, Business Systems (CPQ) | United States | — | 45% (3 skills) | 2026-07-08 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7991444) |
-| MongoDB | Software Engineer 3 | Gurugram | — | 45% (3 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7908785) |
 | MongoDB | Software Engineer 3 | Dublin | — | 45% (3 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7939397) |
+| MongoDB | Software Engineer 3 | Gurugram | — | 45% (3 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7908785) |
 | MongoDB | Software Engineer 3 | Dublin | — | 45% (3 skills) | 2026-07-08 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7859378) |
 | MongoDB | Software Engineer 3, Query Execution | Dublin | — | 45% (3 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7699932) |
 | MongoDB | Software Engineer 3 - Query Optimization | Atlanta; Boston; New York City | — | 45% (3 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://www.mongodb.com/careers/job/?gh_jid=7816135) |
+| Notion | Software Engineer, Product Infrastructure | San Francisco, California; New York, New York | — | 45% (3 skills) | 2025-10-03 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/d41b635b-c17b-4efd-89fd-fdb2ddb62e9a) |
 | Notion | Software Engineer, AI Workflows | San Francisco, California; New York, New York | — | 45% (3 skills) | 2026-05-26 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/17330e14-83db-49a4-ae31-411690d97dba) |
 | Notion | Software Engineer, Trust | San Francisco, California; New York, New York | — | 45% (3 skills) | 2026-05-07 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/66236b7e-2905-4a93-84a5-ed036a1a6581) |
-| Notion | Software Engineer, Product Infrastructure | San Francisco, California; New York, New York | — | 45% (3 skills) | 2025-10-03 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/d41b635b-c17b-4efd-89fd-fdb2ddb62e9a) |
 | Perplexity | Sales Systems Engineer, Enterprise Operations | San Francisco; Austin; New York City | — | 45% (3 skills) | 2026-05-19 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/Perplexity/6eedd99c-ff6a-470b-a7cc-3303e1c0b7fc) |
 | Pinterest | Software Engineer, iOS | San Francisco, CA, US; Remote, US | — | 45% | 2026-06-04 | 2026-07-05 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=5601228) |
 | Ramp | Software Engineer, Data Platform | New York, NY (HQ) | — | 45% (3 skills) | 2026-03-11 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/ramp/bca0346c-b843-4795-96df-6091f51e421b) |
@@ -1078,43 +1074,105 @@ _…and 421 more (raise the cap in src/scraper/board.ts)._
 | Ramp | Software Engineer, Banking | New York, NY (HQ); San Francisco, CA; Remote (US) | — | 45% | 2026-05-27 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/ramp/d818443f-d4c5-4eab-892d-3715a935c165) |
 | Reddit | Machine Learning Systems Engineer, Ads ML Platform | Remote - The Netherlands | — | 45% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/reddit/jobs/8022942) |
 | Reddit | Machine Learning Systems Engineer, Ads ML Platform | Remote - United Kingdom | — | 45% | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/reddit/jobs/8022937) |
-| Robinhood | Machine Learning Engineer | Bellevue, WA | — | 45% (3 skills) | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/7960680?t=gh_src=&gh_jid=7960680) |
-| Robinhood | Software Engineer | Menlo Park, CA | — | 45% (3 skills) | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/7975531?t=gh_src=&gh_jid=7975531) |
-| Robinhood | Software Engineer | Menlo Park, CA | — | 45% (3 skills) | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/7975530?t=gh_src=&gh_jid=7975530) |
-| Robinhood | Software Engineer | Menlo Park, CA | — | 45% (3 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/7975507?t=gh_src=&gh_jid=7975507) |
+| Robinhood | Machine Learning Engineer | Bellevue, WA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/7960680?t=gh_src=&gh_jid=7960680) |
+| Robinhood | Software Engineer | Menlo Park, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/7975531?t=gh_src=&gh_jid=7975531) |
+| Robinhood | Software Engineer | Menlo Park, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/7975530?t=gh_src=&gh_jid=7975530) |
+| Robinhood | Software Engineer | Menlo Park, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/7975507?t=gh_src=&gh_jid=7975507) |
 | Roblox | Developer Engagement Representative - ANZ (Australia / New Zealand) (Part-Time Contract) | Remote | — | 45% | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8020695?gh_jid=8020695) |
 | Roblox | Developer Engagement Representative - LATAM (Part-Time Contract) | Remote | — | 45% | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7705949?gh_jid=7705949) |
 | Roblox | Developer Engagement Representative - Malaysia (Part-Time Contract) | Remote | — | 45% | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7978940?gh_jid=7978940) |
 | Roblox | Developer Engagement Representative - Thailand (Part-Time Contract) | Remote | — | 45% | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7992558?gh_jid=7992558) |
 | Roblox | Developer Engagement Representative - Vietnam (Part-Time Contract) | Remote | — | 45% | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8020621?gh_jid=8020621) |
 | Roblox | Global Developer Engagement Representative, Part-Time, Contractor | Remote | — | 45% | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7736682?gh_jid=7736682) |
-| Roblox | Software Engineer, User Sharing | San Mateo, CA, United States | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7767204?gh_jid=7767204) |
+| Roblox | Software Engineer, User Sharing | San Mateo, CA, United States | — | 45% (3 skills) | 2026-07-10 | 2026-07-05 | [**Apply ➜**](https://careers.roblox.com/jobs/7767204?gh_jid=7767204) |
 | Scale AI | AI Infrastructure Engineer, Model Serving Platform | San Francisco, CA; New York, NY | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4520320005) |
 | Scale AI | SME, Support Systems Specialist | India | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4684808005) |
 | Scale AI | SWE Fellow - Human Frontier Collective (Canada) | Canada | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4689954005) |
 | Scale AI | SWE Fellow - Human Frontier Collective (UK) | United Kingdom | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4689950005) |
 | Scale AI | SWE Fellow - Human Frontier Collective (US) | United States | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4689947005) |
 | ServiceNow | ServiceNow Technical Consultant/Developer for Finance & Supply Chain Solution Implementations | Remote (West Palm Beach, Florida, us) | — | 45% | 2026-04-21 | 2026-07-05 | [**Apply ➜**](https://jobs.smartrecruiters.com/ServiceNow/744000122078187) |
-| SpaceX | AI Engineer, Special Programs | Palo Alto, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8557038002?gh_jid=8557038002) |
-| SpaceX | AI Engineer, Special Programs | Washington, DC | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8557208002?gh_jid=8557208002) |
-| SpaceX | Application Software Engineer, Inference | Palo Alto, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8598844002?gh_jid=8598844002) |
-| SpaceX | Backend Software Engineer, GNC (Starlink) | Redmond, WA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8398679002?gh_jid=8398679002) |
-| SpaceX | GNC Engineer, Satellite Power Systems (Starlink) | Redmond, WA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8459660002?gh_jid=8459660002) |
-| SpaceX | ML Engineer, Surrogate Modeling (Vehicle Engineering) | Hawthorne, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8559035002?gh_jid=8559035002) |
-| SpaceX | Site Reliability Engineer, GNC | Hawthorne, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8527730002?gh_jid=8527730002) |
-| SpaceX | Site Reliability Engineer - Top Secret Clearance | Hawthorne, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8362795002?gh_jid=8362795002) |
-| SpaceX | Software Engineer, Collision Avoidance (Starshield) | Hawthorne, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8397683002?gh_jid=8397683002) |
-| SpaceX | Software Engineer (Components) | Hawthorne, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8557032002?gh_jid=8557032002) |
-| SpaceX | Software Engineer, C++ - Top Secret Clearance | Hawthorne, CA | — | 45% (3 skills) | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8377056002?gh_jid=8377056002) |
-| SpaceX | Software Engineer, DevOps (Starlink) | Redmond, WA | — | 45% (3 skills) | 2026-07-06 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8573204002?gh_jid=8573204002) |
+| SpaceX | AI Engineer, Special Programs | Washington, DC | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8557208002?gh_jid=8557208002) |
+| SpaceX | AI Engineer, Special Programs | Palo Alto, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8557038002?gh_jid=8557038002) |
+| SpaceX | Application Software Engineer, Inference | Palo Alto, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8598844002?gh_jid=8598844002) |
+| SpaceX | Backend Software Engineer, GNC (Starlink) | Redmond, WA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8398679002?gh_jid=8398679002) |
+| SpaceX | GNC Engineer, Satellite Power Systems (Starlink) | Redmond, WA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8459660002?gh_jid=8459660002) |
+| SpaceX | ML Engineer, Surrogate Modeling (Vehicle Engineering) | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8559035002?gh_jid=8559035002) |
+| SpaceX | Site Reliability Engineer, GNC | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8527730002?gh_jid=8527730002) |
+| SpaceX | Site Reliability Engineer - Top Secret Clearance | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8362795002?gh_jid=8362795002) |
+| SpaceX | Software Engineer, Collision Avoidance (Starshield) | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8397683002?gh_jid=8397683002) |
+| SpaceX | Software Engineer (Components) | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8557032002?gh_jid=8557032002) |
+| SpaceX | Software Engineer, C++ - Top Secret Clearance | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8377056002?gh_jid=8377056002) |
+| SpaceX | Software Engineer, DevOps (Starlink) | Redmond, WA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8573204002?gh_jid=8573204002) |
+| SpaceX | Software Engineer, Engineering Simulation & Automation (Vehicle Engineering) | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8559054002?gh_jid=8559054002) |
+| SpaceX | Software Engineer, Flight Software C++ (Starshield) | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8593183002?gh_jid=8593183002) |
+| SpaceX | Software Engineer, High Assurance Test (Starshield) | Hawthorne, CA | — | 45% (3 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8550675002?gh_jid=8550675002) |
 
-_…and 1171 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (319)
+_…and 1169 more (raise the cap in src/scraper/board.ts)._
+## 🚪 Recently closed (last 7 days) (369)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Anthropic | Compute & Infrastructure Counsel, Security & Compliance | — | 2026-07-10 |
+| MongoDB | Software Engineering Internship - Summer 2026/2027 | Summer 2026 | 2026-07-10 |
+| Pinterest | Security Software Engineer II, Security Operations | — | 2026-07-10 |
+| Instacart | Software Engineer II, Technical Search Visibility | — | 2026-07-10 |
+| Airbnb | Software Engineer, BizTech(Python, LLM, GenAI, MCP) | — | 2026-07-10 |
+| Scale AI | Software Engineer, Platform | — | 2026-07-10 |
+| Anduril | Electrical Systems Engineer, C2 Integration | — | 2026-07-10 |
+| Anduril | Production Software Engineer | — | 2026-07-10 |
+| Anduril | Software Engineer (C++) | — | 2026-07-10 |
+| Anduril | Systems Engineer, C2 Networking - Edge Compute and Communications | — | 2026-07-10 |
+| Anduril | Test & Evaluation Systems Integrator - Mission Autonomy | — | 2026-07-10 |
+| SpaceX | Power Systems Engineer (Starship Avionics) | — | 2026-07-10 |
+| OpenAI | Frontend Engineer, ChatGPT Engineering | — | 2026-07-10 |
+| OpenAI | Software Engineer, Real Time | — | 2026-07-10 |
+| OpenAI | Backend Software Engineer, ChatGPT ImageGen | — | 2026-07-10 |
+| Salesforce | AI Builder, Emerging Talent Manager | — | 2026-07-10 |
+| Salesforce | AI Builder, Emerging Talent Manager | — | 2026-07-10 |
+| SpaceX | Software Engineer - Starshield | — | 2026-07-10 |
+| NVIDIA | Research Scientist – PhD New College Grad - Generative AI for Physical AI | — | 2026-07-10 |
+| EvenUp | Software Engineer – New Grad - Cases Product | — | 2026-07-10 |
+| TikTok | Graduate Machine Learning Engineer - Data Search TikTok | — | 2026-07-10 |
+| Sony Interactive Entertainment | Software Engineer 1 | — | 2026-07-10 |
+| General Motors | Entry Level Developer - Simulation Platform - Galileo | — | 2026-07-10 |
+| Sierra Nevada Corporation | AI Agent Developer 1 | — | 2026-07-10 |
+| Sony Interactive Entertainment | Software Engineer 1 | — | 2026-07-10 |
+| Vanguard | Technology Leadership Program - Investment Systems | — | 2026-07-10 |
+| Vanguard | Entry Level Application Engineer | — | 2026-07-10 |
+| Pfizer | Manufacturing Execution Systems Engineer 1 - Manufacturing Execution Systems | — | 2026-07-10 |
+| STR | Associate Software Engineer | — | 2026-07-10 |
+| Vanguard | Entry Level Application Engineer | — | 2026-07-10 |
+| Vanguard | Entry Level Application Engineer | — | 2026-07-10 |
+| TikTok | Machine Learning Scientist Intern - TikTok Recommendation | — | 2026-07-10 |
+| TikTok | Research Scientist Intern - TikTok Recommendation | — | 2026-07-10 |
+| Nokia | IP R&D Lab Technologist Co-op/Intern | — | 2026-07-10 |
+| Nokia | Data Science Co-op - Test Automation - Big Data Analysis | — | 2026-07-10 |
+| Lambda | Security Engineer Intern | — | 2026-07-10 |
+| Nokia | Photonic Integrated Circuits Test Co-op | — | 2026-07-10 |
+| EUNA Solutions | Software Developer Co-op | — | 2026-07-10 |
+| Nokia | AI R&D Engineering Co-op | — | 2026-07-10 |
+| Rippling | Full Stack Software Engineer Intern | — | 2026-07-10 |
+| 1Password | Developer Intern - Trust Platforms | — | 2026-07-10 |
+| Nokia | AI R&D Engineer Co-op | — | 2026-07-10 |
+| Harbinger Motors | Production Data Analytics Intern | — | 2026-07-10 |
+| Citadel | Quantitative Research Analyst Intern | — | 2026-07-10 |
+| NVIDIA | PhD Research Intern - System Software and I/O Architecture | — | 2026-07-10 |
+| Centific | Technical Intern | — | 2026-07-10 |
+| Citadel Securities | Quantitative Research Analyst Bachelor's or master's degree Intern | — | 2026-07-10 |
+| Capital One | Product Development Intern | — | 2026-07-10 |
+| Capital One | Data Analyst Intern | — | 2026-07-10 |
+| GIA | Simulation & Optimization Analyst Intern | — | 2026-07-10 |
+| Caterpillar Inc. | Communications & AI Intern - AI Developer | — | 2026-07-10 |
+| Draper | Microsystems Integration Co-op | — | 2026-07-10 |
+| General Motors | Materials Science Intern | — | 2026-07-10 |
+| Sandhills Global | Software Development Intern | — | 2026-07-10 |
+| Cole Engineering Services | AI Intern | — | 2026-07-10 |
+| Muru | Mobile Software Engineer Intern | — | 2026-07-10 |
+| Muru | Full-Stack Software Engineer Intern | — | 2026-07-10 |
+| Sandhills Global | Software Development Intern | — | 2026-07-10 |
+| HARMAN | Intern – Software Engineering | — | 2026-07-10 |
 | Stripe | Backend Engineer, Financial Connections | — | 2026-07-09 |
 | Anthropic | Finance Systems Integration Engineer | — | 2026-07-09 |
 | Anthropic | Software Engineer, Safeguards Foundations (Internal Tooling) | — | 2026-07-09 |
@@ -1144,7 +1202,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | WebFX | Junior Full-Stack Software Engineer | — | 2026-07-09 |
 | Pfizer | Manufacturing Execution Systems Engineer 1 - Manufacturing Execution Systems | — | 2026-07-09 |
 | Axon | Software Engineer 1 | — | 2026-07-09 |
-| Goldman Sachs | Asset& Wealth Management-Software Engineering-Associate-New York | — | 2026-07-09 |
 | WebFX | Junior Front-End Web Developer | — | 2026-07-09 |
 | WebFX | Junior Backend Software Engineer - Nutshell CRM - AWS & React Native | — | 2026-07-09 |
 | LawDepot | Web Developer 1 | — | 2026-07-09 |
@@ -1158,16 +1215,9 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Pennsylvania State University | Research and Development Engineer Intern | — | 2026-07-09 |
 | Outmarket AI | AI Software Engineer Intern | — | 2026-07-09 |
 | GE Appliances | Software Engineering Co-op | — | 2026-07-09 |
-| Citadel | Quantitative Trader: Equity Quantitative Research Intern | — | 2026-07-09 |
 | Harris Computer | AI & Automation Intern | — | 2026-07-09 |
 | NVIDIA | Performance Engineer Intern - Systems Software | — | 2026-07-09 |
 | Loblaw Companies | AI Engineering Co-op | — | 2026-07-09 |
-| Sandhills Global | Software Development Intern | — | 2026-07-09 |
-| Cole Engineering Services | AI Intern | — | 2026-07-09 |
-| Muru | Mobile Software Engineer Intern | — | 2026-07-09 |
-| Muru | Full-Stack Software Engineer Intern | — | 2026-07-09 |
-| Sandhills Global | Software Development Intern | — | 2026-07-09 |
-| HARMAN | Intern – Software Engineering | — | 2026-07-09 |
 | ServiceNow | Software Engineer - Agentic AI Systems - Moveworks | — | 2026-07-09 |
 | Snowflake | Software Engineer - Snowflake Postgres | — | 2026-07-09 |
 | Meta | Data Engineer – University Grad - Product Analytics | — | 2026-07-09 |
@@ -1290,7 +1340,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | OpenAI | Software Engineer, Identity Infrastructure Engineering | — | 2026-07-07 |
 | Ramp | Software Engineer, Guest Travel | — | 2026-07-07 |
 | NVIDIA | Applied Research Intern, Robotics - 2026 | — | 2026-07-07 |
-| Salesforce | MTS/SMTS/LMTS - Software Engineer | — | 2026-07-07 |
 | Salesforce | Software Engineering AMTS | — | 2026-07-07 |
 | Motorola | Graduate Software Engineer | — | 2026-07-07 |
 | ByteDance | Graduate Research Scientist - AI Agent Memory Infrastructure - PhD | — | 2026-07-07 |
