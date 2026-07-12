@@ -151,6 +151,19 @@ export function isNewJob(job: BoardJob, updatedAt: string): boolean {
   return new Date(updatedAt).getTime() - new Date(job.firstSeenAt).getTime() < NEW_WINDOW_MS;
 }
 
+/**
+ * Newest provider posting timestamp first, with first-seen as a transparent
+ * fallback for ATSes that do not expose when a job was posted.
+ */
+export function compareJobsNewestFirst(a: BoardJob, b: BoardJob): number {
+  const time = (job: BoardJob) => {
+    const posted = job.postedAt ? new Date(job.postedAt).getTime() : Number.NaN;
+    const fallback = new Date(job.firstSeenAt).getTime();
+    return Number.isFinite(posted) ? posted : fallback;
+  };
+  return time(b) - time(a) || b.score - a.score || a.company.localeCompare(b.company);
+}
+
 const esc = (s: string) => s.replace(/\|/g, "\\|").replace(/\n/g, " ");
 const day = (iso: string) => iso.slice(0, 10);
 
@@ -177,7 +190,9 @@ const byScore = (a: BoardJob, b: BoardJob) =>
 /** 🔴-prefixed rows for watchlist matches that appeared this cycle. */
 function urgentSection(urgent: BoardJob[], updatedAt: string): string {
   if (urgent.length === 0) return "";
-  const rows = urgent.map((j) => jobRow(j, updatedAt).replace("| ", "| 🔴 "));
+  const rows = [...urgent]
+    .sort(compareJobsNewestFirst)
+    .map((j) => jobRow(j, updatedAt).replace("| ", "| 🔴 "));
   return `\n## 🚨 Watchlist alerts (${urgent.length})
 
 Roles matching [career/watchlist.md](career/watchlist.md) that appeared this cycle — these are the ones to apply to right now.
@@ -204,7 +219,7 @@ ${rows.join("\n")}
 
 export function renderJobsMarkdown(board: BoardData, urgent: BoardJob[] = []): string {
   const jobs = [...board.jobs].sort(byScore);
-  const fresh = jobs.filter((j) => isNewJob(j, board.updatedAt));
+  const fresh = jobs.filter((j) => isNewJob(j, board.updatedAt)).sort(compareJobsNewestFirst);
   const interns = jobs.filter((j) => j.roleType === "internship");
   const newGrad = jobs.filter((j) => j.roleType === "new_grad");
   const other = jobs.filter((j) => j.roleType !== "internship" && j.roleType !== "new_grad");

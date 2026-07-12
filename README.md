@@ -174,7 +174,11 @@ Each run also link-checks posting URLs (definitive 404/410s move to the
 board's "Recently closed" section), writes a run summary with the new-jobs
 table to the Actions page, and upserts a pinned **"🆕 New job matches"**
 issue (label `job-alert`) whenever a cycle finds new roles — watch the repo
-to get those as notifications.
+to get those as notifications. Alert tables are ordered by provider posting
+time from newest to oldest, include the exact UTC time and relative age, and
+bold jobs posted within the last five hours with a 🚨 marker. The pinned
+issue body keeps a rolling newest-first history; old bot comments are removed
+so the latest alert never sits below a long conversation.
 
 ### Watchlist & urgent alerts
 

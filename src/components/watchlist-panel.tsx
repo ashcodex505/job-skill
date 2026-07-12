@@ -9,6 +9,7 @@ import { ANY_COMPANY, matchWatches, type Watch } from "@/lib/career/watchlist";
 import type { DiscoveredJob } from "@/lib/app-types";
 
 const POLL_MS = 5 * 60 * 1000;
+const CLOCK_TICK_MS = 60_000;
 const URGENT_WINDOW_MS = 24 * 60 * 60 * 1000;
 
 interface WatchlistState {
@@ -36,6 +37,7 @@ export function WatchlistPanel() {
   const [keywords, setKeywords] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [clock, setClock] = useState(() => Date.now());
 
   const loadJobs = useCallback(() => {
     api<{ jobs: DiscoveredJob[] }>("/api/jobs")
@@ -48,6 +50,10 @@ export function WatchlistPanel() {
     api<WatchlistState>("/api/watchlist").then(setState).catch((e) => setError(e.message));
     loadJobs();
   }, [loadJobs]);
+  useEffect(() => {
+    const timer = setInterval(() => setClock(Date.now()), CLOCK_TICK_MS);
+    return () => clearInterval(timer);
+  }, []);
 
   const hasWatches = (state?.watches.length ?? 0) > 0;
 
@@ -100,7 +106,7 @@ export function WatchlistPanel() {
   const matches = matchWatches(state.watches, jobs)
     .sort((a, b) => (b.postedAt ?? b.firstSeenAt).localeCompare(a.postedAt ?? a.firstSeenAt))
     .slice(0, 12);
-  const isUrgent = (j: DiscoveredJob) => Date.now() - new Date(j.firstSeenAt).getTime() < URGENT_WINDOW_MS;
+  const isUrgent = (j: DiscoveredJob) => clock - new Date(j.firstSeenAt).getTime() < URGENT_WINDOW_MS;
 
   return (
     <Card className="p-4">

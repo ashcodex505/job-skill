@@ -71,18 +71,39 @@ jobs:
           NEW_JOBS_FILE: ${{ runner.temp }}/new-jobs.md
         run: |
           [ -s "$NEW_JOBS_FILE" ] || { echo "No new-jobs file; skipping."; exit 0; }
-          TITLE="🆕 New job matches"
+          TITLE="🆕 New job matches — newest first"
+          RUN_AT=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+          RUN_DISPLAY=$(date -u '+%Y-%m-%d %H:%M UTC')
           {
-            echo "cc @${{ github.repository_owner }} — **${{ steps.board.outputs.new_count }} new roles** found on $(date -u '+%Y-%m-%d %H:%M') UTC — full board in [JOBS.md](../blob/main/JOBS.md)."
+            echo "cc @${{ github.repository_owner }} — **${{ steps.board.outputs.new_count }} new roles** found on $RUN_DISPLAY — newest posting time first."
             echo
             cat "$NEW_JOBS_FILE"
-          } > /tmp/issue-body.md
+          } > /tmp/latest-job-alert.md
           gh label create job-alert --color 1D76DB --description "Automated new-job notifications" 2>/dev/null || true
           NUMBER=$(gh issue list --label job-alert --state open --json number --jq '.[0].number // empty')
+
           if [ -n "$NUMBER" ]; then
-            # Body edits don't notify — the comment is what pings phones.
+            gh issue view "$NUMBER" --json body --jq .body > /tmp/previous-job-alert.md
+          else
+            : > /tmp/previous-job-alert.md
+          fi
+          JOB_ALERT_CURRENT_FILE="$NEW_JOBS_FILE" \
+          JOB_ALERT_PREVIOUS_FILE=/tmp/previous-job-alert.md \
+          JOB_ALERT_OUTPUT_FILE=/tmp/issue-body.md \
+          JOB_ALERT_RUN_AT="$RUN_AT" \
+          JOB_ALERT_OWNER="${{ github.repository_owner }}" \
+          JOB_ALERT_COUNT="${{ steps.board.outputs.new_count }}" \
+            ./node_modules/.bin/tsx src/scraper/job-alert-body-cli.ts
+
+          if [ -n "$NUMBER" ]; then
+            # The body is a rolling newest-first history. Body edits do not
+            # notify, so keep exactly one bot comment containing this run.
             gh issue edit "$NUMBER" --title "$TITLE" --body-file /tmp/issue-body.md
-            gh issue comment "$NUMBER" --body-file /tmp/issue-body.md
+            gh api --paginate "repos/${{ github.repository }}/issues/$NUMBER/comments?per_page=100" \
+              --jq '.[] | select(.user.login == "github-actions[bot]") | .id' | while read -r COMMENT_ID; do
+                [ -n "$COMMENT_ID" ] && gh api -X DELETE "repos/${{ github.repository }}/issues/comments/$COMMENT_ID"
+              done
+            gh issue comment "$NUMBER" --body-file /tmp/latest-job-alert.md
           else
             NUMBER=$(gh issue create --title "$TITLE" --label job-alert --body-file /tmp/issue-body.md | grep -o '[0-9]*$')
             # Best-effort pin; requires GraphQL and may be denied — never fail the run.

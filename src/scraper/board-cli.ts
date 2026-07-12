@@ -4,6 +4,7 @@ import { migrate } from "drizzle-orm/libsql/migrator";
 import { db } from "@/db";
 import { matchWatches, parseWatchlist } from "@/lib/career/watchlist";
 import { closeJobs, mergeBoard, renderJobsMarkdown, updateReadme, type BoardData, type BoardJob } from "./board";
+import { renderNewJobsAlertTable } from "./job-alert";
 import { COMPANY_PORTALS } from "./registry";
 import { runScraper } from "./run";
 
@@ -150,17 +151,7 @@ async function main() {
     `summary=${summaryLine}\nnew_count=${newJobs.length}\nurgent_count=${urgent.length}\nurgent_title=${urgentTitle}\n`,
     true,
   );
-  const newJobsTable =
-    newJobs.length > 0
-      ? [
-          "| Company | Role | Season | Match | Apply |",
-          "|---|---|---|---|---|",
-          ...newJobs
-            .sort((a, b) => b.score - a.score)
-            .slice(0, 50)
-            .map((j) => `| ${j.company} | ${j.title.replace(/\|/g, "\\|")} | ${j.season ?? "—"} | ${j.score}% | [Apply](${j.url}) |`),
-        ].join("\n")
-      : "";
+  const newJobsTable = renderNewJobsAlertTable(newJobs, now);
   writeIfEnv(
     "GITHUB_STEP_SUMMARY",
     `## Job board: ${summaryLine}\n\n${newJobsTable || "_No new roles this cycle._"}\n`,
@@ -168,14 +159,7 @@ async function main() {
   );
   if (newJobsTable) writeIfEnv("BOARD_NEW_JOBS_FILE", `${newJobsTable}\n`, false);
   if (urgent.length > 0) {
-    const urgentTable = [
-      "| Company | Role | Location | Season | Match | Posted | Apply |",
-      "|---|---|---|---|---|---|---|",
-      ...urgent.map(
-        (j) =>
-          `| 🔴 ${j.company} | ${j.title.replace(/\|/g, "\\|")} | ${j.location ?? "—"} | ${j.season ?? "—"} | ${j.score}% | ${j.postedAt?.slice(0, 10) ?? "—"} | [Apply](${j.url}) |`,
-      ),
-    ].join("\n");
+    const urgentTable = renderNewJobsAlertTable(urgent, now);
     writeIfEnv("BOARD_URGENT_FILE", `${urgentTable}\n`, false);
   }
 

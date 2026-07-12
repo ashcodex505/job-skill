@@ -8,6 +8,8 @@ import { Badge, Button, Card, EmptyState, Input, Select, Spinner, cn } from "@/c
 import { api, formatDate, formatDateTime } from "@/lib/client";
 import type { DiscoveredJob, ScraperRun } from "@/lib/app-types";
 
+const CLOCK_TICK_MS = 60_000;
+
 export default function DiscoveryPage() {
   const [jobs, setJobs] = useState<DiscoveredJob[] | null>(null);
   const [lastRun, setLastRun] = useState<ScraperRun | null>(null);
@@ -29,6 +31,7 @@ export default function DiscoveryPage() {
   const [postedWithin, setPostedWithin] = useState(0); // days; 0 = any
   const [sortKey, setSortKey] = useState<SortKey>("score");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
+  const [clock, setClock] = useState(() => Date.now());
 
   const load = useCallback(() => {
     api<{ jobs: DiscoveredJob[]; lastRun: ScraperRun | null }>("/api/jobs")
@@ -39,6 +42,10 @@ export default function DiscoveryPage() {
       .catch((e) => setError(e.message));
   }, []);
   useEffect(load, [load]);
+  useEffect(() => {
+    const timer = setInterval(() => setClock(Date.now()), CLOCK_TICK_MS);
+    return () => clearInterval(timer);
+  }, []);
 
   async function scrapeNow() {
     setScraping(true);
@@ -97,7 +104,7 @@ export default function DiscoveryPage() {
         if (q && !`${j.company} ${j.title} ${j.location ?? ""}`.toLowerCase().includes(q)) return false;
         if (postedWithin > 0) {
           const opened = new Date(j.postedAt ?? j.firstSeenAt).getTime();
-          if (Date.now() - opened > postedWithin * 86_400_000) return false;
+          if (clock - opened > postedWithin * 86_400_000) return false;
         }
         return true;
       })
@@ -120,7 +127,7 @@ export default function DiscoveryPage() {
         // Stable tiebreaker: score desc, then newest first.
         return (sortDir === "asc" ? cmp : -cmp) || b.score - a.score || b.firstSeenAt.localeCompare(a.firstSeenAt);
       });
-  }, [jobs, query, companyFilter, typeFilter, seasonFilter, sourceFilter, onlyNew, hideSaved, minMatch, postedWithin, sortKey, sortDir]);
+  }, [jobs, query, companyFilter, typeFilter, seasonFilter, sourceFilter, onlyNew, hideSaved, minMatch, postedWithin, sortKey, sortDir, clock]);
 
   function setSort(key: SortKey) {
     if (sortKey === key) setSortDir((d) => (d === "asc" ? "desc" : "asc"));
