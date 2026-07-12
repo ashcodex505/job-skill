@@ -45,7 +45,9 @@ jobs:
           if git diff --cached --quiet; then
             echo "No board changes."
           else
-            git commit -m "chore: refresh job board (${{ steps.board.outputs.summary }}) [skip ci]"
+            git commit \
+              -m "chore: refresh job board (${{ steps.board.outputs.summary }}) [skip ci]" \
+              -m "Co-authored-by: Ashish Kurse <ashishkurse@gmail.com>"
             git pull --rebase origin main
             git push
           fi

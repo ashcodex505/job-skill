@@ -11,6 +11,12 @@ export interface CareerConfig {
   skills: string[];
   targetRoles: string[];
   seasons: string[];
+  /** Title phrases a full-time role must contain to count as new grad. */
+  requiredNewGradTitleKeywords: string[];
+  /** Internship seasons that are allowed through the strict career filter. */
+  internshipSeasons: string[];
+  /** Summer 2027 internship company allowlist; empty disables the company gate. */
+  summer2027ApprovedCompanies: string[];
   locations: string[];
   positiveKeywords: string[];
   negativeKeywords: string[];
@@ -20,6 +26,9 @@ export const EMPTY_CONFIG: CareerConfig = {
   skills: [],
   targetRoles: [],
   seasons: [],
+  requiredNewGradTitleKeywords: [],
+  internshipSeasons: [],
+  summer2027ApprovedCompanies: [],
   locations: [],
   positiveKeywords: [],
   negativeKeywords: [],
@@ -33,6 +42,9 @@ export function parseCareerConfig(profileMd: string, preferencesMd: string): Car
     skills: parseSection(profileMd, "Skills"),
     targetRoles: parseSection(preferencesMd, "Target roles"),
     seasons: parseSection(preferencesMd, "Seasons"),
+    requiredNewGradTitleKeywords: parseSection(preferencesMd, "Required new grad title keywords"),
+    internshipSeasons: parseSection(preferencesMd, "Internship seasons"),
+    summer2027ApprovedCompanies: parseSection(preferencesMd, "Summer 2027 approved companies"),
     locations: parseSection(preferencesMd, "Preferred locations"),
     positiveKeywords: parseSection(preferencesMd, "Positive title keywords"),
     negativeKeywords: parseSection(preferencesMd, "Negative title keywords"),

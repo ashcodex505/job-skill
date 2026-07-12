@@ -12,6 +12,19 @@ intro prose
 
 - Summer 2027
 - Fall 2026
+- 2027 New Grad
+
+## Required new grad title keywords
+- New Grad
+- Early Career
+
+## Internship seasons
+- Fall 2026
+- Summer 2027
+
+## Summer 2027 approved companies
+- Stripe
+- Google
 
 ## Preferred locations
 - Remote
@@ -39,7 +52,7 @@ some prose that is not a bullet
 describe("parseSection", () => {
   it("reads bullets under the heading only", () => {
     expect(parseSection(PREFS, "Target roles")).toEqual(["Software Engineer", "Backend"]);
-    expect(parseSection(PREFS, "Seasons")).toEqual(["Summer 2027", "Fall 2026"]);
+    expect(parseSection(PREFS, "Seasons")).toEqual(["Summer 2027", "Fall 2026", "2027 New Grad"]);
     expect(parseSection(PROFILE, "Skills")).toEqual(["Python", "C++", "Java", "React"]);
   });
 
@@ -56,6 +69,9 @@ describe("parseCareerConfig", () => {
     expect(cfg.negativeKeywords).toEqual(["Blockchain", "Web3"]);
     expect(cfg.locations).toContain("Remote");
     expect(cfg.positiveKeywords).toEqual(["Co-op"]);
+    expect(cfg.requiredNewGradTitleKeywords).toEqual(["New Grad", "Early Career"]);
+    expect(cfg.internshipSeasons).toEqual(["Fall 2026", "Summer 2027"]);
+    expect(cfg.summer2027ApprovedCompanies).toEqual(["Stripe", "Google"]);
   });
 });
 

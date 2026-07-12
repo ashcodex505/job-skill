@@ -29,6 +29,75 @@ export interface NormalizedJob extends Omit<RawJob, "description"> {
   descriptionText: string | null;
 }
 
+const normalizedWords = (value: string): string =>
+  value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().replace(/\s+/g, " ");
+
+const includesPhrase = (text: string, phrase: string): boolean => {
+  const needle = normalizedWords(phrase);
+  return Boolean(needle && ` ${normalizedWords(text)} `.includes(` ${needle} `));
+};
+
+const equalsIgnoreCase = (left: string, right: string): boolean =>
+  normalizedWords(left) === normalizedWords(right);
+
+/**
+ * Company names vary slightly by source (for example, "Meta" vs.
+ * "Meta Platforms"). Match exact normalized names plus a whole-word prefix,
+ * while avoiding broad substring matches such as "AI" inside another name.
+ */
+export function isApprovedCompany(company: string, approvedCompanies: string[]): boolean {
+  const candidate = normalizedWords(company);
+  if (!candidate) return false;
+  return approvedCompanies.some((approved) => {
+    const allowed = normalizedWords(approved);
+    if (!allowed) return false;
+    return candidate === allowed || candidate.startsWith(`${allowed} `) || allowed.startsWith(`${candidate} `);
+  });
+}
+
+/**
+ * Apply the hard constraints from career/preferences.md after title
+ * classification. Empty policy sections preserve the legacy score-only
+ * behavior, so older preference files remain valid.
+ */
+export function passesCareerPolicy(
+  raw: Pick<RawJob, "company" | "title">,
+  classification: Classification,
+  config: CareerConfig,
+): boolean {
+  const { roleType, season, breakdown } = classification;
+
+  if (roleType === "internship" && config.internshipSeasons.length > 0) {
+    if (breakdown.role === 0 || !season) return false;
+    if (!config.internshipSeasons.some((target) => equalsIgnoreCase(target, season))) return false;
+
+    if (
+      equalsIgnoreCase(season, "Summer 2027") &&
+      config.summer2027ApprovedCompanies.length > 0 &&
+      !isApprovedCompany(raw.company, config.summer2027ApprovedCompanies)
+    ) {
+      return false;
+    }
+    return true;
+  }
+
+  if (config.requiredNewGradTitleKeywords.length > 0) {
+    // In strict mode, generic full-time SWE roles are not assumed to be
+    // entry-level merely because the title omits "Senior".
+    if (roleType !== "new_grad" || breakdown.role === 0) return false;
+    if (!config.requiredNewGradTitleKeywords.some((keyword) => includesPhrase(raw.title, keyword))) return false;
+
+    // A listing with no year is still useful; if it states a cycle, it must
+    // match one of the configured New Grad seasons.
+    const newGradSeasons = config.seasons.filter((target) => /new grad/i.test(target));
+    if (season && newGradSeasons.length > 0 && !newGradSeasons.some((target) => equalsIgnoreCase(target, season))) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
 /**
  * Stable dedupe key: prefer the provider's job id, fall back to the URL,
  * then to a content hash of company|title|location.
@@ -50,6 +119,9 @@ export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new
   if (!title) return null;
   const { relevant, roleType, season, score, breakdown } = classifyTitle(title, raw.location, config, ref);
   if (!relevant) return null;
+  if (config && !passesCareerPolicy({ company: raw.company, title }, { relevant, roleType, season, score, breakdown }, config)) {
+    return null;
+  }
 
   const descriptionText = raw.description ? stripHtml(raw.description).slice(0, DESCRIPTION_MAX_CHARS) || null : null;
 

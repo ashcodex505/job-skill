@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { classifyTitle, defaultSeasonTargets, detectRoleType, detectSeason } from "./classify";
-import { dedupeJobs, makeDedupeKey, normalizeJob, type RawJob } from "./normalize";
+import { dedupeJobs, isApprovedCompany, makeDedupeKey, normalizeJob, type RawJob } from "./normalize";
+import type { CareerConfig } from "@/lib/career/config";
 
 /** Deterministic "today" for season-sensitive tests. */
 const REF = new Date("2026-07-04T12:00:00Z");
@@ -15,6 +16,18 @@ const raw = (overrides: Partial<RawJob> = {}): RawJob => ({
   postedAt: null,
   ...overrides,
 });
+
+const strictConfig: CareerConfig = {
+  skills: [],
+  targetRoles: ["Software Engineer", "Software Developer", "Backend", "Frontend", "Full-Stack", "Platform Engineer"],
+  seasons: ["2027 New Grad", "Fall 2026", "Summer 2027"],
+  requiredNewGradTitleKeywords: ["New Grad", "New Graduate", "Early Career", "Early Careers"],
+  internshipSeasons: ["Fall 2026", "Summer 2027"],
+  summer2027ApprovedCompanies: ["Stripe", "Meta"],
+  locations: [],
+  positiveKeywords: [],
+  negativeKeywords: [],
+};
 
 describe("classify", () => {
   it("detects internships and new grad roles", () => {
@@ -117,6 +130,7 @@ describe("normalize + dedupe", () => {
     const config = {
       skills: ["Python", "React"],
       targetRoles: [], seasons: [], locations: [], positiveKeywords: [], negativeKeywords: [],
+      requiredNewGradTitleKeywords: [], internshipSeasons: [], summer2027ApprovedCompanies: [],
     };
     const job = normalizeJob(
       raw({ description: `<p>We use <b>Python</b> daily.</p>${"x".repeat(20_000)}` }),
@@ -136,6 +150,29 @@ describe("normalize + dedupe", () => {
   it("drops irrelevant jobs", () => {
     expect(normalizeJob(raw({ title: "Senior Staff Engineer" }))).toBeNull();
     expect(normalizeJob(raw({ title: "" }))).toBeNull();
+  });
+
+  it("enforces explicit new-grad or early-career wording for full-time roles", () => {
+    expect(normalizeJob(raw({ title: "Software Engineer", company: "Stripe" }), strictConfig, REF)).toBeNull();
+    expect(normalizeJob(raw({ title: "Software Engineer, University Graduate 2027" }), strictConfig, REF)).toBeNull();
+    expect(normalizeJob(raw({ title: "Software Engineer, New Grad 2027" }), strictConfig, REF)).not.toBeNull();
+    expect(normalizeJob(raw({ title: "Software Engineer — Early-Career" }), strictConfig, REF)).not.toBeNull();
+    expect(normalizeJob(raw({ title: "Marketing Associate, New Grad 2027" }), strictConfig, REF)).toBeNull();
+    expect(normalizeJob(raw({ title: "Software Engineer, New Grad 2028" }), strictConfig, REF)).toBeNull();
+  });
+
+  it("allows only configured internship seasons and gates Summer 2027 by company", () => {
+    expect(normalizeJob(raw({ title: "Software Engineer Intern (Fall 2026)", company: "Local Company" }), strictConfig, REF)).not.toBeNull();
+    expect(normalizeJob(raw({ title: "Software Engineer Intern (Summer 2027)", company: "Stripe, Inc." }), strictConfig, REF)).not.toBeNull();
+    expect(normalizeJob(raw({ title: "Software Engineer Intern (Summer 2027)", company: "Local Company" }), strictConfig, REF)).toBeNull();
+    expect(normalizeJob(raw({ title: "Software Engineer Intern (Summer 2026)", company: "Stripe" }), strictConfig, REF)).toBeNull();
+    expect(normalizeJob(raw({ title: "Product Intern (Fall 2026)", company: "Stripe" }), strictConfig, REF)).toBeNull();
+  });
+
+  it("matches common approved-company name variants without arbitrary substrings", () => {
+    expect(isApprovedCompany("Meta Platforms, Inc.", ["Meta"])).toBe(true);
+    expect(isApprovedCompany("Stripe, Inc.", ["Stripe"])).toBe(true);
+    expect(isApprovedCompany("Metaverse Labs", ["Meta"])).toBe(false);
   });
 
   it("collapses whitespace in titles", () => {

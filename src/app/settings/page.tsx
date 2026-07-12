@@ -10,6 +10,9 @@ interface CareerConfig {
   skills: string[];
   targetRoles: string[];
   seasons: string[];
+  requiredNewGradTitleKeywords: string[];
+  internshipSeasons: string[];
+  summer2027ApprovedCompanies: string[];
   locations: string[];
   positiveKeywords: string[];
   negativeKeywords: string[];
@@ -154,6 +157,9 @@ export default function SettingsPage() {
             <CareerRow label={`Skills (${career.skills.length})`} items={career.skills} />
             <CareerRow label="Target roles" items={career.targetRoles} />
             <CareerRow label="Seasons" items={career.seasons} />
+            <CareerRow label="Required grad labels" items={career.requiredNewGradTitleKeywords} />
+            <CareerRow label="Intern seasons" items={career.internshipSeasons} />
+            <CareerRow label="Summer ’27 companies" items={career.summer2027ApprovedCompanies} />
             <CareerRow label="Locations" items={career.locations} />
             <CareerRow label="Extra keywords" items={career.positiveKeywords} />
             <CareerRow label="Exclusions" items={career.negativeKeywords} />

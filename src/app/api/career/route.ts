@@ -43,7 +43,7 @@ export const POST = handler(async (req: Request) => {
   const prompt = `You maintain two markdown files that configure a personal job-scraper (career-ops style).
 A parser reads ONLY the "- " bullet items under these exact headings:
 - profile.md: "## Skills" (also has free-text sections like "## Highlights")
-- preferences.md: "## Target roles", "## Seasons", "## Preferred locations", "## Positive title keywords", "## Negative title keywords"
+- preferences.md: "## Target roles", "## Seasons", "## Required new grad title keywords", "## Internship seasons", "## Summer 2027 approved companies", "## Preferred locations", "## Positive title keywords", "## Negative title keywords"
 
 Current profile.md:
 <<<PROFILE
@@ -91,6 +91,8 @@ If a file needs no changes, omit its block entirely.`;
   const nextConfig = parseCareerConfig(nextProfile, nextPreferences);
   const total =
     nextConfig.skills.length + nextConfig.targetRoles.length + nextConfig.seasons.length +
+    nextConfig.requiredNewGradTitleKeywords.length + nextConfig.internshipSeasons.length +
+    nextConfig.summer2027ApprovedCompanies.length +
     nextConfig.locations.length + nextConfig.positiveKeywords.length + nextConfig.negativeKeywords.length;
   if (total === 0) {
     return badRequest("Update rejected: the edited files would leave the scraper with no usable configuration.");
