@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { BoardJob } from "./board";
-import { buildJobAlertIssueBody, isRecentlyPosted, renderNewJobsAlertTable } from "./job-alert";
+import { isRecentlyPosted, renderNewJobsAlertTable } from "./job-alert";
 
 const NOW = "2026-07-12T12:00:00.000Z";
 const job = (overrides: Partial<BoardJob> = {}): BoardJob => ({
@@ -58,19 +58,5 @@ describe("renderNewJobsAlertTable", () => {
     expect(isRecentlyPosted(normalizedDate, NOW)).toBe(false);
     expect(markdown).toContain("2026-07-12 *(time unavailable)*");
     expect(markdown).not.toContain("2026-07-12 00:00 UTC");
-  });
-});
-
-describe("buildJobAlertIssueBody", () => {
-  it("prepends each workflow run so the newest run stays first", () => {
-    const older = buildJobAlertIssueBody("", { runAt: "2026-07-12T06:00:00Z", count: 2, table: "OLDER TABLE" }, "ash");
-    const newer = buildJobAlertIssueBody(older, { runAt: "2026-07-12T12:00:00Z", count: 3, table: "NEWER TABLE" }, "ash");
-    expect(newer.indexOf("NEWER TABLE")).toBeLessThan(newer.indexOf("OLDER TABLE"));
-    expect(newer).toContain("latest job-board workflow run is always at the top");
-  });
-
-  it("keeps the previous pre-upgrade alert during the first migration", () => {
-    const body = buildJobAlertIssueBody("LEGACY ALERT TABLE", { runAt: NOW, count: 1, table: "NEW TABLE" }, "ash");
-    expect(body.indexOf("NEW TABLE")).toBeLessThan(body.indexOf("LEGACY ALERT TABLE"));
   });
 });

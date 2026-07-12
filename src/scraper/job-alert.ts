@@ -2,11 +2,6 @@ import { compareJobsNewestFirst, type BoardJob } from "./board";
 
 export const RECENT_POSTING_MS = 5 * 60 * 60 * 1000;
 const FUTURE_CLOCK_SKEW_MS = 15 * 60 * 1000;
-const HISTORY_START = "<!-- JOB-ALERT-HISTORY:START -->";
-const HISTORY_END = "<!-- JOB-ALERT-HISTORY:END -->";
-const CYCLE_MARKER = "<!-- JOB-ALERT-CYCLE -->";
-const MAX_HISTORY_CYCLES = 12;
-const MAX_ISSUE_BODY_CHARS = 60_000;
 
 const escapeCell = (value: string) => value.replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
 
@@ -93,49 +88,4 @@ export function renderNewJobsAlertTable(jobs: BoardJob[], now: string, cap = 50)
   ].join("\n");
   const truncated = jobs.length > cap ? `\n\n_Showing the newest ${cap} of ${jobs.length} jobs from this run._` : "";
   return `${note}\n\n${table}${truncated}`;
-}
-
-export interface JobAlertCycle {
-  runAt: string;
-  count: number;
-  table: string;
-}
-
-function cycleSection(cycle: JobAlertCycle): string {
-  return `${CYCLE_MARKER}\n## ${utcMinute(cycle.runAt)} — ${cycle.count} new job${cycle.count === 1 ? "" : "s"}\n\n${cycle.table.trim()}`;
-}
-
-function previousCycles(previousBody: string): string[] {
-  const start = previousBody.indexOf(HISTORY_START);
-  const end = previousBody.indexOf(HISTORY_END);
-  if (start === -1 || end <= start) {
-    const legacy = previousBody.trim();
-    return legacy ? [`${CYCLE_MARKER}\n## Previous alert — legacy format\n\n${legacy}`] : [];
-  }
-  return previousBody
-    .slice(start + HISTORY_START.length, end)
-    .split(CYCLE_MARKER)
-    .map((part) => part.trim())
-    .filter(Boolean)
-    .map((part) => `${CYCLE_MARKER}\n${part}`);
-}
-
-/** Rolling GitHub issue body whose workflow-run sections are newest first. */
-export function buildJobAlertIssueBody(previousBody: string, cycle: JobAlertCycle, owner: string): string {
-  const cycles = [cycleSection(cycle), ...previousCycles(previousBody)].slice(0, MAX_HISTORY_CYCLES);
-  const header = [
-    "# 🆕 Job alerts — newest first",
-    "",
-    `cc @${owner} — the latest job-board workflow run is always at the top.`,
-    "",
-    "🚨 **JUST POSTED ≤5h** highlights the most time-sensitive openings. Times are normalized to UTC.",
-    "See the complete current list in [JOBS.md](../blob/main/JOBS.md).",
-    "",
-    HISTORY_START,
-  ].join("\n");
-  const footer = `\n${HISTORY_END}\n`;
-  while (cycles.length > 1 && `${header}\n${cycles.join("\n\n---\n\n")}${footer}`.length > MAX_ISSUE_BODY_CHARS) {
-    cycles.pop();
-  }
-  return `${header}\n${cycles.join("\n\n---\n\n")}${footer}`;
 }
