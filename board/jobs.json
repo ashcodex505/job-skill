@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-11T18:14:00.643Z",
+ "updatedAt": "2026-07-12T07:39:59.558Z",
  "jobs": [
   {
    "dedupeKey": "greenhouse:8044460",
@@ -609,28 +609,6 @@
    "firstSeenAt": "2026-07-04T20:13:25.659Z"
   },
   {
-   "dedupeKey": "greenhouse:6717520",
-   "source": "greenhouse",
-   "company": "Stripe",
-   "title": "Fullstack Engineer, Payments and Risk",
-   "location": "Dublin, Ireland",
-   "url": "https://stripe.com/jobs/search?gh_jid=6717520",
-   "season": null,
-   "roleType": "unknown",
-   "score": 50,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-10T15:24:45-04:00",
-   "firstSeenAt": "2026-07-04T20:13:25.659Z"
-  },
-  {
    "dedupeKey": "greenhouse:7091959",
    "source": "greenhouse",
    "company": "Stripe",
@@ -870,6 +848,59 @@
    "firstSeenAt": "2026-07-04T20:13:25.659Z"
   },
   {
+   "dedupeKey": "greenhouse:7926966",
+   "source": "greenhouse",
+   "company": "Stripe",
+   "title": "Software Engineer",
+   "location": "New York, NY",
+   "url": "https://stripe.com/jobs/search?gh_jid=7926966",
+   "season": null,
+   "roleType": "unknown",
+   "score": 45,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "SQL"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 5
+   },
+   "postedAt": "2026-06-26T17:05:42-04:00",
+   "firstSeenAt": "2026-07-04T20:13:25.659Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7991636",
+   "source": "greenhouse",
+   "company": "Stripe",
+   "title": "Software Engineer",
+   "location": "Seattle",
+   "url": "https://stripe.com/jobs/search?gh_jid=7991636",
+   "season": null,
+   "roleType": "unknown",
+   "score": 46,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "SQL",
+    "AWS"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 6
+   },
+   "postedAt": "2026-06-26T17:05:46-04:00",
+   "firstSeenAt": "2026-07-04T20:13:25.659Z"
+  },
+  {
    "dedupeKey": "greenhouse:7922832",
    "source": "greenhouse",
    "company": "Stripe",
@@ -919,59 +950,6 @@
     "skills": 8
    },
    "postedAt": "2026-06-26T17:05:48-04:00",
-   "firstSeenAt": "2026-07-04T20:13:25.659Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7991636",
-   "source": "greenhouse",
-   "company": "Stripe",
-   "title": "Software Engineer",
-   "location": "Seattle",
-   "url": "https://stripe.com/jobs/search?gh_jid=7991636",
-   "season": null,
-   "roleType": "unknown",
-   "score": 46,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "SQL",
-    "AWS"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 6
-   },
-   "postedAt": "2026-06-26T17:05:46-04:00",
-   "firstSeenAt": "2026-07-04T20:13:25.659Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7926966",
-   "source": "greenhouse",
-   "company": "Stripe",
-   "title": "Software Engineer",
-   "location": "New York, NY",
-   "url": "https://stripe.com/jobs/search?gh_jid=7926966",
-   "season": null,
-   "roleType": "unknown",
-   "score": 45,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "SQL"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 5
-   },
-   "postedAt": "2026-06-26T17:05:42-04:00",
    "firstSeenAt": "2026-07-04T20:13:25.659Z"
   },
   {
@@ -1239,6 +1217,28 @@
    "firstSeenAt": "2026-07-04T20:13:25.659Z"
   },
   {
+   "dedupeKey": "greenhouse:6717520",
+   "source": "greenhouse",
+   "company": "Stripe",
+   "title": "Software Engineer, Payments, Risk, & Premium Merchant Experiences",
+   "location": "Dublin, Ireland",
+   "url": "https://stripe.com/jobs/search?gh_jid=6717520",
+   "season": null,
+   "roleType": "unknown",
+   "score": 50,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-12T02:54:27-04:00",
+   "firstSeenAt": "2026-07-04T20:13:25.659Z"
+  },
+  {
    "dedupeKey": "greenhouse:7761694",
    "source": "greenhouse",
    "company": "Stripe",
@@ -1390,6 +1390,30 @@
    "firstSeenAt": "2026-07-04T20:13:25.659Z"
   },
   {
+   "dedupeKey": "greenhouse:8298792002",
+   "source": "greenhouse",
+   "company": "Databricks",
+   "title": "AI Engineer - FDE (Forward Deployed Engineer)",
+   "location": "Sydney, Australia",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8298792002",
+   "season": null,
+   "roleType": "unknown",
+   "score": 42,
+   "matchedSkills": [
+    "AWS"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 2
+   },
+   "postedAt": "2026-07-01T18:31:27-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
    "dedupeKey": "greenhouse:8569390002",
    "source": "greenhouse",
    "company": "Databricks",
@@ -1459,30 +1483,6 @@
     "skills": 2
    },
    "postedAt": "2026-07-08T12:17:12-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8298792002",
-   "source": "greenhouse",
-   "company": "Databricks",
-   "title": "AI Engineer - FDE (Forward Deployed Engineer)",
-   "location": "Sydney, Australia",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8298792002",
-   "season": null,
-   "roleType": "unknown",
-   "score": 42,
-   "matchedSkills": [
-    "AWS"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 2
-   },
-   "postedAt": "2026-07-01T18:31:27-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -1605,32 +1605,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8012650002",
-   "source": "greenhouse",
-   "company": "Databricks",
-   "title": "Software Engineer - Backend",
-   "location": "Belgrade, Serbia",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002",
-   "season": null,
-   "roleType": "unknown",
-   "score": 45,
-   "matchedSkills": [
-    "Java",
-    "SQL",
-    "AWS"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 5
-   },
-   "postedAt": "2026-07-01T18:31:21-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:8029666002",
    "source": "greenhouse",
    "company": "Databricks",
@@ -1654,6 +1628,32 @@
     "skills": 5
    },
    "postedAt": "2026-07-01T18:31:15-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8012650002",
+   "source": "greenhouse",
+   "company": "Databricks",
+   "title": "Software Engineer - Backend",
+   "location": "Belgrade, Serbia",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002",
+   "season": null,
+   "roleType": "unknown",
+   "score": 45,
+   "matchedSkills": [
+    "Java",
+    "SQL",
+    "AWS"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 5
+   },
+   "postedAt": "2026-07-01T18:31:21-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -2981,12 +2981,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:7821318",
+   "dedupeKey": "greenhouse:7821316",
    "source": "greenhouse",
    "company": "MongoDB",
    "title": "Site Reliability Engineer 3",
-   "location": "Dublin",
-   "url": "https://www.mongodb.com/careers/job/?gh_jid=7821318",
+   "location": "New York City",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=7821316",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -3006,12 +3006,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:7821316",
+   "dedupeKey": "greenhouse:7821318",
    "source": "greenhouse",
    "company": "MongoDB",
    "title": "Site Reliability Engineer 3",
-   "location": "New York City",
-   "url": "https://www.mongodb.com/careers/job/?gh_jid=7821316",
+   "location": "Dublin",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=7821318",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -3088,23 +3088,19 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:7581876",
+   "dedupeKey": "greenhouse:7908785",
    "source": "greenhouse",
    "company": "MongoDB",
    "title": "Software Engineer 3",
-   "location": "Dublin",
-   "url": "https://www.mongodb.com/careers/job/?gh_jid=7581876",
+   "location": "Gurugram",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=7908785",
    "season": null,
    "roleType": "unknown",
-   "score": 51,
+   "score": 45,
    "matchedSkills": [
-    "Java",
-    "JavaScript",
-    "React",
-    "AWS",
-    "Docker",
-    "Data Structures",
-    "Algorithms"
+    "Python",
+    "SQL",
+    "AWS"
    ],
    "breakdown": {
     "role": 40,
@@ -3112,7 +3108,7 @@
     "season": 0,
     "location": 0,
     "keywords": 0,
-    "skills": 11
+    "skills": 5
    },
    "postedAt": "2026-07-06T12:17:28-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
@@ -3144,6 +3140,62 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "greenhouse:7939397",
+   "source": "greenhouse",
+   "company": "MongoDB",
+   "title": "Software Engineer 3",
+   "location": "Dublin",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=7939397",
+   "season": null,
+   "roleType": "unknown",
+   "score": 45,
+   "matchedSkills": [
+    "Java",
+    "JavaScript",
+    "AWS"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 5
+   },
+   "postedAt": "2026-07-06T12:17:28-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7581876",
+   "source": "greenhouse",
+   "company": "MongoDB",
+   "title": "Software Engineer 3",
+   "location": "Dublin",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=7581876",
+   "season": null,
+   "roleType": "unknown",
+   "score": 51,
+   "matchedSkills": [
+    "Java",
+    "JavaScript",
+    "React",
+    "AWS",
+    "Docker",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 11
+   },
+   "postedAt": "2026-07-06T12:17:28-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
    "dedupeKey": "greenhouse:7993984",
    "source": "greenhouse",
    "company": "MongoDB",
@@ -3171,32 +3223,6 @@
    "firstSeenAt": "2026-07-07T19:19:12.312Z"
   },
   {
-   "dedupeKey": "greenhouse:7908785",
-   "source": "greenhouse",
-   "company": "MongoDB",
-   "title": "Software Engineer 3",
-   "location": "Gurugram",
-   "url": "https://www.mongodb.com/careers/job/?gh_jid=7908785",
-   "season": null,
-   "roleType": "unknown",
-   "score": 45,
-   "matchedSkills": [
-    "Python",
-    "SQL",
-    "AWS"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 5
-   },
-   "postedAt": "2026-07-06T12:17:28-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:7744404",
    "source": "greenhouse",
    "company": "MongoDB",
@@ -3217,32 +3243,6 @@
     "location": 0,
     "keywords": 0,
     "skills": 3
-   },
-   "postedAt": "2026-07-06T12:17:28-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7939397",
-   "source": "greenhouse",
-   "company": "MongoDB",
-   "title": "Software Engineer 3",
-   "location": "Dublin",
-   "url": "https://www.mongodb.com/careers/job/?gh_jid=7939397",
-   "season": null,
-   "roleType": "unknown",
-   "score": 45,
-   "matchedSkills": [
-    "Java",
-    "JavaScript",
-    "AWS"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 5
    },
    "postedAt": "2026-07-06T12:17:28-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
@@ -3627,12 +3627,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:7311666",
+   "dedupeKey": "greenhouse:7311708",
    "source": "greenhouse",
    "company": "MongoDB",
    "title": "Software Engineer, Code Generation",
-   "location": "California; Colorado; Montana; Nevada; New Mexico; Oregon; Utah; Washington",
-   "url": "https://www.mongodb.com/careers/job/?gh_jid=7311666",
+   "location": "British Columbia; Calgary",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=7311708",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -3652,12 +3652,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:7311708",
+   "dedupeKey": "greenhouse:7311666",
    "source": "greenhouse",
    "company": "MongoDB",
    "title": "Software Engineer, Code Generation",
-   "location": "British Columbia; Calgary",
-   "url": "https://www.mongodb.com/careers/job/?gh_jid=7311708",
+   "location": "California; Colorado; Montana; Nevada; New Mexico; Oregon; Utah; Washington",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=7311666",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -4017,31 +4017,6 @@
    "firstSeenAt": "2026-07-09T19:04:22.124Z"
   },
   {
-   "dedupeKey": "greenhouse:8013562",
-   "source": "greenhouse",
-   "company": "Cloudflare",
-   "title": "Network Strategy Intern (Fall 2026)",
-   "location": "In-Office",
-   "url": "https://boards.greenhouse.io/cloudflare/jobs/8013562?gh_jid=8013562",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 38,
-   "matchedSkills": [
-    "Python",
-    "SQL"
-   ],
-   "breakdown": {
-    "role": 0,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-07-02T20:07:55-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:8031027",
    "source": "greenhouse",
    "company": "Cloudflare",
@@ -4064,6 +4039,31 @@
     "skills": 3
    },
    "postedAt": "2026-07-01T12:12:00-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8013562",
+   "source": "greenhouse",
+   "company": "Cloudflare",
+   "title": "Network Strategy Intern (Fall 2026)",
+   "location": "In-Office",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8013562?gh_jid=8013562",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 38,
+   "matchedSkills": [
+    "Python",
+    "SQL"
+   ],
+   "breakdown": {
+    "role": 0,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-07-02T20:07:55-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -4644,6 +4644,30 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "greenhouse:7958766",
+   "source": "greenhouse",
+   "company": "Pinterest",
+   "title": "Software Engineer II",
+   "location": "Palo Alto, CA, US",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7958766",
+   "season": null,
+   "roleType": "unknown",
+   "score": 42,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 2
+   },
+   "postedAt": "2026-06-29T18:39:46-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
    "dedupeKey": "greenhouse:7786418",
    "source": "greenhouse",
    "company": "Pinterest",
@@ -4666,30 +4690,6 @@
     "skills": 3
    },
    "postedAt": "2026-06-22T11:08:32-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7958766",
-   "source": "greenhouse",
-   "company": "Pinterest",
-   "title": "Software Engineer II",
-   "location": "Palo Alto, CA, US",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7958766",
-   "season": null,
-   "roleType": "unknown",
-   "score": 42,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 2
-   },
-   "postedAt": "2026-06-29T18:39:46-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -5039,29 +5039,7 @@
     "keywords": 0,
     "skills": 5
    },
-   "postedAt": "2026-07-11T08:30:15-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8022942",
-   "source": "greenhouse",
-   "company": "Reddit",
-   "title": "Machine Learning Systems Engineer, Ads ML Platform",
-   "location": "Remote - The Netherlands",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8022942",
-   "season": null,
-   "roleType": "unknown",
-   "score": 45,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 5,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-07-11T08:30:13-04:00",
+   "postedAt": "2026-07-11T20:24:15-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -5083,7 +5061,29 @@
     "keywords": 0,
     "skills": 0
    },
-   "postedAt": "2026-07-11T08:30:13-04:00",
+   "postedAt": "2026-07-11T20:24:14-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8022942",
+   "source": "greenhouse",
+   "company": "Reddit",
+   "title": "Machine Learning Systems Engineer, Ads ML Platform",
+   "location": "Remote - The Netherlands",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8022942",
+   "season": null,
+   "roleType": "unknown",
+   "score": 45,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 5,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-11T20:24:14-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -5948,12 +5948,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5108009008",
+   "dedupeKey": "greenhouse:5108007008",
    "source": "greenhouse",
    "company": "Block (Square)",
    "title": "Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op)",
-   "location": "Toronto, Ontario , Canada",
-   "url": "http://block.xyz/careers/jobs/5108009008?gh_jid=5108009008",
+   "location": "Bay Area, CA, United States of America",
+   "url": "http://block.xyz/careers/jobs/5108007008?gh_jid=5108007008",
    "season": null,
    "roleType": "internship",
    "score": 37,
@@ -5972,12 +5972,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5108007008",
+   "dedupeKey": "greenhouse:5108009008",
    "source": "greenhouse",
    "company": "Block (Square)",
    "title": "Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op)",
-   "location": "Bay Area, CA, United States of America",
-   "url": "http://block.xyz/careers/jobs/5108007008?gh_jid=5108007008",
+   "location": "Toronto, Ontario , Canada",
+   "url": "http://block.xyz/careers/jobs/5108009008?gh_jid=5108009008",
    "season": null,
    "roleType": "internship",
    "score": 37,
@@ -6021,12 +6021,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5201726008",
+   "dedupeKey": "greenhouse:5196173008",
    "source": "greenhouse",
    "company": "Block (Square)",
    "title": "Software Engineer, Cash App - Lending Products",
-   "location": "New York, NY, United States of America",
-   "url": "http://block.xyz/careers/jobs/5201726008?gh_jid=5201726008",
+   "location": "Bay Area, CA, United States of America",
+   "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -6071,12 +6071,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5196173008",
+   "dedupeKey": "greenhouse:5201726008",
    "source": "greenhouse",
    "company": "Block (Square)",
    "title": "Software Engineer, Cash App - Lending Products",
-   "location": "Bay Area, CA, United States of America",
-   "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
+   "location": "New York, NY, United States of America",
+   "url": "http://block.xyz/careers/jobs/5201726008?gh_jid=5201726008",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -6349,12 +6349,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:6703954",
+   "dedupeKey": "greenhouse:7566004",
    "source": "greenhouse",
    "company": "Hudson River Trading",
    "title": "Software Engineer - Distributed Compute",
-   "location": "London, United Kingdom; New York, NY, United States",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=6703954",
+   "location": "Singapore",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7566004",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -6374,12 +6374,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:7566004",
+   "dedupeKey": "greenhouse:6703954",
    "source": "greenhouse",
    "company": "Hudson River Trading",
    "title": "Software Engineer - Distributed Compute",
-   "location": "Singapore",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7566004",
+   "location": "London, United Kingdom; New York, NY, United States",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=6703954",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -6517,31 +6517,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:4374565",
-   "source": "greenhouse",
-   "company": "Hudson River Trading",
-   "title": "Software Engineer - Python",
-   "location": "Singapore",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=4374565",
-   "season": null,
-   "roleType": "unknown",
-   "score": 43,
-   "matchedSkills": [
-    "Python",
-    "Linux"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 3
-   },
-   "postedAt": "2026-06-26T08:38:05-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:7398013",
    "source": "greenhouse",
    "company": "Hudson River Trading",
@@ -6565,6 +6540,31 @@
     "skills": 5
    },
    "postedAt": "2026-06-25T08:00:09-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:4374565",
+   "source": "greenhouse",
+   "company": "Hudson River Trading",
+   "title": "Software Engineer - Python",
+   "location": "Singapore",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=4374565",
+   "season": null,
+   "roleType": "unknown",
+   "score": 43,
+   "matchedSkills": [
+    "Python",
+    "Linux"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 3
+   },
+   "postedAt": "2026-06-26T08:38:05-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -7888,36 +7888,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:4612282005",
-   "source": "greenhouse",
-   "company": "Scale AI",
-   "title": "Software Engineer, Robotics",
-   "location": "Argentina; Uruguay",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612282005",
-   "season": null,
-   "roleType": "unknown",
-   "score": 51,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "React",
-    "Node.js",
-    "PostgreSQL",
-    "AWS",
-    "Docker"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 11
-   },
-   "postedAt": "2026-07-09T12:47:57-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:4655050005",
    "source": "greenhouse",
    "company": "Scale AI",
@@ -7945,6 +7915,36 @@
     "skills": 11
    },
    "postedAt": "2026-07-09T13:35:09-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:4612282005",
+   "source": "greenhouse",
+   "company": "Scale AI",
+   "title": "Software Engineer, Robotics",
+   "location": "Argentina; Uruguay",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612282005",
+   "season": null,
+   "roleType": "unknown",
+   "score": 51,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "AWS",
+    "Docker"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 11
+   },
+   "postedAt": "2026-07-09T12:47:57-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -8878,30 +8878,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5128421007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Electrical Systems Engineer, C2 Integration",
-   "location": "Costa Mesa, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5128421007?gh_jid=5128421007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 42,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 2
-   },
-   "postedAt": "2026-07-08T16:34:32-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:5180570007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -8924,6 +8900,30 @@
    },
    "postedAt": "2026-07-10T15:02:31-04:00",
    "firstSeenAt": "2026-07-06T19:13:12.302Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5128421007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Electrical Systems Engineer, C2 Integration",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5128421007?gh_jid=5128421007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 42,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 2
+   },
+   "postedAt": "2026-07-08T16:34:32-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
    "dedupeKey": "greenhouse:5061869007",
@@ -9325,31 +9325,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:4895526007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Information Systems Security Officer",
-   "location": "Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4895526007?gh_jid=4895526007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 43,
-   "matchedSkills": [
-    "Python",
-    "Linux"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 3
-   },
-   "postedAt": "2026-07-07T19:44:20-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:4993772007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -9375,12 +9350,37 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5153471007",
+   "dedupeKey": "greenhouse:4895526007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Information Systems Security Officer",
+   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4895526007?gh_jid=4895526007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 43,
+   "matchedSkills": [
+    "Python",
+    "Linux"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 3
+   },
+   "postedAt": "2026-07-07T19:44:20-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5127232007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Information Systems Security Officer, AD&S",
-   "location": "Ashville, Ohio, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5153471007?gh_jid=5153471007",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5127232007?gh_jid=5127232007",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -9425,12 +9425,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5127232007",
+   "dedupeKey": "greenhouse:5153471007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Information Systems Security Officer, AD&S",
-   "location": "Costa Mesa, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5127232007?gh_jid=5127232007",
+   "location": "Ashville, Ohio, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5153471007?gh_jid=5153471007",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -9721,12 +9721,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5080387007",
+   "dedupeKey": "greenhouse:5111318007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Manufacturing Software Engineer, Intelligence Systems",
-   "location": "Ashville, Ohio, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5080387007?gh_jid=5080387007",
+   "location": "Santa Ana, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5111318007?gh_jid=5111318007",
    "season": null,
    "roleType": "unknown",
    "score": 48,
@@ -9749,12 +9749,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5111318007",
+   "dedupeKey": "greenhouse:5080387007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Manufacturing Software Engineer, Intelligence Systems",
-   "location": "Santa Ana, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5111318007?gh_jid=5111318007",
+   "location": "Ashville, Ohio, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5080387007?gh_jid=5080387007",
    "season": null,
    "roleType": "unknown",
    "score": 48,
@@ -9799,28 +9799,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5117778007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Manufacturing Systems Specialist",
-   "location": "Atlanta, Georgia, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5117778007?gh_jid=5117778007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 40,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-07-09T12:09:00-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:5117798007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -9840,6 +9818,28 @@
     "skills": 0
    },
    "postedAt": "2026-07-09T12:09:39-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5117778007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Manufacturing Systems Specialist",
+   "location": "Atlanta, Georgia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5117778007?gh_jid=5117778007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 40,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-09T12:09:00-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -9893,12 +9893,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5112611007",
+   "dedupeKey": "greenhouse:5011389007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Mechanical Engineer, Rocket Motor Systems",
-   "location": "Costa Mesa, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5112611007?gh_jid=5112611007",
+   "location": "Huntsville, Alabama, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5011389007?gh_jid=5011389007",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -9917,12 +9917,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5011389007",
+   "dedupeKey": "greenhouse:5112611007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Mechanical Engineer, Rocket Motor Systems",
-   "location": "Huntsville, Alabama, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5011389007?gh_jid=5011389007",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5112611007?gh_jid=5112611007",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -9962,6 +9962,32 @@
     "skills": 2
    },
    "postedAt": "2026-07-07T19:44:20-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5100655007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Mission Software Engineer",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5100655007?gh_jid=5100655007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 45,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "AWS"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 5
+   },
+   "postedAt": "2026-07-09T07:40:06-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -10015,32 +10041,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5100655007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Mission Software Engineer",
-   "location": "Amsterdam, North Holland, Netherlands",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5100655007?gh_jid=5100655007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 45,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "AWS"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 5
-   },
-   "postedAt": "2026-07-09T07:40:06-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:4672848007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -10091,12 +10091,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:4673956007",
+   "dedupeKey": "greenhouse:4674088007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Mission Software Engineer, Air Vehicle Autonomy, Frontend",
-   "location": "Costa Mesa, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4673956007?gh_jid=4673956007",
+   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4674088007?gh_jid=4674088007",
    "season": null,
    "roleType": "unknown",
    "score": 45,
@@ -10117,12 +10117,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:4674088007",
+   "dedupeKey": "greenhouse:4673956007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Mission Software Engineer, Air Vehicle Autonomy, Frontend",
-   "location": "Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4674088007?gh_jid=4674088007",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4673956007?gh_jid=4673956007",
    "season": null,
    "roleType": "unknown",
    "score": 45,
@@ -11155,31 +11155,6 @@
    "firstSeenAt": "2026-07-07T19:19:12.312Z"
   },
   {
-   "dedupeKey": "greenhouse:5113524007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Robotics Software Engineer",
-   "location": "Costa Mesa, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5113524007?gh_jid=5113524007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 43,
-   "matchedSkills": [
-    "Python",
-    "Linux"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 3
-   },
-   "postedAt": "2026-07-09T07:45:22-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:5179580007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -11202,6 +11177,31 @@
     "skills": 3
    },
    "postedAt": "2026-07-09T07:37:14-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5113524007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Robotics Software Engineer",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5113524007?gh_jid=5113524007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 43,
+   "matchedSkills": [
+    "Python",
+    "Linux"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 3
+   },
+   "postedAt": "2026-07-09T07:45:22-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -11527,12 +11527,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5086967007",
+   "dedupeKey": "greenhouse:5086958007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Security Software Engineer - Endpoint Security",
-   "location": "Ashville, Ohio, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5086967007?gh_jid=5086967007",
+   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5086958007?gh_jid=5086958007",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -11575,12 +11575,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5086958007",
+   "dedupeKey": "greenhouse:5086960007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Security Software Engineer - Endpoint Security",
-   "location": "Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5086958007?gh_jid=5086958007",
+   "location": "Boston, Massachusetts, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5086960007?gh_jid=5086960007",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -11623,12 +11623,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5086960007",
+   "dedupeKey": "greenhouse:5086964007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Security Software Engineer - Endpoint Security",
-   "location": "Boston, Massachusetts, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5086960007?gh_jid=5086960007",
+   "location": "Atlanta, Georgia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5086964007?gh_jid=5086964007",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -11647,12 +11647,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5086964007",
+   "dedupeKey": "greenhouse:5086967007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Security Software Engineer - Endpoint Security",
-   "location": "Atlanta, Georgia, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5086964007?gh_jid=5086964007",
+   "location": "Ashville, Ohio, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5086967007?gh_jid=5086967007",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -11871,6 +11871,32 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "greenhouse:5168961007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Software Engineer",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5168961007?gh_jid=5168961007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 45,
+   "matchedSkills": [
+    "TypeScript",
+    "JavaScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 5
+   },
+   "postedAt": "2026-07-07T19:44:20-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
    "dedupeKey": "greenhouse:4948307007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -11893,32 +11919,6 @@
     "location": 0,
     "keywords": 0,
     "skills": 6
-   },
-   "postedAt": "2026-07-07T19:44:20-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5168961007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Software Engineer",
-   "location": "Costa Mesa, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5168961007?gh_jid=5168961007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 45,
-   "matchedSkills": [
-    "TypeScript",
-    "JavaScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 5
    },
    "postedAt": "2026-07-07T19:44:20-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
@@ -12023,30 +12023,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5112335007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Software Engineer, Agentic Modeling & Simulation",
-   "location": "Washington, District of Columbia, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5112335007?gh_jid=5112335007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 42,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 2
-   },
-   "postedAt": "2026-07-10T13:34:02-04:00",
-   "firstSeenAt": "2026-07-10T18:55:15.314Z"
-  },
-  {
    "dedupeKey": "greenhouse:5184726007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -12068,6 +12044,30 @@
     "skills": 2
    },
    "postedAt": "2026-07-10T13:35:34-04:00",
+   "firstSeenAt": "2026-07-10T18:55:15.314Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5112335007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Software Engineer, Agentic Modeling & Simulation",
+   "location": "Washington, District of Columbia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5112335007?gh_jid=5112335007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 42,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 2
+   },
+   "postedAt": "2026-07-10T13:34:02-04:00",
    "firstSeenAt": "2026-07-10T18:55:15.314Z"
   },
   {
@@ -12250,31 +12250,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5178105007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Software Engineer, Battlespace Awareness",
-   "location": "Broomfield, Colorado, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5178105007?gh_jid=5178105007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 43,
-   "matchedSkills": [
-    "Python",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 3
-   },
-   "postedAt": "2026-07-07T19:44:20-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:5178108007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -12306,6 +12281,31 @@
    "title": "Software Engineer, Battlespace Awareness",
    "location": "Broomfield, Colorado, United States",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5178090007?gh_jid=5178090007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 43,
+   "matchedSkills": [
+    "Python",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 3
+   },
+   "postedAt": "2026-07-07T19:44:20-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5178105007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Software Engineer, Battlespace Awareness",
+   "location": "Broomfield, Colorado, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5178105007?gh_jid=5178105007",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -12416,32 +12416,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:4596297007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Software Engineer, Connected Warfare",
-   "location": "Washington, District of Columbia, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4596297007?gh_jid=4596297007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 45,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "AWS"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 5
-   },
-   "postedAt": "2026-07-07T19:44:20-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:4541903007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -12494,12 +12468,38 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:4263021007",
+   "dedupeKey": "greenhouse:4596297007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Software Engineer, Connected Warfare",
+   "location": "Washington, District of Columbia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4596297007?gh_jid=4596297007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 45,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "AWS"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 5
+   },
+   "postedAt": "2026-07-07T19:44:20-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:4263030007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Software Engineer, Connected Warfare (Active Clearance)",
-   "location": "Costa Mesa, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4263021007?gh_jid=4263021007",
+   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4263030007?gh_jid=4263030007",
    "season": null,
    "roleType": "unknown",
    "score": 45,
@@ -12546,12 +12546,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:4263023007",
+   "dedupeKey": "greenhouse:4263021007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Software Engineer, Connected Warfare (Active Clearance)",
-   "location": "Washington, District of Columbia, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4263023007?gh_jid=4263023007",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4263021007?gh_jid=4263021007",
    "season": null,
    "roleType": "unknown",
    "score": 45,
@@ -12572,12 +12572,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:4263030007",
+   "dedupeKey": "greenhouse:4263023007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Software Engineer, Connected Warfare (Active Clearance)",
-   "location": "Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4263030007?gh_jid=4263030007",
+   "location": "Washington, District of Columbia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4263023007?gh_jid=4263023007",
    "season": null,
    "roleType": "unknown",
    "score": 45,
@@ -12652,12 +12652,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:4975955007",
+   "dedupeKey": "greenhouse:5178957007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Software Engineer, Game Development",
-   "location": "Costa Mesa, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4975955007?gh_jid=4975955007",
+   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5178957007?gh_jid=5178957007",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -12676,12 +12676,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5178957007",
+   "dedupeKey": "greenhouse:4975955007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Software Engineer, Game Development",
-   "location": "Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5178957007?gh_jid=5178957007",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4975955007?gh_jid=4975955007",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -12753,6 +12753,34 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "greenhouse:5089662007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Software Engineer, Intelligence Systems",
+   "location": "Reston, Virginia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5089662007?gh_jid=5089662007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 48,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "SQL"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 8
+   },
+   "postedAt": "2026-07-07T19:44:20-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
    "dedupeKey": "greenhouse:5064165007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -12805,34 +12833,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5089662007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Software Engineer, Intelligence Systems",
-   "location": "Reston, Virginia, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5089662007?gh_jid=5089662007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 48,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "JavaScript",
-    "React",
-    "SQL"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 8
-   },
-   "postedAt": "2026-07-07T19:44:20-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:5161520007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -12861,12 +12861,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5161515007",
+   "dedupeKey": "greenhouse:5161512007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Software Engineer, Manufacturing Test",
-   "location": "Mountain View, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5161515007?gh_jid=5161515007",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5161512007?gh_jid=5161512007",
    "season": null,
    "roleType": "unknown",
    "score": 48,
@@ -12889,12 +12889,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5161512007",
+   "dedupeKey": "greenhouse:5161515007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Software Engineer, Manufacturing Test",
-   "location": "Costa Mesa, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5161512007?gh_jid=5161512007",
+   "location": "Mountain View, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5161515007?gh_jid=5161515007",
    "season": null,
    "roleType": "unknown",
    "score": 48,
@@ -13026,33 +13026,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5167630007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Software Engineer - Maritime Integrated Systems",
-   "location": "Quincy, Massachusetts, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5167630007?gh_jid=5167630007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 46,
-   "matchedSkills": [
-    "TypeScript",
-    "React",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 6
-   },
-   "postedAt": "2026-07-08T11:09:11-04:00",
-   "firstSeenAt": "2026-07-08T07:44:25.607Z"
-  },
-  {
    "dedupeKey": "greenhouse:5166602007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -13078,6 +13051,33 @@
    },
    "postedAt": "2026-07-09T09:03:14-04:00",
    "firstSeenAt": "2026-07-08T18:52:48.051Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5167630007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Software Engineer - Maritime Integrated Systems",
+   "location": "Quincy, Massachusetts, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5167630007?gh_jid=5167630007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 46,
+   "matchedSkills": [
+    "TypeScript",
+    "React",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 6
+   },
+   "postedAt": "2026-07-08T11:09:11-04:00",
+   "firstSeenAt": "2026-07-08T07:44:25.607Z"
   },
   {
    "dedupeKey": "greenhouse:5163532007",
@@ -13236,28 +13236,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:4959625007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Software Engineer, Robotics",
-   "location": "Costa Mesa, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4959625007?gh_jid=4959625007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 40,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-07-07T19:44:20-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:4932360007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -13310,6 +13288,28 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "greenhouse:4959625007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Software Engineer, Robotics",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4959625007?gh_jid=4959625007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 40,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-07T19:44:20-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
    "dedupeKey": "greenhouse:5178117007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -13335,12 +13335,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5178116007",
+   "dedupeKey": "greenhouse:5178115007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Software Engineer, Robotics Tracking and Fusion",
-   "location": "Washington, District of Columbia, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5178116007?gh_jid=5178116007",
+   "location": "Waltham, Massachusetts, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5178115007?gh_jid=5178115007",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -13360,12 +13360,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5178115007",
+   "dedupeKey": "greenhouse:5178116007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Software Engineer, Robotics Tracking and Fusion",
-   "location": "Waltham, Massachusetts, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5178115007?gh_jid=5178115007",
+   "location": "Washington, District of Columbia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5178116007?gh_jid=5178116007",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -13434,12 +13434,12 @@
    "firstSeenAt": "2026-07-08T07:44:25.607Z"
   },
   {
-   "dedupeKey": "greenhouse:5152591007",
+   "dedupeKey": "greenhouse:5160996007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Software Engineer, Sensor Simulation",
-   "location": "Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5152591007?gh_jid=5152591007",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5160996007?gh_jid=5160996007",
    "season": null,
    "roleType": "unknown",
    "score": 45,
@@ -13460,12 +13460,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5160996007",
+   "dedupeKey": "greenhouse:5152591007",
    "source": "greenhouse",
    "company": "Anduril",
    "title": "Software Engineer, Sensor Simulation",
-   "location": "Costa Mesa, California, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5160996007?gh_jid=5160996007",
+   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5152591007?gh_jid=5152591007",
    "season": null,
    "roleType": "unknown",
    "score": 45,
@@ -13823,6 +13823,28 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "greenhouse:5091995007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Systems Engineer",
+   "location": "Huntsville, Alabama, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5091995007?gh_jid=5091995007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 40,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-07T19:44:20-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
    "dedupeKey": "greenhouse:5176746007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -13844,28 +13866,6 @@
     "skills": 2
    },
    "postedAt": "2026-07-09T08:40:08-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5091995007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Systems Engineer",
-   "location": "Huntsville, Alabama, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5091995007?gh_jid=5091995007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 40,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-07-07T19:44:20-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -13939,32 +13939,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5169845007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Systems Engineer, Battlespace",
-   "location": "Broomfield, Colorado, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5169845007?gh_jid=5169845007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 45,
-   "matchedSkills": [
-    "Python",
-    "Linux",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 5
-   },
-   "postedAt": "2026-07-07T19:44:20-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:5178127007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -13988,6 +13962,32 @@
     "skills": 5
    },
    "postedAt": "2026-07-11T05:27:36-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5169845007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Systems Engineer, Battlespace",
+   "location": "Broomfield, Colorado, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5169845007?gh_jid=5169845007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 45,
+   "matchedSkills": [
+    "Python",
+    "Linux",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 5
+   },
+   "postedAt": "2026-07-07T19:44:20-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -14562,30 +14562,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:5122503007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "Technical Operations Engineer, Intelligence Systems",
-   "location": "Reston, Virginia, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5122503007?gh_jid=5122503007",
-   "season": null,
-   "roleType": "unknown",
-   "score": 42,
-   "matchedSkills": [
-    "Linux"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 2
-   },
-   "postedAt": "2026-07-09T07:55:41-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:5095630007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -14607,6 +14583,30 @@
     "skills": 2
    },
    "postedAt": "2026-07-07T19:44:20-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5122503007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "Technical Operations Engineer, Intelligence Systems",
+   "location": "Reston, Virginia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5122503007?gh_jid=5122503007",
+   "season": null,
+   "roleType": "unknown",
+   "score": 42,
+   "matchedSkills": [
+    "Linux"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 2
+   },
+   "postedAt": "2026-07-09T07:55:41-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15100,7 +15100,7 @@
     "keywords": 10,
     "skills": 3
    },
-   "postedAt": "2026-07-10T14:39:07-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15125,7 +15125,7 @@
     "keywords": 10,
     "skills": 3
    },
-   "postedAt": "2026-07-10T14:42:05-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15151,7 +15151,7 @@
     "keywords": 10,
     "skills": 5
    },
-   "postedAt": "2026-07-07T18:17:43-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15175,7 +15175,7 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-07-07T18:17:43-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15199,7 +15199,7 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-07-07T18:17:43-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15223,7 +15223,7 @@
     "keywords": 0,
     "skills": 2
    },
-   "postedAt": "2026-07-10T14:41:55-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15245,7 +15245,7 @@
     "keywords": 0,
     "skills": 0
    },
-   "postedAt": "2026-07-07T18:17:43-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15267,7 +15267,7 @@
     "keywords": 0,
     "skills": 0
    },
-   "postedAt": "2026-07-07T18:17:43-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15289,7 +15289,7 @@
     "keywords": 0,
     "skills": 0
    },
-   "postedAt": "2026-07-07T18:17:43-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15311,7 +15311,7 @@
     "keywords": 0,
     "skills": 0
    },
-   "postedAt": "2026-07-07T18:17:43-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15333,7 +15333,7 @@
     "keywords": 0,
     "skills": 0
    },
-   "postedAt": "2026-07-07T18:17:43-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15355,7 +15355,7 @@
     "keywords": 0,
     "skills": 0
    },
-   "postedAt": "2026-07-07T18:17:43-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15377,7 +15377,7 @@
     "keywords": 0,
     "skills": 0
    },
-   "postedAt": "2026-07-07T18:17:43-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15399,7 +15399,7 @@
     "keywords": 0,
     "skills": 0
    },
-   "postedAt": "2026-07-07T18:17:43-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15421,7 +15421,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-07T18:17:43-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15446,7 +15446,7 @@
     "keywords": 0,
     "skills": 3
    },
-   "postedAt": "2026-07-10T14:31:57-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15471,7 +15471,7 @@
     "keywords": 0,
     "skills": 3
    },
-   "postedAt": "2026-07-10T14:32:47-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15495,7 +15495,7 @@
     "keywords": 0,
     "skills": 2
    },
-   "postedAt": "2026-07-10T14:39:39-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15521,7 +15521,7 @@
     "keywords": 0,
     "skills": 5
    },
-   "postedAt": "2026-07-10T14:36:11-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15545,7 +15545,7 @@
     "keywords": 0,
     "skills": 2
    },
-   "postedAt": "2026-07-10T14:41:55-04:00",
+   "postedAt": "2026-07-12T03:21:43-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -15599,12 +15599,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8557208002",
+   "dedupeKey": "greenhouse:8557038002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "AI Engineer, Special Programs",
-   "location": "Washington, DC",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8557208002?gh_jid=8557208002",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8557038002?gh_jid=8557038002",
    "season": null,
    "roleType": "unknown",
    "score": 45,
@@ -15625,12 +15625,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8557038002",
+   "dedupeKey": "greenhouse:8557208002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "AI Engineer, Special Programs",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8557038002?gh_jid=8557038002",
+   "location": "Washington, DC",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8557208002?gh_jid=8557208002",
    "season": null,
    "roleType": "unknown",
    "score": 45,
@@ -15701,12 +15701,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8441008002",
+   "dedupeKey": "greenhouse:8440980002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "AI Security Software Engineer (Starshield)",
-   "location": "Washington, DC",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8441008002?gh_jid=8441008002",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8440980002?gh_jid=8440980002",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -15749,12 +15749,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8440980002",
+   "dedupeKey": "greenhouse:8441008002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "AI Security Software Engineer (Starshield)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8440980002?gh_jid=8440980002",
+   "location": "Washington, DC",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8441008002?gh_jid=8441008002",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -15802,12 +15802,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8611191002",
+   "dedupeKey": "greenhouse:8611189002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Application Software Engineer",
-   "location": "Memphis, TN",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8611191002?gh_jid=8611191002",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8611189002?gh_jid=8611189002",
    "season": null,
    "roleType": "unknown",
    "score": 51,
@@ -15832,12 +15832,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8402778002",
+   "dedupeKey": "greenhouse:8611118002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Application Software Engineer",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8402778002?gh_jid=8402778002",
+   "location": "Starbase, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8611118002?gh_jid=8611118002",
    "season": null,
    "roleType": "unknown",
    "score": 51,
@@ -15858,16 +15858,16 @@
     "keywords": 0,
     "skills": 11
    },
-   "postedAt": "2026-07-09T19:09:49-04:00",
+   "postedAt": "2026-07-09T19:10:33-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8611189002",
+   "dedupeKey": "greenhouse:8611191002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Application Software Engineer",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8611189002?gh_jid=8611189002",
+   "location": "Memphis, TN",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8611191002?gh_jid=8611191002",
    "season": null,
    "roleType": "unknown",
    "score": 51,
@@ -15922,6 +15922,36 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "greenhouse:8402778002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "Application Software Engineer",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8402778002?gh_jid=8402778002",
+   "season": null,
+   "roleType": "unknown",
+   "score": 51,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "React",
+    "SQL",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 11
+   },
+   "postedAt": "2026-07-09T19:09:49-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
    "dedupeKey": "greenhouse:8494238002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -15949,36 +15979,6 @@
     "skills": 11
    },
    "postedAt": "2026-07-09T19:10:03-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8611118002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "Application Software Engineer",
-   "location": "Starbase, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8611118002?gh_jid=8611118002",
-   "season": null,
-   "roleType": "unknown",
-   "score": 51,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "JavaScript",
-    "React",
-    "SQL",
-    "PostgreSQL",
-    "Docker"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 11
-   },
-   "postedAt": "2026-07-09T19:10:33-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -17142,35 +17142,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8540435002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "Full Stack Software Engineer, Data (Starlink)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8540435002?gh_jid=8540435002",
-   "season": null,
-   "roleType": "unknown",
-   "score": 49,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "JavaScript",
-    "React",
-    "PostgreSQL",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 9
-   },
-   "postedAt": "2026-07-09T19:10:00-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:8625149002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -17198,6 +17169,35 @@
    },
    "postedAt": "2026-07-09T19:10:00-04:00",
    "firstSeenAt": "2026-07-09T08:51:36.190Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8540435002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "Full Stack Software Engineer, Data (Starlink)",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8540435002?gh_jid=8540435002",
+   "season": null,
+   "roleType": "unknown",
+   "score": 49,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "React",
+    "PostgreSQL",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 9
+   },
+   "postedAt": "2026-07-09T19:10:00-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
    "dedupeKey": "greenhouse:8501225002",
@@ -17474,28 +17474,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8459561002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "IT Network Infrastructure Technician",
-   "location": "Starbase, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8459561002?gh_jid=8459561002",
-   "season": null,
-   "roleType": "unknown",
-   "score": 40,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-07-09T19:09:57-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:8579623002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -17518,12 +17496,34 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8609444002",
+   "dedupeKey": "greenhouse:8459561002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "IT Network Infrastructure Technician",
+   "location": "Starbase, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8459561002?gh_jid=8459561002",
+   "season": null,
+   "roleType": "unknown",
+   "score": 40,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-09T19:09:57-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8603113002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "IT Systems Engineer (Endpoint)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8609444002?gh_jid=8609444002",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8603113002?gh_jid=8603113002",
    "season": null,
    "roleType": "unknown",
    "score": 40,
@@ -17540,12 +17540,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8603113002",
+   "dedupeKey": "greenhouse:8609444002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "IT Systems Engineer (Endpoint)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8603113002?gh_jid=8603113002",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8609444002?gh_jid=8609444002",
    "season": null,
    "roleType": "unknown",
    "score": 40,
@@ -18676,12 +18676,12 @@
    "firstSeenAt": "2026-07-09T19:04:22.124Z"
   },
   {
-   "dedupeKey": "greenhouse:8543668002",
+   "dedupeKey": "greenhouse:8577408002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Security Software Engineer (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8543668002?gh_jid=8543668002",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8577408002?gh_jid=8577408002",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -18696,7 +18696,7 @@
     "keywords": 0,
     "skills": 2
    },
-   "postedAt": "2026-07-09T19:10:14-04:00",
+   "postedAt": "2026-07-09T19:10:25-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -18724,30 +18724,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8577408002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "Security Software Engineer (Starlink)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8577408002?gh_jid=8577408002",
-   "season": null,
-   "roleType": "unknown",
-   "score": 42,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 2
-   },
-   "postedAt": "2026-07-09T19:10:25-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:8543784002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -18772,12 +18748,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8483982002",
+   "dedupeKey": "greenhouse:8543668002",
    "source": "greenhouse",
    "company": "SpaceX",
-   "title": "Security Software Engineer (Starshield)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8483982002?gh_jid=8483982002",
+   "title": "Security Software Engineer (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8543668002?gh_jid=8543668002",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -18792,7 +18768,7 @@
     "keywords": 0,
     "skills": 2
    },
-   "postedAt": "2026-07-09T19:10:01-04:00",
+   "postedAt": "2026-07-09T19:10:14-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -18817,6 +18793,30 @@
     "skills": 2
    },
    "postedAt": "2026-07-09T19:09:46-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8483982002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "Security Software Engineer (Starshield)",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8483982002?gh_jid=8483982002",
+   "season": null,
+   "roleType": "unknown",
+   "score": 42,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 2
+   },
+   "postedAt": "2026-07-09T19:10:01-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -19122,6 +19122,28 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "greenhouse:8578929002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "Software Engineer, Beam Planning (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8578929002?gh_jid=8578929002",
+   "season": null,
+   "roleType": "unknown",
+   "score": 40,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-09T19:10:26-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
    "dedupeKey": "greenhouse:8578907002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -19144,25 +19166,27 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8578929002",
+   "dedupeKey": "greenhouse:8448505002",
    "source": "greenhouse",
    "company": "SpaceX",
-   "title": "Software Engineer, Beam Planning (Starlink)",
+   "title": "Software Engineer, CDN (Starlink)",
    "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8578929002?gh_jid=8578929002",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8448505002?gh_jid=8448505002",
    "season": null,
    "roleType": "unknown",
-   "score": 40,
-   "matchedSkills": [],
+   "score": 42,
+   "matchedSkills": [
+    "Algorithms"
+   ],
    "breakdown": {
     "role": 40,
     "roleType": 0,
     "season": 0,
     "location": 0,
     "keywords": 0,
-    "skills": 0
+    "skills": 2
    },
-   "postedAt": "2026-07-09T19:10:26-04:00",
+   "postedAt": "2026-07-09T19:09:56-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -19188,30 +19212,6 @@
    },
    "postedAt": "2026-07-09T19:09:56-04:00",
    "firstSeenAt": "2026-07-09T08:51:36.190Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8448505002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "Software Engineer, CDN (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8448505002?gh_jid=8448505002",
-   "season": null,
-   "roleType": "unknown",
-   "score": 42,
-   "matchedSkills": [
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 2
-   },
-   "postedAt": "2026-07-09T19:09:56-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
    "dedupeKey": "greenhouse:8601802002",
@@ -19342,12 +19342,12 @@
    "firstSeenAt": "2026-07-09T19:04:22.124Z"
   },
   {
-   "dedupeKey": "greenhouse:8533859002",
+   "dedupeKey": "greenhouse:8533853002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Software Engineer, Continuous Integration (Starship)",
-   "location": "Starbase, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8533859002?gh_jid=8533859002",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8533853002?gh_jid=8533853002",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -19366,12 +19366,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8533853002",
+   "dedupeKey": "greenhouse:8533859002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Software Engineer, Continuous Integration (Starship)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8533853002?gh_jid=8533853002",
+   "location": "Starbase, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8533859002?gh_jid=8533859002",
    "season": null,
    "roleType": "unknown",
    "score": 42,
@@ -19813,12 +19813,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8562284002",
+   "dedupeKey": "greenhouse:8562450002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Software Engineer, Flight Software (Starship)",
-   "location": "Starbase, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8562284002?gh_jid=8562284002",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8562450002?gh_jid=8562450002",
    "season": null,
    "roleType": "unknown",
    "score": 40,
@@ -19835,12 +19835,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8562450002",
+   "dedupeKey": "greenhouse:8562284002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Software Engineer, Flight Software (Starship)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8562450002?gh_jid=8562450002",
+   "location": "Starbase, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8562284002?gh_jid=8562284002",
    "season": null,
    "roleType": "unknown",
    "score": 40,
@@ -19908,12 +19908,12 @@
    "firstSeenAt": "2026-07-07T08:48:39.256Z"
   },
   {
-   "dedupeKey": "greenhouse:8578909002",
+   "dedupeKey": "greenhouse:8578931002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Software Engineer, High Performance Computing (Starlink)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8578909002?gh_jid=8578909002",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8578931002?gh_jid=8578931002",
    "season": null,
    "roleType": "unknown",
    "score": 40,
@@ -19930,12 +19930,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8578931002",
+   "dedupeKey": "greenhouse:8578909002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Software Engineer, High Performance Computing (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8578931002?gh_jid=8578931002",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8578909002?gh_jid=8578909002",
    "season": null,
    "roleType": "unknown",
    "score": 40,
@@ -20084,39 +20084,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8558857002",
+   "dedupeKey": "greenhouse:8558859002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Software Engineer (Platform Team)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8558857002?gh_jid=8558857002",
-   "season": null,
-   "roleType": "unknown",
-   "score": 46,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "TypeScript",
-    "Docker"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 6
-   },
-   "postedAt": "2026-07-09T19:10:04-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8560537002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "Software Engineer (Platform Team)",
-   "location": "Starbase, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8560537002?gh_jid=8560537002",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8558859002?gh_jid=8558859002",
    "season": null,
    "roleType": "unknown",
    "score": 46,
@@ -20165,12 +20138,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8495882002",
+   "dedupeKey": "greenhouse:8560537002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Software Engineer (Platform Team)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8495882002?gh_jid=8495882002",
+   "location": "Starbase, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8560537002?gh_jid=8560537002",
    "season": null,
    "roleType": "unknown",
    "score": 46,
@@ -20192,12 +20165,39 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8558859002",
+   "dedupeKey": "greenhouse:8558857002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "Software Engineer (Platform Team)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8558859002?gh_jid=8558859002",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8558857002?gh_jid=8558857002",
+   "season": null,
+   "roleType": "unknown",
+   "score": 46,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "TypeScript",
+    "Docker"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 6
+   },
+   "postedAt": "2026-07-09T19:10:04-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8495882002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "Software Engineer (Platform Team)",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8495882002?gh_jid=8495882002",
    "season": null,
    "roleType": "unknown",
    "score": 46,
@@ -20271,32 +20271,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8621621002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "Software Engineer, Product Development (Starshield)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8621621002?gh_jid=8621621002",
-   "season": null,
-   "roleType": "unknown",
-   "score": 45,
-   "matchedSkills": [
-    "PostgreSQL",
-    "Docker",
-    "Linux"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 5
-   },
-   "postedAt": "2026-07-09T19:10:35-04:00",
-   "firstSeenAt": "2026-07-07T08:48:39.256Z"
-  },
-  {
    "dedupeKey": "greenhouse:8436728002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -20321,6 +20295,32 @@
    },
    "postedAt": "2026-07-09T19:09:54-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8621621002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "Software Engineer, Product Development (Starshield)",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8621621002?gh_jid=8621621002",
+   "season": null,
+   "roleType": "unknown",
+   "score": 45,
+   "matchedSkills": [
+    "PostgreSQL",
+    "Docker",
+    "Linux"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 5
+   },
+   "postedAt": "2026-07-09T19:10:35-04:00",
+   "firstSeenAt": "2026-07-07T08:48:39.256Z"
   },
   {
    "dedupeKey": "greenhouse:8581299002",
@@ -20498,28 +20498,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8525359002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "Software Engineer (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8525359002?gh_jid=8525359002",
-   "season": null,
-   "roleType": "unknown",
-   "score": 40,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-07-09T19:10:10-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:8379301002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -20548,6 +20526,28 @@
     "skills": 13
    },
    "postedAt": "2026-07-09T19:09:44-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8525359002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "Software Engineer (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8525359002?gh_jid=8525359002",
+   "season": null,
+   "roleType": "unknown",
+   "score": 40,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-09T19:10:10-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -21691,12 +21691,60 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:7975550",
+   "dedupeKey": "greenhouse:7975529",
    "source": "greenhouse",
    "company": "Robinhood",
    "title": "Software Engineer",
    "location": "Menlo Park, CA",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/7975550?t=gh_src=&gh_jid=7975550",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/7975529?t=gh_src=&gh_jid=7975529",
+   "season": null,
+   "roleType": "unknown",
+   "score": 40,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-09T19:02:18-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7975530",
+   "source": "greenhouse",
+   "company": "Robinhood",
+   "title": "Software Engineer",
+   "location": "Menlo Park, CA",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/7975530?t=gh_src=&gh_jid=7975530",
+   "season": null,
+   "roleType": "unknown",
+   "score": 45,
+   "matchedSkills": [
+    "Python",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 5
+   },
+   "postedAt": "2026-07-09T19:02:18-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7975549",
+   "source": "greenhouse",
+   "company": "Robinhood",
+   "title": "Software Engineer",
+   "location": "Menlo Park, CA",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/7975549?t=gh_src=&gh_jid=7975549",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -21716,12 +21764,37 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:7975549",
+   "dedupeKey": "greenhouse:7975558",
    "source": "greenhouse",
    "company": "Robinhood",
    "title": "Software Engineer",
    "location": "Menlo Park, CA",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/7975549?t=gh_src=&gh_jid=7975549",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/7975558?t=gh_src=&gh_jid=7975558",
+   "season": null,
+   "roleType": "unknown",
+   "score": 43,
+   "matchedSkills": [
+    "Python",
+    "Java"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 3
+   },
+   "postedAt": "2026-07-09T19:02:18-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7975557",
+   "source": "greenhouse",
+   "company": "Robinhood",
+   "title": "Software Engineer",
+   "location": "Menlo Park, CA",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/7975557?t=gh_src=&gh_jid=7975557",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -21767,85 +21840,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:7975530",
+   "dedupeKey": "greenhouse:7975550",
    "source": "greenhouse",
    "company": "Robinhood",
    "title": "Software Engineer",
    "location": "Menlo Park, CA",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/7975530?t=gh_src=&gh_jid=7975530",
-   "season": null,
-   "roleType": "unknown",
-   "score": 45,
-   "matchedSkills": [
-    "Python",
-    "PostgreSQL",
-    "Docker"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 5
-   },
-   "postedAt": "2026-07-09T19:02:18-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7975529",
-   "source": "greenhouse",
-   "company": "Robinhood",
-   "title": "Software Engineer",
-   "location": "Menlo Park, CA",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/7975529?t=gh_src=&gh_jid=7975529",
-   "season": null,
-   "roleType": "unknown",
-   "score": 40,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-07-09T19:02:18-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7975557",
-   "source": "greenhouse",
-   "company": "Robinhood",
-   "title": "Software Engineer",
-   "location": "Menlo Park, CA",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/7975557?t=gh_src=&gh_jid=7975557",
-   "season": null,
-   "roleType": "unknown",
-   "score": 43,
-   "matchedSkills": [
-    "Python",
-    "Java"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 3
-   },
-   "postedAt": "2026-07-09T19:02:18-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7975558",
-   "source": "greenhouse",
-   "company": "Robinhood",
-   "title": "Software Engineer",
-   "location": "Menlo Park, CA",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/7975558?t=gh_src=&gh_jid=7975558",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/7975550?t=gh_src=&gh_jid=7975550",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -22373,12 +22373,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8612080002",
+   "dedupeKey": "greenhouse:8526793002",
    "source": "greenhouse",
    "company": "Duolingo",
    "title": "Software Engineer I",
    "location": "Beijing, China",
-   "url": "https://careers.duolingo.com/jobs/8612080002?gh_jid=8612080002",
+   "url": "https://careers.duolingo.com/jobs/8526793002?gh_jid=8526793002",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -22398,12 +22398,12 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8526793002",
+   "dedupeKey": "greenhouse:8612080002",
    "source": "greenhouse",
    "company": "Duolingo",
    "title": "Software Engineer I",
    "location": "Beijing, China",
-   "url": "https://careers.duolingo.com/jobs/8526793002?gh_jid=8526793002",
+   "url": "https://careers.duolingo.com/jobs/8612080002?gh_jid=8612080002",
    "season": null,
    "roleType": "unknown",
    "score": 43,
@@ -23107,32 +23107,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:7708927003",
-   "source": "greenhouse",
-   "company": "Affirm",
-   "title": "Software Engineer II, Backend (Merchant & Partner Lifecycle)",
-   "location": "Remote Canada",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/7708927003",
-   "season": null,
-   "roleType": "unknown",
-   "score": 50,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "AWS"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 5,
-    "keywords": 0,
-    "skills": 5
-   },
-   "postedAt": "2026-06-26T09:10:39-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "greenhouse:7708925003",
    "source": "greenhouse",
    "company": "Affirm",
@@ -23156,6 +23130,32 @@
     "skills": 5
    },
    "postedAt": "2026-06-26T09:10:30-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7708927003",
+   "source": "greenhouse",
+   "company": "Affirm",
+   "title": "Software Engineer II, Backend (Merchant & Partner Lifecycle)",
+   "location": "Remote Canada",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/7708927003",
+   "season": null,
+   "roleType": "unknown",
+   "score": 50,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "AWS"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 5,
+    "keywords": 0,
+    "skills": 5
+   },
+   "postedAt": "2026-06-26T09:10:39-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -23232,33 +23232,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:7727322003",
-   "source": "greenhouse",
-   "company": "Affirm",
-   "title": "Software Engineer II, Backend (Test Infra)",
-   "location": "Remote Canada",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/7727322003",
-   "season": null,
-   "roleType": "unknown",
-   "score": 51,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "AWS",
-    "Docker"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 5,
-    "keywords": 0,
-    "skills": 6
-   },
-   "postedAt": "2026-07-10T09:25:08-04:00",
-   "firstSeenAt": "2026-07-10T18:55:15.314Z"
-  },
-  {
    "dedupeKey": "greenhouse:7727320003",
    "source": "greenhouse",
    "company": "Affirm",
@@ -23283,6 +23256,33 @@
     "skills": 6
    },
    "postedAt": "2026-07-10T09:25:07-04:00",
+   "firstSeenAt": "2026-07-10T18:55:15.314Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7727322003",
+   "source": "greenhouse",
+   "company": "Affirm",
+   "title": "Software Engineer II, Backend (Test Infra)",
+   "location": "Remote Canada",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/7727322003",
+   "season": null,
+   "roleType": "unknown",
+   "score": 51,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "AWS",
+    "Docker"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 5,
+    "keywords": 0,
+    "skills": 6
+   },
+   "postedAt": "2026-07-10T09:25:08-04:00",
    "firstSeenAt": "2026-07-10T18:55:15.314Z"
   },
   {
@@ -30775,6 +30775,31 @@
    },
    "postedAt": "2025-09-29T22:46:04.471+00:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "ashby:ffc09fc0-7785-48db-a203-a148f62534be",
+   "source": "ashby",
+   "company": "Ramp",
+   "title": "GTM Systems Engineer, Salesforce",
+   "location": "New York, NY (HQ); San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/ramp/ffc09fc0-7785-48db-a203-a148f62534be",
+   "season": null,
+   "roleType": "unknown",
+   "score": 43,
+   "matchedSkills": [
+    "Python",
+    "Node.js"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 3
+   },
+   "postedAt": "2026-07-11T20:22:52.649+00:00",
+   "firstSeenAt": "2026-07-12T07:39:59.558Z"
   },
   {
    "dedupeKey": "ashby:d41b635b-c17b-4efd-89fd-fdb2ddb62e9a",
@@ -40806,28 +40831,6 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
-   "dedupeKey": "simplifyjobs:3ac699af-5c50-4a7c-81af-6dfb56f595db",
-   "source": "simplifyjobs",
-   "company": "Goldman Sachs",
-   "title": "Asset& Wealth Management-Software Engineering-Associate-New York",
-   "location": "NYC",
-   "url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/168978",
-   "season": null,
-   "roleType": "unknown",
-   "score": 40,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 0,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-06-29T14:07:03.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:b5a4b9e2-255e-4c48-b509-b104a4ee3279",
    "source": "simplifyjobs",
    "company": "DAT Freight & Analytics",
@@ -44158,6 +44161,28 @@
    "firstSeenAt": "2026-07-10T08:47:11.987Z"
   },
   {
+   "dedupeKey": "simplifyjobs:ecbaf329-4e0e-49b2-9693-bf1f4c17b230",
+   "source": "simplifyjobs",
+   "company": "National Life",
+   "title": "Associate Illustration Systems Analyst / Analyst",
+   "location": "Montpelier, VT; Addison, TX",
+   "url": "https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4305154009",
+   "season": null,
+   "roleType": "unknown",
+   "score": 40,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-07T22:01:56.000Z",
+   "firstSeenAt": "2026-07-12T07:39:59.558Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:18841037-9604-43eb-994c-03bcb1630637",
    "source": "simplifyjobs",
    "company": "L3Harris Technologies",
@@ -44796,6 +44821,28 @@
    },
    "postedAt": "2026-07-09T01:09:26.000Z",
    "firstSeenAt": "2026-07-11T18:14:00.643Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f582972e-e7c0-4d00-941e-67ece4906d06",
+   "source": "simplifyjobs",
+   "company": "General Dynamics Information Technology",
+   "title": "UiPath Robotic Process Automation Developer Associate",
+   "location": "Louisiana",
+   "url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-LA-Home-Office-LAHOME/UiPath-Robotic-Process-Automation-Developer-Associate_RQ223293-1",
+   "season": null,
+   "roleType": "unknown",
+   "score": 40,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 0,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-12T00:00:00.000Z",
+   "firstSeenAt": "2026-07-12T07:39:59.558Z"
   },
   {
    "dedupeKey": "simplifyjobs:1df8808f-a878-46a2-ba15-70c3fbeae304",
@@ -54664,50 +54711,6 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
-   "dedupeKey": "simplifyjobs:98ab0522-0f4a-4c35-bc28-cf7cd06d5618",
-   "source": "simplifyjobs",
-   "company": "The Home Depot",
-   "title": "Full Stack Software Developer Intern",
-   "location": "Toronto, ON, Canada",
-   "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepotCanada/job/CANADA-STORE-SUPPORT-CENTER---7000/Intern--Full-Stack-Software-Developer_Req185610",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-30T22:08:59.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a1882eaf-a1fc-44de-b03d-aad32d325664",
-   "source": "simplifyjobs",
-   "company": "The Home Depot",
-   "title": "Data Scientist Intern",
-   "location": "Toronto, ON, Canada",
-   "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepotCanada/job/CANADA-STORE-SUPPORT-CENTER---7000/Intern--Data-Scientist_Req185609",
-   "season": null,
-   "roleType": "internship",
-   "score": 35,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 0,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-30T22:08:58.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:ff964e2a-c499-417f-931c-e7ef2cdf871b",
    "source": "simplifyjobs",
    "company": "Susquehanna International Group (SIG)",
@@ -59880,28 +59883,6 @@
    "firstSeenAt": "2026-07-11T07:22:30.098Z"
   },
   {
-   "dedupeKey": "simplifyjobs:3d5030c9-5b53-4ead-8664-250c3688b6ee",
-   "source": "simplifyjobs",
-   "company": "LexisNexis Risk Solutions",
-   "title": "Editorial Data Reporting Intern",
-   "location": "Remote in USA",
-   "url": "https://relx.wd3.myworkdayjobs.com/LexisNexisLegal/job/Home-based-Washington-DC/Editorial-Data-Reporting-Intern_R112971-1",
-   "season": null,
-   "roleType": "internship",
-   "score": 35,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 0,
-    "roleType": 30,
-    "season": 0,
-    "location": 5,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-10T00:00:00.000Z",
-   "firstSeenAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:ba1e95d6-38c8-4dfd-98bb-f6954a1aaab8",
    "source": "simplifyjobs",
    "company": "Meta",
@@ -60142,6 +60123,28 @@
    },
    "postedAt": "2026-07-11T06:09:33.000Z",
    "firstSeenAt": "2026-07-11T07:22:30.098Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ce80bcf6-6d8c-468a-9fec-fb8418fd27af",
+   "source": "simplifyjobs",
+   "company": "ByteDance",
+   "title": "3D Graphics Engineer Intern - PICO Foundation",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7564516412456306997/detail",
+   "season": null,
+   "roleType": "internship",
+   "score": 35,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 0,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-04T22:08:30.000Z",
+   "firstSeenAt": "2026-07-12T07:39:59.558Z"
   }
  ],
  "closed": [
@@ -64268,13 +64271,49 @@
    "closedAt": "2026-07-11T18:14:00.643Z"
   },
   {
+   "dedupeKey": "simplifyjobs:3ac699af-5c50-4a7c-81af-6dfb56f595db",
+   "company": "Goldman Sachs",
+   "title": "Asset& Wealth Management-Software Engineering-Associate-New York",
+   "season": null,
+   "roleType": "unknown",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-12T07:39:59.558Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:98ab0522-0f4a-4c35-bc28-cf7cd06d5618",
+   "company": "The Home Depot",
+   "title": "Full Stack Software Developer Intern",
+   "season": null,
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-12T07:39:59.558Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a1882eaf-a1fc-44de-b03d-aad32d325664",
+   "company": "The Home Depot",
+   "title": "Data Scientist Intern",
+   "season": null,
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-12T07:39:59.558Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:3d5030c9-5b53-4ead-8664-250c3688b6ee",
+   "company": "LexisNexis Risk Solutions",
+   "title": "Editorial Data Reporting Intern",
+   "season": null,
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-11T07:22:30.098Z",
+   "closedAt": "2026-07-12T07:39:59.558Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:c59aa3f2-08bd-413a-a82e-29840631cfd4",
    "company": "Sandhills Global",
    "title": "Software Development Intern",
    "season": null,
    "roleType": "internship",
    "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T18:14:00.643Z"
+   "closedAt": "2026-07-12T07:39:59.558Z"
   },
   {
    "dedupeKey": "simplifyjobs:208b5435-9c9d-4ee0-becd-6a2fb1192865",
@@ -64283,7 +64322,7 @@
    "season": null,
    "roleType": "internship",
    "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T18:14:00.643Z"
+   "closedAt": "2026-07-12T07:39:59.558Z"
   },
   {
    "dedupeKey": "simplifyjobs:b7ecf859-e102-435c-ad58-a6bb88c51c60",
@@ -64292,7 +64331,7 @@
    "season": null,
    "roleType": "internship",
    "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T18:14:00.643Z"
+   "closedAt": "2026-07-12T07:39:59.558Z"
   },
   {
    "dedupeKey": "simplifyjobs:ac9a60d7-eb51-4cbb-af68-97f00839f454",
@@ -64301,7 +64340,7 @@
    "season": null,
    "roleType": "internship",
    "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T18:14:00.643Z"
+   "closedAt": "2026-07-12T07:39:59.558Z"
   },
   {
    "dedupeKey": "simplifyjobs:1560cb5a-5cc1-4788-aa55-44b8c25b2336",
@@ -64310,7 +64349,7 @@
    "season": null,
    "roleType": "internship",
    "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T18:14:00.643Z"
+   "closedAt": "2026-07-12T07:39:59.558Z"
   },
   {
    "dedupeKey": "simplifyjobs:8b859d22-1375-43c9-87ac-1af93ace29a5",
@@ -64319,7 +64358,7 @@
    "season": null,
    "roleType": "internship",
    "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T18:14:00.643Z"
+   "closedAt": "2026-07-12T07:39:59.558Z"
   }
  ]
 }
