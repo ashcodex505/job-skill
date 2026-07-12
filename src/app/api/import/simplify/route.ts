@@ -1,6 +1,7 @@
 import { db, newId, now, tables } from "@/db";
 import { badRequest, handler, ok } from "@/lib/api";
 import { importMatchKey, parseSimplifyCsv } from "@/lib/import/simplify";
+import { syncApplicationsToGoogleSheetsSafe } from "@/lib/integrations/google-sheets";
 import { PIPELINE_ORDER } from "@/lib/status";
 import type { ApplicationStatus } from "@/lib/types";
 import { eq } from "drizzle-orm";
@@ -48,6 +49,7 @@ export const POST = handler(async (req: Request) => {
           id,
           companyName: row.companyName,
           jobTitle: row.jobTitle,
+          jobType: row.jobType,
           status: row.status,
           dateApplied: row.dateApplied,
           jobUrl: row.jobUrl,
@@ -105,5 +107,15 @@ export const POST = handler(async (req: Request) => {
     }
   }
 
-  return ok({ mode, totalRows: rows.length, skippedRows: skipped, created, updated, unchanged, preview: preview.slice(0, 100) });
+  const sheetSync = mode === "commit" ? await syncApplicationsToGoogleSheetsSafe("Simplify CSV imported") : null;
+  return ok({
+    mode,
+    totalRows: rows.length,
+    skippedRows: skipped,
+    created,
+    updated,
+    unchanged,
+    preview: preview.slice(0, 100),
+    sheetSync,
+  });
 });

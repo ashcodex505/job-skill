@@ -1,6 +1,7 @@
 import { desc } from "drizzle-orm";
 import { db, newId, now, tables } from "@/db";
 import { handler, ok, parseTags } from "@/lib/api";
+import { syncApplicationsToGoogleSheetsSafe } from "@/lib/integrations/google-sheets";
 import { applicationInput } from "@/lib/validation";
 
 export const GET = handler(async () => {
@@ -34,5 +35,6 @@ export const POST = handler(async (req: Request) => {
     createdAt: t,
   });
   const row = await db.query.applications.findFirst({ where: (a, { eq }) => eq(a.id, id) });
+  await syncApplicationsToGoogleSheetsSafe("application created");
   return ok({ ...row, tags: input.tags }, { status: 201 });
 });

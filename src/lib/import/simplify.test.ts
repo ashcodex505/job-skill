@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { importMatchKey, mapHeaders, mapStatus, parseCsv, parseDate, parseSimplifyCsv } from "./simplify";
+import { importMatchKey, mapHeaders, mapJobType, mapStatus, parseCsv, parseDate, parseSimplifyCsv } from "./simplify";
 
 describe("parseCsv", () => {
   it("handles quotes, escaped quotes, commas, and newlines in fields", () => {
@@ -57,6 +57,16 @@ describe("mapStatus", () => {
   });
 });
 
+describe("mapJobType", () => {
+  it("uses explicit CSV types and recognizable title wording", () => {
+    expect(mapJobType("Internship", "Software Engineer")).toBe("internship");
+    expect(mapJobType(null, "Software Engineer Co-op")).toBe("internship");
+    expect(mapJobType(null, "Software Engineer, New Grad")).toBe("new_grad");
+    expect(mapJobType("Full-Time", "Software Engineer")).toBe("full_time");
+    expect(mapJobType(null, "Software Engineer")).toBe("other");
+  });
+});
+
 describe("parseDate", () => {
   it("accepts ISO, US, and long formats", () => {
     expect(parseDate("2026-07-01")).toBe("2026-07-01");
@@ -82,6 +92,7 @@ describe("parseSimplifyCsv", () => {
     expect(result.rows[0]).toMatchObject({
       companyName: "Stripe",
       jobTitle: "SWE Intern",
+      jobType: "internship",
       status: "applied",
       dateApplied: "2026-06-20",
       jobUrl: "https://stripe.com/jobs/1",
@@ -89,6 +100,7 @@ describe("parseSimplifyCsv", () => {
     expect(result.rows[1]).toMatchObject({
       companyName: "Ramp",
       jobTitle: "Software Engineer, New Grad",
+      jobType: "new_grad",
       status: "technical_interview",
       dateApplied: "2026-06-25",
       jobUrl: null, // invalid URL dropped

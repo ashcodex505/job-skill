@@ -1,6 +1,7 @@
 import { eq } from "drizzle-orm";
 import { db, newId, now, tables } from "@/db";
 import { badRequest, handler, notFound, ok } from "@/lib/api";
+import { syncApplicationsToGoogleSheetsSafe } from "@/lib/integrations/google-sheets";
 import { z } from "zod";
 
 type Ctx = { params: Promise<{ id: string }> };
@@ -58,5 +59,6 @@ export const POST = handler(async (req: Request, { params }: Ctx) => {
     .where(eq(tables.discoveredJobs.id, id));
 
   const row = await db.query.applications.findFirst({ where: eq(tables.applications.id, appId) });
+  await syncApplicationsToGoogleSheetsSafe("discovered job saved");
   return ok(row, { status: 201 });
 });

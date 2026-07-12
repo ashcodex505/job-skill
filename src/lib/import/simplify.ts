@@ -1,4 +1,4 @@
-import type { ApplicationStatus } from "@/lib/types";
+import type { ApplicationStatus, JobType } from "@/lib/types";
 
 /**
  * Simplify.jobs tracker CSV import.
@@ -18,6 +18,7 @@ import type { ApplicationStatus } from "@/lib/types";
 export interface ImportedRow {
   companyName: string;
   jobTitle: string;
+  jobType: JobType;
   status: ApplicationStatus;
   rawStatus: string | null;
   dateApplied: string | null;
@@ -74,6 +75,7 @@ const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
 const HEADER_SYNONYMS: Record<keyof Omit<ImportedRow, "rawStatus">, string[]> = {
   companyName: ["company", "companyname", "employer", "organization"],
   jobTitle: ["jobtitle", "title", "position", "role", "job", "positiontitle"],
+  jobType: ["jobtype", "type", "employmenttype", "positiontype"],
   status: ["status", "applicationstatus", "stage"],
   dateApplied: ["dateapplied", "applieddate", "appliedon", "applicationdate", "dateadded", "appliedat", "date"],
   jobUrl: ["jobpostingurl", "url", "link", "joburl", "posting", "jobposting", "joblink", "applicationlink"],
@@ -106,6 +108,15 @@ export function mapStatus(raw: string | null | undefined): ApplicationStatus {
   if (/applied|submitted/.test(n)) return "applied";
   if (/saved|bookmark|applying|interested|wishlist/.test(n)) return "interested";
   return "applied"; // Simplify only auto-tracks completed applications.
+}
+
+/** Prefer an explicit CSV job type, then infer obvious early-career types from the title. */
+export function mapJobType(raw: string | null | undefined, title: string): JobType {
+  const value = `${raw ?? ""} ${title}`.toLowerCase();
+  if (/\bintern(ship)?\b|\bco[- ]?op\b/.test(value)) return "internship";
+  if (/new grad(uate)?|early[- ]career|university grad(uate)?/.test(value)) return "new_grad";
+  if (/full[- ]?time|permanent/.test(value)) return "full_time";
+  return "other";
 }
 
 /** Accepts "2026-07-01", "07/01/2026", "Jul 1, 2026", ISO datetimes. */
@@ -157,6 +168,7 @@ export function parseSimplifyCsv(text: string): ParseResult {
     rows.push({
       companyName,
       jobTitle,
+      jobType: mapJobType(get("jobType"), jobTitle),
       status: mapStatus(rawStatus),
       rawStatus,
       dateApplied: parseDate(get("dateApplied")),

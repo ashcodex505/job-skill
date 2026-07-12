@@ -1,6 +1,7 @@
 import { asc, eq } from "drizzle-orm";
 import { db, now, tables } from "@/db";
 import { handler, notFound, ok, parseTags } from "@/lib/api";
+import { syncApplicationsToGoogleSheetsSafe } from "@/lib/integrations/google-sheets";
 import { toCredentialView } from "@/lib/security/credentials";
 import { applicationInput } from "@/lib/validation";
 
@@ -63,6 +64,7 @@ export const PATCH = handler(async (req: Request, { params }: Ctx) => {
     .where(eq(tables.applications.id, id));
 
   const row = await db.query.applications.findFirst({ where: eq(tables.applications.id, id) });
+  await syncApplicationsToGoogleSheetsSafe("application edited");
   return ok({ ...row, tags: parseTags(row!.tags) });
 });
 
@@ -75,5 +77,6 @@ export const DELETE = handler(async (_req: Request, { params }: Ctx) => {
     .where(eq(tables.discoveredJobs.savedApplicationId, id));
   // status_events and credentials cascade via FK.
   await db.delete(tables.applications).where(eq(tables.applications.id, id));
+  await syncApplicationsToGoogleSheetsSafe("application deleted");
   return ok({ deleted: true });
 });

@@ -148,6 +148,26 @@ applications by posting URL or company+title; statuses only move forward
 each application session — it's idempotent. Generic CSVs (Sheets/Notion
 trackers) with company + title columns also work.
 
+### Google Sheets application mirror
+
+When Google Sheets sync is configured, the local Applications tracker remains
+the source of truth and `Sheet1` is refreshed after Simplify CSV imports,
+application creation or editing, status changes, Discovery saves, and deletes.
+Google failures are recorded but never roll back local changes. Settings shows
+the last result and includes a **Sync now** button; `npm run sheets:sync` runs
+the same full mirror from the terminal.
+
+Create a Google service account, enable the Google Sheets API, share the target
+spreadsheet with the service account's `client_email` as Editor, and add these
+values to `.env.local` (never commit the real credential):
+
+```env
+GOOGLE_SERVICE_ACCOUNT_JSON_BASE64=<base64-encoded-service-account-json>
+GOOGLE_SHEETS_SPREADSHEET_ID=<spreadsheet-id>
+GOOGLE_SHEETS_TAB=Sheet1
+GOOGLE_SHEETS_DEFAULT_APPLICATION_EMAIL=<email-used-for-applications>
+```
+
 ### Editing your profile in plain English
 
 If the Claude Code CLI is installed (`npm i -g @anthropic-ai/claude-code`),

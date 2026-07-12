@@ -1,6 +1,7 @@
 import { eq } from "drizzle-orm";
 import { db, newId, now, tables } from "@/db";
 import { badRequest, handler, notFound, ok } from "@/lib/api";
+import { syncApplicationsToGoogleSheetsSafe } from "@/lib/integrations/google-sheets";
 import { canTransition } from "@/lib/status";
 import type { ApplicationStatus } from "@/lib/types";
 import { statusUpdateInput } from "@/lib/validation";
@@ -37,5 +38,6 @@ export const POST = handler(async (req: Request, { params }: Ctx) => {
   });
 
   const row = await db.query.applications.findFirst({ where: eq(tables.applications.id, id) });
+  await syncApplicationsToGoogleSheetsSafe("application status changed");
   return ok(row);
 });

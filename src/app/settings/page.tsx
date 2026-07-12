@@ -1,6 +1,6 @@
 "use client";
 
-import { CheckCircle2, KeyRound, Lock, ShieldCheck, Unlock, XCircle } from "lucide-react";
+import { CheckCircle2, ExternalLink, KeyRound, Lock, RefreshCw, ShieldCheck, Table2, Unlock, XCircle } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 import { Badge, Button, Card, Field, Input, Spinner } from "@/components/ui";
 import { api, formatDateTime } from "@/lib/client";
@@ -21,6 +21,21 @@ interface CareerConfig {
   files: { profile: string; preferences: string };
 }
 
+interface SheetSyncResult {
+  status: "disabled" | "synced" | "failed";
+  rows: number;
+  syncedAt: string | null;
+  message?: string;
+  spreadsheetUrl?: string;
+}
+
+interface GoogleSheetsIntegrationStatus {
+  configured: boolean;
+  spreadsheetId: string | null;
+  sheetTab: string | null;
+  lastSync: SheetSyncResult | null;
+}
+
 export default function SettingsPage() {
   const [vault, setVault] = useState<VaultStatus | null>(null);
   const [runs, setRuns] = useState<ScraperRun[] | null>(null);
@@ -29,11 +44,14 @@ export default function SettingsPage() {
   const [busy, setBusy] = useState(false);
 
   const [career, setCareer] = useState<CareerConfig | null>(null);
+  const [sheets, setSheets] = useState<GoogleSheetsIntegrationStatus | null>(null);
+  const [sheetsBusy, setSheetsBusy] = useState(false);
 
   const load = useCallback(() => {
     api<VaultStatus>("/api/vault").then(setVault).catch(() => setVault(null));
     api<ScraperRun[]>("/api/scrape").then(setRuns).catch(() => setRuns([]));
     api<CareerConfig>("/api/career").then(setCareer).catch(() => setCareer(null));
+    api<GoogleSheetsIntegrationStatus>("/api/integrations/google-sheets").then(setSheets).catch(() => setSheets(null));
   }, []);
   useEffect(load, [load]);
 
@@ -68,6 +86,16 @@ export default function SettingsPage() {
       setMessage({ ok: false, text: (e as Error).message });
     } finally {
       setBusy(false);
+    }
+  }
+
+  async function syncGoogleSheets() {
+    setSheetsBusy(true);
+    try {
+      await api<SheetSyncResult>("/api/integrations/google-sheets", { method: "POST" });
+      setSheets(await api<GoogleSheetsIntegrationStatus>("/api/integrations/google-sheets"));
+    } finally {
+      setSheetsBusy(false);
     }
   }
 
@@ -135,6 +163,55 @@ export default function SettingsPage() {
             {message.ok ? <CheckCircle2 size={13} /> : <XCircle size={13} />} {message.text}
           </p>
         ) : null}
+      </Card>
+
+      <Card className="p-4">
+        <h2 className="mb-1 flex items-center gap-2 text-sm font-semibold">
+          <Table2 size={16} className="text-emerald-600" /> Google Sheets application sync
+        </h2>
+        <p className="mb-3 text-xs text-muted">
+          Applications are mirrored after imports, edits, status changes, saves, and deletions. The local tracker stays
+          authoritative, so a Google API failure never rolls back a local change.
+        </p>
+        {!sheets ? (
+          <Spinner />
+        ) : !sheets.configured ? (
+          <p className="text-xs text-amber-600">
+            Sync is not configured. Add the Google Sheets variables from <code>.env.example</code> to <code>.env.local</code>.
+          </p>
+        ) : (
+          <div className="space-y-3 text-xs">
+            <div className="flex flex-wrap items-center gap-2">
+              <Badge className="bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
+                Configured
+              </Badge>
+              <span className="text-muted">Tab: {sheets.sheetTab}</span>
+              {sheets.spreadsheetId ? (
+                <a
+                  className="inline-flex items-center gap-1 text-accent hover:underline"
+                  href={`https://docs.google.com/spreadsheets/d/${sheets.spreadsheetId}/edit`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open Sheet <ExternalLink size={11} />
+                </a>
+              ) : null}
+            </div>
+            {sheets.lastSync ? (
+              <p className={sheets.lastSync.status === "failed" ? "text-red-600" : "text-muted"}>
+                {sheets.lastSync.status === "synced"
+                  ? `Last synced ${sheets.lastSync.rows} applications${sheets.lastSync.syncedAt ? ` at ${formatDateTime(sheets.lastSync.syncedAt)}` : ""}.`
+                  : sheets.lastSync.message ?? "The last sync failed."}
+              </p>
+            ) : (
+              <p className="text-muted">No sync has run yet.</p>
+            )}
+            <Button onClick={syncGoogleSheets} disabled={sheetsBusy}>
+              <RefreshCw size={13} className={sheetsBusy ? "animate-spin" : ""} />
+              {sheetsBusy ? "Syncing…" : "Sync now"}
+            </Button>
+          </div>
+        )}
       </Card>
 
       <Card className="p-4">

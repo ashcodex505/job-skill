@@ -14,7 +14,8 @@
     "scrape": "tsx src/scraper/cli.ts",
     "app:build": "./scripts/build-mac-app.sh",
     "board": "tsx src/scraper/board-cli.ts",
-    "scrape:check": "tsx src/scraper/check-cli.ts"
+    "scrape:check": "tsx src/scraper/check-cli.ts",
+    "sheets:sync": "node --env-file-if-exists=.env.local --import tsx src/scripts/google-sheets-sync.ts"
   },
   "dependencies": {
     "@libsql/client": "^0.17.4",
