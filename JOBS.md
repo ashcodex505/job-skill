@@ -1,13 +1,20 @@
 # 🎯 Job Board — SWE Early Career
 
-**65 open roles** across **26 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-13 08:30 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**66 open roles** across **27 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-07-13 18:53 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🛠️ Internships (6)
+## 🆕 New this cycle (1)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Hudson River Trading | Software Engineering Internship (C++ or Python) – Summer 2027 🆕 | Austin, TX, United States; Chicago, Illinois, United States; New York, NY, United States; Singapore | Summer 2027 | 100% (1 skills) | 2026-07-13 | 2026-07-13 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) |
+
+## 🛠️ Internships (7)
+
+| Company | Role | Location | Season | Match | Posted | First seen | Apply |
+|---|---|---|---|---|---|---|---|
+| Hudson River Trading | Software Engineering Internship (C++ or Python) – Summer 2027 🆕 | Austin, TX, United States; Chicago, Illinois, United States; New York, NY, United States; Singapore | Summer 2027 | 100% (1 skills) | 2026-07-13 | 2026-07-13 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) |
 | NVIDIA | Performance Engineer Intern, Systems Software- Fall 2026 | US, MO, St. Louis | Fall 2026 | 100% | — | 2026-07-06 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779) |
 | Notion | Software Engineer Intern (Fall 2026) | San Francisco, California | Fall 2026 | 100% (4 skills) | 2026-04-06 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
 | NVIDIA | Software Engineering Intern, JAX - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 100% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745) |
@@ -79,7 +86,7 @@ Last updated: **2026-07-13 08:30 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (2994)
+## 🚪 Recently closed (last 7 days) (2960)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -3045,40 +3052,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | NVIDIA | Machine Learning Intern - Multimodal Models Generative AI | — | 2026-07-06 |
 | Salesforce | Software Engineering Systems Engineer | — | 2026-07-06 |
 | Toyota Research Institute | Human-Centered AI Intern: Human-Computer Interaction | — | 2026-07-06 |
-| PNC Financial Services | Associate Software Engineer - Test | — | 2026-07-06 |
-| Kaluza | Graduate AI Engineer | — | 2026-07-06 |
-| Regal Rexnord | Lab Co-op | — | 2026-07-06 |
-| 60decibelsinc | Internship Senior Signal Associate | — | 2026-07-06 |
-| Duke University | Administrative Intern - Sanford School of Public Policy | — | 2026-07-06 |
-| Robert Half | Software Engineer 1 | — | 2026-07-06 |
-| SpaceX | Full Stack Software Engineer - Application Software | — | 2026-07-06 |
-| RTX | Radio Frequency Test Software Engineer | — | 2026-07-06 |
-| Metropolitan Transportation Authority | Application Developer 3 - Data and AI Engineering | — | 2026-07-06 |
-| PA Consulting | Salesforce Developer | — | 2026-07-06 |
-| The Walt Disney Company | Product Software Engineer 1 | — | 2026-07-06 |
-| Micron Technology | New College Grad - Product Yield Enhancement Engineer - High Bandwidth Memory | — | 2026-07-06 |
-| RTX | Systems Engineer 1 | — | 2026-07-06 |
-| Veeva | Intern Software Engineer | — | 2026-07-06 |
-| Omnis | Software Engineering Internship/Co-Op | — | 2026-07-06 |
-| Impulse Space | Radio Frequency Engineering Intern | — | 2026-07-06 |
-| Notion | Software Engineer Intern | — | 2026-07-06 |
-| Smiths Detection Group | Depot Service Engineer Intern | — | 2026-07-06 |
-| Nokia | Silicon Photonics Packaging Co-op/Intern | — | 2026-07-06 |
-| Tesla | Systems Integration Engineer Intern - Body Controls | — | 2026-07-06 |
-| Eurofins | Business Intelligence Intern | — | 2026-07-06 |
-| Zipline | Computational Physics Intern | — | 2026-07-06 |
-| Fife Council | Systems Developer Apprentice | — | 2026-07-06 |
-| CIBC | Data Analyst Co-op - Global Asset Management - Bilingual | — | 2026-07-06 |
-| KLA | Algorithm Engineer Intern | — | 2026-07-06 |
-| Bank of Montreal | Database Analyst Co-op/Intern | — | 2026-07-06 |
-| Centific | Technical Intern | — | 2026-07-06 |
-| Sentra | Engineer Intern | — | 2026-07-06 |
-| Hudson River Trading | Junior Trading Systems Engineer | — | 2026-07-06 |
-| Hudson River Trading | Trading Systems Engineer | — | 2026-07-06 |
-| Hudson River Trading | Trading Systems Engineer | — | 2026-07-06 |
-| Anduril | Quality Inspector (Second Shift), Intelligence Systems | — | 2026-07-06 |
-| Anduril | Quality Specialist, Intelligence Systems (Second Shift) | — | 2026-07-06 |
-| OpenAI | Developer Experience Engineer | — | 2026-07-06 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) and SimplifyJobs Summer Internships._

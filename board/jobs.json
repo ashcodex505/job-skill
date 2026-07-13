@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-13T08:30:45.868Z",
+ "updatedAt": "2026-07-13T18:53:38.724Z",
  "jobs": [
   {
    "dedupeKey": "greenhouse:7991718",
@@ -25,6 +25,30 @@
    },
    "postedAt": "2026-06-26T17:05:25-04:00",
    "firstSeenAt": "2026-07-04T20:13:25.659Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8052083",
+   "source": "greenhouse",
+   "company": "Hudson River Trading",
+   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
+   "location": "Austin, TX, United States; Chicago, Illinois, United States; New York, NY, United States; Singapore",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-07-13T11:35:06-04:00",
+   "firstSeenAt": "2026-07-13T18:53:38.724Z"
   },
   {
    "dedupeKey": "greenhouse:5162263007",
@@ -1514,312 +1538,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:22c73d7b-43d7-45a2-b537-5beb5f314625",
-   "company": "Robert Half",
-   "title": "Software Engineer 1",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:89193688-20ca-44aa-b2df-5bc8c90e3cf9",
-   "company": "SpaceX",
-   "title": "Full Stack Software Engineer - Application Software",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:13ed0912-9f6e-49e2-95b9-c811ac31c2ff",
-   "company": "RTX",
-   "title": "Radio Frequency Test Software Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:bb38c2b4-980c-4afe-b92c-df899573cea1",
-   "company": "Metropolitan Transportation Authority",
-   "title": "Application Developer 3 - Data and AI Engineering",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:4b7feeac-2c7a-4260-8556-c8f33800ba50",
-   "company": "PA Consulting",
-   "title": "Salesforce Developer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:12634088-9777-452c-9095-9f2de268d1e0",
-   "company": "The Walt Disney Company",
-   "title": "Product Software Engineer 1",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c2582b57-89c6-4642-a9f2-b5a0b7e3678a",
-   "company": "Micron Technology",
-   "title": "New College Grad - Product Yield Enhancement Engineer - High Bandwidth Memory",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:d0a11a17-8923-4621-bf2c-b045f0bfa4e8",
-   "company": "RTX",
-   "title": "Systems Engineer 1",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:d07dc6c0-69ed-42e6-a0f0-732bbe5b72fc",
-   "company": "Veeva",
-   "title": "Intern Software Engineer",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2547b989-7e3c-4396-91bc-44de4e601bc7",
-   "company": "Omnis",
-   "title": "Software Engineering Internship/Co-Op",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:8d3b136a-e903-480d-b1ff-ac54f742b8b7",
-   "company": "Impulse Space",
-   "title": "Radio Frequency Engineering Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:26784233-d6f5-4845-b5af-e3b1350f1199",
-   "company": "Notion",
-   "title": "Software Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:0a319815-2604-4c98-94da-26b6a462a885",
-   "company": "Smiths Detection Group",
-   "title": "Depot Service Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e3ae41c7-d6ca-4d08-aa0c-23cd1ac65dec",
-   "company": "Nokia",
-   "title": "Silicon Photonics Packaging Co-op/Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:3f099127-5e46-4a19-bbda-3e62875498eb",
-   "company": "Tesla",
-   "title": "Systems Integration Engineer Intern - Body Controls",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:185813f4-0060-4a31-820e-efb3dc2ac8a8",
-   "company": "Eurofins",
-   "title": "Business Intelligence Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:83eafbc5-8c79-43e8-8d3d-b06bff9f0c93",
-   "company": "Zipline",
-   "title": "Computational Physics Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:ff4c8623-9696-4e1a-a6a4-baca02c334d6",
-   "company": "Fife Council",
-   "title": "Systems Developer Apprentice",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:5ed7f6fd-9a93-4c69-bc9f-6bd7b68e363a",
-   "company": "CIBC",
-   "title": "Data Analyst Co-op - Global Asset Management - Bilingual",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:7107b7fd-b107-4478-9903-228a6f5ef3fa",
-   "company": "KLA",
-   "title": "Algorithm Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:64dfd400-2a8b-48e5-8a0a-0da0ac931046",
-   "company": "Bank of Montreal",
-   "title": "Database Analyst Co-op/Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:5422cc4b-e8cc-4455-8067-5eea2cebcf86",
-   "company": "Centific",
-   "title": "Technical Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:33c527f2-ac7d-48ff-8bda-4961e809a00b",
-   "company": "Sentra",
-   "title": "Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7846663",
-   "company": "Hudson River Trading",
-   "title": "Junior Trading Systems Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7625544",
-   "company": "Hudson River Trading",
-   "title": "Trading Systems Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7846664",
-   "company": "Hudson River Trading",
-   "title": "Trading Systems Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5123459007",
-   "company": "Anduril",
-   "title": "Quality Inspector (Second Shift), Intelligence Systems",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5159179007",
-   "company": "Anduril",
-   "title": "Quality Specialist, Intelligence Systems (Second Shift)",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "ashby:a9229465-4048-444c-9c03-1f281bcf2373",
-   "company": "OpenAI",
-   "title": "Developer Experience Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-04T20:13:25.659Z",
-   "closedAt": "2026-07-06T09:15:24.162Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:768e4d7c-d1fc-4490-94ba-51a4efdf2cb3",
-   "company": "PNC Financial Services",
-   "title": "Associate Software Engineer - Test",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T13:28:15.207Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:9035c047-3404-4da2-b0da-fd96bc3406de",
-   "company": "Kaluza",
-   "title": "Graduate AI Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T13:28:15.207Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f1c88e67-8553-477d-8de8-7eb325c1360a",
-   "company": "Regal Rexnord",
-   "title": "Lab Co-op",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-06T09:15:24.162Z",
-   "closedAt": "2026-07-06T13:28:15.207Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:886288f5-3a87-4305-9ad8-236ac9eb9153",
-   "company": "60decibelsinc",
-   "title": "Internship Senior Signal Associate",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T13:28:15.207Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c1b14eaf-e140-4275-b7b5-dee377f8421d",
-   "company": "Duke University",
-   "title": "Administrative Intern - Sanford School of Public Policy",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-06T09:15:24.162Z",
-   "closedAt": "2026-07-06T13:28:15.207Z"
-  },
   {
    "dedupeKey": "simplifyjobs:44f63b87-48fd-489b-9f6e-71d611ee69a1",
    "company": "LetsGetChecked",

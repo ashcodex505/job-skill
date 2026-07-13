@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-65-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-0-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--13-informational)
+![open roles](https://img.shields.io/badge/open%20roles-66-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-1-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--13-informational)
 
-Updated **2026-07-13 08:30 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-07-13 18:53 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Hudson River Trading | Software Engineering Internship (C++ or Python) – Summer 2027 🆕 | Austin, TX, United States; Chicago, Illinois, United States; New York, NY, United States; Singapore | Summer 2027 | 100% (1 skills) | 2026-07-13 | 2026-07-13 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) |
 | NVIDIA | Performance Engineer Intern, Systems Software- Fall 2026 | US, MO, St. Louis | Fall 2026 | 100% | — | 2026-07-06 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779) |
 | Anduril | 2027 Early Career Software Engineer | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 New Grad | 100% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
 | Notion | Software Engineer Intern (Fall 2026) | San Francisco, California | Fall 2026 | 100% (4 skills) | 2026-04-06 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
@@ -277,5 +278,4 @@ Updated **2026-07-13 08:30 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Palantir | Software Engineer, New Grad - Defense | Palo Alto, CA | — | 85% (3 skills) | 2025-06-19 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3) |
 | Palantir | Software Engineer, New Grad - Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4abf26b4-795c-420a-bf22-1ab98db268b4) |
 | Palantir | Software Engineer, New Grad - Infrastructure | Palo Alto, CA | — | 85% (3 skills) | 2025-08-19 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d) |
-| Palantir | Software Engineer, New Grad - Production Infrastructure | Washington, D.C. | — | 85% (3 skills) | 2025-08-19 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6) |
 <!-- JOB-BOARD:END -->
