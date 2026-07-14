@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-14T07:23:54.148Z",
+ "updatedAt": "2026-07-14T18:35:29.926Z",
  "jobs": [
   {
    "dedupeKey": "greenhouse:7991718",
@@ -74,7 +74,7 @@
     "keywords": 10,
     "skills": 6
    },
-   "postedAt": "2026-07-13T21:30:52-04:00",
+   "postedAt": "2026-07-14T12:27:41-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -899,28 +899,6 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
-   "dedupeKey": "simplifyjobs:27c87258-83f7-4250-aea7-489c57222e3e",
-   "source": "simplifyjobs",
-   "company": "Nuro",
-   "title": "Software Engineer New Grad - Performance",
-   "location": "Mountain View, CA",
-   "url": "https://nuro.ai/careersitem?gh_jid=7978432",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-03T06:21:08.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:c5acd21d-5a30-4ffa-8045-71e24b865ab7",
    "source": "simplifyjobs",
    "company": "Sandisk",
@@ -1648,96 +1626,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:222350e3-c087-4ab8-a4b2-1bd19798752f",
-   "company": "hyperexponential",
-   "title": "Technology Graduate Programme",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T08:48:39.256Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:237d1a91-ddb0-48de-ab9b-062ba32aa4d3",
-   "company": "The Boeing Company",
-   "title": "Software Engineer - Developer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T08:48:39.256Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:4ac8ef7b-66be-40a5-b3b4-f24f37b1df3d",
-   "company": "L3Harris Technologies",
-   "title": "Software Engineering Associate",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T08:48:39.256Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:385acd80-084a-456f-b4bc-2de1a954b3fc",
-   "company": "The Boeing Company",
-   "title": "Entry-Level Electrical / Wire Harness Assembly Technician",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T08:48:39.256Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:5023b582-d7cc-49cf-9ae0-49dca04f35b1",
-   "company": "Tessera Labs",
-   "title": "Software Engineering Intern - Frontend",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T08:48:39.256Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:0d633297-0371-40a5-bcfe-d66992c2ba79",
-   "company": "Anthropic",
-   "title": "Anthropic Fellows Program - ML Systems & Performance",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T08:48:39.256Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8578759002",
-   "company": "SpaceX",
-   "title": "Recruiting Coordinator, Intern Program- Temporary",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-07T08:48:39.256Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8421508002",
-   "company": "Lyft",
-   "title": "Software Engineer (Backend), Growth Platforms",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-07T08:48:39.256Z"
-  },
-  {
-   "dedupeKey": "workday:JR350260",
-   "company": "Salesforce",
-   "title": "Software Engineering SMTS- LLM Model building",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-06T09:15:24.162Z",
-   "closedAt": "2026-07-07T08:48:39.256Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c635048f-2bb2-4949-b1ab-bd8c0d76ec14",
-   "company": "Cloudforce",
-   "title": "AI Agent Builder Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T08:48:39.256Z"
-  },
   {
    "dedupeKey": "greenhouse:7532256",
    "company": "Stripe",
@@ -27810,6 +27698,15 @@
    "roleType": "internship",
    "firstSeenAt": "2026-07-05T06:56:59.748Z",
    "closedAt": "2026-07-14T07:23:54.148Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:27c87258-83f7-4250-aea7-489c57222e3e",
+   "company": "Nuro",
+   "title": "Software Engineer New Grad - Performance",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-14T18:35:29.926Z"
   }
  ]
 }
