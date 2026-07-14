@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-13T18:53:38.724Z",
+ "updatedAt": "2026-07-14T07:23:54.148Z",
  "jobs": [
   {
    "dedupeKey": "greenhouse:7991718",
@@ -47,7 +47,7 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-07-13T11:35:06-04:00",
+   "postedAt": "2026-07-13T17:48:50-04:00",
    "firstSeenAt": "2026-07-13T18:53:38.724Z"
   },
   {
@@ -74,7 +74,7 @@
     "keywords": 10,
     "skills": 6
    },
-   "postedAt": "2026-07-07T19:44:20-04:00",
+   "postedAt": "2026-07-13T21:30:52-04:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
@@ -611,28 +611,6 @@
    },
    "postedAt": "2026-07-06T18:37:35.161+00:00",
    "firstSeenAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "workday:JR2009745",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "Software Engineering Intern, JAX - Fall 2026",
-   "location": "US, CA, Santa Clara",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": null,
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
    "dedupeKey": "workday:JR2017522",
@@ -1535,495 +1513,141 @@
    },
    "postedAt": "2026-07-10T22:11:41.000Z",
    "firstSeenAt": "2026-07-11T07:22:30.098Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:c368c0a9-db8e-455c-b06c-c18575c7b04d",
+   "source": "simplifyjobs",
+   "company": "Northslope Technologies",
+   "title": "Forward Deployed Software Engineer New Grad",
+   "location": "NYC",
+   "url": "https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e/application",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-13T22:11:28.000Z",
+   "firstSeenAt": "2026-07-14T07:23:54.148Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:38cca989-4499-494a-9df9-4b012d5d184a",
+   "source": "simplifyjobs",
+   "company": "WhatNot",
+   "title": "Software Engineer New Grad",
+   "location": "NYC",
+   "url": "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-13T22:12:27.000Z",
+   "firstSeenAt": "2026-07-14T07:23:54.148Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:053e56c0-3d9e-4d1c-83c7-b891671a652c",
+   "source": "simplifyjobs",
+   "company": "Hudson River Trading",
+   "title": "Algorithm Developer New Grad - Quant Researcher",
+   "location": "NYC",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052050",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-13T22:30:45.000Z",
+   "firstSeenAt": "2026-07-14T07:23:54.148Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:58e0500b-3577-4e69-9d43-b710f8155f10",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "Backend Compiler Engineer New Grad",
+   "location": "Canada; Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-13T00:00:00.000Z",
+   "firstSeenAt": "2026-07-14T07:23:54.148Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:94b5c207-eda9-41bc-b43a-082ff957f285",
+   "source": "simplifyjobs",
+   "company": "SambaNova Systems",
+   "title": "AI Systems Performance Engineer New Grad",
+   "location": "San Jose, CA",
+   "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6115124004",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-14T01:33:36.000Z",
+   "firstSeenAt": "2026-07-14T07:23:54.148Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e705fffd-6c2f-4555-b991-f5808e23542c",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "System Software Engineer New Grad - Dynamo-Triton Inference Server",
+   "location": "Remote in USA; Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Dynamo-Triton-Inference-Server---New-College-Grad-2026_JR2020767",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-13T00:00:00.000Z",
+   "firstSeenAt": "2026-07-14T07:23:54.148Z"
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:44f63b87-48fd-489b-9f6e-71d611ee69a1",
-   "company": "LetsGetChecked",
-   "title": "Graduate Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:3707d29b-8b77-4d90-b135-d57aab883be8",
-   "company": "Field AI",
-   "title": "Agentic AI/ML Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a55aca04-011d-41fa-949e-be14c4e3956f",
-   "company": "Stripe",
-   "title": "Software Engineer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:4e95327c-5c8e-4544-8222-30df7d7f2aac",
-   "company": "Anaplan",
-   "title": "Associate Backend Software Engineer - Python",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:9a822943-37d2-4499-806b-73a851f52143",
-   "company": "Tauck",
-   "title": "Associate Applied AI Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:545173b0-fc84-4b11-82c5-27fa643e1c0a",
-   "company": "Peraton",
-   "title": "Software Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:564176c6-4df9-4388-9981-5734c8cb5bff",
-   "company": "Leidos",
-   "title": "Junior Software Developer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:3269d503-bd18-4d81-adef-c0e31d44d822",
-   "company": "Sysco",
-   "title": "Associate Web Developer - NET",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:6780854f-d466-4761-a41b-c6932f23f1da",
-   "company": "Leidos",
-   "title": "Software Engineer/Developer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:4db085c5-fa06-4b71-9641-e578b6896eaa",
-   "company": "Northrop Grumman",
-   "title": "Algorithms Software Engineer - Level 2",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:3dbbea9a-ca63-4fa8-945f-abc2639bae1e",
-   "company": "Nokia",
-   "title": "Software Designer Co-op/Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:cdc18b7e-0c00-430b-9e72-ec96ba943281",
-   "company": "Nokia",
-   "title": "Software Designer Co-op/Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:60ff2402-2f73-4588-8aff-0f7c78e9654d",
-   "company": "Nokia",
-   "title": "Web Developer Co-op/Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:8362ad8d-1386-49b5-b768-0a87bbacd936",
-   "company": "Nokia",
-   "title": "Web Developer Co-op/Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:5c99289c-7083-430e-9511-14fa13015733",
-   "company": "Arine",
-   "title": "Full Stack Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:6198d30f-d48b-4179-b867-53db2b98abe5",
-   "company": "General Dynamics UK",
-   "title": "Software Developer Co-op",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:5a8f88cd-754a-4346-9ce0-61112aaec6f7",
-   "company": "Point C",
-   "title": "Data Science AI Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:065e5761-d574-4c20-a590-6fd396d58e47",
-   "company": "Bosch Home Comfort",
-   "title": "Business Intelligence Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7955594002",
-   "company": "Databricks",
-   "title": "Software Engineer (Backend - SDE 2)",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5991176004",
-   "company": "Figma",
-   "title": "Sales AI Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7839203",
-   "company": "Samsara",
-   "title": "Digital Innovation Co-Op – Supply Chain",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7792962",
-   "company": "Cloudflare",
-   "title": "Sales: Solutions Engineer - Intern (Summer & Fall 2026)",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7494666",
-   "company": "Pinterest",
-   "title": "Security Software Engineer II, Corporate Security",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8026401",
-   "company": "Reddit",
-   "title": "Machine Learning Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8026180",
-   "company": "Reddit",
-   "title": "Software Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7142298",
-   "company": "Roblox",
-   "title": "[2026] Applied Scientist - PhD Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8365469002",
-   "company": "SpaceX",
-   "title": "Software Engineer, High Performance Computing",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7589432",
-   "company": "Robinhood",
-   "title": "Software Engineer, Cloud Engineering",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7646452",
-   "company": "Datadog",
-   "title": "Software Engineer - Early Career",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "workday:JR2017298",
-   "company": "NVIDIA",
-   "title": "Machine Learning Intern - AI Agents Conversational AI",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "workday:JR2017296",
-   "company": "NVIDIA",
-   "title": "Machine Learning Intern - Multimodal Models Generative AI",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "workday:JR339835",
-   "company": "Salesforce",
-   "title": "Software Engineering Systems Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-06T09:15:24.162Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:3a60f010-c46b-4eab-ab24-a2a2b005aaac",
-   "company": "Toyota Research Institute",
-   "title": "Human-Centered AI Intern: Human-Computer Interaction",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8030859",
-   "company": "Stripe",
-   "title": "Backend Engineer, Financial Connections",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-04T20:13:25.659Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "greenhouse:6447175",
-   "company": "Stripe",
-   "title": "Full Stack Engineer, Link",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-04T20:13:25.659Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b83fcff9-df29-4439-aca5-949ce5666083",
-   "company": "Torc Robotics",
-   "title": "Software Engineer 1 - Device Drivers",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1ada89a0-c765-47f9-8ed0-e353250a765d",
-   "company": "TikTok",
-   "title": "Software Engineer Graduate",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:116bc6ae-af35-4ff4-949d-e4b39d7bcc18",
-   "company": "Beacon AI",
-   "title": "Frontend Web App Engineer - Frontend/Web App",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:7a48550f-880f-4468-a1d0-cc65112f8e97",
-   "company": "Charles Schwab",
-   "title": "Associate Software Developer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:5da46cba-0810-476d-9d77-0fd84ae3b2e5",
-   "company": "Northern Trust",
-   "title": "AI Engineer Associate",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:908e39ee-02d0-4835-8810-f81587f5e109",
-   "company": "Northrop Grumman",
-   "title": "Software Engineer - Level 1",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2d211cf5-7727-4985-9a34-6afd5a6ea8f9",
-   "company": "Citi",
-   "title": "Junior Applications Developer - Programmer Analyst",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:624a2b7b-51e9-4b7e-87d8-5e15ae69b867",
-   "company": "Eulerity",
-   "title": "Mobile iOS Developer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:6f53e7a8-a859-4111-972d-988f2d4b31e2",
-   "company": "Eulerity",
-   "title": "Android Developer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e18b5659-3658-49dd-a554-9ba2b49123a9",
-   "company": "Intel",
-   "title": "AI Software Engineering Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:25f06e2e-024c-40c2-84c6-7497e8bfdc89",
-   "company": "Metropolitan Transportation Authority",
-   "title": "Application Developer Analyst 1 - Power Apps",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:47dd2b92-bd50-4334-9faa-63cc77a303f4",
-   "company": "Field AI",
-   "title": "Field Application Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:438a49bd-1732-4815-b2b2-e048f205949f",
-   "company": "Intel",
-   "title": "AI Software Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f55f2414-48c5-4e3f-a969-c5e914e76320",
-   "company": "Illinois Tool Works",
-   "title": "Software Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:82bbe341-ce93-4a6a-a4f1-b0382f37cfc5",
-   "company": "Metropolitan Transportation Authority",
-   "title": "Application Developer 1 - Peoplesoft - Tcu",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b329a355-37a2-4a60-8ff5-bc9b42bf00c0",
-   "company": "1Password",
-   "title": "Developer Intern - Service Development",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f000f27d-73d5-4c3f-9e46-7aa5d75a235a",
-   "company": "Phamily",
-   "title": "Machine Learning Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:3ddc1130-8b7c-449d-ae26-330f7dd9334b",
-   "company": "Magna",
-   "title": "Computer Vision Engineering Co-op",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f828e5b4-9ccb-4b61-bb2c-d55a088b45f4",
-   "company": "Citadel",
-   "title": "Quantitative Trader Equities Quantitative Research Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-06T09:39:23.013Z",
-   "closedAt": "2026-07-07T04:28:41.886Z"
-  },
   {
    "dedupeKey": "simplifyjobs:222350e3-c087-4ab8-a4b2-1bd19798752f",
    "company": "hyperexponential",
@@ -28177,6 +27801,15 @@
    "roleType": "internship",
    "firstSeenAt": "2026-07-12T18:14:56.391Z",
    "closedAt": "2026-07-12T22:02:02.152Z"
+  },
+  {
+   "dedupeKey": "workday:JR2009745",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern, JAX - Fall 2026",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z",
+   "closedAt": "2026-07-14T07:23:54.148Z"
   }
  ]
 }

@@ -252,17 +252,16 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-66-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-1-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--13-informational)
+![open roles](https://img.shields.io/badge/open%20roles-71-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-7-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--14-informational)
 
-Updated **2026-07-13 18:53 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-07-14 07:23 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Hudson River Trading | Software Engineering Internship (C++ or Python) – Summer 2027 🆕 | Austin, TX, United States; Chicago, Illinois, United States; New York, NY, United States; Singapore | Summer 2027 | 100% (1 skills) | 2026-07-13 | 2026-07-13 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) |
 | NVIDIA | Performance Engineer Intern, Systems Software- Fall 2026 | US, MO, St. Louis | Fall 2026 | 100% | — | 2026-07-06 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779) |
-| Anduril | 2027 Early Career Software Engineer | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 New Grad | 100% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
+| Anduril | 2027 Early Career Software Engineer | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 New Grad | 100% (4 skills) | 2026-07-13 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
 | Notion | Software Engineer Intern (Fall 2026) | San Francisco, California | Fall 2026 | 100% (4 skills) | 2026-04-06 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
-| NVIDIA | Software Engineering Intern, JAX - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 100% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745) |
 | NVIDIA | PhD Software Engineering Intern, Decision Intelligence - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 100% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
 | NVIDIA | PhD Research Intern, System Software and I/O Architecture - Fall 2026 | 3 Locations | Fall 2026 | 100% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667) |
 | SpaceX | Fall 2026 Software Engineering Internship/Co-op | Flexible - Any SpaceX Site | Fall 2026 | 100% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002) |
@@ -270,6 +269,7 @@ Updated **2026-07-13 18:53 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Notion | Software Engineer, Early Career | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
 | Notion | Software Engineer, New Grad | San Francisco, California | — | 88% (5 skills) | 2026-04-23 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555) |
 | Notion | Software Engineer, New Grad (AI) | San Francisco, California | — | 86% (4 skills) | 2026-04-27 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9) |
+| NVIDIA | System Software Engineer New Grad - Dynamo-Triton Inference Server 🆕 | Remote in USA; Santa Clara, CA | — | 85% | 2026-07-13 | 2026-07-14 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Dynamo-Triton-Inference-Server---New-College-Grad-2026_JR2020767) |
 | Quora | Machine Learning Engineer New Grad | Remote in USA; Remote in Canada | — | 85% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/3eb7e80e-6a0d-41b6-8ee4-f62421c486e4/application) |
 | Palantir | Software Engineer, New Grad | New York, NY | — | 85% (3 skills) | 2021-07-01 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92) |
 | Palantir | Software Engineer, New Grad | Denver, CO | — | 85% (3 skills) | 2020-10-27 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29) |

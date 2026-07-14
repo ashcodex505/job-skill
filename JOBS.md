@@ -1,36 +1,42 @@
 # 🎯 Job Board — SWE Early Career
 
-**66 open roles** across **27 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-13 18:53 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**71 open roles** across **30 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-07-14 07:23 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (1)
+## 🆕 New this cycle (7)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| SambaNova Systems | AI Systems Performance Engineer New Grad 🆕 | San Jose, CA | — | 80% | 2026-07-14 | 2026-07-14 | [**Apply ➜**](https://sambanova.ai/sambanova-available-positions/?gh_jid=6115124004) |
+| Hudson River Trading | Algorithm Developer New Grad - Quant Researcher 🆕 | NYC | — | 80% | 2026-07-13 | 2026-07-14 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052050) |
+| WhatNot | Software Engineer New Grad 🆕 | NYC | — | 80% | 2026-07-13 | 2026-07-14 | [**Apply ➜**](https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application) |
+| Northslope Technologies | Forward Deployed Software Engineer New Grad 🆕 | NYC | — | 80% | 2026-07-13 | 2026-07-14 | [**Apply ➜**](https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e/application) |
 | Hudson River Trading | Software Engineering Internship (C++ or Python) – Summer 2027 🆕 | Austin, TX, United States; Chicago, Illinois, United States; New York, NY, United States; Singapore | Summer 2027 | 100% (1 skills) | 2026-07-13 | 2026-07-13 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) |
+| NVIDIA | System Software Engineer New Grad - Dynamo-Triton Inference Server 🆕 | Remote in USA; Santa Clara, CA | — | 85% | 2026-07-13 | 2026-07-14 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Dynamo-Triton-Inference-Server---New-College-Grad-2026_JR2020767) |
+| NVIDIA | Backend Compiler Engineer New Grad 🆕 | Canada; Santa Clara, CA | — | 80% | 2026-07-13 | 2026-07-14 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242) |
 
-## 🛠️ Internships (7)
+## 🛠️ Internships (6)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Hudson River Trading | Software Engineering Internship (C++ or Python) – Summer 2027 🆕 | Austin, TX, United States; Chicago, Illinois, United States; New York, NY, United States; Singapore | Summer 2027 | 100% (1 skills) | 2026-07-13 | 2026-07-13 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) |
 | NVIDIA | Performance Engineer Intern, Systems Software- Fall 2026 | US, MO, St. Louis | Fall 2026 | 100% | — | 2026-07-06 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779) |
 | Notion | Software Engineer Intern (Fall 2026) | San Francisco, California | Fall 2026 | 100% (4 skills) | 2026-04-06 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
-| NVIDIA | Software Engineering Intern, JAX - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 100% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745) |
 | NVIDIA | PhD Software Engineering Intern, Decision Intelligence - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 100% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
 | NVIDIA | PhD Research Intern, System Software and I/O Architecture - Fall 2026 | 3 Locations | Fall 2026 | 100% | — | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667) |
 | SpaceX | Fall 2026 Software Engineering Internship/Co-op | Flexible - Any SpaceX Site | Fall 2026 | 100% (4 skills) | 2026-07-09 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002) |
 
-## 🎓 New Grad (59)
+## 🎓 New Grad (65)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Anduril | 2027 Early Career Software Engineer | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 New Grad | 100% (4 skills) | 2026-07-07 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
+| Anduril | 2027 Early Career Software Engineer | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 New Grad | 100% (4 skills) | 2026-07-13 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
 | Notion | Software Engineer, Early Career (AI) | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
 | Notion | Software Engineer, Early Career | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
 | Notion | Software Engineer, New Grad | San Francisco, California | — | 88% (5 skills) | 2026-04-23 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555) |
 | Notion | Software Engineer, New Grad (AI) | San Francisco, California | — | 86% (4 skills) | 2026-04-27 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9) |
+| NVIDIA | System Software Engineer New Grad - Dynamo-Triton Inference Server 🆕 | Remote in USA; Santa Clara, CA | — | 85% | 2026-07-13 | 2026-07-14 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Dynamo-Triton-Inference-Server---New-College-Grad-2026_JR2020767) |
 | Quora | Machine Learning Engineer New Grad | Remote in USA; Remote in Canada | — | 85% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/3eb7e80e-6a0d-41b6-8ee4-f62421c486e4/application) |
 | Palantir | Software Engineer, New Grad | New York, NY | — | 85% (3 skills) | 2021-07-01 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92) |
 | Palantir | Software Engineer, New Grad | Denver, CO | — | 85% (3 skills) | 2020-10-27 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29) |
@@ -43,6 +49,11 @@ Last updated: **2026-07-13 18:53 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Stripe | Software Engineer, New Grad, Developer & End User Experience Platform | Toronto | — | 83% (2 skills) | 2026-06-26 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991718) |
+| Hudson River Trading | Algorithm Developer New Grad - Quant Researcher 🆕 | NYC | — | 80% | 2026-07-13 | 2026-07-14 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052050) |
+| Northslope Technologies | Forward Deployed Software Engineer New Grad 🆕 | NYC | — | 80% | 2026-07-13 | 2026-07-14 | [**Apply ➜**](https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e/application) |
+| NVIDIA | Backend Compiler Engineer New Grad 🆕 | Canada; Santa Clara, CA | — | 80% | 2026-07-13 | 2026-07-14 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242) |
+| SambaNova Systems | AI Systems Performance Engineer New Grad 🆕 | San Jose, CA | — | 80% | 2026-07-14 | 2026-07-14 | [**Apply ➜**](https://sambanova.ai/sambanova-available-positions/?gh_jid=6115124004) |
+| WhatNot | Software Engineer New Grad 🆕 | NYC | — | 80% | 2026-07-13 | 2026-07-14 | [**Apply ➜**](https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application) |
 | Kustomer | Software Engineer – Early Career - Full Stack | NYC | — | 80% | 2026-07-10 | 2026-07-11 | [**Apply ➜**](https://jobs.ashbyhq.com/kustomer/4037272a-7fd3-4040-906b-47fde875a817/application) |
 | Cadence Design Systems | Software Engineer New Grad - Undergrads | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-3) |
 | Pylon | Software Engineer New Grad | SF | — | 80% | 2026-07-09 | 2026-07-10 | [**Apply ➜**](https://jobs.ashbyhq.com/pylon-labs/38814ce7-217b-40f2-9ba5-8a7733a5691d/application) |
@@ -86,12 +97,13 @@ Last updated: **2026-07-13 18:53 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (2960)
+## 🚪 Recently closed (last 7 days) (2907)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| NVIDIA | Software Engineering Intern, JAX - Fall 2026 | Fall 2026 | 2026-07-14 |
 | Stripe | AI Engineer | — | 2026-07-12 |
 | Stripe | Backend / API Engineer, Billing | — | 2026-07-12 |
 | Stripe | Backend/API Engineer, Money as a Service | — | 2026-07-12 |
@@ -2998,60 +3010,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Lyft | Software Engineer (Backend), Growth Platforms | — | 2026-07-07 |
 | Salesforce | Software Engineering SMTS- LLM Model building | — | 2026-07-07 |
 | Cloudforce | AI Agent Builder Intern | — | 2026-07-07 |
-| Stripe | Backend Engineer, Financial Connections | — | 2026-07-07 |
-| Stripe | Full Stack Engineer, Link | — | 2026-07-07 |
-| Torc Robotics | Software Engineer 1 - Device Drivers | — | 2026-07-07 |
-| TikTok | Software Engineer Graduate | — | 2026-07-07 |
-| Beacon AI | Frontend Web App Engineer - Frontend/Web App | — | 2026-07-07 |
-| Charles Schwab | Associate Software Developer | — | 2026-07-07 |
-| Northern Trust | AI Engineer Associate | — | 2026-07-07 |
-| Northrop Grumman | Software Engineer - Level 1 | — | 2026-07-07 |
-| Citi | Junior Applications Developer - Programmer Analyst | — | 2026-07-07 |
-| Eulerity | Mobile iOS Developer Intern | — | 2026-07-07 |
-| Eulerity | Android Developer Intern | — | 2026-07-07 |
-| Intel | AI Software Engineering Intern | — | 2026-07-07 |
-| Metropolitan Transportation Authority | Application Developer Analyst 1 - Power Apps | — | 2026-07-07 |
-| Field AI | Field Application Engineer Intern | — | 2026-07-07 |
-| Intel | AI Software Engineer Intern | — | 2026-07-07 |
-| Illinois Tool Works | Software Engineer Intern | — | 2026-07-07 |
-| Metropolitan Transportation Authority | Application Developer 1 - Peoplesoft - Tcu | — | 2026-07-07 |
-| 1Password | Developer Intern - Service Development | — | 2026-07-07 |
-| Phamily | Machine Learning Intern | — | 2026-07-07 |
-| Magna | Computer Vision Engineering Co-op | — | 2026-07-07 |
-| Citadel | Quantitative Trader Equities Quantitative Research Intern | — | 2026-07-07 |
-| LetsGetChecked | Graduate Software Engineer | — | 2026-07-06 |
-| Field AI | Agentic AI/ML Engineer | — | 2026-07-06 |
-| Stripe | Software Engineer New Grad | — | 2026-07-06 |
-| Anaplan | Associate Backend Software Engineer - Python | — | 2026-07-06 |
-| Tauck | Associate Applied AI Engineer | — | 2026-07-06 |
-| Peraton | Software Engineer | — | 2026-07-06 |
-| Leidos | Junior Software Developer | — | 2026-07-06 |
-| Sysco | Associate Web Developer - NET | — | 2026-07-06 |
-| Leidos | Software Engineer/Developer | — | 2026-07-06 |
-| Northrop Grumman | Algorithms Software Engineer - Level 2 | — | 2026-07-06 |
-| Nokia | Software Designer Co-op/Intern | — | 2026-07-06 |
-| Nokia | Software Designer Co-op/Intern | — | 2026-07-06 |
-| Nokia | Web Developer Co-op/Intern | — | 2026-07-06 |
-| Nokia | Web Developer Co-op/Intern | — | 2026-07-06 |
-| Arine | Full Stack Engineer Intern | — | 2026-07-06 |
-| General Dynamics UK | Software Developer Co-op | — | 2026-07-06 |
-| Point C | Data Science AI Intern | — | 2026-07-06 |
-| Bosch Home Comfort | Business Intelligence Intern | — | 2026-07-06 |
-| Databricks | Software Engineer (Backend - SDE 2) | — | 2026-07-06 |
-| Figma | Sales AI Engineer | — | 2026-07-06 |
-| Samsara | Digital Innovation Co-Op – Supply Chain | — | 2026-07-06 |
-| Cloudflare | Sales: Solutions Engineer - Intern (Summer & Fall 2026) | Fall 2026 | 2026-07-06 |
-| Pinterest | Security Software Engineer II, Corporate Security | — | 2026-07-06 |
-| Reddit | Machine Learning Engineer | — | 2026-07-06 |
-| Reddit | Software Engineer | — | 2026-07-06 |
-| Roblox | [2026] Applied Scientist - PhD Intern | — | 2026-07-06 |
-| SpaceX | Software Engineer, High Performance Computing | — | 2026-07-06 |
-| Robinhood | Software Engineer, Cloud Engineering | — | 2026-07-06 |
-| Datadog | Software Engineer - Early Career | — | 2026-07-06 |
-| NVIDIA | Machine Learning Intern - AI Agents Conversational AI | — | 2026-07-06 |
-| NVIDIA | Machine Learning Intern - Multimodal Models Generative AI | — | 2026-07-06 |
-| Salesforce | Software Engineering Systems Engineer | — | 2026-07-06 |
-| Toyota Research Institute | Human-Centered AI Intern: Human-Computer Interaction | — | 2026-07-06 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) and SimplifyJobs Summer Internships._
