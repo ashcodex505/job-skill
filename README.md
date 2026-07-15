@@ -252,12 +252,16 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-106-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-44-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--15-informational)
+![open roles](https://img.shields.io/badge/open%20roles-115-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-53-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--15-informational)
 
-Updated **2026-07-15 08:30 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-07-15 08:33 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Anduril | 2027 Early Career Software Engineer 🆕 | Atlanta, GA +5 | 2027 New Grad | 100% | 2026-06-13 | 2026-07-15 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
+| Hudson River Trading | Software Engineering Internship - C++ or Python - Summer 2027 🆕 | London, United Kingdom +4 | Summer 2027 | 100% (1 skills) | 2026-07-15 | 2026-07-15 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) |
+| Notion | Software Engineer Intern - Fall 2026 🆕 | San Francisco, CA | Fall 2026 | 100% | 2026-04-08 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
+| SpaceX | Fall 2026 Software Engineering Internship/Co-op 🆕 | Bastrop, TX +7 | Fall 2026 | 100% | 2026-03-18 | 2026-07-15 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002) |
 | Astranis Space Technologies | Software Engineer- Backend Intern - Fall 2026 🆕 | San Francisco, CA | Fall 2026 | 100% | 2026-05-15 | 2026-07-15 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
 | Cloudflare | Software Engineer Intern (Fall 2026) - Austin, TX 🆕 | In-Office | Fall 2026 | 100% (3 skills) | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) |
 | Gemini | Software Engineering Intern - Fall 2026 🆕 | USA +1 | Fall 2026 | 100% | 2026-05-03 | 2026-07-15 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125) |
@@ -274,8 +278,4 @@ Updated **2026-07-15 08:30 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Saronic Technologies | Software Engineer Intern - Fall 2026 🆕 | Austin, TX | Fall 2026 | 100% | 2026-05-20 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7) |
 | Skydio | Software Engineer Intern Fall 2026/Winter 2027 🆕 | San Mateo, CA | Fall 2026 | 100% | 2026-05-07 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee) |
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 🆕 | Peachtree Corners, GA | Fall 2026 | 100% | 2026-06-18 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
-| Synchrony Bank | Software Engineer Intern - Fall 2026 🆕 | Remote - Guangzhou, China +1 | Fall 2026 | 100% | 2026-06-18 | 2026-07-15 | [**Apply ➜**](https://synchronyfinancial.wd5.myworkdayjobs.com/en-US/university/job/Canton-Engagement-Hub-OH/Software-Engineer-Intern---Fall-2026_2601751-1) |
-| Vital Lyfe | Software Engineering Internship - Fall 2026 🆕 | Los Angeles, CA | Fall 2026 | 100% | 2026-07-11 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af) |
-| Zipline | Software Engineer Intern - Fall 2026 🆕 | South San Francisco, CA | Fall 2026 | 100% | 2026-06-28 | 2026-07-15 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7787509003) |
-| Zipline | Enterprise Systems Software Engineer Intern - Fall 2026 🆕 | South San Francisco, CA | Fall 2026 | 100% | 2026-06-11 | 2026-07-15 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7767667003) |
 <!-- JOB-BOARD:END -->
