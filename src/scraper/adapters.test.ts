@@ -209,3 +209,50 @@ describe("greenhouse adapter (shape guard)", () => {
     });
   });
 });
+
+describe("speedyapply markdown parsing", () => {
+  const row = (company: string, title: string, age: string) =>
+    `| <a href="https://www.example.com"><strong>${company}</strong></a> | ${title} | St. Louis, MO | $62/hr | <a href="https://example.com/apply/${company}"><img src="https://i.imgur.com/x.png" alt="Apply" width="70"/></a> | ${age} |`;
+
+  it("parses table rows into RawJobs with date-only postedAt", async () => {
+    const { parseSpeedyApplyMarkdown } = await import("./adapters");
+    const now = new Date("2026-07-12T12:00:00.000Z");
+    const md = ["| Company | Position | Location | Salary | Posting | Age |", "|---|---|---|---|---|---|", row("NVIDIA", "Performance Engineer Intern - Fall 2026", "8d"), row("Rivian", "Software Engineering Intern", "3h")].join("\n");
+    const jobs = parseSpeedyApplyMarkdown(md, now);
+    expect(jobs).toHaveLength(2);
+    expect(jobs[0]).toMatchObject({
+      source: "speedyapply",
+      company: "NVIDIA",
+      title: "Performance Engineer Intern - Fall 2026",
+      location: "St. Louis, MO",
+      url: "https://example.com/apply/NVIDIA",
+      postedAt: "2026-07-04", // 8 days before now, date precision only
+    });
+    expect(jobs[1].postedAt).toBe("2026-07-12");
+    // Date-only means the alert renderer will label it "time unavailable"
+    // instead of inventing a clock time.
+    expect(jobs[0].postedAt).not.toContain("T");
+  });
+
+  it("ignores non-row lines and malformed rows", async () => {
+    const { parseSpeedyApplyMarkdown } = await import("./adapters");
+    const md = ["# Heading", "| Company | Position |", "|---|---|", "| plain | row |", "", "not a table"].join("\n");
+    expect(parseSpeedyApplyMarkdown(md)).toHaveLength(0);
+  });
+});
+
+describe("speedyapply new-grad table shape (no salary column)", () => {
+  it("parses 5-column rows too", async () => {
+    const { parseSpeedyApplyMarkdown } = await import("./adapters");
+    const md =
+      '| <a href="https://www.northslopetech.com/"><strong>Northslope</strong></a> | Forward Deployed Software Engineer - New Grad | New York City, NY | <a href="https://jobs.ashbyhq.com/northslope/80b82167"><img src="https://i.imgur.com/x.png" alt="Apply" width="70"/></a> | 12d |';
+    const jobs = parseSpeedyApplyMarkdown(md, new Date("2026-07-12T12:00:00.000Z"));
+    expect(jobs).toHaveLength(1);
+    expect(jobs[0]).toMatchObject({
+      company: "Northslope",
+      title: "Forward Deployed Software Engineer - New Grad",
+      url: "https://jobs.ashbyhq.com/northslope/80b82167",
+      postedAt: "2026-06-30",
+    });
+  });
+});

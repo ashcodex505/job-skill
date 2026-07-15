@@ -1,4 +1,5 @@
 import type { ScoreBreakdown } from "./classify";
+import { FEED_SOURCES } from "./normalize";
 import type { NormalizedJob } from "./normalize";
 
 /**
@@ -59,7 +60,24 @@ const CLOSED_RETENTION_MS = 7 * 24 * 60 * 60 * 1000;
  * whole-feed sources (simplifyjobs) are owned by the *feed*, not the company:
  * they only close when their source was scanned, regardless of company.
  */
-export const FEED_SOURCES = new Set(["simplifyjobs"]);
+export { FEED_SOURCES };
+
+/**
+ * A job cannot have been posted after we first observed it. Some providers
+ * (notably Greenhouse) expose `updated_at` rather than a true posted date, so
+ * the value drifts forward whenever the employer edits the posting. Keep the
+ * earliest provider date ever seen, clamped to first-seen.
+ */
+export function resolvePostedAt(
+  previous: string | null | undefined,
+  scraped: string | null | undefined,
+  firstSeenAt: string,
+): string | null {
+  const candidates = [previous, scraped].filter((v): v is string => Boolean(v && Number.isFinite(new Date(v).getTime())));
+  if (candidates.length === 0) return null;
+  const earliest = candidates.reduce((a, b) => (new Date(a).getTime() <= new Date(b).getTime() ? a : b));
+  return new Date(earliest).getTime() > new Date(firstSeenAt).getTime() ? firstSeenAt : earliest;
+}
 
 export function mergeBoard(
   previous: BoardData | null,
@@ -81,22 +99,25 @@ export function mergeBoard(
   const closedByKey = new Map(prevClosed.map((c) => [c.dedupeKey, c]));
   const scrapedKeys = new Set(scraped.map((j) => j.dedupeKey));
 
-  const jobs: BoardJob[] = scraped.map((j) => ({
-    dedupeKey: j.dedupeKey,
-    source: j.source,
-    company: j.company,
-    title: j.title,
-    location: j.location,
-    url: j.url,
-    season: j.season,
-    roleType: j.roleType,
-    score: j.score,
-    matchedSkills: j.matchedSkills,
-    breakdown: j.breakdown,
-    postedAt: j.postedAt,
+  const jobs: BoardJob[] = scraped.map((j) => {
     // Reopened jobs recover their original firstSeenAt from the closed list.
-    firstSeenAt: prevByKey.get(j.dedupeKey)?.firstSeenAt ?? closedByKey.get(j.dedupeKey)?.firstSeenAt ?? now,
-  }));
+    const firstSeenAt = prevByKey.get(j.dedupeKey)?.firstSeenAt ?? closedByKey.get(j.dedupeKey)?.firstSeenAt ?? now;
+    return {
+      dedupeKey: j.dedupeKey,
+      source: j.source,
+      company: j.company,
+      title: j.title,
+      location: j.location,
+      url: j.url,
+      season: j.season,
+      roleType: j.roleType,
+      score: j.score,
+      matchedSkills: j.matchedSkills,
+      breakdown: j.breakdown,
+      postedAt: resolvePostedAt(prevByKey.get(j.dedupeKey)?.postedAt, j.postedAt, firstSeenAt),
+      firstSeenAt,
+    };
+  });
 
   const newlyClosed: ClosedJob[] = [];
   for (const j of prevActive) {

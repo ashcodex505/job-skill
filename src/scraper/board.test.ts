@@ -164,3 +164,34 @@ describe("updateReadme", () => {
     expect(v2.split(README_END)).toHaveLength(2); // exactly one section
   });
 });
+
+describe("resolvePostedAt / posted-vs-first-seen consistency", () => {
+  it("never lets postedAt drift after firstSeenAt across merges", async () => {
+    const { resolvePostedAt } = await import("./board");
+    // Greenhouse updated_at bumped AFTER we first saw the job.
+    expect(resolvePostedAt("2026-06-01T00:00:00.000Z", "2026-07-10T09:00:00.000Z", "2026-06-01T08:00:00.000Z")).toBe(
+      "2026-06-01T00:00:00.000Z",
+    );
+    // Fresh provider date later than first-seen with no previous value: clamp.
+    expect(resolvePostedAt(null, "2026-07-10T09:00:00.000Z", "2026-06-01T08:00:00.000Z")).toBe(
+      "2026-06-01T08:00:00.000Z",
+    );
+    // Normal case passes through untouched.
+    expect(resolvePostedAt(null, "2026-05-30", "2026-06-01T08:00:00.000Z")).toBe("2026-05-30");
+    // Garbage / missing dates.
+    expect(resolvePostedAt(null, null, "2026-06-01T08:00:00.000Z")).toBeNull();
+    expect(resolvePostedAt("not-a-date", null, "2026-06-01T08:00:00.000Z")).toBeNull();
+  });
+
+  it("mergeBoard keeps the earliest posted date for a persisting job", () => {
+    const first = mergeBoard(null, [job({ postedAt: "2026-06-01T00:00:00.000Z" })], "2026-06-02T00:00:00.000Z");
+    // Next scrape: provider bumped its date forward two weeks.
+    const second = mergeBoard(first, [job({ postedAt: "2026-06-15T00:00:00.000Z" })], "2026-06-16T00:00:00.000Z");
+    expect(second.jobs[0].postedAt).toBe("2026-06-01T00:00:00.000Z");
+    expect(second.jobs[0].firstSeenAt).toBe("2026-06-02T00:00:00.000Z");
+    // Invariant the user relies on: posted is never after first seen.
+    expect(new Date(second.jobs[0].postedAt!).getTime()).toBeLessThanOrEqual(
+      new Date(second.jobs[0].firstSeenAt).getTime(),
+    );
+  });
+});

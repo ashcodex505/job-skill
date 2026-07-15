@@ -1,8 +1,9 @@
-import { eq, inArray, ne, notInArray, and } from "drizzle-orm";
+import { eq, inArray, notInArray, and } from "drizzle-orm";
 import { db, newId, now, tables } from "@/db";
 import { loadCareerConfig } from "@/lib/career/config";
-import { ADAPTERS, scrapeSimplifyFeeds, sleep } from "./adapters";
-import { dedupeJobs, normalizeJob, type NormalizedJob } from "./normalize";
+import { ADAPTERS, scrapeSimplifyFeeds, scrapeSpeedyApplyFeeds, sleep } from "./adapters";
+import { resolvePostedAt } from "./board";
+import { dedupeJobs, FEED_SOURCES, normalizeJob, type NormalizedJob } from "./normalize";
 import { COMPANY_PORTALS, type CompanyPortal } from "./registry";
 
 const COMPANY_DELAY_MS = 400; // polite gap between companies
@@ -87,16 +88,22 @@ export async function runScraper(
   }
 
   if (includeFeed) {
-    try {
-      const raw = await scrapeSimplifyFeeds();
-      const normalized = raw.map((job) => normalizeJob(job, careerConfig)).filter((j): j is NormalizedJob => j !== null);
-      allJobs.push(...normalized);
-      scannedSources.push("simplifyjobs");
-      console.log(`  SimplifyJobs feed: ${raw.length} recent listings, ${normalized.length} relevant`);
-    } catch (err) {
-      const message = err instanceof Error ? err.message : String(err);
-      errors.push({ company: "SimplifyJobs feed", message });
-      console.warn(`  SimplifyJobs feed: FAILED — ${message}`);
+    const feeds = [
+      { name: "SimplifyJobs feed", source: "simplifyjobs", scrape: scrapeSimplifyFeeds },
+      { name: "speedyapply feed", source: "speedyapply", scrape: scrapeSpeedyApplyFeeds },
+    ] as const;
+    for (const feed of feeds) {
+      try {
+        const raw = await feed.scrape();
+        const normalized = raw.map((job) => normalizeJob(job, careerConfig)).filter((j): j is NormalizedJob => j !== null);
+        allJobs.push(...normalized);
+        scannedSources.push(feed.source);
+        console.log(`  ${feed.name}: ${raw.length} recent listings, ${normalized.length} relevant`);
+      } catch (err) {
+        const message = err instanceof Error ? err.message : String(err);
+        errors.push({ company: feed.name, message });
+        console.warn(`  ${feed.name}: FAILED — ${message}`);
+      }
     }
   }
 
@@ -121,6 +128,9 @@ export async function runScraper(
           matchedSkills: JSON.stringify(job.matchedSkills),
           scoreBreakdown: JSON.stringify(job.breakdown),
           description: job.descriptionText,
+          // Keep the earliest provider posted date, never after first-seen —
+          // Greenhouse-style updated_at drift must not push "posted" forward.
+          postedAt: resolvePostedAt(existing.postedAt, job.postedAt, existing.firstSeenAt),
           lastSeenAt: timestamp,
           active: true,
         })
@@ -143,7 +153,7 @@ export async function runScraper(
         matchedSkills: JSON.stringify(job.matchedSkills),
         scoreBreakdown: JSON.stringify(job.breakdown),
         description: job.descriptionText,
-        postedAt: job.postedAt,
+        postedAt: resolvePostedAt(null, job.postedAt, timestamp),
         firstSeenAt: timestamp,
         lastSeenAt: timestamp,
         active: true,
@@ -163,16 +173,16 @@ export async function runScraper(
       .where(
         and(
           inArray(tables.discoveredJobs.company, scannedCompanies),
-          ne(tables.discoveredJobs.source, "simplifyjobs"),
+          notInArray(tables.discoveredJobs.source, [...FEED_SOURCES]),
           unseen,
         ),
       );
   }
-  if (scannedSources.includes("simplifyjobs")) {
+  for (const source of scannedSources) {
     await db
       .update(tables.discoveredJobs)
       .set({ active: false })
-      .where(and(eq(tables.discoveredJobs.source, "simplifyjobs"), unseen));
+      .where(and(eq(tables.discoveredJobs.source, source), unseen));
   }
 
   await db

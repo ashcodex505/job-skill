@@ -2,8 +2,11 @@ import { createHash } from "node:crypto";
 import { skillMatch, stripHtml, type CareerConfig } from "@/lib/career/config";
 import { classifyTitle, type Classification, type ScoreBreakdown } from "./classify";
 
+/** Whole-feed community sources (vs per-company ATS adapters). */
+export const FEED_SOURCES = new Set(["simplifyjobs", "speedyapply"]);
+
 export interface RawJob {
-  source: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "simplifyjobs";
+  source: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "simplifyjobs" | "speedyapply";
   sourceId: string | null;
   company: string;
   title: string;
@@ -151,9 +154,10 @@ export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new
 
 /**
  * Removes intra-batch duplicates: same dedupeKey (same provider job seen
- * twice), then same exact URL across sources — the SimplifyJobs feed often
- * lists postings our company adapters also fetch; the adapter copy wins
- * (it carries descriptions/skill matches).
+ * twice), then same exact URL across sources — the community feeds
+ * (SimplifyJobs, speedyapply) often list postings our company adapters also
+ * fetch; the adapter copy wins (it carries descriptions/skill matches), and
+ * between two feeds the earlier-processed one wins deterministically.
  */
 export function dedupeJobs(jobs: NormalizedJob[]): NormalizedJob[] {
   const byKey = new Map<string, NormalizedJob>();
@@ -165,7 +169,7 @@ export function dedupeJobs(jobs: NormalizedJob[]): NormalizedJob[] {
   for (const job of byKey.values()) {
     const url = job.url.replace(/\/+$/, "");
     const existing = byUrl.get(url);
-    if (!existing || (existing.source === "simplifyjobs" && job.source !== "simplifyjobs")) {
+    if (!existing || (FEED_SOURCES.has(existing.source) && !FEED_SOURCES.has(job.source))) {
       byUrl.set(url, job);
     }
   }

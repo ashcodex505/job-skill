@@ -3,6 +3,7 @@ import path from "node:path";
 import { migrate } from "drizzle-orm/libsql/migrator";
 import { db } from "@/db";
 import { matchWatches, parseWatchlist } from "@/lib/career/watchlist";
+import { selectBigTechAlerts } from "./big-tech-alert";
 import { closeJobs, mergeBoard, renderJobsMarkdown, updateReadme, type BoardData, type BoardJob } from "./board";
 import { renderNewJobsAlertTable } from "./job-alert";
 import { COMPANY_PORTALS } from "./registry";
@@ -162,6 +163,19 @@ async function main() {
     const urgentTable = renderNewJobsAlertTable(urgent, now);
     writeIfEnv("BOARD_URGENT_FILE", `${urgentTable}\n`, false);
   }
+
+  // Big-tech/unicorn stream: separate high-signal issue, never double-firing
+  // for jobs the watchlist already alerted on.
+  const bigTech = selectBigTechAlerts(newJobs, urgent);
+  const bigTechTitle =
+    bigTech.length === 1
+      ? `${bigTech[0].company} — ${bigTech[0].title}`.replace(/[\r\n]/g, " ").slice(0, 150)
+      : `${bigTech.length} new big-tech roles`;
+  if (bigTech.length > 0) {
+    console.log(`⭐ Big tech: ${bigTech.map((j) => `${j.company} — ${j.title}`).join(" | ")}`);
+    writeIfEnv("BOARD_BIGTECH_FILE", `${renderNewJobsAlertTable(bigTech, now)}\n`, false);
+  }
+  writeIfEnv("GITHUB_OUTPUT", `bigtech_count=${bigTech.length}\nbigtech_title=${bigTechTitle}\n`, true);
 
   // Sanity check the marker invariant before letting CI commit the result.
   const readme = fs.readFileSync(README_MD, "utf8");

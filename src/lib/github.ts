@@ -61,21 +61,16 @@ async function apiCall(token: string, method: string, path: string, body?: unkno
 }
 
 /**
- * Align watch.yml with the watchlist. With watches: enable and dispatch an
- * immediate scan (a disabled workflow ignores push triggers, so the app must
- * both re-enable and kick the first run). Without: disable, so the hourly
- * schedule stops entirely.
+ * Keep watch.yml enabled and kick an immediate scan when a watch is added.
+ * The hourly workflow is never disabled anymore — even with an empty
+ * watchlist it powers the big-tech/unicorn alert stream.
  */
 export async function syncWatchWorkflow(hasWatches: boolean): Promise<string | null> {
   try {
     const { token, repo } = await auth();
     const wf = `/repos/${repo}/actions/workflows/watch.yml`;
-    if (hasWatches) {
-      await apiCall(token, "PUT", `${wf}/enable`);
-      await apiCall(token, "POST", `${wf}/dispatches`, { ref: "main" });
-      return null;
-    }
-    await apiCall(token, "PUT", `${wf}/disable`);
+    await apiCall(token, "PUT", `${wf}/enable`);
+    if (hasWatches) await apiCall(token, "POST", `${wf}/dispatches`, { ref: "main" });
     return null;
   } catch (err) {
     const detail = err instanceof Error ? err.message : String(err);

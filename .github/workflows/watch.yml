@@ -1,8 +1,10 @@
-# Hourly watchlist run: scrapes ONLY watchlisted supported companies plus the
-# SimplifyJobs community feed (which covers unsupported portals like Google/
-# Amazon), merges into the committed board without touching other companies,
-# and raises an URGENT issue for new watchlist matches. Much lighter than the
-# 12h full run in job-board.yml.
+# Hourly scan: scrapes watchlisted supported companies plus the community
+# feeds (SimplifyJobs + speedyapply — which cover anti-bot portals like
+# Google/Amazon), merges into the committed board, and raises:
+#   - an URGENT issue for new watchlist matches
+#   - a ⭐ big-tech issue for new big-tech/unicorn intern & new-grad roles
+#     (quant firms and banks excluded — see src/scraper/big-tech-alert.ts)
+# Runs even with an empty watchlist so big-tech alerts always fire.
 name: Watchlist
 
 on:
@@ -16,42 +18,13 @@ on:
 permissions:
   contents: write
   issues: write
-  actions: write # lets the guard disable this workflow while the watchlist is empty
 
 concurrency:
   group: job-board # shares the group with the full run so they never race
   cancel-in-progress: false
 
 jobs:
-  # Cheap gate (~10s): with an empty watchlist there is nothing to alert on,
-  # so the scan is skipped entirely. The 12h job-board run keeps the board
-  # fresh either way.
-  guard:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    outputs:
-      has_watches: ${{ steps.count.outputs.has_watches }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          sparse-checkout: career
-      - id: count
-        run: |
-          n=$(sed -n '/^## Watches/,$p' career/watchlist.md 2>/dev/null | grep -c '^- ' || true)
-          echo "Watches found: $n"
-          echo "has_watches=$([ "$n" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
-      # Empty watchlist → stop the hourly schedule entirely (no more runs in
-      # the Actions list). The app re-enables + dispatches when a watch is
-      # added; the 12h job-board run re-syncs as a backstop.
-      - name: Disable self while watchlist is empty
-        if: steps.count.outputs.has_watches == 'false'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow disable watch.yml -R ${{ github.repository }} && echo "watch.yml disabled — add a watch in the dashboard to resume"
-
   watch:
-    needs: guard
-    if: needs.guard.outputs.has_watches == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -68,6 +41,7 @@ jobs:
           DATABASE_PATH: /tmp/scrape.db
           BOARD_NEW_JOBS_FILE: ${{ runner.temp }}/new-jobs.md
           BOARD_URGENT_FILE: ${{ runner.temp }}/urgent.md
+          BOARD_BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
       - name: Commit board updates
         run: |
           git config user.name "github-actions[bot]"
@@ -95,3 +69,16 @@ jobs:
             --title "🚨 URGENT: ${{ steps.board.outputs.urgent_title }}" \
             --label urgent \
             --body-file /tmp/urgent-body.md
+      - name: Big-tech alert
+        if: steps.board.outputs.bigtech_count != '' && steps.board.outputs.bigtech_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
+        run: |
+          [ -s "$BIGTECH_FILE" ] || exit 0
+          gh label create big-tech --color 0E8A16 --description "New big-tech/unicorn intern or new-grad role" 2>/dev/null || true
+          { echo "cc @${{ github.repository_owner }} — new big-tech/unicorn early-career roles (quant/banking excluded)."; echo; cat "$BIGTECH_FILE"; } > /tmp/bigtech-body.md
+          gh issue create \
+            --title "⭐ Big tech: ${{ steps.board.outputs.bigtech_title }}" \
+            --label big-tech \
+            --body-file /tmp/bigtech-body.md

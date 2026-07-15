@@ -292,6 +292,71 @@ export async function scrapeSimplifyFeeds(now: Date = new Date()): Promise<RawJo
   return jobs;
 }
 
+// ── speedyapply community boards (MIT-licensed markdown tables) ───────
+/**
+ * speedyapply/2027-SWE-College-Jobs publishes no JSON, only generated
+ * markdown tables:
+ *   | <a href="site"><strong>Company</strong></a> | Title | Location |
+ *   | Salary | <a href="applyUrl">…</a> | 8d |
+ * The trailing "Age" column is day-precision, so postedAt is emitted as a
+ * date-only string — the alert renderer already labels those
+ * "time unavailable" instead of faking a clock time.
+ */
+const SPEEDYAPPLY_FILES = [
+  { path: "README.md" }, // 2027 USA internships
+  { path: "NEW_GRAD_USA.md" },
+];
+const SPEEDYAPPLY_REPO = "speedyapply/2027-SWE-College-Jobs";
+
+// Intern tables have a Salary column, new-grad tables don't — the cell
+// between Location and the Posting link is optional ([^|<]* keeps it from
+// swallowing the <a> of the Posting cell).
+const SPEEDY_ROW =
+  /^\|\s*<a href="[^"]*"><strong>([^<]+)<\/strong><\/a>\s*\|\s*([^|]+?)\s*\|\s*([^|]*?)\s*\|(?:\s*[^|<]*\|)?\s*<a href="([^"]+)"[^|]*\|\s*(\d+)(d|h|mo)\s*\|/;
+
+export function parseSpeedyApplyMarkdown(markdown: string, now: Date = new Date()): RawJob[] {
+  const jobs: RawJob[] = [];
+  for (const line of markdown.split("\n")) {
+    const m = line.match(SPEEDY_ROW);
+    if (!m) continue;
+    const [, company, title, location, url, ageNum, ageUnit] = m;
+    const ageMs =
+      Number(ageNum) * (ageUnit === "h" ? 3_600_000 : ageUnit === "mo" ? 30 * 86_400_000 : 86_400_000);
+    jobs.push({
+      source: "speedyapply",
+      sourceId: null, // no stable provider id; dedupe key falls back to the URL
+      company: company.trim(),
+      title: title.trim(),
+      location: location.trim() || null,
+      url: url.trim(),
+      postedAt: new Date(now.getTime() - ageMs).toISOString().slice(0, 10),
+      description: null,
+    });
+  }
+  return jobs;
+}
+
+export async function scrapeSpeedyApplyFeeds(now: Date = new Date()): Promise<RawJob[]> {
+  const jobs: RawJob[] = [];
+  let anyResolved = false;
+  for (const file of SPEEDYAPPLY_FILES) {
+    try {
+      const res = await fetch(`https://raw.githubusercontent.com/${SPEEDYAPPLY_REPO}/main/${file.path}`, {
+        headers: { "User-Agent": USER_AGENT },
+        signal: AbortSignal.timeout(TIMEOUT_MS),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      jobs.push(...parseSpeedyApplyMarkdown(await res.text(), now));
+      anyResolved = true;
+    } catch {
+      // One file failing (renamed/moved) shouldn't kill the other.
+    }
+    await sleep(300);
+  }
+  if (!anyResolved) throw new Error("speedyapply feed unavailable (all files failed)");
+  return jobs;
+}
+
 export const ADAPTERS: Record<string, (portal: CompanyPortal) => Promise<RawJob[]>> = {
   greenhouse: scrapeGreenhouse,
   lever: scrapeLever,
