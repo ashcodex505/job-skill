@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-15T16:42:29.709Z",
+ "updatedAt": "2026-07-15T18:17:58.177Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
@@ -109,28 +109,6 @@
     "skills": 0
    },
    "postedAt": "2026-04-27T22:09:36.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:497ebde0-832e-47ef-be0f-4960afd0a13a",
-   "source": "simplifyjobs",
-   "company": "SeatGeek",
-   "title": "Software Engineer – New Grad",
-   "location": "NYC",
-   "url": "https://seatgeek.com/jobs/7858968?gh_jid=7858968",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-27T22:07:56.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
@@ -901,28 +879,6 @@
     "skills": 0
    },
    "postedAt": "2026-07-13T00:00:00.000Z",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:244d1b77-4840-442a-9e8f-dfb9618dd19e",
-   "source": "simplifyjobs",
-   "company": "Capital One",
-   "title": "Software Engineer New Grad - Software Engineer",
-   "location": "Toronto, ON, Canada",
-   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Associate--Software-Engineer--New-Grad-Card-Expansion_R246921",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-14T00:00:00.000Z",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1716,6 +1672,28 @@
    },
    "postedAt": "2026-05-21",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:01952334136d6b3fee240cbc8a204d70d583325e",
+   "source": "speedyapply",
+   "company": "SeatGeek",
+   "title": "Software Engineer - New Grad",
+   "location": "New York City, NY",
+   "url": "https://seatgeek.com/jobs/7858968?gh_jid=7858968",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-04-28",
+   "firstSeenAt": "2026-07-15T18:17:58.177Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:661f5441771214d6e5dbd7e2ee25dc6e6ee95cb3",
@@ -28050,6 +28028,24 @@
    "roleType": "internship",
    "firstSeenAt": "2026-07-15T09:26:54.607Z",
    "closedAt": "2026-07-15T15:00:25.217Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:497ebde0-832e-47ef-be0f-4960afd0a13a",
+   "company": "SeatGeek",
+   "title": "Software Engineer – New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-15T18:17:58.177Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:244d1b77-4840-442a-9e8f-dfb9618dd19e",
+   "company": "Capital One",
+   "title": "Software Engineer New Grad - Software Engineer",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-07-15T18:17:58.177Z"
   }
  ]
 }

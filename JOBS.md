@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**112 open roles** across **56 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-15 16:42 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**111 open roles** across **55 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-07-15 18:17 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (52)
@@ -13,7 +13,6 @@ Last updated: **2026-07-15 16:42 UTC** · auto-refreshed every 12h by [job-board
 | SambaNova Systems | AI Systems Performance Engineer New Grad 🆕 | San Jose, CA | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://sambanova.ai/sambanova-available-positions/?gh_jid=6115124004) |
 | Reliable Robotics Corporation | Flight Software Engineering Intern - Fall 2026 Internship 🆕 | Mountain View, CA | Fall 2026 | 100% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/reliable-robotics/c4968e8a-a901-4ec1-9a9d-bb5cd96efc4f) |
 | Abridge | Software Engineer - Early Career 🆕 | San Francisco, CA | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace) |
-| Capital One | Software Engineer New Grad - Software Engineer 🆕 | Toronto, ON, Canada | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Associate--Software-Engineer--New-Grad-Card-Expansion_R246921) |
 | Northslope | Forward Deployed Software Engineer - New Grad 🆕 | New York City, NY | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e) |
 | northwoodspace | Software Engineer - General - new grad / early career 🆕 | Torrance, CA | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/northwoodspace/b960b661-e1cc-40d0-bde3-290cd1b58ede) |
 | Hudson River Trading | Algorithm Developer New Grad - Quant Researcher 🆕 | NYC | — | 80% | 2026-07-13 | 2026-07-15 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052050) |
@@ -50,6 +49,7 @@ Last updated: **2026-07-15 16:42 UTC** · auto-refreshed every 12h by [job-board
 | Astranis Space Technologies | Software Engineer- Backend Intern - Fall 2026 🆕 | San Francisco, CA | Fall 2026 | 100% | 2026-05-14 | 2026-07-15 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
 | Skydio | Software Engineer Intern Fall 2026/Winter 2027 🆕 | San Mateo, CA | Fall 2026 | 100% | 2026-05-06 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee) |
 | Gemini | Software Engineering Intern - Fall 2026 🆕 | New York City, NY | Fall 2026 | 100% | 2026-05-02 | 2026-07-15 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125) |
+| SeatGeek | Software Engineer - New Grad 🆕 | New York City, NY | — | 80% | 2026-04-28 | 2026-07-15 | [**Apply ➜**](https://seatgeek.com/jobs/7858968?gh_jid=7858968) |
 | Mirage | Software Engineer - Early Career 🆕 | New York City, NY | — | 80% | 2026-04-27 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/mirage/cbf278fd-84ec-48d9-8052-b76abb035ac7) |
 | Notion | Software Engineer - New Grad 🆕 | San Francisco, CA | — | 80% | 2026-04-24 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555) |
 | Hermeus | Software Engineering Intern - HIL - Fall 2026 🆕 | Atlanta, GA | Fall 2026 | 100% | 2026-04-18 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf) |
@@ -91,7 +91,7 @@ Last updated: **2026-07-15 16:42 UTC** · auto-refreshed every 12h by [job-board
 | NVIDIA | PhD Research Intern, System Software and I/O Architecture - Fall 2026 | 3 Locations | Fall 2026 | 100% | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667) |
 | SpaceX | Fall 2026 Software Engineering Internship/Co-op | Flexible - Any SpaceX Site | Fall 2026 | 100% (4 skills) | 2026-03-18 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002) |
 
-## 🎓 New Grad (87)
+## 🎓 New Grad (86)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -115,6 +115,7 @@ Last updated: **2026-07-15 16:42 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Stripe | Software Engineer, New Grad, Developer & End User Experience Platform | Toronto | — | 83% (2 skills) | 2026-06-11 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991718) |
+| SeatGeek | Software Engineer - New Grad 🆕 | New York City, NY | — | 80% | 2026-04-28 | 2026-07-15 | [**Apply ➜**](https://seatgeek.com/jobs/7858968?gh_jid=7858968) |
 | Abridge | Software Engineer - Early Career 🆕 | San Francisco, CA | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace) |
 | Varsity Brands | Software Engineer - Early Career 🆕 | Farmers Branch, TX | — | 80% | 2026-07-02 | 2026-07-15 | [**Apply ➜**](https://varsitybrands.wd503.myworkdayjobs.com/en-US/ExternalCareerSite/job/TX---Farmers-Branch/Software-Engineer---Early-Career_JR113366-1) |
 | Faros AI | Software Engineer New Grad 🆕 | San Mateo, CA | — | 80% | 2026-07-15 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066/application?embed=true) |
@@ -125,7 +126,6 @@ Last updated: **2026-07-15 16:42 UTC** · auto-refreshed every 12h by [job-board
 | Stripe | Software Engineer New Grad 🆕 | Toronto, ON, Canada | — | 80% | 2026-06-11 | 2026-07-15 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991718) |
 | Aquatic Capital Management | Software Engineer - Early Career 🆕 | Chicago, IL +1 | — | 80% | 2026-04-02 | 2026-07-15 | [**Apply ➜**](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002) |
 | Authorium | Software Engineer - New Grad 🆕 | San Francisco, CA | — | 80% | 2026-06-04 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/authorium/e9384068-af40-47b2-83cf-ec76fd8b7222) |
-| Capital One | Software Engineer New Grad - Software Engineer 🆕 | Toronto, ON, Canada | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Associate--Software-Engineer--New-Grad-Card-Expansion_R246921) |
 | Collective | Software Engineer - New Grad 🆕 | San Francisco, CA | — | 80% | 2026-06-11 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/collective/40516856-b29c-4b38-b434-68be5241bacf) |
 | Hadrian | Fullstack Software Engineer - New Grad 🆕 | Los Angeles, CA | — | 80% | 2026-06-19 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/hadrian-automation/41472a42-c3c3-40bd-a784-8a3fbab47be3) |
 | Hudson River Trading | Algorithm Developer New Grad - Quant Researcher 🆕 | NYC | — | 80% | 2026-07-13 | 2026-07-15 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052050) |
@@ -175,7 +175,6 @@ Last updated: **2026-07-15 16:42 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer New Grad - Defense | Palo Alto, CA | — | 80% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3/apply) |
 | Palantir | Forward Deployed Software Engineer New Grad - Commercial | NYC | — | 80% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply) |
 | PointOne | Software Engineer New Grad | NYC | — | 80% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/PointOne/1e312db8-6d18-4d07-af99-ed3ba165e7d9/application) |
-| SeatGeek | Software Engineer – New Grad | NYC | — | 80% | 2026-04-27 | 2026-07-05 | [**Apply ➜**](https://seatgeek.com/jobs/7858968?gh_jid=7858968) |
 | Wonderschool | Early Career Software Engineer - Applied AI | SF | — | 80% | 2026-04-24 | 2026-07-05 | [**Apply ➜**](https://job-boards.greenhouse.io/wonderschool/jobs/6359139003) |
 | Palantir | Forward Deployed Software Engineer, New Grad - Commercial | New York, NY | — | 80% | 2025-06-13 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728) |
 | Palantir | Forward Deployed Software Engineer, New Grad - Commercial | Chicago, IL | — | 80% | 2026-06-29 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) |
@@ -183,12 +182,14 @@ Last updated: **2026-07-15 16:42 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (2833)
+## 🚪 Recently closed (last 7 days) (2835)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| SeatGeek | Software Engineer – New Grad | — | 2026-07-15 |
+| Capital One | Software Engineer New Grad - Software Engineer | — | 2026-07-15 |
 | SpaceX | Fall 2026 Software Engineering Internship/Co-op | Fall 2026 | 2026-07-15 |
 | IXL Learning | Software Engineer New Grad | — | 2026-07-15 |
 | IXL Learning | Software Developer New Grad | — | 2026-07-15 |
