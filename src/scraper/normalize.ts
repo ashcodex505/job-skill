@@ -153,11 +153,33 @@ export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new
 }
 
 /**
+ * Canonical form of a posting URL for cross-source duplicate detection.
+ * The same job arrives with cosmetic URL differences: Workday paths vary in
+ * case between the API and community feeds (NVIDIAExternalCareerSite vs
+ * nvidiaexternalcareersite), and feeds append ?utm_source=… tracking.
+ */
+export function canonicalUrl(url: string): string {
+  try {
+    const u = new URL(url);
+    return `${u.host}${u.pathname}`.toLowerCase().replace(/\/+$/, "");
+  } catch {
+    return url.toLowerCase().replace(/[?#].*$/, "").replace(/\/+$/, "");
+  }
+}
+
+const earliestDate = (a: string | null, b: string | null): string | null => {
+  if (!a || !b) return a ?? b;
+  return new Date(a).getTime() <= new Date(b).getTime() ? a : b;
+};
+
+/**
  * Removes intra-batch duplicates: same dedupeKey (same provider job seen
- * twice), then same exact URL across sources — the community feeds
+ * twice), then same canonical URL across sources — the community feeds
  * (SimplifyJobs, speedyapply) often list postings our company adapters also
- * fetch; the adapter copy wins (it carries descriptions/skill matches), and
- * between two feeds the earlier-processed one wins deterministically.
+ * fetch. The adapter copy wins (it carries descriptions/skill matches), but
+ * the surviving copy inherits the EARLIEST posted date known by any
+ * duplicate, so a source without dates (Workday) or a feed that only just
+ * indexed an old job can never make a posting look newer than it is.
  */
 export function dedupeJobs(jobs: NormalizedJob[]): NormalizedJob[] {
   const byKey = new Map<string, NormalizedJob>();
@@ -167,11 +189,14 @@ export function dedupeJobs(jobs: NormalizedJob[]): NormalizedJob[] {
   }
   const byUrl = new Map<string, NormalizedJob>();
   for (const job of byKey.values()) {
-    const url = job.url.replace(/\/+$/, "");
+    const url = canonicalUrl(job.url);
     const existing = byUrl.get(url);
-    if (!existing || (FEED_SOURCES.has(existing.source) && !FEED_SOURCES.has(job.source))) {
+    if (!existing) {
       byUrl.set(url, job);
+      continue;
     }
+    const winner = FEED_SOURCES.has(existing.source) && !FEED_SOURCES.has(job.source) ? job : existing;
+    byUrl.set(url, { ...winner, postedAt: earliestDate(existing.postedAt, job.postedAt) });
   }
   return [...byUrl.values()];
 }

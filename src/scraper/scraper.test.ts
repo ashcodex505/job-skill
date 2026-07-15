@@ -210,3 +210,55 @@ describe("normalize + dedupe", () => {
     expect(result[0].source).toBe("greenhouse");
   });
 });
+
+describe("cross-source duplicate collapse (canonical URL + earliest date)", () => {
+  it("canonicalUrl ignores case, query params, and trailing slashes", async () => {
+    const { canonicalUrl } = await import("./normalize");
+    const a = canonicalUrl("https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/X_JR2015779");
+    const b = canonicalUrl("https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/X_JR2015779?utm_source=Simplify&ref=Simplify/");
+    expect(a).toBe(b);
+  });
+
+  it("adapter copy wins but inherits the earliest posted date from any duplicate", async () => {
+    const { dedupeJobs, normalizeJob } = await import("./normalize");
+    const base = {
+      sourceId: null,
+      company: "NVIDIA",
+      location: "St. Louis, MO",
+      description: null,
+    };
+    const workday = normalizeJob({
+      ...base,
+      source: "workday" as const,
+      sourceId: "JR2015779",
+      title: "Performance Engineer Intern, Systems Software- Fall 2026",
+      url: "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-MO/X_JR2015779",
+      postedAt: null, // Workday sometimes gives no parseable date
+    })!;
+    const speedy = normalizeJob({
+      ...base,
+      source: "speedyapply" as const,
+      title: "Performance Engineer Intern - Systems Software- Fall 2026",
+      url: "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-MO/X_JR2015779",
+      postedAt: "2026-07-07",
+    })!;
+    const deduped = dedupeJobs([speedy, workday]);
+    expect(deduped).toHaveLength(1);
+    expect(deduped[0].source).toBe("workday"); // adapter copy wins
+    expect(deduped[0].postedAt).toBe("2026-07-07"); // feed's earlier date survives
+  });
+});
+
+describe("workday postedOn parsing", () => {
+  it("maps display text to day-precision dates and refuses 30+", async () => {
+    const { parseWorkdayPostedOn } = await import("./adapters");
+    const now = new Date("2026-07-15T12:00:00.000Z");
+    expect(parseWorkdayPostedOn("Posted 9 Days Ago", now)).toBe("2026-07-06");
+    expect(parseWorkdayPostedOn("Posted Today", now)).toBe("2026-07-15");
+    expect(parseWorkdayPostedOn("Posted Yesterday", now)).toBe("2026-07-14");
+    expect(parseWorkdayPostedOn("Posted 1 Day Ago", now)).toBe("2026-07-14");
+    expect(parseWorkdayPostedOn("Posted 30+ Days Ago", now)).toBeNull();
+    expect(parseWorkdayPostedOn(undefined, now)).toBeNull();
+    expect(parseWorkdayPostedOn("something else", now)).toBeNull();
+  });
+});

@@ -183,6 +183,29 @@ interface WorkdayJob {
   bulletFields?: string[];
 }
 
+/**
+ * Workday exposes posting age only as display text ("Posted Today",
+ * "Posted Yesterday", "Posted 9 Days Ago", "Posted 30+ Days Ago").
+ * Day precision only, so emit a date-only string; "30+" is an unbounded
+ * floor, not a date — treat it as unknown rather than inventing one.
+ */
+export function parseWorkdayPostedOn(postedOn: string | undefined, now: Date = new Date()): string | null {
+  if (!postedOn) return null;
+  const text = postedOn.trim().toLowerCase();
+  let days: number | null = null;
+  if (/posted today/.test(text)) days = 0;
+  else if (/posted yesterday/.test(text)) days = 1;
+  else {
+    const m = text.match(/posted (\d+)\+? days? ago/);
+    if (m) {
+      if (text.includes("+")) return null;
+      days = Number(m[1]);
+    }
+  }
+  if (days === null) return null;
+  return new Date(now.getTime() - days * 86_400_000).toISOString().slice(0, 10);
+}
+
 async function scrapeWorkday(portal: CompanyPortal): Promise<RawJob[]> {
   const wd = portal.workday;
   if (!wd) throw new Error("Missing workday config");
@@ -206,7 +229,7 @@ async function scrapeWorkday(portal: CompanyPortal): Promise<RawJob[]> {
           title: j.title,
           location: j.locationsText ?? null,
           url: `https://${wd.host}/en-US/${wd.site}${j.externalPath.replace(/^.*?(?=\/job\/)/, "")}`,
-          postedAt: null,
+          postedAt: parseWorkdayPostedOn(j.postedOn),
           description: null,
         });
       }
