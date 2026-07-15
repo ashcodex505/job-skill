@@ -266,7 +266,6 @@ interface SimplifyListing {
 const SIMPLIFY_FEEDS: { repo: string; branches: string[] }[] = [
   { repo: "SimplifyJobs/New-Grad-Positions", branches: ["dev", "main"] },
   { repo: "SimplifyJobs/Summer2027-Internships", branches: ["dev", "main"] },
-  { repo: "SimplifyJobs/Summer2026-Internships", branches: ["dev", "main"] },
 ];
 
 /** Skip stale listings the accumulating repos never prune. */
