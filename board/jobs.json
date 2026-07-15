@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-15T09:26:54.607Z",
+ "updatedAt": "2026-07-15T11:14:01.566Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
@@ -946,6 +946,28 @@
    },
    "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b638e646-a8c7-484b-9b2b-51e2b939e5c6",
+   "source": "simplifyjobs",
+   "company": "Faros AI",
+   "title": "Software Engineer New Grad",
+   "location": "San Mateo, CA",
+   "url": "https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066/application?embed=true",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-15T09:11:26.000Z",
+   "firstSeenAt": "2026-07-15T11:14:01.566Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:d8d123d94016358621fc17b2dcc78b3719e366cb",
