@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-15T12:56:31.741Z",
+ "updatedAt": "2026-07-15T15:00:25.217Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
@@ -988,7 +988,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-07",
+   "postedAt": "2026-07-06",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1010,7 +1010,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-05",
+   "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1032,7 +1032,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-05",
+   "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1054,7 +1054,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-05",
+   "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1076,7 +1076,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-15",
+   "postedAt": "2026-07-14",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1098,7 +1098,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-11",
+   "postedAt": "2026-07-10",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1120,7 +1120,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-02",
+   "postedAt": "2026-07-01",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1142,7 +1142,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-11",
+   "postedAt": "2026-06-10",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1164,7 +1164,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-18",
+   "postedAt": "2026-06-17",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1186,7 +1186,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-18",
+   "postedAt": "2026-06-17",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1208,7 +1208,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-05-20",
+   "postedAt": "2026-05-19",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1230,7 +1230,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-05-15",
+   "postedAt": "2026-05-14",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1252,7 +1252,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-05-07",
+   "postedAt": "2026-05-06",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1260,7 +1260,7 @@
    "source": "speedyapply",
    "company": "Gemini",
    "title": "Software Engineering Intern - Fall 2026",
-   "location": "USA +1",
+   "location": "New York City, NY",
    "url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125",
    "season": "Fall 2026",
    "roleType": "internship",
@@ -1274,29 +1274,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-05-03",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
-   "source": "speedyapply",
-   "company": "Hermeus",
-   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
-   "location": "Los Angeles, CA",
-   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-19",
+   "postedAt": "2026-05-02",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1318,7 +1296,29 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-19",
+   "postedAt": "2026-04-18",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
+   "source": "speedyapply",
+   "company": "Hermeus",
+   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
+   "location": "Los Angeles, CA",
+   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-04-18",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1340,7 +1340,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-08",
+   "postedAt": "2026-04-07",
    "firstSeenAt": "2026-07-15T09:26:54.607Z"
   },
   {
@@ -1362,30 +1362,8 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-02",
+   "postedAt": "2026-04-01",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:dd54d28d0ce0eea24a67235edeade7a0dce5952c",
-   "source": "speedyapply",
-   "company": "SpaceX",
-   "title": "Fall 2026 Software Engineering Internship/Co-op",
-   "location": "Bastrop, TX +7",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-03-18",
-   "firstSeenAt": "2026-07-15T09:26:54.607Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:8593ba975d3cba76eb2020ffa4860d6b5bd078e7",
@@ -1406,8 +1384,30 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-08",
+   "postedAt": "2026-07-07",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:17fb1c2f30dba42f602a18aa62cb1acdd12fefeb",
+   "source": "speedyapply",
+   "company": "Abridge",
+   "title": "Software Engineer - Early Career",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-14",
+   "firstSeenAt": "2026-07-15T15:00:25.217Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:a63cba79d2d3d5d9fbf0191c683387eda987aef2",
@@ -1428,7 +1428,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-15",
+   "postedAt": "2026-07-14",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1450,7 +1450,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-15",
+   "postedAt": "2026-07-14",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1458,7 +1458,7 @@
    "source": "speedyapply",
    "company": "Kustomer",
    "title": "Software Engineer - Full Stack - Early Career",
-   "location": "USA +1",
+   "location": "New York City, NY",
    "url": "https://jobs.ashbyhq.com/kustomer/4037272a-7fd3-4040-906b-47fde875a817",
    "season": null,
    "roleType": "new_grad",
@@ -1472,7 +1472,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-12",
+   "postedAt": "2026-07-11",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1494,7 +1494,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-11",
+   "postedAt": "2026-07-10",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1516,8 +1516,30 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-08",
+   "postedAt": "2026-07-07",
    "firstSeenAt": "2026-07-15T09:26:54.607Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:6d25244800e12a5f87a30281e1651fd3c6133fd1",
+   "source": "speedyapply",
+   "company": "Varsity Brands",
+   "title": "Software Engineer - Early Career",
+   "location": "Farmers Branch, TX",
+   "url": "https://varsitybrands.wd503.myworkdayjobs.com/en-US/ExternalCareerSite/job/TX---Farmers-Branch/Software-Engineer---Early-Career_JR113366-1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-02",
+   "firstSeenAt": "2026-07-15T15:00:25.217Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:68cb29370f2ac31ef95d01e0ed2ee07b9f6520ec",
@@ -1538,7 +1560,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-01",
+   "postedAt": "2026-06-30",
    "firstSeenAt": "2026-07-15T09:26:54.607Z"
   },
   {
@@ -1560,7 +1582,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-28",
+   "postedAt": "2026-06-27",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1582,7 +1604,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-20",
+   "postedAt": "2026-06-19",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1604,7 +1626,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-17",
+   "postedAt": "2026-06-16",
    "firstSeenAt": "2026-07-15T09:26:54.607Z"
   },
   {
@@ -1626,7 +1648,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-13",
+   "postedAt": "2026-06-12",
    "firstSeenAt": "2026-07-15T09:26:54.607Z"
   },
   {
@@ -1648,7 +1670,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-12",
+   "postedAt": "2026-06-11",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1670,7 +1692,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-05",
+   "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1692,7 +1714,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-05-22",
+   "postedAt": "2026-05-21",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1714,7 +1736,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-28",
+   "postedAt": "2026-04-27",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1736,7 +1758,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-25",
+   "postedAt": "2026-04-24",
    "firstSeenAt": "2026-07-15T09:26:54.607Z"
   },
   {
@@ -1758,7 +1780,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-10",
+   "postedAt": "2026-04-09",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1780,7 +1802,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-07",
+   "postedAt": "2026-04-06",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1802,7 +1824,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-05",
+   "postedAt": "2026-04-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1824,7 +1846,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-03",
+   "postedAt": "2026-04-02",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -28019,6 +28041,15 @@
    "roleType": "new_grad",
    "firstSeenAt": "2026-07-15T08:30:50.814Z",
    "closedAt": "2026-07-15T08:46:29.484Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:dd54d28d0ce0eea24a67235edeade7a0dce5952c",
+   "company": "SpaceX",
+   "title": "Fall 2026 Software Engineering Internship/Co-op",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-15T09:26:54.607Z",
+   "closedAt": "2026-07-15T15:00:25.217Z"
   }
  ]
 }
