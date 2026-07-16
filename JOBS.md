@@ -1,17 +1,15 @@
 # 🎯 Job Board — SWE Early Career
 
 **113 open roles** across **57 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-16 03:32 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-16 06:02 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (5)
+## 🆕 New this cycle (3)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Cybernetic Labs | Full-Stack Software Engineer New Grad - Product 🆕 | SF | — | 80% | 2026-07-16 | 2026-07-16 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/bab5d1e5-e31b-42f0-9cef-334b1f17fed3/application?embed=true) |
 | Lightfield | Software Engineer New Grad - Applied AI 🆕 | SF | — | 80% | 2026-07-16 | 2026-07-16 | [**Apply ➜**](https://jobs.ashbyhq.com/Lightfield/fc93a467-773d-4805-b342-bf470950732d/application?embed=true) |
-| Abridge | Software Engineer - Early Career 🆕 | San Francisco, CA | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace) |
-| Varsity Brands | Software Engineer - Early Career 🆕 | Farmers Branch, TX | — | 80% | 2026-07-02 | 2026-07-15 | [**Apply ➜**](https://varsitybrands.wd503.myworkdayjobs.com/en-US/ExternalCareerSite/job/TX---Farmers-Branch/Software-Engineer---Early-Career_JR113366-1) |
 | SeatGeek | Software Engineer - New Grad 🆕 | New York City, NY | — | 80% | 2026-04-28 | 2026-07-15 | [**Apply ➜**](https://seatgeek.com/jobs/7858968?gh_jid=7858968) |
 
 ## 🛠️ Internships (25)
@@ -71,8 +69,8 @@ Last updated: **2026-07-16 03:32 UTC** · auto-refreshed every 12h by [job-board
 | Cybernetic Labs | Full-Stack Software Engineer New Grad - Product 🆕 | SF | — | 80% | 2026-07-16 | 2026-07-16 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/bab5d1e5-e31b-42f0-9cef-334b1f17fed3/application?embed=true) |
 | Lightfield | Software Engineer New Grad - Applied AI 🆕 | SF | — | 80% | 2026-07-16 | 2026-07-16 | [**Apply ➜**](https://jobs.ashbyhq.com/Lightfield/fc93a467-773d-4805-b342-bf470950732d/application?embed=true) |
 | SeatGeek | Software Engineer - New Grad 🆕 | New York City, NY | — | 80% | 2026-04-28 | 2026-07-15 | [**Apply ➜**](https://seatgeek.com/jobs/7858968?gh_jid=7858968) |
-| Abridge | Software Engineer - Early Career 🆕 | San Francisco, CA | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace) |
-| Varsity Brands | Software Engineer - Early Career 🆕 | Farmers Branch, TX | — | 80% | 2026-07-02 | 2026-07-15 | [**Apply ➜**](https://varsitybrands.wd503.myworkdayjobs.com/en-US/ExternalCareerSite/job/TX---Farmers-Branch/Software-Engineer---Early-Career_JR113366-1) |
+| Abridge | Software Engineer - Early Career | San Francisco, CA | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace) |
+| Varsity Brands | Software Engineer - Early Career | Farmers Branch, TX | — | 80% | 2026-07-02 | 2026-07-15 | [**Apply ➜**](https://varsitybrands.wd503.myworkdayjobs.com/en-US/ExternalCareerSite/job/TX---Farmers-Branch/Software-Engineer---Early-Career_JR113366-1) |
 | Faros AI | Software Engineer New Grad | San Mateo, CA | — | 80% | 2026-07-15 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066/application?embed=true) |
 | Notion | Software Engineer - Early Career | San Francisco, CA | — | 80% | 2026-07-07 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
 | Notion | Software Engineer - New Grad | San Francisco, CA | — | 80% | 2026-04-24 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555) |
@@ -137,7 +135,7 @@ Last updated: **2026-07-16 03:32 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (2797)
+## 🚪 Recently closed (last 7 days) (2769)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -2912,34 +2910,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Salesforce | Software Engineering LMTS- AI/LLM | — | 2026-07-09 |
 | Salesforce | AI Builder, Emerging Talent Manager | — | 2026-07-09 |
 | Adobe | Er: 2026 Intern - Research Scientist / Engineer | — | 2026-07-09 |
-| Stripe | Full Stack Engineer, Startup Products | — | 2026-07-09 |
-| Berkshire Hathaway Energy | Software Engineer 1 - Automation | — | 2026-07-09 |
-| Foxglove | Software Engineer New Grad | — | 2026-07-09 |
-| Fortinet | Junior Software Developer | — | 2026-07-09 |
-| Quadric | AI Kernel Engineer New Grad | — | 2026-07-09 |
-| Micron Technology | Electrical Engineer New Grad - Design Engineer - Pathfinding Design | — | 2026-07-09 |
-| ByteDance | Graduate Research Scientist - Distributed NoSQL Database Systems | — | 2026-07-09 |
-| Google | Software Engineer - Translation Mobile - Extended Reality | — | 2026-07-09 |
-| Wex | System Specialist | — | 2026-07-09 |
-| Brookhaven Lab | Postdoctoral Research Associate - Electrochemical Energy Storage Systems | — | 2026-07-09 |
-| Gen Digital | Machine Learning Engineer 1 | — | 2026-07-09 |
-| Susquehanna International Group (SIG) | Machine Learning Intern | — | 2026-07-09 |
-| Tradeweb | Tradeweb International Intern Program - JavaScript UI Developer - Technology Division | — | 2026-07-09 |
-| Radix Trading | Quantitative Technologist C++ Intern | — | 2026-07-09 |
-| Wash U | Software Engineering Intern | — | 2026-07-09 |
-| Tenstorrent | Design Verification Engineer Intern | — | 2026-07-09 |
-| SOTI | Software Developer in Test Intern | — | 2026-07-09 |
-| Sila Nanotechnologies | Physics-Based Modeling Intern/Co-op | — | 2026-07-09 |
-| Primetals Technologies | Product Line Management Associate Intern | — | 2026-07-09 |
-| Tesla | Software Engineer Intern - Engineering Automation Software Engineer - Vehicle Engineering | — | 2026-07-09 |
-| Mach Industries | Engineering Co-op | — | 2026-07-09 |
-| Nokia | AI R&D Engineer Co-op | — | 2026-07-09 |
-| CSL | Data Science/Analytics Co-op | — | 2026-07-09 |
-| Cloudflare | Data Engineer Intern | — | 2026-07-09 |
-| CSL | Analytics Co-op - Strategic Forecasting & AI | — | 2026-07-09 |
-| CSL | Data Science / Analytics Co-op | — | 2026-07-09 |
-| Schweitzer Engineering Laboratories | Software Engineering Intern | — | 2026-07-09 |
-| Banner Health | IT 2 Intern | — | 2026-07-09 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) and SimplifyJobs Summer Internships._
