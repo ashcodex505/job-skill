@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-15T23:40:00.686Z",
+ "updatedAt": "2026-07-16T01:48:34.807Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
@@ -924,6 +924,50 @@
    },
    "postedAt": "2026-07-15T09:11:26.000Z",
    "firstSeenAt": "2026-07-15T11:14:01.566Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f7ad7fb2-93f8-4515-bd37-68629bc7d326",
+   "source": "simplifyjobs",
+   "company": "Lightfield",
+   "title": "Software Engineer New Grad - Applied AI",
+   "location": "SF",
+   "url": "https://jobs.ashbyhq.com/Lightfield/fc93a467-773d-4805-b342-bf470950732d/application?embed=true",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-16T01:09:41.000Z",
+   "firstSeenAt": "2026-07-16T01:48:34.807Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:d24846e3-7ab0-4dc5-8419-0d070719ad82",
+   "source": "simplifyjobs",
+   "company": "Cybernetic Labs",
+   "title": "Full-Stack Software Engineer New Grad - Product",
+   "location": "SF",
+   "url": "https://jobs.ashbyhq.com/netic/bab5d1e5-e31b-42f0-9cef-334b1f17fed3/application?embed=true",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-16T01:09:59.000Z",
+   "firstSeenAt": "2026-07-16T01:48:34.807Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:d8d123d94016358621fc17b2dcc78b3719e366cb",
