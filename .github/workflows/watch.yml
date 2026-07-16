@@ -45,7 +45,10 @@ jobs:
           REPOS="SimplifyJobs/New-Grad-Positions SimplifyJobs/Summer2027-Internships speedyapply/2027-SWE-College-Jobs"
           HEADS="{"
           for repo in $REPOS; do
-            sha=$(gh api "repos/$repo/commits?per_page=1" --jq '.[0].sha' 2>/dev/null || echo "unavailable")
+            sha=$(gh api "repos/$repo/commits?per_page=1" --jq '.[0].sha' 2>/dev/null) || sha=""
+            # A repo that doesn't exist yet (next season's) records a stable
+            # placeholder instead of an error body.
+            echo "$sha" | grep -qE '^[0-9a-f]{40}$' || sha="unavailable"
             HEADS="$HEADS\"$repo\":\"$sha\","
           done
           HEADS="${HEADS%,}}"
