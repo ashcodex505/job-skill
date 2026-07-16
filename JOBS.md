@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **114 open roles** across **57 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-16 08:30 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-16 10:32 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (3)
@@ -136,7 +136,7 @@ Last updated: **2026-07-16 08:30 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (2769)
+## 🚪 Recently closed (last 7 days) (2743)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -2885,32 +2885,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Harris Computer | AI & Automation Intern | — | 2026-07-09 |
 | NVIDIA | Performance Engineer Intern - Systems Software | — | 2026-07-09 |
 | Loblaw Companies | AI Engineering Co-op | — | 2026-07-09 |
-| ServiceNow | Software Engineer - Agentic AI Systems - Moveworks | — | 2026-07-09 |
-| Snowflake | Software Engineer - Snowflake Postgres | — | 2026-07-09 |
-| Meta | Data Engineer – University Grad - Product Analytics | — | 2026-07-09 |
-| ServiceNow | Software Engineer - Agentic AI Systems - Moveworks | — | 2026-07-09 |
-| Palo Alto Networks | Machine Learning Engineer | — | 2026-07-09 |
-| Lyft | Software Engineer | — | 2026-07-09 |
-| Workato | Intern AI Engineering | — | 2026-07-09 |
-| Pinterest | PhD Machine Learning Intern - Visual - Recommender Systems | — | 2026-07-09 |
-| ServiceNow | Futures Summit Intern | — | 2026-07-09 |
-| Scale AI | AI Builder Intern | — | 2026-07-09 |
-| Block | Applied Research Intern PhD / Graduate Co-op | — | 2026-07-09 |
-| Block | Applied Research Intern Co-op | — | 2026-07-09 |
-| Blackberry | QNX Software Developer Co-op - Integration | — | 2026-07-09 |
-| Databricks | Forward Deployed Engineer - FDE (Fullstack) - Digital Native Business | — | 2026-07-09 |
-| MongoDB | Software Engineer (Internal Query Engine Testing Tools), Query | — | 2026-07-09 |
-| MongoDB | Software Engineer (Internal Query Engine Testing Tools), Query | — | 2026-07-09 |
-| Cloudflare | Data Engineer Intern (Fall 2026) | Fall 2026 | 2026-07-09 |
-| Airbnb | Machine Learning Engineer, Customer Support Engineering | — | 2026-07-09 |
-| Airbnb | Software Engineer Guest & Host | — | 2026-07-09 |
-| Anduril | Robotics Software Engineer | — | 2026-07-09 |
-| Anduril | Software Engineer - Undersea Dominance | — | 2026-07-09 |
-| OpenAI | Software Engineer, Infrastructure, Consumer Devices | — | 2026-07-09 |
-| ServiceNow | Vice President, AI & Machine Learning Engineering | — | 2026-07-09 |
-| Salesforce | Software Engineering LMTS- AI/LLM | — | 2026-07-09 |
-| Salesforce | AI Builder, Emerging Talent Manager | — | 2026-07-09 |
-| Adobe | Er: 2026 Intern - Research Scientist / Engineer | — | 2026-07-09 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) and SimplifyJobs Summer Internships._
