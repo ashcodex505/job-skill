@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **113 open roles** across **56 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-16 18:47 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-16 20:09 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (3)
@@ -135,7 +135,7 @@ Last updated: **2026-07-16 18:47 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (2746)
+## 🚪 Recently closed (last 7 days) (2703)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -2844,49 +2844,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Caterpillar Inc. | Communications & AI Intern - AI Developer | — | 2026-07-10 |
 | Draper | Microsystems Integration Co-op | — | 2026-07-10 |
 | General Motors | Materials Science Intern | — | 2026-07-10 |
-| Stripe | Backend Engineer, Financial Connections | — | 2026-07-09 |
-| Anthropic | Finance Systems Integration Engineer | — | 2026-07-09 |
-| Anthropic | Software Engineer, Safeguards Foundations (Internal Tooling) | — | 2026-07-09 |
-| Anthropic | Software Engineer, Safeguards Infrastructure | — | 2026-07-09 |
-| Anduril | Curriculum Developer | — | 2026-07-09 |
-| Anduril | Robotics Software Engineer, Air Vehicle Autonomy | — | 2026-07-09 |
-| SpaceX | Forward Deployed Engineer, Mission Systems (Starshield) | — | 2026-07-09 |
-| SpaceX | Mission Integration Engineer, Mission Systems (Starshield) | — | 2026-07-09 |
-| SpaceX | Security Software Engineer (Starlink) | — | 2026-07-09 |
-| SpaceX | Software Engineer, Components (Starshield) | — | 2026-07-09 |
-| SpaceX | Software Engineer, Components Test (Starshield) | — | 2026-07-09 |
-| Affirm | Software Engineer II, Backend (ML Training & Serving) | — | 2026-07-09 |
-| Affirm | Software Engineer II, Backend (ML Training & Serving) | — | 2026-07-09 |
-| NVIDIA | Software Engineer, TensorRT Specialized Platforms - New College Grad 2025 | 2025 New Grad | 2026-07-09 |
-| NVIDIA | Research Scientist, ML Systems - PhD New College Grad 2026 | 2026 New Grad | 2026-07-09 |
-| Salesforce | Software Engineer MTS/ SMTS | — | 2026-07-09 |
-| Salesforce | Software Engineer SMTS | — | 2026-07-09 |
-| Salesforce | Software Engineering SMTS - LLM Gateway | — | 2026-07-09 |
-| Salesforce | Platform Engineer — Cloud Infrastructure (SMTS) | — | 2026-07-09 |
-| RTX | Software Engineer 1 - Test Solutions | — | 2026-07-09 |
-| Altamira Technologies | Junior Software Engineer | — | 2026-07-09 |
-| McKesson | Software Engineer - JavaScript / Ruby / Elixir | — | 2026-07-09 |
-| SpaceX | Software Engineer - Components - Starshield | — | 2026-07-09 |
-| Winsupply | Software Developer | — | 2026-07-09 |
-| Torch Technologies | DTS Simstim Linux Systems Operator | — | 2026-07-09 |
-| WebFX | Junior Full-Stack Software Engineer | — | 2026-07-09 |
-| Pfizer | Manufacturing Execution Systems Engineer 1 - Manufacturing Execution Systems | — | 2026-07-09 |
-| Axon | Software Engineer 1 | — | 2026-07-09 |
-| WebFX | Junior Front-End Web Developer | — | 2026-07-09 |
-| WebFX | Junior Backend Software Engineer - Nutshell CRM - AWS & React Native | — | 2026-07-09 |
-| LawDepot | Web Developer 1 | — | 2026-07-09 |
-| Comcast | Junior Software Developer - CDN Operations Engineering | — | 2026-07-09 |
-| Wellmark | Software Engineer | — | 2026-07-09 |
-| Formlabs | Test Engineering Intern | — | 2026-07-09 |
-| Achievers | Software Engineering Co-op | — | 2026-07-09 |
-| Double Eleven | Graphics Programmer Intern | — | 2026-07-09 |
-| Metropolitan Transportation Authority | Onboard Fare Systems - Technology & Engineer Fellow | — | 2026-07-09 |
-| Pennsylvania State University | Research and Development Engineer Intern | — | 2026-07-09 |
-| Outmarket AI | AI Software Engineer Intern | — | 2026-07-09 |
-| GE Appliances | Software Engineering Co-op | — | 2026-07-09 |
-| Harris Computer | AI & Automation Intern | — | 2026-07-09 |
-| NVIDIA | Performance Engineer Intern - Systems Software | — | 2026-07-09 |
-| Loblaw Companies | AI Engineering Co-op | — | 2026-07-09 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) and SimplifyJobs Summer Internships._
