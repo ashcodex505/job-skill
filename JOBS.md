@@ -1,15 +1,16 @@
 # 🎯 Job Board — SWE Early Career
 
 **113 open roles** across **56 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-16 16:01 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-16 17:37 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (2)
+## 🆕 New this cycle (3)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Cybernetic Labs | Software Engineer New Grad - Agent Platform 🆕 | SF | — | 80% | 2026-07-16 | 2026-07-16 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/d9bcb6a2-0e54-4cb3-baec-43f2d74db18f/application?embed=true) |
 | Cloudflare | Software Engineer Intern - Fall 2026 - Austin - TX 🆕 | Austin, TX | Fall 2026 | 100% | 2026-07-15 | 2026-07-16 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) |
+| Nuro | Software Engineer - Performance - New Grad 🆕 | Mountain View, CA | — | 80% | 2026-07-15 | 2026-07-16 | [**Apply ➜**](https://nuro.ai/careersitem?gh_jid=8064655) |
 
 ## 🛠️ Internships (26)
 
@@ -66,6 +67,7 @@ Last updated: **2026-07-16 16:01 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Stripe | Software Engineer, New Grad, Developer & End User Experience Platform | Toronto | — | 83% (2 skills) | 2026-06-11 | 2026-07-04 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=7991718) |
+| Nuro | Software Engineer - Performance - New Grad 🆕 | Mountain View, CA | — | 80% | 2026-07-15 | 2026-07-16 | [**Apply ➜**](https://nuro.ai/careersitem?gh_jid=8064655) |
 | Cybernetic Labs | Software Engineer New Grad - Agent Platform 🆕 | SF | — | 80% | 2026-07-16 | 2026-07-16 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/d9bcb6a2-0e54-4cb3-baec-43f2d74db18f/application?embed=true) |
 | Cybernetic Labs | Full-Stack Software Engineer New Grad - Product | SF | — | 80% | 2026-07-16 | 2026-07-16 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/bab5d1e5-e31b-42f0-9cef-334b1f17fed3/application?embed=true) |
 | Lightfield | Software Engineer New Grad - Applied AI | SF | — | 80% | 2026-07-16 | 2026-07-16 | [**Apply ➜**](https://jobs.ashbyhq.com/Lightfield/fc93a467-773d-4805-b342-bf470950732d/application?embed=true) |
@@ -89,7 +91,6 @@ Last updated: **2026-07-16 16:01 UTC** · auto-refreshed every 12h by [job-board
 | Northslope | Forward Deployed Software Engineer - New Grad | New York City, NY | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e) |
 | Northslope Technologies | Forward Deployed Software Engineer New Grad | NYC | — | 80% | 2026-07-13 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e/application) |
 | northwoodspace | Software Engineer - General - new grad / early career | Torrance, CA | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/northwoodspace/b960b661-e1cc-40d0-bde3-290cd1b58ede) |
-| Nuro | Software Engineer New Grad - Performance | Mountain View, CA | — | 80% | 2026-06-04 | 2026-07-15 | [**Apply ➜**](https://nuro.ai/careersitem?gh_jid=8064655) |
 | NVIDIA | Backend Compiler Engineer New Grad | Canada; Santa Clara, CA | — | 80% | 2026-07-13 | 2026-07-15 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242) |
 | Pylon | Software Engineer - New Grad | San Francisco, CA | — | 80% | 2026-07-10 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/pylon-labs/38814ce7-217b-40f2-9ba5-8a7733a5691d) |
 | SambaNova Systems | AI Systems Performance Engineer New Grad | San Jose, CA | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://sambanova.ai/sambanova-available-positions/?gh_jid=6115124004) |
@@ -134,12 +135,13 @@ Last updated: **2026-07-16 16:01 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (2745)
+## 🚪 Recently closed (last 7 days) (2746)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Nuro | Software Engineer New Grad - Performance | — | 2026-07-16 |
 | Kustomer | Software Engineer – Early Career - Full Stack | — | 2026-07-16 |
 | SeatGeek | Software Engineer - New Grad | — | 2026-07-16 |
 | SeatGeek | Software Engineer – New Grad | — | 2026-07-15 |

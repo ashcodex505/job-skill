@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-16T16:01:44.150Z",
+ "updatedAt": "2026-07-16T17:37:33.216Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
@@ -860,28 +860,6 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "simplifyjobs:1704991d-f184-40b1-91ef-a74b76753d06",
-   "source": "simplifyjobs",
-   "company": "Nuro",
-   "title": "Software Engineer New Grad - Performance",
-   "location": "Mountain View, CA",
-   "url": "https://nuro.ai/careersitem?gh_jid=8064655",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-04",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:b638e646-a8c7-484b-9b2b-51e2b939e5c6",
    "source": "simplifyjobs",
    "company": "Faros AI",
@@ -1408,6 +1386,28 @@
    },
    "postedAt": "2026-07-07",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:ed7412d4b5ad98591085486604cb54508f47c15b",
+   "source": "speedyapply",
+   "company": "Nuro",
+   "title": "Software Engineer - Performance - New Grad",
+   "location": "Mountain View, CA",
+   "url": "https://nuro.ai/careersitem?gh_jid=8064655",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-15",
+   "firstSeenAt": "2026-07-16T17:37:33.216Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:17fb1c2f30dba42f602a18aa62cb1acdd12fefeb",
@@ -27280,6 +27280,15 @@
    "roleType": "new_grad",
    "firstSeenAt": "2026-07-15T18:17:58.177Z",
    "closedAt": "2026-07-16T14:20:59.467Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:1704991d-f184-40b1-91ef-a74b76753d06",
+   "company": "Nuro",
+   "title": "Software Engineer New Grad - Performance",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-07-16T17:37:33.216Z"
   }
  ]
 }
