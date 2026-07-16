@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-16T12:06:57.826Z",
+ "updatedAt": "2026-07-16T14:20:59.467Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
@@ -728,28 +728,6 @@
    "firstSeenAt": "2026-07-10T08:47:11.987Z"
   },
   {
-   "dedupeKey": "simplifyjobs:67fa641a-072c-4739-8ce6-46b35fd111a5",
-   "source": "simplifyjobs",
-   "company": "Kustomer",
-   "title": "Software Engineer – Early Career - Full Stack",
-   "location": "NYC",
-   "url": "https://jobs.ashbyhq.com/kustomer/4037272a-7fd3-4040-906b-47fde875a817/application",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-10T22:11:41.000Z",
-   "firstSeenAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:c368c0a9-db8e-455c-b06c-c18575c7b04d",
    "source": "simplifyjobs",
    "company": "Northslope Technologies",
@@ -1010,7 +988,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-07",
+   "postedAt": "2026-07-06",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1078,6 +1056,28 @@
    },
    "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:04c21c4f85670c0444fd045150be67146b6c9cae",
+   "source": "speedyapply",
+   "company": "Cloudflare",
+   "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
+   "location": "Austin, TX",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-15",
+   "firstSeenAt": "2026-07-16T14:20:59.467Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:6d6070cc4d01a1cb9ec768cb8b3b5c567160b0c2",
@@ -1300,12 +1300,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
+   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
    "source": "speedyapply",
    "company": "Hermeus",
-   "title": "Software Engineering Intern - HIL - Fall 2026",
-   "location": "Atlanta, GA",
-   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
+   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
+   "location": "Los Angeles, CA",
+   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -1322,12 +1322,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
+   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
    "source": "speedyapply",
    "company": "Hermeus",
-   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
-   "location": "Los Angeles, CA",
-   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
+   "title": "Software Engineering Intern - HIL - Fall 2026",
+   "location": "Atlanta, GA",
+   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -1362,7 +1362,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-08",
+   "postedAt": "2026-04-07",
    "firstSeenAt": "2026-07-15T09:26:54.607Z"
   },
   {
@@ -1538,7 +1538,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-08",
+   "postedAt": "2026-07-07",
    "firstSeenAt": "2026-07-15T09:26:54.607Z"
   },
   {
@@ -1582,7 +1582,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-01",
+   "postedAt": "2026-06-30",
    "firstSeenAt": "2026-07-15T09:26:54.607Z"
   },
   {
@@ -1648,7 +1648,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-17",
+   "postedAt": "2026-06-16",
    "firstSeenAt": "2026-07-15T09:26:54.607Z"
   },
   {
@@ -1670,7 +1670,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-13",
+   "postedAt": "2026-06-12",
    "firstSeenAt": "2026-07-15T09:26:54.607Z"
   },
   {
@@ -1740,28 +1740,6 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:01952334136d6b3fee240cbc8a204d70d583325e",
-   "source": "speedyapply",
-   "company": "SeatGeek",
-   "title": "Software Engineer - New Grad",
-   "location": "New York City, NY",
-   "url": "https://seatgeek.com/jobs/7858968?gh_jid=7858968",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-28",
-   "firstSeenAt": "2026-07-15T18:17:58.177Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:661f5441771214d6e5dbd7e2ee25dc6e6ee95cb3",
    "source": "speedyapply",
    "company": "Mirage",
@@ -1802,7 +1780,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-25",
+   "postedAt": "2026-04-24",
    "firstSeenAt": "2026-07-15T09:26:54.607Z"
   },
   {
@@ -27284,6 +27262,24 @@
    "roleType": "new_grad",
    "firstSeenAt": "2026-07-15T08:30:50.814Z",
    "closedAt": "2026-07-15T18:17:58.177Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:67fa641a-072c-4739-8ce6-46b35fd111a5",
+   "company": "Kustomer",
+   "title": "Software Engineer – Early Career - Full Stack",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-11T07:22:30.098Z",
+   "closedAt": "2026-07-16T14:20:59.467Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:01952334136d6b3fee240cbc8a204d70d583325e",
+   "company": "SeatGeek",
+   "title": "Software Engineer - New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-15T18:17:58.177Z",
+   "closedAt": "2026-07-16T14:20:59.467Z"
   }
  ]
 }
