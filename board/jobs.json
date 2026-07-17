@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-17T22:28:14.308Z",
+ "updatedAt": "2026-07-17T23:31:40.137Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
@@ -968,6 +968,28 @@
    },
    "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f1025b20-1cf5-4f9d-8505-a81fea68f463",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale",
+   "location": "Seattle, WA; Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-17T00:00:00.000Z",
+   "firstSeenAt": "2026-07-17T23:31:40.137Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:d8d123d94016358621fc17b2dcc78b3719e366cb",
