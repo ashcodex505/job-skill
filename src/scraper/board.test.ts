@@ -28,7 +28,7 @@ describe("mergeBoard", () => {
       updatedAt: "2026-07-01T00:00:00.000Z",
       jobs: [{ ...job(), firstSeenAt: "2026-06-01T00:00:00.000Z" } as BoardData["jobs"][number]],
     };
-    const merged = mergeBoard(prev, [job(), job({ sourceId: "2", dedupeKey: "greenhouse:2" })], NOW);
+    const merged = mergeBoard(prev, [job(), job({ sourceId: "2", dedupeKey: "greenhouse:2", url: "https://stripe.com/jobs/2" })], NOW);
     expect(merged.jobs.find((j) => j.dedupeKey === "greenhouse:1")!.firstSeenAt).toBe("2026-06-01T00:00:00.000Z");
     expect(merged.jobs.find((j) => j.dedupeKey === "greenhouse:2")!.firstSeenAt).toBe(NOW);
   });
@@ -36,7 +36,7 @@ describe("mergeBoard", () => {
   it("moves vanished jobs to the closed list with a closedAt stamp", () => {
     const prev: BoardData = {
       updatedAt: NOW,
-      jobs: [{ ...job({ dedupeKey: "greenhouse:gone", title: "Gone Intern" }), firstSeenAt: "2026-06-01T00:00:00.000Z" } as BoardData["jobs"][number]],
+      jobs: [{ ...job({ dedupeKey: "greenhouse:gone", title: "Gone Intern", url: "https://stripe.com/jobs/gone" }), firstSeenAt: "2026-06-01T00:00:00.000Z" } as BoardData["jobs"][number]],
     };
     const merged = mergeBoard(prev, [job()], NOW);
     expect(merged.jobs.map((j) => j.dedupeKey)).toEqual(["greenhouse:1"]);
@@ -79,7 +79,7 @@ describe("mergeBoard", () => {
     const prev: BoardData = {
       updatedAt: NOW,
       jobs: [
-        { ...job({ company: "OpenAI", dedupeKey: "ashby:9" }), firstSeenAt: "2026-06-01T00:00:00.000Z" } as BoardData["jobs"][number],
+        { ...job({ company: "OpenAI", dedupeKey: "ashby:9", url: "https://openai.com/jobs/9" }), firstSeenAt: "2026-06-01T00:00:00.000Z" } as BoardData["jobs"][number],
       ],
     };
     const merged = mergeBoard(prev, [job()], NOW, ["Stripe"]); // OpenAI not scanned
@@ -112,7 +112,7 @@ describe("mergeBoard feed-source semantics", () => {
 
 describe("closeJobs", () => {
   it("moves the named jobs to closed (dead links)", () => {
-    const board = mergeBoard(null, [job(), job({ sourceId: "2", dedupeKey: "greenhouse:2" })], NOW);
+    const board = mergeBoard(null, [job(), job({ sourceId: "2", dedupeKey: "greenhouse:2", url: "https://stripe.com/jobs/2" })], NOW);
     const result = closeJobs(board, new Set(["greenhouse:2"]), NOW);
     expect(result.jobs.map((j) => j.dedupeKey)).toEqual(["greenhouse:1"]);
     expect(result.closed!.map((c) => c.dedupeKey)).toEqual(["greenhouse:2"]);
@@ -193,5 +193,53 @@ describe("resolvePostedAt / posted-vs-first-seen consistency", () => {
     expect(new Date(second.jobs[0].postedAt!).getTime()).toBeLessThanOrEqual(
       new Date(second.jobs[0].firstSeenAt).getTime(),
     );
+  });
+});
+
+describe("cross-source board identity (source flip-flop must not re-alert)", () => {
+  const NOW2 = "2026-07-16T00:00:00.000Z";
+  const workdayCopy = job({
+    source: "workday",
+    sourceId: "JR1",
+    dedupeKey: "workday:JR1",
+    url: "https://x.wd5.myworkdayjobs.com/en-US/SiteName/job/Role_JR1",
+    postedAt: "2026-07-01",
+  });
+  const feedCopy = job({
+    source: "speedyapply",
+    sourceId: null,
+    dedupeKey: "speedyapply:sha1:abc",
+    url: "https://x.wd5.myworkdayjobs.com/en-US/sitename/job/Role_JR1?utm_source=feed",
+    postedAt: "2026-07-02",
+  });
+
+  it("a feed-only run does not duplicate a carried adapter row for the same URL", () => {
+    // Full run put the workday copy on the board.
+    const full = mergeBoard(null, [workdayCopy], "2026-07-10T00:00:00.000Z");
+    // Feed-only run: workday's company NOT scanned, only the feed source.
+    const feedRun = mergeBoard(full, [feedCopy], NOW2, { companies: [], sources: ["speedyapply"] });
+    expect(feedRun.jobs).toHaveLength(1);
+    // Same posting: firstSeenAt and the earliest posted date survive the source switch.
+    expect(feedRun.jobs[0].firstSeenAt).toBe("2026-07-10T00:00:00.000Z");
+    expect(feedRun.jobs[0].postedAt).toBe("2026-07-01");
+    expect(feedRun.closed ?? []).toHaveLength(0);
+  });
+
+  it("diffNewJobs does not flag a source switch or a close/reopen as new", async () => {
+    const { diffNewJobs } = await import("./board");
+    const full = mergeBoard(null, [workdayCopy], "2026-07-10T00:00:00.000Z");
+    const feedRun = mergeBoard(full, [feedCopy], NOW2, { companies: [], sources: ["speedyapply"] });
+    expect(diffNewJobs(full, feedRun)).toHaveLength(0);
+
+    // Close it (full scan, absent), then it reappears from the feed.
+    const closedRun = mergeBoard(feedRun, [], "2026-07-16T06:00:00.000Z", { companies: [], sources: ["speedyapply"] });
+    expect(closedRun.closed).toHaveLength(1);
+    const reopened = mergeBoard(closedRun, [feedCopy], "2026-07-16T12:00:00.000Z", { companies: [], sources: ["speedyapply"] });
+    expect(diffNewJobs(closedRun, reopened)).toHaveLength(0);
+
+    // A genuinely new posting IS flagged.
+    const fresh = job({ dedupeKey: "greenhouse:999", sourceId: "999", url: "https://boards.greenhouse.io/x/999" });
+    const withFresh = mergeBoard(reopened, [feedCopy, fresh], "2026-07-16T13:00:00.000Z");
+    expect(diffNewJobs(reopened, withFresh).map((j) => j.dedupeKey)).toEqual(["greenhouse:999"]);
   });
 });

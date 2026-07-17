@@ -3,8 +3,8 @@ import path from "node:path";
 import { migrate } from "drizzle-orm/libsql/migrator";
 import { db } from "@/db";
 import { matchWatches, parseWatchlist } from "@/lib/career/watchlist";
-import { selectBigTechAlerts } from "./big-tech-alert";
-import { closeJobs, mergeBoard, renderJobsMarkdown, updateReadme, type BoardData, type BoardJob } from "./board";
+import { filterUnalerted, recordAlerted, selectBigTechAlerts, type AlertLedger } from "./big-tech-alert";
+import { closeJobs, diffNewJobs, mergeBoard, renderJobsMarkdown, updateReadme, type BoardData, type BoardJob } from "./board";
 import { renderNewJobsAlertTable } from "./job-alert";
 import { COMPANY_PORTALS } from "./registry";
 import { runScraper } from "./run";
@@ -126,11 +126,20 @@ async function main() {
     board = closeJobs(board, dead, now);
   }
 
-  // Diff vs the previous board for humans and CI.
-  const prevKeys = new Set((previous?.jobs ?? []).map((j) => j.dedupeKey));
-  const newJobs = board.jobs.filter((j) => !prevKeys.has(j.dedupeKey));
+  // Diff vs the previous board for humans and CI. "New" is decided by
+  // canonical URL across active + recently-closed rows, so a posting that
+  // switched sources or briefly closed never re-alerts (see diffNewJobs).
+  const newJobs = diffNewJobs(previous, board);
+  // Belt and suspenders: the committed ledger of already-notified postings.
+  const ledgerFile = path.join(ROOT, "board", "alerted.json");
+  let ledger: AlertLedger = {};
+  try {
+    ledger = JSON.parse(fs.readFileSync(ledgerFile, "utf8"));
+  } catch {
+    /* first run */
+  }
   // Urgent = watchlist matches among jobs that appeared THIS cycle.
-  const urgent = matchWatches(watches, newJobs);
+  const urgent = filterUnalerted(ledger, matchWatches(watches, newJobs));
 
   fs.mkdirSync(path.dirname(STATE_FILE), { recursive: true });
   fs.writeFileSync(STATE_FILE, JSON.stringify(board, null, 1));
@@ -166,7 +175,7 @@ async function main() {
 
   // Big-tech/unicorn stream: separate high-signal issue, never double-firing
   // for jobs the watchlist already alerted on.
-  const bigTech = selectBigTechAlerts(newJobs, urgent);
+  const bigTech = filterUnalerted(ledger, selectBigTechAlerts(newJobs, urgent));
   const bigTechTitle =
     bigTech.length === 1
       ? `${bigTech[0].company} — ${bigTech[0].title}`.replace(/[\r\n]/g, " ").slice(0, 150)
@@ -176,6 +185,12 @@ async function main() {
     writeIfEnv("BOARD_BIGTECH_FILE", `${renderNewJobsAlertTable(bigTech, now)}\n`, false);
   }
   writeIfEnv("GITHUB_OUTPUT", `bigtech_count=${bigTech.length}\nbigtech_title=${bigTechTitle}\n`, true);
+
+  // Record everything we are about to notify on so it can never re-alert.
+  const alerted = [...urgent, ...bigTech];
+  if (alerted.length > 0) {
+    fs.writeFileSync(ledgerFile, JSON.stringify(recordAlerted(ledger, alerted, now), null, 1));
+  }
 
   // Sanity check the marker invariant before letting CI commit the result.
   const readme = fs.readFileSync(README_MD, "utf8");

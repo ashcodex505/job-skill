@@ -1,5 +1,5 @@
 import type { ScoreBreakdown } from "./classify";
-import { FEED_SOURCES } from "./normalize";
+import { canonicalUrl, FEED_SOURCES } from "./normalize";
 import type { NormalizedJob } from "./normalize";
 
 /**
@@ -36,6 +36,8 @@ export interface ClosedJob {
   roleType: string;
   firstSeenAt: string;
   closedAt: string;
+  /** Optional: board states written before cross-source identity lack it. */
+  url?: string;
 }
 
 export interface BoardData {
@@ -96,12 +98,24 @@ export function mergeBoard(
   const prevActive = previous?.jobs ?? [];
   const prevClosed = previous?.closed ?? [];
   const prevByKey = new Map(prevActive.map((j) => [j.dedupeKey, j]));
+  // Cross-source identity: the same posting arrives as workday:JR… on a full
+  // run but speedyapply:sha1(url) on a feed-only run. Matching by canonical
+  // URL keeps it ONE board row with one firstSeenAt, whichever source
+  // delivered it this cycle.
+  const prevByUrl = new Map(prevActive.map((j) => [canonicalUrl(j.url), j]));
   const closedByKey = new Map(prevClosed.map((c) => [c.dedupeKey, c]));
+  const closedByUrl = new Map(prevClosed.filter((c) => c.url).map((c) => [canonicalUrl(c.url!), c]));
   const scrapedKeys = new Set(scraped.map((j) => j.dedupeKey));
+  const scrapedUrls = new Set(scraped.map((j) => canonicalUrl(j.url)));
 
   const jobs: BoardJob[] = scraped.map((j) => {
+    const prev = prevByKey.get(j.dedupeKey) ?? prevByUrl.get(canonicalUrl(j.url));
     // Reopened jobs recover their original firstSeenAt from the closed list.
-    const firstSeenAt = prevByKey.get(j.dedupeKey)?.firstSeenAt ?? closedByKey.get(j.dedupeKey)?.firstSeenAt ?? now;
+    const firstSeenAt =
+      prev?.firstSeenAt ??
+      closedByKey.get(j.dedupeKey)?.firstSeenAt ??
+      closedByUrl.get(canonicalUrl(j.url))?.firstSeenAt ??
+      now;
     return {
       dedupeKey: j.dedupeKey,
       source: j.source,
@@ -114,7 +128,7 @@ export function mergeBoard(
       score: j.score,
       matchedSkills: j.matchedSkills,
       breakdown: j.breakdown,
-      postedAt: resolvePostedAt(prevByKey.get(j.dedupeKey)?.postedAt, j.postedAt, firstSeenAt),
+      postedAt: resolvePostedAt(prev?.postedAt, j.postedAt, firstSeenAt),
       firstSeenAt,
     };
   });
@@ -122,6 +136,9 @@ export function mergeBoard(
   const newlyClosed: ClosedJob[] = [];
   for (const j of prevActive) {
     if (scrapedKeys.has(j.dedupeKey)) continue;
+    // Another source delivered this same posting this cycle — the scraped
+    // copy already represents it; carrying this row too would duplicate it.
+    if (scrapedUrls.has(canonicalUrl(j.url))) continue;
     if (!wasScanned(j)) {
       jobs.push(j); // carried forward — no fresh data for this company
     } else {
@@ -133,15 +150,37 @@ export function mergeBoard(
         roleType: j.roleType,
         firstSeenAt: j.firstSeenAt,
         closedAt: now,
+        url: j.url,
       });
     }
   }
 
-  const closed = [...prevClosed.filter((c) => !scrapedKeys.has(c.dedupeKey)), ...newlyClosed].filter(
+  const closed = [...prevClosed.filter((c) => !scrapedKeys.has(c.dedupeKey) && !(c.url && scrapedUrls.has(canonicalUrl(c.url)))), ...newlyClosed].filter(
     (c) => new Date(now).getTime() - new Date(c.closedAt).getTime() < CLOSED_RETENTION_MS,
   );
 
   return { updatedAt: now, jobs, closed };
+}
+
+/**
+ * Jobs that are genuinely new to the board this cycle: their canonical URL
+ * (and dedupe key) appeared neither among the previous board's active jobs
+ * nor its recently-closed list. A posting that merely switched sources
+ * between runs, or briefly closed and reopened, is NOT new — alerting on it
+ * again would be noise.
+ */
+export function diffNewJobs(previous: BoardData | null, board: BoardData): BoardJob[] {
+  const prevKeys = new Set<string>();
+  const prevUrls = new Set<string>();
+  for (const j of previous?.jobs ?? []) {
+    prevKeys.add(j.dedupeKey);
+    prevUrls.add(canonicalUrl(j.url));
+  }
+  for (const c of previous?.closed ?? []) {
+    prevKeys.add(c.dedupeKey);
+    if (c.url) prevUrls.add(canonicalUrl(c.url));
+  }
+  return board.jobs.filter((j) => !prevKeys.has(j.dedupeKey) && !prevUrls.has(canonicalUrl(j.url)));
 }
 
 /** Move specific active jobs (e.g. dead links) to the closed list. */

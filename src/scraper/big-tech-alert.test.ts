@@ -68,3 +68,23 @@ describe("selectBigTechAlerts", () => {
     expect(picked).toHaveLength(0);
   });
 });
+
+describe("alert ledger", () => {
+  it("filters previously alerted postings by canonical URL, whatever the source", async () => {
+    const { filterUnalerted, recordAlerted } = await import("./big-tech-alert");
+    const a = job({ company: "Google", title: "SWE Intern" });
+    const ledger = recordAlerted({}, [a], "2026-07-16T00:00:00.000Z");
+    // Same URL with tracking params / different case must still be blocked.
+    const again = { ...a, url: a.url.toUpperCase() + "?utm_source=Simplify" };
+    expect(filterUnalerted(ledger, [again])).toHaveLength(0);
+    expect(filterUnalerted(ledger, [job({ company: "Stripe", url: "https://stripe.com/jobs/2" })])).toHaveLength(1);
+  });
+
+  it("prunes ledger entries older than 180 days", async () => {
+    const { recordAlerted } = await import("./big-tech-alert");
+    const old = { "example.com/ancient": "2025-12-01T00:00:00.000Z" };
+    const next = recordAlerted(old, [job({ company: "Google" })], "2026-07-16T00:00:00.000Z");
+    expect(Object.keys(next)).toHaveLength(1);
+    expect(next["example.com/ancient"]).toBeUndefined();
+  });
+});

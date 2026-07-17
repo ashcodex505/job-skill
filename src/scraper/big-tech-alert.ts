@@ -1,4 +1,4 @@
-import { isApprovedCompany } from "./normalize";
+import { canonicalUrl, isApprovedCompany } from "./normalize";
 import type { BoardJob } from "./board";
 
 /**
@@ -62,4 +62,33 @@ export function selectBigTechAlerts(newJobs: BoardJob[], alreadyAlerted: BoardJo
     if (EXCLUDED_TITLE.test(job.title)) return false;
     return isApprovedCompany(job.company, BIG_TECH_COMPANIES);
   });
+}
+
+// ── Alert ledger ──────────────────────────────────────────────────────
+/**
+ * Hard guarantee against repeat notifications: every posting ever included
+ * in a ⭐ big-tech or 🚨 urgent issue is recorded by canonical URL in
+ * board/alerted.json (committed alongside the board). Whatever the diff
+ * logic decides, a URL in the ledger is never alerted again.
+ */
+export interface AlertLedger {
+  [canonicalJobUrl: string]: string; // ISO date first alerted
+}
+
+const LEDGER_RETENTION_MS = 180 * 24 * 60 * 60 * 1000;
+
+export function filterUnalerted(ledger: AlertLedger, jobs: BoardJob[]): BoardJob[] {
+  return jobs.filter((j) => !(canonicalUrl(j.url) in ledger));
+}
+
+/** Returns a new ledger with `alerted` recorded and stale entries pruned. */
+export function recordAlerted(ledger: AlertLedger, alerted: BoardJob[], now: string): AlertLedger {
+  const next: AlertLedger = {};
+  const cutoff = new Date(now).getTime() - LEDGER_RETENTION_MS;
+  for (const [url, at] of Object.entries(ledger)) {
+    const t = new Date(at).getTime();
+    if (Number.isFinite(t) && t >= cutoff) next[url] = at;
+  }
+  for (const j of alerted) next[canonicalUrl(j.url)] = now;
+  return next;
 }
