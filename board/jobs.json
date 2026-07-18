@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-18T08:26:27.998Z",
+ "updatedAt": "2026-07-18T10:03:23.254Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
@@ -706,28 +706,6 @@
    "firstSeenAt": "2026-07-10T08:47:11.987Z"
   },
   {
-   "dedupeKey": "simplifyjobs:13834a5f-488b-4fc4-bdd9-d3bff5044f25",
-   "source": "simplifyjobs",
-   "company": "Cadence Design Systems",
-   "title": "Software Engineer New Grad - Undergrads",
-   "location": "Burlington, MA",
-   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-3",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-09T00:00:00.000Z",
-   "firstSeenAt": "2026-07-10T08:47:11.987Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:c368c0a9-db8e-455c-b06c-c18575c7b04d",
    "source": "simplifyjobs",
    "company": "Northslope Technologies",
@@ -791,28 +769,6 @@
     "skills": 0
    },
    "postedAt": "2026-07-13T17:48:50-04:00",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:58e0500b-3577-4e69-9d43-b710f8155f10",
-   "source": "simplifyjobs",
-   "company": "NVIDIA",
-   "title": "Backend Compiler Engineer New Grad",
-   "location": "Canada; Santa Clara, CA",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-13T00:00:00.000Z",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -25295,6 +25251,26 @@
    "firstSeenAt": "2026-07-17T23:31:40.137Z",
    "closedAt": "2026-07-18T07:13:21.382Z",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957"
+  },
+  {
+   "dedupeKey": "simplifyjobs:13834a5f-488b-4fc4-bdd9-d3bff5044f25",
+   "company": "Cadence Design Systems",
+   "title": "Software Engineer New Grad - Undergrads",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-10T08:47:11.987Z",
+   "closedAt": "2026-07-18T10:03:23.254Z",
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-3"
+  },
+  {
+   "dedupeKey": "simplifyjobs:58e0500b-3577-4e69-9d43-b710f8155f10",
+   "company": "NVIDIA",
+   "title": "Backend Compiler Engineer New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-07-18T10:03:23.254Z",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242"
   }
  ]
 }
