@@ -1,643 +1,6 @@
 {
- "updatedAt": "2026-07-18T07:13:21.382Z",
+ "updatedAt": "2026-07-18T08:26:27.998Z",
  "jobs": [
-  {
-   "dedupeKey": "greenhouse:7991718",
-   "source": "greenhouse",
-   "company": "Stripe",
-   "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
-   "location": "Toronto",
-   "url": "https://stripe.com/jobs/search?gh_jid=7991718",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 83,
-   "matchedSkills": [
-    "Java",
-    "JavaScript"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-06-11T01:14:48.000Z",
-   "firstSeenAt": "2026-07-04T20:13:25.659Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8052785",
-   "source": "greenhouse",
-   "company": "Cloudflare",
-   "title": "Software Engineer Intern (Fall 2026) - Austin, TX",
-   "location": "In-Office",
-   "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "JavaScript"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2026-07-15",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8052083",
-   "source": "greenhouse",
-   "company": "Hudson River Trading",
-   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
-   "location": "Austin, TX, United States; Chicago, Illinois, United States; New York, NY, United States; Singapore",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-07-13T17:48:50-04:00",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5162263007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "2027 Early Career Software Engineer",
-   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-06-12",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8403219002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "Fall 2026 Software Engineering Internship/Co-op",
-   "location": "Flexible - Any SpaceX Site",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "JavaScript",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-03-18",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:2e6b0ac8-83e9-4be5-a3aa-cf319f751728",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, New Grad - Commercial",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2025-06-13T23:45:06.552Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:e500bcf3-19d8-4d3c-b340-4d76e4a55b40",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, New Grad - Commercial",
-   "location": "Chicago, IL",
-   "url": "https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-29T14:44:20.702Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:fbca0358-083a-4222-bdbb-3bd729b48382",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, New Grad - Intel, US Government",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-15T16:08:02.343Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:cbe90327-3e6e-451c-a54c-1d3cbcef5aeb",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, New Grad - US Government",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2022-06-30T22:59:08.115Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:d1ac83d0-e923-42a5-8e6d-58dd0cab25ca",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, New Grad - US Government",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2022-06-30T22:50:16.107Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:94984771-0704-446c-88c6-91ce748f6d92",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2021-07-01T20:24:57.701Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:c34b424e-caf2-455a-b104-ae1096ccca29",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad",
-   "location": "Denver, CO",
-   "url": "https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2020-10-27T18:32:40.993Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:0a838e66-1ab0-4fc4-b4d3-4671c0352278",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Defense",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-06-19T01:34:22.911Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:18d901fc-93bb-4d18-9f04-c72031e20d79",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Defense",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-06-19T01:37:46.017Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:f362d7aa-360d-4059-ab38-f482742693b3",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Defense",
-   "location": "Palo Alto, CA",
-   "url": "https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-06-19T01:36:20.878Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:4abf26b4-795c-420a-bf22-1ab98db268b4",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Infrastructure",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/4abf26b4-795c-420a-bf22-1ab98db268b4",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-06-26T01:01:09.277Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:7d75bed5-45d8-4876-840a-2d92ea79c98d",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Infrastructure",
-   "location": "Palo Alto, CA",
-   "url": "https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-08-19T09:45:38.032Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:15844944-fb69-4b57-9531-e988650b20c6",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Production Infrastructure",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-08-19T09:37:18.891Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:4d5a144e-87ea-45e2-a68c-3fad590629af",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Production Infrastructure",
-   "location": "Seattle, WA",
-   "url": "https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-06-26T19:54:49.498Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:e1a6c138-98bf-45e2-97f7-2c70371cc38a",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Production Infrastructure",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-06-26T19:53:39.925Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "ashby:a6311f97-4850-4674-a5f3-d9fe5f6f2555",
-   "source": "ashby",
-   "company": "Notion",
-   "title": "Software Engineer, New Grad",
-   "location": "San Francisco, California",
-   "url": "https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 88,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "JavaScript",
-    "React",
-    "Node.js"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 8
-   },
-   "postedAt": "2026-04-23T21:27:21.811+00:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "ashby:5b15697c-fa91-4511-9482-c98a6ff29f90",
-   "source": "ashby",
-   "company": "Notion",
-   "title": "Software Engineer Intern (Fall 2026)",
-   "location": "San Francisco, California",
-   "url": "https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "React",
-    "Node.js"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-04-06T22:40:58.312+00:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "ashby:7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9",
-   "source": "ashby",
-   "company": "Notion",
-   "title": "Software Engineer, New Grad (AI)",
-   "location": "San Francisco, California",
-   "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 86,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "React",
-    "Node.js"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-04-27T16:15:40.996+00:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
-   "source": "ashby",
-   "company": "Notion",
-   "title": "Software Engineer, Early Career (AI)",
-   "location": "San Francisco, California",
-   "url": "https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 88,
-   "matchedSkills": [
-    "TypeScript",
-    "React",
-    "Node.js",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 8
-   },
-   "postedAt": "2026-07-06T18:37:42.434+00:00",
-   "firstSeenAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "ashby:297b4ece-765f-4eea-b1b8-46057cb6501f",
-   "source": "ashby",
-   "company": "Notion",
-   "title": "Software Engineer, Early Career",
-   "location": "San Francisco, California",
-   "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 88,
-   "matchedSkills": [
-    "TypeScript",
-    "React",
-    "Node.js",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 8
-   },
-   "postedAt": "2026-07-06T18:37:35.161+00:00",
-   "firstSeenAt": "2026-07-06T19:13:12.302Z"
-  },
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
    "source": "simplifyjobs",
@@ -835,6 +198,28 @@
    },
    "postedAt": "2026-05-16T15:28:40.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a55aca04-011d-41fa-949e-be14c4e3956f",
+   "source": "simplifyjobs",
+   "company": "Stripe",
+   "title": "Software Engineer New Grad",
+   "location": "Toronto, ON, Canada",
+   "url": "https://stripe.com/jobs/search?gh_jid=7991718",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-11T01:14:48.000Z",
+   "firstSeenAt": "2026-07-04T20:13:25.659Z"
   },
   {
    "dedupeKey": "simplifyjobs:1f6bee99-9cca-467c-a0b3-899d61139a03",
@@ -1387,6 +772,28 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "simplifyjobs:053e56c0-3d9e-4d1c-83c7-b891671a652c",
+   "source": "simplifyjobs",
+   "company": "Hudson River Trading",
+   "title": "Algorithm Developer New Grad - Quant Researcher",
+   "location": "NYC",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052050",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-13T17:48:50-04:00",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:58e0500b-3577-4e69-9d43-b710f8155f10",
    "source": "simplifyjobs",
    "company": "NVIDIA",
@@ -1626,6 +1033,28 @@
     "skills": 0
    },
    "postedAt": "2026-06-04",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:04c21c4f85670c0444fd045150be67146b6c9cae",
+   "source": "speedyapply",
+   "company": "Cloudflare",
+   "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
+   "location": "Austin, TX",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-15",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1893,6 +1322,28 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:3ba6c184594e6a06ed18b183750aad9895a92c14",
+   "source": "speedyapply",
+   "company": "Notion",
+   "title": "Software Engineer Intern - Fall 2026",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-04-06T22:40:58.312+00:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:abcb98ac2fc9dd7dec429a5ef6a7ff1b7dfdf7fb",
    "source": "speedyapply",
    "company": "Hermeus",
@@ -2025,6 +1476,28 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:fd975fae1866d34992e2dfd6f66ec17bc4f967da",
+   "source": "speedyapply",
+   "company": "Notion",
+   "title": "Software Engineer - Early Career",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-06T18:37:35.161+00:00",
+   "firstSeenAt": "2026-07-06T19:13:12.302Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:6d25244800e12a5f87a30281e1651fd3c6133fd1",
    "source": "speedyapply",
    "company": "Varsity Brands",
@@ -2045,6 +1518,28 @@
    },
    "postedAt": "2026-07-02",
    "firstSeenAt": "2026-07-15T15:00:25.217Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:68cb29370f2ac31ef95d01e0ed2ee07b9f6520ec",
+   "source": "speedyapply",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer - New Grad - Commercial",
+   "location": "Chicago, IL",
+   "url": "https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-29T14:44:20.702Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:173f1f3ba69d2f168c5abe6fe3e75f2e1c21e9aa",
@@ -2089,6 +1584,50 @@
    },
    "postedAt": "2026-06-19",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:526216f2ab0a518d3b00bfe9f70cf0a2725e47a4",
+   "source": "speedyapply",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer - New Grad - Intel - US Government",
+   "location": "Washington, DC",
+   "url": "https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-15T16:08:02.343Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:a1cf0c230be930a9b01d889bcd257d3c55c4394d",
+   "source": "speedyapply",
+   "company": "Anduril",
+   "title": "2027 Early Career Software Engineer",
+   "location": "Atlanta, GA +5",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-12",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:77a12a28dda2e355bfe32c3c0eb5b7ce12e269fe",
@@ -2155,6 +1694,28 @@
    },
    "postedAt": "2026-04-27",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:bf9c8cc6187c8af1ade021c4b71cef39b9c08a2f",
+   "source": "speedyapply",
+   "company": "Notion",
+   "title": "Software Engineer - New Grad",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-04-23T21:27:21.811+00:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:027408985c0eed87b5281b5cd58eeb471b91e06a",
@@ -2245,6 +1806,414 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "greenhouse:8403219002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "Fall 2026 Software Engineering Internship/Co-op",
+   "location": "Flexible - Any SpaceX Site",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-03-18",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:2e6b0ac8-83e9-4be5-a3aa-cf319f751728",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer, New Grad - Commercial",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2025-06-13T23:45:06.552Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:cbe90327-3e6e-451c-a54c-1d3cbcef5aeb",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer, New Grad - US Government",
+   "location": "Washington, D.C.",
+   "url": "https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2022-06-30T22:59:08.115Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:d1ac83d0-e923-42a5-8e6d-58dd0cab25ca",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer, New Grad - US Government",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2022-06-30T22:50:16.107Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:94984771-0704-446c-88c6-91ce748f6d92",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2021-07-01T20:24:57.701Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:c34b424e-caf2-455a-b104-ae1096ccca29",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad",
+   "location": "Denver, CO",
+   "url": "https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2020-10-27T18:32:40.993Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:0a838e66-1ab0-4fc4-b4d3-4671c0352278",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Defense",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-06-19T01:34:22.911Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:18d901fc-93bb-4d18-9f04-c72031e20d79",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Defense",
+   "location": "Washington, D.C.",
+   "url": "https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-06-19T01:37:46.017Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:f362d7aa-360d-4059-ab38-f482742693b3",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Defense",
+   "location": "Palo Alto, CA",
+   "url": "https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-06-19T01:36:20.878Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:4abf26b4-795c-420a-bf22-1ab98db268b4",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Infrastructure",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/4abf26b4-795c-420a-bf22-1ab98db268b4",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-06-26T01:01:09.277Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:7d75bed5-45d8-4876-840a-2d92ea79c98d",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Infrastructure",
+   "location": "Palo Alto, CA",
+   "url": "https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-08-19T09:45:38.032Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:15844944-fb69-4b57-9531-e988650b20c6",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Production Infrastructure",
+   "location": "Washington, D.C.",
+   "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-08-19T09:37:18.891Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:4d5a144e-87ea-45e2-a68c-3fad590629af",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Production Infrastructure",
+   "location": "Seattle, WA",
+   "url": "https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-06-26T19:54:49.498Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:e1a6c138-98bf-45e2-97f7-2c70371cc38a",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Production Infrastructure",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-06-26T19:53:39.925Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "ashby:7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9",
+   "source": "ashby",
+   "company": "Notion",
+   "title": "Software Engineer, New Grad (AI)",
+   "location": "San Francisco, California",
+   "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 86,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "React",
+    "Node.js"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-04-27T16:15:40.996+00:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
+   "source": "ashby",
+   "company": "Notion",
+   "title": "Software Engineer, Early Career (AI)",
+   "location": "San Francisco, California",
+   "url": "https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 88,
+   "matchedSkills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-07-06T18:37:42.434+00:00",
+   "firstSeenAt": "2026-07-06T19:13:12.302Z"
+  },
+  {
    "dedupeKey": "workday:JR2017522",
    "source": "workday",
    "company": "NVIDIA",
@@ -2290,510 +2259,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "greenhouse:7249744",
-   "company": "Stripe",
-   "title": "Backend Engineer, Forward Deployed Engineering",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-04T20:13:25.659Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5090905007",
-   "company": "Anduril",
-   "title": "Data Engineer, Infrastructure FinOps",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5030310007",
-   "company": "Anduril",
-   "title": "Propulsion Test Infrastructure Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8516852002",
-   "company": "SpaceX",
-   "title": "Orbital Tube Welder (Fluid Systems)",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "workday:JR351111",
-   "company": "Salesforce",
-   "title": "Sales Strategy Associate Analyst, CRO Analytics - New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-10T08:47:11.987Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "workday:JR-0108314",
-   "company": "Workday",
-   "title": "Director, Global Emerging Talent Programs",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:dd87b060-5a3d-4c74-8789-3678f73ae793",
-   "company": "Trend Micro",
-   "title": "Applied AI Junior Web Developer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-08T18:52:48.051Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:84537aaf-2816-4b2c-9c5e-d04454e92f47",
-   "company": "Twitch",
-   "title": "Software Engineer 1",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f586670c-43fc-4aa0-876f-128f612b446a",
-   "company": "Motorola",
-   "title": "Junior Backend Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-08T07:44:25.607Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:9b41dc89-278f-49b2-9445-208d05b10583",
-   "company": "Nightwing Intelligence Solutions",
-   "title": "Software Engineer 1",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2394612c-0a97-4368-9a12-0c10a1dcec93",
-   "company": "KBR",
-   "title": "Junior Communications Systems Software Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a60589e5-e80f-4d78-ba44-106951463fba",
-   "company": "BP",
-   "title": "Supply and Shipping Graduate Program - Trading",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:27ef5a8e-e763-4329-8d8d-be131376e8d1",
-   "company": "Manulife Financial",
-   "title": "Data Analyst New Grad - Operations Data Analyst",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:7ba0f9a7-5a13-46be-b0dd-12ececc7cf35",
-   "company": "Radiance Technologies",
-   "title": "Entry-level Microelectronics Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c93b9c62-cd0a-4bd8-96be-17be52390763",
-   "company": "Northrop Grumman",
-   "title": "ServiceNow Developer - T1/ T2",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-08T07:44:25.607Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f0b5d4dc-e932-4eb9-a406-003fba8d30b1",
-   "company": "Transcend",
-   "title": "Software Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e8b32023-6f3e-4349-95bb-d9c742852714",
-   "company": "WVUMedicine",
-   "title": "Associate Systems Analyst",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:bbb87d56-02a4-4398-aa6c-977aa803e751",
-   "company": "Equifax",
-   "title": "Systems Analyst - Entry",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-07T04:28:41.886Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:bcbeaa17-8b2a-4a48-bc56-ae7f245fa7f0",
-   "company": "Amentum",
-   "title": "Entry Level Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-07T04:28:41.886Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:bf70e269-0f0c-4ba6-9c6d-ba877510df63",
-   "company": "The Boeing Company",
-   "title": "Entry Level Simulation Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-08T07:44:25.607Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:6f28959f-ed87-4de3-b9da-60e153c5463d",
-   "company": "The Boeing Company",
-   "title": "Entry Level Simulation Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-08T07:44:25.607Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a8310416-f49f-453b-98ea-266bb88d01b4",
-   "company": "General Dynamics Information Technology",
-   "title": "Software Developer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-08T18:52:48.051Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b0fc1f04-8798-4a46-a98c-012101ec8971",
-   "company": "The Boeing Company",
-   "title": "Modernization Software Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-09T03:58:33.661Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e20329ac-6427-4de0-96a0-96990e67b705",
-   "company": "Red Hat",
-   "title": "Associate Software Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-09T03:58:33.661Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:db2cd78b-7860-4653-a5d8-b6b7bd4a13dc",
-   "company": "Northrop Grumman",
-   "title": "Software Engineer 1 or 2",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-09T03:58:33.661Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c95931ec-9fb6-4e5a-8738-9e0b798ec8f1",
-   "company": "Micron Technology",
-   "title": "New College Grad - Semiconductor Verification Design Engineer - DRAM Products Group",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-09T03:58:33.661Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:cff8b970-031c-4876-ac83-78d0d421356e",
-   "company": "The Boeing Company",
-   "title": "Modernization Software Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-09T03:58:33.661Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:d22c1210-fff3-4c96-be21-6a7567fc4ba2",
-   "company": "The Boeing Company",
-   "title": "Data Management Technical Specialist Entry Level",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-09T03:58:33.661Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e9c43dae-fd10-4421-856c-be3bb333bd42",
-   "company": "The Boeing Company",
-   "title": "Data Management Technical Specialist Entry Level",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-09T03:58:33.661Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:19f32ab3-2a4d-4e59-9937-92878312f48c",
-   "company": "Thoughtworks",
-   "title": "Graduate Developer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-09T03:58:33.661Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e866b75b-bf29-4798-bb4d-caaa7780849b",
-   "company": "Thermo Fisher Scientific",
-   "title": "AI Developer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-09T19:04:22.124Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:ff412e91-a5e3-48f6-8ed1-fa4ac83c5e81",
-   "company": "Cadence Design Systems",
-   "title": "Software Engineer New Grad - Undergrads",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-10T08:47:11.987Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:af755532-e162-46d6-a161-7874c1865c6e",
-   "company": "Cadence Design Systems",
-   "title": "Software Engineer New Grad - Undergrads",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-10T08:47:11.987Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:d084a76f-d982-4334-b23c-16232dd2c71a",
-   "company": "BillionToOne",
-   "title": "Software Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2bdc2d18-cdab-4fad-86d4-859502c8c4b5",
-   "company": "Vertex Pharmaceuticals",
-   "title": "AI and Governance Co-op - AI and Governance",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1cc4772b-29e5-48ac-a3b6-5ecb7c83060f",
-   "company": "Kinaxis",
-   "title": "Software Developer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:64f8ea93-94b9-49f5-8369-66579fc43d6d",
-   "company": "Worcester Polytechnic Institute",
-   "title": "Research Software Engineer",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:7e945aa4-66d7-4494-a9df-1f3ac98f51ef",
-   "company": "Maple Leaf Sports & Entertainment Partnership (MLSE)",
-   "title": "Business Strategy & Analytics Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:82da1599-1528-4192-8849-d9fa626e285d",
-   "company": "DiDi Global",
-   "title": "Motion Planning Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a563a6da-dcd7-4320-a60e-89e6021a35c9",
-   "company": "Palo Alto Networks",
-   "title": "Software Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:733294db-8186-4a47-b274-92585cfb0b66",
-   "company": "Pika",
-   "title": "Research Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a904747c-0a1b-4b0e-822d-ca3184c2c4b5",
-   "company": "Royal Bank of Canada",
-   "title": "Relationship Manager Commercial Markets Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:28ba42da-8a23-42a0-8f6c-e867d40c6e48",
-   "company": "TDS",
-   "title": "GIS Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:eb7c9278-b747-41eb-bd43-ea34cc2fb046",
-   "company": "Moss & Associates",
-   "title": "Construction Technologies Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f55b9a62-891c-491e-b541-edf1e930d143",
-   "company": "Micron Technology",
-   "title": "Assembly Process Technician Intern - Yield Enhancement / Failure Analysis",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a86f5630-f0c3-4242-8953-47503546c39f",
-   "company": "Hitachi",
-   "title": "Software Analyst Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-07T08:48:39.256Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:fb3b592b-59ee-4129-a02a-eb7b7f2f0922",
-   "company": "Roche",
-   "title": "Business Data Analyst Intern - Business / Data Analyst",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-08T07:44:25.607Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:272daeda-6504-4221-a6fb-f2970bd123c7",
-   "company": "Royal Bank of Canada",
-   "title": "Data Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-08T07:44:25.607Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f3f6a8a3-c6c4-4a90-9a82-692f247c33fa",
-   "company": "Thales",
-   "title": "System Integration & Test Integration, Verification, Validation & Qualification Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-08T18:52:48.051Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:af313090-f2b7-4478-8239-1f0e03c22f17",
-   "company": "TelevisaUnivision",
-   "title": "Product Manager Co-op",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-09T03:58:33.661Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:aede4467-5907-43aa-850b-9d6349575538",
-   "company": "National Laboratory of the Rockies",
-   "title": "Associate/Undergraduate Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-09T03:58:33.661Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c1d1053c-438a-481e-8375-57149313ea2f",
-   "company": "National Laboratory of the Rockies",
-   "title": "Software and Data Infrastructure Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-09T03:58:33.661Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:dc9a39f7-72fa-452b-8863-2071f8e63489",
-   "company": "ABB",
-   "title": "Application Engineering Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-09T03:58:33.661Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:bfec588b-2456-423f-93e9-c55f47100e8e",
-   "company": "The Boeing Company",
-   "title": "Entry and Associate Design and Analysis Engineers - Electronic Systems Design and Analysis",
-   "season": null,
-   "roleType": "unknown",
-   "firstSeenAt": "2026-07-10T08:47:11.987Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b93ad719-d868-461f-85a0-10eb85509e6a",
-   "company": "Aptiv",
-   "title": "Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-10T08:47:11.987Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e52310c1-4967-4939-a114-b918546141cf",
-   "company": "ALFA LAVAL",
-   "title": "Database Analyst Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-10T18:55:15.314Z",
-   "closedAt": "2026-07-11T07:22:30.098Z"
-  },
   {
    "dedupeKey": "simplifyjobs:88f5a6f1-62c1-4a91-bf47-30e41b086fde",
    "company": "BrightAI",
