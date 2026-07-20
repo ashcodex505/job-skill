@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-20T17:06:43.731Z",
+ "updatedAt": "2026-07-20T19:06:44.325Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
@@ -65,28 +65,6 @@
     "skills": 0
    },
    "postedAt": "2026-04-24T22:08:41.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:af5452e3-4340-4d84-894b-cd012345a560",
-   "source": "simplifyjobs",
-   "company": "Mirage",
-   "title": "Software Engineer – Early Career",
-   "location": "NYC",
-   "url": "https://jobs.ashbyhq.com/mirage/cbf278fd-84ec-48d9-8052-b76abb035ac7/application",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-27T14:08:29.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
@@ -2416,6 +2394,16 @@
    "firstSeenAt": "2026-07-19T18:14:29.948Z",
    "closedAt": "2026-07-20T08:21:19.499Z",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715"
+  },
+  {
+   "dedupeKey": "simplifyjobs:af5452e3-4340-4d84-894b-cd012345a560",
+   "company": "Mirage",
+   "title": "Software Engineer – Early Career",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-20T19:06:44.325Z",
+   "url": "https://jobs.ashbyhq.com/mirage/cbf278fd-84ec-48d9-8052-b76abb035ac7/application"
   }
  ]
 }
