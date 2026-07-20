@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-20T22:11:04.099Z",
+ "updatedAt": "2026-07-20T23:36:06.644Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
@@ -880,6 +880,28 @@
    },
    "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:d03ac761-2dfa-4cd7-bd7c-797b6ff89c19",
+   "source": "simplifyjobs",
+   "company": "Capital One",
+   "title": "Software Engineer New Grad - Software Engineer",
+   "location": "Toronto, ON, Canada",
+   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Associate--Software-Engineer--New-Grad-Card-Expansion_R247320",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-20T00:00:00.000Z",
+   "firstSeenAt": "2026-07-20T23:36:06.644Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:d8d123d94016358621fc17b2dcc78b3719e366cb",
