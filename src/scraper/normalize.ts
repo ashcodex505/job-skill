@@ -6,7 +6,7 @@ import { classifyTitle, isUsRemoteOrHybridLocation, type Classification, type Sc
 export const FEED_SOURCES = new Set(["simplifyjobs", "speedyapply"]);
 
 export interface RawJob {
-  source: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "amazon" | "simplifyjobs" | "speedyapply";
+  source: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "amazon" | "eightfold" | "simplifyjobs" | "speedyapply";
   sourceId: string | null;
   company: string;
   title: string;

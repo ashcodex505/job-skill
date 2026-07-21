@@ -8,10 +8,19 @@
  *  - workday:         the career site's own JSON endpoint (rate-limited, GET-equivalent)
  *  - smartrecruiters: api.smartrecruiters.com/v1 postings (documented public API)
  *  - workable:        apply.workable.com widget API (documented public API)
+ *  - amazon:          amazon.jobs/en/search.json — Amazon's own site-search backend
+ *  - eightfold:        {tenant-host}/api/apply/v2/jobs — Eightfold-hosted career sites
+ *                      (confirmed: Netflix). Many other big companies use Eightfold
+ *                      under a tenant string that doesn't match their public domain
+ *                      and isn't guessable; add one only once its host+domain pair
+ *                      is confirmed working, the way Netflix's was.
  *
- * Companies with `ats: "unsupported"` use bespoke/anti-bot career portals
- * (Google, Apple, Meta, ...). We never bypass those — they are listed in the
- * UI with a careers link for manual checking, and are natural future adapters.
+ * Companies with `ats: "unsupported"` were checked and found to require
+ * authenticated/session-bound APIs, private GraphQL, or Akamai/edge anti-bot
+ * protection (Google, Apple, Meta, Microsoft, Uber, LinkedIn, Snowflake,
+ * Tesla — each individually confirmed, not assumed). We never bypass those;
+ * they're listed with a careers link for manual checking and are natural
+ * future adapters if that ever changes.
  *
  * A wrong slug only produces a per-company error in scraper_runs — the run
  * itself continues.
@@ -21,11 +30,13 @@ export interface CompanyPortal {
   name: string;
   website: string;
   careersUrl: string;
-  ats: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "amazon" | "unsupported";
+  ats: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "amazon" | "eightfold" | "unsupported";
   /** greenhouse board token / lever slug / ashby board name / smartrecruiters company id / workable account slug */
   slug?: string;
   /** workday only */
   workday?: { tenant: string; host: string; site: string };
+  /** eightfold only */
+  eightfold?: { host: string; domain: string };
 }
 
 export const COMPANY_PORTALS: CompanyPortal[] = [
@@ -60,9 +71,20 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Affirm", website: "https://affirm.com", careersUrl: "https://affirm.com/careers", ats: "greenhouse", slug: "affirm" },
   { name: "Lyft", website: "https://lyft.com", careersUrl: "https://lyft.com/careers", ats: "greenhouse", slug: "lyft" },
   { name: "Gusto", website: "https://gusto.com", careersUrl: "https://gusto.com/about/careers", ats: "greenhouse", slug: "gusto" },
+  { name: "Dropbox", website: "https://dropbox.com", careersUrl: "https://dropbox.com/jobs", ats: "greenhouse", slug: "dropbox" },
+  { name: "Twilio", website: "https://twilio.com", careersUrl: "https://twilio.com/en-us/company/jobs", ats: "greenhouse", slug: "twilio" },
+  { name: "Okta", website: "https://okta.com", careersUrl: "https://okta.com/company/careers", ats: "greenhouse", slug: "okta" },
+  { name: "Chime", website: "https://chime.com", careersUrl: "https://chime.com/careers", ats: "greenhouse", slug: "chime" },
+  { name: "Brex", website: "https://brex.com", careersUrl: "https://brex.com/careers", ats: "greenhouse", slug: "brex" },
+  { name: "Faire", website: "https://faire.com", careersUrl: "https://faire.com/careers", ats: "greenhouse", slug: "faire" },
+  { name: "Airtable", website: "https://airtable.com", careersUrl: "https://airtable.com/careers", ats: "greenhouse", slug: "airtable" },
+  { name: "Webflow", website: "https://webflow.com", careersUrl: "https://webflow.com/careers", ats: "greenhouse", slug: "webflow" },
+  { name: "Doximity", website: "https://doximity.com", careersUrl: "https://doximity.com/about/careers", ats: "greenhouse", slug: "doximity" },
+  { name: "Zscaler", website: "https://zscaler.com", careersUrl: "https://zscaler.com/careers", ats: "greenhouse", slug: "zscaler" },
 
   // ── Lever ───────────────────────────────────────────────────────────
   { name: "Palantir", website: "https://palantir.com", careersUrl: "https://palantir.com/careers", ats: "lever", slug: "palantir" },
+  { name: "Spotify", website: "https://spotify.com", careersUrl: "https://lifeatspotify.com", ats: "lever", slug: "spotify" },
 
   // ── Ashby ───────────────────────────────────────────────────────────
   { name: "OpenAI", website: "https://openai.com", careersUrl: "https://openai.com/careers", ats: "ashby", slug: "openai" },
@@ -73,6 +95,17 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Perplexity", website: "https://perplexity.ai", careersUrl: "https://perplexity.ai/careers", ats: "ashby", slug: "Perplexity" },
   { name: "ElevenLabs", website: "https://elevenlabs.io", careersUrl: "https://elevenlabs.io/careers", ats: "ashby", slug: "elevenlabs" },
   { name: "Supabase", website: "https://supabase.com", careersUrl: "https://supabase.com/careers", ats: "ashby", slug: "supabase" },
+  { name: "Zapier", website: "https://zapier.com", careersUrl: "https://zapier.com/jobs", ats: "ashby", slug: "zapier" },
+  { name: "Vanta", website: "https://vanta.com", careersUrl: "https://vanta.com/careers", ats: "ashby", slug: "vanta" },
+  { name: "Confluent", website: "https://confluent.io", careersUrl: "https://careers.confluent.io", ats: "ashby", slug: "confluent" },
+  { name: "Cohere", website: "https://cohere.com", careersUrl: "https://cohere.com/careers", ats: "ashby", slug: "cohere" },
+  { name: "Harvey", website: "https://harvey.ai", careersUrl: "https://harvey.ai/careers", ats: "ashby", slug: "harvey" },
+
+  // ── Eightfold ───────────────────────────────────────────────────────
+  {
+    name: "Netflix", website: "https://netflix.com", careersUrl: "https://explore.jobs.netflix.net/careers",
+    ats: "eightfold", eightfold: { host: "explore.jobs.netflix.net", domain: "netflix.com" },
+  },
 
   // ── SmartRecruiters ─────────────────────────────────────────────────
   { name: "Visa", website: "https://visa.com", careersUrl: "https://corporate.visa.com/en/jobs", ats: "smartrecruiters", slug: "visa" },
@@ -111,7 +144,6 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Google", website: "https://google.com", careersUrl: "https://google.com/about/careers/applications/jobs/results/?target_level=INTERN_AND_APPRENTICE,EARLY", ats: "unsupported" },
   { name: "Meta", website: "https://meta.com", careersUrl: "https://metacareers.com/jobs?is_in_page=0&sub_teams[0]=University%20Grad%20-%20Engineering%2C%20Tech%20%26%20Design", ats: "unsupported" },
   { name: "Microsoft", website: "https://microsoft.com", careersUrl: "https://careers.microsoft.com/v2/global/en/universityrecruiting", ats: "unsupported" },
-  { name: "Netflix", website: "https://netflix.com", careersUrl: "https://explore.jobs.netflix.net/careers", ats: "unsupported" },
   { name: "Uber", website: "https://uber.com", careersUrl: "https://uber.com/us/en/careers/teams/university/", ats: "unsupported" },
   { name: "LinkedIn", website: "https://linkedin.com", careersUrl: "https://careers.linkedin.com/students", ats: "unsupported" },
   { name: "Snowflake", website: "https://snowflake.com", careersUrl: "https://careers.snowflake.com/us/en/university-recruiting", ats: "unsupported" },

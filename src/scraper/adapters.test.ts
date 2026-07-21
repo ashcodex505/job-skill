@@ -302,3 +302,54 @@ describe("amazon adapter", () => {
     expect(jobs[0].postedAt).toBeNull();
   });
 });
+
+describe("eightfold adapter", () => {
+  const portal: CompanyPortal = {
+    name: "Netflix",
+    website: "https://netflix.com",
+    careersUrl: "https://explore.jobs.netflix.net/careers",
+    ats: "eightfold",
+    eightfold: { host: "explore.jobs.netflix.net", domain: "netflix.com" },
+  };
+
+  it("maps positions, dedupes across queries/pages, converts epoch-seconds postedAt", async () => {
+    mockFetchOnce({
+      "explore.jobs.netflix.net/api/apply/v2/jobs": {
+        count: 1,
+        positions: [
+          {
+            id: 790313241540,
+            name: "Software Engineer PhD Intern, Streaming Algorithms (Summer 2026)",
+            location: "Los Gatos,California,United States of America",
+            t_create: 1765324800,
+            canonicalPositionUrl: "https://explore.jobs.netflix.net/careers/job/790313241540",
+          },
+        ],
+      },
+    });
+    const jobs = await ADAPTERS.eightfold(portal);
+    // Same single position returned on every page of every query — one row.
+    expect(jobs).toHaveLength(1);
+    expect(jobs[0]).toMatchObject({
+      source: "eightfold",
+      sourceId: "790313241540",
+      company: "Netflix",
+      title: "Software Engineer PhD Intern, Streaming Algorithms (Summer 2026)",
+      location: "Los Gatos,California,United States of America",
+      url: "https://explore.jobs.netflix.net/careers/job/790313241540",
+      postedAt: new Date(1765324800 * 1000).toISOString(),
+    });
+  });
+
+  it("throws a clear error when eightfold config is missing", async () => {
+    await expect(ADAPTERS.eightfold({ ...portal, eightfold: undefined })).rejects.toThrow(/eightfold config/i);
+  });
+
+  it("stops paginating a query once a short page is returned", async () => {
+    mockFetchOnce({
+      "explore.jobs.netflix.net/api/apply/v2/jobs": { count: 0, positions: [] },
+    });
+    const jobs = await ADAPTERS.eightfold(portal);
+    expect(jobs).toHaveLength(0);
+  });
+});

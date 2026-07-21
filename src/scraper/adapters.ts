@@ -143,6 +143,61 @@ async function scrapeSmartRecruiters(portal: CompanyPortal): Promise<RawJob[]> {
   return jobs;
 }
 
+// ── Eightfold (public search API behind many corporate career sites) ──
+/**
+ * https://{host}/api/apply/v2/jobs?domain={domain}&query=…&start=…&num=…
+ * No auth. Netflix (explore.jobs.netflix.net) confirmed working; the page
+ * size is fixed at 10 regardless of the requested `num`, so pagination is a
+ * `start` loop, capped like the other paginated adapters. Query text like
+ * "software engineer intern" does a loose full-text match (returns some
+ * senior titles too) — classifyTitle does the real filtering, same as every
+ * other adapter.
+ */
+interface EightfoldJob {
+  id: number;
+  name: string;
+  location: string;
+  t_create?: number; // epoch seconds
+  canonicalPositionUrl: string;
+}
+
+const EIGHTFOLD_QUERIES = ["software engineer intern", "software engineer new grad", "software engineer early career"];
+const EIGHTFOLD_PAGE_SIZE = 10;
+const EIGHTFOLD_MAX_PAGES = 5; // 50 results per query, per company — stays polite
+
+async function scrapeEightfold(portal: CompanyPortal): Promise<RawJob[]> {
+  const ef = portal.eightfold;
+  if (!ef) throw new Error("Missing eightfold config");
+  const byId = new Map<string, RawJob>();
+  for (const query of EIGHTFOLD_QUERIES) {
+    for (let page = 0; page < EIGHTFOLD_MAX_PAGES; page++) {
+      const start = page * EIGHTFOLD_PAGE_SIZE;
+      const data = await fetchJson<{ count: number; positions: EightfoldJob[] }>(
+        `https://${ef.host}/api/apply/v2/jobs?domain=${encodeURIComponent(ef.domain)}&start=${start}&num=${EIGHTFOLD_PAGE_SIZE}&query=${encodeURIComponent(query)}`,
+      );
+      const positions = data.positions ?? [];
+      for (const p of positions) {
+        const sourceId = String(p.id);
+        if (byId.has(sourceId)) continue;
+        byId.set(sourceId, {
+          source: "eightfold",
+          sourceId,
+          company: portal.name,
+          title: p.name,
+          location: p.location ?? null,
+          url: p.canonicalPositionUrl,
+          postedAt: p.t_create ? new Date(p.t_create * 1000).toISOString() : null,
+          description: null,
+        });
+      }
+      if (positions.length < EIGHTFOLD_PAGE_SIZE || start + EIGHTFOLD_PAGE_SIZE >= data.count) break;
+      await sleep(300);
+    }
+    await sleep(300);
+  }
+  return [...byId.values()];
+}
+
 // ── Workable (official public widget API) ─────────────────────────────
 interface WorkableJob {
   title: string;
@@ -447,4 +502,5 @@ export const ADAPTERS: Record<string, (portal: CompanyPortal) => Promise<RawJob[
   smartrecruiters: scrapeSmartRecruiters,
   workable: scrapeWorkable,
   amazon: scrapeAmazon, // takes no portal-specific config; see scrapeAmazon
+  eightfold: scrapeEightfold,
 };
