@@ -1,13 +1,23 @@
-# Feed watcher: fires the scrape ONLY when one of the watched job repos
-# (SimplifyJobs/New-Grad-Positions, SimplifyJobs/Summer2027-Internships,
-# speedyapply/2027-SWE-College-Jobs) receives a new commit. GitHub cannot
-# trigger cross-repo, so an hourly poll compares their HEAD SHAs against
-# board/feed-heads.json and exits in seconds when nothing changed.
+# Feed watcher: fires the community-feed scrape ONLY when one of the watched
+# job repos (SimplifyJobs/New-Grad-Positions, SimplifyJobs/Summer2027-
+# Internships, speedyapply/2027-SWE-College-Jobs) receives a new commit.
+# GitHub cannot trigger cross-repo, so an hourly poll compares their HEAD
+# SHAs against board/feed-heads.json and exits in seconds when nothing
+# changed.
 #
-# Notifications are intentionally sparse: a ⭐ big-tech issue only when new
-# big-tech/FAANG/unicorn intern or new-grad roles appear (quant/banks
-# excluded — src/scraper/big-tech-alert.ts), plus the 🚨 urgent issue for
-# personal watchlist matches. No per-run noise.
+# Separately, the `priority` job checks a small list of official first-party
+# sources with no upstream repo to gate on (currently just Amazon's own
+# public job-search API) EVERY run, ungated — it's one cheap API call, so
+# running it every 30 minutes catches early postings before any community
+# feed indexes them, without the cost of a full ~45-company sweep (that
+# stays on the 12h job-board.yml schedule).
+#
+# Notifications are intentionally sparse either way: a ⭐ big-tech issue only
+# when new big-tech/FAANG/unicorn intern or new-grad roles appear
+# (quant/banks excluded — src/scraper/big-tech-alert.ts), plus the 🚨 urgent
+# issue for personal watchlist matches. The committed alert ledger
+# (board/alerted.json) guarantees no posting is ever notified twice. No
+# per-run noise.
 name: Feed watch
 
 on:
@@ -93,6 +103,70 @@ jobs:
           else
             git commit \
               -m "chore: feed watch (${{ steps.board.outputs.summary }}) [skip ci]" \
+              -m "Co-authored-by: Ashish Kurse <ashishkurse@gmail.com>"
+            git pull --rebase origin main
+            git push
+          fi
+      - name: Urgent watchlist alert
+        if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          URGENT_FILE: ${{ runner.temp }}/urgent.md
+        run: |
+          [ -s "$URGENT_FILE" ] || exit 0
+          gh label create urgent --color B60205 --description "Watchlist match — apply now" 2>/dev/null || true
+          { echo "cc @${{ github.repository_owner }}"; echo; cat "$URGENT_FILE"; } > /tmp/urgent-body.md
+          gh issue create \
+            --title "🚨 URGENT: ${{ steps.board.outputs.urgent_title }}" \
+            --label urgent \
+            --body-file /tmp/urgent-body.md
+      - name: Big-tech alert
+        if: steps.board.outputs.bigtech_count != '' && steps.board.outputs.bigtech_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
+        run: |
+          [ -s "$BIGTECH_FILE" ] || exit 0
+          gh label create big-tech --color 0E8A16 --description "New big-tech/unicorn intern or new-grad role" 2>/dev/null || true
+          { echo "cc @${{ github.repository_owner }} — new big-tech/FAANG/unicorn early-career roles (quant/banking excluded)."; echo; cat "$BIGTECH_FILE"; } > /tmp/bigtech-body.md
+          gh issue create \
+            --title "⭐ Big tech: ${{ steps.board.outputs.bigtech_title }}" \
+            --label big-tech \
+            --body-file /tmp/bigtech-body.md
+
+  # Ungated: no upstream repo to compare a commit SHA against, so this just
+  # runs every scheduled tick. Scoped to one company (--company Amazon), so
+  # it's a single cheap API call rather than a full sweep — sequenced after
+  # `watch` (not parallel) so the two jobs never race pushing to board/.
+  priority:
+    needs: watch
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Priority company scrape (Amazon)
+        id: board
+        run: npm run board -- --company Amazon --no-linkcheck
+        env:
+          DATABASE_PATH: /tmp/scrape.db
+          BOARD_URGENT_FILE: ${{ runner.temp }}/urgent.md
+          BOARD_BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
+      - name: Commit board updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JOBS.md README.md board/
+          if git diff --cached --quiet; then
+            echo "No board changes."
+          else
+            git commit \
+              -m "chore: priority scan — Amazon (${{ steps.board.outputs.summary }}) [skip ci]" \
               -m "Co-authored-by: Ashish Kurse <ashishkurse@gmail.com>"
             git pull --rebase origin main
             git push

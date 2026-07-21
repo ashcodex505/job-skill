@@ -1,12 +1,12 @@
 import { createHash } from "node:crypto";
 import { skillMatch, stripHtml, type CareerConfig } from "@/lib/career/config";
-import { classifyTitle, type Classification, type ScoreBreakdown } from "./classify";
+import { classifyTitle, isUsRemoteOrHybridLocation, type Classification, type ScoreBreakdown } from "./classify";
 
 /** Whole-feed community sources (vs per-company ATS adapters). */
 export const FEED_SOURCES = new Set(["simplifyjobs", "speedyapply"]);
 
 export interface RawJob {
-  source: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "simplifyjobs" | "speedyapply";
+  source: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "amazon" | "simplifyjobs" | "speedyapply";
   sourceId: string | null;
   company: string;
   title: string;
@@ -122,6 +122,8 @@ export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new
   if (!title) return null;
   const { relevant, roleType, season, score, breakdown } = classifyTitle(title, raw.location, config, ref);
   if (!relevant) return null;
+  // Hard location policy: US, remote, or hybrid only — not a scoring signal.
+  if (!isUsRemoteOrHybridLocation(raw.location)) return null;
   if (config && !passesCareerPolicy({ company: raw.company, title }, { relevant, roleType, season, score, breakdown }, config)) {
     return null;
   }

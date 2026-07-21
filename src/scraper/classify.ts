@@ -9,6 +9,13 @@ import type { RoleType } from "@/lib/types";
 const ROLE_KEYWORDS = [
   /software engineer/i,
   /software developer/i,
+  // Amazon's own title for the role ("SDE") — word order differs from both
+  // patterns above ("Software Development Engineer" vs. "Software Engineer"/
+  // "Software Developer") and was silently missed entirely, rejecting even
+  // in-policy Amazon internships (right role, right season, right US
+  // location) because the classifier scored them as a non-role posting.
+  /software development engineer/i,
+  /\bsde\b/i,
   /\bswe\b/i,
   /\bdeveloper\b/i,
   /back[- ]?end/i,
@@ -82,6 +89,29 @@ export function detectSeason(title: string): string | null {
 
 export function isSeniorRole(title: string): boolean {
   return matchesAny(SENIOR_KEYWORDS, title);
+}
+
+/**
+ * Hard location policy: US, remote, or hybrid only. Word-boundary matched so
+ * "Georgia" (US state) isn't confused with the country, "Ontario, CA"
+ * (California) isn't confused with the Canadian province, etc.
+ *
+ * Deliberately permissive on the "allow" side: a blank/unparseable location,
+ * or one with no confident foreign signal, passes through — this blocks
+ * clearly-foreign-only postings (the failure mode we actually saw: a Google
+ * London role slipping past a location that was only ever a relevance
+ * *boost*, never a filter) without silently dropping ambiguous US listings.
+ */
+const US_MARKERS =
+  /\b(united states|usa|u\.s\.a?\.?|remote|hybrid)\b|\b(AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC)\b|\b(san francisco|new york|nyc|seattle|austin|boston|chicago|los angeles|san jose|sunnyvale|mountain view|santa clara|cupertino|redmond|menlo park|palo alto|san diego|denver|atlanta|miami|dallas|houston|phoenix|tempe|scottsdale|chandler|arlington|reston|pittsburgh|raleigh|durham|charlotte|nashville|columbus|minneapolis|salt lake city|washington,? d\.?c\.?)\b/i;
+
+const NON_US_MARKERS =
+  /\b(united kingdom|england|scotland|wales|london|dublin|ireland|canada|toronto|vancouver|montreal|ontario|india|bangalore|bengaluru|hyderabad|mumbai|pune|delhi|gurgaon|germany|berlin|munich|frankfurt|france|paris|singapore|japan|tokyo|china|beijing|shanghai|shenzhen|hong kong|australia|sydney|melbourne|brazil|s[ãa]o paulo|mexico city|poland|warsaw|krak[óo]w|netherlands|amsterdam|spain|madrid|barcelona|israel|tel aviv|south korea|seoul|italy|milan|rome|switzerland|zurich|z[üu]rich|geneva|costa rica|philippines|manila|vietnam|indonesia|jakarta|romania|bucharest|ukraine|kyiv|portugal|lisbon|austria|vienna|belgium|brussels|sweden|stockholm|denmark|copenhagen|norway|oslo|finland|helsinki|new zealand|egypt|cairo|dubai|abu dhabi|saudi arabia|riyadh|argentina|buenos aires|chile|santiago|colombia|bogot[áa]|peru|lima|taiwan|taipei|thailand|bangkok|malaysia|kuala lumpur)\b/i;
+
+export function isUsRemoteOrHybridLocation(location: string | null | undefined): boolean {
+  if (!location || !location.trim()) return true; // unknown location: don't over-filter
+  if (US_MARKERS.test(location)) return true;
+  return !NON_US_MARKERS.test(location);
 }
 
 /** Per-signal score components; `skills` is filled in by normalizeJob. */

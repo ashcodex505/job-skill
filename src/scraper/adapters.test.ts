@@ -256,3 +256,49 @@ describe("speedyapply new-grad table shape (no salary column)", () => {
     });
   });
 });
+
+describe("amazon adapter", () => {
+  it("maps amazon.jobs search.json responses, dedupes across queries, and parses posted_date", async () => {
+    mockFetchOnce({
+      "amazon.jobs/en/search.json": {
+        hits: 1,
+        jobs: [
+          {
+            id: "uuid-1",
+            id_icims: 10418355,
+            title: "2027 Software Dev Engineer Intern",
+            normalized_location: "Dublin, IRL",
+            country_code: "IRL",
+            job_path: "/en/jobs/10418355/2027-software-dev-engineer-intern",
+            posted_date: "May 13, 2026",
+            description_short: "Do you want to solve business challenges through innovative technology?",
+          },
+        ],
+      },
+    });
+    const jobs = await ADAPTERS.amazon({} as CompanyPortal);
+    // Same id returned by every one of the 4 query terms — deduped to one.
+    expect(jobs).toHaveLength(1);
+    expect(jobs[0]).toMatchObject({
+      source: "amazon",
+      sourceId: "10418355",
+      company: "Amazon",
+      title: "2027 Software Dev Engineer Intern",
+      location: "Dublin, IRL",
+      url: "https://www.amazon.jobs/en/jobs/10418355/2027-software-dev-engineer-intern",
+      postedAt: "2026-05-13",
+    });
+  });
+
+  it("falls back to the uuid id when id_icims is missing, and null postedAt on unparseable dates", async () => {
+    mockFetchOnce({
+      "amazon.jobs/en/search.json": {
+        hits: 1,
+        jobs: [{ id: "uuid-only", title: "Software Engineer Intern", job_path: "/en/jobs/uuid-only/x", posted_date: "not a date" }],
+      },
+    });
+    const jobs = await ADAPTERS.amazon({} as CompanyPortal);
+    expect(jobs[0].sourceId).toBe("uuid-only");
+    expect(jobs[0].postedAt).toBeNull();
+  });
+});

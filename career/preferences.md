@@ -17,6 +17,15 @@ restricted to the approved company list below: established major technology
 companies, unicorns, elite trading firms with strong engineering organizations,
 and high-signal technology startups.
 
+Location is a hard filter, not just a ranking boost: a posting must be based in
+the United States, or explicitly remote or hybrid. A posting whose only stated
+locations are clearly outside the US (e.g. London, Dublin, Bangalore, Toronto)
+is excluded outright, even if everything else about it matches — this is
+enforced in code (`src/scraper/classify.ts` → `isUsRemoteOrHybridLocation`),
+not just this file. Ambiguous or unstated locations are not excluded, since
+most postings are genuinely US-based even when the location field is blank or
+generic ("Multiple Locations").
+
 ## Target roles
 
 - Software Engineer

@@ -48,12 +48,18 @@ src/
     import/      simplify.ts (CSV parser, header synonyms, status mapping)
     types.ts · status.ts · validation.ts · api.ts (route wrapper) · client.ts · claude.ts
   scraper/
-    registry.ts  48 companies → ATS + slug (greenhouse/lever/ashby/workday/
-                 smartrecruiters/workable/unsupported)
-    adapters.ts  one fetch adapter per ATS + SimplifyJobs community feed
-    classify.ts  title regexes, dynamic season targets, score breakdown   (pure)
-    normalize.ts RawJob → NormalizedJob, two-stage dedupe, skill boost    (pure)
-    board.ts     mergeBoard/closeJobs/renderers for JOBS.md + README     (pure)
+    registry.ts  companies → ATS + slug (greenhouse/lever/ashby/workday/
+                 smartrecruiters/workable/amazon/unsupported)
+    adapters.ts  one fetch adapter per ATS + Amazon's own search API +
+                 SimplifyJobs and speedyapply community feeds
+    classify.ts  title regexes, dynamic season targets, score breakdown,
+                 hard US/remote/hybrid location filter                  (pure)
+    normalize.ts RawJob → NormalizedJob, canonical-URL dedupe + location
+                 hard filter, skill boost                               (pure)
+    big-tech-alert.ts  big-tech/unicorn selector (quant/banks excluded) +
+                 committed alert ledger (board/alerted.json) — no posting
+                 is ever notified twice
+    board.ts     mergeBoard/diffNewJobs/closeJobs/renderers             (pure)
     run.ts       orchestration + DB upsert + source-aware deactivation
     board-cli.ts npm run board [--watch|--company|--no-linkcheck]; CI outputs
     check-cli.ts npm run scrape:check (slug doctor)
@@ -67,8 +73,13 @@ src/
                  applications/ (form, drawer, credential panel, post-apply, import)
 scripts/         build-mac-app.sh (Spotlight-launchable .app)
 career/          profile.md · preferences.md · watchlist.md (app-managed) — human-readable
-board/jobs.json  committed scraper state (firstSeenAt memory across CI runs)
-.github/workflows/  job-board.yml (12h) · watch.yml (hourly) · registry-check.yml (monthly)
+board/jobs.json     committed scraper state (firstSeenAt memory across CI runs)
+board/feed-heads.json  last-seen commit SHA per watched community repo (gate state)
+board/alerted.json  every URL ever included in a ⭐/🚨 issue (180d retention)
+.github/workflows/  job-board.yml (12h full sweep) · watch.yml (community-feed
+                     scrape gated on upstream commits, twice-hourly poll; plus
+                     an ungated Amazon-only check every run) · registry-check.yml
+                     (monthly slug doctor)
 ```
 
 ## Data model (8 tables)
@@ -100,12 +111,27 @@ lines mapping an official public API to `RawJob[]`: Greenhouse
 User-Agent, sleeps between pages; a failing company records an error in
 `scraper_runs` and never aborts the run.
 
-**SimplifyJobs community feed.** Google/Amazon/Meta/Apple sit behind anti-bot
-portals we refuse to fight (`ats: "unsupported"`). Coverage comes from the
-MIT-licensed `listings.json` published by the SimplifyJobs GitHub repos
-(candidate repo/branch fallback survives season rollovers), filtered to
-active + visible + posted ≤ 90 days. Bonus: the feed carries **true posted
-dates**.
+**Amazon.** Unlike the other "custom portal" giants, `amazon.jobs/en/search.json`
+is a public, unauthenticated endpoint the careers site's own search box calls
+— same trust tier as the other adapters, just not slug-based. `scrapeAmazon`
+loops a small set of intern/new-grad query terms (Amazon's own
+`is_intern`/`university_job` flags are unreliable on this public endpoint) and
+leaves relevance filtering to `classifyTitle` as usual.
+
+**Community feeds.** Google/Meta/Apple/Microsoft/Netflix/Tesla still sit
+behind anti-bot portals we refuse to fight (`ats: "unsupported"`) or SPAs with
+no server-rendered data and no discoverable public API (confirmed for Google:
+no JSON-LD, no API, fully client-hydrated). Coverage for those comes from two
+MIT-licensed sources: the `listings.json` published by the SimplifyJobs GitHub
+repos (candidate repo/branch fallback survives season rollovers, filtered to
+active + visible + posted ≤ 90 days — carries **true posted dates**), and
+speedyapply's markdown-table intern/new-grad lists (day-precision dates only).
+`simplify.jobs`'s own website (as opposed to its GitHub repos) was evaluated
+and rejected as a source: it ships only 30 SSR'd listings client-side with no
+public pagination API, and the only outbound link it exposes
+(`simplify.jobs/jobs/click/*`) is explicitly disallowed by its own
+`robots.txt` — the GitHub-published `listings.json` is the same underlying
+data, published for reuse, with direct URLs and no such restriction.
 
 **Classification (`classify.ts`, pure).**
 - Role detection: word-boundary regex families for SWE-family titles;

@@ -21,7 +21,7 @@ export interface CompanyPortal {
   name: string;
   website: string;
   careersUrl: string;
-  ats: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "unsupported";
+  ats: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "amazon" | "unsupported";
   /** greenhouse board token / lever slug / ashby board name / smartrecruiters company id / workable account slug */
   slug?: string;
   /** workday only */
@@ -103,12 +103,14 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
     ats: "workday", workday: { tenant: "workday", host: "workday.wd5.myworkdayjobs.com", site: "Workday" },
   },
 
+  // ── Amazon (own public search API — see scrapeAmazon in adapters.ts) ──
+  { name: "Amazon", website: "https://amazon.com", careersUrl: "https://amazon.jobs/en/teams/internships-for-students", ats: "amazon" },
+
   // ── Custom portals (manual check — future adapters) ─────────────────
   { name: "Apple", website: "https://apple.com", careersUrl: "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN", ats: "unsupported" },
   { name: "Google", website: "https://google.com", careersUrl: "https://google.com/about/careers/applications/jobs/results/?target_level=INTERN_AND_APPRENTICE,EARLY", ats: "unsupported" },
   { name: "Meta", website: "https://meta.com", careersUrl: "https://metacareers.com/jobs?is_in_page=0&sub_teams[0]=University%20Grad%20-%20Engineering%2C%20Tech%20%26%20Design", ats: "unsupported" },
   { name: "Microsoft", website: "https://microsoft.com", careersUrl: "https://careers.microsoft.com/v2/global/en/universityrecruiting", ats: "unsupported" },
-  { name: "Amazon", website: "https://amazon.com", careersUrl: "https://amazon.jobs/en/teams/internships-for-students", ats: "unsupported" },
   { name: "Netflix", website: "https://netflix.com", careersUrl: "https://explore.jobs.netflix.net/careers", ats: "unsupported" },
   { name: "Uber", website: "https://uber.com", careersUrl: "https://uber.com/us/en/careers/teams/university/", ats: "unsupported" },
   { name: "LinkedIn", website: "https://linkedin.com", careersUrl: "https://careers.linkedin.com/students", ats: "unsupported" },

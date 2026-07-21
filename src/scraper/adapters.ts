@@ -240,6 +240,66 @@ async function scrapeWorkday(portal: CompanyPortal): Promise<RawJob[]> {
   return jobs;
 }
 
+// ── Amazon (amazon.jobs' own public search API) ────────────────────────
+/**
+ * Not in the CompanyPortal slug model — this is Amazon's own site search
+ * backend (https://www.amazon.jobs/en/search.json), publicly reachable with
+ * no auth, the same endpoint the careers site itself calls. Amazon's
+ * "university_job"/"is_intern" flags are unreliable on this public endpoint,
+ * so — like the Workday adapter — we search with a small set of targeted
+ * queries and let classifyTitle do the real intern/new-grad/SWE filtering.
+ */
+interface AmazonJob {
+  id_icims?: number;
+  id: string;
+  title: string;
+  normalized_location?: string;
+  location?: string;
+  country_code?: string;
+  job_path: string;
+  posted_date?: string; // "May 13, 2026"
+  description_short?: string;
+}
+
+const AMAZON_QUERIES = [
+  "software engineer intern",
+  "software development engineer intern",
+  "software development engineer new grad",
+  "software development engineer university",
+];
+const AMAZON_RESULT_LIMIT = 100;
+
+function parseAmazonPostedDate(value: string | undefined): string | null {
+  if (!value) return null;
+  const t = new Date(value).getTime();
+  return Number.isFinite(t) ? new Date(t).toISOString().slice(0, 10) : null;
+}
+
+export async function scrapeAmazon(): Promise<RawJob[]> {
+  const byId = new Map<string, RawJob>();
+  for (const query of AMAZON_QUERIES) {
+    const data = await fetchJson<{ hits: number; jobs: AmazonJob[] }>(
+      `https://www.amazon.jobs/en/search.json?base_query=${encodeURIComponent(query)}&result_limit=${AMAZON_RESULT_LIMIT}&sort=recent&offset=0`,
+    );
+    for (const j of data.jobs ?? []) {
+      const sourceId = String(j.id_icims ?? j.id);
+      if (byId.has(sourceId)) continue;
+      byId.set(sourceId, {
+        source: "amazon",
+        sourceId,
+        company: "Amazon",
+        title: j.title,
+        location: j.normalized_location ?? j.location ?? null,
+        url: `https://www.amazon.jobs${j.job_path}`,
+        postedAt: parseAmazonPostedDate(j.posted_date),
+        description: j.description_short ?? null,
+      });
+    }
+    await sleep(300);
+  }
+  return [...byId.values()];
+}
+
 export function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -386,4 +446,5 @@ export const ADAPTERS: Record<string, (portal: CompanyPortal) => Promise<RawJob[
   workday: scrapeWorkday,
   smartrecruiters: scrapeSmartRecruiters,
   workable: scrapeWorkable,
+  amazon: scrapeAmazon, // takes no portal-specific config; see scrapeAmazon
 };

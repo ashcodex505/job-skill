@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { classifyTitle, defaultSeasonTargets, detectRoleType, detectSeason } from "./classify";
+import { classifyTitle, defaultSeasonTargets, detectRoleType, detectSeason, isUsRemoteOrHybridLocation } from "./classify";
 import { dedupeJobs, isApprovedCompany, makeDedupeKey, normalizeJob, type RawJob } from "./normalize";
 import type { CareerConfig } from "@/lib/career/config";
 
@@ -260,5 +260,77 @@ describe("workday postedOn parsing", () => {
     expect(parseWorkdayPostedOn("Posted 30+ Days Ago", now)).toBeNull();
     expect(parseWorkdayPostedOn(undefined, now)).toBeNull();
     expect(parseWorkdayPostedOn("something else", now)).toBeNull();
+  });
+});
+
+describe("isUsRemoteOrHybridLocation (hard filter, not a scoring signal)", () => {
+  it("allows unambiguous US locations, remote, and hybrid", () => {
+    expect(isUsRemoteOrHybridLocation("Mountain View, CA")).toBe(true);
+    expect(isUsRemoteOrHybridLocation("Seattle, WA")).toBe(true);
+    expect(isUsRemoteOrHybridLocation("Remote")).toBe(true);
+    expect(isUsRemoteOrHybridLocation("Remote - Germany")).toBe(true); // "remote" wins
+    expect(isUsRemoteOrHybridLocation("Hybrid (Austin, TX)")).toBe(true);
+    expect(isUsRemoteOrHybridLocation("United States")).toBe(true);
+  });
+
+  it("blocks clearly foreign-only locations — the Google-London case that slipped through", () => {
+    expect(isUsRemoteOrHybridLocation("London, UK")).toBe(false);
+    expect(isUsRemoteOrHybridLocation("Dublin, Ireland")).toBe(false);
+    expect(isUsRemoteOrHybridLocation("Bangalore, India")).toBe(false);
+    expect(isUsRemoteOrHybridLocation("Toronto, Canada")).toBe(false);
+  });
+
+  it("does not confuse US states with foreign countries of similar name", () => {
+    expect(isUsRemoteOrHybridLocation("Georgia, USA")).toBe(true); // state, not the country
+    expect(isUsRemoteOrHybridLocation("Ontario, CA")).toBe(true); // Ontario, California
+  });
+
+  it("passes ambiguous or blank locations through rather than over-filtering", () => {
+    expect(isUsRemoteOrHybridLocation(null)).toBe(true);
+    expect(isUsRemoteOrHybridLocation("")).toBe(true);
+    expect(isUsRemoteOrHybridLocation("Multiple Locations")).toBe(true);
+  });
+});
+
+describe("normalizeJob enforces the location hard filter", () => {
+  const base: RawJob = {
+    source: "greenhouse",
+    sourceId: "1",
+    company: "Stripe",
+    title: "Software Engineer Intern",
+    location: null,
+    url: "https://stripe.com/jobs/1",
+    postedAt: null,
+    description: null,
+  };
+
+  it("drops an otherwise-relevant posting with a foreign-only location", () => {
+    expect(normalizeJob({ ...base, location: "London, United Kingdom" })).toBeNull();
+  });
+
+  it("keeps a US posting", () => {
+    expect(normalizeJob({ ...base, location: "San Francisco, CA" })).not.toBeNull();
+  });
+});
+
+describe("ROLE_KEYWORDS recognizes Amazon's 'Software Development Engineer' title", () => {
+  it("classifies SDE-titled roles as SWE, not just 'Software Engineer'/'Software Developer'", () => {
+    const c1 = classifyTitle("Software Development Engineer Intern, AWS Data Services - Fall 2026 (US)");
+    expect(c1.breakdown.role).toBeGreaterThan(0);
+    expect(c1.roleType).toBe("internship");
+    expect(c1.season).toBe("Fall 2026");
+    expect(c1.relevant).toBe(true);
+
+    const c2 = classifyTitle("2027 SDE New Grad");
+    expect(c2.breakdown.role).toBeGreaterThan(0);
+  });
+
+  it("an in-policy Amazon Fall 2026 US internship now passes the full career policy", async () => {
+    const { passesCareerPolicy } = await import("./normalize");
+    const cfg = (await import("@/lib/career/config")).loadCareerConfig();
+    const title = "Software Development Engineer Intern, AWS Data Services - Fall 2026 (US)";
+    const c = classifyTitle(title, "Seattle, Washington, USA", cfg);
+    expect(c.relevant).toBe(true);
+    expect(passesCareerPolicy({ company: "Amazon", title }, c, cfg)).toBe(true);
   });
 });
