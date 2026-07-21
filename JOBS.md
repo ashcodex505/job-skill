@@ -1,21 +1,16 @@
 # 🎯 Job Board — SWE Early Career
 
 **101 open roles** across **54 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-21 14:18 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-21 16:05 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (8)
+## 🆕 New this cycle (3)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Strada | Software Engineer New Grad 🆕 | SF | — | 80% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/stradahq/626411c6-808e-4eb2-b28d-76f5d88e0af6/application?embed=true) |
-| Hipp Health | Software Engineer New Grad 🆕 | United States | — | 80% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/hipp/ea04e914-674c-4c05-b40a-7e8a035bad14/application?embed=true) |
 | Google | Software Engineering Intern - MS - Summer 2027 🆕 | Mountain View, CA +29 | Summer 2027 | 100% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/95141459539174086) |
 | Google | Software Engineering Intern - BS - Summer 2027 🆕 | Mountain View, CA +29 | Summer 2027 | 100% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/85564713261245126) |
-| Deepgram | Software Engineering- Internship - Fall 2026/Summer 2027 🆕 | Remote - USA | Fall 2026 | 100% | 2026-07-18 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
 | Cadence Design Systems | Software Engineer New Grad - Undergrads 🆕 | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-21 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894) |
-| Amazon | Software Development Engineer Intern, AWS Data Services - Fall 2026 (US) 🆕 | Seattle, Washington, USA | Fall 2026 | 100% (1 skills) | 2026-05-06 | 2026-07-21 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us) |
-| Amazon | Software Development Engineer Intern - AWS Data Services - Fall 2026 - US 🆕 | Seattle, WA | Fall 2026 | 100% (1 skills) | 2026-04-22 | 2026-07-21 | [**Apply ➜**](https://www.amazon.jobs/jobs/10412530/apply) |
 
 ## 🛠️ Internships (26)
 
@@ -23,9 +18,9 @@ Last updated: **2026-07-21 14:18 UTC** · auto-refreshed every 12h by [job-board
 |---|---|---|---|---|---|---|---|
 | Google | Software Engineering Intern - MS - Summer 2027 🆕 | Mountain View, CA +29 | Summer 2027 | 100% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/95141459539174086) |
 | Google | Software Engineering Intern - BS - Summer 2027 🆕 | Mountain View, CA +29 | Summer 2027 | 100% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/85564713261245126) |
-| Amazon | Software Development Engineer Intern - AWS Data Services - Fall 2026 - US 🆕 | Seattle, WA | Fall 2026 | 100% (1 skills) | 2026-04-22 | 2026-07-21 | [**Apply ➜**](https://www.amazon.jobs/jobs/10412530/apply) |
-| Deepgram | Software Engineering- Internship - Fall 2026/Summer 2027 🆕 | Remote - USA | Fall 2026 | 100% | 2026-07-18 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
-| Amazon | Software Development Engineer Intern, AWS Data Services - Fall 2026 (US) 🆕 | Seattle, Washington, USA | Fall 2026 | 100% (1 skills) | 2026-05-06 | 2026-07-21 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us) |
+| Amazon | Software Development Engineer Intern - AWS Data Services - Fall 2026 - US | Seattle, WA | Fall 2026 | 100% (1 skills) | 2026-04-22 | 2026-07-21 | [**Apply ➜**](https://www.amazon.jobs/jobs/10412530/apply) |
+| Deepgram | Software Engineering- Internship - Fall 2026/Summer 2027 | Remote - USA | Fall 2026 | 100% | 2026-07-18 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
+| Amazon | Software Development Engineer Intern, AWS Data Services - Fall 2026 (US) | Seattle, Washington, USA | Fall 2026 | 100% (1 skills) | 2026-05-06 | 2026-07-21 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us) |
 | Astranis Space Technologies | Software Engineer- Backend Intern - Fall 2026 | San Francisco, CA | Fall 2026 | 100% | 2026-05-14 | 2026-07-15 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
 | Cloudflare | Software Engineer Intern - Fall 2026 - Austin - TX | Austin, TX | Fall 2026 | 100% | 2026-07-15 | 2026-07-15 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) |
 | Gemini | Software Engineering Intern - Fall 2026 | New York City, NY | Fall 2026 | 100% | 2026-05-02 | 2026-07-15 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125) |
@@ -68,8 +63,8 @@ Last updated: **2026-07-21 14:18 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Cadence Design Systems | Software Engineer New Grad - Undergrads 🆕 | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-21 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894) |
-| Hipp Health | Software Engineer New Grad 🆕 | United States | — | 80% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/hipp/ea04e914-674c-4c05-b40a-7e8a035bad14/application?embed=true) |
-| Strada | Software Engineer New Grad 🆕 | SF | — | 80% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/stradahq/626411c6-808e-4eb2-b28d-76f5d88e0af6/application?embed=true) |
+| Hipp Health | Software Engineer New Grad | United States | — | 80% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/hipp/ea04e914-674c-4c05-b40a-7e8a035bad14/application?embed=true) |
+| Strada | Software Engineer New Grad | SF | — | 80% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/stradahq/626411c6-808e-4eb2-b28d-76f5d88e0af6/application?embed=true) |
 | Cybernetic Labs | Software Engineer New Grad - Agent Platform | SF | — | 80% | 2026-07-16 | 2026-07-17 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/d9bcb6a2-0e54-4cb3-baec-43f2d74db18f/application?embed=true) |
 | Cybernetic Labs | Full-Stack Software Engineer New Grad - Product | SF | — | 80% | 2026-07-16 | 2026-07-16 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/bab5d1e5-e31b-42f0-9cef-334b1f17fed3/application?embed=true) |
 | Lightfield | Software Engineer New Grad - Applied AI | SF | — | 80% | 2026-07-16 | 2026-07-16 | [**Apply ➜**](https://jobs.ashbyhq.com/Lightfield/fc93a467-773d-4805-b342-bf470950732d/application?embed=true) |
