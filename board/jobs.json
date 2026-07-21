@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-21T11:59:28.760Z",
+ "updatedAt": "2026-07-21T14:18:00.197Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
@@ -640,6 +640,28 @@
    "firstSeenAt": "2026-07-10T08:47:11.987Z"
   },
   {
+   "dedupeKey": "simplifyjobs:ff412e91-a5e3-48f6-8ed1-fa4ac83c5e81",
+   "source": "simplifyjobs",
+   "company": "Cadence Design Systems",
+   "title": "Software Engineer New Grad - Undergrads",
+   "location": "Burlington, MA",
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-09T00:00:00.000Z",
+   "firstSeenAt": "2026-07-21T14:18:00.197Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:c368c0a9-db8e-455c-b06c-c18575c7b04d",
    "source": "simplifyjobs",
    "company": "Northslope Technologies",
@@ -703,6 +725,28 @@
     "skills": 0
    },
    "postedAt": "2026-07-13T17:48:50-04:00",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:58e0500b-3577-4e69-9d43-b710f8155f10",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "Backend Compiler Engineer New Grad",
+   "location": "Canada; Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-13T00:00:00.000Z",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -882,6 +926,50 @@
    "firstSeenAt": "2026-07-21T02:14:34.883Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:456a396b017d57e5d6f96090fb757d6be2045763",
+   "source": "speedyapply",
+   "company": "Google",
+   "title": "Software Engineering Intern - MS - Summer 2027",
+   "location": "Mountain View, CA +29",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-21",
+   "firstSeenAt": "2026-07-21T14:18:00.197Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:1e300e41afd1e073d803941e250b3f50d37b2566",
+   "source": "speedyapply",
+   "company": "Google",
+   "title": "Software Engineering Intern - BS - Summer 2027",
+   "location": "Mountain View, CA +29",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-21",
+   "firstSeenAt": "2026-07-21T14:18:00.197Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:d8d123d94016358621fc17b2dcc78b3719e366cb",
    "source": "speedyapply",
    "company": "NVIDIA",
@@ -904,12 +992,12 @@
    "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:a0ae9e9b5b8a69fd363e53193a211560e36037d5",
+   "dedupeKey": "speedyapply:sha1:242131ab040faa347817775b91937ff7aec6c490",
    "source": "speedyapply",
    "company": "Rivian",
-   "title": "Software Engineering Intern - Applications - Fall 2026",
+   "title": "Software Engineering Intern - Connected Systems - Fall 2026",
    "location": "Irvine, CA +1",
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -926,12 +1014,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:242131ab040faa347817775b91937ff7aec6c490",
+   "dedupeKey": "speedyapply:sha1:a0ae9e9b5b8a69fd363e53193a211560e36037d5",
    "source": "speedyapply",
    "company": "Rivian",
-   "title": "Software Engineering Intern - Connected Systems - Fall 2026",
+   "title": "Software Engineering Intern - Applications - Fall 2026",
    "location": "Irvine, CA +1",
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -990,7 +1078,7 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-04-23",
+   "postedAt": "2026-04-22",
    "firstSeenAt": "2026-07-21T02:14:34.883Z"
   },
   {
@@ -1012,7 +1100,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-19",
+   "postedAt": "2026-07-18",
    "firstSeenAt": "2026-07-21T02:14:34.883Z"
   },
   {
@@ -1034,29 +1122,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-14T22:36:40-04:00",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:6d6070cc4d01a1cb9ec768cb8b3b5c567160b0c2",
-   "source": "speedyapply",
-   "company": "Reliable Robotics Corporation",
-   "title": "Flight Software Engineering Intern - Fall 2026 Internship",
-   "location": "Mountain View, CA",
-   "url": "https://jobs.ashbyhq.com/reliable-robotics/c4968e8a-a901-4ec1-9a9d-bb5cd96efc4f",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-14",
+   "postedAt": "2026-07-15",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1258,12 +1324,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
+   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
    "source": "speedyapply",
    "company": "Hermeus",
-   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
-   "location": "Los Angeles, CA",
-   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
+   "title": "Software Engineering Intern - HIL - Fall 2026",
+   "location": "Atlanta, GA",
+   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -1280,12 +1346,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
+   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
    "source": "speedyapply",
    "company": "Hermeus",
-   "title": "Software Engineering Intern - HIL - Fall 2026",
-   "location": "Atlanta, GA",
-   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
+   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
+   "location": "Los Angeles, CA",
+   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -1522,28 +1588,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:173f1f3ba69d2f168c5abe6fe3e75f2e1c21e9aa",
-   "source": "speedyapply",
-   "company": "StubHub",
-   "title": "Software Engineer I - Open Distribution - New Grad",
-   "location": "Los Angeles, CA",
-   "url": "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4906365101",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-27",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:af2874e88065da291333d9524e06ca7c437031e8",
    "source": "speedyapply",
    "company": "Hadrian",
@@ -1651,28 +1695,6 @@
     "skills": 0
    },
    "postedAt": "2026-05-21",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:661f5441771214d6e5dbd7e2ee25dc6e6ee95cb3",
-   "source": "speedyapply",
-   "company": "Mirage",
-   "title": "Software Engineer - Early Career",
-   "location": "New York City, NY",
-   "url": "https://jobs.ashbyhq.com/mirage/cbf278fd-84ec-48d9-8052-b76abb035ac7",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-27",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -2414,16 +2436,6 @@
    "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-3"
   },
   {
-   "dedupeKey": "simplifyjobs:58e0500b-3577-4e69-9d43-b710f8155f10",
-   "company": "NVIDIA",
-   "title": "Backend Compiler Engineer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-07-21T02:14:34.883Z",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242"
-  },
-  {
    "dedupeKey": "simplifyjobs:e705fffd-6c2f-4555-b991-f5808e23542c",
    "company": "NVIDIA",
    "title": "System Software Engineer New Grad - Dynamo-Triton Inference Server",
@@ -2452,6 +2464,36 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z",
    "closedAt": "2026-07-21T02:14:34.883Z",
    "url": "https://jobs.ashbyhq.com/authorium/e9384068-af40-47b2-83cf-ec76fd8b7222"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:6d6070cc4d01a1cb9ec768cb8b3b5c567160b0c2",
+   "company": "Reliable Robotics Corporation",
+   "title": "Flight Software Engineering Intern - Fall 2026 Internship",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-07-21T14:18:00.197Z",
+   "url": "https://jobs.ashbyhq.com/reliable-robotics/c4968e8a-a901-4ec1-9a9d-bb5cd96efc4f"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:173f1f3ba69d2f168c5abe6fe3e75f2e1c21e9aa",
+   "company": "StubHub",
+   "title": "Software Engineer I - Open Distribution - New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-07-21T14:18:00.197Z",
+   "url": "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4906365101"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:661f5441771214d6e5dbd7e2ee25dc6e6ee95cb3",
+   "company": "Mirage",
+   "title": "Software Engineer - Early Career",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-07-21T14:18:00.197Z",
+   "url": "https://jobs.ashbyhq.com/mirage/cbf278fd-84ec-48d9-8052-b76abb035ac7"
   }
  ]
 }
