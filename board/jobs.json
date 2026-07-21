@@ -1,6 +1,30 @@
 {
- "updatedAt": "2026-07-21T03:38:46.342Z",
+ "updatedAt": "2026-07-21T03:36:34.934Z",
  "jobs": [
+  {
+   "dedupeKey": "amazon:10412530",
+   "source": "amazon",
+   "company": "Amazon",
+   "title": "Software Development Engineer Intern, AWS Data Services - Fall 2026 (US)",
+   "location": "Seattle, Washington, USA",
+   "url": "https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "AWS"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-05-06",
+   "firstSeenAt": "2026-07-21T02:13:16.397Z"
+  },
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
    "source": "simplifyjobs",
@@ -2236,30 +2260,6 @@
    },
    "postedAt": "2026-06-24",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "amazon:10412530",
-   "source": "amazon",
-   "company": "Amazon",
-   "title": "Software Development Engineer Intern, AWS Data Services - Fall 2026 (US)",
-   "location": "Seattle, Washington, USA",
-   "url": "https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "AWS"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-05-06",
-   "firstSeenAt": "2026-07-21T02:13:16.397Z"
   }
  ],
  "closed": [

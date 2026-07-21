@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { migrate } from "drizzle-orm/libsql/migrator";
 import { db } from "@/db";
+import { parsePriorityCompanies } from "@/lib/career/priority";
 import { matchWatches, parseWatchlist } from "@/lib/career/watchlist";
 import { filterUnalerted, recordAlerted, selectBigTechAlerts, type AlertLedger } from "./big-tech-alert";
 import { closeJobs, diffNewJobs, mergeBoard, renderJobsMarkdown, updateReadme, type BoardData, type BoardJob } from "./board";
@@ -77,10 +78,19 @@ function loadWatches() {
   }
 }
 
+function loadPriorityCompanies(): string[] {
+  try {
+    return parsePriorityCompanies(fs.readFileSync(path.join(ROOT, "career", "priority-companies.md"), "utf8"));
+  } catch {
+    return [];
+  }
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const companies: string[] = [];
   const watchMode = args.includes("--watch");
+  const priorityMode = args.includes("--priority");
   let linkcheck = !args.includes("--no-linkcheck");
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--company" && args[i + 1]) companies.push(args[++i]);
@@ -97,8 +107,21 @@ async function main() {
     linkcheck = false;
     console.log(`Watch mode: ${watches.length} watches → scraping ${companies.length} supported companies + SimplifyJobs feed`);
   }
+  if (priorityMode) {
+    // Fast lane, every ~30 min: Amazon always, plus whatever the dashboard's
+    // Priority companies panel added. No feed here — the gated feed-watch
+    // job already covers that on its own schedule. One cheap call per
+    // company, so this stays fine to run often.
+    const extra = loadPriorityCompanies();
+    const wanted = new Set(["amazon", ...extra.map((c) => c.toLowerCase())]);
+    for (const portal of COMPANY_PORTALS) {
+      if (portal.ats !== "unsupported" && wanted.has(portal.name.toLowerCase())) companies.push(portal.name);
+    }
+    linkcheck = false;
+    console.log(`Priority mode: scraping ${companies.length} companies (Amazon + ${extra.length} added)`);
+  }
   // Partial runs skip the link check — it would probe companies we didn't scrape.
-  if (!watchMode && companies.length > 0) linkcheck = false;
+  if (!watchMode && !priorityMode && companies.length > 0) linkcheck = false;
 
   await migrate(db, { migrationsFolder: "./drizzle" });
   console.log(`Scraping${companies.length ? ` (${companies.join(", ") || "feed only"})` : ""}...`);
