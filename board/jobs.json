@@ -1,28 +1,6 @@
 {
- "updatedAt": "2026-07-21T21:23:13.140Z",
+ "updatedAt": "2026-07-21T22:32:08.798Z",
  "jobs": [
-  {
-   "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
-   "source": "simplifyjobs",
-   "company": "Notion",
-   "title": "Software Engineer – New Grad",
-   "location": "SF",
-   "url": "https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-23T22:08:49.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
   {
    "dedupeKey": "simplifyjobs:e5fee829-850f-4ae1-9f1f-eda2ab36fdbe",
    "source": "simplifyjobs",
@@ -87,28 +65,6 @@
     "skills": 0
    },
    "postedAt": "2026-04-27T22:09:36.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:59da20b4-89d9-4050-8d93-b79c0953d1c7",
-   "source": "simplifyjobs",
-   "company": "Anduril",
-   "title": "Early Career Software Engineer",
-   "location": "Newport Beach, CA",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4802146007",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-22T22:08:12.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
@@ -241,28 +197,6 @@
     "skills": 0
    },
    "postedAt": "2026-06-17T06:08:19.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a4c785c4-fb88-4d18-be46-aefc9e527e6e",
-   "source": "simplifyjobs",
-   "company": "Hadrian",
-   "title": "Fullstack Software Engineer New Grad",
-   "location": "LA",
-   "url": "https://jobs.ashbyhq.com/hadrian-automation/41472a42-c3c3-40bd-a784-8a3fbab47be3/application",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-19T01:09:10.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
@@ -772,6 +706,28 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "simplifyjobs:e705fffd-6c2f-4555-b991-f5808e23542c",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "System Software Engineer New Grad - Dynamo-Triton Inference Server",
+   "location": "Remote in USA; Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Dynamo-Triton-Inference-Server---New-College-Grad-2026_JR2020767",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-13T00:00:00.000Z",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:b638e646-a8c7-484b-9b2b-51e2b939e5c6",
    "source": "simplifyjobs",
    "company": "Faros AI",
@@ -880,6 +836,28 @@
    },
    "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f1025b20-1cf5-4f9d-8505-a81fea68f463",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale",
+   "location": "Seattle, WA; Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-17T00:00:00.000Z",
+   "firstSeenAt": "2026-07-21T22:32:08.798Z"
   },
   {
    "dedupeKey": "simplifyjobs:2ddc678f-eab8-41af-aace-5d5fb90b0e1d",
@@ -2458,16 +2436,6 @@
    "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-3"
   },
   {
-   "dedupeKey": "simplifyjobs:e705fffd-6c2f-4555-b991-f5808e23542c",
-   "company": "NVIDIA",
-   "title": "System Software Engineer New Grad - Dynamo-Triton Inference Server",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-07-21T02:14:34.883Z",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Dynamo-Triton-Inference-Server---New-College-Grad-2026_JR2020767"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:a0bbf067752bb3af5cf18365e847e8d44d8e0935",
    "company": "Kustomer",
    "title": "Software Engineer - Full Stack - Early Career",
@@ -2516,6 +2484,36 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z",
    "closedAt": "2026-07-21T14:18:00.197Z",
    "url": "https://jobs.ashbyhq.com/mirage/cbf278fd-84ec-48d9-8052-b76abb035ac7"
+  },
+  {
+   "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
+   "company": "Notion",
+   "title": "Software Engineer – New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-21T22:32:08.798Z",
+   "url": "https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application"
+  },
+  {
+   "dedupeKey": "simplifyjobs:59da20b4-89d9-4050-8d93-b79c0953d1c7",
+   "company": "Anduril",
+   "title": "Early Career Software Engineer",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-21T22:32:08.798Z",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4802146007"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a4c785c4-fb88-4d18-be46-aefc9e527e6e",
+   "company": "Hadrian",
+   "title": "Fullstack Software Engineer New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-21T22:32:08.798Z",
+   "url": "https://jobs.ashbyhq.com/hadrian-automation/41472a42-c3c3-40bd-a784-8a3fbab47be3/application"
   }
  ]
 }
