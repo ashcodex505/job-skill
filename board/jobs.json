@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-21T19:47:08.754Z",
+ "updatedAt": "2026-07-21T21:23:13.140Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
@@ -924,6 +924,28 @@
    },
    "postedAt": "2026-07-21T01:15:31.000Z",
    "firstSeenAt": "2026-07-21T02:14:34.883Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:373ffa0d-6efb-4fdc-9e34-45018a822f3d",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "Compiler Engineer New Grad - Infrastructure",
+   "location": "Austin, TX; Remote in USA; Redmond, WA; Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compiler-Engineer--Infrastructure----New-College-Grad-2026_JR2021228",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-20T00:00:00.000Z",
+   "firstSeenAt": "2026-07-21T21:23:13.140Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:456a396b017d57e5d6f96090fb757d6be2045763",
