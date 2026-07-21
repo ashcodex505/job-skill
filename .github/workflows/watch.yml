@@ -5,15 +5,16 @@
 # SHAs against board/feed-heads.json and exits in seconds when nothing
 # changed.
 #
-# Separately, the `priority` job checks a small list of official first-party
-# sources with no upstream repo to gate on EVERY run, ungated — Amazon's own
-# public job-search API always, plus whatever companies the dashboard's
-# Priority companies panel adds (career/priority-companies.md, app-managed).
-# Each is one cheap direct API call, so running the list every 30 minutes
-# catches early postings before any community feed indexes them, without the
-# cost of a full ~55-company sweep (that stays on the 12h job-board.yml
-# schedule). Add a company there when you know a drop is coming and don't
-# want to wait up to 12h for the next full sweep.
+# Separately, the `priority` job checks companies the dashboard's Priority
+# companies panel added (career/priority-companies.md, app-managed) —
+# Amazon plus whatever you've added — every 30 minutes, direct API calls
+# with no upstream repo to gate on. There is no push notification from any
+# of these companies ("tell us when a job opens") — polling on a schedule
+# is the only way to know, the same as every other source in this project.
+# What IS gated: an EMPTY priority list means this job doesn't run at all —
+# no CI minutes spent, no Amazon call, nothing — until you add a company.
+# The moment you add one, it starts running every 30 min and an immediate
+# scan fires right away; removing the last one stops it again.
 #
 # Notifications are intentionally sparse either way: a ⭐ big-tech issue only
 # when new big-tech/FAANG/unicorn intern or new-grad roles appear
@@ -29,7 +30,7 @@ on:
     - cron: "7,37 * * * *" # poll twice hourly; real work only on upstream commits
   push:
     branches: [main]
-    paths: ["career/watchlist.md"]
+    paths: ["career/watchlist.md", "career/priority-companies.md"]
 
 permissions:
   contents: write
@@ -46,10 +47,19 @@ jobs:
     outputs:
       changed: ${{ steps.check.outputs.changed }}
       heads: ${{ steps.check.outputs.heads }}
+      has_priority: ${{ steps.priority.outputs.has_priority }}
     steps:
       - uses: actions/checkout@v4
         with:
-          sparse-checkout: board
+          sparse-checkout: |
+            board
+            career
+      - name: Check priority-companies list
+        id: priority
+        run: |
+          n=$(sed -n '/^## Priority/,$p' career/priority-companies.md 2>/dev/null | grep -c '^- ' || true)
+          echo "Priority companies: $n"
+          echo "has_priority=$([ "$n" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
       - name: Compare upstream feed HEADs
         id: check
         env:
@@ -150,8 +160,8 @@ jobs:
   # calls rather than a full sweep — sequenced after `watch` (not parallel)
   # so the two jobs never race pushing to board/.
   priority:
-    needs: watch
-    if: always()
+    needs: [gate, watch]
+    if: always() && needs.gate.outputs.has_priority == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
