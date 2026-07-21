@@ -49,8 +49,15 @@ jobs:
             git commit \
               -m "chore: refresh job board (${{ steps.board.outputs.summary }}) [skip ci]" \
               -m "Co-authored-by: Ashish Kurse <ashishkurse@gmail.com>"
-            git pull --rebase origin main
-            git push
+            if ! git pull --rebase origin main; then
+              # Regenerable board state; a genuine content conflict (concurrent
+              # run/manual push) is safe to drop — the next scheduled run
+              # regenerates it from source rather than needing manual resolution.
+              echo "Push race detected — dropping this run's board commit; it self-corrects next run."
+              git rebase --abort
+            else
+              git push
+            fi
           fi
       - name: Urgent watchlist alert
         if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
