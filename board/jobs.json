@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-21T22:32:08.798Z",
+ "updatedAt": "2026-07-21T23:36:48.697Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:e5fee829-850f-4ae1-9f1f-eda2ab36fdbe",
@@ -43,28 +43,6 @@
     "skills": 0
    },
    "postedAt": "2026-04-24T22:08:41.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:fe9e4f7b-bfee-47ca-93f1-4f31a2a74fc2",
-   "source": "simplifyjobs",
-   "company": "Notion",
-   "title": "Software Engineer – New Grad - AI",
-   "location": "SF",
-   "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-27T22:09:36.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
@@ -594,6 +572,28 @@
    },
    "postedAt": "2026-07-09T00:00:00.000Z",
    "firstSeenAt": "2026-07-21T14:18:00.197Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:af755532-e162-46d6-a161-7874c1865c6e",
+   "source": "simplifyjobs",
+   "company": "Cadence Design Systems",
+   "title": "Software Engineer New Grad - Undergrads",
+   "location": "Burlington, MA",
+   "url": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-09T00:00:00.000Z",
+   "firstSeenAt": "2026-07-21T23:36:48.697Z"
   },
   {
    "dedupeKey": "simplifyjobs:c368c0a9-db8e-455c-b06c-c18575c7b04d",
@@ -2514,6 +2514,16 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z",
    "closedAt": "2026-07-21T22:32:08.798Z",
    "url": "https://jobs.ashbyhq.com/hadrian-automation/41472a42-c3c3-40bd-a784-8a3fbab47be3/application"
+  },
+  {
+   "dedupeKey": "simplifyjobs:fe9e4f7b-bfee-47ca-93f1-4f31a2a74fc2",
+   "company": "Notion",
+   "title": "Software Engineer – New Grad - AI",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-21T23:36:48.697Z",
+   "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application"
   }
  ]
 }
