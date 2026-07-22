@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-22T12:02:17.642Z",
+ "updatedAt": "2026-07-22T14:19:22.003Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:e5fee829-850f-4ae1-9f1f-eda2ab36fdbe",
@@ -1080,6 +1080,28 @@
    "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:50dc47085324f28436854f43c29ea8e5befe72f1",
+   "source": "speedyapply",
+   "company": "NVIDIA",
+   "title": "PhD Research Intern - System Software and I/O Architecture - Fall 2026",
+   "location": "Remote - Santa Clara, CA +2",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-24",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:242131ab040faa347817775b91937ff7aec6c490",
    "source": "speedyapply",
    "company": "Rivian",
@@ -1100,6 +1122,28 @@
    },
    "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:d7d02b107cde94a91bad4c38811099282a29586f",
+   "source": "speedyapply",
+   "company": "Rivian",
+   "title": "Android Developer Intern - Fall 2026",
+   "location": "Palo Alto, CA",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/5633bb03-cc16-47fc-af02-db9dc355eddd",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-04",
+   "firstSeenAt": "2026-07-22T14:19:22.003Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:a0ae9e9b5b8a69fd363e53193a211560e36037d5",
@@ -1144,6 +1188,28 @@
    },
    "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:5e5db6f6c5a92872eb14a5f2680d42cc3f3f9e56",
+   "source": "speedyapply",
+   "company": "NVIDIA",
+   "title": "PhD Software Engineering Intern - Decision Intelligence - Fall 2026",
+   "location": "Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-05-22",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:0d26c80b68aa11cea2516a4a095e8304169f4178",
@@ -1412,12 +1478,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
+   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
    "source": "speedyapply",
    "company": "Hermeus",
-   "title": "Software Engineering Intern - HIL - Fall 2026",
-   "location": "Atlanta, GA",
-   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
+   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
+   "location": "Los Angeles, CA",
+   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -1434,12 +1500,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
+   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
    "source": "speedyapply",
    "company": "Hermeus",
-   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
-   "location": "Los Angeles, CA",
-   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
+   "title": "Software Engineering Intern - HIL - Fall 2026",
+   "location": "Atlanta, GA",
+   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -1520,6 +1586,28 @@
    },
    "postedAt": "2026-07-07",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:c754787f5ccdefff5bbe438aafcbfeeb22b27daa",
+   "source": "speedyapply",
+   "company": "Lightfield",
+   "title": "Software Engineer - Applied AI - New Grad",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/lightfield/fc93a467-773d-4805-b342-bf470950732d",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-16",
+   "firstSeenAt": "2026-07-22T14:19:22.003Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:17fb1c2f30dba42f602a18aa62cb1acdd12fefeb",
@@ -1608,6 +1696,28 @@
    },
    "postedAt": "2026-07-10",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:2da1a1bf409a68d1137a13f7a2fa50341dc467b2",
+   "source": "speedyapply",
+   "company": "Notion",
+   "title": "Software Engineer - Early Career - AI",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-06T18:37:42.434+00:00",
+   "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:fd975fae1866d34992e2dfd6f66ec17bc4f967da",
@@ -1784,6 +1894,28 @@
    },
    "postedAt": "2026-05-21",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:242ce307c4915d83771c84e63463b73930b2beeb",
+   "source": "speedyapply",
+   "company": "Notion",
+   "title": "Software Engineer - New Grad - AI",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-04-28",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:bf9c8cc6187c8af1ade021c4b71cef39b9c08a2f",
@@ -2249,78 +2381,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
-   "source": "ashby",
-   "company": "Notion",
-   "title": "Software Engineer, Early Career (AI)",
-   "location": "San Francisco, California",
-   "url": "https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 88,
-   "matchedSkills": [
-    "TypeScript",
-    "React",
-    "Node.js",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 8
-   },
-   "postedAt": "2026-07-06T18:37:42.434+00:00",
-   "firstSeenAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "workday:JR2017522",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "PhD Software Engineering Intern, Decision Intelligence - Fall 2026",
-   "location": "US, CA, Santa Clara",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": null,
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "workday:JR2019667",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "PhD Research Intern, System Software and I/O Architecture - Fall 2026",
-   "location": "3 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-24",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
    "dedupeKey": "workday:JR337715",
    "source": "workday",
    "company": "Salesforce",
@@ -2534,16 +2594,6 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z",
    "closedAt": "2026-07-21T23:36:48.697Z",
    "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application"
-  },
-  {
-   "dedupeKey": "ashby:7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9",
-   "company": "Notion",
-   "title": "Software Engineer, New Grad (AI)",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-22T07:45:53.755Z",
-   "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9"
   }
  ]
 }
