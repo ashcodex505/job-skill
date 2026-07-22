@@ -1,16 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
 **105 open roles** across **56 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-22 10:05 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-22 12:02 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (7)
+## 🆕 New this cycle (5)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Salesforce | Summer 2027 Intern - Software Engineer 🆕 | 2 Locations | Summer 2027 | 100% | 2026-07-22 | 2026-07-22 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715) |
-| NVIDIA | Compiler Engineer New Grad - Infrastructure 🆕 | Austin, TX; Remote in USA; Redmond, WA; Santa Clara, CA | — | 85% | 2026-07-20 | 2026-07-21 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compiler-Engineer--Infrastructure----New-College-Grad-2026_JR2021228) |
-| NVIDIA | Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale 🆕 | Seattle, WA; Santa Clara, CA | — | 80% | 2026-07-17 | 2026-07-21 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957) |
 | Cadence Design Systems | Software Engineer New Grad - Undergrads 🆕 | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-21 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-1) |
 | Cadence Design Systems | Software Engineer 2 New Grad 🆕 | Boston, MA | — | 80% | 2026-06-18 | 2026-07-22 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/BOSTON-02/Software-Engineer-II--New-College-Grad-2026-_R54895) |
 | Marvell | Systems Application Engineer – Early Career 🆕 | Santa Clara, CA | — | 80% | 2026-06-01 | 2026-07-22 | [**Apply ➜**](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Systems-Application-Engineer---Early-Career_2602267) |
@@ -54,7 +52,7 @@ Last updated: **2026-07-22 10:05 UTC** · auto-refreshed every 12h by [job-board
 |---|---|---|---|---|---|---|---|
 | Anduril | 2027 Early Career Software Engineer | Atlanta, GA +5 | 2027 New Grad | 100% | 2026-06-12 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
 | Notion | Software Engineer, Early Career (AI) | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
-| NVIDIA | Compiler Engineer New Grad - Infrastructure 🆕 | Austin, TX; Remote in USA; Redmond, WA; Santa Clara, CA | — | 85% | 2026-07-20 | 2026-07-21 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compiler-Engineer--Infrastructure----New-College-Grad-2026_JR2021228) |
+| NVIDIA | Compiler Engineer New Grad - Infrastructure | Austin, TX; Remote in USA; Redmond, WA; Santa Clara, CA | — | 85% | 2026-07-20 | 2026-07-21 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compiler-Engineer--Infrastructure----New-College-Grad-2026_JR2021228) |
 | NVIDIA | System Software Engineer New Grad - Dynamo-Triton Inference Server | Remote in USA; Santa Clara, CA | — | 85% | 2026-07-13 | 2026-07-15 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Dynamo-Triton-Inference-Server---New-College-Grad-2026_JR2020767) |
 | Realm | Software Engineer - New Grad | Remote | — | 85% | 2026-04-04 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/realmalliance/56d8b433-31ad-43a2-997e-b8538f5f2c9f) |
 | Quora | Machine Learning Engineer New Grad | Remote in USA; Remote in Canada | — | 85% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/3eb7e80e-6a0d-41b6-8ee4-f62421c486e4/application) |
@@ -72,7 +70,7 @@ Last updated: **2026-07-22 10:05 UTC** · auto-refreshed every 12h by [job-board
 | Marvell | Systems Application Engineer – Early Career 🆕 | Santa Clara, CA | — | 80% | 2026-06-01 | 2026-07-22 | [**Apply ➜**](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Systems-Application-Engineer---Early-Career_2602267) |
 | NVIDIA | GPU System and Scheduling Architect New Grad 🆕 | Santa Clara, CA | — | 80% | 2026-05-11 | 2026-07-22 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-System-and-Scheduling-Architect---New-College-Grad-2026_JR2016691-1) |
 | Cadence Design Systems | Software Engineer New Grad - Undergrads 🆕 | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-21 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-1) |
-| NVIDIA | Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale 🆕 | Seattle, WA; Santa Clara, CA | — | 80% | 2026-07-17 | 2026-07-21 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957) |
+| NVIDIA | Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale | Seattle, WA; Santa Clara, CA | — | 80% | 2026-07-17 | 2026-07-21 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957) |
 | Cadence Design Systems | Software Engineer New Grad - Undergrads | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-21 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894) |
 | Hipp Health | Software Engineer New Grad | United States | — | 80% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/hipp/ea04e914-674c-4c05-b40a-7e8a035bad14/application?embed=true) |
 | Strada | Software Engineer New Grad | SF | — | 80% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/stradahq/626411c6-808e-4eb2-b28d-76f5d88e0af6/application?embed=true) |
