@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **108 open roles** across **56 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-22 14:19 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-22 16:06 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (6)
@@ -133,7 +133,7 @@ Last updated: **2026-07-22 14:19 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (17)
+## 🚪 Recently closed (last 7 days) (16)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -155,7 +155,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | SeatGeek | Software Engineer - New Grad | — | 2026-07-17 |
 | SeatGeek | Software Engineer – New Grad | — | 2026-07-15 |
 | Capital One | Software Engineer New Grad - Software Engineer | — | 2026-07-15 |
-| SpaceX | Fall 2026 Software Engineering Internship/Co-op | Fall 2026 | 2026-07-15 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) and SimplifyJobs Summer Internships._

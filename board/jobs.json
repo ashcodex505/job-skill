@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-22T14:19:22.003Z",
+ "updatedAt": "2026-07-22T16:06:16.789Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:e5fee829-850f-4ae1-9f1f-eda2ab36fdbe",
@@ -2428,15 +2428,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "speedyapply:sha1:dd54d28d0ce0eea24a67235edeade7a0dce5952c",
-   "company": "SpaceX",
-   "title": "Fall 2026 Software Engineering Internship/Co-op",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-15T09:26:54.607Z",
-   "closedAt": "2026-07-15T15:00:25.217Z"
-  },
   {
    "dedupeKey": "simplifyjobs:497ebde0-832e-47ef-be0f-4960afd0a13a",
    "company": "SeatGeek",
