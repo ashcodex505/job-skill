@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**104 open roles** across **53 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-23 21:19 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**103 open roles** across **52 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-07-23 22:35 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (2)
@@ -43,7 +43,7 @@ Last updated: **2026-07-23 21:19 UTC** · auto-refreshed every 12h by [job-board
 | NVIDIA | PhD Software Engineering Intern - Decision Intelligence - Fall 2026 | Santa Clara, CA | Fall 2026 | 100% | 2026-05-22 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
 | SpaceX | Fall 2026 Software Engineering Internship/Co-op | Flexible - Any SpaceX Site | Fall 2026 | 100% (4 skills) | 2026-03-18 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002) |
 
-## 🎓 New Grad (77)
+## 🎓 New Grad (76)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -108,7 +108,6 @@ Last updated: **2026-07-23 21:19 UTC** · auto-refreshed every 12h by [job-board
 | Fortinet | Software Developer New Grad | Sunnyvale, CA | — | 80% | 2026-05-07 | 2026-07-05 | [**Apply ➜**](https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22818) |
 | IXL Learning | Software Engineer New Grad | San Mateo, CA | — | 80% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://www.ixl.com/company/jobs?gh_jid=8615710002) |
 | Julius AI | Refresh Software Engineer New Grad - Product | SF | — | 80% | 2026-05-21 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/julius/5e0b677a-f677-44de-93c6-f7848ab5a8e6/application) |
-| Northwood Space | Software Engineer – New grad / early career | Carson, CA | — | 80% | 2026-04-24 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/NorthwoodSpace/b960b661-e1cc-40d0-bde3-290cd1b58ede/application) |
 | Palantir | Forward Deployed Software Engineer New Grad | NYC | — | 80% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca/apply) |
 | Palantir | Forward Deployed Software Engineer New Grad | Washington, DC | — | 80% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply) |
 | Palantir | Forward Deployed Software Engineer New Grad | Washington, DC | — | 80% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382/apply) |
@@ -125,12 +124,13 @@ Last updated: **2026-07-23 21:19 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (22)
+## 🚪 Recently closed (last 7 days) (23)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Northwood Space | Software Engineer – New grad / early career | — | 2026-07-23 |
 | Salesforce | Summer 2027 Intern - Software Engineer | Summer 2027 | 2026-07-23 |
 | Skydio | Software Engineer Intern Fall 2026/Winter 2027 | Fall 2026 | 2026-07-23 |
 | Northslope | Forward Deployed Software Engineer - New Grad | — | 2026-07-23 |
