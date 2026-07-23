@@ -32,6 +32,7 @@ interface Dashboard {
     overdue: boolean;
   }[];
   recent: { id: string; companyName: string; jobTitle: string; status: string; updatedAt: string }[];
+  hiddenPriorCycle: number;
   lastRun: { startedAt: string; jobsFound: number; newJobs: number } | null;
 }
 
@@ -73,6 +74,9 @@ export default function DashboardPage() {
             {data.lastRun
               ? `Last scrape ${formatDateTime(data.lastRun.startedAt)} — ${data.lastRun.jobsFound} relevant roles, ${data.lastRun.newJobs} new`
               : "No scrapes yet — run one from Job Discovery"}
+            {data.hiddenPriorCycle > 0
+              ? ` · ${data.hiddenPriorCycle} prior-cycle application${data.hiddenPriorCycle === 1 ? "" : "s"} hidden (see Applications for all)`
+              : ""}
           </p>
         </div>
         <Link href="/discovery" className="flex items-center gap-1.5 text-xs font-medium text-accent hover:underline">

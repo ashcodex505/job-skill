@@ -1,14 +1,20 @@
 import { eq } from "drizzle-orm";
 import { db, tables } from "@/db";
 import { handler, ok, parseTags } from "@/lib/api";
+import { isCurrentCycle } from "@/lib/applications/cycle";
 import { ACTIVE_STATUSES, INTERVIEW_STATUSES, type ApplicationStatus } from "@/lib/types";
 
 export const GET = handler(async () => {
-  const [apps, lastRun, discoveredCount] = await Promise.all([
+  const [allApps, lastRun, discoveredCount] = await Promise.all([
     db.select().from(tables.applications),
     db.query.scraperRuns.findFirst({ orderBy: (r, { desc: d }) => d(r.startedAt) }),
     db.$count(tables.discoveredJobs, eq(tables.discoveredJobs.active, true)),
   ]);
+
+  // Dashboard shows the current hiring cycle onward only — CSV imports (e.g.
+  // Simplify) bring in stale prior-cycle applications that would otherwise
+  // dominate the totals. The Applications page itself is unfiltered.
+  const apps = allApps.filter((a) => isCurrentCycle(a));
 
   const byStatus: Record<string, number> = {};
   for (const app of apps) byStatus[app.status] = (byStatus[app.status] ?? 0) + 1;
@@ -51,6 +57,7 @@ export const GET = handler(async () => {
     byStatus,
     nextActions,
     recent,
+    hiddenPriorCycle: allApps.length - apps.length,
     lastRun: lastRun ? { ...lastRun, errors: JSON.parse(lastRun.errors) } : null,
   });
 });
