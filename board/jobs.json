@@ -1,28 +1,6 @@
 {
- "updatedAt": "2026-07-23T00:11:25.726Z",
+ "updatedAt": "2026-07-23T03:58:00.503Z",
  "jobs": [
-  {
-   "dedupeKey": "simplifyjobs:e5fee829-850f-4ae1-9f1f-eda2ab36fdbe",
-   "source": "simplifyjobs",
-   "company": "Wonderschool",
-   "title": "Early Career Software Engineer - Applied AI",
-   "location": "SF",
-   "url": "https://job-boards.greenhouse.io/wonderschool/jobs/6359139003",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-24T01:12:00.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
   {
    "dedupeKey": "simplifyjobs:6805a542-b373-4362-a01b-1340de5ba6db",
    "source": "simplifyjobs",
@@ -1012,6 +990,28 @@
    },
    "postedAt": "2026-07-22T22:14:51.000Z",
    "firstSeenAt": "2026-07-23T00:11:25.726Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:64d8a339-fc47-43a1-83fc-39765bf1bac0",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "Deep Learning Software Engineer New Grad - Inference",
+   "location": "Washington; California; Texas; NYC; Massachusetts",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Deep-Learning-Software-Engineer--Inference---New-College-Grad-2026_JR2021742",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-22T00:00:00.000Z",
+   "firstSeenAt": "2026-07-23T03:58:00.503Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:456a396b017d57e5d6f96090fb757d6be2045763",
@@ -2577,6 +2577,16 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z",
    "closedAt": "2026-07-22T18:39:20.290Z",
    "url": "https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e/application"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e5fee829-850f-4ae1-9f1f-eda2ab36fdbe",
+   "company": "Wonderschool",
+   "title": "Early Career Software Engineer - Applied AI",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-23T03:58:00.503Z",
+   "url": "https://job-boards.greenhouse.io/wonderschool/jobs/6359139003"
   }
  ]
 }
