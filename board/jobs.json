@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-23T13:10:59.096Z",
+ "updatedAt": "2026-07-23T15:35:30.002Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:6805a542-b373-4362-a01b-1340de5ba6db",
@@ -1236,6 +1236,28 @@
    "firstSeenAt": "2026-07-21T02:14:34.883Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:1f46ba9affe687e266248a047529590cfef40ab1",
+   "source": "speedyapply",
+   "company": "NXP Semiconductors",
+   "title": "AI / Software Engineering Intern - Fall 2026",
+   "location": "Austin, TX",
+   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/AI---Software-Engineering-Intern---Fall-2026_R-10064807",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-20",
+   "firstSeenAt": "2026-07-23T15:35:30.002Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:d9a1edd6afb62dcf223f06d62abe01e31a994a60",
    "source": "speedyapply",
    "company": "Deepgram",
@@ -1434,28 +1456,6 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:2eaa3922abdeeda3e4903cbf152359833a1f36d6",
-   "source": "speedyapply",
-   "company": "Skydio",
-   "title": "Software Engineer Intern Fall 2026/Winter 2027",
-   "location": "San Mateo, CA",
-   "url": "https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-06",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:42f9f601616929c54bb26d63769c08b4e5162156",
    "source": "speedyapply",
    "company": "Gemini",
@@ -1478,12 +1478,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
+   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
    "source": "speedyapply",
    "company": "Hermeus",
-   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
-   "location": "Los Angeles, CA",
-   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
+   "title": "Software Engineering Intern - HIL - Fall 2026",
+   "location": "Atlanta, GA",
+   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -1500,12 +1500,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
+   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
    "source": "speedyapply",
    "company": "Hermeus",
-   "title": "Software Engineering Intern - HIL - Fall 2026",
-   "location": "Atlanta, GA",
-   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
+   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
+   "location": "Los Angeles, CA",
+   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -1588,6 +1588,28 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:8f2d3487979cf17505a9d8e49e0aaa0ac349f234",
+   "source": "speedyapply",
+   "company": "General Motors",
+   "title": "Software Engineer - Autonomous Vehicles Software Systems - Early Career",
+   "location": "Sunnyvale, CA +1",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Sunnyvale-California-United-States-of-America/Software-Engineer--Autonomous-Vehicles-Software-Systems---Early-Career_JR-202604759",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-21",
+   "firstSeenAt": "2026-07-23T15:35:30.002Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:c754787f5ccdefff5bbe438aafcbfeeb22b27daa",
    "source": "speedyapply",
    "company": "Lightfield",
@@ -1630,28 +1652,6 @@
    },
    "postedAt": "2026-07-14",
    "firstSeenAt": "2026-07-15T15:00:25.217Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:a63cba79d2d3d5d9fbf0191c683387eda987aef2",
-   "source": "speedyapply",
-   "company": "Northslope",
-   "title": "Forward Deployed Software Engineer - New Grad",
-   "location": "New York City, NY",
-   "url": "https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-14",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:30c549abd8b194af629ab8fb876131bc89c8466a",
@@ -1698,28 +1698,6 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:2da1a1bf409a68d1137a13f7a2fa50341dc467b2",
-   "source": "speedyapply",
-   "company": "Notion",
-   "title": "Software Engineer - Early Career - AI",
-   "location": "San Francisco, CA",
-   "url": "https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-06T18:37:42.434+00:00",
-   "firstSeenAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:fd975fae1866d34992e2dfd6f66ec17bc4f967da",
    "source": "speedyapply",
    "company": "Notion",
@@ -1739,6 +1717,28 @@
     "skills": 0
    },
    "postedAt": "2026-07-06T18:37:35.161+00:00",
+   "firstSeenAt": "2026-07-06T19:13:12.302Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:2da1a1bf409a68d1137a13f7a2fa50341dc467b2",
+   "source": "speedyapply",
+   "company": "Notion",
+   "title": "Software Engineer - Early Career - AI",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-06T18:37:42.434+00:00",
    "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
@@ -1784,28 +1784,6 @@
    },
    "postedAt": "2026-06-29T14:44:20.702Z",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:af2874e88065da291333d9524e06ca7c437031e8",
-   "source": "speedyapply",
-   "company": "Hadrian",
-   "title": "Fullstack Software Engineer - New Grad",
-   "location": "Los Angeles, CA",
-   "url": "https://jobs.ashbyhq.com/hadrian-automation/41472a42-c3c3-40bd-a784-8a3fbab47be3",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-19",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:526216f2ab0a518d3b00bfe9f70cf0a2725e47a4",
@@ -1894,50 +1872,6 @@
    },
    "postedAt": "2026-05-21",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:242ce307c4915d83771c84e63463b73930b2beeb",
-   "source": "speedyapply",
-   "company": "Notion",
-   "title": "Software Engineer - New Grad - AI",
-   "location": "San Francisco, CA",
-   "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-28",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:bf9c8cc6187c8af1ade021c4b71cef39b9c08a2f",
-   "source": "speedyapply",
-   "company": "Notion",
-   "title": "Software Engineer - New Grad",
-   "location": "San Francisco, CA",
-   "url": "https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-23T21:27:21.811+00:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:027408985c0eed87b5281b5cd58eeb471b91e06a",
@@ -2587,6 +2521,56 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z",
    "closedAt": "2026-07-23T03:58:00.503Z",
    "url": "https://job-boards.greenhouse.io/wonderschool/jobs/6359139003"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:2eaa3922abdeeda3e4903cbf152359833a1f36d6",
+   "company": "Skydio",
+   "title": "Software Engineer Intern Fall 2026/Winter 2027",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-07-23T15:35:30.002Z",
+   "url": "https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:a63cba79d2d3d5d9fbf0191c683387eda987aef2",
+   "company": "Northslope",
+   "title": "Forward Deployed Software Engineer - New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-07-23T15:35:30.002Z",
+   "url": "https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:af2874e88065da291333d9524e06ca7c437031e8",
+   "company": "Hadrian",
+   "title": "Fullstack Software Engineer - New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-07-23T15:35:30.002Z",
+   "url": "https://jobs.ashbyhq.com/hadrian-automation/41472a42-c3c3-40bd-a784-8a3fbab47be3"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:242ce307c4915d83771c84e63463b73930b2beeb",
+   "company": "Notion",
+   "title": "Software Engineer - New Grad - AI",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z",
+   "closedAt": "2026-07-23T15:35:30.002Z",
+   "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:bf9c8cc6187c8af1ade021c4b71cef39b9c08a2f",
+   "company": "Notion",
+   "title": "Software Engineer - New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z",
+   "closedAt": "2026-07-23T15:35:30.002Z",
+   "url": "https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555"
   }
  ]
 }
