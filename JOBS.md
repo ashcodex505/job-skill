@@ -1,13 +1,16 @@
 # 🎯 Job Board — SWE Early Career
 
-**103 open roles** across **52 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-23 22:35 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**106 open roles** across **52 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-07-23 23:36 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (2)
+## 🆕 New this cycle (5)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Cerebras | ML Software Engineer New Grad - Integration & Quality 🆕 | Toronto, ON, Canada; Sunnyvale, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://jobs.ashbyhq.com/cerebras/05fd05ea-b515-4c26-851e-b3882dfba154/application?embed=true) |
+| NVIDIA | AI and ML Infra Software Engineer New Grad - GPU Clusters 🆕 | Redmond, WA; Santa Clara, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-ML-Infra-Software-Engineer--GPU-Clusters---New-College-Grad-2026_JR2021591) |
+| NVIDIA | Software Engineer New Grad - Physical Design Infrastructure 🆕 | Santa Clara, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823) |
 | General Motors | Software Engineer - Autonomous Vehicles Software Systems - Early Career 🆕 | Sunnyvale, CA +1 | — | 80% | 2026-07-21 | 2026-07-23 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Sunnyvale-California-United-States-of-America/Software-Engineer--Autonomous-Vehicles-Software-Systems---Early-Career_JR-202604759) |
 | NXP Semiconductors | AI / Software Engineering Intern - Fall 2026 🆕 | Austin, TX | Fall 2026 | 100% | 2026-07-20 | 2026-07-23 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/AI---Software-Engineering-Intern---Fall-2026_R-10064807) |
 
@@ -43,7 +46,7 @@ Last updated: **2026-07-23 22:35 UTC** · auto-refreshed every 12h by [job-board
 | NVIDIA | PhD Software Engineering Intern - Decision Intelligence - Fall 2026 | Santa Clara, CA | Fall 2026 | 100% | 2026-05-22 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
 | SpaceX | Fall 2026 Software Engineering Internship/Co-op | Flexible - Any SpaceX Site | Fall 2026 | 100% (4 skills) | 2026-03-18 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002) |
 
-## 🎓 New Grad (76)
+## 🎓 New Grad (79)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -62,6 +65,9 @@ Last updated: **2026-07-23 22:35 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Washington, D.C. | — | 85% (3 skills) | 2025-08-19 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
+| Cerebras | ML Software Engineer New Grad - Integration & Quality 🆕 | Toronto, ON, Canada; Sunnyvale, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://jobs.ashbyhq.com/cerebras/05fd05ea-b515-4c26-851e-b3882dfba154/application?embed=true) |
+| NVIDIA | AI and ML Infra Software Engineer New Grad - GPU Clusters 🆕 | Redmond, WA; Santa Clara, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-ML-Infra-Software-Engineer--GPU-Clusters---New-College-Grad-2026_JR2021591) |
+| NVIDIA | Software Engineer New Grad - Physical Design Infrastructure 🆕 | Santa Clara, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823) |
 | General Motors | Software Engineer - Autonomous Vehicles Software Systems - Early Career 🆕 | Sunnyvale, CA +1 | — | 80% | 2026-07-21 | 2026-07-23 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Sunnyvale-California-United-States-of-America/Software-Engineer--Autonomous-Vehicles-Software-Systems---Early-Career_JR-202604759) |
 | NVIDIA | Deep Learning Software Engineer New Grad - Inference | Washington; California; Texas; NYC; Massachusetts | — | 80% | 2026-07-22 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Deep-Learning-Software-Engineer--Inference---New-College-Grad-2026_JR2021742) |
 | Traba | Software Engineer New Grad | NYC | — | 80% | 2026-07-22 | 2026-07-23 | [**Apply ➜**](https://jobs.ashbyhq.com/traba/90d6307c-1bb1-4abf-8e73-7afa6a7e0a70/application?embed=true) |

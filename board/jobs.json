@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-23T22:35:13.609Z",
+ "updatedAt": "2026-07-23T23:36:04.605Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:0f8b69bb-cbbb-4949-b2a7-23aa41726134",
@@ -990,6 +990,72 @@
    },
    "postedAt": "2026-07-22T00:00:00.000Z",
    "firstSeenAt": "2026-07-23T03:58:00.503Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e3815529-57c7-41bb-8d69-cad889c3b01e",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "AI and ML Infra Software Engineer New Grad - GPU Clusters",
+   "location": "Redmond, WA; Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-ML-Infra-Software-Engineer--GPU-Clusters---New-College-Grad-2026_JR2021591",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-23T00:00:00.000Z",
+   "firstSeenAt": "2026-07-23T23:36:04.605Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a455da9d-eaec-41c8-9de6-819c1f5bac60",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "Software Engineer New Grad - Physical Design Infrastructure",
+   "location": "Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-23T00:00:00.000Z",
+   "firstSeenAt": "2026-07-23T23:36:04.605Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:be8f4bc8-3744-45dd-96b4-35a6d931e52a",
+   "source": "simplifyjobs",
+   "company": "Cerebras",
+   "title": "ML Software Engineer New Grad - Integration & Quality",
+   "location": "Toronto, ON, Canada; Sunnyvale, CA",
+   "url": "https://jobs.ashbyhq.com/cerebras/05fd05ea-b515-4c26-851e-b3882dfba154/application?embed=true",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-23T22:16:49.000Z",
+   "firstSeenAt": "2026-07-23T23:36:04.605Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:456a396b017d57e5d6f96090fb757d6be2045763",
