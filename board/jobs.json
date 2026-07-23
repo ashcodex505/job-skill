@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-22T22:38:51.069Z",
+ "updatedAt": "2026-07-23T00:11:25.726Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:e5fee829-850f-4ae1-9f1f-eda2ab36fdbe",
@@ -990,6 +990,28 @@
    },
    "postedAt": "2026-07-20T00:00:00.000Z",
    "firstSeenAt": "2026-07-21T21:23:13.140Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:9904ce81-b80f-448d-a958-9b719a4676e9",
+   "source": "simplifyjobs",
+   "company": "Traba",
+   "title": "Software Engineer New Grad",
+   "location": "NYC",
+   "url": "https://jobs.ashbyhq.com/traba/90d6307c-1bb1-4abf-8e73-7afa6a7e0a70/application?embed=true",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-22T22:14:51.000Z",
+   "firstSeenAt": "2026-07-23T00:11:25.726Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:456a396b017d57e5d6f96090fb757d6be2045763",
