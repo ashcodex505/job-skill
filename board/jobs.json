@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-23T23:36:04.605Z",
+ "updatedAt": "2026-07-24T01:07:00.334Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:0f8b69bb-cbbb-4949-b2a7-23aa41726134",
@@ -2384,26 +2384,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:67fa641a-072c-4739-8ce6-46b35fd111a5",
-   "company": "Kustomer",
-   "title": "Software Engineer – Early Career - Full Stack",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-11T07:22:30.098Z",
-   "closedAt": "2026-07-17T00:47:32.147Z",
-   "url": "https://jobs.ashbyhq.com/kustomer/4037272a-7fd3-4040-906b-47fde875a817/application"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:01952334136d6b3fee240cbc8a204d70d583325e",
-   "company": "SeatGeek",
-   "title": "Software Engineer - New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-15T18:17:58.177Z",
-   "closedAt": "2026-07-17T00:47:32.147Z",
-   "url": "https://seatgeek.com/jobs/7858968?gh_jid=7858968"
-  },
   {
    "dedupeKey": "greenhouse:7991718",
    "company": "Stripe",

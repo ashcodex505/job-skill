@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **106 open roles** across **52 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-23 23:36 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-24 01:07 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (5)
@@ -130,7 +130,7 @@ Last updated: **2026-07-23 23:36 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (23)
+## 🚪 Recently closed (last 7 days) (21)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -157,8 +157,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | General Motors | Software Developer – Early Career | — | 2026-07-21 |
 | Kustomer | Software Engineer - Full Stack - Early Career | — | 2026-07-21 |
 | Authorium | Software Engineer - New Grad | — | 2026-07-21 |
-| Kustomer | Software Engineer – Early Career - Full Stack | — | 2026-07-17 |
-| SeatGeek | Software Engineer - New Grad | — | 2026-07-17 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) and SimplifyJobs Summer Internships._
