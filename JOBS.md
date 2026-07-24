@@ -1,21 +1,20 @@
 # 🎯 Job Board — SWE Early Career
 
-**106 open roles** across **52 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-24 11:53 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**107 open roles** across **52 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-07-24 14:07 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (3)
+## 🆕 New this cycle (1)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Cerebras | ML Software Engineer New Grad - Integration & Quality 🆕 | Toronto, ON, Canada; Sunnyvale, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://jobs.ashbyhq.com/cerebras/05fd05ea-b515-4c26-851e-b3882dfba154/application?embed=true) |
-| NVIDIA | AI and ML Infra Software Engineer New Grad - GPU Clusters 🆕 | Redmond, WA; Santa Clara, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-ML-Infra-Software-Engineer--GPU-Clusters---New-College-Grad-2026_JR2021591) |
-| NVIDIA | Software Engineer New Grad - Physical Design Infrastructure 🆕 | Santa Clara, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823) |
+| Astranis Space Technologies | Software Engineer Intern - Enterprise Systems - Fall 2026 🆕 | San Francisco, CA | Fall 2026 | 100% | 2026-07-24 | 2026-07-24 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 
-## 🛠️ Internships (27)
+## 🛠️ Internships (28)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Astranis Space Technologies | Software Engineer Intern - Enterprise Systems - Fall 2026 🆕 | San Francisco, CA | Fall 2026 | 100% | 2026-07-24 | 2026-07-24 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 | NXP Semiconductors | AI / Software Engineering Intern - Fall 2026 | Austin, TX | Fall 2026 | 100% | 2026-07-20 | 2026-07-23 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/AI---Software-Engineering-Intern---Fall-2026_R-10064807) |
 | Rivian | Android Developer Intern - Fall 2026 | Palo Alto, CA | Fall 2026 | 100% | 2026-06-04 | 2026-07-22 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/5633bb03-cc16-47fc-af02-db9dc355eddd) |
 | Google | Software Engineering Intern - MS - Summer 2027 | Mountain View, CA +29 | Summer 2027 | 100% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/95141459539174086) |
@@ -63,9 +62,9 @@ Last updated: **2026-07-24 11:53 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Washington, D.C. | — | 85% (3 skills) | 2025-08-19 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
-| Cerebras | ML Software Engineer New Grad - Integration & Quality 🆕 | Toronto, ON, Canada; Sunnyvale, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://jobs.ashbyhq.com/cerebras/05fd05ea-b515-4c26-851e-b3882dfba154/application?embed=true) |
-| NVIDIA | AI and ML Infra Software Engineer New Grad - GPU Clusters 🆕 | Redmond, WA; Santa Clara, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-ML-Infra-Software-Engineer--GPU-Clusters---New-College-Grad-2026_JR2021591) |
-| NVIDIA | Software Engineer New Grad - Physical Design Infrastructure 🆕 | Santa Clara, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823) |
+| Cerebras | ML Software Engineer New Grad - Integration & Quality | Toronto, ON, Canada; Sunnyvale, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://jobs.ashbyhq.com/cerebras/05fd05ea-b515-4c26-851e-b3882dfba154/application?embed=true) |
+| NVIDIA | AI and ML Infra Software Engineer New Grad - GPU Clusters | Redmond, WA; Santa Clara, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-ML-Infra-Software-Engineer--GPU-Clusters---New-College-Grad-2026_JR2021591) |
+| NVIDIA | Software Engineer New Grad - Physical Design Infrastructure | Santa Clara, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823) |
 | General Motors | Software Engineer - Autonomous Vehicles Software Systems - Early Career | Sunnyvale, CA +1 | — | 80% | 2026-07-21 | 2026-07-23 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Sunnyvale-California-United-States-of-America/Software-Engineer--Autonomous-Vehicles-Software-Systems---Early-Career_JR-202604759) |
 | NVIDIA | Deep Learning Software Engineer New Grad - Inference | Washington; California; Texas; NYC; Massachusetts | — | 80% | 2026-07-22 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Deep-Learning-Software-Engineer--Inference---New-College-Grad-2026_JR2021742) |
 | Traba | Software Engineer New Grad | NYC | — | 80% | 2026-07-22 | 2026-07-23 | [**Apply ➜**](https://jobs.ashbyhq.com/traba/90d6307c-1bb1-4abf-8e73-7afa6a7e0a70/application?embed=true) |
@@ -103,8 +102,8 @@ Last updated: **2026-07-24 11:53 UTC** · auto-refreshed every 12h by [job-board
 | Cerebras | Software Engineer New Grad | Toronto, ON, Canada; Sunnyvale, CA | — | 80% | 2026-07-07 | 2026-07-08 | [**Apply ➜**](https://jobs.ashbyhq.com/cerebras/99c289fa-8fc6-49f7-b7e8-78ac4e9d99ac/application) |
 | Notion | Software Engineer – Early Career - AI | SF | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28/application) |
 | Notion | Software Engineer – Early Career | SF | — | 80% | 2026-07-06 | 2026-07-07 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application) |
-| Notion | Software Engineer - Early Career | San Francisco, CA | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
 | Notion | Software Engineer - Early Career - AI | San Francisco, CA | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
+| Notion | Software Engineer - Early Career | San Francisco, CA | — | 80% | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
 | Headlands Tech Holdings | Research Developer New Grad | London, UK; Chicago, IL; NYC | — | 80% | 2026-07-05 | 2026-07-06 | [**Apply ➜**](https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4227566009) |
 | Palantir | Software Engineer New Grad | Denver, CO | — | 80% | 2026-06-29 | 2026-07-06 | [**Apply ➜**](https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29/apply) |
 | Collective | Software Engineer New Grad | SF | — | 80% | 2026-06-17 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/collective/40516856-b29c-4b38-b434-68be5241bacf/application) |
