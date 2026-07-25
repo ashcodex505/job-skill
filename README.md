@@ -254,7 +254,7 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 
 ![open roles](https://img.shields.io/badge/open%20roles-111-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-3-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--25-informational)
 
-Updated **2026-07-25 11:47 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-07-25 13:58 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -270,8 +270,8 @@ Updated **2026-07-25 11:47 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Astranis Space Technologies | Software Engineer- Backend Intern - Fall 2026 | San Francisco, CA | Fall 2026 | 100% | 2026-05-14 | 2026-07-15 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
 | Cloudflare | Software Engineer Intern - Fall 2026 - Austin - TX | Austin, TX | Fall 2026 | 100% | 2026-07-15 | 2026-07-15 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) |
 | Gemini | Software Engineering Intern - Fall 2026 | New York City, NY | Fall 2026 | 100% | 2026-05-02 | 2026-07-15 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125) |
-| Hermeus | Software Engineering Intern - HIL - Fall 2026 | Atlanta, GA | Fall 2026 | 100% | 2026-04-18 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf) |
 | Hermeus | Software Engineering Intern - Modeling & Simulation - Fall 2026 | Los Angeles, CA | Fall 2026 | 100% | 2026-04-18 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d) |
+| Hermeus | Software Engineering Intern - HIL - Fall 2026 | Atlanta, GA | Fall 2026 | 100% | 2026-04-18 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf) |
 | Hermeus | Software Engineering Intern - HMI - Fall 2026 | Atlanta, GA | Fall 2026 | 100% | 2026-04-01 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67) |
 | MyJunior AI | Software Engineering Intern — Fall 2026 | New York City, NY | Fall 2026 | 100% | 2026-07-01 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/junior/23ee686b-d305-4ac9-860d-16c99ddb4891) |
 | Rivian | Software Engineering Intern - Connected Systems - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-04 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92) |
