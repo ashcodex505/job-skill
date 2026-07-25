@@ -115,8 +115,7 @@ jobs:
             echo "No board changes."
           else
             git commit \
-              -m "chore: feed watch (${{ steps.board.outputs.summary }}) [skip ci]" \
-              -m "Co-authored-by: Ashish Kurse <ashishkurse@gmail.com>"
+              -m "chore: feed watch (${{ steps.board.outputs.summary }}) [skip ci]"
             if ! git pull --rebase origin main; then
               # Regenerable board state; a genuine content conflict (concurrent
               # run/manual push) is safe to drop — the next scheduled run
@@ -187,8 +186,7 @@ jobs:
             echo "No board changes."
           else
             git commit \
-              -m "chore: priority scan (${{ steps.board.outputs.summary }}) [skip ci]" \
-              -m "Co-authored-by: Ashish Kurse <ashishkurse@gmail.com>"
+              -m "chore: priority scan (${{ steps.board.outputs.summary }}) [skip ci]"
             if ! git pull --rebase origin main; then
               # Regenerable board state; a genuine content conflict (concurrent
               # run/manual push) is safe to drop — the next scheduled run
