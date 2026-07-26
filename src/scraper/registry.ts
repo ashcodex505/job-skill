@@ -18,9 +18,10 @@
  * Companies with `ats: "unsupported"` were checked and found to require
  * authenticated/session-bound APIs, private GraphQL, or Akamai/edge anti-bot
  * protection (Google, Apple, Meta, Microsoft, Uber, LinkedIn, Snowflake,
- * Tesla — each individually confirmed, not assumed). We never bypass those;
- * they're listed with a careers link for manual checking and are natural
- * future adapters if that ever changes.
+ * Tesla, Shopify, TikTok, Snap, Applied Intuition, Bloomberg, Grammarly,
+ * HashiCorp — each individually probed against every adapter type above,
+ * not assumed). We never bypass those; they're listed with a careers link
+ * for manual checking and are natural future adapters if that ever changes.
  *
  * A wrong slug only produces a per-company error in scraper_runs — the run
  * itself continues.
@@ -81,10 +82,17 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Webflow", website: "https://webflow.com", careersUrl: "https://webflow.com/careers", ats: "greenhouse", slug: "webflow" },
   { name: "Doximity", website: "https://doximity.com", careersUrl: "https://doximity.com/about/careers", ats: "greenhouse", slug: "doximity" },
   { name: "Zscaler", website: "https://zscaler.com", careersUrl: "https://zscaler.com/careers", ats: "greenhouse", slug: "zscaler" },
+  { name: "Waymo", website: "https://waymo.com", careersUrl: "https://waymo.com/careers", ats: "greenhouse", slug: "waymo" },
+  { name: "GitLab", website: "https://gitlab.com", careersUrl: "https://about.gitlab.com/jobs", ats: "greenhouse", slug: "gitlab" },
+  { name: "xAI", website: "https://x.ai", careersUrl: "https://x.ai/careers", ats: "greenhouse", slug: "xai" },
+  { name: "Epic Games", website: "https://epicgames.com", careersUrl: "https://epicgames.com/careers", ats: "greenhouse", slug: "epicgames" },
 
   // ── Lever ───────────────────────────────────────────────────────────
   { name: "Palantir", website: "https://palantir.com", careersUrl: "https://palantir.com/careers", ats: "lever", slug: "palantir" },
   { name: "Spotify", website: "https://spotify.com", careersUrl: "https://lifeatspotify.com", ats: "lever", slug: "spotify" },
+  { name: "Atlassian", website: "https://atlassian.com", careersUrl: "https://atlassian.com/company/careers", ats: "lever", slug: "atlassian" },
+  { name: "Zoox", website: "https://zoox.com", careersUrl: "https://zoox.com/careers", ats: "lever", slug: "zoox" },
+  { name: "Mistral AI", website: "https://mistral.ai", careersUrl: "https://mistral.ai/careers", ats: "lever", slug: "mistral" },
 
   // ── Ashby ───────────────────────────────────────────────────────────
   { name: "OpenAI", website: "https://openai.com", careersUrl: "https://openai.com/careers", ats: "ashby", slug: "openai" },
@@ -100,6 +108,10 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Confluent", website: "https://confluent.io", careersUrl: "https://careers.confluent.io", ats: "ashby", slug: "confluent" },
   { name: "Cohere", website: "https://cohere.com", careersUrl: "https://cohere.com/careers", ats: "ashby", slug: "cohere" },
   { name: "Harvey", website: "https://harvey.ai", careersUrl: "https://harvey.ai/careers", ats: "ashby", slug: "harvey" },
+  { name: "Plaid", website: "https://plaid.com", careersUrl: "https://plaid.com/careers", ats: "ashby", slug: "plaid" },
+  { name: "Wiz", website: "https://wiz.io", careersUrl: "https://wiz.io/careers", ats: "ashby", slug: "wiz" },
+  { name: "Replit", website: "https://replit.com", careersUrl: "https://replit.com/careers", ats: "ashby", slug: "replit" },
+  { name: "Character.AI", website: "https://character.ai", careersUrl: "https://character.ai/careers", ats: "ashby", slug: "character" },
 
   // ── Eightfold ───────────────────────────────────────────────────────
   {
@@ -110,6 +122,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   // ── SmartRecruiters ─────────────────────────────────────────────────
   { name: "Visa", website: "https://visa.com", careersUrl: "https://corporate.visa.com/en/jobs", ats: "smartrecruiters", slug: "visa" },
   { name: "ServiceNow", website: "https://servicenow.com", careersUrl: "https://careers.servicenow.com", ats: "smartrecruiters", slug: "servicenow" },
+  { name: "Canva", website: "https://canva.com", careersUrl: "https://canva.com/careers", ats: "smartrecruiters", slug: "canva" },
 
   // ── Workable ────────────────────────────────────────────────────────
   { name: "Hugging Face", website: "https://huggingface.co", careersUrl: "https://apply.workable.com/huggingface", ats: "workable", slug: "huggingface" },
@@ -152,4 +165,11 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Two Sigma", website: "https://twosigma.com", careersUrl: "https://careers.twosigma.com/careers", ats: "unsupported" },
   { name: "Citadel", website: "https://citadel.com", careersUrl: "https://citadel.com/careers/open-opportunities/students/", ats: "unsupported" },
   { name: "Rippling", website: "https://rippling.com", careersUrl: "https://rippling.com/careers", ats: "unsupported" },
+  { name: "Shopify", website: "https://shopify.com", careersUrl: "https://shopify.com/careers", ats: "unsupported" },
+  { name: "TikTok", website: "https://tiktok.com", careersUrl: "https://lifeattiktok.com", ats: "unsupported" },
+  { name: "Snap", website: "https://snap.com", careersUrl: "https://snap.com/en-US/jobs", ats: "unsupported" },
+  { name: "Applied Intuition", website: "https://appliedintuition.com", careersUrl: "https://appliedintuition.com/careers", ats: "unsupported" },
+  { name: "Bloomberg", website: "https://bloomberg.com", careersUrl: "https://careers.bloomberg.com", ats: "unsupported" },
+  { name: "Grammarly", website: "https://grammarly.com", careersUrl: "https://grammarly.com/careers", ats: "unsupported" },
+  { name: "HashiCorp", website: "https://hashicorp.com", careersUrl: "https://hashicorp.com/careers", ats: "unsupported" },
 ];

@@ -11,3 +11,65 @@ the committed copy of this file.
 
 ## Priority
 
+- Adobe
+- Airbnb
+- Anduril
+- Anthropic
+- Asana
+- Atlassian
+- Brex
+- Cloudflare
+- Confluent
+- Cursor
+- Databricks
+- Datadog
+- Discord
+- DoorDash
+- Dropbox
+- Duolingo
+- ElevenLabs
+- Figma
+- Hudson River Trading
+- Hugging Face
+- Instacart
+- Jump Trading
+- Linear
+- Lyft
+- MongoDB
+- Netflix
+- Notion
+- NVIDIA
+- OpenAI
+- Palantir
+- Perplexity
+- Pinterest
+- Plaid
+- Ramp
+- Reddit
+- Robinhood
+- Roblox
+- Salesforce
+- Samsara
+- Scale AI
+- SpaceX
+- Spotify
+- Stripe
+- Supabase
+- Vercel
+- Verkada
+- Waymo
+- Coinbase
+- Zoox
+- Block (Square)
+- Affirm
+- Canva
+- Airtable
+- Replit
+- GitLab
+- Okta
+- ServiceNow
+- Epic Games
+- Character.AI
+- xAI
+- Mistral AI
+- Wiz

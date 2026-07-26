@@ -23,6 +23,11 @@ export const BIG_TECH_COMPANIES: string[] = [
   "Deel", "Airtable", "Retool", "Vercel", "Linear", "Samsara", "Verkada", "Anduril", "SpaceX",
   "Palantir", "Snowflake", "MongoDB", "Cloudflare", "Datadog", "Confluent", "HashiCorp",
   "Roblox", "Discord", "Coinbase", "Instacart", "Wiz", "CrowdStrike", "Zscaler", "Neuralink",
+  // From career/preferences.md's Summer 2027 approved company list — added
+  // so every company you've personally curated as "worth a dedicated ping"
+  // actually gets one, not just the ones already on this pre-existing list.
+  "Asana", "Duolingo", "ElevenLabs", "Robinhood", "Supabase", "Zoox", "Applied Intuition",
+  "Bloomberg", "Affirm", "Grammarly", "Replit", "GitLab", "Okta", "Epic Games", "Character.AI",
 ];
 
 /** Quant firms, banks, and card networks — excluded regardless of prestige. */
