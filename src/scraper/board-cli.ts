@@ -99,13 +99,14 @@ async function main() {
   const watches = loadWatches();
   if (watchMode) {
     // Lightweight hourly mode: only watchlisted supported companies + the
-    // SimplifyJobs feed (which covers unsupported companies like Google).
+    // community feeds (SimplifyJobs, speedyapply, vansh — which cover
+    // unsupported companies like Google).
     const watched = new Set(watches.map((w) => w.company.toLowerCase()));
     for (const portal of COMPANY_PORTALS) {
       if (portal.ats !== "unsupported" && watched.has(portal.name.toLowerCase())) companies.push(portal.name);
     }
     linkcheck = false;
-    console.log(`Watch mode: ${watches.length} watches → scraping ${companies.length} supported companies + SimplifyJobs feed`);
+    console.log(`Watch mode: ${watches.length} watches → scraping ${companies.length} supported companies + community feeds`);
   }
   if (priorityMode) {
     // Fast lane, every ~30 min: Amazon always, plus whatever the dashboard's

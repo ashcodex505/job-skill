@@ -1,7 +1,7 @@
 import { eq, inArray, notInArray, and } from "drizzle-orm";
 import { db, newId, now, tables } from "@/db";
 import { loadCareerConfig } from "@/lib/career/config";
-import { ADAPTERS, scrapeSimplifyFeeds, scrapeSpeedyApplyFeeds, sleep } from "./adapters";
+import { ADAPTERS, scrapeSimplifyFeeds, scrapeSpeedyApplyFeeds, scrapeVanshFeed, sleep } from "./adapters";
 import { resolvePostedAt } from "./board";
 import { dedupeJobs, FEED_SOURCES, normalizeJob, type NormalizedJob } from "./normalize";
 import { COMPANY_PORTALS, type CompanyPortal } from "./registry";
@@ -91,6 +91,7 @@ export async function runScraper(
     const feeds = [
       { name: "SimplifyJobs feed", source: "simplifyjobs", scrape: scrapeSimplifyFeeds },
       { name: "speedyapply feed", source: "speedyapply", scrape: scrapeSpeedyApplyFeeds },
+      { name: "vanshb03 feed", source: "vansh", scrape: scrapeVanshFeed },
     ] as const;
     for (const feed of feeds) {
       try {

@@ -386,12 +386,22 @@ const SIMPLIFY_FEEDS: { repo: string; branches: string[] }[] = [
 /** Skip stale listings the accumulating repos never prune. */
 const SIMPLIFY_MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
 
-export async function scrapeSimplifyFeeds(now: Date = new Date()): Promise<RawJob[]> {
+/**
+ * Shared reader for the `listings.json` schema published by SimplifyJobs and
+ * forks of its tooling (vanshb03/Summer2027-Internships uses the identical
+ * shape, just a different maintainer/repo).
+ */
+async function scrapeListingsJsonFeeds(
+  source: "simplifyjobs" | "vansh",
+  feeds: { repo: string; branches: string[] }[],
+  now: Date,
+  notResolvedMessage: string,
+): Promise<RawJob[]> {
   const jobs: RawJob[] = [];
   const seen = new Set<string>();
   let anyResolved = false;
 
-  for (const feed of SIMPLIFY_FEEDS) {
+  for (const feed of feeds) {
     let listings: SimplifyListing[] | null = null;
     for (const branch of feed.branches) {
       try {
@@ -412,7 +422,7 @@ export async function scrapeSimplifyFeeds(now: Date = new Date()): Promise<RawJo
       if (!postedMs || now.getTime() - postedMs > SIMPLIFY_MAX_AGE_MS) continue;
       seen.add(l.id);
       jobs.push({
-        source: "simplifyjobs",
+        source,
         sourceId: l.id,
         company: l.company_name,
         title: l.title,
@@ -425,8 +435,42 @@ export async function scrapeSimplifyFeeds(now: Date = new Date()): Promise<RawJo
     await sleep(300);
   }
 
-  if (!anyResolved) throw new Error("No SimplifyJobs feed resolved (all candidate repos/branches failed)");
+  if (!anyResolved) throw new Error(notResolvedMessage);
   return jobs;
+}
+
+export async function scrapeSimplifyFeeds(now: Date = new Date()): Promise<RawJob[]> {
+  return scrapeListingsJsonFeeds(
+    "simplifyjobs",
+    SIMPLIFY_FEEDS,
+    now,
+    "No SimplifyJobs feed resolved (all candidate repos/branches failed)",
+  );
+}
+
+// ── vanshb03 community feeds (same listings.json tooling as SimplifyJobs) ──
+/**
+ * vanshb03/Summer2027-Internships and vanshb03/New-Grad-2027 aggregate the
+ * same kind of early-career postings as SimplifyJobs, independently
+ * maintained, publishing the identical `listings.json` shape (same field
+ * names, same `dev`/`main` branch fallback pattern, both carry true
+ * `date_posted` timestamps). Grouped under one "vansh" source — same
+ * maintainer/tooling, intern + new-grad halves of the same feed family — so
+ * scanned-source bookkeeping and attribution stay honest as one unit;
+ * cross-source duplicates still collapse via the normal canonical-URL dedupe.
+ */
+const VANSH_FEEDS: { repo: string; branches: string[] }[] = [
+  { repo: "vanshb03/Summer2027-Internships", branches: ["dev", "main"] },
+  { repo: "vanshb03/New-Grad-2027", branches: ["dev", "main"] },
+];
+
+export async function scrapeVanshFeed(now: Date = new Date()): Promise<RawJob[]> {
+  return scrapeListingsJsonFeeds(
+    "vansh",
+    VANSH_FEEDS,
+    now,
+    "vanshb03 feed unavailable (all candidate branches failed)",
+  );
 }
 
 // ── speedyapply community boards (MIT-licensed markdown tables) ───────

@@ -9,7 +9,7 @@ import { runScraper } from "@/scraper/run";
 /**
  * Lightweight local watch-scan, triggered by the dashboard watchlist panel
  * while it's open: scrapes watched + priority supported companies, plus the
- * SimplifyJobs feed, into the local DB so the panel's poll can surface
+ * community feeds, into the local DB so the panel's poll can surface
  * brand-new matches without a manual scrape. Server-side throttle keeps
  * repeated panel ticks (every 5 min) from hammering the ATS APIs — effective
  * scan rate ~10 min. Priority companies get the same 30-min-class coverage

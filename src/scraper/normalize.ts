@@ -3,10 +3,10 @@ import { skillMatch, stripHtml, type CareerConfig } from "@/lib/career/config";
 import { classifyTitle, isUsRemoteOrHybridLocation, type Classification, type ScoreBreakdown } from "./classify";
 
 /** Whole-feed community sources (vs per-company ATS adapters). */
-export const FEED_SOURCES = new Set(["simplifyjobs", "speedyapply"]);
+export const FEED_SOURCES = new Set(["simplifyjobs", "speedyapply", "vansh"]);
 
 export interface RawJob {
-  source: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "amazon" | "eightfold" | "simplifyjobs" | "speedyapply";
+  source: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "amazon" | "eightfold" | "simplifyjobs" | "speedyapply" | "vansh";
   sourceId: string | null;
   company: string;
   title: string;

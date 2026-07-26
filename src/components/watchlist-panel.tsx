@@ -63,7 +63,7 @@ export function WatchlistPanel() {
     if (!hasWatches) return;
     const tick = () => {
       // Each tick kicks a server-side watch-scan (scrapes watched companies
-      // + the SimplifyJobs feed into the local DB; throttled server-side to
+      // + the community feeds into the local DB; throttled server-side to
       // ~10 min), then re-reads jobs — so new postings appear while the
       // dashboard sits open, no manual scrape needed.
       api<{ ran: boolean }>("/api/scrape/watch", { method: "POST" })

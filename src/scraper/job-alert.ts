@@ -17,9 +17,11 @@ function includesTime(value: string | null | undefined): boolean {
 
 function hasPrecisePostingTime(job: BoardJob): boolean {
   if (!includesTime(job.postedAt)) return false;
-  // Simplify's date_posted is sometimes day-precision encoded as midnight
-  // epoch seconds. Calling that an exact time (or ≤5h) would be misleading.
-  return !(job.source === "simplifyjobs" && /T00:00:00(?:\.000)?Z$/.test(job.postedAt ?? ""));
+  // Simplify's (and vansh's, same listings.json tooling) date_posted is
+  // sometimes day-precision encoded as midnight epoch seconds. Calling that
+  // an exact time (or ≤5h) would be misleading.
+  const midnightRisk = job.source === "simplifyjobs" || job.source === "vansh";
+  return !(midnightRisk && /T00:00:00(?:\.000)?Z$/.test(job.postedAt ?? ""));
 }
 
 function utcMinute(value: string): string {

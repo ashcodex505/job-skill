@@ -51,7 +51,7 @@ src/
     registry.ts  companies → ATS + slug (greenhouse/lever/ashby/workday/
                  smartrecruiters/workable/amazon/unsupported)
     adapters.ts  one fetch adapter per ATS + Amazon's own search API +
-                 SimplifyJobs and speedyapply community feeds
+                 SimplifyJobs, vanshb03, and speedyapply community feeds
     classify.ts  title regexes, dynamic season targets, score breakdown,
                  hard US/remote/hybrid location filter                  (pure)
     normalize.ts RawJob → NormalizedJob, canonical-URL dedupe + location
@@ -121,10 +121,14 @@ leaves relevance filtering to `classifyTitle` as usual.
 **Community feeds.** Google/Meta/Apple/Microsoft/Netflix/Tesla still sit
 behind anti-bot portals we refuse to fight (`ats: "unsupported"`) or SPAs with
 no server-rendered data and no discoverable public API (confirmed for Google:
-no JSON-LD, no API, fully client-hydrated). Coverage for those comes from two
-MIT-licensed sources: the `listings.json` published by the SimplifyJobs GitHub
-repos (candidate repo/branch fallback survives season rollovers, filtered to
-active + visible + posted ≤ 90 days — carries **true posted dates**), and
+no JSON-LD, no API, fully client-hydrated). Coverage for those comes from
+three MIT-licensed sources: the `listings.json` published by the SimplifyJobs
+GitHub repos (candidate repo/branch fallback survives season rollovers,
+filtered to active + visible + posted ≤ 90 days — carries **true posted
+dates**); the identically-shaped `listings.json` published by vanshb03's
+`Summer2027-Internships` and `New-Grad-2027` repos (same tooling, independent
+maintainer, also true posted dates — grouped under one `vansh` source since
+both repos are the intern/new-grad halves of the same feed family); and
 speedyapply's markdown-table intern/new-grad lists (day-precision dates only).
 `simplify.jobs`'s own website (as opposed to its GitHub repos) was evaluated
 and rejected as a source: it ships only 30 SSR'd listings client-side with no
