@@ -83,7 +83,16 @@ export function detectSeason(title: string): string | null {
     return `${term === "Autumn" ? "Fall" : term} ${year}`;
   }
   const year = title.match(YEAR_RE);
-  if (year && detectRoleType(title) === "new_grad") return `${year[1]} New Grad`;
+  if (year) {
+    const roleType = detectRoleType(title);
+    if (roleType === "new_grad") return `${year[1]} New Grad`;
+    // Internship titles often state only a bare cycle year with no season word
+    // ("2027 Software Dev Engineer Intern" — Amazon's own convention). That's
+    // a real (if under-specified) season signal, not a missing one — return
+    // the bare year so passesCareerPolicy can match it against a configured
+    // season's year instead of hard-excluding it as unstated.
+    if (roleType === "internship") return year[1];
+  }
   return null;
 }
 

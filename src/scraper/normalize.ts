@@ -72,6 +72,21 @@ export function passesCareerPolicy(
 
   if (roleType === "internship" && config.internshipSeasons.length > 0) {
     if (breakdown.role === 0 || !season) return false;
+
+    // A bare cycle year ("2027" — Amazon's own title convention, no season
+    // word) is under-specified but not "missing": accept it if the year
+    // matches any configured target season, since we can't tell which
+    // season within that year it is. Only a title with an explicit season
+    // word is held to the exact-season match (and the Summer 2027 company
+    // gate below) — this mirrors how a missing/generic year already isn't
+    // held against new-grad titles.
+    const isBareYear = /^\d{4}$/.test(season);
+    if (isBareYear) {
+      const targetYears = config.internshipSeasons.map((target) => target.match(/\d{4}/)?.[0]).filter(Boolean);
+      if (!targetYears.includes(season)) return false;
+      return true;
+    }
+
     if (!config.internshipSeasons.some((target) => equalsIgnoreCase(target, season))) return false;
 
     if (
