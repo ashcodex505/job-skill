@@ -25,7 +25,7 @@ interface PriorityState {
  *
  * Polls the same local live-scan endpoint the Watchlist panel uses (server
  * throttled to ~10 min), so newly-added priority companies get checked
- * while the dashboard is open too, not just from CI every hour.
+ * while the dashboard is open too, not just from CI every 30 min.
  */
 export function PriorityCompaniesPanel() {
   const [state, setState] = useState<PriorityState | null>(null);
@@ -74,7 +74,7 @@ export function PriorityCompaniesPanel() {
       <div className="mb-2 flex items-center justify-between">
         <h2 className="flex items-center gap-2 text-sm font-semibold">
           <Zap size={15} className="text-accent" /> Priority companies
-          <span className="text-xs font-normal text-muted">checked every hour instead of the default 12h — same filters apply</span>
+          <span className="text-xs font-normal text-muted">checked every ~30 min instead of the default 12h — same filters apply</span>
         </h2>
       </div>
 

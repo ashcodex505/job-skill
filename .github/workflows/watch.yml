@@ -8,14 +8,14 @@
 #
 # Separately, the `priority` job checks companies the dashboard's Priority
 # companies panel added (career/priority-companies.md, app-managed) —
-# Amazon plus whatever you've added — every hour, direct API calls with no
-# upstream repo to gate on. There is no push notification from any of these
-# companies ("tell us when a job opens") — polling on a schedule is the only
-# way to know, the same as every other source in this project. What IS
-# gated: an EMPTY priority list means this job doesn't run at all — no CI
-# minutes spent, no Amazon call, nothing — until you add a company. The
-# moment you add one, it starts running hourly and an immediate scan fires
-# right away; removing the last one stops it again.
+# Amazon plus whatever you've added — every 30 minutes, direct API calls
+# with no upstream repo to gate on. There is no push notification from any
+# of these companies ("tell us when a job opens") — polling on a schedule
+# is the only way to know, the same as every other source in this project.
+# What IS gated: an EMPTY priority list means this job doesn't run at all —
+# no CI minutes spent, no Amazon call, nothing — until you add a company.
+# The moment you add one, it starts running every 30 min and an immediate
+# scan fires right away; removing the last one stops it again.
 #
 # Notifications are intentionally sparse either way: a ⭐ big-tech issue only
 # when new big-tech/FAANG/unicorn intern or new-grad roles appear
@@ -28,7 +28,7 @@ name: Feed watch
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7 * * * *" # poll hourly; real work only on upstream commits
+    - cron: "7,37 * * * *" # poll twice hourly; real work only on upstream commits
   push:
     branches: [main]
     paths: ["career/watchlist.md", "career/priority-companies.md"]

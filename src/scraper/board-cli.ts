@@ -109,7 +109,7 @@ async function main() {
     console.log(`Watch mode: ${watches.length} watches → scraping ${companies.length} supported companies + community feeds`);
   }
   if (priorityMode) {
-    // Fast lane, hourly: Amazon always, plus whatever the dashboard's
+    // Fast lane, every ~30 min: Amazon always, plus whatever the dashboard's
     // Priority companies panel added. No feed here — the gated feed-watch
     // job already covers that on its own schedule. One cheap call per
     // company, so this stays fine to run often.

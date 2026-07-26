@@ -13,7 +13,7 @@ const execFileAsync = promisify(execFile);
 const CAREER_DIR = process.env.CAREER_DIR ?? path.join(process.cwd(), "career");
 const FILE = path.join(CAREER_DIR, "priority-companies.md");
 
-/** Only companies with a real ATS adapter can be usefully checked every hour. */
+/** Only companies with a real ATS adapter can be usefully checked every 30 min. */
 const ELIGIBLE = new Map(COMPANY_PORTALS.filter((p) => p.ats !== "unsupported").map((p) => [p.name.toLowerCase(), p.name]));
 
 function readCompanies(): string[] {
@@ -85,11 +85,11 @@ export const POST = handler(async (req: Request) => {
   const canonical = ELIGIBLE.get(company.toLowerCase());
   if (!canonical) {
     return badRequest(
-      `"${company}" isn't scraped through a direct adapter, so an hourly check wouldn't do anything — it would only ever run on the 12h sweep regardless.`,
+      `"${company}" isn't scraped through a direct adapter, so a 30-minute check wouldn't do anything — it would only ever run on the 12h sweep regardless.`,
     );
   }
   if (canonical.toLowerCase() === "amazon") {
-    return badRequest("Amazon is already checked every hour by default — no need to add it.");
+    return badRequest("Amazon is already checked every 30 minutes by default — no need to add it.");
   }
   const companies = readCompanies();
   if (companies.some((c) => c.toLowerCase() === canonical.toLowerCase())) {
