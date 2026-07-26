@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-25T23:38:31.298Z",
+ "updatedAt": "2026-07-26T03:50:17.796Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:0f8b69bb-cbbb-4949-b2a7-23aa41726134",
@@ -1542,6 +1542,28 @@
    },
    "postedAt": "2026-05-02",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:f9c73bd8d940ac407ad64210a7fdcd615ced73cc",
+   "source": "speedyapply",
+   "company": "ASM",
+   "title": "Software Engineering Intern - Spring 2027",
+   "location": "Phoenix, AZ +1",
+   "url": "https://www.asm.com/open-vacancies/?gh_jid=4830113101",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-04-24",
+   "firstSeenAt": "2026-07-26T03:50:17.796Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
