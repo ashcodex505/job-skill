@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-26T12:13:08.845Z",
+ "updatedAt": "2026-07-26T14:12:12.227Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:0f8b69bb-cbbb-4949-b2a7-23aa41726134",
@@ -1164,7 +1164,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-24",
+   "postedAt": "2026-06-23",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
@@ -1274,7 +1274,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-03",
+   "postedAt": "2026-06-02",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
@@ -1318,7 +1318,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-05-08",
+   "postedAt": "2026-05-07",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
@@ -1364,7 +1364,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-18",
+   "postedAt": "2026-04-17",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
@@ -1386,7 +1386,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-04",
+   "postedAt": "2026-04-03",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
@@ -1408,7 +1408,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-16",
+   "postedAt": "2026-07-15",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
@@ -1430,7 +1430,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-25",
+   "postedAt": "2026-07-24",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
@@ -1474,30 +1474,8 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-23",
+   "postedAt": "2026-07-22",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:1f46ba9affe687e266248a047529590cfef40ab1",
-   "source": "speedyapply",
-   "company": "NXP Semiconductors",
-   "title": "AI / Software Engineering Intern - Fall 2026",
-   "location": "Austin, TX",
-   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/AI---Software-Engineering-Intern---Fall-2026_R-10064807",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-20",
-   "firstSeenAt": "2026-07-23T15:35:30.002Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:d9a1edd6afb62dcf223f06d62abe01e31a994a60",
@@ -1540,7 +1518,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-17",
+   "postedAt": "2026-07-16",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
@@ -1562,7 +1540,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-17",
+   "postedAt": "2026-07-16",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
@@ -1584,7 +1562,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-17",
+   "postedAt": "2026-07-16",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
@@ -1606,7 +1584,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-17",
+   "postedAt": "2026-07-16",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
@@ -1628,7 +1606,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-17",
+   "postedAt": "2026-07-16",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
@@ -1782,7 +1760,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-12",
+   "postedAt": "2026-06-11",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
@@ -1870,16 +1848,16 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-04-24",
+   "postedAt": "2026-04-23",
    "firstSeenAt": "2026-07-26T03:50:17.796Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
+   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
    "source": "speedyapply",
    "company": "Hermeus",
-   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
-   "location": "Los Angeles, CA",
-   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
+   "title": "Software Engineering Intern - HIL - Fall 2026",
+   "location": "Atlanta, GA",
+   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -1896,12 +1874,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
+   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
    "source": "speedyapply",
    "company": "Hermeus",
-   "title": "Software Engineering Intern - HIL - Fall 2026",
-   "location": "Atlanta, GA",
-   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
+   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
+   "location": "Los Angeles, CA",
+   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -3091,6 +3069,16 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z",
    "closedAt": "2026-07-23T22:35:13.609Z",
    "url": "https://jobs.ashbyhq.com/NorthwoodSpace/b960b661-e1cc-40d0-bde3-290cd1b58ede/application"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:1f46ba9affe687e266248a047529590cfef40ab1",
+   "company": "NXP Semiconductors",
+   "title": "AI / Software Engineering Intern - Fall 2026",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-23T15:35:30.002Z",
+   "closedAt": "2026-07-26T14:12:12.227Z",
+   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/AI---Software-Engineering-Intern---Fall-2026_R-10064807"
   }
  ]
 }
