@@ -18,8 +18,9 @@
 # scan fires right away; removing the last one stops it again.
 #
 # Notifications are intentionally sparse either way: a ⭐ big-tech issue only
-# when new big-tech/FAANG/unicorn intern or new-grad roles appear
-# (quant/banks excluded — src/scraper/big-tech-alert.ts), plus the 🚨 urgent
+# when new big-tech/FAANG/unicorn intern or new-grad roles appear, posted
+# within the last week (quant/banks excluded, stale postings excluded even
+# if newly discovered — src/scraper/big-tech-alert.ts), plus the 🚨 urgent
 # issue for personal watchlist matches. The committed alert ledger
 # (board/alerted.json) guarantees no posting is ever notified twice. No
 # per-run noise.

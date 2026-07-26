@@ -53,18 +53,43 @@ const EXCLUDED_TITLE = /\b(quant(itative)?|trader|trading|market maker|portfolio
 export interface BigTechAlertJob extends BoardJob {}
 
 /**
+ * "New to our board" is not the same as "recently posted" — a company added
+ * to the registry (or newly covered by a feed) surfaces its ENTIRE existing
+ * backlog as "new" on the first scrape, even if the employer posted it
+ * months ago. Without this, expanding coverage (adding an adapter, adding a
+ * feed) floods the big-tech stream with stale postings. One week is the
+ * hard outer bound; job-alert.ts's separate ≤5h "JUST POSTED" flag already
+ * highlights the genuinely fresh ones within that window.
+ */
+const MAX_POSTING_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+
+/** A posting with no confirmed date can't be proven recent — err toward not alerting. */
+function isRecentEnough(job: BoardJob, nowMs: number): boolean {
+  if (!job.postedAt) return false;
+  const posted = new Date(job.postedAt).getTime();
+  return Number.isFinite(posted) && nowMs - posted <= MAX_POSTING_AGE_MS;
+}
+
+/**
  * From the jobs that appeared THIS cycle, pick the ones worth a dedicated
  * notification: big-tech/unicorn company, intern or new-grad role, not
- * quant/banking. Watchlist matches are excluded when provided — they already
- * fire their own URGENT issue and should not double-notify.
+ * quant/banking, posted within the last week. Watchlist matches are
+ * excluded when provided — they already fire their own URGENT issue and
+ * should not double-notify.
  */
-export function selectBigTechAlerts(newJobs: BoardJob[], alreadyAlerted: BoardJob[] = []): BoardJob[] {
+export function selectBigTechAlerts(
+  newJobs: BoardJob[],
+  alreadyAlerted: BoardJob[] = [],
+  now: string = new Date().toISOString(),
+): BoardJob[] {
   const skip = new Set(alreadyAlerted.map((j) => j.dedupeKey));
+  const nowMs = new Date(now).getTime();
   return newJobs.filter((job) => {
     if (skip.has(job.dedupeKey)) return false;
     if (job.roleType !== "internship" && job.roleType !== "new_grad") return false;
     if (isApprovedCompany(job.company, EXCLUDED_COMPANIES)) return false;
     if (EXCLUDED_TITLE.test(job.title)) return false;
+    if (!isRecentEnough(job, nowMs)) return false;
     return isApprovedCompany(job.company, BIG_TECH_COMPANIES);
   });
 }

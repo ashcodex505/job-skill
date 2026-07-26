@@ -199,7 +199,7 @@ async function main() {
 
   // Big-tech/unicorn stream: separate high-signal issue, never double-firing
   // for jobs the watchlist already alerted on.
-  const bigTech = filterUnalerted(ledger, selectBigTechAlerts(newJobs, urgent));
+  const bigTech = filterUnalerted(ledger, selectBigTechAlerts(newJobs, urgent, now));
   const bigTechTitle =
     bigTech.length === 1
       ? `${bigTech[0].company} — ${bigTech[0].title}`.replace(/[\r\n]/g, " ").slice(0, 150)

@@ -18,39 +18,60 @@ const job = (overrides: Partial<BoardJob>): BoardJob => ({
   ...overrides,
 });
 
+// One day after every fixture's default postedAt ("2026-07-12") — well
+// within the 1-week recency window, so existing behavior tests aren't
+// coupled to the real wall clock.
+const NOW = "2026-07-13T00:00:00.000Z";
+
 describe("selectBigTechAlerts", () => {
   it("keeps big-tech and unicorn intern/new-grad roles", () => {
-    const picked = selectBigTechAlerts([
-      job({ company: "Google" }),
-      job({ company: "OpenAI", roleType: "new_grad", title: "Software Engineer, New Grad" }),
-      job({ company: "Databricks" }),
-      job({ company: "Meta Platforms" }), // prefix-matches "Meta"
-    ]);
+    const picked = selectBigTechAlerts(
+      [
+        job({ company: "Google" }),
+        job({ company: "OpenAI", roleType: "new_grad", title: "Software Engineer, New Grad" }),
+        job({ company: "Databricks" }),
+        job({ company: "Meta Platforms" }), // prefix-matches "Meta"
+      ],
+      [],
+      NOW,
+    );
     expect(picked).toHaveLength(4);
   });
 
   it("excludes quant firms and banks entirely", () => {
-    const picked = selectBigTechAlerts([
-      job({ company: "Jane Street" }),
-      job({ company: "Citadel Securities" }),
-      job({ company: "JPMorgan Chase" }),
-      job({ company: "American Express" }),
-      job({ company: "Capital One" }),
-      job({ company: "Goldman Sachs" }),
-    ]);
+    const picked = selectBigTechAlerts(
+      [
+        job({ company: "Jane Street" }),
+        job({ company: "Citadel Securities" }),
+        job({ company: "JPMorgan Chase" }),
+        job({ company: "American Express" }),
+        job({ company: "Capital One" }),
+        job({ company: "Goldman Sachs" }),
+      ],
+      [],
+      NOW,
+    );
     expect(picked).toHaveLength(0);
   });
 
   it("excludes trading/quant titles even at allowed companies", () => {
-    const picked = selectBigTechAlerts([
-      job({ company: "Google", title: "Quantitative Trader Intern" }),
-      job({ company: "Uber", title: "Trading Systems Intern" }),
-    ]);
+    const picked = selectBigTechAlerts(
+      [
+        job({ company: "Google", title: "Quantitative Trader Intern" }),
+        job({ company: "Uber", title: "Trading Systems Intern" }),
+      ],
+      [],
+      NOW,
+    );
     expect(picked).toHaveLength(0);
   });
 
   it("excludes unknown/non-big-tech companies", () => {
-    const picked = selectBigTechAlerts([job({ company: "Bob's Software LLC" }), job({ company: "Acme Startup" })]);
+    const picked = selectBigTechAlerts(
+      [job({ company: "Bob's Software LLC" }), job({ company: "Acme Startup" })],
+      [],
+      NOW,
+    );
     expect(picked).toHaveLength(0);
   });
 
@@ -59,13 +80,33 @@ describe("selectBigTechAlerts", () => {
     const picked = selectBigTechAlerts(
       [alreadyUrgent, job({ company: "NVIDIA", roleType: "unknown" }), job({ company: "Stripe" })],
       [alreadyUrgent],
+      NOW,
     );
     expect(picked.map((j) => j.company)).toEqual(["Stripe"]);
   });
 
   it("does not match 'Scale AI' against other AI-suffixed companies", () => {
-    const picked = selectBigTechAlerts([job({ company: "Fake AI" })]);
+    const picked = selectBigTechAlerts([job({ company: "Fake AI" })], [], NOW);
     expect(picked).toHaveLength(0);
+  });
+
+  it("excludes postings older than 1 week even if new to the board", () => {
+    // Simulates a newly-added company's entire backlog surfacing at once.
+    const stale = job({ company: "Google", postedAt: "2026-03-01" });
+    const picked = selectBigTechAlerts([stale], [], NOW);
+    expect(picked).toHaveLength(0);
+  });
+
+  it("excludes postings with no known postedAt (can't confirm recency)", () => {
+    const undated = job({ company: "Google", postedAt: null });
+    const picked = selectBigTechAlerts([undated], [], NOW);
+    expect(picked).toHaveLength(0);
+  });
+
+  it("keeps a posting right at the edge of the 1-week window", () => {
+    const edge = job({ company: "Google", postedAt: "2026-07-06T00:00:00.000Z" }); // exactly 7 days before NOW
+    const picked = selectBigTechAlerts([edge], [], NOW);
+    expect(picked).toHaveLength(1);
   });
 });
 

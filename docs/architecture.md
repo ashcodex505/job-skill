@@ -56,9 +56,10 @@ src/
                  hard US/remote/hybrid location filter                  (pure)
     normalize.ts RawJob → NormalizedJob, canonical-URL dedupe + location
                  hard filter, skill boost                               (pure)
-    big-tech-alert.ts  big-tech/unicorn selector (quant/banks excluded) +
-                 committed alert ledger (board/alerted.json) — no posting
-                 is ever notified twice
+    big-tech-alert.ts  big-tech/unicorn selector (quant/banks excluded,
+                 postings older than 1 week excluded even if newly
+                 discovered) + committed alert ledger (board/alerted.json)
+                 — no posting is ever notified twice
     board.ts     mergeBoard/diffNewJobs/closeJobs/renderers             (pure)
     run.ts       orchestration + DB upsert + source-aware deactivation
     board-cli.ts npm run board [--watch|--company|--no-linkcheck]; CI outputs
