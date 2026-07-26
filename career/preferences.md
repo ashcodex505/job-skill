@@ -9,13 +9,18 @@ explanatory text documents the intent behind each rule.
 Full-time software engineering results must explicitly identify themselves as
 new-grad or early-career opportunities. Do not treat a generic `Software
 Engineer` title as entry level merely because it lacks words such as `Senior`
-or `Staff`.
+or `Staff`. New-grad 2027 roles are not restricted to a single posting season —
+search for them whenever they open during the 2027 cycle, at any of the
+approved companies below as well as other suitable employers.
 
-Internship discovery is limited to Fall 2026 and Summer 2027. Fall 2026 remains
-open across suitable employers. Summer 2027 is intentionally selective and is
-restricted to the approved company list below: established major technology
-companies, unicorns, elite trading firms with strong engineering organizations,
-and high-signal technology startups.
+Internship discovery is limited to Fall 2026, Spring 2027, and Summer 2027.
+Fall 2026 and Spring 2027 remain open across suitable employers, with extra
+attention to remote or Arizona-based co-ops at the approved companies list.
+Summer 2027 is intentionally selective and is restricted to the approved
+company list below: established major technology companies, unicorns, elite
+trading firms with strong engineering organizations, and high-signal
+technology startups. This includes standard internships as well as
+master's/graduate-student internship tracks at those same companies.
 
 Location is a hard filter, not just a ranking boost: a posting must be based in
 the United States, or explicitly remote or hybrid. A posting whose only stated
@@ -39,6 +44,7 @@ generic ("Multiple Locations").
 
 - 2027 New Grad
 - Fall 2026
+- Spring 2027
 - Summer 2027
 
 ## Required new grad title keywords
@@ -57,6 +63,7 @@ An internship title must state one of these seasons. Internships with a missing,
 ambiguous, or different season are excluded.
 
 - Fall 2026
+- Spring 2027
 - Summer 2027
 
 ## Summer 2027 approved companies
@@ -127,6 +134,27 @@ Edit this section whenever a newly identified company meets that bar.
 - Uber
 - Vercel
 - Verkada
+- Waymo
+- Coinbase
+- Snap
+- Zoox
+- Applied Intuition
+- Bloomberg
+- Block
+- Affirm
+- Canva
+- Airtable
+- Grammarly
+- Replit
+- HashiCorp
+- GitLab
+- Okta
+- ServiceNow
+- Epic Games
+- Character.AI
+- xAI
+- Mistral AI
+- Wiz
 
 ## Preferred locations
 
