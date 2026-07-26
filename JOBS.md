@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
 **128 open roles** across **63 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-26 15:43 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-26 17:12 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (18)
+## 🆕 New this cycle (17)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -22,7 +22,6 @@ Last updated: **2026-07-26 15:43 UTC** · auto-refreshed every 12h by [job-board
 | Anduril | 2027 Software Engineer Intern 🆕 | Atlanta, GA +5 | 2027 | 90% | 2026-06-11 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 | TikTok | AI software Engineer Project Intern - Transaction Platform - 2026 Start - BS/MS 🆕 | San Jose, CA | 2026 | 90% | 2026-06-02 | 2026-07-26 | [**Apply ➜**](https://lifeattiktok.com/search/7646621925436131637) |
 | TikTok | Software Engineer Intern - Quality and Efficiency Technology - 2026 Summer - BS/MS 🆕 | San Jose, CA | 2026 | 90% | 2026-05-07 | 2026-07-26 | [**Apply ➜**](https://lifeattiktok.com/search/7637047421538404613) |
-| ASM | Software Engineering Intern - Spring 2027 🆕 | Phoenix, AZ +1 | Spring 2027 | 100% | 2026-04-23 | 2026-07-26 | [**Apply ➜**](https://www.asm.com/open-vacancies/?gh_jid=4830113101) |
 | TikTok | Software Engineer Project Intern - Recommendation Infrastructure - TikTok Video Social - 2026 Start - BS/MS 🆕 | San Jose, CA | 2026 | 90% | 2026-04-17 | 2026-07-26 | [**Apply ➜**](https://lifeattiktok.com/search/7629500062003218741) |
 | TikTok | Software Engineer Project Intern - Model Infrastructure - 2026 Start - BS/MS 🆕 | San Jose, CA | 2026 | 90% | 2026-04-03 | 2026-07-26 | [**Apply ➜**](https://lifeattiktok.com/search/7624284785283746053) |
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 🆕 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
@@ -31,7 +30,7 @@ Last updated: **2026-07-26 15:43 UTC** · auto-refreshed every 12h by [job-board
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| ASM | Software Engineering Intern - Spring 2027 🆕 | Phoenix, AZ +1 | Spring 2027 | 100% | 2026-04-23 | 2026-07-26 | [**Apply ➜**](https://www.asm.com/open-vacancies/?gh_jid=4830113101) |
+| ASM | Software Engineering Intern - Spring 2027 | Phoenix, AZ +1 | Spring 2027 | 100% | 2026-04-23 | 2026-07-26 | [**Apply ➜**](https://www.asm.com/open-vacancies/?gh_jid=4830113101) |
 | Astranis Space Technologies | Software Engineer Intern - Enterprise Systems - Fall 2026 | San Francisco, CA | Fall 2026 | 100% | 2026-07-24 | 2026-07-24 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 | Rivian | Android Developer Intern - Fall 2026 | Palo Alto, CA | Fall 2026 | 100% | 2026-06-04 | 2026-07-22 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/5633bb03-cc16-47fc-af02-db9dc355eddd) |
 | Salesforce | Summer 2027 Intern - Software Engineer | 2 Locations | Summer 2027 | 100% | 2026-07-22 | 2026-07-22 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715) |
