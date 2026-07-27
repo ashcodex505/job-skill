@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-27T12:35:43.626Z",
+ "updatedAt": "2026-07-27T15:28:59.927Z",
  "jobs": [
   {
    "dedupeKey": "speedyapply:sha1:456a396b017d57e5d6f96090fb757d6be2045763",
@@ -112,12 +112,12 @@
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:242131ab040faa347817775b91937ff7aec6c490",
+   "dedupeKey": "speedyapply:sha1:3bba168c4e368c5017f6be762a4cef31360ca8d3",
    "source": "speedyapply",
    "company": "Rivian",
-   "title": "Software Engineering Intern - Connected Systems - Fall 2026",
+   "title": "Software Engineering Intern - Vehicle Controls - Fall 2026",
    "location": "Irvine, CA +1",
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -131,6 +131,28 @@
     "skills": 0
    },
    "postedAt": "2026-06-04",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:a0ae9e9b5b8a69fd363e53193a211560e36037d5",
+   "source": "speedyapply",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Applications - Fall 2026",
+   "location": "Irvine, CA +1",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-03",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -152,16 +174,16 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-04",
+   "postedAt": "2026-06-03",
    "firstSeenAt": "2026-07-22T14:19:22.003Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:a0ae9e9b5b8a69fd363e53193a211560e36037d5",
+   "dedupeKey": "speedyapply:sha1:242131ab040faa347817775b91937ff7aec6c490",
    "source": "speedyapply",
    "company": "Rivian",
-   "title": "Software Engineering Intern - Applications - Fall 2026",
+   "title": "Software Engineering Intern - Connected Systems - Fall 2026",
    "location": "Irvine, CA +1",
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -174,29 +196,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-04",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:3bba168c4e368c5017f6be762a4cef31360ca8d3",
-   "source": "speedyapply",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Vehicle Controls - Fall 2026",
-   "location": "Irvine, CA +1",
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-04",
+   "postedAt": "2026-06-03",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1144,7 +1144,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-06-29T14:44:20.702Z",
+   "postedAt": "2026-06-29",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {

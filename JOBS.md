@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **127 open roles** across **62 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-27 12:35 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-27 15:28 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🛠️ Internships (44)
@@ -10,7 +10,7 @@ Last updated: **2026-07-27 12:35 UTC** · auto-refreshed every 12h by [job-board
 |---|---|---|---|---|---|---|---|
 | ASM | Software Engineering Intern - Spring 2027 | Phoenix, AZ +1 | Spring 2027 | 100% | 2026-04-23 | 2026-07-26 | [**Apply ➜**](https://www.asm.com/open-vacancies/?gh_jid=4830113101) |
 | Astranis Space Technologies | Software Engineer Intern - Enterprise Systems - Fall 2026 | San Francisco, CA | Fall 2026 | 100% | 2026-07-24 | 2026-07-24 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
-| Rivian | Android Developer Intern - Fall 2026 | Palo Alto, CA | Fall 2026 | 100% | 2026-06-04 | 2026-07-22 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/5633bb03-cc16-47fc-af02-db9dc355eddd) |
+| Rivian | Android Developer Intern - Fall 2026 | Palo Alto, CA | Fall 2026 | 100% | 2026-06-03 | 2026-07-22 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/5633bb03-cc16-47fc-af02-db9dc355eddd) |
 | Google | Software Engineering Intern - MS - Summer 2027 | Mountain View, CA +29 | Summer 2027 | 100% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/95141459539174086) |
 | Google | Software Engineering Intern - BS - Summer 2027 | Mountain View, CA +29 | Summer 2027 | 100% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/85564713261245126) |
 | Amazon | Software Development Engineer Intern - AWS Data Services - Fall 2026 - US | Seattle, WA | Fall 2026 | 100% (1 skills) | 2026-04-22 | 2026-07-21 | [**Apply ➜**](https://www.amazon.jobs/jobs/10412530/apply) |
@@ -23,9 +23,9 @@ Last updated: **2026-07-27 12:35 UTC** · auto-refreshed every 12h by [job-board
 | Hermeus | Software Engineering Intern - Modeling & Simulation - Fall 2026 | Los Angeles, CA | Fall 2026 | 100% | 2026-04-18 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d) |
 | Hermeus | Software Engineering Intern - HMI - Fall 2026 | Atlanta, GA | Fall 2026 | 100% | 2026-04-01 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67) |
 | MyJunior AI | Software Engineering Intern — Fall 2026 | New York City, NY | Fall 2026 | 100% | 2026-07-01 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/junior/23ee686b-d305-4ac9-860d-16c99ddb4891) |
-| Rivian | Software Engineering Intern - Connected Systems - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-04 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92) |
-| Rivian | Software Engineering Intern - Applications - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-04 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c) |
 | Rivian | Software Engineering Intern - Vehicle Controls - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-04 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55) |
+| Rivian | Software Engineering Intern - Applications - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-03 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c) |
+| Rivian | Software Engineering Intern - Connected Systems - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-03 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92) |
 | Saronic Technologies | Software Engineer Intern - Fall 2026 | Austin, TX | Fall 2026 | 100% | 2026-05-19 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7) |
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 | Peachtree Corners, GA | Fall 2026 | 100% | 2026-06-17 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
 | Synchrony Bank | Software Engineer Intern - Fall 2026 | Remote - Guangzhou, China +1 | Fall 2026 | 100% | 2026-06-17 | 2026-07-15 | [**Apply ➜**](https://synchronyfinancial.wd5.myworkdayjobs.com/en-US/university/job/Canton-Engagement-Hub-OH/Software-Engineer-Intern---Fall-2026_2601751-1) |
