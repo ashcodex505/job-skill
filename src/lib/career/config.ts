@@ -20,6 +20,17 @@ export interface CareerConfig {
   locations: string[];
   positiveKeywords: string[];
   negativeKeywords: string[];
+  /**
+   * Opt-in board-wide freshness gate (career-ops calls this the
+   * "posting-age filter"): a posting whose postedAt is older than this many
+   * days is dropped before ever reaching the board. null/absent/non-positive
+   * = disabled (everything passes) — the default, so existing boards don't
+   * change composition unless you turn this on. Matches the same
+   * "don't penalize missing data" rule as the rest of this file: a posting
+   * with no known postedAt is NEVER dropped by this filter, since there's
+   * nothing to compare against.
+   */
+  maxPostingAgeDays: number | null;
 }
 
 export const EMPTY_CONFIG: CareerConfig = {
@@ -32,12 +43,15 @@ export const EMPTY_CONFIG: CareerConfig = {
   locations: [],
   positiveKeywords: [],
   negativeKeywords: [],
+  maxPostingAgeDays: null,
 };
 
 export { parseSection } from "./markdown";
 import { parseSection } from "./markdown";
 
 export function parseCareerConfig(profileMd: string, preferencesMd: string): CareerConfig {
+  const maxAgeRaw = parseSection(preferencesMd, "Max posting age (days)")[0];
+  const maxAgeParsed = maxAgeRaw ? Number(maxAgeRaw) : NaN;
   return {
     skills: parseSection(profileMd, "Skills"),
     targetRoles: parseSection(preferencesMd, "Target roles"),
@@ -48,6 +62,7 @@ export function parseCareerConfig(profileMd: string, preferencesMd: string): Car
     locations: parseSection(preferencesMd, "Preferred locations"),
     positiveKeywords: parseSection(preferencesMd, "Positive title keywords"),
     negativeKeywords: parseSection(preferencesMd, "Negative title keywords"),
+    maxPostingAgeDays: Number.isFinite(maxAgeParsed) && maxAgeParsed > 0 ? maxAgeParsed : null,
   };
 }
 

@@ -1,0 +1,92 @@
+# Reverse ATS discovery (ported from career-ops' scan-ats-full.mjs): walks a
+# rotating slice of a public ~28,000-company directory (Greenhouse, Lever,
+# Ashby, BambooHR — see src/scraper/discover.ts) instead of only the
+# companies hand-registered in registry.ts, surfacing postings from
+# companies nobody added manually. Weekly, not on the 12h/30min cadence the
+# curated registry uses — this is meant to be a slow, continuous sweep
+# across many runs (a committed cursor, board/discovery-cursor.json,
+# tracks where each ATS's window left off and wraps back to 0 once it
+# reaches the end), not a repeated full scan.
+#
+# Discovered jobs go through the exact same classify/normalize/career-policy
+# pipeline as every other source, so they respect career/preferences.md and
+# career/profile.md automatically, and are eligible for the same ⭐
+# big-tech / 🚨 urgent notifications as any other posting.
+name: Reverse discovery
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * 0" # weekly, Sunday 09:17 UTC
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: job-board
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Discover and render board
+        id: board
+        run: npm run board -- --discover --no-linkcheck
+        env:
+          DATABASE_PATH: /tmp/scrape.db
+          BOARD_URGENT_FILE: ${{ runner.temp }}/urgent.md
+          BOARD_BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
+      - name: Commit board updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JOBS.md README.md board/
+          if git diff --cached --quiet; then
+            echo "No board changes."
+          else
+            git commit -m "chore: discovery scan (${{ steps.board.outputs.summary }}) [skip ci]"
+            if ! git pull --rebase origin main; then
+              # Regenerable board state; a genuine content conflict (concurrent
+              # run/manual push) is safe to drop — the next scheduled run
+              # regenerates it from source rather than needing manual resolution.
+              echo "Push race detected — dropping this run's board commit; it self-corrects next run."
+              git rebase --abort
+            else
+              git push
+            fi
+          fi
+      - name: Urgent watchlist alert
+        if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          URGENT_FILE: ${{ runner.temp }}/urgent.md
+        run: |
+          [ -s "$URGENT_FILE" ] || exit 0
+          gh label create urgent --color B60205 --description "Watchlist match — apply now" 2>/dev/null || true
+          { echo "cc @${{ github.repository_owner }}"; echo; cat "$URGENT_FILE"; } > /tmp/urgent-body.md
+          gh issue create \
+            --title "🚨 URGENT: ${{ steps.board.outputs.urgent_title }}" \
+            --label urgent \
+            --body-file /tmp/urgent-body.md
+      - name: Big-tech alert
+        if: steps.board.outputs.bigtech_count != '' && steps.board.outputs.bigtech_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
+        run: |
+          [ -s "$BIGTECH_FILE" ] || exit 0
+          gh label create big-tech --color 0E8A16 --description "New big-tech/unicorn intern or new-grad role" 2>/dev/null || true
+          { echo "cc @${{ github.repository_owner }} — new big-tech/unicorn early-career roles (quant/banking excluded)."; echo; cat "$BIGTECH_FILE"; } > /tmp/bigtech-body.md
+          gh issue create \
+            --title "⭐ Big tech: ${{ steps.board.outputs.bigtech_title }}" \
+            --label big-tech \
+            --body-file /tmp/bigtech-body.md

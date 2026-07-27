@@ -6,7 +6,27 @@ import { classifyTitle, isUsRemoteOrHybridLocation, type Classification, type Sc
 export const FEED_SOURCES = new Set(["simplifyjobs", "speedyapply", "vansh"]);
 
 export interface RawJob {
-  source: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "amazon" | "eightfold" | "simplifyjobs" | "speedyapply" | "vansh";
+  source:
+    | "greenhouse"
+    | "lever"
+    | "ashby"
+    | "workday"
+    | "smartrecruiters"
+    | "workable"
+    | "amazon"
+    | "eightfold"
+    | "bamboohr"
+    | "recruitee"
+    | "breezy"
+    | "rippling"
+    | "personio"
+    | "pinpoint"
+    | "jibeapply"
+    | "oraclecloud"
+    | "simplifyjobs"
+    | "speedyapply"
+    | "vansh"
+    | "reverse-discovery";
   sourceId: string | null;
   company: string;
   title: string;
@@ -141,6 +161,13 @@ export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new
   if (!isUsRemoteOrHybridLocation(raw.location)) return null;
   if (config && !passesCareerPolicy({ company: raw.company, title }, { relevant, roleType, season, score, breakdown }, config)) {
     return null;
+  }
+  // Opt-in freshness gate (career/preferences.md "Max posting age (days)").
+  // A posting with no known postedAt is never dropped by this — same
+  // "don't penalize missing data" rule as every other filter in this file.
+  if (config?.maxPostingAgeDays && raw.postedAt) {
+    const postedMs = new Date(raw.postedAt).getTime();
+    if (Number.isFinite(postedMs) && ref.getTime() - postedMs > config.maxPostingAgeDays * 86_400_000) return null;
   }
 
   const descriptionText = raw.description ? stripHtml(raw.description).slice(0, DESCRIPTION_MAX_CHARS) || null : null;

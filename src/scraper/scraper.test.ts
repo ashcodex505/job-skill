@@ -27,6 +27,7 @@ const strictConfig: CareerConfig = {
   locations: [],
   positiveKeywords: [],
   negativeKeywords: [],
+  maxPostingAgeDays: null,
 };
 
 describe("classify", () => {
@@ -131,6 +132,7 @@ describe("normalize + dedupe", () => {
       skills: ["Python", "React"],
       targetRoles: [], seasons: [], locations: [], positiveKeywords: [], negativeKeywords: [],
       requiredNewGradTitleKeywords: [], internshipSeasons: [], summer2027ApprovedCompanies: [],
+      maxPostingAgeDays: null,
     };
     const job = normalizeJob(
       raw({ description: `<p>We use <b>Python</b> daily.</p>${"x".repeat(20_000)}` }),
@@ -179,6 +181,30 @@ describe("normalize + dedupe", () => {
     expect(normalizeJob(raw({ title: "  Software   Engineer\tIntern " }))!.title).toBe(
       "Software Engineer Intern",
     );
+  });
+
+  describe("maxPostingAgeDays (opt-in freshness gate)", () => {
+    const config = (maxPostingAgeDays: number | null): CareerConfig => ({ ...strictConfig, maxPostingAgeDays });
+
+    it("disabled (null) keeps an old posting", () => {
+      const job = raw({ title: "Software Engineer, New Grad 2027", company: "Stripe", postedAt: "2025-01-01T00:00:00Z" });
+      expect(normalizeJob(job, config(null), REF)).not.toBeNull();
+    });
+
+    it("enabled drops a posting older than the cutoff", () => {
+      const job = raw({ title: "Software Engineer, New Grad 2027", company: "Stripe", postedAt: "2025-01-01T00:00:00Z" });
+      expect(normalizeJob(job, config(30), REF)).toBeNull();
+    });
+
+    it("enabled keeps a posting within the cutoff", () => {
+      const job = raw({ title: "Software Engineer, New Grad 2027", company: "Stripe", postedAt: "2026-07-01T00:00:00Z" });
+      expect(normalizeJob(job, config(30), REF)).not.toBeNull();
+    });
+
+    it("never drops a posting with no known postedAt, even when enabled", () => {
+      const job = raw({ title: "Software Engineer, New Grad 2027", company: "Stripe", postedAt: null });
+      expect(normalizeJob(job, config(1), REF)).not.toBeNull();
+    });
   });
 
   it("uses provider id for dedupe key, falling back to url hash", () => {

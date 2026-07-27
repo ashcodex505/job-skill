@@ -31,13 +31,35 @@ export interface CompanyPortal {
   name: string;
   website: string;
   careersUrl: string;
-  ats: "greenhouse" | "lever" | "ashby" | "workday" | "smartrecruiters" | "workable" | "amazon" | "eightfold" | "unsupported";
-  /** greenhouse board token / lever slug / ashby board name / smartrecruiters company id / workable account slug */
+  ats:
+    | "greenhouse"
+    | "lever"
+    | "ashby"
+    | "workday"
+    | "smartrecruiters"
+    | "workable"
+    | "amazon"
+    | "eightfold"
+    | "bamboohr"
+    | "recruitee"
+    | "breezy"
+    | "rippling"
+    | "personio"
+    | "pinpoint"
+    | "jibeapply"
+    | "oraclecloud"
+    | "unsupported";
+  /** greenhouse board token / lever slug / ashby board name / smartrecruiters company id /
+   * workable account slug / bamboohr, recruitee, breezy, rippling, pinpoint, jibeapply tenant slug */
   slug?: string;
   /** workday only */
   workday?: { tenant: string; host: string; site: string };
   /** eightfold only */
   eightfold?: { host: string; domain: string };
+  /** personio only — full tenant host, e.g. "acme.jobs.personio.de" (region varies by tenant) */
+  personio?: { host: string };
+  /** oraclecloud only — host is the full ORC tenant host, e.g. "acme.fa.us2.oraclecloud.com" */
+  oraclecloud?: { host: string; siteNumber?: string; locationId?: string };
 }
 
 export const COMPANY_PORTALS: CompanyPortal[] = [
@@ -127,6 +149,13 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   // ── Workable ────────────────────────────────────────────────────────
   { name: "Hugging Face", website: "https://huggingface.co", careersUrl: "https://apply.workable.com/huggingface", ats: "workable", slug: "huggingface" },
 
+  // ── Rippling (public per-tenant ATS board API) ─────────────────────
+  { name: "Rippling", website: "https://rippling.com", careersUrl: "https://ats.rippling.com/rippling/jobs", ats: "rippling", slug: "rippling" },
+
+  // ── Pinpoint (public per-tenant postings.json feed) ────────────────
+  { name: "Shopify", website: "https://shopify.com", careersUrl: "https://shopify.pinpointhq.com", ats: "pinpoint", slug: "shopify" },
+  { name: "Snap", website: "https://snap.com", careersUrl: "https://snap.pinpointhq.com", ats: "pinpoint", slug: "snap" },
+
   // ── Workday ─────────────────────────────────────────────────────────
   {
     name: "NVIDIA", website: "https://nvidia.com", careersUrl: "https://nvidia.com/en-us/about-nvidia/careers/",
@@ -164,10 +193,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Jane Street", website: "https://janestreet.com", careersUrl: "https://janestreet.com/join-jane-street/open-roles/", ats: "unsupported" },
   { name: "Two Sigma", website: "https://twosigma.com", careersUrl: "https://careers.twosigma.com/careers", ats: "unsupported" },
   { name: "Citadel", website: "https://citadel.com", careersUrl: "https://citadel.com/careers/open-opportunities/students/", ats: "unsupported" },
-  { name: "Rippling", website: "https://rippling.com", careersUrl: "https://rippling.com/careers", ats: "unsupported" },
-  { name: "Shopify", website: "https://shopify.com", careersUrl: "https://shopify.com/careers", ats: "unsupported" },
   { name: "TikTok", website: "https://tiktok.com", careersUrl: "https://lifeattiktok.com", ats: "unsupported" },
-  { name: "Snap", website: "https://snap.com", careersUrl: "https://snap.com/en-US/jobs", ats: "unsupported" },
   { name: "Applied Intuition", website: "https://appliedintuition.com", careersUrl: "https://appliedintuition.com/careers", ats: "unsupported" },
   { name: "Bloomberg", website: "https://bloomberg.com", careersUrl: "https://careers.bloomberg.com", ats: "unsupported" },
   { name: "Grammarly", website: "https://grammarly.com", careersUrl: "https://grammarly.com/careers", ats: "unsupported" },

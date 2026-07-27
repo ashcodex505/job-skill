@@ -156,6 +156,17 @@ Edit this section whenever a newly identified company meets that bar.
 - Mistral AI
 - Wiz
 
+## Max posting age (days)
+
+Opt-in board-wide freshness gate: a posting older than this many days is
+excluded from the board entirely, not just from notifications (compare the
+⭐ big-tech alert's fixed 1-week cutoff, which only governs that one
+notification stream). A posting with no known posted date is never
+excluded by this — same rule as every other filter here: don't penalize
+missing data. Leave this section empty (no bullet below) to disable it,
+which is the current default and preserves existing board behavior. To
+enable, add a single bullet with a number, e.g. `- 45`.
+
 ## Preferred locations
 
 Location is a ranking preference, not a hard exclusion. Strong remote or

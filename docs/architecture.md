@@ -43,26 +43,34 @@ src/
   lib/
     security/    encryption.ts (pure AES-GCM/scrypt) · keychain.ts · credentials.ts (vault)
     storage/     index.ts (driver interface) · local.ts · supabase.ts (REST, no SDK)
-    career/      markdown.ts (client-safe parser) · config.ts (profile/preferences)
+    career/      markdown.ts (client-safe parser) · config.ts (profile/preferences,
+                 incl. opt-in maxPostingAgeDays board-wide freshness gate)
                  watchlist.ts (pure parse/serialize/match)
     import/      simplify.ts (CSV parser, header synonyms, status mapping)
+    concurrency.ts  runPool — bounded-lane worker pool shared by run.ts + discover.ts
     types.ts · status.ts · validation.ts · api.ts (route wrapper) · client.ts · claude.ts
   scraper/
     registry.ts  companies → ATS + slug (greenhouse/lever/ashby/workday/
-                 smartrecruiters/workable/amazon/unsupported)
-    adapters.ts  one fetch adapter per ATS + Amazon's own search API +
-                 SimplifyJobs, vanshb03, and speedyapply community feeds
+                 smartrecruiters/workable/amazon/eightfold/bamboohr/recruitee/
+                 breezy/rippling/personio/pinpoint/jibeapply/oraclecloud/unsupported)
+    adapters.ts  one fetch adapter per ATS (16 types) + Amazon's own search API +
+                 SimplifyJobs, vanshb03, and speedyapply community feeds; shared
+                 fetchJson/fetchText retry with exponential backoff + Retry-After
+    discover.ts  reverse ATS discovery — rotating slice of a public ~28,000-company
+                 directory, cursor-resumable (board/discovery-cursor.json)
     classify.ts  title regexes, dynamic season targets, score breakdown,
                  hard US/remote/hybrid location filter                  (pure)
     normalize.ts RawJob → NormalizedJob, canonical-URL dedupe + location
-                 hard filter, skill boost                               (pure)
+                 hard filter, skill boost, opt-in posting-age gate       (pure)
     big-tech-alert.ts  big-tech/unicorn selector (quant/banks excluded,
                  postings older than 1 week excluded even if newly
                  discovered) + committed alert ledger (board/alerted.json)
                  — no posting is ever notified twice
     board.ts     mergeBoard/diffNewJobs/closeJobs/renderers             (pure)
-    run.ts       orchestration + DB upsert + source-aware deactivation
-    board-cli.ts npm run board [--watch|--company|--no-linkcheck]; CI outputs
+    run.ts       orchestration + concurrency pool + DB upsert + source-aware
+                 deactivation (discovery-sourced rows deliberately excluded —
+                 only a confirmed dead link ever closes one)
+    board-cli.ts npm run board [--watch|--company|--priority|--discover|--no-linkcheck]; CI outputs
     check-cli.ts npm run scrape:check (slug doctor)
     cli.ts       npm run scrape
   app/
@@ -77,9 +85,11 @@ career/          profile.md · preferences.md · watchlist.md (app-managed) — 
 board/jobs.json     committed scraper state (firstSeenAt memory across CI runs)
 board/feed-heads.json  last-seen commit SHA per watched community repo (gate state)
 board/alerted.json  every URL ever included in a ⭐/🚨 issue (180d retention)
+board/discovery-cursor.json  next-slice offset per ATS for reverse discovery
 .github/workflows/  job-board.yml (12h full sweep) · watch.yml (community-feed
                      scrape gated on upstream commits, twice-hourly poll; plus
-                     an ungated Amazon-only check every run) · registry-check.yml
+                     an ungated Amazon-only check every run) · discovery.yml
+                     (weekly reverse-discovery sweep) · registry-check.yml
                      (monthly slug doctor)
 ```
 
@@ -104,13 +114,45 @@ board/alerted.json  every URL ever included in a ⭐/🚨 issue (180d retention)
 ## The scraping engine
 
 **Registry → adapters.** The insight (from jobscanner/career-ops): *don't
-scrape career pages — call the JSON APIs behind them.* Each adapter is ~30
-lines mapping an official public API to `RawJob[]`: Greenhouse
-(`boards-api…?content=true` for descriptions), Lever, Ashby, Workday
-(paginated POST to the career site's own endpoint), SmartRecruiters
-(paginated), Workable. All share one polite fetch: 20s timeout, identifying
-User-Agent, sleeps between pages; a failing company records an error in
-`scraper_runs` and never aborts the run.
+scrape career pages — call the JSON APIs behind them.* Each adapter is
+~30–100 lines mapping an official public API to `RawJob[]`: Greenhouse
+(`boards-api…?content=true` for descriptions, `first_published` preferred
+over the edit-drifting `updated_at`), Lever, Ashby, Workday (broadened
+search-term set, not a single query — matches classify.ts's own
+NEW_GRAD_KEYWORDS/INTERN_KEYWORDS vocabulary), SmartRecruiters (paginated),
+Workable, BambooHR, Recruitee, Breezy, Rippling, Personio (XML feed),
+Pinpoint, JibeApply (paginated), Oracle Cloud Recruiting (large-enterprise
+ATS — JPMorgan-class tenants; paginated with real retry/backoff, ported
+from career-ops' oraclecloud.mjs including its documented "hasMore is
+unreliable on some tenants" fix). All share one polite fetch
+(`fetchJson`/`fetchText` in adapters.ts): 20s timeout, identifying
+User-Agent, and — ported from career-ops — up to 3 retries with exponential
+backoff + jitter for timeouts and HTTP 429/5xx, honoring a server's
+`Retry-After` header when present; a real 404 (wrong slug) is never
+retried, so the registry's monthly slug doctor still catches real breakage.
+A failing company records an error in `scraper_runs` and never aborts the
+run. Up to 5 companies are scraped concurrently (`runPool` in
+`lib/concurrency.ts`), portals interleaved by ATS type first so concurrent
+lanes land on different hosts instead of e.g. all hitting
+`boards-api.greenhouse.io` at once.
+
+**Reverse discovery (`discover.ts`).** Ported from career-ops'
+scan-ats-full.mjs: instead of only scanning the ~80 companies hand-curated
+in registry.ts, walks a rotating slice of a public ~28,000-company
+directory (Greenhouse/Lever/Ashby/BambooHR, from
+github.com/Feashliaa/job-board-aggregator) each week, surfacing postings
+from companies nobody added manually. A committed cursor
+(`board/discovery-cursor.json`) tracks where each ATS's window left off and
+wraps to 0 at the end, so coverage is a slow continuous sweep rather than a
+repeated scan of the same slice — bounded and resumable, unlike career-ops'
+one-shot manual invocation, because this runs on a schedule
+(`.github/workflows/discovery.yml`, weekly). Discovered jobs flow through
+the exact same classify/normalize/career-policy pipeline as every curated
+source, so `career/preferences.md` and `career/profile.md` apply
+automatically; they're deliberately excluded from the scanned-source
+deactivation logic (only a confirmed dead link ever closes one), since
+"discovery ran this week" is never evidence that an unscanned company's
+posting closed.
 
 **Amazon.** Unlike the other "custom portal" giants, `amazon.jobs/en/search.json`
 is a public, unauthenticated endpoint the careers site's own search box calls

@@ -1,12 +1,43 @@
 import { eq, inArray, notInArray, and } from "drizzle-orm";
 import { db, newId, now, tables } from "@/db";
 import { loadCareerConfig } from "@/lib/career/config";
+import { runPool } from "@/lib/concurrency";
 import { ADAPTERS, scrapeSimplifyFeeds, scrapeSpeedyApplyFeeds, scrapeVanshFeed, sleep } from "./adapters";
 import { resolvePostedAt } from "./board";
+import { scrapeReverseDiscovery, type DiscoveryCursor } from "./discover";
 import { dedupeJobs, FEED_SOURCES, normalizeJob, type NormalizedJob } from "./normalize";
 import { COMPANY_PORTALS, type CompanyPortal } from "./registry";
 
-const COMPANY_DELAY_MS = 400; // polite gap between companies
+const COMPANY_DELAY_MS = 400; // polite per-lane gap, unchanged even under concurrency
+// Matches LINKCHECK_CONCURRENCY's existing precedent in board-cli.ts. Bounds
+// the worst-case concurrent hits to any single ATS host (e.g. all 44
+// Greenhouse companies share boards-api.greenhouse.io) to this many, no
+// matter how many companies use that ATS.
+const COMPANY_CONCURRENCY = 5;
+
+/**
+ * registry.ts declares portals grouped by ATS (44 Greenhouse in a row, then
+ * Lever, then Ashby, ...), so a naive shared-queue pool would spend its
+ * first several rounds with every lane concurrently hitting
+ * boards-api.greenhouse.io. Round-robin interleaving by ATS type spreads
+ * concurrent lanes across different hosts as much as possible instead.
+ */
+function interleaveByAts(portals: CompanyPortal[]): CompanyPortal[] {
+  const groups = new Map<string, CompanyPortal[]>();
+  for (const p of portals) {
+    if (!groups.has(p.ats)) groups.set(p.ats, []);
+    groups.get(p.ats)!.push(p);
+  }
+  const queues = [...groups.values()];
+  const out: CompanyPortal[] = [];
+  while (queues.some((q) => q.length > 0)) {
+    for (const q of queues) {
+      const next = q.shift();
+      if (next) out.push(next);
+    }
+  }
+  return out;
+}
 
 export interface ScrapeSummary {
   runId: string;
@@ -19,6 +50,8 @@ export interface ScrapeSummary {
   newJobs: number;
   errors: { company: string; message: string }[];
   jobs: NormalizedJob[];
+  /** Only set when options.discover was true — the cursor to persist for next run. */
+  nextDiscoveryCursor?: DiscoveryCursor;
 }
 
 /** Upsert the portal registry into the companies table; returns name → id. */
@@ -43,7 +76,7 @@ export async function syncCompanies(): Promise<Map<string, string>> {
 }
 
 export async function runScraper(
-  options: { companies?: string[]; simplifyFeed?: boolean } = {},
+  options: { companies?: string[]; simplifyFeed?: boolean; discover?: boolean; discoveryCursor?: DiscoveryCursor } = {},
 ): Promise<ScrapeSummary> {
   const companyIds = await syncCompanies();
   const wanted = options.companies?.map((c) => c.toLowerCase());
@@ -70,7 +103,11 @@ export async function runScraper(
   // The community feed joins full runs by default; partial --company runs opt in.
   const includeFeed = options.simplifyFeed ?? !wanted;
 
-  for (const portal of portals) {
+  // Up to COMPANY_CONCURRENCY companies scraped at once instead of one at a
+  // time; interleaved by ATS so concurrent lanes land on different hosts as
+  // much as possible. Each lane still keeps its own COMPANY_DELAY_MS pacing
+  // after every company, so this is "N polite lanes" rather than a burst.
+  await runPool(interleaveByAts(portals), COMPANY_CONCURRENCY, async (portal) => {
     try {
       const raw = await ADAPTERS[portal.ats](portal);
       const normalized = raw
@@ -85,7 +122,7 @@ export async function runScraper(
       console.warn(`  ${portal.name}: FAILED — ${message}`);
     }
     await sleep(COMPANY_DELAY_MS);
-  }
+  });
 
   if (includeFeed) {
     const feeds = [
@@ -93,7 +130,13 @@ export async function runScraper(
       { name: "speedyapply feed", source: "speedyapply", scrape: scrapeSpeedyApplyFeeds },
       { name: "vanshb03 feed", source: "vansh", scrape: scrapeVanshFeed },
     ] as const;
-    for (const feed of feeds) {
+    // All 3 feeds are independent of each other and of the company loop
+    // above (already finished by this point) — run them concurrently. They
+    // share one host (raw.githubusercontent.com), but each feed function is
+    // itself still sequential internally (its own repo/branch fallbacks,
+    // its own 300ms pacing), so this is at most 3 concurrent requests to a
+    // CDN built for far higher concurrency than that.
+    await runPool(feeds, feeds.length, async (feed) => {
       try {
         const raw = await feed.scrape();
         const normalized = raw.map((job) => normalizeJob(job, careerConfig)).filter((j): j is NormalizedJob => j !== null);
@@ -105,6 +148,26 @@ export async function runScraper(
         errors.push({ company: feed.name, message });
         console.warn(`  ${feed.name}: FAILED — ${message}`);
       }
+    });
+  }
+
+  // Reverse discovery: opt-in, separate from the curated registry entirely.
+  // Deliberately NOT added to scannedCompanies/scannedSources — it only ever
+  // scans a rotating slice of a ~28,000-company directory per run, so
+  // "discovery ran this cycle" is never evidence that a given company's
+  // absence means it closed. Discovered jobs are upserted like any other
+  // (refreshed if re-encountered in a later week's window) but are only
+  // ever closed by the dead-link checker actually confirming the URL is
+  // gone, never by the scanned-source deactivation logic below.
+  let nextDiscoveryCursor: DiscoveryCursor | undefined;
+  if (options.discover) {
+    const result = await scrapeReverseDiscovery(options.discoveryCursor ?? {});
+    const normalized = result.jobs.map((job) => normalizeJob(job, careerConfig)).filter((j): j is NormalizedJob => j !== null);
+    allJobs.push(...normalized);
+    nextDiscoveryCursor = result.nextCursor;
+    errors.push(...result.errors);
+    for (const [key, count] of Object.entries(result.scanned)) {
+      console.log(`  ${key}: ${count} companies scanned`);
     }
   }
 
@@ -207,5 +270,6 @@ export async function runScraper(
     newJobs,
     errors,
     jobs,
+    nextDiscoveryCursor,
   };
 }

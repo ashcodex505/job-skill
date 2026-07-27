@@ -7,6 +7,7 @@ import { matchWatches, parseWatchlist } from "@/lib/career/watchlist";
 import { filterUnalerted, recordAlerted, selectBigTechAlerts, type AlertLedger } from "./big-tech-alert";
 import { closeJobs, diffNewJobs, mergeBoard, renderJobsMarkdown, updateReadme, type BoardData, type BoardJob } from "./board";
 import { renderNewJobsAlertTable } from "./job-alert";
+import type { DiscoveryCursor } from "./discover";
 import { COMPANY_PORTALS } from "./registry";
 import { runScraper } from "./run";
 
@@ -22,6 +23,15 @@ const ROOT = process.cwd();
 const STATE_FILE = path.join(ROOT, "board", "jobs.json");
 const JOBS_MD = path.join(ROOT, "JOBS.md");
 const README_MD = path.join(ROOT, "README.md");
+const DISCOVERY_CURSOR_FILE = path.join(ROOT, "board", "discovery-cursor.json");
+
+function loadDiscoveryCursor(): DiscoveryCursor {
+  try {
+    return JSON.parse(fs.readFileSync(DISCOVERY_CURSOR_FILE, "utf8"));
+  } catch {
+    return {};
+  }
+}
 
 const LINKCHECK_CONCURRENCY = 5;
 const LINKCHECK_TIMEOUT_MS = 10_000;
@@ -91,12 +101,20 @@ async function main() {
   const companies: string[] = [];
   const watchMode = args.includes("--watch");
   const priorityMode = args.includes("--priority");
+  const discoverMode = args.includes("--discover");
   let linkcheck = !args.includes("--no-linkcheck");
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--company" && args[i + 1]) companies.push(args[++i]);
   }
 
   const watches = loadWatches();
+  if (discoverMode) {
+    // Reverse-discovery: no curated companies, no community feeds — just a
+    // rotating slice of the public job-board-aggregator directory (see
+    // discover.ts). `companies: []` (not undefined) makes runScraper treat
+    // this as "scan zero registry companies", not "scan everything".
+    console.log("Discover mode: scanning a rotating slice of the public ATS company directory");
+  }
   if (watchMode) {
     // Lightweight hourly mode: only watchlisted supported companies + the
     // community feeds (SimplifyJobs, speedyapply, vansh — which cover
@@ -122,13 +140,23 @@ async function main() {
     console.log(`Priority mode: scraping ${companies.length} companies (Amazon + ${extra.length} added)`);
   }
   // Partial runs skip the link check — it would probe companies we didn't scrape.
-  if (!watchMode && !priorityMode && companies.length > 0) linkcheck = false;
+  if (!watchMode && !priorityMode && !discoverMode && companies.length > 0) linkcheck = false;
 
   await migrate(db, { migrationsFolder: "./drizzle" });
   console.log(`Scraping${companies.length ? ` (${companies.join(", ") || "feed only"})` : ""}...`);
   const summary = await runScraper(
-    watchMode ? { companies, simplifyFeed: true } : companies.length > 0 ? { companies } : {},
+    discoverMode
+      ? { companies: [], simplifyFeed: false, discover: true, discoveryCursor: loadDiscoveryCursor() }
+      : watchMode
+        ? { companies, simplifyFeed: true }
+        : companies.length > 0
+          ? { companies }
+          : {},
   );
+  if (discoverMode && summary.nextDiscoveryCursor) {
+    fs.mkdirSync(path.dirname(DISCOVERY_CURSOR_FILE), { recursive: true });
+    fs.writeFileSync(DISCOVERY_CURSOR_FILE, JSON.stringify(summary.nextDiscoveryCursor, null, 1));
+  }
 
   let previous: BoardData | null = null;
   try {
