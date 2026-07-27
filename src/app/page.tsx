@@ -4,6 +4,7 @@ import { AlertTriangle, ArrowRight, Radar } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { StatusBadge } from "@/components/status";
+import { BrowserScanPanel } from "@/components/browser-scan-panel";
 import { PriorityCompaniesPanel } from "@/components/priority-companies-panel";
 import { WatchlistPanel } from "@/components/watchlist-panel";
 import { Card, EmptyState, Spinner, cn } from "@/components/ui";
@@ -89,6 +90,7 @@ export default function DashboardPage() {
       <div className="grid gap-4 lg:grid-cols-2">
         <WatchlistPanel />
         <PriorityCompaniesPanel />
+        <BrowserScanPanel />
       </div>
 
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">

@@ -45,7 +45,7 @@ src/
     storage/     index.ts (driver interface) · local.ts · supabase.ts (REST, no SDK)
     career/      markdown.ts (client-safe parser) · config.ts (profile/preferences,
                  incl. opt-in maxPostingAgeDays board-wide freshness gate)
-                 watchlist.ts (pure parse/serialize/match)
+                 watchlist.ts · priority.ts · browser-companies.ts (pure parse/serialize)
     import/      simplify.ts (CSV parser, header synonyms, status mapping)
     concurrency.ts  runPool — bounded-lane worker pool shared by run.ts + discover.ts
     types.ts · status.ts · validation.ts · api.ts (route wrapper) · client.ts · claude.ts
@@ -58,6 +58,9 @@ src/
                  fetchJson/fetchText retry with exponential backoff + Retry-After
     discover.ts  reverse ATS discovery — rotating slice of a public ~28,000-company
                  directory, cursor-resumable (board/discovery-cursor.json)
+    browser-scrape.ts  headless-browser scan for no-API companies — LOCAL ONLY,
+                 never imported by run.ts's default path or any CI workflow
+                 (see docs/browser-scraping.md)
     classify.ts  title regexes, dynamic season targets, score breakdown,
                  hard US/remote/hybrid location filter                  (pure)
     normalize.ts RawJob → NormalizedJob, canonical-URL dedupe + location
@@ -75,10 +78,12 @@ src/
     cli.ts       npm run scrape
   app/
     api/         applications (+status/credential/reveal) · resumes (+file) · jobs
-                 (+save/description) · scrape · dashboard · vault · career ·
-                 watchlist · import/simplify
+                 (+save/description) · scrape (+watch, +browser — local-only) ·
+                 dashboard · vault · career · watchlist · priority-companies ·
+                 browser-companies · import/simplify
     (pages)      / (dashboard+watchlist) · /applications · /discovery · /resumes · /settings
   components/    ui.tsx · sidebar · status · watchlist-panel ·
+                 priority-companies-panel · browser-scan-panel ·
                  applications/ (form, drawer, credential panel, post-apply, import)
 scripts/         build-mac-app.sh (Spotlight-launchable .app)
 career/          profile.md · preferences.md · watchlist.md (app-managed) — human-readable
@@ -153,6 +158,18 @@ automatically; they're deliberately excluded from the scanned-source
 deactivation logic (only a confirmed dead link ever closes one), since
 "discovery ran this week" is never evidence that an unscanned company's
 posting closed.
+
+**Browser scraping — local-only, never CI** (full design in
+[browser-scraping.md](browser-scraping.md)). For the handful of companies
+with no public API at all (Google, Apple, Meta, ...), `browser-scrape.ts`
+renders the page with headless Chromium and reads visible job-like links off
+the DOM — ported from career-ops' `browser-extract.mjs`. This is the one
+mechanism in the whole scraper that actively works around anti-bot defenses
+(a real desktop UA instead of Playwright's fingerprint-able default, jittered
+delays), which is why it's structurally walled off from everything else:
+triggered only by the dashboard's Browser scan panel while the local server
+is running, never reachable from `run.ts`'s default path, `board-cli.ts`, or
+any `.github/workflows/*.yml`.
 
 **Amazon.** Unlike the other "custom portal" giants, `amazon.jobs/en/search.json`
 is a public, unauthenticated endpoint the careers site's own search box calls

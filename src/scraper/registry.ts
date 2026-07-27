@@ -134,6 +134,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Wiz", website: "https://wiz.io", careersUrl: "https://wiz.io/careers", ats: "ashby", slug: "wiz" },
   { name: "Replit", website: "https://replit.com", careersUrl: "https://replit.com/careers", ats: "ashby", slug: "replit" },
   { name: "Character.AI", website: "https://character.ai", careersUrl: "https://character.ai/careers", ats: "ashby", slug: "character" },
+  { name: "Applied Intuition", website: "https://appliedintuition.com", careersUrl: "https://appliedintuition.com/careers", ats: "ashby", slug: "applied" },
 
   // ── Eightfold ───────────────────────────────────────────────────────
   {
@@ -194,7 +195,6 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Two Sigma", website: "https://twosigma.com", careersUrl: "https://careers.twosigma.com/careers", ats: "unsupported" },
   { name: "Citadel", website: "https://citadel.com", careersUrl: "https://citadel.com/careers/open-opportunities/students/", ats: "unsupported" },
   { name: "TikTok", website: "https://tiktok.com", careersUrl: "https://lifeattiktok.com", ats: "unsupported" },
-  { name: "Applied Intuition", website: "https://appliedintuition.com", careersUrl: "https://appliedintuition.com/careers", ats: "unsupported" },
   { name: "Bloomberg", website: "https://bloomberg.com", careersUrl: "https://careers.bloomberg.com", ats: "unsupported" },
   { name: "Grammarly", website: "https://grammarly.com", careersUrl: "https://grammarly.com/careers", ats: "unsupported" },
   { name: "HashiCorp", website: "https://hashicorp.com", careersUrl: "https://hashicorp.com/careers", ats: "unsupported" },

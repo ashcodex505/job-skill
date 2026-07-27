@@ -75,6 +75,74 @@ export async function syncCompanies(): Promise<Map<string, string>> {
   return byName;
 }
 
+/**
+ * Insert-or-refresh a deduped batch of NormalizedJob into discovered_jobs.
+ * Extracted out of runScraper so callers that never touch the curated
+ * registry — the reverse-discovery cursor logic, and specifically the local
+ * browser-scrape route (src/app/api/scrape/browser/route.ts) — can reuse the
+ * exact same upsert/postedAt-resolution semantics without importing
+ * anything that would pull the `playwright` dependency into run.ts's import
+ * graph (board-cli.ts, and therefore every CI workflow, imports run.ts).
+ */
+export async function upsertNormalizedJobs(
+  jobs: NormalizedJob[],
+  companyIds: Map<string, string>,
+): Promise<{ newJobs: number }> {
+  const timestamp = now();
+  let newJobs = 0;
+
+  for (const job of jobs) {
+    const existing = await db.query.discoveredJobs.findFirst({
+      where: eq(tables.discoveredJobs.dedupeKey, job.dedupeKey),
+    });
+    if (existing) {
+      await db
+        .update(tables.discoveredJobs)
+        .set({
+          title: job.title,
+          location: job.location,
+          url: job.url,
+          season: job.season,
+          roleType: job.roleType,
+          score: job.score,
+          matchedSkills: JSON.stringify(job.matchedSkills),
+          scoreBreakdown: JSON.stringify(job.breakdown),
+          description: job.descriptionText,
+          // Keep the earliest provider posted date, never after first-seen —
+          // Greenhouse-style updated_at drift must not push "posted" forward.
+          postedAt: resolvePostedAt(existing.postedAt, job.postedAt, existing.firstSeenAt),
+          lastSeenAt: timestamp,
+          active: true,
+        })
+        .where(eq(tables.discoveredJobs.id, existing.id));
+    } else {
+      newJobs += 1;
+      await db.insert(tables.discoveredJobs).values({
+        id: newId(),
+        source: job.source,
+        sourceId: job.sourceId,
+        dedupeKey: job.dedupeKey,
+        company: job.company,
+        companyId: companyIds.get(job.company) ?? null,
+        title: job.title,
+        location: job.location,
+        url: job.url,
+        season: job.season,
+        roleType: job.roleType,
+        score: job.score,
+        matchedSkills: JSON.stringify(job.matchedSkills),
+        scoreBreakdown: JSON.stringify(job.breakdown),
+        description: job.descriptionText,
+        postedAt: resolvePostedAt(null, job.postedAt, timestamp),
+        firstSeenAt: timestamp,
+        lastSeenAt: timestamp,
+        active: true,
+      });
+    }
+  }
+  return { newJobs };
+}
+
 export async function runScraper(
   options: { companies?: string[]; simplifyFeed?: boolean; discover?: boolean; discoveryCursor?: DiscoveryCursor } = {},
 ): Promise<ScrapeSummary> {
@@ -172,58 +240,7 @@ export async function runScraper(
   }
 
   const jobs = dedupeJobs(allJobs);
-  const timestamp = now();
-  let newJobs = 0;
-
-  for (const job of jobs) {
-    const existing = await db.query.discoveredJobs.findFirst({
-      where: eq(tables.discoveredJobs.dedupeKey, job.dedupeKey),
-    });
-    if (existing) {
-      await db
-        .update(tables.discoveredJobs)
-        .set({
-          title: job.title,
-          location: job.location,
-          url: job.url,
-          season: job.season,
-          roleType: job.roleType,
-          score: job.score,
-          matchedSkills: JSON.stringify(job.matchedSkills),
-          scoreBreakdown: JSON.stringify(job.breakdown),
-          description: job.descriptionText,
-          // Keep the earliest provider posted date, never after first-seen —
-          // Greenhouse-style updated_at drift must not push "posted" forward.
-          postedAt: resolvePostedAt(existing.postedAt, job.postedAt, existing.firstSeenAt),
-          lastSeenAt: timestamp,
-          active: true,
-        })
-        .where(eq(tables.discoveredJobs.id, existing.id));
-    } else {
-      newJobs += 1;
-      await db.insert(tables.discoveredJobs).values({
-        id: newId(),
-        source: job.source,
-        sourceId: job.sourceId,
-        dedupeKey: job.dedupeKey,
-        company: job.company,
-        companyId: companyIds.get(job.company) ?? null,
-        title: job.title,
-        location: job.location,
-        url: job.url,
-        season: job.season,
-        roleType: job.roleType,
-        score: job.score,
-        matchedSkills: JSON.stringify(job.matchedSkills),
-        scoreBreakdown: JSON.stringify(job.breakdown),
-        description: job.descriptionText,
-        postedAt: resolvePostedAt(null, job.postedAt, timestamp),
-        firstSeenAt: timestamp,
-        lastSeenAt: timestamp,
-        active: true,
-      });
-    }
-  }
+  const { newJobs } = await upsertNormalizedJobs(jobs, companyIds);
 
   // Jobs from successfully scanned companies/feeds NOT seen this run are gone.
   // Feed-sourced rows are owned by the feed, not the company, so a company

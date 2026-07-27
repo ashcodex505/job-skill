@@ -26,7 +26,8 @@ export interface RawJob {
     | "simplifyjobs"
     | "speedyapply"
     | "vansh"
-    | "reverse-discovery";
+    | "reverse-discovery"
+    | "browser";
   sourceId: string | null;
   company: string;
   title: string;
