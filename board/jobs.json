@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-28T21:17:21.530Z",
+ "updatedAt": "2026-07-28T22:38:02.741Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:0f8b69bb-cbbb-4949-b2a7-23aa41726134",
@@ -948,56 +948,12 @@
    "firstSeenAt": "2026-07-23T00:11:25.726Z"
   },
   {
-   "dedupeKey": "simplifyjobs:64d8a339-fc47-43a1-83fc-39765bf1bac0",
-   "source": "simplifyjobs",
-   "company": "NVIDIA",
-   "title": "Deep Learning Software Engineer New Grad - Inference",
-   "location": "Washington; California; Texas; NYC; Massachusetts",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Deep-Learning-Software-Engineer--Inference---New-College-Grad-2026_JR2021742",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-22T00:00:00.000Z",
-   "firstSeenAt": "2026-07-23T03:58:00.503Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:e3815529-57c7-41bb-8d69-cad889c3b01e",
    "source": "simplifyjobs",
    "company": "NVIDIA",
    "title": "AI and ML Infra Software Engineer New Grad - GPU Clusters",
    "location": "Redmond, WA; Santa Clara, CA",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-ML-Infra-Software-Engineer--GPU-Clusters---New-College-Grad-2026_JR2021591",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-23T00:00:00.000Z",
-   "firstSeenAt": "2026-07-23T23:36:04.605Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a455da9d-eaec-41c8-9de6-819c1f5bac60",
-   "source": "simplifyjobs",
-   "company": "NVIDIA",
-   "title": "Software Engineer New Grad - Physical Design Infrastructure",
-   "location": "Santa Clara, CA",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823",
    "season": null,
    "roleType": "new_grad",
    "score": 80,
@@ -1056,28 +1012,6 @@
    },
    "postedAt": "2026-07-28T01:18:49.000Z",
    "firstSeenAt": "2026-07-28T03:28:18.701Z"
-  },
-  {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:d8d123d94016358621fc17b2dcc78b3719e366cb",
@@ -2380,6 +2314,28 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
+  },
+  {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
    "company": "Palantir",
@@ -2915,36 +2871,6 @@
  ],
  "closed": [
   {
-   "dedupeKey": "simplifyjobs:1908d7ff-00f4-4393-a004-2b6ba9ad2de8",
-   "company": "Notion",
-   "title": "Software Engineer – New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-21T22:32:08.798Z",
-   "url": "https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application"
-  },
-  {
-   "dedupeKey": "simplifyjobs:59da20b4-89d9-4050-8d93-b79c0953d1c7",
-   "company": "Anduril",
-   "title": "Early Career Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-21T22:32:08.798Z",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4802146007"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a4c785c4-fb88-4d18-be46-aefc9e527e6e",
-   "company": "Hadrian",
-   "title": "Fullstack Software Engineer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-21T22:32:08.798Z",
-   "url": "https://jobs.ashbyhq.com/hadrian-automation/41472a42-c3c3-40bd-a784-8a3fbab47be3/application"
-  },
-  {
    "dedupeKey": "simplifyjobs:fe9e4f7b-bfee-47ca-93f1-4f31a2a74fc2",
    "company": "Notion",
    "title": "Software Engineer – New Grad - AI",
@@ -3083,6 +3009,26 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z",
    "closedAt": "2026-07-28T18:52:10.799Z",
    "url": "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application"
+  },
+  {
+   "dedupeKey": "simplifyjobs:64d8a339-fc47-43a1-83fc-39765bf1bac0",
+   "company": "NVIDIA",
+   "title": "Deep Learning Software Engineer New Grad - Inference",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-23T03:58:00.503Z",
+   "closedAt": "2026-07-28T22:38:02.741Z",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Deep-Learning-Software-Engineer--Inference---New-College-Grad-2026_JR2021742"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a455da9d-eaec-41c8-9de6-819c1f5bac60",
+   "company": "NVIDIA",
+   "title": "Software Engineer New Grad - Physical Design Infrastructure",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-23T23:36:04.605Z",
+   "closedAt": "2026-07-28T22:38:02.741Z",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823"
   }
  ]
 }
