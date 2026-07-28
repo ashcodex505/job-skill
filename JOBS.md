@@ -1,23 +1,25 @@
 # 🎯 Job Board — SWE Early Career
 
-**129 open roles** across **66 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-28 14:30 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**130 open roles** across **67 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-07-28 16:20 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (5)
+## 🆕 New this cycle (6)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Rendezvous Robotics | Software Engineering Intern, Spring 2027 🆕 | Golden, CO | Spring 2027 | 100% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us) |
 | NewsBreak | Applied AI Engineer New Grad - Advertising Agents 🆕 | Mountain View, CA | — | 80% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://job-boards.greenhouse.io/newsbreak/jobs/4700278006) |
 | Color | Software Engineer New Grad 🆕 | San Bruno, CA | — | 80% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://jobs.ashbyhq.com/color-health/41fa6f16-b2f2-46c6-bdb4-9aae3b9b5b96/application?embed=true) |
 | PathAI | Software Engineering Co-op MLOps: September - December 2026 🆕 | Boston, MA | 2026 | 90% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://www.pathai.com/careers/8651564002?gh_jid=8651564002) |
 | Northrop Grumman | 2027 Returning Intern Software Engineer 🆕 | Melbourne, FL | 2027 | 90% | 2026-07-27 | 2026-07-28 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378) |
 | Symbotic | New Grad- Software Engineer 🆕 | Wilmington, MA | — | 80% | 2026-07-27 | 2026-07-28 | [**Apply ➜**](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Software-Engineer_R6770) |
 
-## 🛠️ Internships (44)
+## 🛠️ Internships (45)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Rendezvous Robotics | Software Engineering Intern, Spring 2027 🆕 | Golden, CO | Spring 2027 | 100% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us) |
 | ASM | Software Engineering Intern - Spring 2027 | Phoenix, AZ +1 | Spring 2027 | 100% | 2026-04-23 | 2026-07-26 | [**Apply ➜**](https://www.asm.com/open-vacancies/?gh_jid=4830113101) |
 | Astranis Space Technologies | Software Engineer Intern - Enterprise Systems - Fall 2026 | San Francisco, CA | Fall 2026 | 100% | 2026-07-24 | 2026-07-24 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 | Rivian | Android Developer Intern - Fall 2026 | Palo Alto, CA | Fall 2026 | 100% | 2026-06-03 | 2026-07-22 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/5633bb03-cc16-47fc-af02-db9dc355eddd) |

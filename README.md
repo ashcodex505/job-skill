@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-129-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-5-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--28-informational)
+![open roles](https://img.shields.io/badge/open%20roles-130-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-6-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--28-informational)
 
-Updated **2026-07-28 14:30 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-07-28 16:20 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Rendezvous Robotics | Software Engineering Intern, Spring 2027 🆕 | Golden, CO | Spring 2027 | 100% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us) |
 | ASM | Software Engineering Intern - Spring 2027 | Phoenix, AZ +1 | Spring 2027 | 100% | 2026-04-23 | 2026-07-26 | [**Apply ➜**](https://www.asm.com/open-vacancies/?gh_jid=4830113101) |
 | Astranis Space Technologies | Software Engineer Intern - Enterprise Systems - Fall 2026 | San Francisco, CA | Fall 2026 | 100% | 2026-07-24 | 2026-07-24 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 | Rivian | Android Developer Intern - Fall 2026 | Palo Alto, CA | Fall 2026 | 100% | 2026-06-03 | 2026-07-22 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/5633bb03-cc16-47fc-af02-db9dc355eddd) |
@@ -277,5 +278,4 @@ Updated **2026-07-28 14:30 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Saronic Technologies | Software Engineer Intern - Fall 2026 | Austin, TX | Fall 2026 | 100% | 2026-05-19 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7) |
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 | Peachtree Corners, GA | Fall 2026 | 100% | 2026-06-17 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
 | Synchrony Bank | Software Engineer Intern - Fall 2026 | Remote - Guangzhou, China +1 | Fall 2026 | 100% | 2026-06-17 | 2026-07-15 | [**Apply ➜**](https://synchronyfinancial.wd5.myworkdayjobs.com/en-US/university/job/Canton-Engagement-Hub-OH/Software-Engineer-Intern---Fall-2026_2601751-1) |
-| Vital Lyfe | Software Engineering Internship - Fall 2026 | Los Angeles, CA | Fall 2026 | 100% | 2026-07-10 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af) |
 <!-- JOB-BOARD:END -->

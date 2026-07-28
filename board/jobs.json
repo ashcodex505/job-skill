@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-28T14:30:13.646Z",
+ "updatedAt": "2026-07-28T16:20:31.369Z",
  "jobs": [
   {
    "dedupeKey": "speedyapply:sha1:d8d123d94016358621fc17b2dcc78b3719e366cb",
@@ -2378,6 +2378,28 @@
    },
    "postedAt": "2026-07-28T01:18:49.000Z",
    "firstSeenAt": "2026-07-28T03:28:18.701Z"
+  },
+  {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
   },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
