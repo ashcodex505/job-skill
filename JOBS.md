@@ -1,16 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
 **130 open roles** across **67 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-28 16:20 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-28 18:00 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (6)
+## 🆕 New this cycle (4)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Rendezvous Robotics | Software Engineering Intern, Spring 2027 🆕 | Golden, CO | Spring 2027 | 100% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us) |
-| NewsBreak | Applied AI Engineer New Grad - Advertising Agents 🆕 | Mountain View, CA | — | 80% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://job-boards.greenhouse.io/newsbreak/jobs/4700278006) |
-| Color | Software Engineer New Grad 🆕 | San Bruno, CA | — | 80% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://jobs.ashbyhq.com/color-health/41fa6f16-b2f2-46c6-bdb4-9aae3b9b5b96/application?embed=true) |
 | PathAI | Software Engineering Co-op MLOps: September - December 2026 🆕 | Boston, MA | 2026 | 90% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://www.pathai.com/careers/8651564002?gh_jid=8651564002) |
 | Northrop Grumman | 2027 Returning Intern Software Engineer 🆕 | Melbourne, FL | 2027 | 90% | 2026-07-27 | 2026-07-28 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378) |
 | Symbotic | New Grad- Software Engineer 🆕 | Wilmington, MA | — | 80% | 2026-07-27 | 2026-07-28 | [**Apply ➜**](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Software-Engineer_R6770) |
@@ -86,8 +84,8 @@ Last updated: **2026-07-28 16:20 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Symbotic | New Grad- Software Engineer 🆕 | Wilmington, MA | — | 80% | 2026-07-27 | 2026-07-28 | [**Apply ➜**](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Software-Engineer_R6770) |
-| Color | Software Engineer New Grad 🆕 | San Bruno, CA | — | 80% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://jobs.ashbyhq.com/color-health/41fa6f16-b2f2-46c6-bdb4-9aae3b9b5b96/application?embed=true) |
-| NewsBreak | Applied AI Engineer New Grad - Advertising Agents 🆕 | Mountain View, CA | — | 80% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://job-boards.greenhouse.io/newsbreak/jobs/4700278006) |
+| Color | Software Engineer New Grad | San Bruno, CA | — | 80% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://jobs.ashbyhq.com/color-health/41fa6f16-b2f2-46c6-bdb4-9aae3b9b5b96/application?embed=true) |
+| NewsBreak | Applied AI Engineer New Grad - Advertising Agents | Mountain View, CA | — | 80% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://job-boards.greenhouse.io/newsbreak/jobs/4700278006) |
 | Palantir | Forward Deployed Infrastructure Engineer, New Grad - US Government | Palo Alto, CA | — | 80% | 2025-10-29 | 2026-07-25 | [**Apply ➜**](https://jobs.lever.co/palantir/33243fb5-6907-40c7-930c-968b25d825d0) |
 | Palantir | Forward Deployed Infrastructure Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2025-10-29 | 2026-07-25 | [**Apply ➜**](https://jobs.lever.co/palantir/5a28f3a5-8655-47f2-ab19-a79b8a319da8) |
 | Palantir | Forward Deployed Infrastructure Engineer, New Grad - US Government | New York, NY | — | 80% | 2025-10-29 | 2026-07-25 | [**Apply ➜**](https://jobs.lever.co/palantir/91117724-9389-48dc-912f-98e48d4d45d8) |
