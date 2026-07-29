@@ -75,6 +75,18 @@ describe("selectBigTechAlerts", () => {
     expect(picked).toHaveLength(0);
   });
 
+  it("merges in a live approved-company list, not just the static BIG_TECH_COMPANIES", () => {
+    // Regression case: a company added to career/preferences.md's approved
+    // list must be alert-eligible on the very next run, with no separate
+    // edit to this file — this is exactly the gap that let a real posting
+    // from "Gemini" silently never alert after it was added there.
+    const withoutExtra = selectBigTechAlerts([job({ company: "Totally Unlisted Co" })], [], NOW);
+    expect(withoutExtra).toHaveLength(0);
+
+    const withExtra = selectBigTechAlerts([job({ company: "Totally Unlisted Co" })], [], NOW, ["Totally Unlisted Co"]);
+    expect(withExtra).toHaveLength(1);
+  });
+
   it("excludes non-early-career roles and jobs already alerted by the watchlist", () => {
     const alreadyUrgent = job({ company: "Google" });
     const picked = selectBigTechAlerts(

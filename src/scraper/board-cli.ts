@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { migrate } from "drizzle-orm/libsql/migrator";
 import { db } from "@/db";
+import { loadCareerConfig } from "@/lib/career/config";
 import { parsePriorityCompanies } from "@/lib/career/priority";
 import { matchWatches, parseWatchlist } from "@/lib/career/watchlist";
 import { filterUnalerted, recordAlerted, selectBigTechAlerts, type AlertLedger } from "./big-tech-alert";
@@ -226,8 +227,12 @@ async function main() {
   }
 
   // Big-tech/unicorn stream: separate high-signal issue, never double-firing
-  // for jobs the watchlist already alerted on.
-  const bigTech = filterUnalerted(ledger, selectBigTechAlerts(newJobs, urgent, now));
+  // for jobs the watchlist already alerted on. Your live approved-company
+  // list (career/preferences.md) is merged in every run, so adding a company
+  // via the dashboard makes it alert-eligible immediately — no separate
+  // manual sync into big-tech-alert.ts's static list required.
+  const approvedCompanies = loadCareerConfig().summer2027ApprovedCompanies;
+  const bigTech = filterUnalerted(ledger, selectBigTechAlerts(newJobs, urgent, now, approvedCompanies));
   const bigTechTitle =
     bigTech.length === 1
       ? `${bigTech[0].company} — ${bigTech[0].title}`.replace(/[\r\n]/g, " ").slice(0, 150)

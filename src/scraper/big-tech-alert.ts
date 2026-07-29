@@ -23,12 +23,44 @@ export const BIG_TECH_COMPANIES: string[] = [
   "Deel", "Airtable", "Retool", "Vercel", "Linear", "Samsara", "Verkada", "Anduril", "SpaceX",
   "Palantir", "Snowflake", "MongoDB", "Cloudflare", "Datadog", "Confluent", "HashiCorp",
   "Roblox", "Discord", "Coinbase", "Instacart", "Wiz", "CrowdStrike", "Zscaler", "Neuralink",
-  // From career/preferences.md's Summer 2027 approved company list — added
-  // so every company you've personally curated as "worth a dedicated ping"
-  // actually gets one, not just the ones already on this pre-existing list.
+  // Reconciled once against career/preferences.md's Summer 2027 approved
+  // company list (2026-07-23) so every company you'd personally curated as
+  // "worth a dedicated ping" at the time actually got one.
   "Asana", "Duolingo", "ElevenLabs", "Robinhood", "Supabase", "Zoox", "Applied Intuition",
   "Bloomberg", "Affirm", "Grammarly", "Replit", "GitLab", "Okta", "Epic Games", "Character.AI",
+  // Broad expansion (2026-07-28), judgment call rather than sourced from any
+  // list you curated — genuinely $1B+ / widely-recognized companies across
+  // categories underrepresented above, so fewer of these need you to notice
+  // a miss and add them by hand. Several (Saronic, Astranis, Hermeus,
+  // Cerebras, SambaNova, Nuro, Zipline) are already confirmed actually
+  // posting into this board's feeds, not speculative additions.
+  // AI labs / AI infra
+  "Midjourney", "Stability AI", "Inflection AI", "Groq", "Fireworks AI", "Modal",
+  "Cerebras", "SambaNova Systems", "World Labs", "Physical Intelligence", "Suno",
+  // Fintech / crypto
+  "Gemini", "Kraken", "Circle", "Chime", "Mercury", "Marqeta", "Wealthfront",
+  // Space / defense / hard tech
+  "Saronic Technologies", "Astranis Space Technologies", "Hermeus", "Shield AI",
+  "Skydio", "Varda Space Industries",
+  // Robotics / autonomy
+  "Nuro", "Figure AI", "1X Technologies", "Agility Robotics", "Zipline",
+  // Dev tools / infra
+  "Temporal", "PlanetScale", "Neon", "Clerk", "WorkOS", "Sourcegraph", "Warp",
+  "Postman", "Airbyte", "dbt Labs",
+  // Other widely-recognized unicorns
+  "Miro", "Gusto", "Remote", "Symbotic",
 ];
+// This static list is deliberately backstopped, not load-bearing on its own:
+// selectBigTechAlerts() merges in your live career/preferences.md
+// approved-company list every run (see below), so a company missing from
+// BOTH here and there is the only case that still needs a manual add.
+// That one-time reconciliation immediately went stale: you added "Gemini" to
+// preferences.md's approved-company list afterward, and it silently never
+// became alert-eligible — the exact class of bug a static, hand-maintained
+// list will always eventually produce. selectBigTechAlerts() now takes your
+// live approved-company list as a parameter and merges it in every run, so
+// this list only ever needs to describe the companies you didn't already
+// tell the system about some other way.
 
 /** Quant firms, banks, and card networks — excluded regardless of prestige. */
 export const EXCLUDED_COMPANIES: string[] = [
@@ -76,21 +108,31 @@ function isRecentEnough(job: BoardJob, nowMs: number): boolean {
  * quant/banking, posted within the last week. Watchlist matches are
  * excluded when provided — they already fire their own URGENT issue and
  * should not double-notify.
+ *
+ * `extraApprovedCompanies` is your live career/preferences.md "Summer 2027
+ * approved companies" list (that file's own description: "major technology
+ * companies, unicorns, selective product companies, strong developer-
+ * infrastructure businesses, and small high-signal technology startups" —
+ * the same bar BIG_TECH_COMPANIES exists for). Merging it in here means
+ * adding a company via the dashboard makes it alert-eligible immediately,
+ * with no separate manual sync into this file ever required again.
  */
 export function selectBigTechAlerts(
   newJobs: BoardJob[],
   alreadyAlerted: BoardJob[] = [],
   now: string = new Date().toISOString(),
+  extraApprovedCompanies: string[] = [],
 ): BoardJob[] {
   const skip = new Set(alreadyAlerted.map((j) => j.dedupeKey));
   const nowMs = new Date(now).getTime();
+  const allowlist = extraApprovedCompanies.length ? [...BIG_TECH_COMPANIES, ...extraApprovedCompanies] : BIG_TECH_COMPANIES;
   return newJobs.filter((job) => {
     if (skip.has(job.dedupeKey)) return false;
     if (job.roleType !== "internship" && job.roleType !== "new_grad") return false;
     if (isApprovedCompany(job.company, EXCLUDED_COMPANIES)) return false;
     if (EXCLUDED_TITLE.test(job.title)) return false;
     if (!isRecentEnough(job, nowMs)) return false;
-    return isApprovedCompany(job.company, BIG_TECH_COMPANIES);
+    return isApprovedCompany(job.company, allowlist);
   });
 }
 
