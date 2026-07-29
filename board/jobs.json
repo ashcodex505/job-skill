@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-29T18:34:08.379Z",
+ "updatedAt": "2026-07-29T19:55:40.714Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:0f8b69bb-cbbb-4949-b2a7-23aa41726134",
@@ -2826,16 +2826,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:c368c0a9-db8e-455c-b06c-c18575c7b04d",
-   "company": "Northslope Technologies",
-   "title": "Forward Deployed Software Engineer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-07-22T18:39:20.290Z",
-   "url": "https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e/application"
-  },
   {
    "dedupeKey": "simplifyjobs:e5fee829-850f-4ae1-9f1f-eda2ab36fdbe",
    "company": "Wonderschool",
