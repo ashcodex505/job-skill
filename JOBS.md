@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **126 open roles** across **67 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-29 09:25 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-07-29 11:48 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (1)
@@ -109,7 +109,7 @@ Last updated: **2026-07-29 09:25 UTC** · auto-refreshed every 12h by [job-board
 | Jane Street | Software Engineer Full-Time: New Grad | New York City, NY | — | 80% | 2026-07-07 | 2026-07-15 | [**Apply ➜**](https://www.janestreet.com/join-jane-street/position/8594541002) |
 | Julius | Software Engineer - Product - New Grad | San Francisco, CA | — | 80% | 2026-05-21 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/julius/5e0b677a-f677-44de-93c6-f7848ab5a8e6) |
 | northwoodspace | Software Engineer - General - new grad / early career | Torrance, CA | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/northwoodspace/b960b661-e1cc-40d0-bde3-290cd1b58ede) |
-| Nuro | Software Engineer New Grad - Performance | Mountain View, CA | — | 80% | 2026-06-04 | 2026-07-15 | [**Apply ➜**](https://nuro.ai/careersitem?gh_jid=6972272) |
+| Nuro | Software Engineer - Performance - New Grad | Mountain View, CA | — | 80% | 2026-06-04 | 2026-07-15 | [**Apply ➜**](https://nuro.ai/careersitem?gh_jid=6972272) |
 | NVIDIA | Backend Compiler Engineer New Grad | Canada; Santa Clara, CA | — | 80% | 2026-07-13 | 2026-07-15 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242) |
 | Pylon | Software Engineer - New Grad | San Francisco, CA | — | 80% | 2026-07-10 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/pylon-labs/38814ce7-217b-40f2-9ba5-8a7733a5691d) |
 | SambaNova Systems | AI Systems Performance Engineer New Grad | San Jose, CA | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://sambanova.ai/sambanova-available-positions/?gh_jid=6115124004) |
@@ -128,7 +128,7 @@ Last updated: **2026-07-29 09:25 UTC** · auto-refreshed every 12h by [job-board
 | Collective | Software Engineer New Grad | SF | — | 80% | 2026-06-17 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/collective/40516856-b29c-4b38-b434-68be5241bacf/application) |
 | Confido | Software Engineer New Grad | NYC | — | 80% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e/application) |
 | Fortinet | Software Developer New Grad | Sunnyvale, CA | — | 80% | 2026-05-07 | 2026-07-05 | [**Apply ➜**](https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22818) |
-| IXL Learning | Software Engineer New Grad | San Mateo, CA | — | 80% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://www.ixl.com/company/jobs?gh_jid=8615710002) |
+| IXL Learning | Software Engineer - New Grad | Raleigh-Durham, NC +1 | — | 80% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://www.ixl.com/company/jobs?gh_jid=8615717002) |
 | Julius AI | Refresh Software Engineer New Grad - Product | SF | — | 80% | 2026-05-21 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/julius/5e0b677a-f677-44de-93c6-f7848ab5a8e6/application) |
 | Palantir | Forward Deployed Software Engineer New Grad | NYC | — | 80% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca/apply) |
 | Palantir | Forward Deployed Software Engineer New Grad | Washington, DC | — | 80% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply) |
