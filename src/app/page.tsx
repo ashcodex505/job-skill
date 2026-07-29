@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { StatusBadge } from "@/components/status";
 import { BrowserScanPanel } from "@/components/browser-scan-panel";
+import { CompanyScoutPanel } from "@/components/company-scout-panel";
 import { PriorityCompaniesPanel } from "@/components/priority-companies-panel";
 import { WatchlistPanel } from "@/components/watchlist-panel";
 import { Card, EmptyState, Spinner, cn } from "@/components/ui";
@@ -91,6 +92,7 @@ export default function DashboardPage() {
         <WatchlistPanel />
         <PriorityCompaniesPanel />
         <BrowserScanPanel />
+        <CompanyScoutPanel />
       </div>
 
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">

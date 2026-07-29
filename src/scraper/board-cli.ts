@@ -7,6 +7,7 @@ import { parsePriorityCompanies } from "@/lib/career/priority";
 import { matchWatches, parseWatchlist } from "@/lib/career/watchlist";
 import { filterUnalerted, recordAlerted, selectBigTechAlerts, type AlertLedger } from "./big-tech-alert";
 import { closeJobs, diffNewJobs, mergeBoard, renderJobsMarkdown, updateReadme, type BoardData, type BoardJob } from "./board";
+import { loadScoutCompanies } from "./scout-state";
 import { renderNewJobsAlertTable } from "./job-alert";
 import type { DiscoveryCursor } from "./discover";
 import { COMPANY_PORTALS } from "./registry";
@@ -227,11 +228,15 @@ async function main() {
   }
 
   // Big-tech/unicorn stream: separate high-signal issue, never double-firing
-  // for jobs the watchlist already alerted on. Your live approved-company
-  // list (career/preferences.md) is merged in every run, so adding a company
-  // via the dashboard makes it alert-eligible immediately — no separate
-  // manual sync into big-tech-alert.ts's static list required.
-  const approvedCompanies = loadCareerConfig().summer2027ApprovedCompanies;
+  // for jobs the watchlist already alerted on. Two extra sources merge into
+  // the allowlist every run: your live approved-company list
+  // (career/preferences.md — adding one via the dashboard makes it
+  // alert-eligible immediately) and board/scout-companies.json, the
+  // committed output of the local weekly company-scout job (see
+  // company-scout.ts) — CI never runs the scout itself (it needs the local
+  // Claude CLI), it just reads whatever that job already committed, same as
+  // any other config file.
+  const approvedCompanies = [...loadCareerConfig().summer2027ApprovedCompanies, ...loadScoutCompanies()];
   const bigTech = filterUnalerted(ledger, selectBigTechAlerts(newJobs, urgent, now, approvedCompanies));
   const bigTechTitle =
     bigTech.length === 1

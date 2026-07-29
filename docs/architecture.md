@@ -61,6 +61,10 @@ src/
     browser-scrape.ts  headless-browser scan for no-API companies — LOCAL ONLY,
                  never imported by run.ts's default path or any CI workflow
                  (see docs/browser-scraping.md)
+    company-scout.ts  weekly local Claude-CLI judgment pass over board
+                 companies — LOCAL ONLY, same isolation as browser-scrape.ts
+    scout-state.ts  pure read/write of board/scout-companies.json — the
+                 only scout-related file board-cli.ts (and CI) may import
     classify.ts  title regexes, dynamic season targets, score breakdown,
                  hard US/remote/hybrid location filter                  (pure)
     normalize.ts RawJob → NormalizedJob, canonical-URL dedupe + location
@@ -170,6 +174,22 @@ delays), which is why it's structurally walled off from everything else:
 triggered only by the dashboard's Browser scan panel while the local server
 is running, never reachable from `run.ts`'s default path, `board-cli.ts`, or
 any `.github/workflows/*.yml`.
+
+**Company scout — local-only, same isolation pattern.** `company-scout.ts`
+asks the local, already-logged-in Claude Code CLI a weekly judgment
+question: of the companies currently posting into your feeds that aren't
+already big-tech-alert-eligible, which are genuinely big-tech/unicorn tier?
+Only ever asks about real candidates already on your board (never invents
+one), and the response is cross-checked against that exact candidate list
+before anything is written — same rule as `/api/career`'s plain-English
+editor. Output is `board/scout-companies.json`, which `big-tech-alert.ts`
+merges into its allowlist on every run, CI included — CI never runs the
+scout itself (no `claude` session to authenticate with), it only ever reads
+what the local job already committed, the same as any other config file.
+`company-scout.ts` and its Claude-calling code are never imported by
+`board-cli.ts`, `run.ts`'s default path, or any workflow — only
+`scout-state.ts`'s pure file read is (see the file's own comment for why
+this split exists).
 
 **Amazon.** Unlike the other "custom portal" giants, `amazon.jobs/en/search.json`
 is a public, unauthenticated endpoint the careers site's own search box calls
