@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-28T22:38:02.741Z",
+ "updatedAt": "2026-07-29T00:06:48.373Z",
  "jobs": [
   {
    "dedupeKey": "simplifyjobs:0f8b69bb-cbbb-4949-b2a7-23aa41726134",
@@ -838,28 +838,6 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "simplifyjobs:f1025b20-1cf5-4f9d-8505-a81fea68f463",
-   "source": "simplifyjobs",
-   "company": "NVIDIA",
-   "title": "Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale",
-   "location": "Seattle, WA; Santa Clara, CA",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-17T00:00:00.000Z",
-   "firstSeenAt": "2026-07-21T22:32:08.798Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:2ddc678f-eab8-41af-aace-5d5fb90b0e1d",
    "source": "simplifyjobs",
    "company": "Hipp Health",
@@ -946,28 +924,6 @@
    },
    "postedAt": "2026-07-22T22:14:51.000Z",
    "firstSeenAt": "2026-07-23T00:11:25.726Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e3815529-57c7-41bb-8d69-cad889c3b01e",
-   "source": "simplifyjobs",
-   "company": "NVIDIA",
-   "title": "AI and ML Infra Software Engineer New Grad - GPU Clusters",
-   "location": "Redmond, WA; Santa Clara, CA",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-ML-Infra-Software-Engineer--GPU-Clusters---New-College-Grad-2026_JR2021591",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-23T00:00:00.000Z",
-   "firstSeenAt": "2026-07-23T23:36:04.605Z"
   },
   {
    "dedupeKey": "simplifyjobs:e3baf487-91f1-4382-825c-a0b8cbdd9ea8",
@@ -2871,16 +2827,6 @@
  ],
  "closed": [
   {
-   "dedupeKey": "simplifyjobs:fe9e4f7b-bfee-47ca-93f1-4f31a2a74fc2",
-   "company": "Notion",
-   "title": "Software Engineer – New Grad - AI",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-21T23:36:48.697Z",
-   "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application"
-  },
-  {
    "dedupeKey": "simplifyjobs:c368c0a9-db8e-455c-b06c-c18575c7b04d",
    "company": "Northslope Technologies",
    "title": "Forward Deployed Software Engineer New Grad",
@@ -3029,6 +2975,26 @@
    "firstSeenAt": "2026-07-23T23:36:04.605Z",
    "closedAt": "2026-07-28T22:38:02.741Z",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f1025b20-1cf5-4f9d-8505-a81fea68f463",
+   "company": "NVIDIA",
+   "title": "Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-21T22:32:08.798Z",
+   "closedAt": "2026-07-29T00:06:48.373Z",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e3815529-57c7-41bb-8d69-cad889c3b01e",
+   "company": "NVIDIA",
+   "title": "AI and ML Infra Software Engineer New Grad - GPU Clusters",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-23T23:36:04.605Z",
+   "closedAt": "2026-07-29T00:06:48.373Z",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-ML-Infra-Software-Engineer--GPU-Clusters---New-College-Grad-2026_JR2021591"
   }
  ]
 }

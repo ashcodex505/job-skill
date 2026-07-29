@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**128 open roles** across **67 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-28 22:38 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**126 open roles** across **67 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-07-29 00:06 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (4)
@@ -64,7 +64,7 @@ Last updated: **2026-07-28 22:38 UTC** · auto-refreshed every 12h by [job-board
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Anduril | 2027 Software Engineer Intern | Atlanta, GA +5 | 2027 | 90% | 2026-06-10 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 
-## 🎓 New Grad (82)
+## 🎓 New Grad (80)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -90,7 +90,6 @@ Last updated: **2026-07-28 22:38 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Infrastructure Engineer, New Grad - US Government | Palo Alto, CA | — | 80% | 2025-10-29 | 2026-07-25 | [**Apply ➜**](https://jobs.lever.co/palantir/33243fb5-6907-40c7-930c-968b25d825d0) |
 | Palantir | Forward Deployed Infrastructure Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2025-10-29 | 2026-07-25 | [**Apply ➜**](https://jobs.lever.co/palantir/5a28f3a5-8655-47f2-ab19-a79b8a319da8) |
 | Palantir | Forward Deployed Infrastructure Engineer, New Grad - US Government | New York, NY | — | 80% | 2025-10-29 | 2026-07-25 | [**Apply ➜**](https://jobs.lever.co/palantir/91117724-9389-48dc-912f-98e48d4d45d8) |
-| NVIDIA | AI and ML Infra Software Engineer New Grad - GPU Clusters | Redmond, WA; Santa Clara, CA | — | 80% | 2026-07-23 | 2026-07-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-ML-Infra-Software-Engineer--GPU-Clusters---New-College-Grad-2026_JR2021591) |
 | General Motors | Software Engineer - Autonomous Vehicles Software Systems - Early Career | Sunnyvale, CA +1 | — | 80% | 2026-07-21 | 2026-07-23 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Sunnyvale-California-United-States-of-America/Software-Engineer--Autonomous-Vehicles-Software-Systems---Early-Career_JR-202604759) |
 | Traba | Software Engineer New Grad | NYC | — | 80% | 2026-07-22 | 2026-07-23 | [**Apply ➜**](https://jobs.ashbyhq.com/traba/90d6307c-1bb1-4abf-8e73-7afa6a7e0a70/application?embed=true) |
 | Lightfield | Software Engineer - Applied AI - New Grad | San Francisco, CA | — | 80% | 2026-07-16 | 2026-07-22 | [**Apply ➜**](https://jobs.ashbyhq.com/lightfield/fc93a467-773d-4805-b342-bf470950732d) |
@@ -98,7 +97,6 @@ Last updated: **2026-07-28 22:38 UTC** · auto-refreshed every 12h by [job-board
 | Marvell | Systems Application Engineer – Early Career | Santa Clara, CA | — | 80% | 2026-06-01 | 2026-07-22 | [**Apply ➜**](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Systems-Application-Engineer---Early-Career_2602267) |
 | NVIDIA | GPU System and Scheduling Architect New Grad | Santa Clara, CA | — | 80% | 2026-05-11 | 2026-07-22 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-System-and-Scheduling-Architect---New-College-Grad-2026_JR2016691-1) |
 | Cadence Design Systems | Software Engineer New Grad - Undergrads | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-21 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-1) |
-| NVIDIA | Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale | Seattle, WA; Santa Clara, CA | — | 80% | 2026-07-17 | 2026-07-21 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957) |
 | Cadence Design Systems | Software Engineer New Grad - Undergrads | Burlington, MA | — | 80% | 2026-07-09 | 2026-07-21 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894) |
 | Hipp Health | Software Engineer New Grad | United States | — | 80% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/hipp/ea04e914-674c-4c05-b40a-7e8a035bad14/application?embed=true) |
 | Strada | Software Engineer New Grad | SF | — | 80% | 2026-07-21 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/stradahq/626411c6-808e-4eb2-b28d-76f5d88e0af6/application?embed=true) |
@@ -151,12 +149,14 @@ Last updated: **2026-07-28 22:38 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (16)
+## 🚪 Recently closed (last 7 days) (17)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| NVIDIA | Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale | — | 2026-07-29 |
+| NVIDIA | AI and ML Infra Software Engineer New Grad - GPU Clusters | — | 2026-07-29 |
 | NVIDIA | Deep Learning Software Engineer New Grad - Inference | — | 2026-07-28 |
 | NVIDIA | Software Engineer New Grad - Physical Design Infrastructure | — | 2026-07-28 |
 | WhatNot | Software Engineer New Grad | — | 2026-07-28 |
@@ -172,7 +172,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Notion | Software Engineer - New Grad | — | 2026-07-23 |
 | Wonderschool | Early Career Software Engineer - Applied AI | — | 2026-07-23 |
 | Northslope Technologies | Forward Deployed Software Engineer New Grad | — | 2026-07-22 |
-| Notion | Software Engineer – New Grad - AI | — | 2026-07-21 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
