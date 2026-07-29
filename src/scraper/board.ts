@@ -116,9 +116,22 @@ export function mergeBoard(
       closedByKey.get(j.dedupeKey)?.firstSeenAt ??
       closedByUrl.get(canonicalUrl(j.url))?.firstSeenAt ??
       now;
+    // Identity stability: when this cycle's copy only came from a feed but the
+    // board already knows this URL under a direct-adapter identity, keep that
+    // identity instead of overwriting it. Without this, a posting whose
+    // adapter-owning company only gets scanned on the 12h full sweep (e.g. any
+    // company not on an empty watchlist.md) flips dedupeKey/source between the
+    // adapter and the feed every time watch.yml's feed-only runs land between
+    // full sweeps — same mechanism, and the same "adapter beats feed"
+    // precedence, as the within-run tie-break in normalize.ts's dedupeJobs().
+    // Purely cosmetic-looking (closed/reopened churn in JOBS.md, wasted DB
+    // writes) but not free: it's the kind of drift that erodes trust in the
+    // ledger/diff logic even when today's safety nets (URL-based diffNewJobs,
+    // the alerted.json ledger) happen to absorb it.
+    const preferPrevIdentity = Boolean(prev) && FEED_SOURCES.has(j.source) && !FEED_SOURCES.has(prev!.source);
     return {
-      dedupeKey: j.dedupeKey,
-      source: j.source,
+      dedupeKey: preferPrevIdentity ? prev!.dedupeKey : j.dedupeKey,
+      source: preferPrevIdentity ? prev!.source : j.source,
       company: j.company,
       title: j.title,
       location: j.location,

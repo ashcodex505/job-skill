@@ -223,6 +223,28 @@ describe("cross-source board identity (source flip-flop must not re-alert)", () 
     expect(feedRun.jobs[0].firstSeenAt).toBe("2026-07-10T00:00:00.000Z");
     expect(feedRun.jobs[0].postedAt).toBe("2026-07-01");
     expect(feedRun.closed ?? []).toHaveLength(0);
+    // Regression guard: the row's identity itself must stay the adapter's, not
+    // silently flip to the feed's — this is exactly what earlier revisions of
+    // mergeBoard got wrong (count/firstSeenAt looked right; dedupeKey/source
+    // quietly flickered every time a feed-only run followed a full sweep).
+    expect(feedRun.jobs[0].dedupeKey).toBe("workday:JR1");
+    expect(feedRun.jobs[0].source).toBe("workday");
+  });
+
+  it("does not flicker identity across repeated full-sweep / feed-only cycles", () => {
+    // Reproduces the real pattern found live in production: watch.yml's
+    // feed-only runs (career/watchlist.md empty → zero companies scanned)
+    // interleaved with job-board.yml's 12h full sweep, indefinitely.
+    let board = mergeBoard(null, [workdayCopy], "2026-07-10T00:00:00.000Z");
+    for (let i = 0; i < 5; i++) {
+      board = mergeBoard(board, [feedCopy], `2026-07-1${i}T06:00:00.000Z`, { companies: [], sources: ["speedyapply"] });
+      expect(board.jobs).toHaveLength(1);
+      expect(board.jobs[0].dedupeKey).toBe("workday:JR1");
+      expect(board.jobs[0].source).toBe("workday");
+      board = mergeBoard(board, [workdayCopy], `2026-07-1${i}T18:00:00.000Z`, { companies: ["Stripe"] });
+      expect(board.jobs).toHaveLength(1);
+      expect(board.jobs[0].dedupeKey).toBe("workday:JR1");
+    }
   });
 
   it("diffNewJobs does not flag a source switch or a close/reopen as new", async () => {
@@ -231,8 +253,18 @@ describe("cross-source board identity (source flip-flop must not re-alert)", () 
     const feedRun = mergeBoard(full, [feedCopy], NOW2, { companies: [], sources: ["speedyapply"] });
     expect(diffNewJobs(full, feedRun)).toHaveLength(0);
 
-    // Close it (full scan, absent), then it reappears from the feed.
-    const closedRun = mergeBoard(feedRun, [], "2026-07-16T06:00:00.000Z", { companies: [], sources: ["speedyapply"] });
+    // A feed-only run finding nothing must NOT close this row — since the fix,
+    // its identity correctly stays "workday" (a company-owned source), and
+    // Stripe/workday was never in this run's scanned companies (only the feed
+    // was scanned). Absence-≠-closure: closing it here would be exactly the
+    // false-closure bug the whole scanned-source mechanism exists to prevent.
+    const feedOnlyMiss = mergeBoard(feedRun, [], "2026-07-16T06:00:00.000Z", { companies: [], sources: ["speedyapply"] });
+    expect(feedOnlyMiss.closed ?? []).toHaveLength(0);
+    expect(feedOnlyMiss.jobs).toHaveLength(1);
+    expect(feedOnlyMiss.jobs[0].dedupeKey).toBe("workday:JR1");
+
+    // Only a scan of the row's TRUE owning company can close it.
+    const closedRun = mergeBoard(feedOnlyMiss, [], "2026-07-16T09:00:00.000Z", { companies: ["Stripe"], sources: [] });
     expect(closedRun.closed).toHaveLength(1);
     const reopened = mergeBoard(closedRun, [feedCopy], "2026-07-16T12:00:00.000Z", { companies: [], sources: ["speedyapply"] });
     expect(diffNewJobs(closedRun, reopened)).toHaveLength(0);
