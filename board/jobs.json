@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-30T21:20:22.292Z",
+ "updatedAt": "2026-07-30T22:41:03.688Z",
  "jobs": [
   {
    "dedupeKey": "workday:JR2015779",
@@ -1346,6 +1346,28 @@
    "firstSeenAt": "2026-07-28T16:20:31.369Z"
   },
   {
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-07-30T22:41:03.688Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:0f8b69bb-cbbb-4949-b2a7-23aa41726134",
    "source": "simplifyjobs",
    "company": "Fortinet",
@@ -1366,6 +1388,28 @@
    },
    "postedAt": "2026-05-07T22:07:17.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f1e5e8b4-e1b1-4c33-9df4-f6e5cfdbb83d",
+   "source": "simplifyjobs",
+   "company": "Halliburton",
+   "title": "Software Engineer Early Career",
+   "location": "Houston, TX",
+   "url": "https://jobs.halliburton.com/job/Houston-a_-Software-Engineer-Early-Career-Landmark-TX-77032/1392092600/?ats=successfactors",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-05-19T14:06:08.000Z",
+   "firstSeenAt": "2026-07-30T22:41:03.688Z"
   },
   {
    "dedupeKey": "simplifyjobs:3029721d-d2a5-4aba-9f0b-3fca2d03b9f5",
@@ -2248,28 +2292,6 @@
    "firstSeenAt": "2026-07-29T06:17:24.024Z"
   },
   {
-   "dedupeKey": "simplifyjobs:0d7e5ade-c787-44c5-9358-0e54abadfdfe",
-   "source": "simplifyjobs",
-   "company": "Nooks",
-   "title": "Software Engineer New Grad",
-   "location": "SF",
-   "url": "https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53/application?embed=true",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T06:22:29.000Z",
-   "firstSeenAt": "2026-07-30T07:17:38.103Z"
-  },
-  {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
    "company": "Palantir",
@@ -2805,16 +2827,6 @@
  ],
  "closed": [
   {
-   "dedupeKey": "simplifyjobs:6805a542-b373-4362-a01b-1340de5ba6db",
-   "company": "Northwood Space",
-   "title": "Software Engineer – New grad / early career",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-07-23T22:35:13.609Z",
-   "url": "https://jobs.ashbyhq.com/NorthwoodSpace/b960b661-e1cc-40d0-bde3-290cd1b58ede/application"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:1f46ba9affe687e266248a047529590cfef40ab1",
    "company": "NXP Semiconductors",
    "title": "AI / Software Engineering Intern - Fall 2026",
@@ -2933,6 +2945,16 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z",
    "closedAt": "2026-07-30T14:26:58.087Z",
    "url": "https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67"
+  },
+  {
+   "dedupeKey": "simplifyjobs:0d7e5ade-c787-44c5-9358-0e54abadfdfe",
+   "company": "Nooks",
+   "title": "Software Engineer New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-30T07:17:38.103Z",
+   "closedAt": "2026-07-30T22:41:03.688Z",
+   "url": "https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53/application?embed=true"
   }
  ]
 }

@@ -1,8 +1,15 @@
 # 🎯 Job Board — SWE Early Career
 
-**125 open roles** across **68 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-30 21:20 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**126 open roles** across **69 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-07-30 22:41 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
+
+## 🆕 New this cycle (2)
+
+| Company | Role | Location | Season | Match | Posted | First seen | Apply |
+|---|---|---|---|---|---|---|---|
+| Appian | New Grad 2027: Software Engineer 🆕 | McLean, VA | 2027 New Grad | 100% | 2026-07-30 | 2026-07-30 | [**Apply ➜**](https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-) |
+| Halliburton | Software Engineer Early Career 🆕 | Houston, TX | — | 80% | 2026-05-19 | 2026-07-30 | [**Apply ➜**](https://jobs.halliburton.com/job/Houston-a_-Software-Engineer-Early-Career-Landmark-TX-77032/1392092600/?ats=successfactors) |
 
 ## 🛠️ Internships (45)
 
@@ -54,10 +61,11 @@ Last updated: **2026-07-30 21:20 UTC** · auto-refreshed every 12h by [job-board
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Anduril | 2027 Software Engineer Intern | Atlanta, GA +5 | 2027 | 90% | 2026-06-10 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 
-## 🎓 New Grad (80)
+## 🎓 New Grad (81)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Appian | New Grad 2027: Software Engineer 🆕 | McLean, VA | 2027 New Grad | 100% | 2026-07-30 | 2026-07-30 | [**Apply ➜**](https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-) |
 | Anduril | 2027 Early Career Software Engineer | Atlanta, GA +5 | 2027 New Grad | 100% | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
 | NVIDIA | Compiler Engineer New Grad - Infrastructure | Austin, TX; Remote in USA; Redmond, WA; Santa Clara, CA | — | 85% | 2026-07-20 | 2026-07-21 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compiler-Engineer--Infrastructure----New-College-Grad-2026_JR2021228) |
 | NVIDIA | System Software Engineer New Grad - Dynamo-Triton Inference Server | Remote in USA; Santa Clara, CA | — | 85% | 2026-07-13 | 2026-07-15 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Dynamo-Triton-Inference-Server---New-College-Grad-2026_JR2020767) |
@@ -74,7 +82,7 @@ Last updated: **2026-07-30 21:20 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
-| Nooks | Software Engineer New Grad | SF | — | 80% | 2026-07-30 | 2026-07-30 | [**Apply ➜**](https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53/application?embed=true) |
+| Halliburton | Software Engineer Early Career 🆕 | Houston, TX | — | 80% | 2026-05-19 | 2026-07-30 | [**Apply ➜**](https://jobs.halliburton.com/job/Houston-a_-Software-Engineer-Early-Career-Landmark-TX-77032/1392092600/?ats=successfactors) |
 | NVIDIA | Developer Technology Engineer New Grad - Public Sector | Santa Clara, CA | — | 80% | 2026-07-22 | 2026-07-29 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Technology-Engineer--Public-Sector---New-College-Grad-2026_JR2008990) |
 | Symbotic | New Grad- Software Engineer | Wilmington, MA | — | 80% | 2026-07-27 | 2026-07-28 | [**Apply ➜**](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Software-Engineer_R6770) |
 | Color | Software Engineer New Grad | San Bruno, CA | — | 80% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://jobs.ashbyhq.com/color-health/41fa6f16-b2f2-46c6-bdb4-9aae3b9b5b96/application?embed=true) |
@@ -145,6 +153,7 @@ Postings that disappeared from their company's feed — if one of these was on y
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Nooks | Software Engineer New Grad | — | 2026-07-30 |
 | Hermeus | Software Engineering Intern - HMI - Fall 2026 | Fall 2026 | 2026-07-30 |
 | Cadence Design Systems | Software Engineer 2 New Grad | — | 2026-07-30 |
 | NVIDIA | GPU System and Scheduling Architect New Grad | — | 2026-07-29 |
@@ -157,7 +166,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Google | Software Engineering Intern - BS - Summer 2027 | Summer 2027 | 2026-07-28 |
 | Cerebras | ML Software Engineer New Grad - Integration & Quality | — | 2026-07-27 |
 | NXP Semiconductors | AI / Software Engineering Intern - Fall 2026 | Fall 2026 | 2026-07-26 |
-| Northwood Space | Software Engineer – New grad / early career | — | 2026-07-23 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
