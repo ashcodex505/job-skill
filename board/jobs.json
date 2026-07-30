@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-30T11:59:52.080Z",
+ "updatedAt": "2026-07-30T14:26:58.087Z",
  "jobs": [
   {
    "dedupeKey": "workday:JR2015779",
@@ -796,12 +796,12 @@
    "firstSeenAt": "2026-07-26T03:50:17.796Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
+   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
    "source": "speedyapply",
    "company": "Hermeus",
-   "title": "Software Engineering Intern - HIL - Fall 2026",
-   "location": "Atlanta, GA",
-   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
+   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
+   "location": "Los Angeles, CA",
+   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -818,12 +818,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
+   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
    "source": "speedyapply",
    "company": "Hermeus",
-   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
-   "location": "Los Angeles, CA",
-   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
+   "title": "Software Engineering Intern - HIL - Fall 2026",
+   "location": "Atlanta, GA",
+   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -860,28 +860,6 @@
    },
    "postedAt": "2026-04-06T22:40:58.312+00:00",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:abcb98ac2fc9dd7dec429a5ef6a7ff1b7dfdf7fb",
-   "source": "speedyapply",
-   "company": "Hermeus",
-   "title": "Software Engineering Intern - HMI - Fall 2026",
-   "location": "Atlanta, GA",
-   "url": "https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-01",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:8593ba975d3cba76eb2020ffa4860d6b5bd078e7",
@@ -2995,6 +2973,16 @@
    "firstSeenAt": "2026-07-22T04:32:58.433Z",
    "closedAt": "2026-07-30T04:14:40.681Z",
    "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/BOSTON-02/Software-Engineer-II--New-College-Grad-2026-_R54895"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:abcb98ac2fc9dd7dec429a5ef6a7ff1b7dfdf7fb",
+   "company": "Hermeus",
+   "title": "Software Engineering Intern - HMI - Fall 2026",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-07-30T14:26:58.087Z",
+   "url": "https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67"
   }
  ]
 }
