@@ -1,6 +1,28 @@
 {
- "updatedAt": "2026-07-30T14:26:58.087Z",
+ "updatedAt": "2026-07-30T16:10:52.135Z",
  "jobs": [
+  {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
+  },
   {
    "dedupeKey": "workday:JR2015779",
    "source": "workday",
@@ -1322,28 +1344,6 @@
    },
    "postedAt": "2026-04-02",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
   },
   {
    "dedupeKey": "simplifyjobs:0f8b69bb-cbbb-4949-b2a7-23aa41726134",
@@ -2804,56 +2804,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "speedyapply:sha1:2eaa3922abdeeda3e4903cbf152359833a1f36d6",
-   "company": "Skydio",
-   "title": "Software Engineer Intern Fall 2026/Winter 2027",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-07-23T15:35:30.002Z",
-   "url": "https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:a63cba79d2d3d5d9fbf0191c683387eda987aef2",
-   "company": "Northslope",
-   "title": "Forward Deployed Software Engineer - New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-07-23T15:35:30.002Z",
-   "url": "https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:af2874e88065da291333d9524e06ca7c437031e8",
-   "company": "Hadrian",
-   "title": "Fullstack Software Engineer - New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-07-23T15:35:30.002Z",
-   "url": "https://jobs.ashbyhq.com/hadrian-automation/41472a42-c3c3-40bd-a784-8a3fbab47be3"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:242ce307c4915d83771c84e63463b73930b2beeb",
-   "company": "Notion",
-   "title": "Software Engineer - New Grad - AI",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-23T15:35:30.002Z",
-   "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:bf9c8cc6187c8af1ade021c4b71cef39b9c08a2f",
-   "company": "Notion",
-   "title": "Software Engineer - New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-07-23T15:35:30.002Z",
-   "url": "https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555"
-  },
   {
    "dedupeKey": "simplifyjobs:6805a542-b373-4362-a01b-1340de5ba6db",
    "company": "Northwood Space",
