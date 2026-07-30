@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-30T04:14:40.681Z",
+ "updatedAt": "2026-07-30T07:17:38.103Z",
  "jobs": [
   {
    "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
@@ -2268,6 +2268,28 @@
    },
    "postedAt": "2026-07-22T22:16:30.000Z",
    "firstSeenAt": "2026-07-29T06:17:24.024Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:0d7e5ade-c787-44c5-9358-0e54abadfdfe",
+   "source": "simplifyjobs",
+   "company": "Nooks",
+   "title": "Software Engineer New Grad",
+   "location": "SF",
+   "url": "https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53/application?embed=true",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T06:22:29.000Z",
+   "firstSeenAt": "2026-07-30T07:17:38.103Z"
   },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
