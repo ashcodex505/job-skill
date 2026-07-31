@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-30T22:41:03.688Z",
+ "updatedAt": "2026-07-31T00:12:55.942Z",
  "jobs": [
   {
    "dedupeKey": "workday:JR2015779",
@@ -1698,28 +1698,6 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
-   "dedupeKey": "simplifyjobs:00142abd-9aec-4fca-9c8d-b46f6fb762d2",
-   "source": "simplifyjobs",
-   "company": "Confido",
-   "title": "Software Engineer New Grad",
-   "location": "NYC",
-   "url": "https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e/application",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-01T22:09:52.000Z",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:90b92c02-68ac-4402-b8f2-91494bc89e19",
    "source": "simplifyjobs",
    "company": "Headlands Tech Holdings",
@@ -2955,6 +2933,16 @@
    "firstSeenAt": "2026-07-30T07:17:38.103Z",
    "closedAt": "2026-07-30T22:41:03.688Z",
    "url": "https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53/application?embed=true"
+  },
+  {
+   "dedupeKey": "simplifyjobs:00142abd-9aec-4fca-9c8d-b46f6fb762d2",
+   "company": "Confido",
+   "title": "Software Engineer New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-05T08:25:11.093Z",
+   "closedAt": "2026-07-31T00:12:55.942Z",
+   "url": "https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e/application"
   }
  ]
 }
