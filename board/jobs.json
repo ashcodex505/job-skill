@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-31T12:09:30.461Z",
+ "updatedAt": "2026-07-31T15:04:59.373Z",
  "jobs": [
   {
    "dedupeKey": "workday:JR2015779",
@@ -112,28 +112,6 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:3bba168c4e368c5017f6be762a4cef31360ca8d3",
-   "source": "speedyapply",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Vehicle Controls - Fall 2026",
-   "location": "Irvine, CA +1",
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-04",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:a0ae9e9b5b8a69fd363e53193a211560e36037d5",
    "source": "speedyapply",
    "company": "Rivian",
@@ -153,6 +131,28 @@
     "skills": 0
    },
    "postedAt": "2026-06-03",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:3bba168c4e368c5017f6be762a4cef31360ca8d3",
+   "source": "speedyapply",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Vehicle Controls - Fall 2026",
+   "location": "Irvine, CA +1",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -312,6 +312,28 @@
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:31d12d539408595b4c1d25a38c6df7962c8a3577",
+   "source": "speedyapply",
+   "company": "Virtu Financial",
+   "title": "2027 Internship - Frontend & User Experience",
+   "location": "Austin, TX +1",
+   "url": "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30",
+   "firstSeenAt": "2026-07-31T15:04:59.373Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:38320bb37dad2ebf638399712e7d019b24b0c27e",
    "source": "speedyapply",
    "company": "PathAI",
@@ -331,28 +353,6 @@
     "skills": 0
    },
    "postedAt": "2026-07-28",
-   "firstSeenAt": "2026-07-28T14:30:13.646Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:83533a3fac24ecd58a4b562f48a1e4f4257d65d9",
-   "source": "speedyapply",
-   "company": "Northrop Grumman",
-   "title": "2027 Returning Intern Software Engineer",
-   "location": "Melbourne, FL",
-   "url": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-27",
    "firstSeenAt": "2026-07-28T14:30:13.646Z"
   },
   {
@@ -796,28 +796,6 @@
    "firstSeenAt": "2026-07-26T03:50:17.796Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
-   "source": "speedyapply",
-   "company": "Hermeus",
-   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
-   "location": "Los Angeles, CA",
-   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-18",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
    "source": "speedyapply",
    "company": "Hermeus",
@@ -884,12 +862,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:8d1c1d4b21cf179f554b2769fc0722cfa861e1f8",
+   "dedupeKey": "speedyapply:sha1:f44b278c3a61703501deb5cd145b4cd4215ef5f1",
    "source": "speedyapply",
-   "company": "Symbotic",
-   "title": "New Grad- Software Engineer",
-   "location": "Wilmington, MA",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Software-Engineer_R6770",
+   "company": "Nooks",
+   "title": "Software Engineer - New Grad",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53",
    "season": null,
    "roleType": "new_grad",
    "score": 80,
@@ -902,8 +880,8 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-27",
-   "firstSeenAt": "2026-07-28T14:30:13.646Z"
+   "postedAt": "2026-07-30",
+   "firstSeenAt": "2026-07-31T15:04:59.373Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:8f2d3487979cf17505a9d8e49e0aaa0ac349f234",
@@ -976,7 +954,7 @@
    "source": "speedyapply",
    "company": "Abridge",
    "title": "Software Engineer - Early Career",
-   "location": "San Francisco, CA",
+   "location": "San Francisco, CA +1",
    "url": "https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace",
    "season": null,
    "roleType": "new_grad",
@@ -998,7 +976,7 @@
    "source": "speedyapply",
    "company": "northwoodspace",
    "title": "Software Engineer - General - new grad / early career",
-   "location": "Torrance, CA",
+   "location": "Los Angeles, CA",
    "url": "https://jobs.ashbyhq.com/northwoodspace/b960b661-e1cc-40d0-bde3-290cd1b58ede",
    "season": null,
    "roleType": "new_grad",
@@ -1038,12 +1016,12 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
-   "source": "ashby",
-   "company": "Notion",
-   "title": "Software Engineer - Early Career - AI",
-   "location": "San Francisco, CA",
-   "url": "https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28",
+   "dedupeKey": "speedyapply:sha1:2ea4a0c927ccfd557ac0162f440e59bc4c62e343",
+   "source": "speedyapply",
+   "company": "Faros",
+   "title": "Software Engineer - New Grad",
+   "location": "San Mateo, CA",
+   "url": "https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066",
    "season": null,
    "roleType": "new_grad",
    "score": 80,
@@ -1056,38 +1034,16 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-06T18:37:42.434+00:00",
-   "firstSeenAt": "2026-07-06T19:13:12.302Z"
+   "postedAt": "2026-07-09",
+   "firstSeenAt": "2026-07-31T15:04:59.373Z"
   },
   {
-   "dedupeKey": "ashby:297b4ece-765f-4eea-b1b8-46057cb6501f",
-   "source": "ashby",
-   "company": "Notion",
-   "title": "Software Engineer - Early Career",
-   "location": "San Francisco, CA",
-   "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-06T18:37:35.161+00:00",
-   "firstSeenAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:8674519be6d7160ed3d5c88b9af4a0cfddcde028",
+   "dedupeKey": "speedyapply:sha1:0a254b294fd3fc62c4a616f289dae08537937953",
    "source": "speedyapply",
    "company": "IXL Learning",
    "title": "Software Engineer - New Grad",
-   "location": "Raleigh-Durham, NC +1",
-   "url": "https://www.ixl.com/company/jobs?gh_jid=8615717002",
+   "location": "San Mateo, CA",
+   "url": "https://www.ixl.com/company/jobs?gh_jid=8615710002",
    "season": null,
    "roleType": "new_grad",
    "score": 80,
@@ -1240,7 +1196,7 @@
    "source": "speedyapply",
    "company": "Zettabyte",
    "title": "Software Engineer - New Grad",
-   "location": "USA",
+   "location": "Palo Alto, CA",
    "url": "https://jobs.ashbyhq.com/zettabyte-space/50a9c6dc-7225-4ff0-a914-69d1dd325d6a",
    "season": null,
    "roleType": "new_grad",
@@ -1299,28 +1255,6 @@
     "skills": 0
    },
    "postedAt": "2026-04-04",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:1e3852bd9d99135b86c613efbaceefd959d30f78",
-   "source": "speedyapply",
-   "company": "Aquatic Capital Management",
-   "title": "Software Engineer - Early Career",
-   "location": "Chicago, IL +1",
-   "url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-02",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -2248,6 +2182,50 @@
    "firstSeenAt": "2026-07-29T06:17:24.024Z"
   },
   {
+   "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
+   "source": "ashby",
+   "company": "Notion",
+   "title": "Software Engineer - Early Career - AI",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-06T18:37:42.434+00:00",
+   "firstSeenAt": "2026-07-06T19:13:12.302Z"
+  },
+  {
+   "dedupeKey": "ashby:297b4ece-765f-4eea-b1b8-46057cb6501f",
+   "source": "ashby",
+   "company": "Notion",
+   "title": "Software Engineer - Early Career",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-06T18:37:35.161+00:00",
+   "firstSeenAt": "2026-07-06T19:13:12.302Z"
+  },
+  {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
    "company": "Palantir",
@@ -2931,6 +2909,46 @@
    "firstSeenAt": "2026-07-22T04:32:58.433Z",
    "closedAt": "2026-07-31T09:51:06.830Z",
    "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Systems-Application-Engineer---Early-Career_2602267"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:83533a3fac24ecd58a4b562f48a1e4f4257d65d9",
+   "company": "Northrop Grumman",
+   "title": "2027 Returning Intern Software Engineer",
+   "season": "2027",
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-28T14:30:13.646Z",
+   "closedAt": "2026-07-31T15:04:59.373Z",
+   "url": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
+   "company": "Hermeus",
+   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-07-31T15:04:59.373Z",
+   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:8d1c1d4b21cf179f554b2769fc0722cfa861e1f8",
+   "company": "Symbotic",
+   "title": "New Grad- Software Engineer",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-28T14:30:13.646Z",
+   "closedAt": "2026-07-31T15:04:59.373Z",
+   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Software-Engineer_R6770"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:1e3852bd9d99135b86c613efbaceefd959d30f78",
+   "company": "Aquatic Capital Management",
+   "title": "Software Engineer - Early Career",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-07-31T15:04:59.373Z",
+   "url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002"
   }
  ]
 }

@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-124-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-0-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--31-informational)
+![open roles](https://img.shields.io/badge/open%20roles-123-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-3-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--07--31-informational)
 
-Updated **2026-07-31 12:09 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-07-31 15:04 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -270,12 +270,12 @@ Updated **2026-07-31 12:09 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Astranis Space Technologies | Software Engineer- Backend Intern - Fall 2026 | San Francisco, CA | Fall 2026 | 100% | 2026-05-14 | 2026-07-15 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
 | Cloudflare | Software Engineer Intern - Fall 2026 - Austin - TX | Austin, TX | Fall 2026 | 100% | 2026-07-15 | 2026-07-15 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) |
 | Gemini | Software Engineering Intern - Fall 2026 | New York City, NY | Fall 2026 | 100% | 2026-05-02 | 2026-07-15 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125) |
-| Hermeus | Software Engineering Intern - Modeling & Simulation - Fall 2026 | Los Angeles, CA | Fall 2026 | 100% | 2026-04-18 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d) |
 | Hermeus | Software Engineering Intern - HIL - Fall 2026 | Atlanta, GA | Fall 2026 | 100% | 2026-04-18 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf) |
 | MyJunior AI | Software Engineering Intern — Fall 2026 | New York City, NY | Fall 2026 | 100% | 2026-07-01 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/junior/23ee686b-d305-4ac9-860d-16c99ddb4891) |
 | Rivian | Software Engineering Intern - Connected Systems - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-03 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92) |
-| Rivian | Software Engineering Intern - Vehicle Controls - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-04 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55) |
 | Rivian | Software Engineering Intern - Applications - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-03 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c) |
+| Rivian | Software Engineering Intern - Vehicle Controls - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-04 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55) |
 | Saronic Technologies | Software Engineer Intern - Fall 2026 | Austin, TX | Fall 2026 | 100% | 2026-05-19 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7) |
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 | Peachtree Corners, GA | Fall 2026 | 100% | 2026-06-17 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
+| Synchrony Bank | Software Engineer Intern - Fall 2026 | Remote - Guangzhou, China +1 | Fall 2026 | 100% | 2026-06-17 | 2026-07-15 | [**Apply ➜**](https://synchronyfinancial.wd5.myworkdayjobs.com/en-US/university/job/Canton-Engagement-Hub-OH/Software-Engineer-Intern---Fall-2026_2601751-1) |
 <!-- JOB-BOARD:END -->
