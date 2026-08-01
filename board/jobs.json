@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-31T23:12:48.045Z",
+ "updatedAt": "2026-08-01T01:09:04.788Z",
  "jobs": [
   {
    "dedupeKey": "workday:JR2015779",
@@ -2224,6 +2224,160 @@
    },
    "postedAt": "2026-07-31T22:21:50.000Z",
    "firstSeenAt": "2026-07-31T23:12:48.045Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:cfeb11b9-ce3a-4296-9dba-69307b8df18d",
+   "source": "simplifyjobs",
+   "company": "Cadence Design Systems",
+   "title": "Application Software Developer New Grad",
+   "location": "Livonia, MI",
+   "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-3",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31T00:00:00.000Z",
+   "firstSeenAt": "2026-08-01T01:09:04.788Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ab74ecca-af20-483d-9d93-2db6d26feb93",
+   "source": "simplifyjobs",
+   "company": "Cadence Design Systems",
+   "title": "Multibody Dynamics Application Software Developer New Grad - Adams",
+   "location": "Livonia, MI",
+   "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31T00:00:00.000Z",
+   "firstSeenAt": "2026-08-01T01:09:04.788Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:741404cf-64f4-4cc1-bc84-cfeae5bf2552",
+   "source": "simplifyjobs",
+   "company": "Cadence Design Systems",
+   "title": "Multibody Dynamics Application Software Developer New Grad - Adams",
+   "location": "Livonia, MI",
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788-2",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31T00:00:00.000Z",
+   "firstSeenAt": "2026-08-01T01:09:04.788Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:7625e8e7-c2d7-45f5-b371-6e0940672f53",
+   "source": "simplifyjobs",
+   "company": "Cadence Design Systems",
+   "title": "Application Software Developer New Grad",
+   "location": "Livonia, MI",
+   "url": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-2",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31T00:00:00.000Z",
+   "firstSeenAt": "2026-08-01T01:09:04.788Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:98aabb98-548b-40b7-9318-4c51f6f1c399",
+   "source": "simplifyjobs",
+   "company": "Cadence Design Systems",
+   "title": "Application Software Developer New Grad",
+   "location": "Livonia, MI",
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31T00:00:00.000Z",
+   "firstSeenAt": "2026-08-01T01:09:04.788Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:92ee85c1-b699-4161-842a-55df186233f2",
+   "source": "simplifyjobs",
+   "company": "Cadence Design Systems",
+   "title": "Multibody Dynamics Application Software Developer New Grad - Adams",
+   "location": "Livonia, MI",
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788-3",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31T00:00:00.000Z",
+   "firstSeenAt": "2026-08-01T01:09:04.788Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:2a9715ce-fc4b-4245-9f7d-dd33ae0f0bd1",
+   "source": "simplifyjobs",
+   "company": "Cadence Design Systems",
+   "title": "Application Software Developer New Grad",
+   "location": "Livonia, MI",
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31T00:00:00.000Z",
+   "firstSeenAt": "2026-08-01T01:09:04.788Z"
   },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",

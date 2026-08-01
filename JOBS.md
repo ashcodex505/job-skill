@@ -1,14 +1,21 @@
 # 🎯 Job Board — SWE Early Career
 
-**125 open roles** across **67 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-07-31 23:12 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**132 open roles** across **67 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-01 01:09 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (4)
+## 🆕 New this cycle (11)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | NewsBreak | Software Engineer Junior New Grad - ML Infra 🆕 | Mountain View, CA | — | 80% | 2026-07-31 | 2026-07-31 | [**Apply ➜**](https://job-boards.greenhouse.io/newsbreak/jobs/4615879006) |
+| Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-3) |
+| Cadence Design Systems | Multibody Dynamics Application Software Developer New Grad - Adams 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788) |
+| Cadence Design Systems | Multibody Dynamics Application Software Developer New Grad - Adams 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788-2) |
+| Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-2) |
+| Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-1) |
+| Cadence Design Systems | Multibody Dynamics Application Software Developer New Grad - Adams 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788-3) |
+| Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736) |
 | Virtu Financial | 2027 Internship - Frontend & User Experience 🆕 | Austin, TX +1 | 2027 | 90% | 2026-07-30 | 2026-07-31 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
 | Nooks | Software Engineer - New Grad 🆕 | San Francisco, CA | — | 80% | 2026-07-30 | 2026-07-31 | [**Apply ➜**](https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53) |
 | Faros | Software Engineer - New Grad 🆕 | San Mateo, CA | — | 80% | 2026-07-09 | 2026-07-31 | [**Apply ➜**](https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066) |
@@ -62,7 +69,7 @@ Last updated: **2026-07-31 23:12 UTC** · auto-refreshed every 12h by [job-board
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Anduril | 2027 Software Engineer Intern | Atlanta, GA +5 | 2027 | 90% | 2026-06-10 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 
-## 🎓 New Grad (81)
+## 🎓 New Grad (88)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -85,6 +92,13 @@ Last updated: **2026-07-31 23:12 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
+| Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-3) |
+| Cadence Design Systems | Multibody Dynamics Application Software Developer New Grad - Adams 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788) |
+| Cadence Design Systems | Multibody Dynamics Application Software Developer New Grad - Adams 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788-2) |
+| Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-2) |
+| Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-1) |
+| Cadence Design Systems | Multibody Dynamics Application Software Developer New Grad - Adams 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788-3) |
+| Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736) |
 | NewsBreak | Software Engineer Junior New Grad - ML Infra 🆕 | Mountain View, CA | — | 80% | 2026-07-31 | 2026-07-31 | [**Apply ➜**](https://job-boards.greenhouse.io/newsbreak/jobs/4615879006) |
 | Faros | Software Engineer - New Grad 🆕 | San Mateo, CA | — | 80% | 2026-07-09 | 2026-07-31 | [**Apply ➜**](https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066) |
 | Nooks | Software Engineer - New Grad 🆕 | San Francisco, CA | — | 80% | 2026-07-30 | 2026-07-31 | [**Apply ➜**](https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53) |
