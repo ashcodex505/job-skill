@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-01T01:09:04.788Z",
+ "updatedAt": "2026-08-01T04:59:19.803Z",
  "jobs": [
   {
    "dedupeKey": "workday:JR2015779",
@@ -2378,6 +2378,28 @@
    },
    "postedAt": "2026-07-31T00:00:00.000Z",
    "firstSeenAt": "2026-08-01T01:09:04.788Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:59aaa50c-6f7f-427b-950f-8b772440e208",
+   "source": "simplifyjobs",
+   "company": "Quora",
+   "title": "Software Engineer New Grad - Machine Learning Platform",
+   "location": "Remote in USA; Remote in Canada",
+   "url": "https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db/application?embed=true",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-01T01:24:29.000Z",
+   "firstSeenAt": "2026-08-01T04:59:19.803Z"
   },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",

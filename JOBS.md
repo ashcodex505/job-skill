@@ -1,13 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
-**132 open roles** across **67 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-01 01:09 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**133 open roles** across **67 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-01 04:59 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (11)
+## 🆕 New this cycle (9)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Quora | Software Engineer New Grad - Machine Learning Platform 🆕 | Remote in USA; Remote in Canada | — | 85% | 2026-08-01 | 2026-08-01 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db/application?embed=true) |
 | NewsBreak | Software Engineer Junior New Grad - ML Infra 🆕 | Mountain View, CA | — | 80% | 2026-07-31 | 2026-07-31 | [**Apply ➜**](https://job-boards.greenhouse.io/newsbreak/jobs/4615879006) |
 | Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-3) |
 | Cadence Design Systems | Multibody Dynamics Application Software Developer New Grad - Adams 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788) |
@@ -16,9 +17,6 @@ Last updated: **2026-08-01 01:09 UTC** · auto-refreshed every 12h by [job-board
 | Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-1) |
 | Cadence Design Systems | Multibody Dynamics Application Software Developer New Grad - Adams 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788-3) |
 | Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736) |
-| Virtu Financial | 2027 Internship - Frontend & User Experience 🆕 | Austin, TX +1 | 2027 | 90% | 2026-07-30 | 2026-07-31 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
-| Nooks | Software Engineer - New Grad 🆕 | San Francisco, CA | — | 80% | 2026-07-30 | 2026-07-31 | [**Apply ➜**](https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53) |
-| Faros | Software Engineer - New Grad 🆕 | San Mateo, CA | — | 80% | 2026-07-09 | 2026-07-31 | [**Apply ➜**](https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066) |
 
 ## 🛠️ Internships (44)
 
@@ -50,7 +48,7 @@ Last updated: **2026-08-01 01:09 UTC** · auto-refreshed every 12h by [job-board
 | NVIDIA | PhD Research Intern - System Software and I/O Architecture - Fall 2026 | Remote - Santa Clara, CA +2 | Fall 2026 | 100% | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667) |
 | NVIDIA | PhD Software Engineering Intern - Decision Intelligence - Fall 2026 | Santa Clara, CA | Fall 2026 | 100% | 2026-05-22 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
 | SpaceX | Fall 2026 Software Engineering Internship/Co-op | Flexible - Any SpaceX Site | Fall 2026 | 100% (4 skills) | 2026-03-16 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002) |
-| Virtu Financial | 2027 Internship - Frontend & User Experience 🆕 | Austin, TX +1 | 2027 | 90% | 2026-07-30 | 2026-07-31 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
+| Virtu Financial | 2027 Internship - Frontend & User Experience | Austin, TX +1 | 2027 | 90% | 2026-07-30 | 2026-07-31 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
 | PathAI | Software Engineering Co-op MLOps: September - December 2026 | Boston, MA | 2026 | 90% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://www.pathai.com/careers/8651564002?gh_jid=8651564002) |
 | Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 | New York City, NY | 2026 | 90% | 2026-07-24 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
 | Chevron | 2026-2027 Information Technology - Software Engineer - Intern | Houston, TX | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1) |
@@ -69,7 +67,7 @@ Last updated: **2026-08-01 01:09 UTC** · auto-refreshed every 12h by [job-board
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Anduril | 2027 Software Engineer Intern | Atlanta, GA +5 | 2027 | 90% | 2026-06-10 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 
-## 🎓 New Grad (88)
+## 🎓 New Grad (89)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -77,6 +75,7 @@ Last updated: **2026-08-01 01:09 UTC** · auto-refreshed every 12h by [job-board
 | Anduril | 2027 Early Career Software Engineer | Atlanta, GA +5 | 2027 New Grad | 100% | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
 | Notion | Software Engineer, Early Career (AI) | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
 | Notion | Software Engineer, Early Career | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
+| Quora | Software Engineer New Grad - Machine Learning Platform 🆕 | Remote in USA; Remote in Canada | — | 85% | 2026-08-01 | 2026-08-01 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db/application?embed=true) |
 | NVIDIA | Compiler Engineer New Grad - Infrastructure | Austin, TX; Remote in USA; Redmond, WA; Santa Clara, CA | — | 85% | 2026-07-20 | 2026-07-21 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compiler-Engineer--Infrastructure----New-College-Grad-2026_JR2021228) |
 | NVIDIA | System Software Engineer New Grad - Dynamo-Triton Inference Server | Remote in USA; Santa Clara, CA | — | 85% | 2026-07-13 | 2026-07-15 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Dynamo-Triton-Inference-Server---New-College-Grad-2026_JR2020767) |
 | Realm | Software Engineer - New Grad | Remote | — | 85% | 2026-04-04 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/realmalliance/56d8b433-31ad-43a2-997e-b8538f5f2c9f) |
@@ -100,8 +99,8 @@ Last updated: **2026-08-01 01:09 UTC** · auto-refreshed every 12h by [job-board
 | Cadence Design Systems | Multibody Dynamics Application Software Developer New Grad - Adams 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788-3) |
 | Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736) |
 | NewsBreak | Software Engineer Junior New Grad - ML Infra 🆕 | Mountain View, CA | — | 80% | 2026-07-31 | 2026-07-31 | [**Apply ➜**](https://job-boards.greenhouse.io/newsbreak/jobs/4615879006) |
-| Faros | Software Engineer - New Grad 🆕 | San Mateo, CA | — | 80% | 2026-07-09 | 2026-07-31 | [**Apply ➜**](https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066) |
-| Nooks | Software Engineer - New Grad 🆕 | San Francisco, CA | — | 80% | 2026-07-30 | 2026-07-31 | [**Apply ➜**](https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53) |
+| Faros | Software Engineer - New Grad | San Mateo, CA | — | 80% | 2026-07-09 | 2026-07-31 | [**Apply ➜**](https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066) |
+| Nooks | Software Engineer - New Grad | San Francisco, CA | — | 80% | 2026-07-30 | 2026-07-31 | [**Apply ➜**](https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53) |
 | Halliburton | Software Engineer Early Career | Houston, TX | — | 80% | 2026-05-19 | 2026-07-30 | [**Apply ➜**](https://jobs.halliburton.com/job/Houston-a_-Software-Engineer-Early-Career-Landmark-TX-77032/1392092600/?ats=successfactors) |
 | NVIDIA | Developer Technology Engineer New Grad - Public Sector | Santa Clara, CA | — | 80% | 2026-07-22 | 2026-07-29 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Technology-Engineer--Public-Sector---New-College-Grad-2026_JR2008990) |
 | Color | Software Engineer New Grad | San Bruno, CA | — | 80% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://jobs.ashbyhq.com/color-health/41fa6f16-b2f2-46c6-bdb4-9aae3b9b5b96/application?embed=true) |
