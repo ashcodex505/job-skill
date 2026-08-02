@@ -1,22 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
 **133 open roles** across **69 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-02 01:10 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-02 04:59 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
-
-## 🆕 New this cycle (3)
-
-| Company | Role | Location | Season | Match | Posted | First seen | Apply |
-|---|---|---|---|---|---|---|---|
-| Heliux | Software Engineer - Internship - Spring 2027 🆕 | San Francisco, CA | Spring 2027 | 100% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://jobs.ashbyhq.com/heliux/c71c0650-b6f7-491f-b291-6b280f58ee9c) |
-| Bank of Montreal | Software Developer - Early Career -15 🆕 | Irving, TX | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://bmo.wd3.myworkdayjobs.com/en-US/external/job/Irving-TX-USA/Software-Developer---Early-Career---15_R260021450) |
-| Manhattan Associates | Software Engineer - Early Career 🆕 | Atlanta, GA | — | 80% | 2026-07-30 | 2026-08-01 | [**Apply ➜**](https://manh.wd5.myworkdayjobs.com/en-US/campus/job/Atlanta-GA/Software-Engineer---Early-Career_16977) |
 
 ## 🛠️ Internships (43)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Heliux | Software Engineer - Internship - Spring 2027 🆕 | San Francisco, CA | Spring 2027 | 100% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://jobs.ashbyhq.com/heliux/c71c0650-b6f7-491f-b291-6b280f58ee9c) |
+| Heliux | Software Engineer - Internship - Spring 2027 | San Francisco, CA | Spring 2027 | 100% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://jobs.ashbyhq.com/heliux/c71c0650-b6f7-491f-b291-6b280f58ee9c) |
 | Rendezvous Robotics | Software Engineering Intern, Spring 2027 | Golden, CO | Spring 2027 | 100% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us) |
 | ASM | Software Engineering Intern - Spring 2027 | Phoenix, AZ +1 | Spring 2027 | 100% | 2026-04-23 | 2026-07-26 | [**Apply ➜**](https://www.asm.com/open-vacancies/?gh_jid=4830113101) |
 | Astranis Space Technologies | Software Engineer Intern - Enterprise Systems - Fall 2026 | San Francisco, CA | Fall 2026 | 100% | 2026-07-24 | 2026-07-24 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
@@ -84,8 +76,8 @@ Last updated: **2026-08-02 01:10 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
-| Bank of Montreal | Software Developer - Early Career -15 🆕 | Irving, TX | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://bmo.wd3.myworkdayjobs.com/en-US/external/job/Irving-TX-USA/Software-Developer---Early-Career---15_R260021450) |
-| Manhattan Associates | Software Engineer - Early Career 🆕 | Atlanta, GA | — | 80% | 2026-07-30 | 2026-08-01 | [**Apply ➜**](https://manh.wd5.myworkdayjobs.com/en-US/campus/job/Atlanta-GA/Software-Engineer---Early-Career_16977) |
+| Bank of Montreal | Software Developer - Early Career -15 | Irving, TX | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://bmo.wd3.myworkdayjobs.com/en-US/external/job/Irving-TX-USA/Software-Developer---Early-Career---15_R260021450) |
+| Manhattan Associates | Software Engineer - Early Career | Atlanta, GA | — | 80% | 2026-07-30 | 2026-08-01 | [**Apply ➜**](https://manh.wd5.myworkdayjobs.com/en-US/campus/job/Atlanta-GA/Software-Engineer---Early-Career_16977) |
 | Cadence Design Systems | Application Software Developer New Grad | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-3) |
 | Cadence Design Systems | Multibody Dynamics Application Software Developer New Grad - Adams | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788) |
 | Cadence Design Systems | Multibody Dynamics Application Software Developer New Grad - Adams | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788-2) |
