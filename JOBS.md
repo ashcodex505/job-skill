@@ -1,13 +1,15 @@
 # 🎯 Job Board — SWE Early Career
 
-**237 open roles** across **108 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-02 21:29 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**239 open roles** across **109 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-02 22:32 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (122)
+## 🆕 New this cycle (124)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Yotta Labs | Research Engineer Intern - AI Systems 🆕 | Remote in USA; Remote in Canada | Fall 2026 | 100% | 2026-08-02 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3/application?embed=true) |
+| Lightfield | Early Career Infrastructure Software Engineer 🆕 | Cambridge, MA; Boston, MA | — | 80% | 2026-08-02 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/Lightfield/9a7ef2f9-577a-4242-b884-719e3cdf4420/application?embed=true) |
 | Postman | AI Engineer Intern 🆕 | Berkeley, CA | Fall 2026 | 100% | 2026-08-01 | 2026-08-02 | [**Apply ➜**](https://job-boards.greenhouse.io/postman/jobs/7823417003) |
 | Quora | Software Engineer New Grad - Machine Learning Platform 🆕 | Remote in USA; Remote in Canada | — | 85% | 2026-08-01 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db/application?embed=true) |
 | Tesla | Software Compiler Engineer Intern - AI Inference 🆕 | Palo Alto, CA | Fall 2026 | 100% | 2026-08-01 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/278847) |
@@ -106,14 +108,13 @@ Last updated: **2026-08-02 21:29 UTC** · auto-refreshed every 12h by [job-board
 | Tesla | Automated Diagnostics Intern - Software Engineer 🆕 | Palo Alto, CA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/270521) |
 | Tesla | Software Engineer Intern - AI Data Infrastructure 🆕 | Palo Alto, CA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/269829) |
 | Tesla | Software Engineer Intern - Site Controller Software Engineer - Energy Engineering 🆕 | Palo Alto, CA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/272615) |
-| Tesla | Software Machine Learning Engineer Intern - Reliability Energy Engineering 🆕 | Palo Alto, CA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/272619) |
-| Tesla | Software Engineer Intern - Software Engineer - Information Security 🆕 | Bellevue, WA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/270497) |
 
-_…and 22 more (raise the cap in src/scraper/board.ts)._
-## 🛠️ Internships (141)
+_…and 24 more (raise the cap in src/scraper/board.ts)._
+## 🛠️ Internships (142)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Yotta Labs | Research Engineer Intern - AI Systems 🆕 | Remote in USA; Remote in Canada | Fall 2026 | 100% | 2026-08-02 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3/application?embed=true) |
 | Altom Transport | Software Development Intern 🆕 | Markham, IL | Fall 2026 | 100% | 2026-06-03 | 2026-08-02 | [**Apply ➜**](https://apply.workable.com/altom-transport/j/8536165C7B/apply) |
 | Altom Transport | Software Development Intern 🆕 | Markham, IL | Fall 2026 | 100% | 2026-05-28 | 2026-08-02 | [**Apply ➜**](https://apply.workable.com/altom-transport/j/1E3C4A9408/apply) |
 | Altom Transport | Software Development Intern 🆕 | Markham, IL | Fall 2026 | 100% | 2026-06-23 | 2026-08-02 | [**Apply ➜**](https://apply.workable.com/altom-transport/j/9FC654F05E/apply) |
@@ -256,7 +257,7 @@ _…and 22 more (raise the cap in src/scraper/board.ts)._
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Anduril | 2027 Software Engineer Intern | Atlanta, GA +5 | 2027 | 90% | 2026-06-10 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 
-## 🎓 New Grad (96)
+## 🎓 New Grad (97)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -284,6 +285,7 @@ _…and 22 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software (Starlink) 🆕 | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | SpaceX | New Graduate Engineer, Software (Starlink) 🆕 | Redmond, WA | — | 82% (1 skills) | 2026-01-16 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
+| Lightfield | Early Career Infrastructure Software Engineer 🆕 | Cambridge, MA; Boston, MA | — | 80% | 2026-08-02 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/Lightfield/9a7ef2f9-577a-4242-b884-719e3cdf4420/application?embed=true) |
 | Bank of Montreal | Software Developer - Early Career -15 🆕 | Irving, TX | — | 80% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://bmo.wd3.myworkdayjobs.com/en-US/external/job/Irving-TX-USA/Software-Developer---Early-Career---15_R260021450) |
 | Cadence Design Systems | Application Software Developer New Grad 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-3) |
 | Cadence Design Systems | Multibody Dynamics Application Software Developer New Grad - Adams 🆕 | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-MultiBody-Dynamics-Application-Software-Developer--Recent-Grad-2026-_R55788) |

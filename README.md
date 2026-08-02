@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-237-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-122-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--02-informational)
+![open roles](https://img.shields.io/badge/open%20roles-239-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-124-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--02-informational)
 
-Updated **2026-08-02 21:29 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-02 22:32 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Yotta Labs | Research Engineer Intern - AI Systems 🆕 | Remote in USA; Remote in Canada | Fall 2026 | 100% | 2026-08-02 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3/application?embed=true) |
 | Altom Transport | Software Development Intern 🆕 | Markham, IL | Fall 2026 | 100% | 2026-06-03 | 2026-08-02 | [**Apply ➜**](https://apply.workable.com/altom-transport/j/8536165C7B/apply) |
 | Altom Transport | Software Development Intern 🆕 | Markham, IL | Fall 2026 | 100% | 2026-05-28 | 2026-08-02 | [**Apply ➜**](https://apply.workable.com/altom-transport/j/1E3C4A9408/apply) |
 | Altom Transport | Software Development Intern 🆕 | Markham, IL | Fall 2026 | 100% | 2026-06-23 | 2026-08-02 | [**Apply ➜**](https://apply.workable.com/altom-transport/j/9FC654F05E/apply) |
@@ -277,5 +278,4 @@ Updated **2026-08-02 21:29 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Citadel Securities | Software Engineer Intern 🆕 | Miami, FL; NYC | Fall 2026 | 100% | 2026-07-06 | 2026-08-02 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/) |
 | Cloudflare | Systems Engineer – Data Residency Intern - Global Resource Management 🆕 | Austin, TX | Fall 2026 | 100% | 2026-07-01 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8015230) |
 | Composio | Full-stack Intern 🆕 | SF | Fall 2026 | 100% | 2026-07-17 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/composio/4d819015-0b9a-466f-9b41-8e1cc1e5b6d9/application?embed=true) |
-| Copart | Software Engineer Intern 🆕 | Dallas, TX | Fall 2026 | 100% | 2026-07-15 | 2026-08-02 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689) |
 <!-- JOB-BOARD:END -->
