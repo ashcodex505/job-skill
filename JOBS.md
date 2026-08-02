@@ -1,8 +1,15 @@
 # 🎯 Job Board — SWE Early Career
 
-**133 open roles** across **69 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-02 12:38 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**133 open roles** across **67 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-02 14:42 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
+
+## 🆕 New this cycle (2)
+
+| Company | Role | Location | Season | Match | Posted | First seen | Apply |
+|---|---|---|---|---|---|---|---|
+| Quora | Software Engineer - Machine Learning Platform - New Grad - Quora - Remote 🆕 | Remote - USA +1 | — | 85% | 2026-08-01 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db) |
+| Confido | New Grad Software Engineer 🆕 | New York City, NY | — | 80% | 2026-08-01 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e) |
 
 ## 🛠️ Internships (43)
 
@@ -34,7 +41,7 @@ Last updated: **2026-08-02 12:38 UTC** · auto-refreshed every 12h by [job-board
 | NVIDIA | PhD Research Intern - System Software and I/O Architecture - Fall 2026 | Remote - Santa Clara, CA +2 | Fall 2026 | 100% | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667) |
 | NVIDIA | PhD Software Engineering Intern - Decision Intelligence - Fall 2026 | Santa Clara, CA | Fall 2026 | 100% | 2026-05-22 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
 | SpaceX | Fall 2026 Software Engineering Internship/Co-op | Flexible - Any SpaceX Site | Fall 2026 | 100% (4 skills) | 2026-03-16 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002) |
-| Virtu Financial | 2027 Internship - Frontend & User Experience | Austin, TX +1 | 2027 | 90% | 2026-07-30 | 2026-07-31 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
+| Virtu Financial | 2027 Internship - Frontend Engineer - UI | Austin, TX +1 | 2027 | 90% | 2026-07-30 | 2026-07-31 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
 | PathAI | Software Engineering Co-op MLOps: September - December 2026 | Boston, MA | 2026 | 90% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://www.pathai.com/careers/8651564002?gh_jid=8651564002) |
 | Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 | New York City, NY | 2026 | 90% | 2026-07-23 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
 | Chevron | 2026-2027 Information Technology - Software Engineer - Intern | Houston, TX | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1) |
@@ -60,10 +67,10 @@ Last updated: **2026-08-02 12:38 UTC** · auto-refreshed every 12h by [job-board
 | Anduril | 2027 Early Career Software Engineer | Atlanta, GA +5 | 2027 New Grad | 100% | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
 | Notion | Software Engineer, Early Career (AI) | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
 | Notion | Software Engineer, Early Career | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
+| Quora | Software Engineer - Machine Learning Platform - New Grad - Quora - Remote 🆕 | Remote - USA +1 | — | 85% | 2026-08-01 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db) |
 | Quora | Software Engineer New Grad - Machine Learning Platform | Remote in USA; Remote in Canada | — | 85% | 2026-08-01 | 2026-08-01 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db/application?embed=true) |
 | NVIDIA | Compiler Engineer New Grad - Infrastructure | Austin, TX; Remote in USA; Redmond, WA; Santa Clara, CA | — | 85% | 2026-07-20 | 2026-07-21 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compiler-Engineer--Infrastructure----New-College-Grad-2026_JR2021228) |
 | NVIDIA | System Software Engineer New Grad - Dynamo-Triton Inference Server | Remote in USA; Santa Clara, CA | — | 85% | 2026-07-13 | 2026-07-15 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Dynamo-Triton-Inference-Server---New-College-Grad-2026_JR2020767) |
-| Realm | Software Engineer - New Grad | Remote | — | 85% | 2026-04-04 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/realmalliance/56d8b433-31ad-43a2-997e-b8538f5f2c9f) |
 | Quora | Machine Learning Engineer New Grad | Remote in USA; Remote in Canada | — | 85% | 2026-07-09 | 2026-07-09 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/3eb7e80e-6a0d-41b6-8ee4-f62421c486e4/application) |
 | Palantir | Software Engineer, New Grad | New York, NY | — | 85% (3 skills) | 2021-07-01 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92) |
 | Palantir | Software Engineer, New Grad | Denver, CO | — | 85% (3 skills) | 2020-10-27 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29) |
@@ -76,6 +83,7 @@ Last updated: **2026-08-02 12:38 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
+| Confido | New Grad Software Engineer 🆕 | New York City, NY | — | 80% | 2026-08-01 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e) |
 | Bank of Montreal | Software Developer - Early Career -15 | Irving, TX | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://bmo.wd3.myworkdayjobs.com/en-US/external/job/Irving-TX-USA/Software-Developer---Early-Career---15_R260021450) |
 | Manhattan Associates | Software Engineer - Early Career | Atlanta, GA | — | 80% | 2026-07-30 | 2026-08-01 | [**Apply ➜**](https://manh.wd5.myworkdayjobs.com/en-US/campus/job/Atlanta-GA/Software-Engineer---Early-Career_16977) |
 | Cadence Design Systems | Application Software Developer New Grad | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-01 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736-3) |
@@ -104,7 +112,6 @@ Last updated: **2026-08-02 12:38 UTC** · auto-refreshed every 12h by [job-board
 | Cybernetic Labs | Software Engineer New Grad - Agent Platform | SF | — | 80% | 2026-07-16 | 2026-07-17 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/d9bcb6a2-0e54-4cb3-baec-43f2d74db18f/application?embed=true) |
 | Cybernetic Labs | Full-Stack Software Engineer New Grad - Product | SF | — | 80% | 2026-07-16 | 2026-07-16 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/bab5d1e5-e31b-42f0-9cef-334b1f17fed3/application?embed=true) |
 | Lightfield | Software Engineer New Grad - Applied AI | SF | — | 80% | 2026-07-16 | 2026-07-16 | [**Apply ➜**](https://jobs.ashbyhq.com/Lightfield/fc93a467-773d-4805-b342-bf470950732d/application?embed=true) |
-| Abridge | Software Engineer - Early Career | San Francisco, CA +1 | — | 80% | 2026-07-14 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace) |
 | Varsity Brands | Software Engineer - Early Career | Farmers Branch, TX | — | 80% | 2026-07-02 | 2026-07-15 | [**Apply ➜**](https://varsitybrands.wd503.myworkdayjobs.com/en-US/ExternalCareerSite/job/TX---Farmers-Branch/Software-Engineer---Early-Career_JR113366-1) |
 | Faros AI | Software Engineer New Grad | San Mateo, CA | — | 80% | 2026-07-15 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066/application?embed=true) |
 | Collective | Software Engineer - New Grad | San Francisco, CA | — | 80% | 2026-06-11 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/collective/40516856-b29c-4b38-b434-68be5241bacf) |
@@ -129,7 +136,7 @@ Last updated: **2026-08-02 12:38 UTC** · auto-refreshed every 12h by [job-board
 | Collective | Software Engineer New Grad | SF | — | 80% | 2026-06-17 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/collective/40516856-b29c-4b38-b434-68be5241bacf/application) |
 | Confido | Software Engineer New Grad | NYC | — | 80% | 2026-07-01 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e/application) |
 | Fortinet | Software Developer New Grad | Sunnyvale, CA | — | 80% | 2026-05-07 | 2026-07-05 | [**Apply ➜**](https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22818) |
-| IXL Learning | Software Engineer - New Grad | San Mateo, CA | — | 80% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://www.ixl.com/company/jobs?gh_jid=8615710002) |
+| IXL Learning | Software Engineer - New Grad | Raleigh-Durham, NC +1 | — | 80% | 2026-07-02 | 2026-07-05 | [**Apply ➜**](https://www.ixl.com/company/jobs?gh_jid=8615717002) |
 | Julius AI | Refresh Software Engineer New Grad - Product | SF | — | 80% | 2026-05-21 | 2026-07-05 | [**Apply ➜**](https://jobs.ashbyhq.com/julius/5e0b677a-f677-44de-93c6-f7848ab5a8e6/application) |
 | Palantir | Forward Deployed Software Engineer New Grad | NYC | — | 80% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca/apply) |
 | Palantir | Forward Deployed Software Engineer New Grad | Washington, DC | — | 80% | 2026-06-16 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply) |
@@ -147,12 +154,14 @@ Last updated: **2026-08-02 12:38 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (21)
+## 🚪 Recently closed (last 7 days) (22)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Abridge | Software Engineer - Early Career | — | 2026-08-02 |
+| Realm | Software Engineer - New Grad | — | 2026-08-02 |
 | Notion | Software Engineer Intern - Fall 2026 | Fall 2026 | 2026-08-01 |
 | TikTok | Software Engineer Project Intern - Model Infrastructure - 2026 Start - BS/MS | 2026 | 2026-08-01 |
 | Nooks | Software Engineer - New Grad | — | 2026-08-01 |
@@ -173,7 +182,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Google | Software Engineering Intern - MS - Summer 2027 | Summer 2027 | 2026-07-28 |
 | Google | Software Engineering Intern - BS - Summer 2027 | Summer 2027 | 2026-07-28 |
 | Cerebras | ML Software Engineer New Grad - Integration & Quality | — | 2026-07-27 |
-| NXP Semiconductors | AI / Software Engineering Intern - Fall 2026 | Fall 2026 | 2026-07-26 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
