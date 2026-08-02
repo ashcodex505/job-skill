@@ -177,6 +177,39 @@ describe("simplifyjobs feed", () => {
     vi.stubGlobal("fetch", vi.fn(async () => new Response("nf", { status: 404 })));
     await expect(scrapeSimplifyFeeds(NOW)).rejects.toThrow(/No SimplifyJobs feed resolved/);
   });
+
+  it("carries the feed's own terms field through as a seasonHint", async () => {
+    const fresh = Math.floor(NOW.getTime() / 1000) - 60;
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(async (input: RequestInfo | URL) => {
+        const u = String(input);
+        if (u.includes("New-Grad-Positions/dev")) return new Response("nf", { status: 404 });
+        if (u.includes("New-Grad-Positions/main")) {
+          return new Response(
+            JSON.stringify([
+              {
+                id: "uuid-tesla",
+                company_name: "Tesla",
+                title: "Vehicle Software Intern - Vehicle Controls",
+                locations: ["Palo Alto, CA"],
+                url: "https://tesla.com/careers/j/278203",
+                date_posted: fresh,
+                active: true,
+                is_visible: true,
+                terms: ["Fall 2026"],
+              },
+            ]),
+            { status: 200 },
+          );
+        }
+        return new Response("nf", { status: 404 });
+      }),
+    );
+    const jobs = await scrapeSimplifyFeeds(NOW);
+    expect(jobs).toHaveLength(1);
+    expect(jobs[0].seasonHint).toBe("Fall 2026");
+  });
 });
 
 describe("greenhouse adapter (shape guard)", () => {

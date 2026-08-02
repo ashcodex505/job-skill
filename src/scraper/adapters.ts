@@ -899,10 +899,19 @@ interface SimplifyListing {
   date_posted?: number; // epoch seconds
   active?: boolean;
   is_visible?: boolean;
+  /** e.g. ["Fall 2026"] — many real postings never restate this in the title itself. */
+  terms?: string[];
 }
 
 const SIMPLIFY_FEEDS: { repo: string; branches: string[] }[] = [
   { repo: "SimplifyJobs/New-Grad-Positions", branches: ["dev", "main"] },
+  // SimplifyJobs names this repo after its anchor Summer season, but it
+  // carries the whole surrounding cycle — confirmed live: as of 2026-07,
+  // this is where current Fall 2026 postings actually are (Summer2027-
+  // Internships below doesn't exist yet). Keeping both: this one for
+  // what's live now, the 2027 one so it's picked up automatically once
+  // SimplifyJobs creates it next season — no code change needed then.
+  { repo: "SimplifyJobs/Summer2026-Internships", branches: ["dev", "main"] },
   { repo: "SimplifyJobs/Summer2027-Internships", branches: ["dev", "main"] },
 ];
 
@@ -953,6 +962,7 @@ async function scrapeListingsJsonFeeds(
         url: l.url,
         postedAt: new Date(postedMs).toISOString(),
         description: null,
+        seasonHint: l.terms?.[0] ?? null,
       });
     }
     await sleep(300);

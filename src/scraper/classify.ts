@@ -18,6 +18,11 @@ const ROLE_KEYWORDS = [
   /\bsde\b/i,
   /\bswe\b/i,
   /\bdeveloper\b/i,
+  // A bare "Software" mention ("Vehicle Software Intern", "Software
+  // Integration Engineer Intern") is a real signal even without the exact
+  // "Software Engineer"/"Software Developer" phrase — same class of gap as
+  // the Amazon SDE fix above (title uses different but legitimate wording).
+  /\bsoftware\b/i,
   /back[- ]?end/i,
   /front[- ]?end/i,
   /full[- ]?stack/i,
@@ -75,7 +80,16 @@ export function detectRoleType(title: string): RoleType {
   return "unknown";
 }
 
-export function detectSeason(title: string): string | null {
+/**
+ * `hint` is a feed-supplied season string (e.g. SimplifyJobs/vansh listings'
+ * own `terms` field) used only when the title itself states no season —
+ * many real postings never restate the season in their title at all
+ * ("Vehicle Software Intern - Vehicle Controls" says nothing about Fall
+ * 2026, even though the feed that carried it knows exactly which cycle
+ * it's for). The title is still authoritative when it does state one:
+ * a hint is never allowed to override text actually present in the title.
+ */
+export function detectSeason(title: string, hint?: string | null): string | null {
   const m = title.match(SEASON_RE);
   if (m) {
     const term = m[1][0].toUpperCase() + m[1].slice(1).toLowerCase();
@@ -92,6 +106,14 @@ export function detectSeason(title: string): string | null {
     // the bare year so passesCareerPolicy can match it against a configured
     // season's year instead of hard-excluding it as unstated.
     if (roleType === "internship") return year[1];
+  }
+  if (hint) {
+    const hintMatch = hint.match(SEASON_RE);
+    if (hintMatch) {
+      const term = hintMatch[1][0].toUpperCase() + hintMatch[1].slice(1).toLowerCase();
+      const year = hintMatch[2].length === 2 ? `20${hintMatch[2]}` : hintMatch[2];
+      return `${term === "Autumn" ? "Fall" : term} ${year}`;
+    }
   }
   return null;
 }
@@ -183,9 +205,10 @@ export function classifyTitle(
   location?: string | null,
   prefs?: ClassifyPrefs,
   ref: Date = new Date(),
+  seasonHint?: string | null,
 ): Classification {
   const roleType = detectRoleType(title);
-  const season = detectSeason(title);
+  const season = detectSeason(title, seasonHint);
   const isEarlyCareer = roleType !== "unknown";
   const senior = isSeniorRole(title);
 

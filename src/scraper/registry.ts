@@ -71,6 +71,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Samsara", website: "https://samsara.com", careersUrl: "https://samsara.com/company/careers", ats: "greenhouse", slug: "samsara" },
   { name: "MongoDB", website: "https://mongodb.com", careersUrl: "https://mongodb.com/careers", ats: "greenhouse", slug: "mongodb" },
   { name: "Cloudflare", website: "https://cloudflare.com", careersUrl: "https://cloudflare.com/careers", ats: "greenhouse", slug: "cloudflare" },
+  { name: "Postman", website: "https://postman.com", careersUrl: "https://postman.com/company/careers", ats: "greenhouse", slug: "postman" },
   { name: "Pinterest", website: "https://pinterest.com", careersUrl: "https://pinterestcareers.com", ats: "greenhouse", slug: "pinterest" },
   { name: "Instacart", website: "https://instacart.com", careersUrl: "https://instacart.careers", ats: "greenhouse", slug: "instacart" },
   { name: "Reddit", website: "https://reddit.com", careersUrl: "https://redditinc.com/careers", ats: "greenhouse", slug: "reddit" },

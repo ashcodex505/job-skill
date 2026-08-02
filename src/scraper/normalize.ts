@@ -27,7 +27,8 @@ export interface RawJob {
     | "speedyapply"
     | "vansh"
     | "reverse-discovery"
-    | "browser";
+    | "browser"
+    | "career-ops";
   sourceId: string | null;
   company: string;
   title: string;
@@ -36,6 +37,13 @@ export interface RawJob {
   postedAt: string | null;
   /** Job description (HTML or plaintext) when the ATS API provides it. */
   description?: string | null;
+  /**
+   * Feed-supplied season signal (e.g. SimplifyJobs/vansh listings' own
+   * `terms` field), used only when the title itself states no season —
+   * see classify.ts's detectSeason(). Never overrides a season stated in
+   * the title.
+   */
+  seasonHint?: string | null;
 }
 
 /** Descriptions are stored for saved jobs but capped to keep rows sane. */
@@ -156,7 +164,7 @@ export function makeDedupeKey(job: RawJob): string {
 export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new Date()): NormalizedJob | null {
   const title = raw.title.trim().replace(/\s+/g, " ");
   if (!title) return null;
-  const { relevant, roleType, season, score, breakdown } = classifyTitle(title, raw.location, config, ref);
+  const { relevant, roleType, season, score, breakdown } = classifyTitle(title, raw.location, config, ref, raw.seasonHint);
   if (!relevant) return null;
   // Hard location policy: US, remote, or hybrid only — not a scoring signal.
   if (!isUsRemoteOrHybridLocation(raw.location)) return null;

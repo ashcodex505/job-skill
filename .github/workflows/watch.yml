@@ -1,7 +1,8 @@
 # Feed watcher: fires the community-feed scrape ONLY when one of the watched
-# job repos (SimplifyJobs/New-Grad-Positions, SimplifyJobs/Summer2027-
-# Internships, speedyapply/2027-SWE-College-Jobs, vanshb03/Summer2027-
-# Internships, vanshb03/New-Grad-2027) receives a new commit.
+# job repos (SimplifyJobs/New-Grad-Positions, SimplifyJobs/Summer2026-
+# Internships, SimplifyJobs/Summer2027-Internships, speedyapply/2027-SWE-
+# College-Jobs, vanshb03/Summer2027-Internships, vanshb03/New-Grad-2027)
+# receives a new commit.
 # GitHub cannot trigger cross-repo, so an hourly poll compares their HEAD
 # SHAs against board/feed-heads.json and exits in seconds when nothing
 # changed.
@@ -67,7 +68,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          REPOS="SimplifyJobs/New-Grad-Positions SimplifyJobs/Summer2027-Internships speedyapply/2027-SWE-College-Jobs vanshb03/Summer2027-Internships vanshb03/New-Grad-2027"
+          REPOS="SimplifyJobs/New-Grad-Positions SimplifyJobs/Summer2026-Internships SimplifyJobs/Summer2027-Internships speedyapply/2027-SWE-College-Jobs vanshb03/Summer2027-Internships vanshb03/New-Grad-2027"
           HEADS="{"
           for repo in $REPOS; do
             sha=$(gh api "repos/$repo/commits?per_page=1" --jq '.[0].sha' 2>/dev/null) || sha=""

@@ -46,6 +46,27 @@ describe("classify", () => {
     expect(detectSeason("Backend Engineer")).toBeNull();
   });
 
+  it("falls back to a feed-supplied season hint only when the title states none", () => {
+    // Regression: SimplifyJobs/vansh listings often carry the real season in
+    // their own `terms` field without ever restating it in the title text
+    // ("Vehicle Software Intern - Vehicle Controls" — Tesla, real posting
+    // missed entirely until this hint was threaded through from RawJob).
+    expect(detectSeason("Vehicle Software Intern - Vehicle Controls", "Fall 2026")).toBe("Fall 2026");
+    // Title still wins when it states its own season — a hint never overrides it.
+    expect(detectSeason("SWE Intern - Summer 2027", "Fall 2026")).toBe("Summer 2027");
+    expect(detectSeason("Software Engineer Intern", null)).toBeNull();
+    expect(detectSeason("Software Engineer Intern", "garbage, not a season")).toBeNull();
+  });
+
+  it("recognizes a bare \"Software\" mention as a role signal, not just exact SWE phrases", () => {
+    // Regression: same class of gap as the Amazon SDE fix above — a title
+    // can say "Software" without ever saying "Software Engineer"/"Developer".
+    expect(detectRoleType("Vehicle Software Intern - Vehicle Controls")).toBe("internship");
+    const c = classifyTitle("Vehicle Software Intern - Vehicle Controls", "Palo Alto, CA", undefined, REF, "Fall 2026");
+    expect(c.breakdown.role).toBe(40);
+    expect(c.relevant).toBe(true);
+  });
+
   it("excludes senior/staff/principal/manager roles", () => {
     for (const title of [
       "Senior Software Engineer",
@@ -169,6 +190,28 @@ describe("normalize + dedupe", () => {
     expect(normalizeJob(raw({ title: "Software Engineer Intern (Summer 2027)", company: "Local Company" }), strictConfig, REF)).toBeNull();
     expect(normalizeJob(raw({ title: "Software Engineer Intern (Summer 2026)", company: "Stripe" }), strictConfig, REF)).toBeNull();
     expect(normalizeJob(raw({ title: "Product Intern (Fall 2026)", company: "Stripe" }), strictConfig, REF)).toBeNull();
+  });
+
+  it("uses a feed-supplied seasonHint to pass the internship-season gate when the title states none", () => {
+    // End-to-end regression for the real Tesla posting this was diagnosed
+    // from: "Vehicle Software Intern - Vehicle Controls" states no season in
+    // its title at all, but the feed's own terms field ("Fall 2026") is
+    // enough to satisfy strictConfig's internshipSeasons gate.
+    expect(
+      normalizeJob(
+        raw({ title: "Vehicle Software Intern - Vehicle Controls", company: "Local Company", location: "Palo Alto, CA", seasonHint: "Fall 2026" }),
+        strictConfig,
+        REF,
+      ),
+    ).not.toBeNull();
+    // No hint, no title season → still excluded, same as before this fix.
+    expect(
+      normalizeJob(
+        raw({ title: "Vehicle Software Intern - Vehicle Controls", company: "Local Company", location: "Palo Alto, CA" }),
+        strictConfig,
+        REF,
+      ),
+    ).toBeNull();
   });
 
   it("matches common approved-company name variants without arbitrary substrings", () => {
