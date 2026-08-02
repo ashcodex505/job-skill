@@ -1,30 +1,6 @@
 {
- "updatedAt": "2026-08-02T10:51:40.034Z",
+ "updatedAt": "2026-08-02T11:32:00.703Z",
  "jobs": [
-  {
-   "dedupeKey": "reverse-discovery:5e2ea37b-2369-474e-b717-c24c60976e96",
-   "source": "reverse-discovery",
-   "company": "anthelioncap",
-   "title": "Quant Developer / Quant Research Intern - 2026/2027",
-   "location": "New York City",
-   "url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
-   "season": "2026",
-   "roleType": "internship",
-   "score": 92,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-07-23T19:51:59.097+00:00",
-   "firstSeenAt": "2026-07-26T09:01:16.777Z"
-  },
   {
    "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
    "source": "vansh",
@@ -422,6 +398,28 @@
    },
    "postedAt": "2026-07-28",
    "firstSeenAt": "2026-07-28T14:30:13.646Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:5e2ea37b-2369-474e-b717-c24c60976e96",
+   "source": "reverse-discovery",
+   "company": "Anthelion Capital",
+   "title": "Quant Developer / Quant Research Intern - 2026/2027",
+   "location": "New York City, NY",
+   "url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
+   "season": "2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-23T19:51:59.097+00:00",
+   "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:330766bcb40d0b479146f62caba65ab8bafa56db",
