@@ -252,14 +252,19 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-301-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-16-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--03-informational)
+![open roles](https://img.shields.io/badge/open%20roles-306-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-21-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--03-informational)
 
-Updated **2026-08-03 22:14 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-03 23:42 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| SpaceX | Spring 2027 Software Engineering Internship/Co-op 🆕 | Flexible - Any SpaceX Site | Spring 2027 | 100% (3 skills) | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8621756002?gh_jid=8621756002) |
-| SpaceX | Summer 2027 Software Engineering Internship/Co-op 🆕 | Flexible - Any SpaceX Site | Summer 2027 | 100% (3 skills) | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8621757002?gh_jid=8621757002) |
+| Bosch Home Comfort | Artificial Intelligence and Software Development Engineering Intern 🆕 | Plymouth, MI | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://jobs.smartrecruiters.com/BoschGroup/744000141302469) |
+| Incident IQ | Software Engineer Intern 🆕 | Alpharetta, GA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://job-boards.greenhouse.io/incidentiq/jobs/7824038003) |
+| Intel | AI Software Engineer Intern 🆕 | Remote in USA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989) |
+| Persona AI | Autonomy Software Engineer Intern - World Modeling 🆕 | Houston, TX | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://jobs.ashbyhq.com/persona.ai/fd514a3f-4138-48d5-9862-05ff74a4ca08/application?embed=true) |
+| Prophet | AI Engineer Intern - AI Foundry & Digital Growth 🆕 | NYC | Fall 2026 | 100% | 2026-07-27 | 2026-08-03 | [**Apply ➜**](https://job-boards.greenhouse.io/prophet/jobs/4689859005) |
+| SpaceX | Software Engineering Intern/Co-op 🆕 | Palo Alto, CA; Bastrop, TX; Irvine, CA; Cape Canaveral, FL; Brownsville, TX; Redmond, WA; McGregor, TX; Hawthorne, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8621757002) |
+| SpaceX | Software Engineer Intern/Co-op 🆕 | Palo Alto, CA; Bastrop, TX; Irvine, CA; Cape Canaveral, FL; Brownsville, TX; Redmond, WA; McGregor, TX; Hawthorne, CA | Spring 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8621756002) |
 | ByteDance | Research Scientist Intern - Distributed NoSQL Database Systems 🆕 | Seattle, WA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7668371456348326149/detail) |
 | ByteDance | Research Scientist Intern - Distributed NoSQL Database Systems 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7668371003554138421/detail) |
 | Microsoft | Software Engineer Intern - CoreAI 🆕 | Redmond, WA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556951950) |
@@ -273,9 +278,4 @@ Updated **2026-08-03 22:14 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | TikTok | Software Engineer Intern - Creative Intelligence and Brand Innovation | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668642761473902901) |
 | TikTok | Machine Learning Engineer Intern | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667338938890930437) |
 | TikTok | Software Engineer Intern - Trust and Safety Engineering | Seattle, WA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7662684280234232117) |
-| TikTok | Machine Learning Engineer Intern - Data Search Search Quality | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7665475888805611781) |
-| TikTok | Software Engineer Intern | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668581636242016565) |
-| TikTok | Machine Learning Engineer Intern - Trust and Safety | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7662672554084059445) |
-| TikTok | Software Engineer Intern | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7662700594251958581) |
-| TikTok | Machine Learning Engineer Intern - Search Quality | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7665475460339665157) |
 <!-- JOB-BOARD:END -->
