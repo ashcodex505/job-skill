@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-03T15:29:00.431Z",
+ "updatedAt": "2026-08-03T17:27:33.810Z",
  "jobs": [
   {
    "dedupeKey": "workday:JR2015779",
@@ -3680,28 +3680,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "simplifyjobs:e7ca86c9-9b55-4d3a-a409-f781291f435d",
-   "source": "simplifyjobs",
-   "company": "Autodesk",
-   "title": "Cloud Developer Intern",
-   "location": "Remote in Canada",
-   "url": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Quebec-CAN---Remote/Stagiaire-en-Dveloppement-Cloud--Intern-Cloud-Developer_26WD99464-2",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 5,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-18T14:06:13.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:b7ecf859-e102-435c-ad58-a6bb88c51c60",
    "source": "simplifyjobs",
    "company": "Muru",
@@ -6938,6 +6916,16 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z",
    "closedAt": "2026-08-03T15:29:00.431Z",
    "url": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Quebec-CAN---Remote/Stagiaire-en-Dveloppement-Cloud--Intern-Cloud-Developer_26WD99464-1"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e7ca86c9-9b55-4d3a-a409-f781291f435d",
+   "company": "Autodesk",
+   "title": "Cloud Developer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-08-03T17:27:33.810Z",
+   "url": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Quebec-CAN---Remote/Stagiaire-en-Dveloppement-Cloud--Intern-Cloud-Developer_26WD99464-2"
   }
  ]
 }
