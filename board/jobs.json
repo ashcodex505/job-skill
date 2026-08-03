@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-03T12:34:46.349Z",
+ "updatedAt": "2026-08-03T15:29:00.431Z",
  "jobs": [
   {
    "dedupeKey": "workday:JR2015779",
@@ -68,6 +68,28 @@
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:3bba168c4e368c5017f6be762a4cef31360ca8d3",
+   "source": "speedyapply",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Vehicle Controls - Fall 2026",
+   "location": "Irvine, CA +1",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-04",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:d7d02b107cde94a91bad4c38811099282a29586f",
    "source": "speedyapply",
    "company": "Rivian",
@@ -131,28 +153,6 @@
     "skills": 0
    },
    "postedAt": "2026-06-03",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:3bba168c4e368c5017f6be762a4cef31360ca8d3",
-   "source": "speedyapply",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Vehicle Controls - Fall 2026",
-   "location": "Irvine, CA +1",
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-04",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -862,28 +862,6 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:6f331e01e8d3a280240a7a2e268d3f831178317f",
-   "source": "speedyapply",
-   "company": "Confido",
-   "title": "New Grad Software Engineer",
-   "location": "New York City, NY",
-   "url": "https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-01",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:c2166c608e84be1276e153ef22d88af7bfe089b2",
    "source": "speedyapply",
    "company": "Quora",
@@ -912,6 +890,28 @@
    "title": "Software Developer - Early Career -15",
    "location": "Irving, TX",
    "url": "https://bmo.wd3.myworkdayjobs.com/en-US/external/job/Irving-TX-USA/Software-Developer---Early-Career---15_R260021450",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:6f331e01e8d3a280240a7a2e268d3f831178317f",
+   "source": "speedyapply",
+   "company": "Confido",
+   "title": "New Grad Software Engineer",
+   "location": "New York City, NY",
+   "url": "https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e",
    "season": null,
    "roleType": "new_grad",
    "score": 80,
@@ -1104,12 +1104,12 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:8674519be6d7160ed3d5c88b9af4a0cfddcde028",
+   "dedupeKey": "speedyapply:sha1:0a254b294fd3fc62c4a616f289dae08537937953",
    "source": "speedyapply",
    "company": "IXL Learning",
    "title": "Software Engineer - New Grad",
-   "location": "Raleigh-Durham, NC +1",
-   "url": "https://www.ixl.com/company/jobs?gh_jid=8615717002",
+   "location": "San Mateo, CA",
+   "url": "https://www.ixl.com/company/jobs?gh_jid=8615710002",
    "season": null,
    "roleType": "new_grad",
    "score": 80,
@@ -3018,6 +3018,50 @@
    "firstSeenAt": "2026-08-03T12:34:46.349Z"
   },
   {
+   "dedupeKey": "simplifyjobs:e5443b5b-331f-470e-b03e-f8cb378f467a",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer New Grad - Trust and Safety",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7665991852209932597",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T14:20:19.000Z",
+   "firstSeenAt": "2026-08-03T15:29:00.431Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:6877141a-26a2-42c6-affa-8795287920b8",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer New Grad - Recommendation",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7663389745178757429",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T14:20:21.000Z",
+   "firstSeenAt": "2026-08-03T15:29:00.431Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:6f90b990-327d-4a8f-9b22-f0d6cc181eaa",
    "source": "simplifyjobs",
    "company": "Tesla",
@@ -3655,28 +3699,6 @@
     "skills": 0
    },
    "postedAt": "2026-06-18T14:06:13.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:bf8a5772-d7a7-4239-8119-4ed3cfb9f480",
-   "source": "simplifyjobs",
-   "company": "Autodesk",
-   "title": "Cloud Developer Intern",
-   "location": "Remote in Canada",
-   "url": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Quebec-CAN---Remote/Stagiaire-en-Dveloppement-Cloud--Intern-Cloud-Developer_26WD99464-1",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 5,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-18T14:05:29.000Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -6906,6 +6928,16 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z",
    "closedAt": "2026-08-03T12:34:46.349Z",
    "url": "https://jobs.ashbyhq.com/composio/4d819015-0b9a-466f-9b41-8e1cc1e5b6d9/application?embed=true"
+  },
+  {
+   "dedupeKey": "simplifyjobs:bf8a5772-d7a7-4239-8119-4ed3cfb9f480",
+   "company": "Autodesk",
+   "title": "Cloud Developer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-08-03T15:29:00.431Z",
+   "url": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Quebec-CAN---Remote/Stagiaire-en-Dveloppement-Cloud--Intern-Cloud-Developer_26WD99464-1"
   }
  ]
 }
