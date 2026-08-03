@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-03T08:51:10.281Z",
+ "updatedAt": "2026-08-03T12:34:46.349Z",
  "jobs": [
   {
    "dedupeKey": "workday:JR2015779",
@@ -2842,6 +2842,182 @@
    "firstSeenAt": "2026-08-03T08:51:10.281Z"
   },
   {
+   "dedupeKey": "simplifyjobs:d7b7af97-f9b0-4faf-84d3-6c33874a3f86",
+   "source": "simplifyjobs",
+   "company": "ByteDance",
+   "title": "Software Engineer New Grad - Traffic Infrastructure",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7665849950984194309/detail",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:16:39.000Z",
+   "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:8cad0fcf-e891-4637-91ed-259c291121f3",
+   "source": "simplifyjobs",
+   "company": "ByteDance",
+   "title": "Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling",
+   "location": "Seattle, WA",
+   "url": "https://jobs.bytedance.com/en/position/7668799020705679669/detail",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:16:45.000Z",
+   "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b2ed4463-96d0-44cd-b1c5-604bcce870ad",
+   "source": "simplifyjobs",
+   "company": "ByteDance",
+   "title": "Research Scientist New Grad - Distributed NoSQL Database Systems",
+   "location": "Seattle, WA",
+   "url": "https://jobs.bytedance.com/en/position/7668365143156721973/detail",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:16:35.000Z",
+   "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b88a3852-64cb-44cf-ad65-71ede8a595e4",
+   "source": "simplifyjobs",
+   "company": "ByteDance",
+   "title": "Research Scientist New Grad - Infrastructure System Lab",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7665108869591140613/detail",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:16:38.000Z",
+   "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:4ae93ef5-d293-43c9-8bb7-53f4c2e97749",
+   "source": "simplifyjobs",
+   "company": "ByteDance",
+   "title": "Software Engineer New Grad - AI Infra Compute",
+   "location": "Seattle, WA",
+   "url": "https://jobs.bytedance.com/en/position/7667303429264115973/detail",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:16:38.000Z",
+   "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:89cf07d7-dea8-45c0-bd63-f03870bf2088",
+   "source": "simplifyjobs",
+   "company": "ByteDance",
+   "title": "Backend and Infrastructure Software Engineer New Grad - Dev Infra",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7667894766036322565/detail",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:16:36.000Z",
+   "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:191c8efe-2180-4233-88f6-7be916d9f4cf",
+   "source": "simplifyjobs",
+   "company": "ByteDance",
+   "title": "Research Scientist New Grad - AI for Infrastructure",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7667291055662811445/detail",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:16:39.000Z",
+   "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:830d601a-f246-424f-8b08-23956510de08",
+   "source": "simplifyjobs",
+   "company": "Maven Securities",
+   "title": "Developer New Grad",
+   "location": "Chicago, IL",
+   "url": "https://job-boards.greenhouse.io/emergingtalent/jobs/8048802",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:27:21.000Z",
+   "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:6f90b990-327d-4a8f-9b22-f0d6cc181eaa",
    "source": "simplifyjobs",
    "company": "Tesla",
@@ -4139,28 +4315,6 @@
     "skills": 0
    },
    "postedAt": "2026-07-16T00:00:00.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:015239c6-bc89-4abd-a7a9-97acc270ae0a",
-   "source": "simplifyjobs",
-   "company": "Composio",
-   "title": "Full-stack Intern",
-   "location": "SF",
-   "url": "https://jobs.ashbyhq.com/composio/4d819015-0b9a-466f-9b41-8e1cc1e5b6d9/application?embed=true",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-17T01:11:23.000Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -5770,6 +5924,72 @@
    "firstSeenAt": "2026-08-03T08:51:10.281Z"
   },
   {
+   "dedupeKey": "simplifyjobs:7125ebf4-f7ce-4863-8495-30a7f8d59f7d",
+   "source": "simplifyjobs",
+   "company": "ByteDance",
+   "title": "Research Scientist Intern - Distributed NoSQL Database Systems",
+   "location": "Seattle, WA",
+   "url": "https://jobs.bytedance.com/en/position/7668371456348326149/detail",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:16:35.000Z",
+   "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e3086785-c94b-4a66-82a8-52a73cc4b994",
+   "source": "simplifyjobs",
+   "company": "ByteDance",
+   "title": "Research Scientist Intern - Distributed NoSQL Database Systems",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7668371003554138421/detail",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:16:34.000Z",
+   "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:9fe00265-7716-44f9-bc43-1017aa863220",
+   "source": "simplifyjobs",
+   "company": "Microsoft",
+   "title": "Software Engineer Intern - CoreAI",
+   "location": "Redmond, WA",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:12:02.000Z",
+   "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
    "company": "Palantir",
@@ -6676,6 +6896,16 @@
    "firstSeenAt": "2026-07-22T04:32:58.433Z",
    "closedAt": "2026-08-02T20:17:01.441Z",
    "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/BOSTON-02/Software-Engineer-II--New-College-Grad-2026-_R54895"
+  },
+  {
+   "dedupeKey": "simplifyjobs:015239c6-bc89-4abd-a7a9-97acc270ae0a",
+   "company": "Composio",
+   "title": "Full-stack Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-08-03T12:34:46.349Z",
+   "url": "https://jobs.ashbyhq.com/composio/4d819015-0b9a-466f-9b41-8e1cc1e5b6d9/application?embed=true"
   }
  ]
 }

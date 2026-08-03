@@ -252,12 +252,15 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-291-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-176-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--03-informational)
+![open roles](https://img.shields.io/badge/open%20roles-301-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-63-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--03-informational)
 
-Updated **2026-08-03 08:51 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-03 12:34 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| ByteDance | Research Scientist Intern - Distributed NoSQL Database Systems 🆕 | Seattle, WA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7668371456348326149/detail) |
+| ByteDance | Research Scientist Intern - Distributed NoSQL Database Systems 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7668371003554138421/detail) |
+| Microsoft | Software Engineer Intern - CoreAI 🆕 | Redmond, WA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556951950) |
 | Black Cape | Software Engineer Intern 🆕 | Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA) |
 | Copart | Software Engineer Intern 🆕 | Dallas, TX | Fall 2026 | 100% | 2026-08-02 | 2026-08-03 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353) |
 | Nebo | Back-End Engineer Intern 🆕 | Atlanta, GA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://neboagency.applytojob.com/apply/VhgOaS6Nx3/BackEnd-Engineering-Intern) |
@@ -275,7 +278,4 @@ Updated **2026-08-03 08:51 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | TikTok | Machine Learning Engineer Intern - Search Quality 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7665475460339665157) |
 | TikTok | Machine Learning Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667350291952765237) |
 | TikTok | Machine Learning Engineer Intern - Data Search - Visual Search 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667349591727278341) |
-| TikTok | Backend Software Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667935565120112949) |
-| TikTok | Backend Software Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667934635573692725) |
-| TikTok | Machine Learning Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667346576033777925) |
 <!-- JOB-BOARD:END -->
