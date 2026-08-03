@@ -252,30 +252,30 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-239-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-124-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--03-informational)
+![open roles](https://img.shields.io/badge/open%20roles-291-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-176-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--03-informational)
 
-Updated **2026-08-03 05:08 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-03 08:51 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Yotta Labs | Research Engineer Intern - AI Systems 🆕 | Remote in USA; Remote in Canada | Fall 2026 | 100% | 2026-08-02 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3/application?embed=true) |
-| Altom Transport | Software Development Intern 🆕 | Markham, IL | Fall 2026 | 100% | 2026-06-03 | 2026-08-02 | [**Apply ➜**](https://apply.workable.com/altom-transport/j/8536165C7B/apply) |
-| Altom Transport | Software Development Intern 🆕 | Markham, IL | Fall 2026 | 100% | 2026-05-28 | 2026-08-02 | [**Apply ➜**](https://apply.workable.com/altom-transport/j/1E3C4A9408/apply) |
-| Altom Transport | Software Development Intern 🆕 | Markham, IL | Fall 2026 | 100% | 2026-06-23 | 2026-08-02 | [**Apply ➜**](https://apply.workable.com/altom-transport/j/9FC654F05E/apply) |
-| Ambarella | Software Development Engineer Intern 🆕 | United States | Fall 2026 | 100% | 2026-05-23 | 2026-08-02 | [**Apply ➜**](https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Development-Engineer-Intern_JR100108) |
-| Anthelion Capital | Quant Developer / Quant Research Intern 🆕 | NYC | Fall 2026 | 100% | 2026-07-23 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96/application?embed=true) |
-| Appian | New Grad 2027: Software Engineer 🆕 | McLean, VA | 2027 New Grad | 100% | 2026-07-30 | 2026-08-02 | [**Apply ➜**](https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-) |
-| Argonne National Laboratory | Business Systems Administration Internship 🆕 | Remote in USA; Woodridge, IL | Fall 2026 | 100% | 2026-07-04 | 2026-08-02 | [**Apply ➜**](https://argonne.wd1.myworkdayjobs.com/EDU_PUB/job/Lemont-IL-USA/Business-Systems-Administration-Internship_413528) |
-| Arkema Global | Manufacturing Data Systems Intern 🆕 | Villanova, PA | Fall 2026 | 100% | 2026-07-29 | 2026-08-02 | [**Apply ➜**](https://jobs.arkema.com/job/Radnor-Manufacturing-Data-Systems-Intern-Job-PA/1420491833/?ats=successfactors) |
-| Astranis Space Technologies | Flight Software Intern - Fall 2026 🆕 | San Francisco, CA | Fall 2026 | 100% | 2026-04-30 | 2026-08-02 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4619283006) |
-| Autodesk | Cloud Developer Intern 🆕 | Remote in Canada | Fall 2026 | 100% | 2026-06-18 | 2026-08-02 | [**Apply ➜**](https://autodesk.wd1.myworkdayjobs.com/Ext/job/Quebec-CAN---Remote/Stagiaire-en-Dveloppement-Cloud--Intern-Cloud-Developer_26WD99464-2) |
-| Autodesk | Cloud Developer Intern 🆕 | Remote in Canada | Fall 2026 | 100% | 2026-06-18 | 2026-08-02 | [**Apply ➜**](https://autodesk.wd1.myworkdayjobs.com/uni/job/Quebec-CAN---Remote/Stagiaire-en-Dveloppement-Cloud--Intern-Cloud-Developer_26WD99464-1) |
-| Beacon Software | Software Engineer Intern 🆕 | SF | Fall 2026 | 100% | 2026-07-15 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1/application?embed=true) |
-| Bild AI | AI/Software Engineer Intern 🆕 | SF | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/bild-ai/b333f0f7-0ca6-4509-8697-9303396b5364/application?embed=true) |
-| Bosch Home Comfort | Powertrain Controls Software Engineer Intern 🆕 | Southfield, MI | Fall 2026 | 100% | 2026-07-27 | 2026-08-02 | [**Apply ➜**](https://jobs.smartrecruiters.com/BoschGroup/744000140089589) |
-| Bosch Home Comfort | ADAS Software Engineer Intern 🆕 | Plymouth, MI | Fall 2026 | 100% | 2026-07-28 | 2026-08-02 | [**Apply ➜**](https://jobs.smartrecruiters.com/BoschGroup/744000140317669) |
-| Chevron Corporation | Software Engineer Intern - Information Technology - Software Engineer 🆕 | Houston, TX | Fall 2026 | 100% | 2026-07-16 | 2026-08-02 | [**Apply ➜**](https://chevron.wd5.myworkdayjobs.com/University/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1) |
-| Citadel Securities | Software Engineer Intern 🆕 | Miami, FL; NYC | Fall 2026 | 100% | 2026-07-06 | 2026-08-02 | [**Apply ➜**](https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/) |
-| Cloudflare | Systems Engineer – Data Residency Intern - Global Resource Management 🆕 | Austin, TX | Fall 2026 | 100% | 2026-07-01 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8015230) |
-| Composio | Full-stack Intern 🆕 | SF | Fall 2026 | 100% | 2026-07-17 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/composio/4d819015-0b9a-466f-9b41-8e1cc1e5b6d9/application?embed=true) |
+| Black Cape | Software Engineer Intern 🆕 | Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA) |
+| Copart | Software Engineer Intern 🆕 | Dallas, TX | Fall 2026 | 100% | 2026-08-02 | 2026-08-03 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353) |
+| Nebo | Back-End Engineer Intern 🆕 | Atlanta, GA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://neboagency.applytojob.com/apply/VhgOaS6Nx3/BackEnd-Engineering-Intern) |
+| Nebo | Front-End Engineer Intern 🆕 | Atlanta, GA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://neboagency.applytojob.com/apply/TtGKnP4ODV/FrontEnd-Engineering-Intern) |
+| Prospect Equities | Backend / Frontend Developer Intern 🆕 | Chicago, IL | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://prospectequities.applytojob.com/apply/XTbzSAcNtg/Backend-Frontend-Developer-Intern) |
+| Stellar Science | Scientific Software Developer Intern Co-op 🆕 | Albuquerque, NM | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://stellarscience.applytojob.com/apply/my4AC4VXHI/Scientific-Software-Developer-Paid-CoopInternship) |
+| TikTok | Machine Learning Engineer Intern - Recommendation 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7662653087863081221) |
+| TikTok | Software Engineer Intern - Creative Intelligence and Brand Innovation 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668642761473902901) |
+| TikTok | Machine Learning Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667338938890930437) |
+| TikTok | Software Engineer Intern - Trust and Safety Engineering 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7662684280234232117) |
+| TikTok | Machine Learning Engineer Intern - Data Search Search Quality 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7665475888805611781) |
+| TikTok | Software Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668581636242016565) |
+| TikTok | Machine Learning Engineer Intern - Trust and Safety 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7662672554084059445) |
+| TikTok | Software Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7662700594251958581) |
+| TikTok | Machine Learning Engineer Intern - Search Quality 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7665475460339665157) |
+| TikTok | Machine Learning Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667350291952765237) |
+| TikTok | Machine Learning Engineer Intern - Data Search - Visual Search 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667349591727278341) |
+| TikTok | Backend Software Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667935565120112949) |
+| TikTok | Backend Software Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667934635573692725) |
+| TikTok | Machine Learning Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667346576033777925) |
 <!-- JOB-BOARD:END -->
