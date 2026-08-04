@@ -7,16 +7,23 @@
 # SHAs against board/feed-heads.json and exits in seconds when nothing
 # changed.
 #
-# Separately, the `priority` job checks companies the dashboard's Priority
-# companies panel added (career/priority-companies.md, app-managed) —
-# Amazon plus whatever you've added — every 30 minutes, direct API calls
-# with no upstream repo to gate on. There is no push notification from any
-# of these companies ("tell us when a job opens") — polling on a schedule
-# is the only way to know, the same as every other source in this project.
-# What IS gated: an EMPTY priority list means this job doesn't run at all —
-# no CI minutes spent, no Amazon call, nothing — until you add a company.
-# The moment you add one, it starts running every 30 min and an immediate
-# scan fires right away; removing the last one stops it again.
+# Separately, the `priority` job checks companies from TWO lists — Amazon
+# plus career/priority-companies.md (app-managed, the dashboard's Priority
+# companies panel) plus every company on career/preferences.md's own
+# "Summer 2027 approved companies" list that has a real adapter (~70 as of
+# this writing) — every 30 minutes, direct API calls with no upstream repo
+# to gate on. There is no push notification from any of these companies
+# ("tell us when a job opens") — polling on a schedule is the only way to
+# know, the same as every other source in this project. What IS gated: if
+# BOTH lists are empty, this job doesn't run at all — no CI minutes spent,
+# nothing — but in practice the approved-companies list alone almost always
+# keeps it non-empty. See board/watch-scan-settings.json (committed by the
+# dashboard) for the on/off toggle and interval this job also respects.
+#
+# career/preferences.md is edited by hand, not through a dashboard form —
+# every local watch-scan tick (POST /api/scrape/watch, while the dashboard
+# is open) checks it for uncommitted changes and pushes them automatically,
+# which is also what gets a hand-edit here within one tick interval.
 #
 # Notifications are intentionally sparse either way: a ⭐ big-tech issue only
 # when new big-tech/FAANG/unicorn intern or new-grad roles appear, posted
@@ -33,7 +40,7 @@ on:
     - cron: "7,37 * * * *" # poll twice hourly; real work only on upstream commits
   push:
     branches: [main]
-    paths: ["career/watchlist.md", "career/priority-companies.md"]
+    paths: ["career/watchlist.md", "career/priority-companies.md", "career/preferences.md"]
 
 permissions:
   contents: write
@@ -57,12 +64,13 @@ jobs:
           sparse-checkout: |
             board
             career
-      - name: Check priority-companies list
+      - name: Check priority-companies + approved-companies lists
         id: priority
         run: |
-          n=$(sed -n '/^## Priority/,$p' career/priority-companies.md 2>/dev/null | grep -c '^- ' || true)
-          echo "Priority companies: $n"
-          echo "has_priority=$([ "$n" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+          n1=$(sed -n '/^## Priority/,$p' career/priority-companies.md 2>/dev/null | grep -c '^- ' || true)
+          n2=$(sed -n '/^## Summer 2027 approved companies/,/^## /p' career/preferences.md 2>/dev/null | grep -c '^- ' || true)
+          echo "Priority companies: $n1, approved companies: $n2"
+          echo "has_priority=$([ "$n1" -gt 0 ] || [ "$n2" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
       - name: Compare upstream feed HEADs
         id: check
         env:
@@ -156,11 +164,12 @@ jobs:
             --label big-tech \
             --body-file /tmp/bigtech-body.md
 
-  # Ungated: no upstream repo to compare a commit SHA against, so this just
-  # runs every scheduled tick. Scoped to Amazon + career/priority-companies.md
-  # (see board-cli.ts --priority), so it's a handful of cheap direct API
-  # calls rather than a full sweep — sequenced after `watch` (not parallel)
-  # so the two jobs never race pushing to board/.
+  # No upstream repo to compare a commit SHA against, so this just runs
+  # every scheduled tick (subject to the settings check below). Scoped to
+  # Amazon + career/priority-companies.md + career/preferences.md's
+  # approved-companies list (see board-cli.ts --priority) — direct API
+  # calls per company, not a full sweep — sequenced after `watch` (not
+  # parallel) so the two jobs never race pushing to board/.
   priority:
     needs: [gate, watch]
     if: always() && needs.gate.outputs.has_priority == 'true'

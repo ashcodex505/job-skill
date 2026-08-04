@@ -129,17 +129,20 @@ async function main() {
     console.log(`Watch mode: ${watches.length} watches → scraping ${companies.length} supported companies + community feeds`);
   }
   if (priorityMode) {
-    // Fast lane, every ~30 min: Amazon always, plus whatever the dashboard's
-    // Priority companies panel added. No feed here — the gated feed-watch
-    // job already covers that on its own schedule. One cheap call per
-    // company, so this stays fine to run often.
+    // Fast lane, every ~30 min: Amazon always, plus career/priority-companies.md
+    // (manually hand-picked drops), plus every company on career/preferences.md's
+    // Summer 2027 approved-companies list that has a real adapter — so that
+    // list alone is enough to get fast-lane coverage, no separate priority
+    // list required. No feed here — the gated feed-watch job already covers
+    // that on its own schedule.
     const extra = loadPriorityCompanies();
-    const wanted = new Set(["amazon", ...extra.map((c) => c.toLowerCase())]);
+    const approved = loadCareerConfig().summer2027ApprovedCompanies;
+    const wanted = new Set(["amazon", ...extra.map((c) => c.toLowerCase()), ...approved.map((c) => c.toLowerCase())]);
     for (const portal of COMPANY_PORTALS) {
       if (portal.ats !== "unsupported" && wanted.has(portal.name.toLowerCase())) companies.push(portal.name);
     }
     linkcheck = false;
-    console.log(`Priority mode: scraping ${companies.length} companies (Amazon + ${extra.length} added)`);
+    console.log(`Priority mode: scraping ${companies.length} companies (Amazon + ${extra.length} added + ${approved.length} approved-company list)`);
   }
   // Partial runs skip the link check — it would probe companies we didn't scrape.
   if (!watchMode && !priorityMode && !discoverMode && companies.length > 0) linkcheck = false;
