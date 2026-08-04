@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**338 open roles** across **118 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-04 18:16 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**334 open roles** across **115 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-04 19:01 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (35)
@@ -44,7 +44,7 @@ Last updated: **2026-08-04 18:16 UTC** · auto-refreshed every 12h by [job-board
 | Microsoft | Software Engineer Intern - Cloud & Distributed Backend 🆕 | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922923) |
 | TikTok | Research Engineer Intern - Agentic Systems & AI Infrastructure - Generalized Architecture 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667934792727906565) |
 
-## 🛠️ Internships (211)
+## 🛠️ Internships (207)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -155,16 +155,12 @@ Last updated: **2026-08-04 18:16 UTC** · auto-refreshed every 12h by [job-board
 | Heliux | Software Engineer - Internship - Spring 2027 | San Francisco, CA | Spring 2027 | 100% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/heliux/c71c0650-b6f7-491f-b291-6b280f58ee9c) |
 | Heliux | Software Engineer Intern | SF | Spring 2027 | 100% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/heliux/c71c0650-b6f7-491f-b291-6b280f58ee9c/application?embed=true) |
 | Junior AI | Software Engineer Intern | NYC | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/junior/23ee686b-d305-4ac9-860d-16c99ddb4891/application?embed=true) |
-| Keysight Technologies | R&D Software Engineer Intern | Santa Clara, CA; Calabasas, CA | Fall 2026 | 100% | 2026-07-27 | 2026-08-02 | [**Apply ➜**](https://jobs.keysight.com/jobs/53652?icims=1) |
 | Markem-Imaje | Software Engineer Intern | Keene, NH | Fall 2026 | 100% | 2026-06-24 | 2026-08-02 | [**Apply ➜**](https://careers.dovercorporation.com/job/Keene-Software-Engineer-Intern-NH-03431/1404722033) |
 | Medpace, Inc. | AI Engineer Intern | Cincinnati, OH | Fall 2026 | 100% | 2026-05-14 | 2026-08-02 | [**Apply ➜**](https://careers.medpace.com/jobs/12729?lang=en-us&icims=1) |
 | Medpace, Inc. | Software Development Co-op | Cincinnati, OH | Fall 2026 | 100% | 2026-05-19 | 2026-08-02 | [**Apply ➜**](https://careers.medpace.com/jobs/12766?lang=en-us&icims=1) |
 | Melius | Software Engineer Intern | NYC | Fall 2026 | 100% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf/application?embed=true) |
 | Melius | Software Engineer Intern | NYC | Spring 2027 | 100% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280/application?embed=true) |
 | Mobius Renewables | Software Engineer Intern | Houston, TX | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://ats.rippling.com/greengas/jobs/b2938290-cc66-4f54-9888-bbe286c1d9b6) |
-| Muru | Mobile Software Engineer Intern | New York, NY | Fall 2026 | 100% | 2026-06-23 | 2026-08-02 | [**Apply ➜**](https://www.murumed.com/job-listings/software-engineer-intern) |
-| Muru | Full-Stack Software Engineer Intern | New York, NY | Fall 2026 | 100% | 2026-06-23 | 2026-08-02 | [**Apply ➜**](https://www.murumed.com/job-listings/web-software-engineer-intern) |
-| Obsidian Solutions Group | Unity 3D Developer Intern | Fredericksburg, VA | Fall 2026 | 100% | 2026-07-17 | 2026-08-02 | [**Apply ➜**](https://recruiting.paylocity.com/Recruiting/Jobs/Details/4341435) |
 | Persona AI | Teleoperation Software Engineering Internship | Houston, TX; Pensacola, FL | Fall 2026 | 100% | 2026-07-13 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/persona.ai/6078fafd-ba34-4c89-b260-7eb15be3cb9c/application) |
 | Phonely | Software Engineer Intern - Multiple Teams | SF | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/phonely/c83696cb-ca3a-4a9d-9e87-bfcf4f79fef5/application?embed=true) |
 | Postman | AI Engineer Intern | Berkeley, CA | Fall 2026 | 100% | 2026-08-01 | 2026-08-02 | [**Apply ➜**](https://job-boards.greenhouse.io/postman/jobs/7823417003) |
@@ -392,12 +388,16 @@ Last updated: **2026-08-04 18:16 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
 
-## 🚪 Recently closed (last 7 days) (28)
+## 🚪 Recently closed (last 7 days) (31)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Keysight Technologies | R&D Software Engineer Intern | Fall 2026 | 2026-08-04 |
+| Muru | Mobile Software Engineer Intern | Fall 2026 | 2026-08-04 |
+| Muru | Full-Stack Software Engineer Intern | Fall 2026 | 2026-08-04 |
+| Obsidian Solutions Group | Unity 3D Developer Intern | Fall 2026 | 2026-08-04 |
 | Tesla | Fullstack Engineer Intern - Fullstack Engineer - Build Infrastructure | Fall 2026 | 2026-08-04 |
 | Amazon | 2026 Software Dev Engineer Intern - Haifa, Israel | 2026 | 2026-08-04 |
 | Sigma Computing | Software Engineer - New Grad Program | — | 2026-08-04 |
@@ -425,7 +425,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | NVIDIA | AI and ML Infra Software Engineer New Grad - GPU Clusters | — | 2026-07-29 |
 | NVIDIA | Deep Learning Software Engineer New Grad - Inference | — | 2026-07-28 |
 | NVIDIA | Software Engineer New Grad - Physical Design Infrastructure | — | 2026-07-28 |
-| WhatNot | Software Engineer New Grad | — | 2026-07-28 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
