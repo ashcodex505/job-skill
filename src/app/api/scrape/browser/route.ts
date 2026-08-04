@@ -1,11 +1,13 @@
 import fs from "node:fs";
 import path from "node:path";
 import { migrate } from "drizzle-orm/libsql/migrator";
+import { z } from "zod";
 import { db } from "@/db";
 import { handler, ok } from "@/lib/api";
 import { parseBrowserCompanies } from "@/lib/career/browser-companies";
 import { loadCareerConfig } from "@/lib/career/config";
 import { notifyNewBrowserJobs } from "@/scraper/browser-alert";
+import { loadBrowserScanSettings, saveBrowserScanSettings } from "@/scraper/browser-scan-settings";
 import { scrapeBrowserCompanies } from "@/scraper/browser-scrape";
 import { dedupeJobs, normalizeJob, type NormalizedJob } from "@/scraper/normalize";
 import { upsertNormalizedJobs } from "@/scraper/run";
@@ -18,12 +20,12 @@ import { upsertNormalizedJobs } from "@/scraper/run";
  * GitHub Actions never runs `next dev`/`next start` for this repo. It only
  * ever executes while you have the dashboard open on your own machine.
  *
- * Long throttle (default 30 min) relative to the existing local watch-scan
+ * Throttle is user-configurable (default 30 min, see
+ * browser-scan-settings.ts) relative to the existing local watch-scan
  * (~10 min) — each company here costs a full headless-Chromium page render
  * (seconds), not a JSON fetch (milliseconds), so polling it as aggressively
- * would be both slow and impolite to the target sites.
+ * as the default would be both slow and impolite to the target sites.
  */
-const THROTTLE_MS = 30 * 60 * 1000;
 const g = globalThis as unknown as { __rtLastBrowserScan?: number; __rtBrowserScanRunning?: boolean };
 
 function readCompaniesFile(): string {
@@ -34,11 +36,25 @@ function readCompaniesFile(): string {
   }
 }
 
+function settingsResponse(settings: ReturnType<typeof loadBrowserScanSettings>) {
+  return { ...settings, lastRunAt: g.__rtLastBrowserScan ? new Date(g.__rtLastBrowserScan).toISOString() : null };
+}
+
+export const GET = handler(async () => ok(settingsResponse(loadBrowserScanSettings())));
+
+const settingsInput = z.object({ intervalMinutes: z.number() });
+
+export const PUT = handler(async (req: Request) => {
+  const { intervalMinutes } = settingsInput.parse(await req.json());
+  return ok(settingsResponse(saveBrowserScanSettings({ intervalMinutes })));
+});
+
 export const POST = handler(async () => {
   const companies = parseBrowserCompanies(readCompaniesFile());
   if (companies.length === 0) return ok({ ran: false, reason: "no browser-scan companies configured" });
   if (g.__rtBrowserScanRunning) return ok({ ran: false, reason: "scan already running" });
-  if (g.__rtLastBrowserScan && Date.now() - g.__rtLastBrowserScan < THROTTLE_MS) {
+  const { intervalMinutes } = loadBrowserScanSettings();
+  if (g.__rtLastBrowserScan && Date.now() - g.__rtLastBrowserScan < intervalMinutes * 60_000) {
     return ok({ ran: false, reason: "throttled" });
   }
 

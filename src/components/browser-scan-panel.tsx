@@ -2,10 +2,18 @@
 
 import { AlertTriangle, AppWindow, Plus, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { Badge, Button, Card, Input } from "@/components/ui";
+import { Badge, Button, Card, Input, Select } from "@/components/ui";
 import { api } from "@/lib/client";
 
-const POLL_MS = 30 * 60 * 1000; // matches the API route's own throttle
+// Options for the interval dropdown — server-side clamps to [5, 1440] min
+// regardless (see browser-scan-settings.ts), this is just what's offered.
+const INTERVAL_OPTIONS = [
+  { label: "Every 15 min", minutes: 15 },
+  { label: "Every 30 min", minutes: 30 },
+  { label: "Every hour", minutes: 60 },
+  { label: "Every 2 hours", minutes: 120 },
+  { label: "Every 4 hours", minutes: 240 },
+];
 
 interface BrowserCompanyEntry {
   name: string;
@@ -16,6 +24,11 @@ interface BrowserState {
   companies: BrowserCompanyEntry[];
   dirty: boolean;
   syncError?: string | null;
+}
+
+interface ScanSettings {
+  intervalMinutes: number;
+  lastRunAt: string | null;
 }
 
 /**
@@ -31,6 +44,7 @@ interface BrowserState {
  */
 export function BrowserScanPanel() {
   const [state, setState] = useState<BrowserState | null>(null);
+  const [settings, setSettings] = useState<ScanSettings | null>(null);
   const [name, setName] = useState("");
   const [careersUrl, setCareersUrl] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -41,11 +55,31 @@ export function BrowserScanPanel() {
   }, []);
 
   useEffect(() => {
+    api<ScanSettings>("/api/scrape/browser").then(setSettings).catch((e) => setError(e.message));
+  }, []);
+
+  // Re-arms the poll timer whenever the configured interval changes —
+  // including the moment it's first loaded from the server, so this never
+  // races the hardcoded default it used to have. Deliberately keyed only on
+  // intervalMinutes, not the whole settings object (e.g. a lastRunAt update
+  // from this very effect's own tick() must never restart its own timer).
+  const intervalMinutes = settings?.intervalMinutes;
+  useEffect(() => {
+    if (!intervalMinutes) return;
     const tick = () => api("/api/scrape/browser", { method: "POST" }).catch(() => {});
     tick();
-    const timer = setInterval(tick, POLL_MS);
+    const timer = setInterval(tick, intervalMinutes * 60_000);
     return () => clearInterval(timer);
-  }, []);
+  }, [intervalMinutes]);
+
+  async function changeInterval(minutes: number) {
+    setError(null);
+    try {
+      setSettings(await api<ScanSettings>("/api/scrape/browser", { method: "PUT", body: JSON.stringify({ intervalMinutes: minutes }) }));
+    } catch (e) {
+      setError((e as Error).message);
+    }
+  }
 
   async function add() {
     if (!name.trim() || !careersUrl.trim()) return;
@@ -75,14 +109,34 @@ export function BrowserScanPanel() {
 
   return (
     <Card className="p-4">
-      <div className="mb-2 flex items-center justify-between">
+      <div className="mb-2 flex items-center justify-between gap-2">
         <h2 className="flex items-center gap-2 text-sm font-semibold">
           <AppWindow size={15} className="text-accent" /> Browser scan
           <span className="text-xs font-normal text-muted">
             local-only, this machine, only while this dashboard is open — never in CI
           </span>
         </h2>
+        {settings ? (
+          <Select
+            className="w-36 shrink-0 text-xs"
+            value={settings.intervalMinutes}
+            onChange={(e) => changeInterval(Number(e.target.value))}
+            aria-label="Browser scan check frequency"
+          >
+            {INTERVAL_OPTIONS.map((o) => (
+              <option key={o.minutes} value={o.minutes}>
+                {o.label}
+              </option>
+            ))}
+          </Select>
+        ) : null}
       </div>
+
+      {settings ? (
+        <p className="mb-2 text-xs text-muted">
+          {settings.lastRunAt ? `Last checked ${new Date(settings.lastRunAt).toLocaleString()}` : "Not run yet this session."}
+        </p>
+      ) : null}
 
       {state.syncError ? (
         <p className="mb-2 flex items-center gap-1.5 rounded-md border border-amber-300 bg-amber-50 p-2 text-xs text-amber-700 dark:bg-amber-950/30">

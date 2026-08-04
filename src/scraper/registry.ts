@@ -22,15 +22,24 @@
  * HashiCorp — each individually probed against every adapter type above,
  * not assumed). We never bypass those; they're listed with a careers link
  * for manual checking and are natural future adapters if that ever changes.
- * Four of them (Google, Apple, Meta, Microsoft) are instead covered by the
- * local-only headless-browser scan — see career/browser-companies.md and
- * docs/browser-scraping.md. Microsoft in particular: its careers site
- * migrated to apply.careers.microsoft.com, an Eightfold-hosted instance
- * (confirmed via x-ef-* response headers) — but its /api/apply/v2/jobs
- * endpoint returns "Not authorized for PCSX" to a plain HTTP request even
- * with the exact query shape our own Eightfold adapter uses for Netflix, a
- * deliberate session/CSRF gate we don't attempt to bypass. It's browser-scan
- * only, not a real Eightfold adapter, despite the underlying platform match.
+ * Seven of them (Google, Apple, Meta, Microsoft, Snowflake, Two Sigma,
+ * TikTok) are instead covered by the local-only headless-browser scan — see
+ * career/browser-companies.md and docs/browser-scraping.md. Also tried and
+ * confirmed NOT to work that way: LinkedIn (public/unauthenticated job
+ * search only renders SEO category pages, not real postings — genuine
+ * listings are gated behind login), Jane Street and Citadel (both render
+ * only navigation/category links, not individual postings, even against a
+ * filtered URL — the real listing loads via an interaction this repo
+ * doesn't automate), Uber (a real search input exists but typing into it
+ * doesn't filter the rendered list), and Tesla ("Access Denied" even via a
+ * full browser session — Akamai holds here). Microsoft in particular: its
+ * careers site migrated to apply.careers.microsoft.com, an Eightfold-hosted
+ * instance (confirmed via x-ef-* response headers) — but its
+ * /api/apply/v2/jobs endpoint returns "Not authorized for PCSX" to a plain
+ * HTTP request even with the exact query shape our own Eightfold adapter
+ * uses for Netflix, a deliberate session/CSRF gate we don't attempt to
+ * bypass. It's browser-scan only, not a real Eightfold adapter, despite the
+ * underlying platform match.
  *
  * A wrong slug only produces a per-company error in scraper_runs — the run
  * itself continues.
@@ -199,7 +208,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Microsoft", website: "https://microsoft.com", careersUrl: "https://apply.careers.microsoft.com/careers?domain=microsoft.com", ats: "unsupported" },
   { name: "Uber", website: "https://uber.com", careersUrl: "https://uber.com/us/en/careers/teams/university/", ats: "unsupported" },
   { name: "LinkedIn", website: "https://linkedin.com", careersUrl: "https://careers.linkedin.com/students", ats: "unsupported" },
-  { name: "Snowflake", website: "https://snowflake.com", careersUrl: "https://careers.snowflake.com/us/en/university-recruiting", ats: "unsupported" },
+  { name: "Snowflake", website: "https://snowflake.com", careersUrl: "https://careers.snowflake.com/us/en/search-results", ats: "unsupported" },
   { name: "Tesla", website: "https://tesla.com", careersUrl: "https://tesla.com/careers/search/?type=3", ats: "unsupported" },
   { name: "Jane Street", website: "https://janestreet.com", careersUrl: "https://janestreet.com/join-jane-street/open-roles/", ats: "unsupported" },
   { name: "Two Sigma", website: "https://twosigma.com", careersUrl: "https://careers.twosigma.com/careers", ats: "unsupported" },

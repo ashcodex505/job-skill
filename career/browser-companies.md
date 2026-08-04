@@ -16,3 +16,6 @@ never part of any GitHub Actions workflow. Managed from the dashboard.
 - Meta — https://www.metacareers.com/jobs?q=intern
 - Google — https://www.google.com/about/careers/applications/jobs/results/?q=%22software%20engineer%20intern%22
 - Apple — https://jobs.apple.com/en-us/search — search: software engineering internship
+- Snowflake — https://careers.snowflake.com/us/en/search-results?keywords=software%20engineer%20intern
+- Two Sigma — https://careers.twosigma.com/careers?query=intern
+- TikTok — https://lifeattiktok.com/search?keyword=software%20engineer%20intern

@@ -183,6 +183,29 @@ search-driven sites is inherently a moving target as each company's live
 postings change; today's queries are a verified starting point, not a
 permanent answer.
 
+## Round three: Snowflake, Two Sigma, TikTok, and five that didn't work (2026-08-04)
+
+Went through every remaining `ats: "unsupported"` registry.ts entry not yet
+tried. Confirmed live, header check first (cheap, no browser) then a real
+headless render (the only check that actually settles it — TikTok's Akamai
+header looked like the worst tier, and it turned out to be the *best*
+result of this whole round):
+
+| Company | Result |
+|---|---|
+| **TikTok** | Works excellently. `?keyword=software%20engineer%20intern` on `lifeattiktok.com/search` returns real, precisely on-topic postings — titles even state their own season ("Software Engineer Intern (TikTok-Ads Interface) - 2027 Summer"), so no `seasonHint` override is needed here, unlike Microsoft. Confirmed despite Akamai in the header check — a reminder that a WAF fingerprint on a plain `curl` request doesn't predict how a real browser session fares. |
+| **Snowflake** | Works, real postings found — but the registry.ts `careersUrl` was stale (404s), corrected to `careers.snowflake.com/us/en/search-results`. Today's top results skew EMEA (Berlin), not US — the mechanism works, current listings just aren't a heavy US-intern crop this week. |
+| **Two Sigma** | Works — real `careers.twosigma.com/careers/JobDetail/...` postings render — but `?query=intern` doesn't reliably surface an intern-*titled* posting near the top today; same "infrastructure works, current query is thin" caveat as Meta/Google. |
+| Uber | A real "Search by skill" input exists and gets found/filled by the `searchQuery` mechanism, but typing into it doesn't actually filter the rendered list — the same static default results show regardless of query. Not added. |
+| LinkedIn | The *public*, unauthenticated job search only ever renders SEO category pages (`/jobs/software-engineer-intern-jobs`) — real individual postings are gated behind login. One early request happened to show real `/jobs/view/...` postings (likely cache/session variance), but it didn't reproduce on repeat requests. Not reliable enough to add. |
+| Jane Street, Citadel | Both render real navigation and category links (e.g. Citadel's "Internships" filter link) but never the actual individual job postings themselves, even navigating straight to a pre-filtered URL — the real listing loads via some interaction this repo doesn't automate. Not added. |
+| Tesla | `"Access Denied"` — Akamai holds here even with a full browser session, unlike TikTok. Confirmed, not a guess. |
+
+Net: of 8 candidates, 3 work (TikTok very well, Snowflake/Two Sigma
+real-but-thin like Meta/Google), 5 don't with the current generic/interaction
+mechanisms. Consistent with this doc's whole thesis: a WAF header is a
+starting hypothesis, never a verdict — verify live, every time.
+
 ## Ranking of "unsupported" companies by apparent protection strength
 
 Checked live via response headers (WAF/CDN fingerprints) before picking
@@ -192,13 +215,16 @@ targets — weakest signal first, i.e. best odds of actually working:
 |---|---|
 | HashiCorp, Applied Intuition | `server: Vercel` — not a bot-management product by itself |
 | Microsoft | no CDN/WAF header at all — and confirmed live: works well via browser-scan (see round two above) |
-| Grammarly, Snowflake | CloudFront |
-| Bloomberg | AWS ELB |
+| Grammarly, Snowflake | CloudFront — Snowflake confirmed live: works via browser-scan (see round three above) |
+| Bloomberg | AWS ELB — confirmed live: works well |
 | Meta, Apple | No hard block encountered — confirmed live: both work via browser-scan (Apple needed the `searchQuery` interaction step, Meta works with a plain URL query) |
 | Google | No hard block encountered, but a **non-anchor, JS-framework-driven** result structure (own dedicated extractor built for it, see above) — a different kind of difficulty than WAF strength |
-| Uber | **Cloudflare** confirmed |
-| Tesla, TikTok | **Akamai** confirmed — one of the most sophisticated anti-bot products that exists |
-| LinkedIn | Confirmed AWS ALB + session-cookie tracking — not yet attempted |
+| Two Sigma, Jane Street | No CDN/WAF header — but a strong header signal isn't the whole story: Two Sigma works (thin results today), Jane Street's real listings never render even though the page itself loads fine |
+| Uber | **Cloudflare** confirmed — but not what blocked it in practice; the real blocker was its search input not actually filtering results |
+| Citadel | **Cloudflare, active challenge mode** confirmed via `curl` (`cf-mitigated: challenge`, 403) — yet a real browser session gets past the challenge and loads the page fine; its real postings still don't render through this repo's mechanism, for an unrelated reason (see round three) |
+| TikTok | **Akamai** confirmed — and yet the *best* result of round three. Don't skip a candidate on header signal alone. |
+| Tesla | **Akamai** confirmed — and here it does hold: `"Access Denied"` even via a full browser session. |
+| LinkedIn | Confirmed AWS ALB + session-cookie tracking — tried live: public/unauthenticated search only renders SEO category pages, real postings gated behind login |
 
 ## How to add a company
 
@@ -218,9 +244,17 @@ a known ATS domain — if you find one, that company belongs in
 
 ## Operational notes
 
-- **Cadence:** the dashboard panel polls every 30 minutes while open (vs. the
-  existing watchlist panel's ~10 min) — a headless page render costs real
-  seconds, not milliseconds, so this is deliberately slower.
+- **Cadence, configurable from the dashboard.** The "Browser scan" panel has
+  a dropdown (15 min / 30 min / 1h / 2h / 4h, default 30 min) that sets both
+  the panel's own poll timer and the server-side throttle in
+  `POST /api/scrape/browser` — they read the same persisted value
+  (`board/browser-scan-settings.json`, via `browser-scan-settings.ts`), so
+  there's no way for the two to drift out of sync. Compare the existing
+  watchlist panel's fixed ~10 min — this one is user-adjustable because a
+  headless page render costs real seconds per company, not milliseconds, so
+  the right cadence depends on how many companies are configured and how
+  patient you want to be. Values are clamped server-side to [5 min, 24h]
+  regardless of what's requested.
 - **Sequential, not concurrent**, unlike the JSON adapters' 5-lane pool — each
   company here is a full browser context + page render, a much heavier unit
   of work, and running several at once on a machine you're also using is a
