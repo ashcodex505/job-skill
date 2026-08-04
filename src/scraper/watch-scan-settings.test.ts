@@ -22,4 +22,8 @@ describe("clampIntervalMinutes", () => {
   it("falls back to the default for non-finite input", () => {
     expect(clampIntervalMinutes(NaN)).toBe(10);
   });
+
+  it("falls back to a supplied fallback instead of the default when given one", () => {
+    expect(clampIntervalMinutes(NaN, 45)).toBe(45);
+  });
 });

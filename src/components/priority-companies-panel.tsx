@@ -13,7 +13,10 @@ interface PriorityState {
 }
 
 interface ScanSettings {
+  enabled: boolean;
   intervalMinutes: number;
+  ciIntervalMinutes: number;
+  lastCiRunAt: string | null;
   lastRunAt: string | null;
 }
 
@@ -48,13 +51,14 @@ export function PriorityCompaniesPanel() {
   }, []);
 
   const intervalMinutes = settings?.intervalMinutes;
+  const enabled = settings?.enabled;
   useEffect(() => {
-    if (!intervalMinutes) return;
+    if (!intervalMinutes || !enabled) return;
     const tick = () => api("/api/scrape/watch", { method: "POST" }).catch(() => {});
     tick();
     const timer = setInterval(tick, intervalMinutes * 60_000);
     return () => clearInterval(timer);
-  }, [intervalMinutes]);
+  }, [intervalMinutes, enabled]);
 
   async function add() {
     if (!company.trim()) return;
@@ -87,7 +91,9 @@ export function PriorityCompaniesPanel() {
         <h2 className="flex items-center gap-2 text-sm font-semibold">
           <Zap size={15} className="text-accent" /> Priority companies
           <span className="text-xs font-normal text-muted">
-            every ~30 min via CI, plus live while this dashboard is open (cadence set in the Watchlist panel above) — same filters apply
+            {settings && !settings.enabled
+              ? "scanning off — toggle it back on in the Watchlist panel above"
+              : "every ~30 min via CI, plus live while this dashboard is open (on/off + cadence set in the Watchlist panel above) — same filters apply"}
           </span>
         </h2>
       </div>

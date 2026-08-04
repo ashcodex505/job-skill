@@ -1,3 +1,6 @@
 {
- "intervalMinutes": 10
+ "enabled": true,
+ "intervalMinutes": 10,
+ "ciIntervalMinutes": 30,
+ "lastCiRunAt": null
 }
