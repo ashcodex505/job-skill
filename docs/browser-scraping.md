@@ -279,3 +279,41 @@ a known ATS domain — if you find one, that company belongs in
   labeled `browser-scan`. Confirmed live: issue
   [#103](https://github.com/ashcodex505/job-skill/issues/103) — the exact
   Microsoft postings this whole feature was diagnosed from.
+
+## Two real bugs found from live usage (2026-08-04)
+
+- **The US-only hard filter was silently inert for almost every
+  browser-scanned company.** `isUsRemoteOrHybridLocation()` only ever
+  checked `raw.location` — but the generic extractor always sets
+  `location: null` (it has no structured location field; location text is
+  glued into the title instead, e.g. "Software Engineer Intern - Berlin
+  (2026)"). So the filter defaulted to "allow" for Microsoft, Meta, Apple,
+  Snowflake, Two Sigma, and TikTok — only Google (which has a real
+  structured location from its dedicated extractor) was ever actually
+  filtered. Confirmed live: a real Snowflake posting based in Berlin passed
+  straight through. Fixed in `normalize.ts` — browser-sourced jobs now check
+  the title text too, where the location actually is.
+- **No freshness signal at all, so month-old postings counted as "new" the
+  first time any company was scanned.** Checked all 8 companies' rendered
+  pages for a real posted-date signal — only Microsoft has one ("Posted 3
+  hours ago", part of the same glued anchor text). `parseRelativePostedAt()`
+  extracts it (and `stripPostedPhrase()` removes it from the display title
+  afterward, since it's both redundant once parsed and literal text that
+  changes on every single scan). A dedicated `isFreshEnough()` cutoff (3
+  days, `BROWSER_SCAN_MAX_AGE_MS`) drops anything older — but **only where
+  age is actually known**. For the other 6 companies, with no date signal
+  at all, postedAt stays null and they pass through unfiltered by age, same
+  as before — the alternative (excluding anything of unknown age) would
+  have reduced them to zero results, since none of them expose a date at
+  all. This is a browser-scan-specific cutoff, deliberately separate from
+  the board-wide `maxPostingAgeDays` opt-in gate in `career/preferences.md`,
+  which has the opposite default philosophy (never penalize missing data)
+  and applies to the whole board, not just this one source.
+
+Investigated but ruled out as the actual cause of felt "notification spam":
+the alert ledger itself. Tested directly — scraping the same Microsoft
+postings twice in a row produces identical dedupe keys and URLs both times,
+and `canonicalUrl()` already strips query params before the ledger compares
+anything. The volume was much more likely explained by the two bugs above:
+international postings the US filter should have blocked, and old postings
+with no freshness cutoff, both counting as "new" on a company's first scan.

@@ -214,6 +214,31 @@ describe("normalize + dedupe", () => {
     ).toBeNull();
   });
 
+  it("checks the title for a non-US location on browser-sourced jobs, which have no structured location field", () => {
+    // Regression: a real Snowflake posting ("Software Engineer Intern - Berlin
+    // (2026)") passed straight through the US-only hard filter because
+    // raw.location is always null for the generic browser extractor — the
+    // location text is glued into the title instead.
+    expect(
+      normalizeJob(
+        raw({ source: "browser", title: "Software Engineer Intern - Berlin (2026)", location: null }),
+        undefined,
+        REF,
+      ),
+    ).toBeNull();
+    expect(
+      normalizeJob(
+        raw({ source: "browser", title: "Software Engineer Intern United States, Washington, Redmond", location: null }),
+        undefined,
+        REF,
+      ),
+    ).not.toBeNull();
+    // Non-browser sources are unaffected — location: null still defaults to "allow" for them.
+    expect(
+      normalizeJob(raw({ source: "greenhouse", title: "Software Engineer Intern - Berlin (2026)", location: null }), undefined, REF),
+    ).not.toBeNull();
+  });
+
   it("matches common approved-company name variants without arbitrary substrings", () => {
     expect(isApprovedCompany("Meta Platforms, Inc.", ["Meta"])).toBe(true);
     expect(isApprovedCompany("Stripe, Inc.", ["Stripe"])).toBe(true);

@@ -8,7 +8,7 @@ import { parseBrowserCompanies } from "@/lib/career/browser-companies";
 import { loadCareerConfig } from "@/lib/career/config";
 import { notifyNewBrowserJobs } from "@/scraper/browser-alert";
 import { loadBrowserScanSettings, saveBrowserScanSettings } from "@/scraper/browser-scan-settings";
-import { scrapeBrowserCompanies } from "@/scraper/browser-scrape";
+import { isFreshEnough, scrapeBrowserCompanies } from "@/scraper/browser-scrape";
 import { dedupeJobs, normalizeJob, type NormalizedJob } from "@/scraper/normalize";
 import { upsertNormalizedJobs } from "@/scraper/run";
 
@@ -64,7 +64,11 @@ export const POST = handler(async () => {
     const careerConfig = loadCareerConfig();
     const result = await scrapeBrowserCompanies(companies);
     const normalized = result.jobs.map((job) => normalizeJob(job, careerConfig)).filter((j): j is NormalizedJob => j !== null);
-    const deduped = dedupeJobs(normalized);
+    // Freshness cutoff: only enforced where a real posted date is known
+    // (currently Microsoft only — see parseRelativePostedAt). A posting
+    // with no verifiable age passes through unchanged, same as before.
+    const fresh = normalized.filter((j) => isFreshEnough(j.postedAt));
+    const deduped = dedupeJobs(fresh);
     // No registry.ts entry exists for these companies (that's the whole
     // reason they're here) — no companyId FK to resolve, unlike the main
     // scrape path. The company NAME is still recorded on every row.

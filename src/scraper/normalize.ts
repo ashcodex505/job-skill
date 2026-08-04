@@ -164,10 +164,17 @@ export function makeDedupeKey(job: RawJob): string {
 export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new Date()): NormalizedJob | null {
   const title = raw.title.trim().replace(/\s+/g, " ");
   if (!title) return null;
-  const { relevant, roleType, season, score, breakdown } = classifyTitle(title, raw.location, config, ref, raw.seasonHint);
+  // browser-sourced jobs (source: "browser") have no structured location
+  // field — the generic DOM extractor glues it into the title text instead
+  // ("Software Engineer Intern United States, Washington, Redmond") — so
+  // the US-only hard filter below must check the title for these, or it's
+  // silently inert for every browser-scanned company (confirmed live: a
+  // Berlin posting passed straight through with raw.location === null).
+  const locationSignal = raw.location ?? (raw.source === "browser" ? title : null);
+  const { relevant, roleType, season, score, breakdown } = classifyTitle(title, locationSignal, config, ref, raw.seasonHint);
   if (!relevant) return null;
   // Hard location policy: US, remote, or hybrid only — not a scoring signal.
-  if (!isUsRemoteOrHybridLocation(raw.location)) return null;
+  if (!isUsRemoteOrHybridLocation(locationSignal)) return null;
   if (config && !passesCareerPolicy({ company: raw.company, title }, { relevant, roleType, season, score, breakdown }, config)) {
     return null;
   }

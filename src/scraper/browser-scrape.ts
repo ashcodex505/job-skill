@@ -128,6 +128,41 @@ async function readDom(page: Page): Promise<RawListing> {
   });
 }
 
+// Confirmed live: only Microsoft's Eightfold-hosted listing exposes a
+// posted-date signal on the search results page, glued into the anchor
+// text via the same innerText concatenation as everything else ("...Posted
+// 3 hours ago"). Every other browser-scanned company (Meta, Google, Apple,
+// Snowflake, Two Sigma, TikTok) has no date information there at all —
+// confirmed by searching their rendered page text for any "posted/updated
+// ... ago" phrase and finding none. postedAt stays null for those, same as
+// before; the freshness filter this feeds (see isFreshEnough) explicitly
+// treats an unknown age as "can't verify, don't penalize."
+const RELATIVE_POSTED_RE = /\bposted\s+(a|an|\d+)\s*(hour|day|week|month|year)s?\s+ago\b/i;
+const POSTED_TODAY_RE = /\bposted\s+today\b/i;
+const MS_PER_UNIT: Record<string, number> = {
+  hour: 3_600_000,
+  day: 86_400_000,
+  week: 7 * 86_400_000,
+  month: 30 * 86_400_000, // approximate — fine for a freshness cutoff, not billing
+  year: 365 * 86_400_000,
+};
+
+/** Parses a "Posted X ago" / "Posted today" phrase into an ISO date. Returns null when the text has no such phrase. Pure — exported for tests. */
+export function parseRelativePostedAt(text: string, now: Date = new Date()): string | null {
+  if (POSTED_TODAY_RE.test(text)) return now.toISOString();
+  const m = text.match(RELATIVE_POSTED_RE);
+  if (!m) return null;
+  const amount = /^an?$/i.test(m[1]) ? 1 : parseInt(m[1], 10);
+  const msPerUnit = MS_PER_UNIT[m[2].toLowerCase()];
+  if (!Number.isFinite(amount) || !msPerUnit) return null;
+  return new Date(now.getTime() - amount * msPerUnit).toISOString();
+}
+
+/** Strips a trailing "Posted X ago" phrase for a cleaner display title once the date's been extracted into postedAt. Pure — exported for tests. */
+export function stripPostedPhrase(text: string): string {
+  return text.replace(/\s*\bposted\s+(?:today|(?:a|an|\d+)\s*(?:hour|day|week|month|year)s?\s+ago)\b.*$/i, "").trim();
+}
+
 function normalizeListingAnchors(anchors: ListingAnchor[], baseUrl: string, max: number): { title: string; url: string }[] {
   const jobs: { title: string; url: string }[] = [];
   const seen = new Set<string>();
@@ -241,17 +276,26 @@ export async function scrapeCompanyListing(browser: Browser, company: BrowserCom
     const blockReason = detectBlock(dom, jobs.length);
     if (blockReason) throw new BlockedError(finalUrl, blockReason);
 
-    return jobs.map((j) => ({
-      source: "browser",
-      sourceId: null, // URL is the dedup key, same as recruitee/pinpoint/breezy
-      company: company.name,
-      title: j.title,
-      location: null, // generic DOM extraction has no reliable structured location field
-      url: j.url,
-      postedAt: null, // no reliable date signal from a generic listing page
-      description: null,
-      seasonHint: company.seasonHint ?? null,
-    }));
+    return jobs.map((j) => {
+      const postedAt = parseRelativePostedAt(j.title);
+      return {
+        source: "browser",
+        sourceId: null, // URL is the dedup key, same as recruitee/pinpoint/breezy
+        company: company.name,
+        // Strip the "Posted X ago" phrase once its date is extracted — it's
+        // now redundant text, and it's also literal text that changes on
+        // every scan ("3 hours ago" → "4 hours ago"), which would otherwise
+        // pollute the title shown in the dashboard/GitHub issue each time.
+        // Never strips the location text right next to it — the US-only
+        // filter in normalize.ts depends on that still being here.
+        title: postedAt ? stripPostedPhrase(j.title) : j.title,
+        location: null, // generic DOM extraction has no reliable structured location field
+        url: j.url,
+        postedAt, // null for every company except Microsoft — see the comment above parseRelativePostedAt
+        description: null,
+        seasonHint: company.seasonHint ?? null,
+      };
+    });
   } finally {
     await context.close();
   }
@@ -338,6 +382,22 @@ function isGoogleCareersUrl(url: string): boolean {
   } catch {
     return false;
   }
+}
+
+/** Freshness cutoff for browser-scanned postings — deliberately scoped to this source only, not the board-wide maxPostingAgeDays gate. */
+export const BROWSER_SCAN_MAX_AGE_MS = 3 * 24 * 60 * 60 * 1000;
+
+/**
+ * True if `postedAt` is unknown (can't verify age, so don't penalize — the
+ * only companies with a real postedAt today are ones using
+ * parseRelativePostedAt, i.e. Microsoft) or within BROWSER_SCAN_MAX_AGE_MS.
+ * Pure — exported for tests.
+ */
+export function isFreshEnough(postedAt: string | null, now: number = Date.now()): boolean {
+  if (!postedAt) return true;
+  const postedMs = new Date(postedAt).getTime();
+  if (!Number.isFinite(postedMs)) return true;
+  return now - postedMs <= BROWSER_SCAN_MAX_AGE_MS;
 }
 
 export interface BrowserScrapeResult {
