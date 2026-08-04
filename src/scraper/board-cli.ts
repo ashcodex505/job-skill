@@ -118,15 +118,26 @@ async function main() {
     console.log("Discover mode: scanning a rotating slice of the public ATS company directory");
   }
   if (watchMode) {
-    // Lightweight hourly mode: only watchlisted supported companies + the
-    // community feeds (SimplifyJobs, speedyapply, vansh — which cover
-    // unsupported companies like Google).
-    const watched = new Set(watches.map((w) => w.company.toLowerCase()));
+    // Fires whenever a community feed repo gets a new commit (see
+    // watch.yml's gate job) — scrapes watchlisted companies +
+    // career/priority-companies.md + career/preferences.md's Summer 2027
+    // approved-companies list (same three sources --priority mode reads),
+    // plus the community feeds (SimplifyJobs, speedyapply, vansh — which
+    // cover unsupported companies like Google).
+    const extraCompanies = loadPriorityCompanies();
+    const approvedCompanies = loadCareerConfig().summer2027ApprovedCompanies;
+    const watched = new Set([
+      ...watches.map((w) => w.company.toLowerCase()),
+      ...extraCompanies.map((c) => c.toLowerCase()),
+      ...approvedCompanies.map((c) => c.toLowerCase()),
+    ]);
     for (const portal of COMPANY_PORTALS) {
       if (portal.ats !== "unsupported" && watched.has(portal.name.toLowerCase())) companies.push(portal.name);
     }
     linkcheck = false;
-    console.log(`Watch mode: ${watches.length} watches → scraping ${companies.length} supported companies + community feeds`);
+    console.log(
+      `Watch mode: ${watches.length} watches + ${extraCompanies.length} priority + ${approvedCompanies.length} approved → scraping ${companies.length} supported companies + community feeds`,
+    );
   }
   if (priorityMode) {
     // Fast lane, every ~30 min: Amazon always, plus career/priority-companies.md
