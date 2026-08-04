@@ -74,30 +74,53 @@ developer-infrastructure businesses, and small high-signal technology startups.
 Edit this section whenever a newly identified company meets that bar.
 
 - Adobe
+- Affirm
 - Airbnb
+- Airtable
 - Amazon
 - Anduril
 - Anthropic
 - Apple
+- Applied Intuition
 - Asana
 - Atlassian
+- Autodesk
+- Block
+- Bloomberg
+- Booking.com
 - Brex
+- Canva
+- Character.AI
+- Cisco
 - Citadel
 - Cloudflare
+- Coinbase
 - Confluent
 - Cursor
 - Databricks
 - Datadog
+- Dell
 - Discord
 - DoorDash
 - Dropbox
 - Duolingo
+- eBay
 - ElevenLabs
+- Epic Games
+- Expedia
 - Figma
+- Gemini
+- GitLab
 - Google
+- Grammarly
+- HashiCorp
+- HP
 - Hudson River Trading
 - Hugging Face
+- IBM
 - Instacart
+- Intel
+- Intuit
 - Jane Street
 - Jump Trading
 - Linear
@@ -105,26 +128,36 @@ Edit this section whenever a newly identified company meets that bar.
 - Lyft
 - Meta
 - Microsoft
+- Mistral AI
 - MongoDB
 - Netflix
 - Notion
 - NVIDIA
+- Okta
 - OpenAI
+- Oracle
 - Palantir
+- PayPal
 - Perplexity
 - Pinterest
 - Plaid
+- Qualcomm
 - Ramp
 - Reddit
+- Replit
 - Rippling
 - Robinhood
 - Roblox
 - Salesforce
 - Samsara
+- SAP
 - Scale AI
+- ServiceNow
 - Shopify
+- Snap
 - Snowflake
 - SpaceX
+- Splunk
 - Spotify
 - Stripe
 - Supabase
@@ -134,27 +167,15 @@ Edit this section whenever a newly identified company meets that bar.
 - Uber
 - Vercel
 - Verkada
+- VMware
 - Waymo
-- Coinbase
-- Snap
-- Zoox
-- Applied Intuition
-- Bloomberg
-- Block
-- Affirm
-- Canva
-- Airtable
-- Grammarly
-- Replit
-- HashiCorp
-- GitLab
-- Okta
-- ServiceNow
-- Epic Games
-- Character.AI
-- xAI
-- Mistral AI
 - Wiz
+- Workday
+- X (Twitter)
+- xAI
+- Yahoo
+- Zoom
+- Zoox
 
 ## Max posting age (days)
 
