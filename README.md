@@ -252,30 +252,30 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-327-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-27-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--04-informational)
+![open roles](https://img.shields.io/badge/open%20roles-342-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-42-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--04-informational)
 
-Updated **2026-08-04 09:25 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-04 11:46 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| TikTok | Machine Learning Engineer Intern - Performance Monetization 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669693163422845237) |
+| TikTok | Research Engineer Intern - Agentic Systems & AI Infrastructure - Tiktok-Generalized Arch 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667935568626043141) |
+| TikTok | Machine Learning Engineer Intern - Commerce Ads - Summer 2027 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669711968043092229) |
+| TikTok | Machine Learning Engineer Intern - Search Ads 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669698648817305909) |
+| TikTok | Machine Learning Engineer Intern - Brand Ads 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668654528822954245) |
+| TikTok | Machine Learning Engineer Intern - Performance Monetization 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669693205558561077) |
+| TikTok | Backend Software Engineer Intern - LIVE Foundation Governance Engineering 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667935150530840837) |
+| TikTok | Machine Learning Engineer Intern - App Ads and Gaming 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669709472078170373) |
+| TikTok | Machine Learning Engineer Intern - Data Search Recommendation Global E-Commerce 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668383643375257909) |
+| TikTok | Frontend Engineer Intern - Global CRM 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669711026846058757) |
+| TikTok | Software Engineer Intern - Transaction Platform 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669943120351906053) |
+| TikTok | Software Engineer Intern - Intelligent Creation-Camera 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668862422178318597) |
+| TikTok | Software Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669712589169117445) |
+| TikTok | Research Engineer Intern - Agentic Systems & AI Infrastructure - Generalized Architecture 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667934792727906565) |
 | Microsoft | Software Engineer: AI/ML & LLM Intern 🆕 | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922929) |
 | Microsoft | Software Engineer Intern - Data Platform & Analytics 🆕 | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922931) |
 | Microsoft | Software Engineer Security & Identity Intern 🆕 | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922930) |
 | Microsoft | Full-Stack Product Engineer Intern - Web + Services 🆕 | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922922) |
 | Microsoft | Software Engineer Intern - Cloud & Distributed Backend 🆕 | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922923) |
 | TikTok | Machine Learning Engineer Intern - Data Search Local Service 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668381860191734021) |
-| TikTok | Software Engineer Intern - Global CRM 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669711844487399685) |
-| TikTok | Machine Learning Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668379675467761925) |
-| TikTok | Software Engineer Intern - Effects Performance 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668725183121000757) |
-| TikTok | Backend Software Engineer Intern - Product Infrastructure 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667935633764370741) |
-| TikTok | Backend Software Engineer Intern - Global E-Commerce 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668834837268138293) |
-| TikTok | Machine Learning Engineer Intern - Commercial AI-CRM and Transaction 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669702702763018501) |
-| TikTok | Software Engineer Intern - Ads Interface 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669705785962727733) |
-| TikTok | Machine Learning Engineer Intern - Ads Signal & Measurement 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669700361976809733) |
-| TikTok | Software Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668921505254410549) |
-| TikTok | Backend Software Engineer Intern - Global E-Commerce 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668834837268416821) |
-| Microchip Technology | Engineering Intern - Software Development 🆕 | Houston, TX | Fall 2026 | 100% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Software-Development-_R3371-26) |
-| Bosch Home Comfort | Artificial Intelligence and Software Development Engineering Intern 🆕 | Plymouth, MI | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://jobs.smartrecruiters.com/BoschGroup/744000141302469) |
-| Incident IQ | Software Engineer Intern 🆕 | Alpharetta, GA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://job-boards.greenhouse.io/incidentiq/jobs/7824038003) |
-| Intel | AI Software Engineer Intern 🆕 | Remote in USA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989) |
 <!-- JOB-BOARD:END -->

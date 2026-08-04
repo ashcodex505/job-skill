@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-04T09:25:09.748Z",
+ "updatedAt": "2026-08-04T11:46:06.252Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -3922,6 +3922,28 @@
    "firstSeenAt": "2026-08-04T07:59:11.829Z"
   },
   {
+   "dedupeKey": "simplifyjobs:026bd529-ffe1-45ee-8845-df907c700cdc",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer New Grad - Performance Monetization",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669691374918011141",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:09.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:ea8ff237-6cb5-424b-917e-9ce08abf23a1",
    "source": "simplifyjobs",
    "company": "Medpace, Inc.",
@@ -7288,6 +7310,314 @@
    },
    "postedAt": "2026-08-04T06:20:15.000Z",
    "firstSeenAt": "2026-08-04T07:59:11.829Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:708992c3-129c-4bbd-9c10-a0ae59f29fd2",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern - Performance Monetization",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669693163422845237",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:06.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a355430e-bb97-47ee-9229-434cec3e3a6c",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Research Engineer Intern - Agentic Systems & AI Infrastructure - Tiktok-Generalized Arch",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667935568626043141",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:13.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:6c0be2d1-eac9-429a-b900-df719577d679",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern - Commerce Ads - Summer 2027",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669711968043092229",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:12.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:fb88f1c3-967a-419b-8ac4-535d941480ac",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern - Search Ads",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669698648817305909",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:07.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:6dabe551-58cb-4dd5-9ba4-5656067dd84a",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern - Brand Ads",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668654528822954245",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:09.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f3e5daf4-604e-43d1-9fbc-8dc1c33b4ec5",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern - Performance Monetization",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669693205558561077",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:08.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:6454b1b2-6daf-4a13-9e9f-47209a333d39",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Backend Software Engineer Intern - LIVE Foundation Governance Engineering",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667935150530840837",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:12.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b11dddb4-7bc4-4864-8ee8-ab5d5bb12c9a",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern - App Ads and Gaming",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669709472078170373",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:08.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b6428bbb-bf53-4e9c-8121-3217159bb9b6",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern - Data Search Recommendation Global E-Commerce",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7668383643375257909",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:11.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b05ba4c5-016d-48b3-888c-f09fa7f253ad",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Frontend Engineer Intern - Global CRM",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669711026846058757",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:12.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:5182ae3f-a0b7-4e07-80fd-25a69767ee5d",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - Transaction Platform",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669943120351906053",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:06.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:dde435d3-0494-49e6-bba7-811e7131b9be",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - Intelligent Creation-Camera",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668862422178318597",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:07.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:722bb14f-670f-48c9-8320-e07db2eff930",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Software Engineer Intern",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669712589169117445",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T09:20:09.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ac3e3883-21b0-4ad1-8011-bf5060c01aab",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Research Engineer Intern - Agentic Systems & AI Infrastructure - Generalized Architecture",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7667934792727906565",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T06:15:03.000Z",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
   }
  ],
  "closed": [
