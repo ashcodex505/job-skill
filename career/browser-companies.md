@@ -12,3 +12,7 @@ never part of any GitHub Actions workflow. Managed from the dashboard.
 ## Browser scan
 
 - Bloomberg — https://bloomberg.avature.net/en_US/careers/SearchJobs
+- Microsoft — https://apply.careers.microsoft.com/careers?domain=microsoft.com&query=software%20engineer%20intern — season: Fall 2026
+- Meta — https://www.metacareers.com/jobs?q=intern
+- Google — https://www.google.com/about/careers/applications/jobs/results/?q=%22software%20engineer%20intern%22
+- Apple — https://jobs.apple.com/en-us/search — search: software engineering internship

@@ -22,6 +22,15 @@
  * HashiCorp — each individually probed against every adapter type above,
  * not assumed). We never bypass those; they're listed with a careers link
  * for manual checking and are natural future adapters if that ever changes.
+ * Four of them (Google, Apple, Meta, Microsoft) are instead covered by the
+ * local-only headless-browser scan — see career/browser-companies.md and
+ * docs/browser-scraping.md. Microsoft in particular: its careers site
+ * migrated to apply.careers.microsoft.com, an Eightfold-hosted instance
+ * (confirmed via x-ef-* response headers) — but its /api/apply/v2/jobs
+ * endpoint returns "Not authorized for PCSX" to a plain HTTP request even
+ * with the exact query shape our own Eightfold adapter uses for Netflix, a
+ * deliberate session/CSRF gate we don't attempt to bypass. It's browser-scan
+ * only, not a real Eightfold adapter, despite the underlying platform match.
  *
  * A wrong slug only produces a per-company error in scraper_runs — the run
  * itself continues.
@@ -187,7 +196,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Apple", website: "https://apple.com", careersUrl: "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN", ats: "unsupported" },
   { name: "Google", website: "https://google.com", careersUrl: "https://google.com/about/careers/applications/jobs/results/?target_level=INTERN_AND_APPRENTICE,EARLY", ats: "unsupported" },
   { name: "Meta", website: "https://meta.com", careersUrl: "https://metacareers.com/jobs?is_in_page=0&sub_teams[0]=University%20Grad%20-%20Engineering%2C%20Tech%20%26%20Design", ats: "unsupported" },
-  { name: "Microsoft", website: "https://microsoft.com", careersUrl: "https://careers.microsoft.com/v2/global/en/universityrecruiting", ats: "unsupported" },
+  { name: "Microsoft", website: "https://microsoft.com", careersUrl: "https://apply.careers.microsoft.com/careers?domain=microsoft.com", ats: "unsupported" },
   { name: "Uber", website: "https://uber.com", careersUrl: "https://uber.com/us/en/careers/teams/university/", ats: "unsupported" },
   { name: "LinkedIn", website: "https://linkedin.com", careersUrl: "https://careers.linkedin.com/students", ats: "unsupported" },
   { name: "Snowflake", website: "https://snowflake.com", careersUrl: "https://careers.snowflake.com/us/en/university-recruiting", ats: "unsupported" },

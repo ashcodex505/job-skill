@@ -79,6 +79,16 @@ export class BlockedError extends Error {
 export interface BrowserCompany {
   name: string;
   careersUrl: string;
+  /**
+   * Confirmed live: some search-driven sites (Apple) ignore a query string
+   * on initial page load — the search only fires once a real input is
+   * filled and submitted. When set, scrapeCompanyListing finds the most
+   * plausible search box on the page, types this in, and presses Enter
+   * before reading the DOM.
+   */
+  searchQuery?: string;
+  /** Declared season hint (e.g. "Fall 2026") passed through to RawJob.seasonHint — see BrowserCompanyEntry.seasonHint for why this exists. */
+  seasonHint?: string;
 }
 
 interface ListingAnchor {
@@ -112,7 +122,7 @@ async function readDom(page: Page): Promise<RawListing> {
         if (style.display === "none" || style.visibility === "hidden") return false;
         return el.getClientRects().length > 0;
       })
-      .map((el) => ({ href: el.getAttribute("href") || "", label: (el.textContent || "").trim() }));
+      .map((el) => ({ href: el.getAttribute("href") || "", label: ((el as HTMLElement).innerText || el.textContent || "").trim() }));
 
     return { title, text, anchors };
   });
@@ -159,6 +169,56 @@ async function newHardenedContext(browser: Browser): Promise<BrowserContext> {
   return browser.newContext({ userAgent: DESKTOP_CHROME_UA, locale: "en-US", viewport: { width: 1440, height: 900 } });
 }
 
+/** Search inputs a search-driven career site is unlikely to mean as its main "what role" box. */
+const SEARCH_INPUT_NEGATIVE_RE = /location|team|language|country|city|zip|postal/i;
+const SEARCH_INPUT_POSITIVE_RE = /search|role|keyword|job|position|title/i;
+
+/**
+ * Best-effort: finds the most plausible "search by role/keyword" text input
+ * on the page (scored by placeholder/aria-label/name/id, penalizing known
+ * non-role filters like location/team/language typeaheads), types `query`
+ * into it, and presses Enter. Confirmed live necessary for Apple's careers
+ * site, which — unlike Microsoft's or Meta's — ignores a query string on
+ * initial page load and only searches once a real input is submitted.
+ * Returns false (never throws) if no plausible input is found, so callers
+ * can fall back to reading whatever the page already rendered.
+ */
+async function fillAndSubmitSearch(page: Page, query: string): Promise<boolean> {
+  const marker = "data-rt-search-target";
+  const found = await page.evaluate(
+    ({ marker, positiveSrc, negativeSrc }) => {
+      const positive = new RegExp(positiveSrc, "i");
+      const negative = new RegExp(negativeSrc, "i");
+      const inputs = Array.from(document.querySelectorAll<HTMLInputElement>('input[type="text"], input[type="search"], input:not([type])'));
+      let best: HTMLInputElement | null = null;
+      let bestScore = 0;
+      for (const el of inputs) {
+        const style = window.getComputedStyle(el);
+        if (style.display === "none" || style.visibility === "hidden" || el.getClientRects().length === 0) continue;
+        const hay = `${el.placeholder} ${el.getAttribute("aria-label") ?? ""} ${el.name} ${el.id}`.toLowerCase();
+        let score = 0;
+        if (positive.test(hay)) score += 2;
+        if (negative.test(hay)) score -= 3;
+        if (el.type === "search") score += 1;
+        if (score > bestScore) {
+          bestScore = score;
+          best = el;
+        }
+      }
+      if (!best) return false;
+      best.setAttribute(marker, "1");
+      return true;
+    },
+    { marker, positiveSrc: SEARCH_INPUT_POSITIVE_RE.source, negativeSrc: SEARCH_INPUT_NEGATIVE_RE.source },
+  );
+  if (!found) return false;
+  const locator = page.locator(`[${marker}="1"]`);
+  await locator.fill(query);
+  await locator.press("Enter");
+  await page.waitForLoadState("networkidle", { timeout: NAVIGATE_TIMEOUT_MS }).catch(() => {});
+  return true;
+}
+
 /**
  * Scans one company's careers page for job-like links. Throws BlockedError
  * if the page looks like a challenge/block page rather than a real result —
@@ -170,6 +230,10 @@ export async function scrapeCompanyListing(browser: Browser, company: BrowserCom
     const page = await context.newPage();
     await page.goto(company.careersUrl, { waitUntil: "domcontentloaded", timeout: NAVIGATE_TIMEOUT_MS });
     await page.waitForTimeout(HYDRATION_WAIT_MS); // let client-hydrated SPAs finish rendering
+    if (company.searchQuery) {
+      await fillAndSubmitSearch(page, company.searchQuery);
+      await page.waitForTimeout(HYDRATION_WAIT_MS);
+    }
     const finalUrl = page.url();
     const dom = await readDom(page);
     const jobs = normalizeListingAnchors(dom.anchors, finalUrl, LISTING_MAX);
@@ -186,9 +250,93 @@ export async function scrapeCompanyListing(browser: Browser, company: BrowserCom
       url: j.url,
       postedAt: null, // no reliable date signal from a generic listing page
       description: null,
+      seasonHint: company.seasonHint ?? null,
     }));
   } finally {
     await context.close();
+  }
+}
+
+// ── Google careers — dedicated extractor ────────────────────────────────
+// Confirmed live: Google's search results (careers.google.com) render as
+// li.lLd3Je cards built from its internal Closure/Material JS framework, not
+// real <a href> elements — the generic anchor-based extractor above finds
+// nothing at all here. This is a deliberate, narrowly-scoped exception to
+// this file's "one generic extractor, no per-company selectors" design
+// (same kind of exception adapters.ts already makes for Amazon, which also
+// needed its own non-uniform scraping logic), not a precedent to keep
+// widening — most companies should still go through the generic path.
+
+const GOOGLE_JSDATA_ID_RE = /^[^;]*;(\d+);/;
+
+/** Parses a Google Careers job card's `jsdata` attribute into its canonical job URL. Pure — exported for tests. */
+export function googleJobUrlFromJsData(jsdata: string): string | null {
+  const m = jsdata.match(GOOGLE_JSDATA_ID_RE);
+  if (!m) return null;
+  return `https://www.google.com/about/careers/applications/jobs/results/${m[1]}`;
+}
+
+interface GoogleJobCard {
+  jsdata: string;
+  title: string;
+  location: string;
+}
+
+async function readGoogleCards(page: Page): Promise<GoogleJobCard[]> {
+  return page.evaluate(() =>
+    Array.from(document.querySelectorAll("li.lLd3Je")).map((li) => ({
+      jsdata: li.querySelector("[jsdata]")?.getAttribute("jsdata") ?? "",
+      title: li.querySelector("h3")?.textContent?.trim() ?? "",
+      location: Array.from(li.querySelectorAll(".r0wTof")).map((el) => el.textContent?.trim() ?? "").filter(Boolean).join("; "),
+    })),
+  );
+}
+
+async function scrapeGoogleCareers(browser: Browser, company: BrowserCompany): Promise<RawJob[]> {
+  const context = await newHardenedContext(browser);
+  try {
+    const page = await context.newPage();
+    // Google's job cards load via an XHR after the initial document —
+    // domcontentloaded fires before they exist. networkidle (confirmed live,
+    // ~2-3s here) is what actually waits long enough to see them.
+    await page.goto(company.careersUrl, { waitUntil: "networkidle", timeout: NAVIGATE_TIMEOUT_MS + 5000 }).catch(() => {});
+    await page.waitForTimeout(HYDRATION_WAIT_MS);
+
+    const dom = await readDom(page);
+    const cards = await readGoogleCards(page);
+    const blockReason = detectBlock(dom, cards.length);
+    if (blockReason) throw new BlockedError(page.url(), blockReason);
+
+    const jobs: RawJob[] = [];
+    const seen = new Set<string>();
+    for (const c of cards) {
+      if (!c.title) continue;
+      const url = googleJobUrlFromJsData(c.jsdata);
+      if (!url || seen.has(url)) continue;
+      seen.add(url);
+      jobs.push({
+        source: "browser",
+        sourceId: null,
+        company: company.name,
+        title: c.title,
+        location: c.location || null,
+        url,
+        postedAt: null,
+        description: null,
+        seasonHint: company.seasonHint ?? null,
+      });
+    }
+    return jobs;
+  } finally {
+    await context.close();
+  }
+}
+
+function isGoogleCareersUrl(url: string): boolean {
+  try {
+    return new URL(url).hostname.endsWith("google.com");
+  } catch {
+    return false;
   }
 }
 
@@ -218,7 +366,9 @@ export async function scrapeBrowserCompanies(companies: BrowserCompany[]): Promi
   try {
     for (const company of companies) {
       try {
-        const found = await scrapeCompanyListing(browser, company);
+        const found = isGoogleCareersUrl(company.careersUrl)
+          ? await scrapeGoogleCareers(browser, company)
+          : await scrapeCompanyListing(browser, company);
         jobs.push(...found);
         scanned.push(company.name);
         console.log(`  [browser] ${company.name}: ${found.length} job-like links`);
