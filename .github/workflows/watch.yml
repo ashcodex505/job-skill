@@ -17,8 +17,7 @@
 # know, the same as every other source in this project. What IS gated: if
 # BOTH lists are empty, this job doesn't run at all — no CI minutes spent,
 # nothing — but in practice the approved-companies list alone almost always
-# keeps it non-empty. See board/watch-scan-settings.json (committed by the
-# dashboard) for the on/off toggle and interval this job also respects.
+# keeps it non-empty.
 #
 # career/preferences.md is edited by hand, not through a dashboard form —
 # every local watch-scan tick (POST /api/scrape/watch, while the dashboard
@@ -165,11 +164,11 @@ jobs:
             --body-file /tmp/bigtech-body.md
 
   # No upstream repo to compare a commit SHA against, so this just runs
-  # every scheduled tick (subject to the settings check below). Scoped to
-  # Amazon + career/priority-companies.md + career/preferences.md's
-  # approved-companies list (see board-cli.ts --priority) — direct API
-  # calls per company, not a full sweep — sequenced after `watch` (not
-  # parallel) so the two jobs never race pushing to board/.
+  # every scheduled tick. Scoped to Amazon + career/priority-companies.md +
+  # career/preferences.md's approved-companies list (see board-cli.ts
+  # --priority) — direct API calls per company, not a full sweep —
+  # sequenced after `watch` (not parallel) so the two jobs never race
+  # pushing to board/.
   priority:
     needs: [gate, watch]
     if: always() && needs.gate.outputs.has_priority == 'true'
@@ -181,51 +180,18 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      # Cron still fires every 30 min regardless (schedules are static
-      # YAML, not runtime-configurable) — this just decides whether that
-      # tick does real work or a near-free no-op, based on the dashboard's
-      # own on/off toggle and CI interval (board/watch-scan-settings.json,
-      # committed by POST /api/scrape/watch's PUT handler). A skipped tick
-      # costs a few seconds of an Actions runner, not a scrape.
-      - name: Check watch-scan settings (enabled + CI interval)
-        id: settings
-        run: |
-          node -e '
-            const fs = require("fs");
-            let s = {};
-            try { s = JSON.parse(fs.readFileSync("board/watch-scan-settings.json", "utf8")); } catch {}
-            const enabled = s.enabled !== false;
-            const intervalMin = Number.isFinite(s.ciIntervalMinutes) && s.ciIntervalMinutes > 0 ? s.ciIntervalMinutes : 30;
-            const lastRun = typeof s.lastCiRunAt === "string" ? s.lastCiRunAt : "";
-            let dueNow = true;
-            if (lastRun) {
-              const elapsedMin = (Date.now() - new Date(lastRun).getTime()) / 60000;
-              dueNow = elapsedMin >= intervalMin;
-            }
-            console.log(`run=${enabled && dueNow}`);
-          ' >> "$GITHUB_OUTPUT"
       - run: npm ci
-        if: steps.settings.outputs.run == 'true'
       - name: Priority company scrape
         id: board
-        if: steps.settings.outputs.run == 'true'
         run: npm run board -- --priority --no-linkcheck
         env:
           DATABASE_PATH: /tmp/scrape.db
           BOARD_URGENT_FILE: ${{ runner.temp }}/urgent.md
           BOARD_BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
       - name: Commit board updates
-        if: steps.settings.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          node -e '
-            const fs = require("fs");
-            let s = {};
-            try { s = JSON.parse(fs.readFileSync("board/watch-scan-settings.json", "utf8")); } catch {}
-            s.lastCiRunAt = new Date().toISOString();
-            fs.writeFileSync("board/watch-scan-settings.json", JSON.stringify(s, null, 1) + "\n");
-          '
           git add JOBS.md README.md board/
           if git diff --cached --quiet; then
             echo "No board changes."
@@ -243,7 +209,7 @@ jobs:
             fi
           fi
       - name: Urgent watchlist alert
-        if: steps.settings.outputs.run == 'true' && steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
+        if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
         env:
           GH_TOKEN: ${{ github.token }}
           URGENT_FILE: ${{ runner.temp }}/urgent.md
@@ -256,7 +222,7 @@ jobs:
             --label urgent \
             --body-file /tmp/urgent-body.md
       - name: Big-tech alert
-        if: steps.settings.outputs.run == 'true' && steps.board.outputs.bigtech_count != '' && steps.board.outputs.bigtech_count != '0'
+        if: steps.board.outputs.bigtech_count != '' && steps.board.outputs.bigtech_count != '0'
         env:
           GH_TOKEN: ${{ github.token }}
           BIGTECH_FILE: ${{ runner.temp }}/bigtech.md

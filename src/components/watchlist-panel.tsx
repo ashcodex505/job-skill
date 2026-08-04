@@ -3,22 +3,12 @@
 import { AlertTriangle, BellRing, ExternalLink, Plus, X } from "lucide-react";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
-import { Badge, Button, Card, Input, Select, cn } from "@/components/ui";
+import { Badge, Button, Card, Input, cn } from "@/components/ui";
 import { api, formatDate } from "@/lib/client";
 import { ANY_COMPANY, matchWatches, type Watch } from "@/lib/career/watchlist";
 import type { DiscoveredJob } from "@/lib/app-types";
 
-// Options for the interval dropdown — server-side clamps to [5, 1440] min
-// regardless (see watch-scan-settings.ts), this is just what's offered.
-// Shared with the Priority companies panel, which triggers the same
-// endpoint and silently follows whatever's set here.
-const INTERVAL_OPTIONS = [
-  { label: "Every 5 min", minutes: 5 },
-  { label: "Every 10 min", minutes: 10 },
-  { label: "Every 15 min", minutes: 15 },
-  { label: "Every 30 min", minutes: 30 },
-  { label: "Every hour", minutes: 60 },
-];
+const POLL_MS = 5 * 60 * 1000;
 const CLOCK_TICK_MS = 60_000;
 const URGENT_WINDOW_MS = 24 * 60 * 60 * 1000;
 
@@ -26,26 +16,6 @@ interface WatchlistState {
   watches: Watch[];
   companies: string[];
   dirty: boolean;
-  syncError?: string | null;
-}
-
-// CI's cron still fires every 30 min regardless (schedules are static YAML)
-// — this just controls whether that tick does real work or a near-free
-// no-op. See watch-scan-settings.ts and .github/workflows/watch.yml.
-const CI_INTERVAL_OPTIONS = [
-  { label: "CI: every 30 min", minutes: 30 },
-  { label: "CI: every hour", minutes: 60 },
-  { label: "CI: every 2 hours", minutes: 120 },
-  { label: "CI: every 4 hours", minutes: 240 },
-  { label: "CI: every 12 hours", minutes: 720 },
-];
-
-interface ScanSettings {
-  enabled: boolean;
-  intervalMinutes: number;
-  ciIntervalMinutes: number;
-  lastCiRunAt: string | null;
-  lastRunAt: string | null;
   syncError?: string | null;
 }
 
@@ -62,7 +32,6 @@ interface ScanSettings {
  */
 export function WatchlistPanel() {
   const [state, setState] = useState<WatchlistState | null>(null);
-  const [settings, setSettings] = useState<ScanSettings | null>(null);
   const [jobs, setJobs] = useState<DiscoveredJob[]>([]);
   const [company, setCompany] = useState("");
   const [keywords, setKeywords] = useState("");
@@ -82,51 +51,29 @@ export function WatchlistPanel() {
     loadJobs();
   }, [loadJobs]);
   useEffect(() => {
-    api<ScanSettings>("/api/scrape/watch").then(setSettings).catch((e) => setError(e.message));
-  }, []);
-  useEffect(() => {
     const timer = setInterval(() => setClock(Date.now()), CLOCK_TICK_MS);
     return () => clearInterval(timer);
   }, []);
 
   const hasWatches = (state?.watches.length ?? 0) > 0;
 
-  // Live-scan polling: only while mounted AND watches exist AND the toggle
-  // is on AND the interval setting has loaded. Starts/stops as watches are
-  // added/removed, the toggle flips, or the interval changes — not just on
-  // initial mount. The server also checks `enabled` on its own (POST
-  // returns {ran:false} while off), so this is belt-and-suspenders: turning
-  // the toggle off stops the client from even trying, not just the server
-  // from acting on it.
-  const intervalMinutes = settings?.intervalMinutes;
-  const enabled = settings?.enabled;
+  // Live-scan polling: only while mounted AND watches exist. Starts/stops
+  // as watches are added/removed, not just on initial mount.
   useEffect(() => {
-    if (!hasWatches || !intervalMinutes || !enabled) return;
+    if (!hasWatches) return;
     const tick = () => {
       // Each tick kicks a server-side watch-scan (scrapes watched companies
-      // + the community feeds into the local DB), then re-reads jobs — so
-      // new postings appear while the dashboard sits open, no manual scrape
-      // needed. Cadence is shared with the Priority companies panel — see
-      // watch-scan-settings.ts.
+      // + the community feeds into the local DB; throttled server-side to
+      // ~10 min), then re-reads jobs — so new postings appear while the
+      // dashboard sits open, no manual scrape needed.
       api<{ ran: boolean }>("/api/scrape/watch", { method: "POST" })
         .catch(() => {})
         .finally(loadJobs);
     };
     tick();
-    const timer = setInterval(tick, intervalMinutes * 60_000);
+    const timer = setInterval(tick, POLL_MS);
     return () => clearInterval(timer);
-  }, [hasWatches, intervalMinutes, enabled, loadJobs]);
-
-  async function updateSettings(patch: { enabled?: boolean; intervalMinutes?: number; ciIntervalMinutes?: number }) {
-    setError(null);
-    try {
-      const next = await api<ScanSettings>("/api/scrape/watch", { method: "PUT", body: JSON.stringify(patch) });
-      setSettings(next);
-      if (next.syncError) setError(next.syncError);
-    } catch (e) {
-      setError((e as Error).message);
-    }
-  }
+  }, [hasWatches, loadJobs]);
 
   async function add() {
     setBusy(true);
@@ -163,64 +110,16 @@ export function WatchlistPanel() {
 
   return (
     <Card className="p-4">
-      <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+      <div className="mb-2 flex items-center justify-between">
         <h2 className="flex items-center gap-2 text-sm font-semibold">
           <BellRing size={15} className="text-accent" /> Watchlist
           <span className="text-xs font-normal text-muted">
-            {!settings?.enabled
-              ? "scanning off — both the local ping and CI's priority pass are paused"
-              : hasWatches
-                ? "live-scans while this page is open (also covers Priority companies) · auto-syncs to GitHub"
-                : "add a watch to start scanning — otherwise nothing runs"}
+            {hasWatches
+              ? "live-scans every ~10 min while this page is open (also covers Priority companies), hourly via CI · auto-syncs to GitHub"
+              : "add a watch to start scanning — otherwise nothing runs"}
           </span>
         </h2>
-        {settings ? (
-          <div className="flex flex-wrap items-center gap-1.5">
-            <Button
-              variant={settings.enabled ? "primary" : "secondary"}
-              size="sm"
-              onClick={() => updateSettings({ enabled: !settings.enabled })}
-              title="Turns off both the local live-scan ping and CI's 30-min priority pass — CI just no-ops until turned back on"
-            >
-              {settings.enabled ? "Scanning: On" : "Scanning: Off"}
-            </Button>
-            <Select
-              className="w-32 text-xs"
-              value={settings.intervalMinutes}
-              onChange={(e) => updateSettings({ intervalMinutes: Number(e.target.value) })}
-              aria-label="Local watch-scan check frequency"
-              disabled={!settings.enabled}
-            >
-              {INTERVAL_OPTIONS.map((o) => (
-                <option key={o.minutes} value={o.minutes}>
-                  {o.label}
-                </option>
-              ))}
-            </Select>
-            <Select
-              className="w-36 text-xs"
-              value={settings.ciIntervalMinutes}
-              onChange={(e) => updateSettings({ ciIntervalMinutes: Number(e.target.value) })}
-              aria-label="CI priority-scan check frequency"
-              disabled={!settings.enabled}
-            >
-              {CI_INTERVAL_OPTIONS.map((o) => (
-                <option key={o.minutes} value={o.minutes}>
-                  {o.label}
-                </option>
-              ))}
-            </Select>
-          </div>
-        ) : null}
       </div>
-      {settings ? (
-        <p className="mb-2 text-xs text-muted">
-          CI still ticks every 30 min regardless (GitHub Actions schedules can&apos;t change at runtime) — the interval above just
-          decides whether that tick does a real scan or a near-free no-op. Changes here push to GitHub, so CI won&apos;t see a change
-          until that push lands, and never affects a run already in progress.
-          {settings.lastCiRunAt ? ` Last real CI priority scan: ${new Date(settings.lastCiRunAt).toLocaleString()}.` : ""}
-        </p>
-      ) : null}
 
       {state.syncError ? (
         <p className="mb-2 flex items-center gap-1.5 rounded-md border border-amber-300 bg-amber-50 p-2 text-xs text-amber-700 dark:bg-amber-950/30">

@@ -5,19 +5,13 @@ import { useEffect, useState } from "react";
 import { Badge, Button, Card, Input } from "@/components/ui";
 import { api } from "@/lib/client";
 
+const POLL_MS = 5 * 60 * 1000;
+
 interface PriorityState {
   companies: string[];
   eligibleCompanies: string[];
   dirty: boolean;
   syncError?: string | null;
-}
-
-interface ScanSettings {
-  enabled: boolean;
-  intervalMinutes: number;
-  ciIntervalMinutes: number;
-  lastCiRunAt: string | null;
-  lastRunAt: string | null;
 }
 
 /**
@@ -27,17 +21,18 @@ interface ScanSettings {
  * Amazon is always on the 30-min fast lane and is shown as a fixed badge,
  * not something you add/remove here. Adding a company here doesn't change
  * how it's classified or filtered — same score/policy/big-tech rules as
- * everything else — it only changes how often CI checks it.
+ * everything else — it only changes how often CI checks it. As of this
+ * session, career/preferences.md's Summer 2027 approved-companies list
+ * also feeds the same fast lane — this panel is for companies you want
+ * added WITHOUT putting them through that list's other policy
+ * implications (e.g. gating what counts for the Summer 2027 season).
  *
- * Polls the same local live-scan endpoint the Watchlist panel uses, on the
- * same cadence — that interval is configured from the Watchlist panel's
- * dropdown (see watch-scan-settings.ts), not duplicated here, so the two
- * panels can't drift out of sync. Newly-added priority companies get
- * checked while the dashboard is open too, not just from CI every 30 min.
+ * Polls the same local live-scan endpoint the Watchlist panel uses (server
+ * throttled to ~10 min), so newly-added priority companies get checked
+ * while the dashboard is open too, not just from CI every 30 min.
  */
 export function PriorityCompaniesPanel() {
   const [state, setState] = useState<PriorityState | null>(null);
-  const [settings, setSettings] = useState<ScanSettings | null>(null);
   const [company, setCompany] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
@@ -47,18 +42,11 @@ export function PriorityCompaniesPanel() {
   }, []);
 
   useEffect(() => {
-    api<ScanSettings>("/api/scrape/watch").then(setSettings).catch(() => {});
-  }, []);
-
-  const intervalMinutes = settings?.intervalMinutes;
-  const enabled = settings?.enabled;
-  useEffect(() => {
-    if (!intervalMinutes || !enabled) return;
     const tick = () => api("/api/scrape/watch", { method: "POST" }).catch(() => {});
     tick();
-    const timer = setInterval(tick, intervalMinutes * 60_000);
+    const timer = setInterval(tick, POLL_MS);
     return () => clearInterval(timer);
-  }, [intervalMinutes, enabled]);
+  }, []);
 
   async function add() {
     if (!company.trim()) return;
@@ -90,11 +78,7 @@ export function PriorityCompaniesPanel() {
       <div className="mb-2 flex items-center justify-between">
         <h2 className="flex items-center gap-2 text-sm font-semibold">
           <Zap size={15} className="text-accent" /> Priority companies
-          <span className="text-xs font-normal text-muted">
-            {settings && !settings.enabled
-              ? "scanning off — toggle it back on in the Watchlist panel above"
-              : "every ~30 min via CI, plus live while this dashboard is open (on/off + cadence set in the Watchlist panel above) — same filters apply"}
-          </span>
+          <span className="text-xs font-normal text-muted">checked every ~30 min instead of the default 12h — same filters apply</span>
         </h2>
       </div>
 
