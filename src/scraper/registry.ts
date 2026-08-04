@@ -197,6 +197,20 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
     name: "Workday", website: "https://workday.com", careersUrl: "https://workday.com/en-us/company/careers",
     ats: "workday", workday: { tenant: "workday", host: "workday.wd5.myworkdayjobs.com", site: "Workday" },
   },
+  {
+    name: "Intel", website: "https://intel.com", careersUrl: "https://jobs.intel.com/en/search-jobs",
+    ats: "workday", workday: { tenant: "intel", host: "intel.wd1.myworkdayjobs.com", site: "External" },
+  },
+  {
+    name: "Palo Alto Networks", website: "https://paloaltonetworks.com", careersUrl: "https://jobs.paloaltonetworks.com/en/jobs/",
+    ats: "workday", workday: { tenant: "paloaltonetworks", host: "paloaltonetworks.wd5.myworkdayjobs.com", site: "panwexternalcareers" },
+  },
+
+  // ── Oracle Recruiting Cloud ─────────────────────────────────────────
+  {
+    name: "Oracle", website: "https://oracle.com", careersUrl: "https://careers.oracle.com/en/sites/jobsearch/jobs",
+    ats: "oraclecloud", oraclecloud: { host: "eeho.fa.us2.oraclecloud.com" },
+  },
 
   // ── Amazon (own public search API — see scrapeAmazon in adapters.ts) ──
   { name: "Amazon", website: "https://amazon.com", careersUrl: "https://amazon.jobs/en/teams/internships-for-students", ats: "amazon" },

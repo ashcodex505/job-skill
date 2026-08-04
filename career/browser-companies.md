@@ -19,3 +19,5 @@ never part of any GitHub Actions workflow. Managed from the dashboard.
 - Snowflake — https://careers.snowflake.com/us/en/search-results?keywords=software%20engineer%20intern
 - Two Sigma — https://careers.twosigma.com/careers?query=intern
 - TikTok — https://lifeattiktok.com/search?keyword=software%20engineer%20intern
+- eBay — https://jobs.ebayinc.com/us/en/search-results?keywords=software%20engineer%20intern
+- IBM — https://www.ibm.com/careers/search?q=software%20engineer%20intern

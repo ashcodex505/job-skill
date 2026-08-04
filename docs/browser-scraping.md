@@ -206,6 +206,38 @@ real-but-thin like Meta/Google), 5 don't with the current generic/interaction
 mechanisms. Consistent with this doc's whole thesis: a WAF header is a
 starting hypothesis, never a verdict — verify live, every time.
 
+## Round four: going beyond registry.ts's "unsupported" list (2026-08-04)
+
+Every prior round only ever looked at companies registry.ts had already
+tried and marked `ats: "unsupported"`. This round searched more broadly —
+other real FAANG/big-tech/unicorn companies not in the registry at all.
+Two real, better-than-browser-scan wins turned up along the way: companies
+that looked like browser-scan candidates turned out to run on ATS
+platforms this repo already has real adapters for.
+
+| Company | Result |
+|---|---|
+| **Intel** | Runs on **Workday** — a direct, real adapter (`ats: "workday"`, tenant `intel`, host `intel.wd1.myworkdayjobs.com`), not browser-scan. Confirmed live: 129 real postings via the exact same `scrapeWorkday()` this repo already uses for other companies. |
+| **Palo Alto Networks** | Also Workday (tenant `paloaltonetworks`, host `paloaltonetworks.wd5.myworkdayjobs.com`, site `panwexternalcareers`). 366 real postings. |
+| **Oracle** | Runs on **its own** Oracle Recruiting Cloud product (`eeho.fa.us2.oraclecloud.com`) — the exact `oraclecloud` adapter this repo already has (built with JPMorgan/BNY/Amex in mind, but never actually wired to a real company until now). 2,276 real postings. |
+| **eBay** | No known ATS found — real browser-scan candidate. Generic extractor works: real `jobs.ebayinc.com/us/en/job/{id}/...` postings render as normal anchors. |
+| **IBM** | Also a genuine browser-scan win — `careers.ibm.com` search results render real job cards with title/level/location all in the same glued text the generic extractor already handles. |
+| Salesforce, Adobe, NVIDIA, PayPal | Turned up in this search too, but already had real Workday adapters in registry.ts — a research error on my part first reported them as missing (a broken regex against the registry's multi-line company entries produced false negatives). Verified they're live and already contributing to the board (NVIDIA alone: 8 active postings). |
+| CrowdStrike, Adobe's own search UI, Gemini, Rivian, SoFi, Qualcomm, Splunk | Investigated, not added — either no job cards render through the generic extractor (CrowdStrike, Adobe's browser-facing search specifically, despite its Workday API working), no ATS or clean browser path found (Gemini, SoFi), or the company turned out to already be covered under another name (X's careers page now redirects to xAI, which is already a registry.ts Greenhouse adapter). |
+
+**Honest caveat, same shape as round three's**: all 5 of these new
+additions return real, current, live postings — verified directly, not
+assumed — but as of today none of Intel/Palo Alto Networks/Oracle/eBay/IBM
+have a posting in their current crop that both matches a target role *and*
+states a season or "New Grad" in the title, so today's actual relevant
+count from all five combined is 0. This is the same season-title gap
+documented above (`isFreshEnough`/`seasonHint`), just showing up on real
+direct-API adapters this time, not only browser-scan — Workday's job list
+API has no season/term field to read a hint from the way SimplifyJobs'
+`terms` field provides one. The coverage itself is real and will surface
+results as soon as either of those companies posts something that states
+its own season, same as it always would have for any adapter.
+
 ## Ranking of "unsupported" companies by apparent protection strength
 
 Checked live via response headers (WAF/CDN fingerprints) before picking
