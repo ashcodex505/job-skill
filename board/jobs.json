@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-04T11:46:06.252Z",
+ "updatedAt": "2026-08-04T14:36:37.235Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -484,28 +484,6 @@
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
-   "dedupeKey": "amazon:3147202",
-   "source": "amazon",
-   "company": "Amazon",
-   "title": "2026 Software Dev Engineer Intern - Haifa, Israel",
-   "location": "Haifa, Haifa, ISR",
-   "url": "https://www.amazon.jobs/en/jobs/3147202/2026-software-dev-engineer-intern-haifa-israel",
-   "season": "2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2025-12-22",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
    "source": "ashby",
    "company": "Notion",
@@ -653,6 +631,28 @@
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
+   "dedupeKey": "workday:R160706",
+   "source": "workday",
+   "company": "Adobe",
+   "title": "2026 AI/ML Intern - Machine Learning Engineer/Researcher Intern",
+   "location": "3 Locations",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer-Intern_R160706",
+   "season": "2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": null,
+   "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
    "dedupeKey": "greenhouse:8052785",
    "source": "greenhouse",
    "company": "Cloudflare",
@@ -677,28 +677,6 @@
    },
    "postedAt": "2026-07-15",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "workday:R160706",
-   "source": "workday",
-   "company": "Adobe",
-   "title": "2026 AI/ML Intern - Machine Learning Engineer/Researcher Intern",
-   "location": "3 Locations",
-   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer-Intern_R160706",
-   "season": "2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": null,
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
    "dedupeKey": "greenhouse:8052083",
@@ -994,6 +972,28 @@
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:a0ae9e9b5b8a69fd363e53193a211560e36037d5",
+   "source": "speedyapply",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Applications - Fall 2026",
+   "location": "Irvine, CA +1",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-03",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:3bba168c4e368c5017f6be762a4cef31360ca8d3",
    "source": "speedyapply",
    "company": "Rivian",
@@ -1044,28 +1044,6 @@
    "title": "Software Engineering Intern - Connected Systems - Fall 2026",
    "location": "Irvine, CA +1",
    "url": "https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-03",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:a0ae9e9b5b8a69fd363e53193a211560e36037d5",
-   "source": "speedyapply",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Applications - Fall 2026",
-   "location": "Irvine, CA +1",
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -1722,6 +1700,28 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:6f331e01e8d3a280240a7a2e268d3f831178317f",
+   "source": "speedyapply",
+   "company": "Confido",
+   "title": "New Grad Software Engineer",
+   "location": "New York City, NY",
+   "url": "https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:c2166c608e84be1276e153ef22d88af7bfe089b2",
    "source": "speedyapply",
    "company": "Quora",
@@ -1750,28 +1750,6 @@
    "title": "Software Developer - Early Career -15",
    "location": "Irving, TX",
    "url": "https://bmo.wd3.myworkdayjobs.com/en-US/external/job/Irving-TX-USA/Software-Developer---Early-Career---15_R260021450",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-31",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:6f331e01e8d3a280240a7a2e268d3f831178317f",
-   "source": "speedyapply",
-   "company": "Confido",
-   "title": "New Grad Software Engineer",
-   "location": "New York City, NY",
-   "url": "https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e",
    "season": null,
    "roleType": "new_grad",
    "score": 80,
@@ -1964,12 +1942,12 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:0a254b294fd3fc62c4a616f289dae08537937953",
+   "dedupeKey": "speedyapply:sha1:8674519be6d7160ed3d5c88b9af4a0cfddcde028",
    "source": "speedyapply",
    "company": "IXL Learning",
    "title": "Software Engineer - New Grad",
-   "location": "San Mateo, CA",
-   "url": "https://www.ixl.com/company/jobs?gh_jid=8615710002",
+   "location": "Raleigh-Durham, NC +1",
+   "url": "https://www.ixl.com/company/jobs?gh_jid=8615717002",
    "season": null,
    "roleType": "new_grad",
    "score": 80,
@@ -2071,28 +2049,6 @@
     "skills": 0
    },
    "postedAt": "2026-04-09",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:e672176d5a9389f4f7fd297c4910f2d4b24990eb",
-   "source": "speedyapply",
-   "company": "Sigma Computing",
-   "title": "Software Engineer - New Grad Program",
-   "location": "San Francisco, CA",
-   "url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/7690411003",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-06",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -6850,28 +6806,6 @@
    "firstSeenAt": "2026-08-03T23:42:10.720Z"
   },
   {
-   "dedupeKey": "simplifyjobs:f258c80b-4140-4f8b-a3f4-4c1682682d30",
-   "source": "simplifyjobs",
-   "company": "Bosch Home Comfort",
-   "title": "Artificial Intelligence and Software Development Engineering Intern",
-   "location": "Plymouth, MI",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000141302469",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T22:06:42.000Z",
-   "firstSeenAt": "2026-08-03T23:42:10.720Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:05d6191d-bcef-4557-b17a-783ddb6d4b92",
    "source": "simplifyjobs",
    "company": "Prophet",
@@ -7622,26 +7556,6 @@
  ],
  "closed": [
   {
-   "dedupeKey": "speedyapply:sha1:456a396b017d57e5d6f96090fb757d6be2045763",
-   "company": "Google",
-   "title": "Software Engineering Intern - MS - Summer 2027",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-21T14:18:00.197Z",
-   "closedAt": "2026-07-28T14:30:13.646Z",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/95141459539174086"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:1e300e41afd1e073d803941e250b3f50d37b2566",
-   "company": "Google",
-   "title": "Software Engineering Intern - BS - Summer 2027",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-21T14:18:00.197Z",
-   "closedAt": "2026-07-28T14:30:13.646Z",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126"
-  },
-  {
    "dedupeKey": "simplifyjobs:38cca989-4499-494a-9df9-4b012d5d184a",
    "company": "WhatNot",
    "title": "Software Engineer New Grad",
@@ -7880,6 +7794,36 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z",
    "closedAt": "2026-08-04T07:59:11.829Z",
    "url": "https://www.tesla.com/careers/search/job/269809"
+  },
+  {
+   "dedupeKey": "amazon:3147202",
+   "company": "Amazon",
+   "title": "2026 Software Dev Engineer Intern - Haifa, Israel",
+   "season": "2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-08-04T14:36:37.235Z",
+   "url": "https://www.amazon.jobs/en/jobs/3147202/2026-software-dev-engineer-intern-haifa-israel"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:e672176d5a9389f4f7fd297c4910f2d4b24990eb",
+   "company": "Sigma Computing",
+   "title": "Software Engineer - New Grad Program",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-08-04T14:36:37.235Z",
+   "url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/7690411003"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f258c80b-4140-4f8b-a3f4-4c1682682d30",
+   "company": "Bosch Home Comfort",
+   "title": "Artificial Intelligence and Software Development Engineering Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-03T23:42:10.720Z",
+   "closedAt": "2026-08-04T14:36:37.235Z",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000141302469"
   }
  ]
 }
