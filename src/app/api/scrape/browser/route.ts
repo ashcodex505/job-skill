@@ -5,6 +5,7 @@ import { db } from "@/db";
 import { handler, ok } from "@/lib/api";
 import { parseBrowserCompanies } from "@/lib/career/browser-companies";
 import { loadCareerConfig } from "@/lib/career/config";
+import { notifyNewBrowserJobs } from "@/scraper/browser-alert";
 import { scrapeBrowserCompanies } from "@/scraper/browser-scrape";
 import { dedupeJobs, normalizeJob, type NormalizedJob } from "@/scraper/normalize";
 import { upsertNormalizedJobs } from "@/scraper/run";
@@ -52,6 +53,7 @@ export const POST = handler(async () => {
     // reason they're here) — no companyId FK to resolve, unlike the main
     // scrape path. The company NAME is still recorded on every row.
     const { newJobs } = await upsertNormalizedJobs(deduped, new Map());
+    const notify = await notifyNewBrowserJobs(deduped);
     g.__rtLastBrowserScan = Date.now();
     return ok({
       ran: true,
@@ -59,6 +61,7 @@ export const POST = handler(async () => {
       jobsFound: deduped.length,
       newJobs,
       errors: result.errors,
+      notify,
     });
   } finally {
     g.__rtBrowserScanRunning = false;

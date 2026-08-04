@@ -229,11 +229,19 @@ a known ATS domain — if you find one, that company belongs in
   browser-scraped posting that disappears doesn't currently get marked
   inactive — it just stops being refreshed. Acceptable for a first version;
   worth revisiting if this list grows.
-- **Not wired into GitHub Issue notifications.** Local watch-scan (the
-  existing pattern this borrows from) only ever surfaces new matches in the
-  dashboard UI directly — never fires a `gh issue create`, since CI is the
-  only thing with a `GH_TOKEN` and a reason to post one. Browser-scraped
-  matches follow the same rule: visible next time you look at the dashboard,
-  not a phone notification. Wiring a local `gh issue create` call into
-  `POST /api/scrape/browser` is a reasonable fast-follow if you want it, but
-  wasn't built here without being asked for specifically.
+- **Wired into GitHub Issues (`src/scraper/browser-alert.ts`), local-only.**
+  CI gets a `GH_TOKEN` for free; nothing analogous exists on your machine,
+  so this reads a token via `git credential fill` (same security rule as
+  every other local GitHub API call in this project: read into a variable,
+  used once in the `Authorization` header, never printed/logged/written to
+  a file) and posts directly to the REST API — deliberately not via the
+  `gh` CLI itself, since `gh auth status` on this machine resolves to a
+  different account than the one with push access here, which would make
+  `gh issue create` silently try (and fail) as the wrong account.
+  `board/browser-alerted.json` is a dedicated ledger (separate from
+  `board/alerted.json`, which CI also writes) so a local notification run
+  can never race a CI commit — "never alert twice" holds the same way it
+  does for every other alert stream. One issue per scan with anything new,
+  labeled `browser-scan`. Confirmed live: issue
+  [#103](https://github.com/ashcodex505/job-skill/issues/103) — the exact
+  Microsoft postings this whole feature was diagnosed from.
