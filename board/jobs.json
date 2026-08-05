@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-05T04:22:01.374Z",
+ "updatedAt": "2026-08-05T07:20:49.427Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -2138,28 +2138,6 @@
    },
    "postedAt": "2026-05-12T01:08:45.000Z",
    "firstSeenAt": "2026-08-04T03:30:46.698Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f1e5e8b4-e1b1-4c33-9df4-f6e5cfdbb83d",
-   "source": "simplifyjobs",
-   "company": "Halliburton",
-   "title": "Software Engineer Early Career",
-   "location": "Houston, TX",
-   "url": "https://jobs.halliburton.com/job/Houston-a_-Software-Engineer-Early-Career-Landmark-TX-77032/1392092600/?ats=successfactors",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-19T14:06:08.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "simplifyjobs:3029721d-d2a5-4aba-9f0b-3fca2d03b9f5",
@@ -7578,16 +7556,6 @@
  ],
  "closed": [
   {
-   "dedupeKey": "simplifyjobs:30c3335f-cd91-4d95-a18e-b910683cd5d3",
-   "company": "NVIDIA",
-   "title": "GPU System and Scheduling Architect New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-22T04:32:58.433Z",
-   "closedAt": "2026-07-29T06:17:24.024Z",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-System-and-Scheduling-Architect---New-College-Grad-2026_JR2016691-1"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:8b6bf67ecf008b964336f6f8dbfb8432f9b65c81",
    "company": "TikTok",
    "title": "Software Engineer Project Intern - Model Infrastructure - 2026 Start - BS/MS",
@@ -7826,6 +7794,16 @@
    "firstSeenAt": "2026-07-21T21:23:13.140Z",
    "closedAt": "2026-08-04T23:14:56.107Z",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compiler-Engineer--Infrastructure----New-College-Grad-2026_JR2021228"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f1e5e8b4-e1b1-4c33-9df4-f6e5cfdbb83d",
+   "company": "Halliburton",
+   "title": "Software Engineer Early Career",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-08-05T07:20:49.427Z",
+   "url": "https://jobs.halliburton.com/job/Houston-a_-Software-Engineer-Early-Career-Landmark-TX-77032/1392092600/?ats=successfactors"
   }
  ]
 }

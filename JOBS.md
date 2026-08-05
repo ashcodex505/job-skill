@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**340 open roles** across **119 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-05 04:22 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**339 open roles** across **118 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-05 07:20 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (4)
@@ -232,7 +232,7 @@ Last updated: **2026-08-05 04:22 UTC** · auto-refreshed every 12h by [job-board
 | Adobe | 2026 AI/ML Intern - Machine Learning Engineer/Researcher Intern | 3 Locations | 2026 | 90% | — | 2026-07-26 | [**Apply ➜**](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer-Intern_R160706) |
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 
-## 🎓 New Grad (126)
+## 🎓 New Grad (125)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -302,7 +302,6 @@ Last updated: **2026-08-05 04:22 UTC** · auto-refreshed every 12h by [job-board
 | Cadence Design Systems | Application Software Developer New Grad | Livonia, MI | — | 80% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/LIVONIA-01/Adams-Application-Software-Developer---Recent-Grad-2026-_R55736) |
 | Confido | New Grad Software Engineer | New York City, NY | — | 80% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e) |
 | Faros | Software Engineer - New Grad | San Mateo, CA | — | 80% | 2026-07-09 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066) |
-| Halliburton | Software Engineer Early Career | Houston, TX | — | 80% | 2026-05-19 | 2026-08-02 | [**Apply ➜**](https://jobs.halliburton.com/job/Houston-a_-Software-Engineer-Early-Career-Landmark-TX-77032/1392092600/?ats=successfactors) |
 | Manhattan Associates | Software Engineer - Early Career | Atlanta, GA | — | 80% | 2026-07-30 | 2026-08-02 | [**Apply ➜**](https://manh.wd5.myworkdayjobs.com/en-US/campus/job/Atlanta-GA/Software-Engineer---Early-Career_16977) |
 | NewsBreak | Software Engineer Junior New Grad - ML Infra | Mountain View, CA | — | 80% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://job-boards.greenhouse.io/newsbreak/jobs/4615879006) |
 | NVIDIA | Software R&D Engineer New Grad - VLSI Physical Design | Austin, TX | — | 80% | 2026-06-05 | 2026-08-02 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Software-R-D-Engineer--VLSI-Physical-Design---New-College-Grad-2026_JR2019330) |
@@ -369,6 +368,7 @@ Postings that disappeared from their company's feed — if one of these was on y
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Halliburton | Software Engineer Early Career | — | 2026-08-05 |
 | NVIDIA | Compiler Engineer New Grad - Infrastructure | — | 2026-08-04 |
 | Keysight Technologies | R&D Software Engineer Intern | Fall 2026 | 2026-08-04 |
 | Tesla | Fullstack Engineer Intern - Fullstack Engineer - Build Infrastructure | Fall 2026 | 2026-08-04 |
@@ -393,7 +393,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Aquatic Capital Management | Software Engineer - Early Career | — | 2026-08-02 |
 | Marvell | Systems Application Engineer – Early Career | — | 2026-08-02 |
 | Cadence Design Systems | Software Engineer 2 New Grad | — | 2026-08-02 |
-| NVIDIA | GPU System and Scheduling Architect New Grad | — | 2026-07-29 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
