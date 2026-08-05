@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-05T07:20:49.427Z",
+ "updatedAt": "2026-08-05T07:59:31.206Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -4430,50 +4430,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "simplifyjobs:b7ecf859-e102-435c-ad58-a6bb88c51c60",
-   "source": "simplifyjobs",
-   "company": "Muru",
-   "title": "Mobile Software Engineer Intern",
-   "location": "New York, NY",
-   "url": "https://www.murumed.com/job-listings/software-engineer-intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-23T13:40:34.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:ac9a60d7-eb51-4cbb-af68-97f00839f454",
-   "source": "simplifyjobs",
-   "company": "Muru",
-   "title": "Full-Stack Software Engineer Intern",
-   "location": "New York, NY",
-   "url": "https://www.murumed.com/job-listings/web-software-engineer-intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-23T13:41:56.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:c3281007-1ea1-4d32-80e2-62529613957b",
    "source": "simplifyjobs",
    "company": "Markem-Imaje",
@@ -5791,28 +5747,6 @@
     "skills": 0
    },
    "postedAt": "2026-08-01T22:13:21.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:ee1bc7a8-d82f-4c73-8228-18ce9b38d4b0",
-   "source": "simplifyjobs",
-   "company": "Obsidian Solutions Group",
-   "title": "Unity 3D Developer Intern",
-   "location": "Fredericksburg, VA",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4341435",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-17T20:59:45.000Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -7804,6 +7738,33 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z",
    "closedAt": "2026-08-05T07:20:49.427Z",
    "url": "https://jobs.halliburton.com/job/Houston-a_-Software-Engineer-Early-Career-Landmark-TX-77032/1392092600/?ats=successfactors"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b7ecf859-e102-435c-ad58-a6bb88c51c60",
+   "company": "Muru",
+   "title": "Mobile Software Engineer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-08-05T07:59:31.206Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ac9a60d7-eb51-4cbb-af68-97f00839f454",
+   "company": "Muru",
+   "title": "Full-Stack Software Engineer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-08-05T07:59:31.206Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ee1bc7a8-d82f-4c73-8228-18ce9b38d4b0",
+   "company": "Obsidian Solutions Group",
+   "title": "Unity 3D Developer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-08-05T07:59:31.206Z"
   }
  ]
 }
