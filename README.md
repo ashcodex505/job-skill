@@ -252,12 +252,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-342-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-11-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--05-informational)
+![open roles](https://img.shields.io/badge/open%20roles-344-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-13-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--05-informational)
 
-Updated **2026-08-05 14:59 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-05 16:49 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Roblox | [2027] Software Engineer, Early Career 🆕 | San Mateo, CA, United States | 2027 New Grad | 100% (3 skills) | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8072244?gh_jid=8072244) |
+| Roblox | [Summer 2027] Software Engineer Intern 🆕 | San Mateo, CA, United States | Summer 2027 | 100% (3 skills) | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) |
 | DensityAI | Technical Intern- Software - Fall 2026 🆕 | Mountain View, CA | Fall 2026 | 100% | 2026-08-04 | 2026-08-05 | [**Apply ➜**](https://job-boards.greenhouse.io/densityai/jobs/4336452009) |
 | TikTok | Machine Learning Engineer Intern - Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668396597746862341) |
 | TikTok | Backend Software Engineer Intern - Creation Platform 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7670289874020993285) |
@@ -276,6 +278,4 @@ Updated **2026-08-05 14:59 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | TikTok | Research Engineer Intern - Agentic Systems & AI Infrastructure - Generalized Architecture | Seattle, WA | Summer 2027 | 100% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667934792727906565) |
 | Microsoft | Software Engineer: AI/ML & LLM Intern | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922929) |
 | Microsoft | Software Engineer Intern - Data Platform & Analytics | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922931) |
-| Microsoft | Software Engineer Security & Identity Intern | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922930) |
-| Microsoft | Full-Stack Product Engineer Intern - Web + Services | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922922) |
 <!-- JOB-BOARD:END -->

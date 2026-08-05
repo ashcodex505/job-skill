@@ -1,13 +1,15 @@
 # 🎯 Job Board — SWE Early Career
 
-**342 open roles** across **116 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-05 14:59 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**344 open roles** across **117 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-05 16:49 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (11)
+## 🆕 New this cycle (13)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Roblox | [2027] Software Engineer, Early Career 🆕 | San Mateo, CA, United States | 2027 New Grad | 100% (3 skills) | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8072244?gh_jid=8072244) |
+| Roblox | [Summer 2027] Software Engineer Intern 🆕 | San Mateo, CA, United States | Summer 2027 | 100% (3 skills) | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) |
 | TikTok | Machine Learning Engineer Intern - Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668396597746862341) |
 | TikTok | Backend Software Engineer Intern - Creation Platform 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7670289874020993285) |
 | TikTok | Machine Learning Engineer Intern - Data-Global E-Commerce-Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668415591670417717) |
@@ -20,10 +22,11 @@ Last updated: **2026-08-05 14:59 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Software Development Engineer in Test Intern - Global E-Commerce - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-01 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668837275459324213) |
 | TikTok | Software Development Engineer in Test Intern（TikTok-Testing）- 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7667934759481526581) |
 
-## 🛠️ Internships (217)
+## 🛠️ Internships (218)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Roblox | [Summer 2027] Software Engineer Intern 🆕 | San Mateo, CA, United States | Summer 2027 | 100% (3 skills) | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) |
 | DensityAI | Technical Intern- Software - Fall 2026 🆕 | Mountain View, CA | Fall 2026 | 100% | 2026-08-04 | 2026-08-05 | [**Apply ➜**](https://job-boards.greenhouse.io/densityai/jobs/4336452009) |
 | TikTok | Machine Learning Engineer Intern - Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668396597746862341) |
 | TikTok | Backend Software Engineer Intern - Creation Platform 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7670289874020993285) |
@@ -242,10 +245,11 @@ Last updated: **2026-08-05 14:59 UTC** · auto-refreshed every 12h by [job-board
 | Adobe | 2026 AI/ML Intern - Machine Learning Engineer/Researcher Intern | 3 Locations | 2026 | 90% | — | 2026-07-26 | [**Apply ➜**](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer-Intern_R160706) |
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 
-## 🎓 New Grad (125)
+## 🎓 New Grad (126)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Roblox | [2027] Software Engineer, Early Career 🆕 | San Mateo, CA, United States | 2027 New Grad | 100% (3 skills) | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8072244?gh_jid=8072244) |
 | Appian | New Grad 2027: Software Engineer | McLean, VA | 2027 New Grad | 100% | 2026-07-30 | 2026-08-02 | [**Apply ➜**](https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-) |
 | Anduril | 2027 Early Career Software Engineer | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 New Grad | 100% (4 skills) | 2026-06-11 | 2026-07-05 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007) |
 | Notion | Software Engineer, Early Career (AI) | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
