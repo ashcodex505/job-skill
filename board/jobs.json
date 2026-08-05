@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-05T12:26:48.320Z",
+ "updatedAt": "2026-08-05T14:59:52.547Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -631,28 +631,6 @@
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
-   "dedupeKey": "workday:R160706",
-   "source": "workday",
-   "company": "Adobe",
-   "title": "2026 AI/ML Intern - Machine Learning Engineer/Researcher Intern",
-   "location": "3 Locations",
-   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer-Intern_R160706",
-   "season": "2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": null,
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
    "dedupeKey": "greenhouse:8052785",
    "source": "greenhouse",
    "company": "Cloudflare",
@@ -677,6 +655,28 @@
    },
    "postedAt": "2026-07-15",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "workday:R160706",
+   "source": "workday",
+   "company": "Adobe",
+   "title": "2026 AI/ML Intern - Machine Learning Engineer/Researcher Intern",
+   "location": "3 Locations",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer-Intern_R160706",
+   "season": "2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": null,
+   "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
    "dedupeKey": "greenhouse:8052083",
@@ -754,30 +754,6 @@
     "skills": 6
    },
    "postedAt": "2026-06-10T19:33:06-04:00",
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7488508",
-   "source": "greenhouse",
-   "company": "Waymo",
-   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
-   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2025-12-22T18:35:42-05:00",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
@@ -928,13 +904,37 @@
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
   },
   {
-   "dedupeKey": "workday:JR2015779",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "Performance Engineer Intern - Systems Software- Fall 2026",
-   "location": "St. Louis, MO",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779",
-   "season": "Fall 2026",
+   "dedupeKey": "greenhouse:7488508",
+   "source": "greenhouse",
+   "company": "Waymo",
+   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
+   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2025-12-22T18:35:42-05:00",
+   "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
    "roleType": "internship",
    "score": 100,
    "matchedSkills": [],
@@ -946,8 +946,844 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-07-06",
-   "firstSeenAt": "2026-07-06T19:13:12.302Z"
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
+  },
+  {
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:7f215b787d871c653d52f39d4a2fe551111c382d",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - Transaction Platform - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669943120351906053",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:eadf7a9e8242b0a23ea3bbe1258c1fb65a69630f",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - Ads Interface - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669705785962727733",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03",
+   "firstSeenAt": "2026-08-04T07:59:11.829Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:52f85b9df40837927af5119f865c1b4a6f90b833",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Frontend Engineer Intern - Global CRM - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669711026846058757",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:0d0a2d772abb47af203ed93758758e7541639878",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - Global CRM - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669711844487399685",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03",
+   "firstSeenAt": "2026-08-04T07:59:11.829Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:a54de12a42db2677982ad6f91db2d6a0cd03c13a",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - AI Agent & Global Revenue Platform - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7669712589169117445",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:1e71aec963d1126119b13e7147bc97575ccb0025",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Backend Software Engineer Intern - Global E-Commerce - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668834837268138293",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-01",
+   "firstSeenAt": "2026-08-04T07:59:11.829Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:d3bf89de491e4f5a83b2f1260dceee2c0de336e2",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - TikTok - Shoot Experience Optimization - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668921505254410549",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-01",
+   "firstSeenAt": "2026-08-04T07:59:11.829Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:720f5abc6ecda53fe3eb4c9a9cf1667af68ac0ea",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - TikTok-Intelligent Creation-Camera - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668862422178318597",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-01",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:0d8dc3e3a9cb40a768b756ff549c5170c0741373",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Development Engineer in Test Intern - Global E-Commerce - 2027 Summer",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7668837276597127477",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-01",
+   "firstSeenAt": "2026-08-05T14:59:52.547Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:3453538103d6f8573139d176353f2df8f45231fc",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Development Engineer in Test Intern - Global E-Commerce - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668837275459324213",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-01",
+   "firstSeenAt": "2026-08-05T14:59:52.547Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:759204868e716458352677fa089d7daba1729ba1",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Backend Software Engineer Intern - Global E-Commerce - 2027 Summer",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7668834837268416821",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-01",
+   "firstSeenAt": "2026-08-04T07:59:11.829Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:eff1b320de52e701e0eb1d85386b7b7aa6e62e58",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - TikTok - Effects Performance - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668725183121000757",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-01",
+   "firstSeenAt": "2026-08-04T07:59:11.829Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:7e0735337b2f6368c609444f384cc26ac8f03e88",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - Data Arch - E-commerce - 2027 Summer",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7668582086899763461",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:2782e9780d290064b0533a91002feb7323c9dc51",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - Ads Measurement Signal and Privacy - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668582031916435717",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:99ebe354e2be9ced86ff571409ee80b746e42121",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - Ads Infrastructure - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668581636242016565",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:3fe2b91070cad0820ada852f51c050b97532ae33",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - TikTok-Agentic Creation-Effect Platform - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668445566565321013",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:c63f8f923ceccc70139563ae8671fa8ca1952a10",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - ML Infra - 2027 Start - PhD",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668696895234197813",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:b35765c43c59bb534104cc34b4c084c8055e8599",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - TikTok-Agentic Creation-AIGC - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668675500744837381",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:00a83ea2027d43f530ed43cbdb97f44b0bbd1ac3",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - Creative Intelligence and Brand Innovation - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668642761473902901",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:0ab2b58aff2612b3cd80bb20524005cee36e596b",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - Business Integrity - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668584916620527925",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:92c451fd6a5e46ee0160d75fe8aa49e8cf135194",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Frontend Software Engineer Intern - Ads Measurement Signal and Privacy - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668584161852229893",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:b02f0e6c43028cb02b9e19fa3703e188bf60f5e8",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - Data Arch - E-commerce - 2027 Summer",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7668582146236631349",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:2ff396a50d898cfabd944e0e8e9e453055451967",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Backend Software Engineer Intern - TikTok - Product Infrastructure - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667935633764370741",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-04T07:59:11.829Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:2e8703e1cf1f45a359b5105b087227f3e4e1f1cf",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Backend Software Engineer Intern - TikTok-Privacy and Security - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667935739300317493",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:5b5aa11cf5db4f75f0ef5fbf56b23ea419f38a54",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Frontend Engineer Intern - TikTok-Open Platform - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667935739300792629",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:d0d748297a19d42d8ae6a20e37c6777afc8e8f38",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - TikTok-Generalized Arch-Code Intelligence & Quality Validation - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667935738376227077",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:715068fa63311d635b005f1696085e6b793b612b",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Backend Software Engineer Intern - TikTok-Social-Foundation - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667935565120112949",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:f07c84d5e07238e4d44b79b249767bc22498e9c9",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - TikTok-Social-Friending - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667935399050692917",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:525c817760aff4ad775295bc890f9fa01b97f632",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Backend Software Engineer Intern - TikTok-Global Live-Foundation - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667935150530840837",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-04T11:46:06.252Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:710977fe609b020e70698e3872e968ef733d888d",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Backend Software Engineer Intern - TikTok-Growth-Innovative Growth - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667934860750063925",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:6b27439b38b44e291312b341fd7eae2b07e1a4eb",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Software Development Engineer in Test Intern（TikTok-Testing）- 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667934759481526581",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-05T14:59:52.547Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:313718ef90ef2e1610c76a4fdcb86e97043991ae",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Backend Software Engineer Intern - TikTok-Social-Friending - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667934635573692725",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:4b30ddd06534883df4fb49e4ba0ec8465f84c9d1",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Backend Software Engineer Intern - TikTok- PGC-Digital Content Center - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667934302872537397",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:c1f3e24799a937c831fa6f283cf1ab797dd6f101",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Backend Software Engineer Intern - TikTok-PGC-Creator Strategy - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667933770819897605",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:419bbadef5ba9000f4bcbab5e8e64035b942caf9",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "Backend Software Engineer Intern - TikTok-Search - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7667933335084124469",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:c21bc2ef3542563da24b366dfd22db5d792fb43d",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "General Hire Software Engineer Intern - Trust and Safety-Engineering - 2027 Summer",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7662684280234232117",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-15",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:d3637f28bb743d6ec984c1261dc240d802cfd351",
+   "source": "speedyapply",
+   "company": "TikTok",
+   "title": "General Hire Software Engineer Intern - Trust and Safety-Engineering - 2027 Summer",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7662700594251958581",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-15",
+   "firstSeenAt": "2026-08-03T08:51:10.281Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:e3c109502bf0789a44b192dd7c69a0699ac67814",
@@ -972,28 +1808,6 @@
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:a0ae9e9b5b8a69fd363e53193a211560e36037d5",
-   "source": "speedyapply",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Applications - Fall 2026",
-   "location": "Irvine, CA +1",
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-03",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:3bba168c4e368c5017f6be762a4cef31360ca8d3",
    "source": "speedyapply",
    "company": "Rivian",
@@ -1013,6 +1827,28 @@
     "skills": 0
    },
    "postedAt": "2026-06-04",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:a0ae9e9b5b8a69fd363e53193a211560e36037d5",
+   "source": "speedyapply",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Applications - Fall 2026",
+   "location": "Irvine, CA +1",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-03",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -1082,28 +1918,6 @@
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:db655faab926d789f3027dde7b1c7b927d729105",
-   "source": "speedyapply",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Quality and Efficiency Technology - 2026 Summer - BS/MS",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7637047421538404613",
-   "season": "2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-07",
-   "firstSeenAt": "2026-07-26T09:01:16.777Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:0d26c80b68aa11cea2516a4a095e8304169f4178",
    "source": "speedyapply",
    "company": "Amazon",
@@ -1170,6 +1984,28 @@
    },
    "postedAt": "2026-07-15",
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:71479daac86fd03d5b354b728accc0895a6fad09",
+   "source": "speedyapply",
+   "company": "DensityAI",
+   "title": "Technical Intern- Software - Fall 2026",
+   "location": "Mountain View, CA",
+   "url": "https://job-boards.greenhouse.io/densityai/jobs/4336452009",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04",
+   "firstSeenAt": "2026-08-05T14:59:52.547Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:00eb8f3d2adcd4b3268de36a3b1efe476d03e855",
@@ -1656,28 +2492,6 @@
    "firstSeenAt": "2026-07-26T03:50:17.796Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
-   "source": "speedyapply",
-   "company": "Hermeus",
-   "title": "Software Engineering Intern - HIL - Fall 2026",
-   "location": "Atlanta, GA",
-   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-18",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:8593ba975d3cba76eb2020ffa4860d6b5bd078e7",
    "source": "speedyapply",
    "company": "Jane Street",
@@ -1698,6 +2512,50 @@
    },
    "postedAt": "2026-07-07",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:06882db811318bde2919c5638332c4fa0bc4d955",
+   "source": "speedyapply",
+   "company": "Lightfield",
+   "title": "Software Engineer - Infrastructure - Early Career",
+   "location": "Cambridge, MA",
+   "url": "https://jobs.ashbyhq.com/lightfield/9a7ef2f9-577a-4242-b884-719e3cdf4420",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03",
+   "firstSeenAt": "2026-08-05T14:59:52.547Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:3cf000fb6c6c5381341e86f7bfdd84b33bb67d8f",
+   "source": "speedyapply",
+   "company": "Retell AI",
+   "title": "Software Engineer - New Grad",
+   "location": "Redwood City, CA",
+   "url": "https://jobs.ashbyhq.com/retell-ai/ea775189-0496-43d8-a386-df8148265463",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03",
+   "firstSeenAt": "2026-08-05T14:59:52.547Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:6f331e01e8d3a280240a7a2e268d3f831178317f",
@@ -1763,28 +2621,6 @@
     "skills": 0
    },
    "postedAt": "2026-07-31",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:c32431c83cb7b5a0ae9419fa3684306632a5897e",
-   "source": "speedyapply",
-   "company": "Manhattan Associates",
-   "title": "Software Engineer - Early Career",
-   "location": "Atlanta, GA",
-   "url": "https://manh.wd5.myworkdayjobs.com/en-US/campus/job/Atlanta-GA/Software-Engineer---Early-Career_16977",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -1857,7 +2693,7 @@
    "dedupeKey": "speedyapply:sha1:c754787f5ccdefff5bbe438aafcbfeeb22b27daa",
    "source": "speedyapply",
    "company": "Lightfield",
-   "title": "Software Engineer - Applied AI - New Grad",
+   "title": "Software Engineer - Applied AI - Early Career",
    "location": "San Francisco, CA",
    "url": "https://jobs.ashbyhq.com/lightfield/fc93a467-773d-4805-b342-bf470950732d",
    "season": null,
@@ -2050,50 +2886,6 @@
    },
    "postedAt": "2026-04-09",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
-  },
-  {
-   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
-   "source": "vansh",
-   "company": "Appian",
-   "title": "New Grad 2027: Software Engineer",
-   "location": "McLean, VA",
-   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T21:58:55.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "simplifyjobs:0f8b69bb-cbbb-4949-b2a7-23aa41726134",
@@ -5904,56 +6696,12 @@
    "firstSeenAt": "2026-08-03T08:51:10.281Z"
   },
   {
-   "dedupeKey": "simplifyjobs:9019bee1-e862-4a98-8ce2-db27dfc5283a",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Creative Intelligence and Brand Innovation",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668642761473902901",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:00.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:69040dc4-2a49-4a97-8a41-75f8926c7b5a",
    "source": "simplifyjobs",
    "company": "TikTok",
    "title": "Machine Learning Engineer Intern",
    "location": "San Jose, CA",
    "url": "https://lifeattiktok.com/search/7667338938890930437",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:10.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:55417269-0302-4607-96a4-1ed2b420ba05",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Trust and Safety Engineering",
-   "location": "Seattle, WA",
-   "url": "https://lifeattiktok.com/search/7662684280234232117",
    "season": "Summer 2027",
    "roleType": "internship",
    "score": 100,
@@ -5992,28 +6740,6 @@
    "firstSeenAt": "2026-08-03T08:51:10.281Z"
   },
   {
-   "dedupeKey": "simplifyjobs:53d06972-e847-4ab6-baf8-27f2642beba6",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668581636242016565",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:00.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:3a5ca7be-fe69-4dc6-90df-9bdae4a796cc",
    "source": "simplifyjobs",
    "company": "TikTok",
@@ -6033,28 +6759,6 @@
     "skills": 0
    },
    "postedAt": "2026-08-03T06:15:11.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1fb1e49e-1a9d-40ea-9146-1df231b49971",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7662700594251958581",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:12.000Z",
    "firstSeenAt": "2026-08-03T08:51:10.281Z"
   },
   {
@@ -6124,50 +6828,6 @@
    "firstSeenAt": "2026-08-03T08:51:10.281Z"
   },
   {
-   "dedupeKey": "simplifyjobs:db960900-01f6-4f01-9c82-84153cdf5547",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Backend Software Engineer Intern",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7667935565120112949",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:08.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f1a4558f-cc89-48e1-8df1-49420374b44d",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Backend Software Engineer Intern",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7667934635573692725",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:03.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:9b049391-06b9-426f-8b33-6c1b1de9fca8",
    "source": "simplifyjobs",
    "company": "TikTok",
@@ -6187,358 +6847,6 @@
     "skills": 0
    },
    "postedAt": "2026-08-03T06:15:07.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:bf3fb2af-42dc-4e27-8aad-259ae8c9dbae",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Backend Software Engineer Intern",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7667933770819897605",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:03.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:07a9c26b-bccd-44eb-8314-fee1a7513235",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Ads Measurement Signal and Privacy",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668582031916435717",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:00.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:06c11bb5-43c4-40be-8e95-f79d8f4b6ee6",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Backend Software Engineer Intern - Innovative Growth",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7667934860750063925",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:05.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2e35f7c5-6439-4055-8645-1f6e1035fcd6",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Backend Software Engineer Intern - Digital Content Center",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7667934302872537397",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:04.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c03b7a2c-d1b6-4e44-bfc8-e638eeb45dac",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Social Friending",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7667935399050692917",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:04.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b39e7951-0395-4c53-8303-28b2f26bd237",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Data Architecture - E-commerce",
-   "location": "Seattle, WA",
-   "url": "https://lifeattiktok.com/search/7668582146236631349",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:01.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a369c444-d6b3-4421-8a25-859336530e56",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7667935738376227077",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:02.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1f8cd2ed-d3dd-41e6-b73e-dd4305de1590",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Backend Software Engineer Intern",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7667933335084124469",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:04.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b810a416-7ff9-4dd2-9bee-5b5b5ca5e317",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Frontend Engineer Intern - Open Platform",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7667935739300792629",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:03.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:8f05dd2f-befa-4ddd-8488-134b03cc716d",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Agentic Creation-Effect Platform",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668445566565321013",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:01.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:91782cd8-b605-4363-a260-dc99dd6c6413",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668675500744837381",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:14:59.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:53a8204a-f36a-48a4-acc6-87134c891a73",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern",
-   "location": "Seattle, WA",
-   "url": "https://lifeattiktok.com/search/7668582086899763461",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:00.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:092fac4b-3753-4d79-b797-cb3aac771420",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Backend Software Engineer Intern",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7667935739300317493",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:03.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:4e30bd9b-ebf0-4353-86db-38408f6b37c3",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - ML Infra",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668696895234197813",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:14:59.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:21843187-b30d-4873-8247-27a9a3d7b05d",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Frontend Software Engineer Intern - Ads Measurement Signal and Privacy",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668584161852229893",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:00.000Z",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:7ebfe14e-9cc5-4d58-a36d-60f66838f248",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Business Integrity",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668584916620527925",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-03T06:15:01.000Z",
    "firstSeenAt": "2026-08-03T08:51:10.281Z"
   },
   {
@@ -6916,28 +7224,6 @@
    "firstSeenAt": "2026-08-04T07:59:11.829Z"
   },
   {
-   "dedupeKey": "simplifyjobs:8b95003b-f01d-4d6b-a4d2-1e4c6d890df5",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Global CRM",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7669711844487399685",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T06:20:07.000Z",
-   "firstSeenAt": "2026-08-04T07:59:11.829Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:6f9b09ce-ac3f-47ef-9225-03bace1084c7",
    "source": "simplifyjobs",
    "company": "TikTok",
@@ -6957,72 +7243,6 @@
     "skills": 0
    },
    "postedAt": "2026-08-04T06:20:28.000Z",
-   "firstSeenAt": "2026-08-04T07:59:11.829Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:4ef18c97-61e7-45fb-96b5-55d9163a1786",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Effects Performance",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668725183121000757",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T06:20:19.000Z",
-   "firstSeenAt": "2026-08-04T07:59:11.829Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:04eb8758-e0be-4ae4-aca7-40e1626d3e24",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Backend Software Engineer Intern - Product Infrastructure",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7667935633764370741",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T06:20:31.000Z",
-   "firstSeenAt": "2026-08-04T07:59:11.829Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b8f5c841-1a67-4b15-bb05-70d871b0ab77",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Backend Software Engineer Intern - Global E-Commerce",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668834837268138293",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T06:20:16.000Z",
    "firstSeenAt": "2026-08-04T07:59:11.829Z"
   },
   {
@@ -7048,28 +7268,6 @@
    "firstSeenAt": "2026-08-04T07:59:11.829Z"
   },
   {
-   "dedupeKey": "simplifyjobs:6fa46b99-9c48-44b2-8d38-e17ef2651837",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Ads Interface",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7669705785962727733",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T06:20:08.000Z",
-   "firstSeenAt": "2026-08-04T07:59:11.829Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:44dacd86-f76d-414d-9cb5-9dd6a0211b2d",
    "source": "simplifyjobs",
    "company": "TikTok",
@@ -7089,50 +7287,6 @@
     "skills": 0
    },
    "postedAt": "2026-08-04T06:20:10.000Z",
-   "firstSeenAt": "2026-08-04T07:59:11.829Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1b288e59-0885-4ce7-bd60-b7cdda93c8bc",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668921505254410549",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T06:20:08.000Z",
-   "firstSeenAt": "2026-08-04T07:59:11.829Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:08be4cf5-fcc4-47ed-82fc-2dc64c84d1b4",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Backend Software Engineer Intern - Global E-Commerce",
-   "location": "Seattle, WA",
-   "url": "https://lifeattiktok.com/search/7668834837268416821",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T06:20:15.000Z",
    "firstSeenAt": "2026-08-04T07:59:11.829Z"
   },
   {
@@ -7268,28 +7422,6 @@
    "firstSeenAt": "2026-08-04T11:46:06.252Z"
   },
   {
-   "dedupeKey": "simplifyjobs:6454b1b2-6daf-4a13-9e9f-47209a333d39",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Backend Software Engineer Intern - LIVE Foundation Governance Engineering",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7667935150530840837",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T09:20:12.000Z",
-   "firstSeenAt": "2026-08-04T11:46:06.252Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:b11dddb4-7bc4-4864-8ee8-ab5d5bb12c9a",
    "source": "simplifyjobs",
    "company": "TikTok",
@@ -7331,94 +7463,6 @@
     "skills": 0
    },
    "postedAt": "2026-08-04T09:20:11.000Z",
-   "firstSeenAt": "2026-08-04T11:46:06.252Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b05ba4c5-016d-48b3-888c-f09fa7f253ad",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Frontend Engineer Intern - Global CRM",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7669711026846058757",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T09:20:12.000Z",
-   "firstSeenAt": "2026-08-04T11:46:06.252Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:5182ae3f-a0b7-4e07-80fd-25a69767ee5d",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Transaction Platform",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7669943120351906053",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T09:20:06.000Z",
-   "firstSeenAt": "2026-08-04T11:46:06.252Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:dde435d3-0494-49e6-bba7-811e7131b9be",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - Intelligent Creation-Camera",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668862422178318597",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T09:20:07.000Z",
-   "firstSeenAt": "2026-08-04T11:46:06.252Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:722bb14f-670f-48c9-8320-e07db2eff930",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Software Engineer Intern",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7669712589169117445",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T09:20:09.000Z",
    "firstSeenAt": "2026-08-04T11:46:06.252Z"
   },
   {
@@ -7836,6 +7880,46 @@
    "firstSeenAt": "2026-08-03T12:34:46.349Z",
    "closedAt": "2026-08-05T10:14:38.236Z",
    "url": "https://job-boards.greenhouse.io/emergingtalent/jobs/8048802"
+  },
+  {
+   "dedupeKey": "workday:JR2015779",
+   "company": "NVIDIA",
+   "title": "Performance Engineer Intern - Systems Software- Fall 2026",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-06T19:13:12.302Z",
+   "closedAt": "2026-08-05T14:59:52.547Z",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:db655faab926d789f3027dde7b1c7b927d729105",
+   "company": "TikTok",
+   "title": "Software Engineer Intern - Quality and Efficiency Technology - 2026 Summer - BS/MS",
+   "season": "2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-26T09:01:16.777Z",
+   "closedAt": "2026-08-05T14:59:52.547Z",
+   "url": "https://lifeattiktok.com/search/7637047421538404613"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:8c85bfbb73af899a329ecbc01c6183d445ec13aa",
+   "company": "Hermeus",
+   "title": "Software Engineering Intern - HIL - Fall 2026",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-08-05T14:59:52.547Z",
+   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:c32431c83cb7b5a0ae9419fa3684306632a5897e",
+   "company": "Manhattan Associates",
+   "title": "Software Engineer - Early Career",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-08-05T14:59:52.547Z",
+   "url": "https://manh.wd5.myworkdayjobs.com/en-US/campus/job/Atlanta-GA/Software-Engineer---Early-Career_16977"
   }
  ]
 }
