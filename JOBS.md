@@ -1,19 +1,25 @@
 # 🎯 Job Board — SWE Early Career
 
-**337 open roles** across **118 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-05 00:59 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**340 open roles** across **119 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-05 04:22 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (1)
+## 🆕 New this cycle (4)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| TikTok | Machine Learning Engineer Intern - Data-Global E-Commerce-Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668415591670417717) |
+| Valstad | Robotics Software Intern - Manipulation & Simulation 🆕 | Austin, TX | Fall 2026 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/valstad/8478558b-c5b5-43d2-b9c0-eae7a1fb30d8/application?embed=true) |
+| Valstad | Software Engineer Intern - 3D & Manufacturing Applications 🆕 | Austin, TX | Fall 2026 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/valstad/7ff6d452-969f-43a6-9127-d153025e6aea/application?embed=true) |
 | Diversified Automation | Software Engineering Co-op 🆕 | Louisville, KY | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://jobs.lever.co/diversified-automation/827a092d-b8a3-4ca9-a84a-e8c236d1aabc/apply) |
 
-## 🛠️ Internships (211)
+## 🛠️ Internships (214)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| TikTok | Machine Learning Engineer Intern - Data-Global E-Commerce-Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668415591670417717) |
+| Valstad | Software Engineer Intern - 3D & Manufacturing Applications 🆕 | Austin, TX | Fall 2026 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/valstad/7ff6d452-969f-43a6-9127-d153025e6aea/application?embed=true) |
+| Valstad | Robotics Software Intern - Manipulation & Simulation 🆕 | Austin, TX | Fall 2026 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/valstad/8478558b-c5b5-43d2-b9c0-eae7a1fb30d8/application?embed=true) |
 | Diversified Automation | Software Engineering Co-op 🆕 | Louisville, KY | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://jobs.lever.co/diversified-automation/827a092d-b8a3-4ca9-a84a-e8c236d1aabc/apply) |
 | TikTok | Machine Learning Engineer Intern - Performance Monetization | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669693163422845237) |
 | TikTok | Research Engineer Intern - Agentic Systems & AI Infrastructure - Tiktok-Generalized Arch | San Jose, CA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667935568626043141) |
@@ -250,8 +256,8 @@ Last updated: **2026-08-05 00:59 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Samsara | Software Engineer I - New Grad, SF | San Francisco - SF9 | — | 83% (2 skills) | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Bastrop, TX | — | 83% (2 skills) | 2026-02-27 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8399140002?gh_jid=8399140002) |
-| SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-01-16 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
+| SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | TikTok | Machine Learning Engineer New Grad - Performance Monetization | San Jose, CA | — | 80% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669691374918011141) |
 | TikTok | Software Engineer New Grad | San Jose, CA | — | 80% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668701361741007109) |

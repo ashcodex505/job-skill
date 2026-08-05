@@ -252,12 +252,15 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-337-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-1-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--05-informational)
+![open roles](https://img.shields.io/badge/open%20roles-340-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-4-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--05-informational)
 
-Updated **2026-08-05 00:59 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-05 04:22 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| TikTok | Machine Learning Engineer Intern - Data-Global E-Commerce-Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668415591670417717) |
+| Valstad | Software Engineer Intern - 3D & Manufacturing Applications 🆕 | Austin, TX | Fall 2026 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/valstad/7ff6d452-969f-43a6-9127-d153025e6aea/application?embed=true) |
+| Valstad | Robotics Software Intern - Manipulation & Simulation 🆕 | Austin, TX | Fall 2026 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/valstad/8478558b-c5b5-43d2-b9c0-eae7a1fb30d8/application?embed=true) |
 | Diversified Automation | Software Engineering Co-op 🆕 | Louisville, KY | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://jobs.lever.co/diversified-automation/827a092d-b8a3-4ca9-a84a-e8c236d1aabc/apply) |
 | TikTok | Machine Learning Engineer Intern - Performance Monetization | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669693163422845237) |
 | TikTok | Research Engineer Intern - Agentic Systems & AI Infrastructure - Tiktok-Generalized Arch | San Jose, CA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667935568626043141) |
@@ -275,7 +278,4 @@ Updated **2026-08-05 00:59 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | TikTok | Research Engineer Intern - Agentic Systems & AI Infrastructure - Generalized Architecture | Seattle, WA | Summer 2027 | 100% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667934792727906565) |
 | Microsoft | Software Engineer: AI/ML & LLM Intern | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922929) |
 | Microsoft | Software Engineer Intern - Data Platform & Analytics | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922931) |
-| Microsoft | Software Engineer Security & Identity Intern | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922930) |
-| Microsoft | Full-Stack Product Engineer Intern - Web + Services | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922922) |
-| Microsoft | Software Engineer Intern - Cloud & Distributed Backend | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922923) |
 <!-- JOB-BOARD:END -->
