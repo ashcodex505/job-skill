@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-08-06T07:59:35.928Z",
+ "updatedAt": "2026-08-06T10:15:32.874Z",
  "jobs": [
   {
    "dedupeKey": "rippling:sha1:58c70e7c0d3ada7cbfacf6e76bdb7333d1e3b199",
    "source": "rippling",
    "company": "Rippling",
    "title": "Full Stack Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
+   "location": "New York, NY",
    "url": "https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a",
    "season": "Winter 2027",
    "roleType": "internship",
@@ -550,72 +550,6 @@
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
-   "dedupeKey": "workday:JR2017522",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "PhD Software Engineering Intern, Decision Intelligence - Fall 2026",
-   "location": "US, CA, Santa Clara",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-22",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "workday:JR2019667",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "PhD Research Intern, System Software and I/O Architecture - Fall 2026",
-   "location": "3 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-24",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "workday:JR2022295",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "Software Engineering Intern, Dynamo - Fall 2026",
-   "location": "US, CA, Santa Clara",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-05",
-   "firstSeenAt": "2026-08-05T18:43:33.968Z"
-  },
-  {
    "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
    "source": "ashby",
    "company": "Notion",
@@ -695,6 +629,72 @@
    },
    "postedAt": "2026-08-03T12:32:48-04:00",
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
+  },
+  {
+   "dedupeKey": "workday:JR2017522",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "PhD Software Engineering Intern, Decision Intelligence - Fall 2026",
+   "location": "US, CA, Santa Clara",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-05-22",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "workday:JR2019667",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "PhD Research Intern, System Software and I/O Architecture - Fall 2026",
+   "location": "3 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-24",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "workday:JR2022295",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern, Dynamo - Fall 2026",
+   "location": "US, CA, Santa Clara",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-05",
+   "firstSeenAt": "2026-08-05T18:43:33.968Z"
   },
   {
    "dedupeKey": "workday:JR337715",
@@ -2497,6 +2497,28 @@
     "skills": 0
    },
    "postedAt": "2026-05-13T22:19:51.000Z",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:42f9f601616929c54bb26d63769c08b4e5162156",
+   "source": "speedyapply",
+   "company": "Gemini",
+   "title": "Software Engineering Intern - Fall 2026",
+   "location": "New York City, NY",
+   "url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-05-03",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -4546,6 +4568,28 @@
    "firstSeenAt": "2026-08-03T12:34:46.349Z"
   },
   {
+   "dedupeKey": "simplifyjobs:830d601a-f246-424f-8b08-23956510de08",
+   "source": "simplifyjobs",
+   "company": "Maven Securities",
+   "title": "Developer New Grad",
+   "location": "Chicago, IL",
+   "url": "https://job-boards.greenhouse.io/emergingtalent/jobs/8048802",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:27:21.000Z",
+   "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:e5443b5b-331f-470e-b03e-f8cb378f467a",
    "source": "simplifyjobs",
    "company": "TikTok",
@@ -5293,6 +5337,50 @@
     "skills": 0
    },
    "postedAt": "2026-06-16T19:44:41.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b7ecf859-e102-435c-ad58-a6bb88c51c60",
+   "source": "simplifyjobs",
+   "company": "Muru",
+   "title": "Mobile Software Engineer Intern",
+   "location": "New York, NY",
+   "url": "https://www.murumed.com/job-listings/software-engineer-intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-23T13:40:34.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ac9a60d7-eb51-4cbb-af68-97f00839f454",
+   "source": "simplifyjobs",
+   "company": "Muru",
+   "title": "Full-Stack Software Engineer Intern",
+   "location": "New York, NY",
+   "url": "https://www.murumed.com/job-listings/web-software-engineer-intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-23T13:41:56.000Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -6748,6 +6836,28 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
+   "dedupeKey": "simplifyjobs:ee1bc7a8-d82f-4c73-8228-18ce9b38d4b0",
+   "source": "simplifyjobs",
+   "company": "Obsidian Solutions Group",
+   "title": "Unity 3D Developer Intern",
+   "location": "Fredericksburg, VA",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4341435",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-17T20:59:45.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:48c4cfa3-389b-4a66-abd7-a1d6cb9708a5",
    "source": "simplifyjobs",
    "company": "Yotta Labs",
@@ -8122,16 +8232,6 @@
    "url": "https://jobs.halliburton.com/job/Houston-a_-Software-Engineer-Early-Career-Landmark-TX-77032/1392092600/?ats=successfactors"
   },
   {
-   "dedupeKey": "simplifyjobs:830d601a-f246-424f-8b08-23956510de08",
-   "company": "Maven Securities",
-   "title": "Developer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-03T12:34:46.349Z",
-   "closedAt": "2026-08-05T10:14:38.236Z",
-   "url": "https://job-boards.greenhouse.io/emergingtalent/jobs/8048802"
-  },
-  {
    "dedupeKey": "workday:JR2015779",
    "company": "NVIDIA",
    "title": "Performance Engineer Intern - Systems Software- Fall 2026",
@@ -8210,42 +8310,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z",
    "closedAt": "2026-08-06T04:23:54.262Z",
    "url": "https://www.tesla.com/careers/search/job/269829"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:42f9f601616929c54bb26d63769c08b4e5162156",
-   "company": "Gemini",
-   "title": "Software Engineering Intern - Fall 2026",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-08-06T07:59:35.928Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b7ecf859-e102-435c-ad58-a6bb88c51c60",
-   "company": "Muru",
-   "title": "Mobile Software Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-06T07:59:35.928Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:ac9a60d7-eb51-4cbb-af68-97f00839f454",
-   "company": "Muru",
-   "title": "Full-Stack Software Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-06T07:59:35.928Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:ee1bc7a8-d82f-4c73-8228-18ce9b38d4b0",
-   "company": "Obsidian Solutions Group",
-   "title": "Unity 3D Developer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-06T07:59:35.928Z"
   }
  ]
 }
