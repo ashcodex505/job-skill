@@ -88,7 +88,7 @@ Edit this section whenever a newly identified company meets that bar.
 - Asana
 - Atlassian
 - Autodesk
-- Block
+- Block (Square)
 - Bloomberg
 - Booking.com
 - Brex
