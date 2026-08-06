@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { ADAPTERS, scrapeSimplifyFeeds } from "./adapters";
+import { ADAPTERS, parseShopifyInternshipsHtml, scrapeAtlassian, scrapeSimplifyFeeds } from "./adapters";
 import type { CompanyPortal } from "./registry";
 
 /** Mocked-fetch adapter tests: response shape → RawJob mapping. */
@@ -19,6 +19,46 @@ function mockFetchOnce(payloads: Record<string, unknown>) {
 }
 
 afterEach(() => vi.unstubAllGlobals());
+
+describe("atlassian first-party adapter", () => {
+  it("maps Atlassian's careers listing endpoint", async () => {
+    mockFetchOnce({
+      "/endpoint/careers/listings": [
+        {
+          id: 26265,
+          portalId: 111,
+          title: "Software Engineer",
+          locations: ["San Francisco", "Remote"],
+          overview: "Build software.",
+          responsibilities: "Ship it.",
+          qualifications: "Engineering experience.",
+          portalJobPost: {
+            portalUrl: "https://careers-americas.icims.com/jobs/26265/software-engineer/job",
+            updatedDate: "2026-08-05 01:00 PM",
+          },
+        },
+      ],
+    });
+    const jobs = await scrapeAtlassian({
+      name: "Atlassian",
+      website: "https://atlassian.com",
+      careersUrl: "https://www.atlassian.com/company/careers/all-jobs",
+      ats: "atlassian",
+    });
+    expect(jobs).toEqual([
+      expect.objectContaining({
+        source: "atlassian",
+        sourceId: "111:26265",
+        company: "Atlassian",
+        title: "Software Engineer",
+        location: "San Francisco; Remote",
+        url: "https://www.atlassian.com/company/careers/details/26265",
+        postedAt: "2026-08-05 01:00 PM",
+        description: "Build software.\nShip it.\nEngineering experience.",
+      }),
+    ]);
+  });
+});
 
 describe("smartrecruiters adapter", () => {
   const portal: CompanyPortal = {
@@ -240,6 +280,83 @@ describe("greenhouse adapter (shape guard)", () => {
       location: "SF",
       description: "<p>Python required</p>",
     });
+  });
+});
+
+describe("shopify composite adapter", () => {
+  const OPEN_HTML = `
+    <p><strong>Applications are OPEN</strong></p>
+    <a href="https://www.shopify.com/careers/software-engineering-internships-winter-2027_404bb82e-37f3-4a78-b0f3-12923a7c4856?ashby_jid=404bb82e-37f3-4a78-b0f3-12923a7c4856">Apply</a>
+    <a href="https://www.shopify.com/careers/applied-machine-learning-engineering-internships-winter-2027_b6d312a8-cdd2-4f21-a2f5-313182d6989d?ashby_jid=b6d312a8-cdd2-4f21-a2f5-313182d6989d">Apply</a>
+  `;
+
+  it("parses official open internship links with stable Ashby ids", () => {
+    const jobs = parseShopifyInternshipsHtml(OPEN_HTML, new Date("2026-08-06T07:25:00.000Z"));
+    expect(jobs).toHaveLength(2);
+    expect(jobs[0]).toMatchObject({
+      source: "shopify",
+      sourceId: "404bb82e-37f3-4a78-b0f3-12923a7c4856",
+      company: "Shopify",
+      title: "Software Engineering Internships Winter 2027",
+      location: "United States; Canada",
+      postedAt: "2026-08-06T07:25:00.000Z",
+    });
+  });
+
+  it("does not emit stale links when the program page says applications are closed", () => {
+    expect(parseShopifyInternshipsHtml(OPEN_HTML.replace("Applications are OPEN", "Applications are CLOSED"))).toEqual([]);
+  });
+
+  it("combines regular Pinpoint roles with internship-program drops", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(async (input: RequestInfo | URL) => {
+        const url = String(input);
+        if (url.includes("shopify.pinpointhq.com/postings.json")) {
+          return new Response(
+            JSON.stringify({
+              data: [
+                {
+                  title: "Senior Data Engineer, Embedded",
+                  url: "https://shopify.pinpointhq.com/en/postings/regular",
+                  location: { name: "United States" },
+                },
+              ],
+            }),
+            { status: 200 },
+          );
+        }
+        if (url === "https://internships.shopify.com/") return new Response(OPEN_HTML, { status: 200 });
+        return new Response("not found", { status: 404 });
+      }),
+    );
+    const jobs = await ADAPTERS.shopify({
+      name: "Shopify",
+      website: "https://shopify.com",
+      careersUrl: "https://www.shopify.com/careers",
+      ats: "shopify",
+      slug: "shopify",
+    });
+    expect(jobs.map((job) => job.source)).toEqual(["pinpoint", "shopify", "shopify"]);
+  });
+
+  it("fails loudly when Shopify says applications are open but its links cannot be parsed", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(async (input: RequestInfo | URL) => {
+        if (String(input).includes("postings.json")) return new Response(JSON.stringify({ data: [] }), { status: 200 });
+        return new Response("<p>Applications are OPEN</p><a href='/changed-format'>Apply</a>", { status: 200 });
+      }),
+    );
+    await expect(
+      ADAPTERS.shopify({
+        name: "Shopify",
+        website: "https://shopify.com",
+        careersUrl: "https://www.shopify.com/careers",
+        ats: "shopify",
+        slug: "shopify",
+      }),
+    ).rejects.toThrow(/no application links were parsed/);
   });
 });
 

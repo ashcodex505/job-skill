@@ -188,6 +188,24 @@ jobs:
           DATABASE_PATH: /tmp/scrape.db
           BOARD_URGENT_FILE: ${{ runner.temp }}/urgent.md
           BOARD_BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
+          BOARD_SOURCE_HEALTH_FILE: ${{ runner.temp }}/source-health.md
+      - name: Report scraper source health
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEALTH_FILE: ${{ runner.temp }}/source-health.md
+          ERROR_COUNT: ${{ steps.board.outputs.source_error_count }}
+        run: |
+          gh label create scraper-health --color D93F0B --description "A configured job source could not be checked" 2>/dev/null || true
+          issue=$(gh issue list --state open --label scraper-health --json number --jq '.[0].number // empty')
+          if [ "${ERROR_COUNT:-0}" != "0" ]; then
+            [ -s "$HEALTH_FILE" ] || exit 0
+            if [ -z "$issue" ]; then
+              { echo "cc @${{ github.repository_owner }}"; echo; cat "$HEALTH_FILE"; } > /tmp/source-health-body.md
+              gh issue create --title "🛠 Job scraper source failure" --label scraper-health --body-file /tmp/source-health-body.md
+            fi
+          elif [ -n "$issue" ]; then
+            gh issue close "$issue" --comment "All configured direct job sources recovered on this run."
+          fi
       - name: Commit board updates
         run: |
           git config user.name "github-actions[bot]"

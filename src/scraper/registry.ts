@@ -9,6 +9,7 @@
  *  - smartrecruiters: api.smartrecruiters.com/v1 postings (documented public API)
  *  - workable:        apply.workable.com widget API (documented public API)
  *  - amazon:          amazon.jobs/en/search.json — Amazon's own site-search backend
+ *  - atlassian:       atlassian.com/endpoint/careers/listings — Atlassian's first-party feed
  *  - eightfold:        {tenant-host}/api/apply/v2/jobs — Eightfold-hosted career sites
  *                      (confirmed: Netflix). Many other big companies use Eightfold
  *                      under a tenant string that doesn't match their public domain
@@ -18,7 +19,7 @@
  * Companies with `ats: "unsupported"` were checked and found to require
  * authenticated/session-bound APIs, private GraphQL, or Akamai/edge anti-bot
  * protection (Google, Apple, Meta, Microsoft, Uber, LinkedIn, Snowflake,
- * Tesla, Shopify, TikTok, Snap, Applied Intuition, Bloomberg, Grammarly,
+ * Tesla, TikTok, Applied Intuition, Bloomberg, Grammarly,
  * HashiCorp — each individually probed against every adapter type above,
  * not assumed). We never bypass those; they're listed with a careers link
  * for manual checking and are natural future adapters if that ever changes.
@@ -57,6 +58,7 @@ export interface CompanyPortal {
     | "smartrecruiters"
     | "workable"
     | "amazon"
+    | "atlassian"
     | "eightfold"
     | "bamboohr"
     | "recruitee"
@@ -64,6 +66,7 @@ export interface CompanyPortal {
     | "rippling"
     | "personio"
     | "pinpoint"
+    | "shopify"
     | "jibeapply"
     | "oraclecloud"
     | "unsupported";
@@ -113,7 +116,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Affirm", website: "https://affirm.com", careersUrl: "https://affirm.com/careers", ats: "greenhouse", slug: "affirm" },
   { name: "Lyft", website: "https://lyft.com", careersUrl: "https://lyft.com/careers", ats: "greenhouse", slug: "lyft" },
   { name: "Gusto", website: "https://gusto.com", careersUrl: "https://gusto.com/about/careers", ats: "greenhouse", slug: "gusto" },
-  { name: "Dropbox", website: "https://dropbox.com", careersUrl: "https://dropbox.com/jobs", ats: "greenhouse", slug: "dropbox" },
+  { name: "Dropbox", website: "https://dropbox.com", careersUrl: "https://www.dropbox.jobs", ats: "greenhouse", slug: "dropbox" },
   { name: "Twilio", website: "https://twilio.com", careersUrl: "https://twilio.com/en-us/company/jobs", ats: "greenhouse", slug: "twilio" },
   { name: "Okta", website: "https://okta.com", careersUrl: "https://okta.com/company/careers", ats: "greenhouse", slug: "okta" },
   { name: "Chime", website: "https://chime.com", careersUrl: "https://chime.com/careers", ats: "greenhouse", slug: "chime" },
@@ -131,9 +134,9 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   // ── Lever ───────────────────────────────────────────────────────────
   { name: "Palantir", website: "https://palantir.com", careersUrl: "https://palantir.com/careers", ats: "lever", slug: "palantir" },
   { name: "Spotify", website: "https://spotify.com", careersUrl: "https://lifeatspotify.com", ats: "lever", slug: "spotify" },
-  { name: "Atlassian", website: "https://atlassian.com", careersUrl: "https://atlassian.com/company/careers", ats: "lever", slug: "atlassian" },
+  { name: "Atlassian", website: "https://atlassian.com", careersUrl: "https://www.atlassian.com/company/careers/all-jobs", ats: "atlassian" },
   { name: "Zoox", website: "https://zoox.com", careersUrl: "https://zoox.com/careers", ats: "lever", slug: "zoox" },
-  { name: "Mistral AI", website: "https://mistral.ai", careersUrl: "https://mistral.ai/careers", ats: "lever", slug: "mistral" },
+  { name: "Mistral AI", website: "https://mistral.ai", careersUrl: "https://mistral.ai/careers", ats: "ashby", slug: "mistral.ai" },
 
   // ── Ashby ───────────────────────────────────────────────────────────
   { name: "OpenAI", website: "https://openai.com", careersUrl: "https://openai.com/careers", ats: "ashby", slug: "openai" },
@@ -150,10 +153,13 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Cohere", website: "https://cohere.com", careersUrl: "https://cohere.com/careers", ats: "ashby", slug: "cohere" },
   { name: "Harvey", website: "https://harvey.ai", careersUrl: "https://harvey.ai/careers", ats: "ashby", slug: "harvey" },
   { name: "Plaid", website: "https://plaid.com", careersUrl: "https://plaid.com/careers", ats: "ashby", slug: "plaid" },
-  { name: "Wiz", website: "https://wiz.io", careersUrl: "https://wiz.io/careers", ats: "ashby", slug: "wiz" },
+  // Wiz's former Ashby board now returns an empty board; its careers page
+  // currently routes vacancies to LinkedIn, which has no anonymous API.
+  { name: "Wiz", website: "https://wiz.io", careersUrl: "https://wiz.io/careers", ats: "unsupported" },
   { name: "Replit", website: "https://replit.com", careersUrl: "https://replit.com/careers", ats: "ashby", slug: "replit" },
   { name: "Character.AI", website: "https://character.ai", careersUrl: "https://character.ai/careers", ats: "ashby", slug: "character" },
   { name: "Applied Intuition", website: "https://appliedintuition.com", careersUrl: "https://appliedintuition.com/careers", ats: "ashby", slug: "applied" },
+  { name: "Gemini", website: "https://gemini.com", careersUrl: "https://www.gemini.com/careers", ats: "greenhouse", slug: "gemini" },
 
   // ── Eightfold ───────────────────────────────────────────────────────
   {
@@ -172,9 +178,17 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   // ── Rippling (public per-tenant ATS board API) ─────────────────────
   { name: "Rippling", website: "https://rippling.com", careersUrl: "https://ats.rippling.com/rippling/jobs", ats: "rippling", slug: "rippling" },
 
+  // Shopify splits regular roles and student application drops across two
+  // official surfaces: Pinpoint plus internships.shopify.com. Its composite
+  // adapter checks both so an open internship cannot be hidden by a healthy
+  // but incomplete Pinpoint response.
+  { name: "Shopify", website: "https://shopify.com", careersUrl: "https://www.shopify.com/careers", ats: "shopify", slug: "shopify" },
+
   // ── Pinpoint (public per-tenant postings.json feed) ────────────────
-  { name: "Shopify", website: "https://shopify.com", careersUrl: "https://shopify.pinpointhq.com", ats: "pinpoint", slug: "shopify" },
-  { name: "Snap", website: "https://snap.com", careersUrl: "https://snap.pinpointhq.com", ats: "pinpoint", slug: "snap" },
+  {
+    name: "Snap", website: "https://snap.com", careersUrl: "https://careers.snap.com/jobs",
+    ats: "workday", workday: { tenant: "snapchat", host: "wd1.myworkdaysite.com", site: "snap" },
+  },
 
   // ── Workday ─────────────────────────────────────────────────────────
   {
@@ -194,7 +208,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
     ats: "workday", workday: { tenant: "paypal", host: "paypal.wd1.myworkdayjobs.com", site: "jobs" },
   },
   {
-    name: "Workday", website: "https://workday.com", careersUrl: "https://workday.com/en-us/company/careers",
+    name: "Workday", website: "https://workday.com", careersUrl: "https://www.workday.com/en-us/company/careers/overview.html",
     ats: "workday", workday: { tenant: "workday", host: "workday.wd5.myworkdayjobs.com", site: "Workday" },
   },
   {
@@ -205,11 +219,19 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
     name: "Palo Alto Networks", website: "https://paloaltonetworks.com", careersUrl: "https://jobs.paloaltonetworks.com/en/jobs/",
     ats: "workday", workday: { tenant: "paloaltonetworks", host: "paloaltonetworks.wd5.myworkdayjobs.com", site: "panwexternalcareers" },
   },
+  {
+    name: "eBay", website: "https://ebay.com", careersUrl: "https://jobs.ebayinc.com/us/en",
+    ats: "workday", workday: { tenant: "ebay", host: "ebay.wd5.myworkdayjobs.com", site: "apply" },
+  },
 
   // ── Oracle Recruiting Cloud ─────────────────────────────────────────
   {
     name: "Oracle", website: "https://oracle.com", careersUrl: "https://careers.oracle.com/en/sites/jobsearch/jobs",
     ats: "oraclecloud", oraclecloud: { host: "eeho.fa.us2.oraclecloud.com" },
+  },
+  {
+    name: "Dell", website: "https://dell.com", careersUrl: "https://jobs.dell.com",
+    ats: "oraclecloud", oraclecloud: { host: "enterpriseplatform.dell.com", siteNumber: "careers" },
   },
 
   // ── Amazon (own public search API — see scrapeAmazon in adapters.ts) ──
@@ -231,4 +253,18 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Bloomberg", website: "https://bloomberg.com", careersUrl: "https://careers.bloomberg.com", ats: "unsupported" },
   { name: "Grammarly", website: "https://grammarly.com", careersUrl: "https://grammarly.com/careers", ats: "unsupported" },
   { name: "HashiCorp", website: "https://hashicorp.com", careersUrl: "https://hashicorp.com/careers", ats: "unsupported" },
+  { name: "Autodesk", website: "https://autodesk.com", careersUrl: "https://www.autodesk.com/careers/overview", ats: "unsupported" },
+  { name: "Booking.com", website: "https://booking.com", careersUrl: "https://careers.booking.com", ats: "unsupported" },
+  { name: "Cisco", website: "https://cisco.com", careersUrl: "https://careers.cisco.com/global/en", ats: "unsupported" },
+  { name: "Expedia", website: "https://expediagroup.com", careersUrl: "https://careers.expediagroup.com", ats: "unsupported" },
+  { name: "HP", website: "https://hp.com", careersUrl: "https://jobs.hp.com", ats: "unsupported" },
+  { name: "IBM", website: "https://ibm.com", careersUrl: "https://www.ibm.com/careers", ats: "unsupported" },
+  { name: "Intuit", website: "https://intuit.com", careersUrl: "https://jobs.intuit.com", ats: "unsupported" },
+  { name: "Qualcomm", website: "https://qualcomm.com", careersUrl: "https://careers.qualcomm.com/careers", ats: "unsupported" },
+  { name: "SAP", website: "https://sap.com", careersUrl: "https://jobs.sap.com", ats: "unsupported" },
+  { name: "Splunk", website: "https://splunk.com", careersUrl: "https://careers.cisco.com/global/en/splunk", ats: "unsupported" },
+  { name: "VMware", website: "https://vmware.com", careersUrl: "https://www.broadcom.com/company/careers", ats: "unsupported" },
+  { name: "X (Twitter)", website: "https://x.com", careersUrl: "https://x.ai/careers", ats: "unsupported" },
+  { name: "Yahoo", website: "https://yahooinc.com", careersUrl: "https://www.yahooinc.com/careers", ats: "unsupported" },
+  { name: "Zoom", website: "https://zoom.us", careersUrl: "https://careers.zoom.us", ats: "unsupported" },
 ];

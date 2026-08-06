@@ -181,6 +181,32 @@ async function scrapeLever(portal: CompanyPortal): Promise<RawJob[]> {
   }));
 }
 
+// ── Atlassian (first-party careers endpoint) ─────────────────────────
+interface AtlassianJob {
+  id: number;
+  portalId?: number;
+  title: string;
+  locations?: string[];
+  overview?: string;
+  responsibilities?: string;
+  qualifications?: string;
+  portalJobPost?: { portalUrl?: string; updatedDate?: string };
+}
+
+export async function scrapeAtlassian(portal: CompanyPortal): Promise<RawJob[]> {
+  const data = await fetchJson<AtlassianJob[]>("https://www.atlassian.com/endpoint/careers/listings");
+  return (data ?? []).filter((job) => job.id && job.title?.trim()).map((job) => ({
+    source: "atlassian" as const,
+    sourceId: `${job.portalId ?? "unknown"}:${job.id}`,
+    company: portal.name,
+    title: job.title,
+    location: job.locations?.join("; ") || null,
+    url: `https://www.atlassian.com/company/careers/details/${job.id}`,
+    postedAt: job.portalJobPost?.updatedDate ?? null,
+    description: [job.overview, job.responsibilities, job.qualifications].filter(Boolean).join("\n") || null,
+  }));
+}
+
 // ── Ashby ─────────────────────────────────────────────────────────────
 interface AshbyJob {
   id: string;
@@ -582,6 +608,67 @@ async function scrapePinpoint(portal: CompanyPortal): Promise<RawJob[]> {
     jobs.push({ source: "pinpoint", sourceId: null, company: portal.name, title, location: location || null, url, postedAt: null, description: null });
   }
   return jobs;
+}
+
+// ── Shopify (Pinpoint regular roles + official internship microsite) ──
+// Shopify's Engineering & Data application drops do not appear in its
+// otherwise healthy Pinpoint feed. The official internship microsite is the
+// authoritative open/closed surface and links each application to a stable
+// Ashby job id on shopify.com/careers.
+const SHOPIFY_INTERNSHIPS_URL = "https://internships.shopify.com/";
+const SHOPIFY_JOB_LINK_RE =
+  /https:\/\/www\.shopify\.com\/careers\/([a-z0-9-]+)_([0-9a-f-]{36})(?:\?[^"'<>\s]*)?/gi;
+
+const titleCaseSlug = (slug: string): string =>
+  slug
+    .split("-")
+    .filter(Boolean)
+    .map((word) => (word === "ai" ? "AI" : word === "ml" ? "ML" : `${word[0]?.toUpperCase() ?? ""}${word.slice(1)}`))
+    .join(" ");
+
+/** Parse only applications the official microsite explicitly says are open. */
+export function parseShopifyInternshipsHtml(html: string, observedAt: Date = new Date()): RawJob[] {
+  if (!/applications\s+are\s+open/i.test(html)) return [];
+
+  const jobs: RawJob[] = [];
+  const seen = new Set<string>();
+  for (const match of html.matchAll(SHOPIFY_JOB_LINK_RE)) {
+    const [, slug, ashbyId] = match;
+    if (seen.has(ashbyId)) continue;
+    seen.add(ashbyId);
+    jobs.push({
+      source: "shopify",
+      sourceId: ashbyId,
+      company: "Shopify",
+      title: titleCaseSlug(slug),
+      // The program page explicitly lists US offices (Bellevue and New York
+      // City) alongside Canadian offices. Retain both without letting the
+      // US-only policy misclassify the combined application as foreign-only.
+      location: "United States; Canada",
+      url: `https://www.shopify.com/careers/${slug}_${ashbyId}`,
+      // This timestamp describes the application opening we observed, not
+      // Ashby's older underlying job-record creation date. Board merging keeps
+      // the earliest observation stable across later scheduled scans.
+      postedAt: observedAt.toISOString(),
+      description: null,
+    });
+  }
+  return jobs;
+}
+
+async function scrapeShopify(portal: CompanyPortal): Promise<RawJob[]> {
+  const [regular, internshipHtml] = await Promise.all([
+    scrapePinpoint({ ...portal, ats: "pinpoint" }),
+    fetchText(SHOPIFY_INTERNSHIPS_URL, { headers: { Accept: "text/html" } }),
+  ]);
+  const internships = parseShopifyInternshipsHtml(internshipHtml);
+  if (/applications\s+are\s+open/i.test(internshipHtml) && internships.length === 0) {
+    throw new Error("Shopify says internship applications are open but no application links were parsed");
+  }
+  if (!/applications\s+are\s+(?:open|closed)/i.test(internshipHtml)) {
+    throw new Error("Shopify internship application status could not be parsed");
+  }
+  return [...regular, ...internships];
 }
 
 // ── JibeApply (iCIMS-owned; /api/jobs endpoint, paginated) ─────────────
@@ -1079,6 +1166,7 @@ export const ADAPTERS: Record<string, (portal: CompanyPortal) => Promise<RawJob[
   smartrecruiters: scrapeSmartRecruiters,
   workable: scrapeWorkable,
   amazon: scrapeAmazon, // takes no portal-specific config; see scrapeAmazon
+  atlassian: scrapeAtlassian,
   eightfold: scrapeEightfold,
   bamboohr: scrapeBambooHR,
   recruitee: scrapeRecruitee,
@@ -1086,6 +1174,7 @@ export const ADAPTERS: Record<string, (portal: CompanyPortal) => Promise<RawJob[
   rippling: scrapeRippling,
   personio: scrapePersonio,
   pinpoint: scrapePinpoint,
+  shopify: scrapeShopify,
   jibeapply: scrapeJibeApply,
   oraclecloud: scrapeOracleCloud,
 };

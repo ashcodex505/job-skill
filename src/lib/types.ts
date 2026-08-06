@@ -62,6 +62,7 @@ export type RoleType = (typeof ROLE_TYPES)[number];
 export const SEASON_PRESETS = [
   "Summer 2027",
   "Fall 2026",
+  "Winter 2027",
   "Spring 2027",
   "2027 New Grad",
   "2026 New Grad",

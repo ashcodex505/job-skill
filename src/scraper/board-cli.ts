@@ -226,9 +226,19 @@ async function main() {
   if (urgent.length > 0) console.log(`🚨 URGENT: ${urgent.map((j) => `${j.company} — ${j.title}`).join(" | ")}`);
   writeIfEnv(
     "GITHUB_OUTPUT",
-    `summary=${summaryLine}\nnew_count=${newJobs.length}\nurgent_count=${urgent.length}\nurgent_title=${urgentTitle}\n`,
+    `summary=${summaryLine}\nnew_count=${newJobs.length}\nurgent_count=${urgent.length}\nurgent_title=${urgentTitle}\nsource_error_count=${summary.errors.length}\n`,
     true,
   );
+  if (summary.errors.length > 0) {
+    const healthBody = [
+      "The scheduled direct-source scan could not check these companies:",
+      "",
+      ...summary.errors.map((error) => `- **${error.company.replace(/[*_`]/g, "")}** — ${error.message.replace(/[\r\n]+/g, " ")}`),
+      "",
+      "A failed source can hide a new posting even when the overall board run succeeds.",
+    ].join("\n");
+    writeIfEnv("BOARD_SOURCE_HEALTH_FILE", `${healthBody}\n`, false);
+  }
   const newJobsTable = renderNewJobsAlertTable(newJobs, now);
   writeIfEnv(
     "GITHUB_STEP_SUMMARY",
