@@ -13,8 +13,9 @@ or `Staff`. New-grad 2027 roles are not restricted to a single posting season â€
 search for them whenever they open during the 2027 cycle, at any of the
 approved companies below as well as other suitable employers.
 
-Internship discovery is limited to Fall 2026, Spring 2027, and Summer 2027.
-Fall 2026 and Spring 2027 remain open across suitable employers, with extra
+Internship discovery is limited to Fall 2026, Winter 2027, Spring 2027, and
+Summer 2027. Fall 2026, Winter 2027, and Spring 2027 remain open across
+suitable employers, with extra
 attention to remote or Arizona-based co-ops at the approved companies list.
 Summer 2027 is intentionally selective and is restricted to the approved
 company list below: established major technology companies, unicorns, elite
@@ -44,6 +45,7 @@ generic ("Multiple Locations").
 
 - 2027 New Grad
 - Fall 2026
+- Winter 2027
 - Spring 2027
 - Summer 2027
 
@@ -63,6 +65,7 @@ An internship title must state one of these seasons. Internships with a missing,
 ambiguous, or different season are excluded.
 
 - Fall 2026
+- Winter 2027
 - Spring 2027
 - Summer 2027
 
