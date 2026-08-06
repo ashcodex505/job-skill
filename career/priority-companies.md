@@ -68,6 +68,7 @@ the committed copy of this file.
 - GitLab
 - Okta
 - ServiceNow
+- Shopify
 - Epic Games
 - Character.AI
 - xAI
