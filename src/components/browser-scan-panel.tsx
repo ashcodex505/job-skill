@@ -1,6 +1,6 @@
 "use client";
 
-import { AlertTriangle, AppWindow, Plus, X } from "lucide-react";
+import { AlertTriangle, AppWindow, ExternalLink, Plus, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Badge, Button, Card, Input, Select } from "@/components/ui";
 import { api } from "@/lib/client";
@@ -31,6 +31,22 @@ interface ScanSettings {
   lastRunAt: string | null;
 }
 
+interface GoogleReadinessEntry {
+  jobId: string;
+  url: string;
+  title: string;
+  status: "waiting_for_apply" | "application_open" | "unavailable";
+  lastCheckedAt: string | null;
+  lastError: string | null;
+  manuallyWatched: boolean;
+}
+
+interface GoogleReadinessState {
+  intervalMinutes: number;
+  lastRunAt: string | null;
+  entries: GoogleReadinessEntry[];
+}
+
 /**
  * Dashboard browser-scan panel: the ONLY surface for adding/removing local
  * headless-browser scan targets (career/browser-companies.md is
@@ -47,8 +63,11 @@ export function BrowserScanPanel() {
   const [settings, setSettings] = useState<ScanSettings | null>(null);
   const [name, setName] = useState("");
   const [careersUrl, setCareersUrl] = useState("");
+  const [googleUrl, setGoogleUrl] = useState("");
+  const [googleReadiness, setGoogleReadiness] = useState<GoogleReadinessState | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [googleBusy, setGoogleBusy] = useState(false);
 
   useEffect(() => {
     api<BrowserState>("/api/browser-companies").then(setState).catch((e) => setError(e.message));
@@ -56,6 +75,26 @@ export function BrowserScanPanel() {
 
   useEffect(() => {
     api<ScanSettings>("/api/scrape/browser").then(setSettings).catch((e) => setError(e.message));
+  }, []);
+
+  // Application readiness is a cheap direct HTML check, not a headless
+  // browser render. It has its own fixed 10-minute timer and runs only while
+  // this component (therefore the dashboard tab) is mounted.
+  useEffect(() => {
+    let active = true;
+    const tick = () =>
+      api<GoogleReadinessState>("/api/scrape/browser/readiness", { method: "POST" })
+        .then((next) => active && setGoogleReadiness(next))
+        .catch(() => {});
+    api<GoogleReadinessState>("/api/scrape/browser/readiness")
+      .then((next) => active && setGoogleReadiness(next))
+      .catch((e) => active && setError(e.message));
+    tick();
+    const timer = setInterval(tick, 10 * 60_000);
+    return () => {
+      active = false;
+      clearInterval(timer);
+    };
   }, []);
 
   // Re-arms the poll timer whenever the configured interval changes —
@@ -100,6 +139,39 @@ export function BrowserScanPanel() {
     setError(null);
     try {
       setState(await api<BrowserState>("/api/browser-companies", { method: "DELETE", body: JSON.stringify({ name: target }) }));
+    } catch (e) {
+      setError((e as Error).message);
+    }
+  }
+
+  async function addGoogleWatch() {
+    if (!googleUrl.trim()) return;
+    setGoogleBusy(true);
+    setError(null);
+    try {
+      setGoogleReadiness(
+        await api<GoogleReadinessState>("/api/scrape/browser/readiness", {
+          method: "PUT",
+          body: JSON.stringify({ url: googleUrl }),
+        }),
+      );
+      setGoogleUrl("");
+    } catch (e) {
+      setError((e as Error).message);
+    } finally {
+      setGoogleBusy(false);
+    }
+  }
+
+  async function removeGoogleWatch(jobId: string) {
+    setError(null);
+    try {
+      setGoogleReadiness(
+        await api<GoogleReadinessState>("/api/scrape/browser/readiness", {
+          method: "DELETE",
+          body: JSON.stringify({ jobId }),
+        }),
+      );
     } catch (e) {
       setError((e as Error).message);
     }
@@ -186,6 +258,71 @@ export function BrowserScanPanel() {
           yield results this way. See docs/browser-scraping.md.
         </p>
       ) : null}
+
+      <div className="mt-4 border-t border-border pt-3">
+        <div className="mb-2 flex flex-wrap items-baseline justify-between gap-2">
+          <h3 className="text-sm font-semibold">Google application readiness</h3>
+          <span className="text-xs text-muted">Checks Apply every 10 minutes while this dashboard is open</span>
+        </div>
+        <p className="mb-2 text-xs text-muted">
+          Google sometimes publishes a job preview before applications open. Discovery stores the role, but GitHub is notified only
+          when the page gains Google&apos;s real Apply link. You can also paste a leaked job-detail URL here directly.
+        </p>
+        <div className="mb-3 flex flex-wrap items-center gap-2">
+          <Input
+            value={googleUrl}
+            onChange={(e) => setGoogleUrl(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && !googleBusy && addGoogleWatch()}
+            placeholder="Google Careers job URL"
+            className="max-w-xl"
+          />
+          <Button variant="primary" size="sm" onClick={addGoogleWatch} disabled={googleBusy || !googleUrl.trim()}>
+            <Plus size={13} /> Watch application
+          </Button>
+        </div>
+
+        {googleReadiness?.entries.length ? (
+          <div className="space-y-1.5">
+            {googleReadiness.entries.map((entry) => (
+              <div key={entry.jobId} className="flex flex-wrap items-center gap-2 rounded-md border border-border px-2.5 py-2 text-xs">
+                <Badge
+                  className={
+                    entry.status === "application_open"
+                      ? "border-green-300 bg-green-50 text-green-700 dark:bg-green-950/30"
+                      : entry.status === "unavailable"
+                        ? "border-red-300 bg-red-50 text-red-700 dark:bg-red-950/30"
+                        : "border-amber-300 bg-amber-50 text-amber-700 dark:bg-amber-950/30"
+                  }
+                >
+                  {entry.status === "application_open"
+                    ? "Applications open"
+                    : entry.status === "unavailable"
+                      ? "Unavailable"
+                      : "Waiting for Apply"}
+                </Badge>
+                <a href={entry.url} target="_blank" rel="noreferrer" className="min-w-0 flex-1 truncate font-medium hover:text-accent">
+                  {entry.title} <ExternalLink size={11} className="inline" />
+                </a>
+                <span className="text-muted">
+                  {entry.lastCheckedAt ? `Checked ${new Date(entry.lastCheckedAt).toLocaleString()}` : "Not checked yet"}
+                </span>
+                {entry.manuallyWatched ? (
+                  <button
+                    className="cursor-pointer text-muted hover:text-red-500"
+                    onClick={() => removeGoogleWatch(entry.jobId)}
+                    aria-label={`Stop watching ${entry.title}`}
+                  >
+                    <X size={13} />
+                  </button>
+                ) : null}
+                {entry.lastError ? <p className="basis-full text-amber-700 dark:text-amber-400">{entry.lastError}</p> : null}
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p className="text-xs text-muted">No Google application pages are being watched yet. The next full Google scan can add matching roles automatically.</p>
+        )}
+      </div>
 
       {error ? <p className="mt-2 rounded-md border border-red-300 bg-red-50 p-2 text-xs text-red-700 dark:bg-red-950/40">{error}</p> : null}
     </Card>

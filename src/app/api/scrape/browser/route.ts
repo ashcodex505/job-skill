@@ -6,9 +6,15 @@ import { db } from "@/db";
 import { handler, ok } from "@/lib/api";
 import { parseBrowserCompanies } from "@/lib/career/browser-companies";
 import { loadCareerConfig } from "@/lib/career/config";
-import { notifyNewBrowserJobs } from "@/scraper/browser-alert";
+import { notifyGoogleApplicationsOpened, notifyNewBrowserJobs } from "@/scraper/browser-alert";
 import { loadBrowserScanSettings, saveBrowserScanSettings } from "@/scraper/browser-scan-settings";
 import { isFreshEnough, scrapeBrowserCompanies } from "@/scraper/browser-scrape";
+import {
+  googleJobIdFromUrl,
+  markGoogleApplicationsNotified,
+  openUnnotifiedGoogleJobs,
+  registerAndRefreshGoogleApplicationWatches,
+} from "@/scraper/google-application-watch";
 import { dedupeJobs, normalizeJob, type NormalizedJob } from "@/scraper/normalize";
 import { upsertNormalizedJobs } from "@/scraper/run";
 
@@ -73,7 +79,19 @@ export const POST = handler(async () => {
     // reason they're here) — no companyId FK to resolve, unlike the main
     // scrape path. The company NAME is still recorded on every row.
     const { newJobs } = await upsertNormalizedJobs(deduped, new Map());
-    const notify = await notifyNewBrowserJobs(deduped);
+
+    // Google can publish a real detail page before it accepts applications.
+    // Keep those pages on the board, but gate their GitHub alert until the
+    // exact Apply anchor appears. Other browser companies retain the normal
+    // discovery-time alert behavior.
+    const googleJobs = deduped.filter((job) => googleJobIdFromUrl(job.url));
+    const googleState = await registerAndRefreshGoogleApplicationWatches(googleJobs);
+    const notify = await notifyNewBrowserJobs(deduped.filter((job) => !googleJobIdFromUrl(job.url)));
+    const googleNotify = await notifyGoogleApplicationsOpened(openUnnotifiedGoogleJobs(googleState));
+    const notifiedAt = new Date().toISOString();
+    if (googleNotify.notifiedUrls?.length) {
+      await markGoogleApplicationsNotified(googleNotify.notifiedUrls, notifiedAt);
+    }
     g.__rtLastBrowserScan = Date.now();
     return ok({
       ran: true,
@@ -82,6 +100,7 @@ export const POST = handler(async () => {
       newJobs,
       errors: result.errors,
       notify,
+      googleApplicationNotify: googleNotify,
     });
   } finally {
     g.__rtBrowserScanRunning = false;

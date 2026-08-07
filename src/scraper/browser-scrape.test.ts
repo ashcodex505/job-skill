@@ -1,5 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { BROWSER_SCAN_MAX_AGE_MS, googleJobUrlFromJsData, isFreshEnough, parseRelativePostedAt, stripPostedPhrase } from "./browser-scrape";
+import {
+  BROWSER_SCAN_MAX_AGE_MS,
+  googleCareersSearchUrls,
+  googleJobUrlFromJsData,
+  isFreshEnough,
+  parseRelativePostedAt,
+  stripPostedPhrase,
+} from "./browser-scrape";
 
 const NOW = new Date("2026-08-04T12:00:00Z");
 
@@ -15,6 +22,18 @@ describe("googleJobUrlFromJsData", () => {
     expect(googleJobUrlFromJsData("")).toBeNull();
     expect(googleJobUrlFromJsData("Aiqs8c;;$2")).toBeNull();
     expect(googleJobUrlFromJsData("not a jsdata string")).toBeNull();
+  });
+});
+
+describe("googleCareersSearchUrls", () => {
+  it("keeps early-career and internship discovery in separate paginated searches", () => {
+    const urls = googleCareersSearchUrls().map((value) => new URL(value));
+    expect(urls).toHaveLength(9);
+    expect(urls.filter((url) => url.searchParams.get("target_level") === "EARLY")).toHaveLength(3);
+    expect(urls.filter((url) => url.searchParams.get("target_level") === "INTERN_AND_APPRENTICE")).toHaveLength(3);
+    expect(urls.some((url) => url.searchParams.get("q") === '"Software Engineer, Early Career"')).toBe(true);
+    expect(urls.some((url) => url.searchParams.get("page") === "3")).toBe(true);
+    expect(urls.some((url) => url.searchParams.get("target_level")?.includes(","))).toBe(false);
   });
 });
 

@@ -326,6 +326,37 @@ interface GoogleJobCard {
   location: string;
 }
 
+interface GoogleSearchPlan {
+  query: string;
+  targetLevel?: "EARLY" | "INTERN_AND_APPRENTICE";
+  pages: number;
+}
+
+// Separate level searches are intentional. Google's combined level filter
+// ranks enough unrelated roles above Early Career that the Campus posting
+// which prompted this watcher disappeared from page one.
+export const GOOGLE_SEARCH_PLANS: readonly GoogleSearchPlan[] = [
+  { query: "software engineer", targetLevel: "EARLY", pages: 3 },
+  { query: "software engineer", targetLevel: "INTERN_AND_APPRENTICE", pages: 3 },
+  { query: '"Software Engineer, Early Career"', pages: 1 },
+  { query: '"Software Engineer, New Grad"', pages: 1 },
+  { query: '"Software Engineer, Campus"', pages: 1 },
+];
+
+/** Builds the independently paginated Google discovery URLs. Pure — exported for tests. */
+export function googleCareersSearchUrls(): string[] {
+  const base = "https://www.google.com/about/careers/applications/jobs/results/";
+  return GOOGLE_SEARCH_PLANS.flatMap((plan) =>
+    Array.from({ length: plan.pages }, (_, index) => {
+      const url = new URL(base);
+      url.searchParams.set("q", plan.query);
+      if (plan.targetLevel) url.searchParams.set("target_level", plan.targetLevel);
+      if (index > 0) url.searchParams.set("page", String(index + 1));
+      return url.href;
+    }),
+  );
+}
+
 async function readGoogleCards(page: Page): Promise<GoogleJobCard[]> {
   return page.evaluate(() =>
     Array.from(document.querySelectorAll("li.lLd3Je")).map((li) => ({
@@ -340,35 +371,43 @@ async function scrapeGoogleCareers(browser: Browser, company: BrowserCompany): P
   const context = await newHardenedContext(browser);
   try {
     const page = await context.newPage();
-    // Google's job cards load via an XHR after the initial document —
-    // domcontentloaded fires before they exist. networkidle (confirmed live,
-    // ~2-3s here) is what actually waits long enough to see them.
-    await page.goto(company.careersUrl, { waitUntil: "networkidle", timeout: NAVIGATE_TIMEOUT_MS + 5000 }).catch(() => {});
-    await page.waitForTimeout(HYDRATION_WAIT_MS);
-
-    const dom = await readDom(page);
-    const cards = await readGoogleCards(page);
-    const blockReason = detectBlock(dom, cards.length);
-    if (blockReason) throw new BlockedError(page.url(), blockReason);
-
     const jobs: RawJob[] = [];
     const seen = new Set<string>();
-    for (const c of cards) {
-      if (!c.title) continue;
-      const url = googleJobUrlFromJsData(c.jsdata);
-      if (!url || seen.has(url)) continue;
-      seen.add(url);
-      jobs.push({
-        source: "browser",
-        sourceId: null,
-        company: company.name,
-        title: c.title,
-        location: c.location || null,
-        url,
-        postedAt: null,
-        description: null,
-        seasonHint: company.seasonHint ?? null,
-      });
+
+    // The configured URL selects Google as a browser-scan company; discovery
+    // itself uses these controlled queries so a stale/narrow q= value in the
+    // Markdown file cannot hide an Early Career posting again.
+    for (const searchUrl of googleCareersSearchUrls()) {
+      // Google's cards arrive via an XHR after the document. networkidle is
+      // the reliable readiness signal; the short extra wait absorbs card
+      // rendering without opening every individual detail page.
+      await page.goto(searchUrl, { waitUntil: "networkidle", timeout: NAVIGATE_TIMEOUT_MS + 5000 }).catch(() => {});
+      await page.waitForTimeout(HYDRATION_WAIT_MS);
+
+      const dom = await readDom(page);
+      const cards = await readGoogleCards(page);
+      const blockReason = detectBlock(dom, cards.length);
+      if (blockReason) throw new BlockedError(page.url(), blockReason);
+      if (cards.length === 0) continue;
+
+      for (const c of cards) {
+        if (!c.title) continue;
+        const url = googleJobUrlFromJsData(c.jsdata);
+        if (!url || seen.has(url)) continue;
+        seen.add(url);
+        jobs.push({
+          source: "browser",
+          sourceId: null,
+          company: company.name,
+          title: c.title,
+          location: c.location || null,
+          url,
+          postedAt: null,
+          description: null,
+          seasonHint: company.seasonHint ?? null,
+        });
+        if (jobs.length >= LISTING_MAX) return jobs;
+      }
     }
     return jobs;
   } finally {

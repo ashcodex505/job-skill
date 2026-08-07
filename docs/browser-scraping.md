@@ -98,6 +98,47 @@ other precedent for bespoke logic in this codebase: `adapters.ts`'s
 justified exception, not a crack in the "generic" design — every other
 company still goes through the shared reader.
 
+Google discovery no longer trusts the single query string stored in
+`career/browser-companies.md`. A full Google scan runs **separate** searches
+for `target_level=EARLY` and `target_level=INTERN_AND_APPRENTICE` (three
+pages each), plus exact Early Career, New Grad, and Campus title searches.
+The level filters stay separate because Google's combined filter ranks the
+result set differently and hid a confirmed Early Career Campus role from the
+first page. Results are deduplicated by Google's numeric job ID before they
+enter the normal career-policy pipeline.
+
+## Google preview pages and application readiness
+
+Google can publish a job-detail page before it accepts applications. Those
+pages have a real title/location and can appear in search, but have no Apply
+control. Alerting at discovery time would consume the browser alert ledger
+and lose the important later transition.
+
+The dashboard therefore keeps a lightweight readiness watch in
+`data/google-application-watch.json` (local and gitignored):
+
+- Matching Google jobs found by the full browser scan are registered
+  automatically. A leaked Google job-detail URL can also be pasted into the
+  Browser Scan panel before it appears reliably in search.
+- The role is still normalized and stored on the local board immediately,
+  but a Google GitHub issue is gated until the detail HTML contains the exact
+  actionable anchor Google uses: `aria-label="Apply"` and an
+  `apply?jobId=...` href. Prose about "applying" and non-link buttons do not
+  count.
+- Detail checks use a direct HTML GET, not Chromium, and run at a fixed
+  **10-minute** cadence only while the dashboard is open. They stop after
+  Apply is detected. The heavier whole-company browser cadence remains a
+  separate configurable setting.
+- An open transition creates an issue labeled `browser-scan` and
+  `applications-open`. The issue body contains a deterministic fingerprint,
+  so a retry after a process interruption recognizes an already-created
+  issue instead of duplicating it. Local `notifiedAt` is written only after
+  GitHub succeeds.
+- Network failures and challenge pages leave the prior state intact and are
+  retried. A role is marked unavailable only after three consecutive,
+  definitive missing-page responses; one bad response cannot silently close
+  it.
+
 Three things this version does that career-ops's doesn't:
 
 1. **Explicit blocked-page detection (`BlockedError`).** career-ops's version
@@ -162,7 +203,7 @@ Apple, is why these four got a second, deeper look:
 |---|---|---|---|
 | **Microsoft** | Migrated to **Eightfold** (`apply.careers.microsoft.com` — confirmed via `x-ef-*` response headers, the same platform this repo already scrapes directly for Netflix). Its `/api/apply/v2/jobs` endpoint returns `"Not authorized for PCSX"` to a plain HTTP request, even shaped exactly like our working Netflix call — a deliberate session/CSRF gate we don't attempt to bypass (see `registry.ts`'s comment). | The **generic extractor works well** once given `?domain=microsoft.com&query=software%20engineer%20intern` — real anchors, with title + location + relative posted date all in one string, once `innerText` (not `textContent`) is used to read them (see below). | Postings never state a season in the title — `seasonHint: "Fall 2026"` set explicitly, confirmed live to surface the exact real postings this investigation started from (Security & Identity, Data Platform/Analytics, AI/ML & LLM interns). |
 | **Meta** | Own platform (`metacareers.com`), real `<a href="/profile/job_details/{id}">` cards. | Generic extractor works. `q=intern` surfaces real "…Intern" titled postings. | Today's top results skew PhD/Research-titled, not plain Software Engineer — `role` score 0 for those (correctly excluded per your own target-roles list, not a bug). No `seasonHint` set — results will be thin until query tuning improves or the current crop shifts toward SWE-titled roles. |
-| **Google** | Own Closure/Material JS framework. Job cards are `<li class="lLd3Je">`, **not real anchors at all** — the generic extractor finds zero. Needed a dedicated extractor (see above). | Once `networkidle` wait is used (not just a fixed timeout — job cards load via a follow-up XHR), the dedicated extractor reads real cards with title + location. | Query tuning is genuinely unsolved here: `q="software engineer intern"` returns Senior/Staff-titled roles near the top, not literal internship postings, in today's live results. Infrastructure works; the query needs more iteration than this pass had time for. |
+| **Google** | Own Closure/Material JS framework. Job cards are `<li class="lLd3Je">`, **not real anchors at all** — the generic extractor finds zero. Needed a dedicated extractor (see above). | Once `networkidle` wait is used (not just a fixed timeout — job cards load via a follow-up XHR), the dedicated extractor reads real cards with title + location. Separate paginated Early, Intern, and exact-title searches now avoid the old noisy single-query ranking failure. | Some detail pages appear before Google adds Apply. The fixed 10-minute readiness watcher above gates the notification until that exact transition. |
 | **Apple** | Own platform (`jobs.apple.com`). A URL query param is silently ignored — the search box must be filled and submitted for real (`searchQuery` mechanism, built for this). | `search: software engineering internship` (not `"...intern"`) surfaces real, precisely on-topic results: "Software Engineering Masters Internships," "Software Undergrad Engineering Internships," etc. | None currently state a season either — no `seasonHint` set yet since none was confirmed necessary the way Microsoft's was; worth adding once a specific missed posting is diagnosed the same way. |
 
 A root-cause bug was also found and fixed while verifying Microsoft: the
@@ -175,10 +216,9 @@ match `InternUnited`). Switched to `el.innerText`, which respects rendered
 layout and inserts real whitespace between block-level siblings — fixes
 this for every company using the generic extractor, not just these four.
 
-Net: of this round's 4 attempts, 2 work well end-to-end today (Microsoft,
-Apple), 1 has working infrastructure but an unsolved query-tuning problem
-(Google), and 1 works but is currently thin on precisely-matching results
-(Meta) — an honest state, not a finished one. Query tuning for
+Net: of this round's 4 attempts, 3 now work end-to-end (Microsoft, Apple,
+and Google, after the later multi-query/readiness work), and 1 works but is
+currently thin on precisely-matching results (Meta). Query tuning for
 search-driven sites is inherently a moving target as each company's live
 postings change; today's queries are a verified starting point, not a
 permanent answer.
@@ -287,6 +327,10 @@ a known ATS domain — if you find one, that company belongs in
   the right cadence depends on how many companies are configured and how
   patient you want to be. Values are clamped server-side to [5 min, 24h]
   regardless of what's requested.
+- **Google Apply cadence is fixed at 10 minutes.** This is intentionally not
+  part of the interval dropdown: it fetches only already-known Google detail
+  HTML and does not launch a browser. Both the client timer and server-side
+  due check enforce 10 minutes, and both stop when the dashboard is closed.
 - **Sequential, not concurrent**, unlike the JSON adapters' 5-lane pool — each
   company here is a full browser context + page render, a much heavier unit
   of work, and running several at once on a machine you're also using is a
