@@ -63,6 +63,24 @@ export interface NormalizedJob extends Omit<RawJob, "description"> {
   descriptionText: string | null;
 }
 
+export type NormalizationRejectionReason =
+  | "empty_title"
+  | "irrelevant_title"
+  | "non_us_location"
+  | "internship_missing_season_or_role"
+  | "internship_season_not_allowed"
+  | "summer_company_not_approved"
+  | "not_explicit_new_grad"
+  | "missing_required_new_grad_phrase"
+  | "new_grad_season_not_allowed"
+  | "stale_posting";
+
+export interface NormalizationExplanation {
+  job: NormalizedJob | null;
+  reason: NormalizationRejectionReason | null;
+  classification: Classification | null;
+}
+
 const normalizedWords = (value: string): string =>
   value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().replace(/\s+/g, " ");
 
@@ -99,10 +117,18 @@ export function passesCareerPolicy(
   classification: Classification,
   config: CareerConfig,
 ): boolean {
+  return careerPolicyRejectionReason(raw, classification, config) === null;
+}
+
+export function careerPolicyRejectionReason(
+  raw: Pick<RawJob, "company" | "title">,
+  classification: Classification,
+  config: CareerConfig,
+): NormalizationRejectionReason | null {
   const { roleType, season, breakdown } = classification;
 
   if (roleType === "internship" && config.internshipSeasons.length > 0) {
-    if (breakdown.role === 0 || !season) return false;
+    if (breakdown.role === 0 || !season) return "internship_missing_season_or_role";
 
     // A bare cycle year ("2027" — Amazon's own title convention, no season
     // word) is under-specified but not "missing": accept it if the year
@@ -114,37 +140,41 @@ export function passesCareerPolicy(
     const isBareYear = /^\d{4}$/.test(season);
     if (isBareYear) {
       const targetYears = config.internshipSeasons.map((target) => target.match(/\d{4}/)?.[0]).filter(Boolean);
-      if (!targetYears.includes(season)) return false;
-      return true;
+      if (!targetYears.includes(season)) return "internship_season_not_allowed";
+      return null;
     }
 
-    if (!config.internshipSeasons.some((target) => equalsIgnoreCase(target, season))) return false;
+    if (!config.internshipSeasons.some((target) => equalsIgnoreCase(target, season))) {
+      return "internship_season_not_allowed";
+    }
 
     if (
       equalsIgnoreCase(season, "Summer 2027") &&
       config.summer2027ApprovedCompanies.length > 0 &&
       !isApprovedCompany(raw.company, config.summer2027ApprovedCompanies)
     ) {
-      return false;
+      return "summer_company_not_approved";
     }
-    return true;
+    return null;
   }
 
   if (config.requiredNewGradTitleKeywords.length > 0) {
     // In strict mode, generic full-time SWE roles are not assumed to be
     // entry-level merely because the title omits "Senior".
-    if (roleType !== "new_grad" || breakdown.role === 0) return false;
-    if (!config.requiredNewGradTitleKeywords.some((keyword) => includesPhrase(raw.title, keyword))) return false;
+    if (roleType !== "new_grad" || breakdown.role === 0) return "not_explicit_new_grad";
+    if (!config.requiredNewGradTitleKeywords.some((keyword) => includesPhrase(raw.title, keyword))) {
+      return "missing_required_new_grad_phrase";
+    }
 
     // A listing with no year is still useful; if it states a cycle, it must
     // match one of the configured New Grad seasons.
     const newGradSeasons = config.seasons.filter((target) => /new grad/i.test(target));
     if (season && newGradSeasons.length > 0 && !newGradSeasons.some((target) => equalsIgnoreCase(target, season))) {
-      return false;
+      return "new_grad_season_not_allowed";
     }
   }
 
-  return true;
+  return null;
 }
 
 /**
@@ -164,8 +194,13 @@ export function makeDedupeKey(job: RawJob): string {
  * your profile skills appear in the posting's title + description.
  */
 export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new Date()): NormalizedJob | null {
+  return explainNormalization(raw, config, ref).job;
+}
+
+/** Explain exactly why a posting was kept or rejected. */
+export function explainNormalization(raw: RawJob, config?: CareerConfig, ref: Date = new Date()): NormalizationExplanation {
   const title = raw.title.trim().replace(/\s+/g, " ");
-  if (!title) return null;
+  if (!title) return { job: null, reason: "empty_title", classification: null };
   // browser-sourced jobs (source: "browser") have no structured location
   // field — the generic DOM extractor glues it into the title text instead
   // ("Software Engineer Intern United States, Washington, Redmond") — so
@@ -173,19 +208,23 @@ export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new
   // silently inert for every browser-scanned company (confirmed live: a
   // Berlin posting passed straight through with raw.location === null).
   const locationSignal = raw.location ?? (raw.source === "browser" ? title : null);
-  const { relevant, roleType, season, score, breakdown } = classifyTitle(title, locationSignal, config, ref, raw.seasonHint);
-  if (!relevant) return null;
+  const classification = classifyTitle(title, locationSignal, config, ref, raw.seasonHint);
+  const { relevant, roleType, season, score, breakdown } = classification;
+  if (!relevant) return { job: null, reason: "irrelevant_title", classification };
   // Hard location policy: US, remote, or hybrid only — not a scoring signal.
-  if (!isUsRemoteOrHybridLocation(locationSignal)) return null;
-  if (config && !passesCareerPolicy({ company: raw.company, title }, { relevant, roleType, season, score, breakdown }, config)) {
-    return null;
+  if (!isUsRemoteOrHybridLocation(locationSignal)) return { job: null, reason: "non_us_location", classification };
+  if (config) {
+    const reason = careerPolicyRejectionReason({ company: raw.company, title }, classification, config);
+    if (reason) return { job: null, reason, classification };
   }
   // Opt-in freshness gate (career/preferences.md "Max posting age (days)").
   // A posting with no known postedAt is never dropped by this — same
   // "don't penalize missing data" rule as every other filter in this file.
   if (config?.maxPostingAgeDays && raw.postedAt) {
     const postedMs = new Date(raw.postedAt).getTime();
-    if (Number.isFinite(postedMs) && ref.getTime() - postedMs > config.maxPostingAgeDays * 86_400_000) return null;
+    if (Number.isFinite(postedMs) && ref.getTime() - postedMs > config.maxPostingAgeDays * 86_400_000) {
+      return { job: null, reason: "stale_posting", classification };
+    }
   }
 
   const descriptionText = raw.description ? stripHtml(raw.description).slice(0, DESCRIPTION_MAX_CHARS) || null : null;
@@ -201,16 +240,20 @@ export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new
   const { description: _description, ...rest } = raw;
   void _description;
   return {
-    ...rest,
-    title,
-    location: raw.location?.trim() || null,
-    dedupeKey: makeDedupeKey(raw),
-    roleType,
-    season,
-    score: Math.min(100, score + skillsScore),
-    breakdown: { ...breakdown, skills: skillsScore },
-    matchedSkills,
-    descriptionText,
+    reason: null,
+    classification,
+    job: {
+      ...rest,
+      title,
+      location: raw.location?.trim() || null,
+      dedupeKey: makeDedupeKey(raw),
+      roleType,
+      season,
+      score: Math.min(100, score + skillsScore),
+      breakdown: { ...breakdown, skills: skillsScore },
+      matchedSkills,
+      descriptionText,
+    },
   };
 }
 
@@ -223,7 +266,20 @@ export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new
 export function canonicalUrl(url: string): string {
   try {
     const u = new URL(url);
-    return `${u.host}${u.pathname}`.toLowerCase().replace(/\/+$/, "");
+    let pathname = u.pathname.replace(/\/+$/, "");
+    // Ashby exposes the same posting at both /<uuid> and
+    // /<uuid>/application?embed=true. Treat those as one identity so feed
+    // and direct-adapter copies cannot create duplicate issues.
+    if (u.hostname.toLowerCase() === "jobs.ashbyhq.com") pathname = pathname.replace(/\/application$/i, "");
+    // Workday exposes one requisition through multiple tenant boards and
+    // locale-prefixed paths. The stable requisition suffix is the shared
+    // identity (for example JR355250, R55736), while a trailing -1/-3 is a
+    // cosmetic route variant rather than a different job.
+    if (u.hostname.toLowerCase().endsWith(".myworkdayjobs.com")) {
+      const requisition = pathname.match(/(?:_|-)([a-z]{1,4}\d{4,})(?:-\d+)?$/i)?.[1];
+      if (requisition) pathname = `/requisition/${requisition}`;
+    }
+    return `${u.host}${pathname}`.toLowerCase().replace(/\/+$/, "");
   } catch {
     return url.toLowerCase().replace(/[?#].*$/, "").replace(/\/+$/, "");
   }

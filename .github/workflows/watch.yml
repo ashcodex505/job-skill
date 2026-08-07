@@ -114,8 +114,49 @@ jobs:
           DATABASE_PATH: /tmp/scrape.db
           BOARD_URGENT_FILE: ${{ runner.temp }}/urgent.md
           BOARD_BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
+          BOARD_ALERT_PAYLOAD_FILE: ${{ runner.temp }}/alerts.json
       - name: Record upstream feed HEADs
         run: printf '%s' '${{ needs.gate.outputs.heads }}' > board/feed-heads.json
+      - name: Urgent watchlist alert
+        if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          URGENT_FILE: ${{ runner.temp }}/urgent.md
+          ALERT_PAYLOAD: ${{ runner.temp }}/alerts.json
+          FINGERPRINT: ${{ steps.board.outputs.urgent_fingerprint }}
+          NOTIFY_USER: ${{ vars.JOB_ALERT_GITHUB_USER || github.repository_owner }}
+        run: |
+          [ -s "$URGENT_FILE" ] || exit 0
+          gh label create urgent --color B60205 --description "Watchlist match — apply now" 2>/dev/null || true
+          issue=$(gh issue list --state all --limit 200 --json number,body --jq "[.[] | select(.body | contains(\"<!-- job-alert:$FINGERPRINT -->\"))][0].number // empty")
+          if [ -z "$issue" ]; then
+            { echo "cc @$NOTIFY_USER"; echo; cat "$URGENT_FILE"; } > /tmp/urgent-body.md
+            url=$(gh issue create --title "🚨 URGENT: ${{ steps.board.outputs.urgent_title }}" --label urgent --assignee "$NOTIFY_USER" --body-file /tmp/urgent-body.md)
+            gh issue view "$url" >/dev/null
+          else
+            gh issue view "$issue" >/dev/null
+          fi
+          npm run alert:ack -- --payload "$ALERT_PAYLOAD" --type urgent
+      - name: Big-tech alert
+        if: steps.board.outputs.bigtech_count != '' && steps.board.outputs.bigtech_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
+          ALERT_PAYLOAD: ${{ runner.temp }}/alerts.json
+          FINGERPRINT: ${{ steps.board.outputs.bigtech_fingerprint }}
+          NOTIFY_USER: ${{ vars.JOB_ALERT_GITHUB_USER || github.repository_owner }}
+        run: |
+          [ -s "$BIGTECH_FILE" ] || exit 0
+          gh label create big-tech --color 0E8A16 --description "New big-tech/unicorn intern or new-grad role" 2>/dev/null || true
+          issue=$(gh issue list --state all --limit 200 --json number,body --jq "[.[] | select(.body | contains(\"<!-- job-alert:$FINGERPRINT -->\"))][0].number // empty")
+          if [ -z "$issue" ]; then
+            { echo "cc @$NOTIFY_USER — new big-tech/FAANG/unicorn early-career roles (quant/banking excluded)."; echo; cat "$BIGTECH_FILE"; } > /tmp/bigtech-body.md
+            url=$(gh issue create --title "⭐ Big tech: ${{ steps.board.outputs.bigtech_title }}" --label big-tech --assignee "$NOTIFY_USER" --body-file /tmp/bigtech-body.md)
+            gh issue view "$url" >/dev/null
+          else
+            gh issue view "$issue" >/dev/null
+          fi
+          npm run alert:ack -- --payload "$ALERT_PAYLOAD" --type bigtech
       - name: Commit board updates
         run: |
           git config user.name "github-actions[bot]"
@@ -124,44 +165,14 @@ jobs:
           if git diff --cached --quiet; then
             echo "No board changes."
           else
-            git commit \
-              -m "chore: feed watch (${{ steps.board.outputs.summary }}) [skip ci]"
+            git commit -m "chore: feed watch (${{ steps.board.outputs.summary }}) [skip ci]"
             if ! git pull --rebase origin main; then
-              # Regenerable board state; a genuine content conflict (concurrent
-              # run/manual push) is safe to drop — the next scheduled run
-              # regenerates it from source rather than needing manual resolution.
               echo "Push race detected — dropping this run's board commit; it self-corrects next run."
               git rebase --abort
             else
               git push
             fi
           fi
-      - name: Urgent watchlist alert
-        if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          URGENT_FILE: ${{ runner.temp }}/urgent.md
-        run: |
-          [ -s "$URGENT_FILE" ] || exit 0
-          gh label create urgent --color B60205 --description "Watchlist match — apply now" 2>/dev/null || true
-          { echo "cc @${{ github.repository_owner }}"; echo; cat "$URGENT_FILE"; } > /tmp/urgent-body.md
-          gh issue create \
-            --title "🚨 URGENT: ${{ steps.board.outputs.urgent_title }}" \
-            --label urgent \
-            --body-file /tmp/urgent-body.md
-      - name: Big-tech alert
-        if: steps.board.outputs.bigtech_count != '' && steps.board.outputs.bigtech_count != '0'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
-        run: |
-          [ -s "$BIGTECH_FILE" ] || exit 0
-          gh label create big-tech --color 0E8A16 --description "New big-tech/unicorn intern or new-grad role" 2>/dev/null || true
-          { echo "cc @${{ github.repository_owner }} — new big-tech/FAANG/unicorn early-career roles (quant/banking excluded)."; echo; cat "$BIGTECH_FILE"; } > /tmp/bigtech-body.md
-          gh issue create \
-            --title "⭐ Big tech: ${{ steps.board.outputs.bigtech_title }}" \
-            --label big-tech \
-            --body-file /tmp/bigtech-body.md
 
   # No upstream repo to compare a commit SHA against, so this just runs
   # every scheduled tick. Scoped to Amazon + career/priority-companies.md +
@@ -189,23 +200,104 @@ jobs:
           BOARD_URGENT_FILE: ${{ runner.temp }}/urgent.md
           BOARD_BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
           BOARD_SOURCE_HEALTH_FILE: ${{ runner.temp }}/source-health.md
+          BOARD_POLICY_GAP_FILE: ${{ runner.temp }}/policy-gap.md
+          BOARD_RECOVERY_FILE: ${{ runner.temp }}/recovery.md
+          BOARD_ALERT_PAYLOAD_FILE: ${{ runner.temp }}/alerts.json
       - name: Report scraper source health
         env:
           GH_TOKEN: ${{ github.token }}
           HEALTH_FILE: ${{ runner.temp }}/source-health.md
           ERROR_COUNT: ${{ steps.board.outputs.source_error_count }}
+          NOTIFY_USER: ${{ vars.JOB_ALERT_GITHUB_USER || github.repository_owner }}
         run: |
           gh label create scraper-health --color D93F0B --description "A configured job source could not be checked" 2>/dev/null || true
           issue=$(gh issue list --state open --label scraper-health --json number --jq '.[0].number // empty')
           if [ "${ERROR_COUNT:-0}" != "0" ]; then
             [ -s "$HEALTH_FILE" ] || exit 0
+            { echo "cc @$NOTIFY_USER"; echo; cat "$HEALTH_FILE"; } > /tmp/source-health-body.md
             if [ -z "$issue" ]; then
-              { echo "cc @${{ github.repository_owner }}"; echo; cat "$HEALTH_FILE"; } > /tmp/source-health-body.md
-              gh issue create --title "🛠 Job scraper source failure" --label scraper-health --body-file /tmp/source-health-body.md
+              gh issue create --title "🛠 Job scraper source failure" --label scraper-health --assignee "$NOTIFY_USER" --body-file /tmp/source-health-body.md
+            else
+              gh issue edit "$issue" --body-file /tmp/source-health-body.md
             fi
           elif [ -n "$issue" ]; then
             gh issue close "$issue" --comment "All configured direct job sources recovered on this run."
           fi
+      - name: Report strict-policy gaps
+        env:
+          GH_TOKEN: ${{ github.token }}
+          POLICY_FILE: ${{ runner.temp }}/policy-gap.md
+          GAP_COUNT: ${{ steps.board.outputs.policy_gap_count }}
+          NOTIFY_USER: ${{ vars.JOB_ALERT_GITHUB_USER || github.repository_owner }}
+        run: |
+          gh label create policy-gap --color FBCA04 --description "A likely early-career title conflicts with strict preferences" 2>/dev/null || true
+          issue=$(gh issue list --state open --label policy-gap --json number --jq '.[0].number // empty')
+          if [ "${GAP_COUNT:-0}" != "0" ]; then
+            [ -s "$POLICY_FILE" ] || exit 0
+            { echo "cc @$NOTIFY_USER"; echo; cat "$POLICY_FILE"; } > /tmp/policy-gap-body.md
+            if [ -z "$issue" ]; then
+              gh issue create --title "⚠️ Job title policy needs review" --label policy-gap --assignee "$NOTIFY_USER" --body-file /tmp/policy-gap-body.md
+            else
+              gh issue edit "$issue" --body-file /tmp/policy-gap-body.md
+            fi
+          elif [ -n "$issue" ]; then
+            gh issue close "$issue" --comment "No strict new-grad title-policy gaps were found on this run."
+          fi
+      - name: Report watcher recovery gap
+        if: steps.board.outputs.recovery_gap_minutes != '' && steps.board.outputs.recovery_gap_minutes != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RECOVERY_FILE: ${{ runner.temp }}/recovery.md
+          FINGERPRINT: ${{ steps.board.outputs.recovery_fingerprint }}
+          NOTIFY_USER: ${{ vars.JOB_ALERT_GITHUB_USER || github.repository_owner }}
+        run: |
+          [ -s "$RECOVERY_FILE" ] || exit 0
+          gh label create watcher-recovery --color 5319E7 --description "Scheduled watcher recovered after a scan gap" 2>/dev/null || true
+          issue=$(gh issue list --state all --limit 200 --json number,body --jq "[.[] | select(.body | contains(\"<!-- watcher-recovery:$FINGERPRINT -->\"))][0].number // empty")
+          if [ -z "$issue" ]; then
+            { echo "cc @$NOTIFY_USER"; echo; cat "$RECOVERY_FILE"; } > /tmp/recovery-body.md
+            gh issue create --title "🔄 Job watcher recovered after a scan gap" --label watcher-recovery --assignee "$NOTIFY_USER" --body-file /tmp/recovery-body.md
+          fi
+      - name: Urgent watchlist alert
+        if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          URGENT_FILE: ${{ runner.temp }}/urgent.md
+          ALERT_PAYLOAD: ${{ runner.temp }}/alerts.json
+          FINGERPRINT: ${{ steps.board.outputs.urgent_fingerprint }}
+          NOTIFY_USER: ${{ vars.JOB_ALERT_GITHUB_USER || github.repository_owner }}
+        run: |
+          [ -s "$URGENT_FILE" ] || exit 0
+          gh label create urgent --color B60205 --description "Watchlist match — apply now" 2>/dev/null || true
+          issue=$(gh issue list --state all --limit 200 --json number,body --jq "[.[] | select(.body | contains(\"<!-- job-alert:$FINGERPRINT -->\"))][0].number // empty")
+          if [ -z "$issue" ]; then
+            { echo "cc @$NOTIFY_USER"; echo; cat "$URGENT_FILE"; } > /tmp/urgent-body.md
+            url=$(gh issue create --title "🚨 URGENT: ${{ steps.board.outputs.urgent_title }}" --label urgent --assignee "$NOTIFY_USER" --body-file /tmp/urgent-body.md)
+            gh issue view "$url" >/dev/null
+          else
+            gh issue view "$issue" >/dev/null
+          fi
+          npm run alert:ack -- --payload "$ALERT_PAYLOAD" --type urgent
+      - name: Big-tech alert
+        if: steps.board.outputs.bigtech_count != '' && steps.board.outputs.bigtech_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
+          ALERT_PAYLOAD: ${{ runner.temp }}/alerts.json
+          FINGERPRINT: ${{ steps.board.outputs.bigtech_fingerprint }}
+          NOTIFY_USER: ${{ vars.JOB_ALERT_GITHUB_USER || github.repository_owner }}
+        run: |
+          [ -s "$BIGTECH_FILE" ] || exit 0
+          gh label create big-tech --color 0E8A16 --description "New big-tech/unicorn intern or new-grad role" 2>/dev/null || true
+          issue=$(gh issue list --state all --limit 200 --json number,body --jq "[.[] | select(.body | contains(\"<!-- job-alert:$FINGERPRINT -->\"))][0].number // empty")
+          if [ -z "$issue" ]; then
+            { echo "cc @$NOTIFY_USER — new big-tech/FAANG/unicorn early-career roles (quant/banking excluded)."; echo; cat "$BIGTECH_FILE"; } > /tmp/bigtech-body.md
+            url=$(gh issue create --title "⭐ Big tech: ${{ steps.board.outputs.bigtech_title }}" --label big-tech --assignee "$NOTIFY_USER" --body-file /tmp/bigtech-body.md)
+            gh issue view "$url" >/dev/null
+          else
+            gh issue view "$issue" >/dev/null
+          fi
+          npm run alert:ack -- --payload "$ALERT_PAYLOAD" --type bigtech
       - name: Commit board updates
         run: |
           git config user.name "github-actions[bot]"
@@ -214,41 +306,11 @@ jobs:
           if git diff --cached --quiet; then
             echo "No board changes."
           else
-            git commit \
-              -m "chore: priority scan (${{ steps.board.outputs.summary }}) [skip ci]"
+            git commit -m "chore: priority scan (${{ steps.board.outputs.summary }}) [skip ci]"
             if ! git pull --rebase origin main; then
-              # Regenerable board state; a genuine content conflict (concurrent
-              # run/manual push) is safe to drop — the next scheduled run
-              # regenerates it from source rather than needing manual resolution.
               echo "Push race detected — dropping this run's board commit; it self-corrects next run."
               git rebase --abort
             else
               git push
             fi
           fi
-      - name: Urgent watchlist alert
-        if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          URGENT_FILE: ${{ runner.temp }}/urgent.md
-        run: |
-          [ -s "$URGENT_FILE" ] || exit 0
-          gh label create urgent --color B60205 --description "Watchlist match — apply now" 2>/dev/null || true
-          { echo "cc @${{ github.repository_owner }}"; echo; cat "$URGENT_FILE"; } > /tmp/urgent-body.md
-          gh issue create \
-            --title "🚨 URGENT: ${{ steps.board.outputs.urgent_title }}" \
-            --label urgent \
-            --body-file /tmp/urgent-body.md
-      - name: Big-tech alert
-        if: steps.board.outputs.bigtech_count != '' && steps.board.outputs.bigtech_count != '0'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
-        run: |
-          [ -s "$BIGTECH_FILE" ] || exit 0
-          gh label create big-tech --color 0E8A16 --description "New big-tech/unicorn intern or new-grad role" 2>/dev/null || true
-          { echo "cc @${{ github.repository_owner }} — new big-tech/FAANG/unicorn early-career roles (quant/banking excluded)."; echo; cat "$BIGTECH_FILE"; } > /tmp/bigtech-body.md
-          gh issue create \
-            --title "⭐ Big tech: ${{ steps.board.outputs.bigtech_title }}" \
-            --label big-tech \
-            --body-file /tmp/bigtech-body.md

@@ -38,6 +38,47 @@ jobs:
           BOARD_NEW_JOBS_FILE: ${{ runner.temp }}/new-jobs.md
           BOARD_URGENT_FILE: ${{ runner.temp }}/urgent.md
           BOARD_BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
+          BOARD_ALERT_PAYLOAD_FILE: ${{ runner.temp }}/alerts.json
+      - name: Urgent watchlist alert
+        if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          URGENT_FILE: ${{ runner.temp }}/urgent.md
+          ALERT_PAYLOAD: ${{ runner.temp }}/alerts.json
+          FINGERPRINT: ${{ steps.board.outputs.urgent_fingerprint }}
+          NOTIFY_USER: ${{ vars.JOB_ALERT_GITHUB_USER || github.repository_owner }}
+        run: |
+          [ -s "$URGENT_FILE" ] || exit 0
+          gh label create urgent --color B60205 --description "Watchlist match — apply now" 2>/dev/null || true
+          issue=$(gh issue list --state all --limit 200 --json number,body --jq "[.[] | select(.body | contains(\"<!-- job-alert:$FINGERPRINT -->\"))][0].number // empty")
+          if [ -z "$issue" ]; then
+            { echo "cc @$NOTIFY_USER"; echo; cat "$URGENT_FILE"; } > /tmp/urgent-body.md
+            url=$(gh issue create --title "🚨 URGENT: ${{ steps.board.outputs.urgent_title }}" --label urgent --assignee "$NOTIFY_USER" --body-file /tmp/urgent-body.md)
+            gh issue view "$url" >/dev/null
+          else
+            gh issue view "$issue" >/dev/null
+          fi
+          npm run alert:ack -- --payload "$ALERT_PAYLOAD" --type urgent
+      - name: Big-tech alert
+        if: steps.board.outputs.bigtech_count != '' && steps.board.outputs.bigtech_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
+          ALERT_PAYLOAD: ${{ runner.temp }}/alerts.json
+          FINGERPRINT: ${{ steps.board.outputs.bigtech_fingerprint }}
+          NOTIFY_USER: ${{ vars.JOB_ALERT_GITHUB_USER || github.repository_owner }}
+        run: |
+          [ -s "$BIGTECH_FILE" ] || exit 0
+          gh label create big-tech --color 0E8A16 --description "New big-tech/unicorn intern or new-grad role" 2>/dev/null || true
+          issue=$(gh issue list --state all --limit 200 --json number,body --jq "[.[] | select(.body | contains(\"<!-- job-alert:$FINGERPRINT -->\"))][0].number // empty")
+          if [ -z "$issue" ]; then
+            { echo "cc @$NOTIFY_USER — new big-tech/unicorn early-career roles (quant/banking excluded)."; echo; cat "$BIGTECH_FILE"; } > /tmp/bigtech-body.md
+            url=$(gh issue create --title "⭐ Big tech: ${{ steps.board.outputs.bigtech_title }}" --label big-tech --assignee "$NOTIFY_USER" --body-file /tmp/bigtech-body.md)
+            gh issue view "$url" >/dev/null
+          else
+            gh issue view "$issue" >/dev/null
+          fi
+          npm run alert:ack -- --payload "$ALERT_PAYLOAD" --type bigtech
       - name: Commit board updates
         run: |
           git config user.name "github-actions[bot]"
@@ -50,41 +91,12 @@ jobs:
               -m "chore: refresh job board (${{ steps.board.outputs.summary }}) [skip ci]" \
               -m "Co-authored-by: Ashish Kurse <ashishkurse@gmail.com>"
             if ! git pull --rebase origin main; then
-              # Regenerable board state; a genuine content conflict (concurrent
-              # run/manual push) is safe to drop — the next scheduled run
-              # regenerates it from source rather than needing manual resolution.
               echo "Push race detected — dropping this run's board commit; it self-corrects next run."
               git rebase --abort
             else
               git push
             fi
           fi
-      - name: Urgent watchlist alert
-        if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          URGENT_FILE: ${{ runner.temp }}/urgent.md
-        run: |
-          [ -s "$URGENT_FILE" ] || exit 0
-          gh label create urgent --color B60205 --description "Watchlist match — apply now" 2>/dev/null || true
-          { echo "cc @${{ github.repository_owner }}"; echo; cat "$URGENT_FILE"; } > /tmp/urgent-body.md
-          gh issue create \
-            --title "🚨 URGENT: ${{ steps.board.outputs.urgent_title }}" \
-            --label urgent \
-            --body-file /tmp/urgent-body.md
-      - name: Big-tech alert
-        if: steps.board.outputs.bigtech_count != '' && steps.board.outputs.bigtech_count != '0'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          BIGTECH_FILE: ${{ runner.temp }}/bigtech.md
-        run: |
-          [ -s "$BIGTECH_FILE" ] || exit 0
-          gh label create big-tech --color 0E8A16 --description "New big-tech/unicorn intern or new-grad role" 2>/dev/null || true
-          { echo "cc @${{ github.repository_owner }} — new big-tech/unicorn early-career roles (quant/banking excluded)."; echo; cat "$BIGTECH_FILE"; } > /tmp/bigtech-body.md
-          gh issue create \
-            --title "⭐ Big tech: ${{ steps.board.outputs.bigtech_title }}" \
-            --label big-tech \
-            --body-file /tmp/bigtech-body.md
       # No per-cycle job-alert issues: the only notifications are ⭐ big-tech
       # and 🚨 urgent watchlist matches. New jobs still land on the board and
       # in the run's step summary.

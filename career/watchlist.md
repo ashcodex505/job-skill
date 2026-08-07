@@ -10,3 +10,5 @@ the hourly CI watch run reads the committed copy of this file.
 ## Watches
 
 - Shopify — Software Engineering Internships Winter 2027
+- Salesforce — College Grad
+- Quora — New Grad

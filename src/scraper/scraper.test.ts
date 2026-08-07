@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { classifyTitle, defaultSeasonTargets, detectRoleType, detectSeason, isUsRemoteOrHybridLocation } from "./classify";
-import { dedupeJobs, isApprovedCompany, makeDedupeKey, normalizeJob, type RawJob } from "./normalize";
+import { canonicalUrl, dedupeJobs, explainNormalization, isApprovedCompany, makeDedupeKey, normalizeJob, type RawJob } from "./normalize";
 import type { CareerConfig } from "@/lib/career/config";
 
 /** Deterministic "today" for season-sensitive tests. */
@@ -21,7 +21,7 @@ const strictConfig: CareerConfig = {
   skills: [],
   targetRoles: ["Software Engineer", "Software Developer", "Backend", "Frontend", "Full-Stack", "Platform Engineer"],
   seasons: ["2027 New Grad", "Fall 2026", "Summer 2027"],
-  requiredNewGradTitleKeywords: ["New Grad", "New Graduate", "Early Career", "Early Careers"],
+  requiredNewGradTitleKeywords: ["New Grad", "New Graduate", "Early Career", "Early Careers", "College Grad", "College Graduate"],
   internshipSeasons: ["Fall 2026", "Summer 2027"],
   summer2027ApprovedCompanies: ["Stripe", "Meta"],
   locations: [],
@@ -180,8 +180,17 @@ describe("normalize + dedupe", () => {
     expect(normalizeJob(raw({ title: "Software Engineer, University Graduate 2027" }), strictConfig, REF)).toBeNull();
     expect(normalizeJob(raw({ title: "Software Engineer, New Grad 2027" }), strictConfig, REF)).not.toBeNull();
     expect(normalizeJob(raw({ title: "Software Engineer — Early-Career" }), strictConfig, REF)).not.toBeNull();
+    expect(normalizeJob(raw({ title: "Software Engineering AMTS (College Grad)", company: "Salesforce" }), strictConfig, REF)).not.toBeNull();
     expect(normalizeJob(raw({ title: "Marketing Associate, New Grad 2027" }), strictConfig, REF)).toBeNull();
     expect(normalizeJob(raw({ title: "Software Engineer, New Grad 2028" }), strictConfig, REF)).toBeNull();
+  });
+
+  it("explains strict-policy misses instead of silently discarding them", () => {
+    const config = { ...strictConfig, requiredNewGradTitleKeywords: ["New Grad"] };
+    const result = explainNormalization(raw({ title: "Software Engineering AMTS (College Grad)", company: "Salesforce" }), config, REF);
+    expect(result.job).toBeNull();
+    expect(result.reason).toBe("missing_required_new_grad_phrase");
+    expect(result.classification?.roleType).toBe("new_grad");
   });
 
   it("allows only configured internship seasons and gates Summer 2027 by company", () => {
@@ -311,6 +320,20 @@ describe("cross-source duplicate collapse (canonical URL + earliest date)", () =
     const a = canonicalUrl("https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/X_JR2015779");
     const b = canonicalUrl("https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/X_JR2015779?utm_source=Simplify&ref=Simplify/");
     expect(a).toBe(b);
+  });
+
+  it("canonicalUrl treats Ashby application and base URLs as one posting", () => {
+    const base = "https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db";
+    expect(canonicalUrl(`${base}/application?embed=true`)).toBe(canonicalUrl(base));
+  });
+
+  it("canonicalUrl treats Workday board and locale variants as one requisition", () => {
+    const urls = [
+      "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California/Software-Engineering-AMTS--College-Grad-_JR355250-1",
+      "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California/Software-Engineering-AMTS--College-Grad-_JR355250-1",
+      "https://salesforce.wd12.myworkdayjobs.com/Futureforce_NewGradRoles/job/California/Software-Engineering-AMTS--College-Grad-_JR355250",
+    ];
+    expect(new Set(urls.map(canonicalUrl))).toEqual(new Set(["salesforce.wd12.myworkdayjobs.com/requisition/jr355250"]));
   });
 
   it("adapter copy wins but inherits the earliest posted date from any duplicate", async () => {

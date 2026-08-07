@@ -5,7 +5,7 @@ import { runPool } from "@/lib/concurrency";
 import { ADAPTERS, scrapeSimplifyFeeds, scrapeSpeedyApplyFeeds, scrapeVanshFeed, sleep } from "./adapters";
 import { resolvePostedAt } from "./board";
 import { scrapeReverseDiscovery, type DiscoveryCursor } from "./discover";
-import { dedupeJobs, FEED_SOURCES, normalizeJob, type NormalizedJob } from "./normalize";
+import { dedupeJobs, explainNormalization, FEED_SOURCES, normalizeJob, type NormalizedJob } from "./normalize";
 import { COMPANY_PORTALS, type CompanyPortal } from "./registry";
 
 const COMPANY_DELAY_MS = 400; // polite per-lane gap, unchanged even under concurrency
@@ -49,6 +49,7 @@ export interface ScrapeSummary {
   jobsFound: number;
   newJobs: number;
   errors: { company: string; message: string }[];
+  policyGaps: { company: string; title: string; url: string; reason: string }[];
   jobs: NormalizedJob[];
   /** Only set when options.discover was true — the cursor to persist for next run. */
   nextDiscoveryCursor?: DiscoveryCursor;
@@ -165,6 +166,7 @@ export async function runScraper(
   await db.insert(tables.scraperRuns).values({ id: runId, startedAt: now(), status: "running" });
 
   const errors: { company: string; message: string }[] = [];
+  const policyGaps: ScrapeSummary["policyGaps"] = [];
   const allJobs: NormalizedJob[] = [];
   const scannedCompanies: string[] = [];
   const scannedSources: string[] = [];
@@ -178,9 +180,14 @@ export async function runScraper(
   await runPool(interleaveByAts(portals), COMPANY_CONCURRENCY, async (portal) => {
     try {
       const raw = await ADAPTERS[portal.ats](portal);
-      const normalized = raw
-        .map((job) => normalizeJob(job, careerConfig))
-        .filter((j): j is NormalizedJob => j !== null);
+      const normalized: NormalizedJob[] = [];
+      for (const job of raw) {
+        const result = explainNormalization(job, careerConfig);
+        if (result.job) normalized.push(result.job);
+        else if (result.reason === "missing_required_new_grad_phrase") {
+          policyGaps.push({ company: job.company, title: job.title, url: job.url, reason: result.reason });
+        }
+      }
       allJobs.push(...normalized);
       scannedCompanies.push(portal.name);
       console.log(`  ${portal.name}: ${raw.length} postings, ${normalized.length} relevant`);
@@ -286,6 +293,7 @@ export async function runScraper(
     jobsFound: jobs.length,
     newJobs,
     errors,
+    policyGaps,
     jobs,
     nextDiscoveryCursor,
   };

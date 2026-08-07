@@ -852,7 +852,7 @@ const WORKDAY_PAGE_SIZE = 20;
 // NEW_GRAD_KEYWORDS/INTERN_KEYWORDS already look for — catches postings
 // phrased "University Graduate", "Early Career", etc. that "new grad" alone
 // would miss, without paying for a whole-board pull.
-const WORKDAY_SEARCH_TERMS = ["intern", "co-op", "new grad", "university graduate", "early career", "campus hire"];
+const WORKDAY_SEARCH_TERMS = ["intern", "co-op", "new grad", "college grad", "university graduate", "early career", "campus hire"];
 const WORKDAY_MAX_PAGES_PER_TERM = 10; // 200 postings/term — a targeted query rarely needs this many
 
 async function scrapeWorkday(portal: CompanyPortal): Promise<RawJob[]> {

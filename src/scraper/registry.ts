@@ -160,6 +160,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Character.AI", website: "https://character.ai", careersUrl: "https://character.ai/careers", ats: "ashby", slug: "character" },
   { name: "Applied Intuition", website: "https://appliedintuition.com", careersUrl: "https://appliedintuition.com/careers", ats: "ashby", slug: "applied" },
   { name: "Gemini", website: "https://gemini.com", careersUrl: "https://www.gemini.com/careers", ats: "greenhouse", slug: "gemini" },
+  { name: "Quora", website: "https://quora.com", careersUrl: "https://www.careers.quora.com", ats: "ashby", slug: "quora" },
 
   // ── Eightfold ───────────────────────────────────────────────────────
   {

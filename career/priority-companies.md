@@ -74,3 +74,4 @@ the committed copy of this file.
 - xAI
 - Mistral AI
 - Wiz
+- Quora

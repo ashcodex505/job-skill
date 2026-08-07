@@ -5,13 +5,15 @@ import { db } from "@/db";
 import { loadCareerConfig } from "@/lib/career/config";
 import { parsePriorityCompanies } from "@/lib/career/priority";
 import { matchWatches, parseWatchlist } from "@/lib/career/watchlist";
-import { filterUnalerted, recordAlerted, selectBigTechAlerts, type AlertLedger } from "./big-tech-alert";
+import { filterUnalerted, selectBigTechAlerts, type AlertLedger } from "./big-tech-alert";
+import { alertMarker, createAlertPayloadEntry, type AlertPayload } from "./alert-payload";
 import { closeJobs, diffNewJobs, mergeBoard, renderJobsMarkdown, updateReadme, type BoardData, type BoardJob } from "./board";
 import { loadScoutCompanies } from "./scout-state";
 import { renderNewJobsAlertTable } from "./job-alert";
 import type { DiscoveryCursor } from "./discover";
 import { COMPANY_PORTALS } from "./registry";
 import { runScraper } from "./run";
+import { detectRecoveryGap, type RecoveryGap, type WatchHealthState } from "./watch-health";
 
 /**
  * `npm run board [-- --company Stripe] [--no-linkcheck] [--watch]` — scrape,
@@ -26,6 +28,7 @@ const STATE_FILE = path.join(ROOT, "board", "jobs.json");
 const JOBS_MD = path.join(ROOT, "JOBS.md");
 const README_MD = path.join(ROOT, "README.md");
 const DISCOVERY_CURSOR_FILE = path.join(ROOT, "board", "discovery-cursor.json");
+const WATCH_HEALTH_FILE = path.join(ROOT, "board", "watch-health.json");
 
 function loadDiscoveryCursor(): DiscoveryCursor {
   try {
@@ -182,6 +185,17 @@ async function main() {
   }
 
   const now = new Date().toISOString();
+  let recoveryGap: RecoveryGap | null = null;
+  if (priorityMode) {
+    let watchHealth: WatchHealthState | null = null;
+    try {
+      watchHealth = JSON.parse(fs.readFileSync(WATCH_HEALTH_FILE, "utf8"));
+    } catch {
+      /* first successful priority run */
+    }
+    recoveryGap = detectRecoveryGap(watchHealth, now);
+    fs.writeFileSync(WATCH_HEALTH_FILE, JSON.stringify({ lastSuccessfulPriorityScanAt: now }, null, 1));
+  }
   let board = mergeBoard(previous, summary.jobs, now, {
     companies: summary.scannedCompanies,
     sources: summary.scannedSources,
@@ -224,9 +238,10 @@ async function main() {
   const urgentTitle =
     urgent.length === 1 ? `${urgent[0].company} — ${urgent[0].title}`.replace(/[\r\n]/g, " ").slice(0, 150) : `${urgent.length} watchlist matches`;
   if (urgent.length > 0) console.log(`🚨 URGENT: ${urgent.map((j) => `${j.company} — ${j.title}`).join(" | ")}`);
+  const urgentPayload = urgent.length > 0 ? createAlertPayloadEntry("urgent", urgent, now) : undefined;
   writeIfEnv(
     "GITHUB_OUTPUT",
-    `summary=${summaryLine}\nnew_count=${newJobs.length}\nurgent_count=${urgent.length}\nurgent_title=${urgentTitle}\nsource_error_count=${summary.errors.length}\n`,
+    `summary=${summaryLine}\nnew_count=${newJobs.length}\nurgent_count=${urgent.length}\nurgent_title=${urgentTitle}\nurgent_fingerprint=${urgentPayload?.fingerprint ?? ""}\nsource_error_count=${summary.errors.length}\npolicy_gap_count=${summary.policyGaps.length}\nrecovery_gap_minutes=${recoveryGap?.gapMinutes ?? 0}\nrecovery_fingerprint=${recoveryGap?.fingerprint ?? ""}\n`,
     true,
   );
   if (summary.errors.length > 0) {
@@ -239,6 +254,28 @@ async function main() {
     ].join("\n");
     writeIfEnv("BOARD_SOURCE_HEALTH_FILE", `${healthBody}\n`, false);
   }
+  if (summary.policyGaps.length > 0) {
+    const policyBody = [
+      "These direct-source postings were classified as new-grad roles, but strict title policy rejected them because preferences.md lacks their exact phrase:",
+      "",
+      ...summary.policyGaps.map((gap) => `- **${gap.company.replace(/[*_`]/g, "")} — [${gap.title.replace(/[\[\]]/g, "").replace(/[*_`]/g, "")}](${gap.url})**`),
+      "",
+      "Review the wording before adding it to the required new-grad title keywords.",
+    ].join("\n");
+    writeIfEnv("BOARD_POLICY_GAP_FILE", `${policyBody}\n`, false);
+  }
+  if (recoveryGap) {
+    const recoveryBody = [
+      `<!-- watcher-recovery:${recoveryGap.fingerprint} -->`,
+      `The priority job watcher recovered after a **${recoveryGap.gapMinutes}-minute scan gap**.`,
+      "",
+      `- Last successful scan: ${recoveryGap.previousSuccessfulAt}`,
+      `- Recovery scan: ${recoveryGap.recoveredAt}`,
+      "",
+      "GitHub Actions cannot send an issue while its runners are unavailable. This issue confirms the first successful catch-up scan afterward.",
+    ].join("\n");
+    writeIfEnv("BOARD_RECOVERY_FILE", `${recoveryBody}\n`, false);
+  }
   const newJobsTable = renderNewJobsAlertTable(newJobs, now);
   writeIfEnv(
     "GITHUB_STEP_SUMMARY",
@@ -248,7 +285,7 @@ async function main() {
   if (newJobsTable) writeIfEnv("BOARD_NEW_JOBS_FILE", `${newJobsTable}\n`, false);
   if (urgent.length > 0) {
     const urgentTable = renderNewJobsAlertTable(urgent, now);
-    writeIfEnv("BOARD_URGENT_FILE", `${urgentTable}\n`, false);
+    writeIfEnv("BOARD_URGENT_FILE", `${alertMarker(urgentPayload!.fingerprint)}\n${urgentTable}\n`, false);
   }
 
   // Big-tech/unicorn stream: separate high-signal issue, never double-firing
@@ -266,17 +303,23 @@ async function main() {
     bigTech.length === 1
       ? `${bigTech[0].company} — ${bigTech[0].title}`.replace(/[\r\n]/g, " ").slice(0, 150)
       : `${bigTech.length} new big-tech roles`;
+  const bigTechPayload = bigTech.length > 0 ? createAlertPayloadEntry("bigtech", bigTech, now) : undefined;
   if (bigTech.length > 0) {
     console.log(`⭐ Big tech: ${bigTech.map((j) => `${j.company} — ${j.title}`).join(" | ")}`);
-    writeIfEnv("BOARD_BIGTECH_FILE", `${renderNewJobsAlertTable(bigTech, now)}\n`, false);
+    writeIfEnv("BOARD_BIGTECH_FILE", `${alertMarker(bigTechPayload!.fingerprint)}\n${renderNewJobsAlertTable(bigTech, now)}\n`, false);
   }
-  writeIfEnv("GITHUB_OUTPUT", `bigtech_count=${bigTech.length}\nbigtech_title=${bigTechTitle}\n`, true);
+  writeIfEnv(
+    "GITHUB_OUTPUT",
+    `bigtech_count=${bigTech.length}\nbigtech_title=${bigTechTitle}\nbigtech_fingerprint=${bigTechPayload?.fingerprint ?? ""}\n`,
+    true,
+  );
 
-  // Record everything we are about to notify on so it can never re-alert.
-  const alerted = [...urgent, ...bigTech];
-  if (alerted.length > 0) {
-    fs.writeFileSync(ledgerFile, JSON.stringify(recordAlerted(ledger, alerted, now), null, 1));
-  }
+  // Transactional notification state: the scrape writes a payload but does
+  // not touch alerted.json. The workflow acknowledges each payload only
+  // after its issue is confirmed to exist, so an issue-creation failure is
+  // retried on the next run instead of becoming a silent permanent miss.
+  const alertPayload: AlertPayload = { urgent: urgentPayload, bigtech: bigTechPayload };
+  writeIfEnv("BOARD_ALERT_PAYLOAD_FILE", `${JSON.stringify(alertPayload, null, 1)}\n`, false);
 
   // Sanity check the marker invariant before letting CI commit the result.
   const readme = fs.readFileSync(README_MD, "utf8");
