@@ -48,6 +48,8 @@ export interface ScrapeSummary {
   scannedSources: string[];
   jobsFound: number;
   newJobs: number;
+  /** Dedupe keys inserted into the local database during this run. */
+  newJobKeys: string[];
   errors: { company: string; message: string }[];
   policyGaps: { company: string; title: string; url: string; reason: string }[];
   jobs: NormalizedJob[];
@@ -88,9 +90,10 @@ export async function syncCompanies(): Promise<Map<string, string>> {
 export async function upsertNormalizedJobs(
   jobs: NormalizedJob[],
   companyIds: Map<string, string>,
-): Promise<{ newJobs: number }> {
+): Promise<{ newJobs: number; newJobKeys: string[] }> {
   const timestamp = now();
   let newJobs = 0;
+  const newJobKeys: string[] = [];
 
   for (const job of jobs) {
     const existing = await db.query.discoveredJobs.findFirst({
@@ -118,6 +121,7 @@ export async function upsertNormalizedJobs(
         .where(eq(tables.discoveredJobs.id, existing.id));
     } else {
       newJobs += 1;
+      newJobKeys.push(job.dedupeKey);
       await db.insert(tables.discoveredJobs).values({
         id: newId(),
         source: job.source,
@@ -141,7 +145,7 @@ export async function upsertNormalizedJobs(
       });
     }
   }
-  return { newJobs };
+  return { newJobs, newJobKeys };
 }
 
 export async function runScraper(
@@ -247,7 +251,7 @@ export async function runScraper(
   }
 
   const jobs = dedupeJobs(allJobs);
-  const { newJobs } = await upsertNormalizedJobs(jobs, companyIds);
+  const { newJobs, newJobKeys } = await upsertNormalizedJobs(jobs, companyIds);
 
   // Jobs from successfully scanned companies/feeds NOT seen this run are gone.
   // Feed-sourced rows are owned by the feed, not the company, so a company
@@ -292,6 +296,7 @@ export async function runScraper(
     scannedSources,
     jobsFound: jobs.length,
     newJobs,
+    newJobKeys,
     errors,
     policyGaps,
     jobs,

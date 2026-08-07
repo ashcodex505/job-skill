@@ -3,14 +3,22 @@
 import { AlertTriangle, BellRing, ExternalLink, Plus, X } from "lucide-react";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
-import { Badge, Button, Card, Input, cn } from "@/components/ui";
+import { Badge, Button, Card, Input, Select, cn } from "@/components/ui";
 import { api, formatDate } from "@/lib/client";
 import { ANY_COMPANY, matchWatches, type Watch } from "@/lib/career/watchlist";
 import type { DiscoveredJob } from "@/lib/app-types";
 
-const POLL_MS = 5 * 60 * 1000;
 const CLOCK_TICK_MS = 60_000;
 const URGENT_WINDOW_MS = 24 * 60 * 60 * 1000;
+
+const INTERVAL_OPTIONS = [
+  { label: "Every 30 min", minutes: 30 },
+  { label: "Every hour", minutes: 60 },
+  { label: "Every 2 hours", minutes: 120 },
+  { label: "Every 4 hours", minutes: 240 },
+  { label: "Every 8 hours", minutes: 480 },
+  { label: "Every 12 hours", minutes: 720 },
+];
 
 interface WatchlistState {
   watches: Watch[];
@@ -19,24 +27,35 @@ interface WatchlistState {
   syncError?: string | null;
 }
 
+interface ScanSettings {
+  intervalMinutes: number;
+  lastRunAt: string | null;
+}
+
+interface WatchScanResult extends ScanSettings {
+  ran: boolean;
+  reason?: string;
+  notify?: { notified: boolean; reason?: string; issueJobCount?: number };
+}
+
 /**
  * Dashboard watchlist: the ONLY surface for adding/removing watches
  * (career/watchlist.md is app-managed).
  *
- * Polling only happens here — while this panel is mounted (dashboard open)
- * AND at least one watch exists. Zero watches means zero client-side
- * network activity; closing the app means zero client-side activity by
- * construction (no JS running). The hourly watch.yml CI run is the only
- * thing covering you the rest of the time (and it self-gates the same way:
- * skips entirely on an empty watchlist).
+ * Polling only happens here while this panel is mounted (dashboard open).
+ * The route scans all supported registry adapters and community feeds even
+ * with zero watches, keeping local discovery current and notifying for every
+ * newly inserted eligible opportunity. Watch chips filter the panel display.
  */
 export function WatchlistPanel() {
   const [state, setState] = useState<WatchlistState | null>(null);
+  const [settings, setSettings] = useState<ScanSettings | null>(null);
   const [jobs, setJobs] = useState<DiscoveredJob[]>([]);
   const [company, setCompany] = useState("");
   const [keywords, setKeywords] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [scanNotice, setScanNotice] = useState<string | null>(null);
   const [clock, setClock] = useState(() => Date.now());
 
   const loadJobs = useCallback(() => {
@@ -48,6 +67,7 @@ export function WatchlistPanel() {
   // Load watchlist state once on mount (cheap, no scan involved).
   useEffect(() => {
     api<WatchlistState>("/api/watchlist").then(setState).catch((e) => setError(e.message));
+    api<ScanSettings>("/api/scrape/watch").then(setSettings).catch((e) => setError(e.message));
     loadJobs();
   }, [loadJobs]);
   useEffect(() => {
@@ -55,25 +75,45 @@ export function WatchlistPanel() {
     return () => clearInterval(timer);
   }, []);
 
-  const hasWatches = (state?.watches.length ?? 0) > 0;
-
-  // Live-scan polling: only while mounted AND watches exist. Starts/stops
-  // as watches are added/removed, not just on initial mount.
+  // Full API/feed polling while mounted. The server reads and enforces the
+  // same interval, so overlapping tabs or a timer firing early cannot cause
+  // extra scrapes.
+  const intervalMinutes = settings?.intervalMinutes;
   useEffect(() => {
-    if (!hasWatches) return;
+    if (!intervalMinutes) return;
     const tick = () => {
-      // Each tick kicks a server-side watch-scan (scrapes watched companies
-      // + the community feeds into the local DB; throttled server-side to
-      // ~10 min), then re-reads jobs — so new postings appear while the
-      // dashboard sits open, no manual scrape needed.
-      api<{ ran: boolean }>("/api/scrape/watch", { method: "POST" })
-        .catch(() => {})
+      api<WatchScanResult>("/api/scrape/watch", { method: "POST" })
+        .then((result) => {
+          if (result.lastRunAt) {
+            setSettings({ intervalMinutes: result.intervalMinutes, lastRunAt: result.lastRunAt });
+          }
+          if (result.ran && result.notify?.notified) {
+            setScanNotice(`Created a local-watch GitHub issue for ${result.notify.issueJobCount ?? 0} new ${result.notify.issueJobCount === 1 ? "opportunity" : "opportunities"}.`);
+          } else if (result.ran && result.notify?.reason && !result.notify.reason.startsWith("no new")) {
+            setScanNotice(`Scan completed, but GitHub notification was not sent: ${result.notify.reason}`);
+          } else if (result.ran) {
+            setScanNotice(null);
+          }
+        })
+        .catch((e) => setScanNotice(`Local watch scan failed: ${e.message}`))
         .finally(loadJobs);
     };
     tick();
-    const timer = setInterval(tick, POLL_MS);
+    const timer = setInterval(tick, intervalMinutes * 60_000);
     return () => clearInterval(timer);
-  }, [hasWatches, loadJobs]);
+  }, [intervalMinutes, loadJobs]);
+
+  async function changeInterval(minutes: number) {
+    setError(null);
+    try {
+      setSettings(await api<ScanSettings>("/api/scrape/watch", {
+        method: "PUT",
+        body: JSON.stringify({ intervalMinutes: minutes }),
+      }));
+    } catch (e) {
+      setError((e as Error).message);
+    }
+  }
 
   async function add() {
     setBusy(true);
@@ -110,16 +150,36 @@ export function WatchlistPanel() {
 
   return (
     <Card className="p-4">
-      <div className="mb-2 flex items-center justify-between">
+      <div className="mb-2 flex items-center justify-between gap-2">
         <h2 className="flex items-center gap-2 text-sm font-semibold">
           <BellRing size={15} className="text-accent" /> Watchlist
           <span className="text-xs font-normal text-muted">
-            {hasWatches
-              ? "live-scans every ~10 min while this page is open (also covers Priority companies), hourly via CI · auto-syncs to GitHub"
-              : "add a watch to start scanning — otherwise nothing runs"}
+            all supported API adapters + community repos while this dashboard is open; browser pages excluded
           </span>
         </h2>
+        {settings ? (
+          <Select
+            className="w-36 shrink-0 text-xs"
+            value={settings.intervalMinutes}
+            onChange={(e) => changeInterval(Number(e.target.value))}
+            aria-label="Local watch scan frequency"
+          >
+            {INTERVAL_OPTIONS.map((option) => (
+              <option key={option.minutes} value={option.minutes}>
+                {option.label}
+              </option>
+            ))}
+          </Select>
+        ) : null}
       </div>
+
+      {settings ? (
+        <p className="mb-2 text-xs text-muted">
+          {settings.lastRunAt
+            ? `Last checked ${new Date(settings.lastRunAt).toLocaleString()}. New eligible opportunities create a GitHub issue labeled local-watch.`
+            : "Not run yet this session. New eligible opportunities create a GitHub issue labeled local-watch."}
+        </p>
+      ) : null}
 
       {state.syncError ? (
         <p className="mb-2 flex items-center gap-1.5 rounded-md border border-amber-300 bg-amber-50 p-2 text-xs text-amber-700 dark:bg-amber-950/30">
@@ -162,7 +222,7 @@ export function WatchlistPanel() {
       {state.watches.length === 0 ? (
         <p className="mb-2 text-xs text-muted">
           No watches yet. Add a company (or “{ANY_COMPANY}”) plus keywords — e.g. <em>Google — new grad software engineer</em> —
-          and matching roles appear here and trigger 🚨 urgent GitHub alerts the moment the scraper sees them.
+          to filter the roles shown here. The full local scan and <code>local-watch</code> issue alerts still run without a chip.
         </p>
       ) : (
         <div className="mb-3 flex flex-wrap gap-1.5">
@@ -182,11 +242,12 @@ export function WatchlistPanel() {
       )}
 
       {error ? <p className="mb-2 rounded-md border border-red-300 bg-red-50 p-2 text-xs text-red-700 dark:bg-red-950/40">{error}</p> : null}
+      {scanNotice ? <p className="mb-2 rounded-md border border-amber-300 bg-amber-50 p-2 text-xs text-amber-700 dark:bg-amber-950/30">{scanNotice}</p> : null}
 
       {/* Matches */}
       {state.watches.length > 0 ? (
         matches.length === 0 ? (
-          <p className="text-xs text-muted">No open roles match your watches yet — you&apos;ll see them here (and get an urgent GitHub notification) as soon as one appears.</p>
+          <p className="text-xs text-muted">No open roles match your watches yet. The local-watch issue stream still covers every new eligible opportunity found by this scan.</p>
         ) : (
           <ul className="divide-y divide-border">
             {matches.map((j) => (
