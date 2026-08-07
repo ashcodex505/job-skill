@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
-**337 open roles** across **122 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-07 01:00 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**365 open roles** across **140 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-07 01:09 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (10)
+## 🆕 New this cycle (38)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -15,9 +15,37 @@ Last updated: **2026-08-07 01:00 UTC** · auto-refreshed every 12h by [job-board
 | KBR | Software Intern 🆕 | Houston, TX | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Houston-Texas/Software-Intern_R2127863) |
 | State of Nebraska | IT Construction Systems Intern 🆕 | Lincoln, NE | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://son.wd108.myworkdayjobs.com/NebraskaStateCareers/job/Lincoln-NE/Student-Intern---IT-Construction-Systems_JR2026-00028484-1) |
 | Salesforce | Software Engineering AMTS (College Grad) 🆕 | 6 Locations | — | 80% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250-1) |
+| Boeing | Entry-Level Software Test Engineer 🆕 | Hazelwood, MO +1 | — | 70% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/en-US/external_careers/job/USA---Hazelwood-MO/Entry-Level-Software-Test-Engineer_JR2026516717-1) |
+| Muon | Software Engineer - Entry-Level 🆕 | San Jose, CA | — | 70% | 2026-08-05 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/muonspace/jobs/5204498007) |
 | Northrop Grumman | 2027 Intern Software Engineer 🆕 | Melbourne, FL | 2027 | 90% | 2026-08-05 | 2026-08-06 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573) |
+| Boeing | Entry-Level Software Engineer 🆕 | Maryland Heights, MO +1 | — | 70% | 2026-08-05 | 2026-08-07 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/en-US/external_careers/job/USA---Maryland-Heights-MO/Entry-Level-Software-Engineer_JR2026516694-1) |
+| Cox | Entry Level Software Engineer - Atlanta - GA 🆕 | Atlanta, GA | — | 70% | 2026-08-04 | 2026-08-07 | [**Apply ➜**](https://cox.wd1.myworkdayjobs.com/en-US/cox_external_career_site_1/job/Atlanta-GA/Entry-Level-Software-Engineer---Atlanta--GA_R202680858-1) |
+| Pariveda | Entry-Level Software Engineer 🆕 | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
+| EAi Technologies | Entry Level Software Developer 🆕 | Vienna, VA | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://eaiti.applytojob.com/apply/Y16NUsHVnd/Entry-Level-Software-Developer) |
+| EAi Technologies | Entry Level .NET Software Developer 🆕 | Vienna, VA | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://eaiti.applytojob.com/apply/9RStfnAuq4/Entry-Level-NET-Software-Developer) |
+| CAI | Systems Analyst - Entry-Level 🆕 | Orlando, FL | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://cai.wd5.myworkdayjobs.com/computer_aid/job/FL-CLIENT-STATE/Entry-Level-Systems-Analyst_R8248) |
+| Leidos | Entry-Level Software Developer 🆕 | St. Louis, MO | — | 70% | 2026-08-01 | 2026-08-07 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/St-Louis-MO/Entry-Level-Software-Developer_R-00188494) |
 | Nooks | Software Engineer - New Grad 🆕 | San Francisco, CA | — | 80% | 2026-07-30 | 2026-08-06 | [**Apply ➜**](https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53) |
+| Conduent | Java Developer – Entry Level 🆕 | Atlanta, GA | — | 72% (1 skills) | 2026-07-29 | 2026-08-07 | [**Apply ➜**](https://egua.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22738) |
+| Leidos | Entry Level Software Tester 🆕 | Lawton, OK | — | 70% | 2026-07-29 | 2026-08-07 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Lawton-OK/Entry-Level-Software-Tester_R-00187901) |
+| General Dynamics Mission Systems | Entry Level Software Systems Engineer 🆕 | Port Orchard, WA | — | 70% | 2026-07-28 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73755/entry-level-software-systems-engineer/job) |
+| Lentech Inc. | Entry Level Web Developer - Multiple Teams 🆕 | Laurel, MD | — | 70% | 2026-07-23 | 2026-08-07 | [**Apply ➜**](https://lentechinc.applytojob.com/apply/qnjVhHgXdC/Entry-Web-Developer) |
+| General Dynamics Mission Systems | Entry Level Software Engineer 🆕 | Scottsdale, AZ | — | 75% | 2026-07-16 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73193/entry-level-software-engineer/job) |
+| Akuna Capital | Software Engineer - Entry-Level - Python 🆕 | Chicago, IL | — | 72% (1 skills) | 2026-07-15 | 2026-08-07 | [**Apply ➜**](https://www.akunacapital.com/careers/job/8013230/?gh_jid=8013230) |
+| i3 Corps | Entry Level Software Engineer 🆕 | Huntsville, AL | — | 70% | 2026-07-15 | 2026-08-07 | [**Apply ➜**](https://careers-i3-corps.icims.com/jobs/5175/entry-level-software-engineer/job) |
+| Akuna Capital | Software Engineer - Entry-Level - C++ 🆕 | Chicago, IL | — | 70% | 2026-07-13 | 2026-08-07 | [**Apply ➜**](https://www.akunacapital.com/careers/job/8013085/?gh_jid=8013085) |
+| Integration Innovation (i3) | Entry Level Software Engineer 🆕 | Huntsville, AL | — | 70% | 2026-06-29 | 2026-08-07 | [**Apply ➜**](https://careers-i3-corps.icims.com/jobs/5175/job?mobile=true&needsRedirect=false) |
+| NXP Semiconductors | NFC System Software Validation Engineer - Entry Level 🆕 | San Diego, CA | — | 70% | 2026-06-26 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Innovation-Dr/NFC-System-Software-Validation-Engineer---Entry-Level_R-10064295) |
+| NXP Semiconductors | NFC System Software Engineer - Entry Level 🆕 | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
+| AeroVironment | Entry-Level Software Engineer 🆕 | Dayton, OH | — | 70% | 2026-06-23 | 2026-08-07 | [**Apply ➜**](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Dayton-OH/Entry-Level-Software-Engineer_8010) |
+| AG Technologies | Entry Level Software Engineer 🆕 | Chesterfield, MO | — | 70% | 2026-06-22 | 2026-08-07 | [**Apply ➜**](https://jobs.smartrecruiters.com/AGTechnologies1/100730616) |
+| AG Technologies | Entry Level Software Engineer 🆕 | Dallas, TX | — | 70% | 2026-06-22 | 2026-08-07 | [**Apply ➜**](https://jobs.smartrecruiters.com/AGTechnologies1/108734797) |
+| General Dynamics Mission Systems | Entry Level Software Engineer 🆕 | Scottsdale, AZ | — | 75% | 2026-06-22 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73193/job?mobile=true&needsRedirect=false) |
+| DataLab USA | Production Programmer - Entry Level SQL Developer 🆕 | Germantown, MD | — | 72% (1 skills) | 2026-06-19 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885) |
+| Datalab USA | Production Programmer – Entry Level SQL Developer 🆕 | Germantown, MD | — | 72% (1 skills) | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885/apply) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program 🆕 | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
+| General Dynamics Mission Systems | Entry Level Software Engineer 🆕 | Brooklyn, OH | — | 70% | 2026-05-18 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72592/job?mobile=true&needsRedirect=false) |
+| General Dynamics Mission Systems | Entry Level Infrastructure Software Engineer 🆕 | Pittsfield, MA | — | 70% | 2026-05-13 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72580/job?mobile=true&needsRedirect=false) |
 
 ## 🛠️ Internships (223)
 
@@ -247,7 +275,7 @@ Last updated: **2026-08-07 01:00 UTC** · auto-refreshed every 12h by [job-board
 | Virtu Financial | 2027 Internship - Software Engineer | Austin, TX +1 | 2027 | 90% | 2026-07-22 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 
-## 🎓 New Grad (114)
+## 🎓 New Grad (142)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -364,6 +392,34 @@ Last updated: **2026-08-07 01:00 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - Intel, US Government | Washington, D.C. | — | 80% | 2026-06-15 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
+| General Dynamics Mission Systems | Entry Level Software Engineer 🆕 | Scottsdale, AZ | — | 75% | 2026-07-16 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73193/entry-level-software-engineer/job) |
+| General Dynamics Mission Systems | Entry Level Software Engineer 🆕 | Scottsdale, AZ | — | 75% | 2026-06-22 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73193/job?mobile=true&needsRedirect=false) |
+| Akuna Capital | Software Engineer - Entry-Level - Python 🆕 | Chicago, IL | — | 72% (1 skills) | 2026-07-15 | 2026-08-07 | [**Apply ➜**](https://www.akunacapital.com/careers/job/8013230/?gh_jid=8013230) |
+| Conduent | Java Developer – Entry Level 🆕 | Atlanta, GA | — | 72% (1 skills) | 2026-07-29 | 2026-08-07 | [**Apply ➜**](https://egua.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22738) |
+| Datalab USA | Production Programmer – Entry Level SQL Developer 🆕 | Germantown, MD | — | 72% (1 skills) | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885/apply) |
+| DataLab USA | Production Programmer - Entry Level SQL Developer 🆕 | Germantown, MD | — | 72% (1 skills) | 2026-06-19 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885) |
+| AeroVironment | Entry-Level Software Engineer 🆕 | Dayton, OH | — | 70% | 2026-06-23 | 2026-08-07 | [**Apply ➜**](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Dayton-OH/Entry-Level-Software-Engineer_8010) |
+| AG Technologies | Entry Level Software Engineer 🆕 | Chesterfield, MO | — | 70% | 2026-06-22 | 2026-08-07 | [**Apply ➜**](https://jobs.smartrecruiters.com/AGTechnologies1/100730616) |
+| AG Technologies | Entry Level Software Engineer 🆕 | Dallas, TX | — | 70% | 2026-06-22 | 2026-08-07 | [**Apply ➜**](https://jobs.smartrecruiters.com/AGTechnologies1/108734797) |
+| Akuna Capital | Software Engineer - Entry-Level - C++ 🆕 | Chicago, IL | — | 70% | 2026-07-13 | 2026-08-07 | [**Apply ➜**](https://www.akunacapital.com/careers/job/8013085/?gh_jid=8013085) |
+| Boeing | Entry-Level Software Engineer 🆕 | Maryland Heights, MO +1 | — | 70% | 2026-08-05 | 2026-08-07 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/en-US/external_careers/job/USA---Maryland-Heights-MO/Entry-Level-Software-Engineer_JR2026516694-1) |
+| Boeing | Entry-Level Software Test Engineer 🆕 | Hazelwood, MO +1 | — | 70% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/en-US/external_careers/job/USA---Hazelwood-MO/Entry-Level-Software-Test-Engineer_JR2026516717-1) |
+| CAI | Systems Analyst - Entry-Level 🆕 | Orlando, FL | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://cai.wd5.myworkdayjobs.com/computer_aid/job/FL-CLIENT-STATE/Entry-Level-Systems-Analyst_R8248) |
+| Cox | Entry Level Software Engineer - Atlanta - GA 🆕 | Atlanta, GA | — | 70% | 2026-08-04 | 2026-08-07 | [**Apply ➜**](https://cox.wd1.myworkdayjobs.com/en-US/cox_external_career_site_1/job/Atlanta-GA/Entry-Level-Software-Engineer---Atlanta--GA_R202680858-1) |
+| EAi Technologies | Entry Level Software Developer 🆕 | Vienna, VA | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://eaiti.applytojob.com/apply/Y16NUsHVnd/Entry-Level-Software-Developer) |
+| EAi Technologies | Entry Level .NET Software Developer 🆕 | Vienna, VA | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://eaiti.applytojob.com/apply/9RStfnAuq4/Entry-Level-NET-Software-Developer) |
+| General Dynamics Mission Systems | Entry Level Software Systems Engineer 🆕 | Port Orchard, WA | — | 70% | 2026-07-28 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73755/entry-level-software-systems-engineer/job) |
+| General Dynamics Mission Systems | Entry Level Software Engineer 🆕 | Brooklyn, OH | — | 70% | 2026-05-18 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72592/job?mobile=true&needsRedirect=false) |
+| General Dynamics Mission Systems | Entry Level Infrastructure Software Engineer 🆕 | Pittsfield, MA | — | 70% | 2026-05-13 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72580/job?mobile=true&needsRedirect=false) |
+| i3 Corps | Entry Level Software Engineer 🆕 | Huntsville, AL | — | 70% | 2026-07-15 | 2026-08-07 | [**Apply ➜**](https://careers-i3-corps.icims.com/jobs/5175/entry-level-software-engineer/job) |
+| Integration Innovation (i3) | Entry Level Software Engineer 🆕 | Huntsville, AL | — | 70% | 2026-06-29 | 2026-08-07 | [**Apply ➜**](https://careers-i3-corps.icims.com/jobs/5175/job?mobile=true&needsRedirect=false) |
+| Leidos | Entry-Level Software Developer 🆕 | St. Louis, MO | — | 70% | 2026-08-01 | 2026-08-07 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/St-Louis-MO/Entry-Level-Software-Developer_R-00188494) |
+| Leidos | Entry Level Software Tester 🆕 | Lawton, OK | — | 70% | 2026-07-29 | 2026-08-07 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Lawton-OK/Entry-Level-Software-Tester_R-00187901) |
+| Lentech Inc. | Entry Level Web Developer - Multiple Teams 🆕 | Laurel, MD | — | 70% | 2026-07-23 | 2026-08-07 | [**Apply ➜**](https://lentechinc.applytojob.com/apply/qnjVhHgXdC/Entry-Web-Developer) |
+| Muon | Software Engineer - Entry-Level 🆕 | San Jose, CA | — | 70% | 2026-08-05 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/muonspace/jobs/5204498007) |
+| NXP Semiconductors | NFC System Software Validation Engineer - Entry Level 🆕 | San Diego, CA | — | 70% | 2026-06-26 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Innovation-Dr/NFC-System-Software-Validation-Engineer---Entry-Level_R-10064295) |
+| NXP Semiconductors | NFC System Software Engineer - Entry Level 🆕 | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
+| Pariveda | Entry-Level Software Engineer 🆕 | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program 🆕 | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 
 ## 🚪 Recently closed (last 7 days) (33)

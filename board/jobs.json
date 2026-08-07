@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-07T01:00:12.491Z",
+ "updatedAt": "2026-08-07T01:09:11.897Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -1118,50 +1118,6 @@
    },
    "postedAt": "2025-12-22T18:35:42-05:00",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
-  },
-  {
-   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
-   "source": "vansh",
-   "company": "Appian",
-   "title": "New Grad 2027: Software Engineer",
-   "location": "McLean, VA",
-   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T21:58:55.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:193346c2b665b85613b8a1f6b12d85c1b13888ab",
@@ -2750,6 +2706,52 @@
    "firstSeenAt": "2026-07-26T03:50:17.796Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:9b59f3922cdf48c0b800c13a2f4f1111cd412a5d",
+   "source": "speedyapply",
+   "company": "Akuna Capital",
+   "title": "Software Engineer - Entry-Level - Python",
+   "location": "Chicago, IL",
+   "url": "https://www.akunacapital.com/careers/job/8013230/?gh_jid=8013230",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 72,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 2
+   },
+   "postedAt": "2026-07-15",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:779cde252f7f2de4097293b128f996f26874b7ec",
+   "source": "speedyapply",
+   "company": "Akuna Capital",
+   "title": "Software Engineer - Entry-Level - C++",
+   "location": "Chicago, IL",
+   "url": "https://www.akunacapital.com/careers/job/8013085/?gh_jid=8013085",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-13T22:10:09.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:8593ba975d3cba76eb2020ffa4860d6b5bd078e7",
    "source": "speedyapply",
    "company": "Jane Street",
@@ -2770,6 +2772,28 @@
    },
    "postedAt": "2026-07-07",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:f2124ce5e9df084e10ce60b92ccdc8552c8e46a7",
+   "source": "speedyapply",
+   "company": "Muon",
+   "title": "Software Engineer - Entry-Level",
+   "location": "San Jose, CA",
+   "url": "https://job-boards.greenhouse.io/muonspace/jobs/5204498007",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-05T22:07:59.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:f44b278c3a61703501deb5cd145b4cd4215ef5f1",
@@ -2794,6 +2818,50 @@
    "firstSeenAt": "2026-08-06T14:59:02.102Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:a7bfd6193eeb734113cf4afbdaead5a97173885b",
+   "source": "speedyapply",
+   "company": "Boeing",
+   "title": "Entry-Level Software Engineer",
+   "location": "Maryland Heights, MO +1",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/external_careers/job/USA---Maryland-Heights-MO/Entry-Level-Software-Engineer_JR2026516694-1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-05T00:00:00.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:c16e168bc3e228fd3dc50c47e3279a07d2808708",
+   "source": "speedyapply",
+   "company": "Boeing",
+   "title": "Entry-Level Software Test Engineer",
+   "location": "Hazelwood, MO +1",
+   "url": "https://boeing.wd1.myworkdayjobs.com/en-US/external_careers/job/USA---Hazelwood-MO/Entry-Level-Software-Test-Engineer_JR2026516717-1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-06",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:c32431c83cb7b5a0ae9419fa3684306632a5897e",
    "source": "speedyapply",
    "company": "Manhattan Associates",
@@ -2814,6 +2882,72 @@
    },
    "postedAt": "2026-08-02T20:17:01.441Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:089c013f222b8bd12a3d2711d35c30f18a4d5ef2",
+   "source": "speedyapply",
+   "company": "Cox",
+   "title": "Entry Level Software Engineer - Atlanta - GA",
+   "location": "Atlanta, GA",
+   "url": "https://cox.wd1.myworkdayjobs.com/en-US/cox_external_career_site_1/job/Atlanta-GA/Entry-Level-Software-Engineer---Atlanta--GA_R202680858-1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T00:00:00.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:3c174582880b353c504ddbd794b59832cc6ea3ff",
+   "source": "speedyapply",
+   "company": "Pariveda",
+   "title": "Entry-Level Software Engineer",
+   "location": "Dallas, TX +8",
+   "url": "https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T22:16:26.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:f16791ef1fb9a2d6f33fe81752044e44e77e13b6",
+   "source": "speedyapply",
+   "company": "AeroVironment",
+   "title": "Entry-Level Software Engineer",
+   "location": "Dayton, OH",
+   "url": "https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Dayton-OH/Entry-Level-Software-Engineer_8010",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-06-23T14:06:40.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:06882db811318bde2919c5638332c4fa0bc4d955",
@@ -2926,6 +3060,72 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:0ed6837ed95d7b241687bbf414a4fee7babc8fff",
+   "source": "speedyapply",
+   "company": "Leidos",
+   "title": "Entry-Level Software Developer",
+   "location": "St. Louis, MO",
+   "url": "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/St-Louis-MO/Entry-Level-Software-Developer_R-00188494",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-01",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:22e51dd55eee2973e8f990034f99a0809ee2ab99",
+   "source": "speedyapply",
+   "company": "Leidos",
+   "title": "Entry Level Software Tester",
+   "location": "Lawton, OK",
+   "url": "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Lawton-OK/Entry-Level-Software-Tester_R-00187901",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-29",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:3cacf5459e594d29112bd6e742a25ca6fcf436ad",
+   "source": "speedyapply",
+   "company": "General Dynamics Mission Systems",
+   "title": "Entry Level Software Systems Engineer",
+   "location": "Port Orchard, WA",
+   "url": "https://careers-gdms.icims.com/jobs/73755/entry-level-software-systems-engineer/job",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:8f2d3487979cf17505a9d8e49e0aaa0ac349f234",
    "source": "speedyapply",
    "company": "General Motors",
@@ -2990,6 +3190,50 @@
    },
    "postedAt": "2026-07-16",
    "firstSeenAt": "2026-07-22T14:19:22.003Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:a573124aaccc87b92ccf24b36e3dd2067e33fbf6",
+   "source": "speedyapply",
+   "company": "General Dynamics Mission Systems",
+   "title": "Entry Level Software Engineer",
+   "location": "Scottsdale, AZ",
+   "url": "https://careers-gdms.icims.com/jobs/73193/entry-level-software-engineer/job",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 75,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-16",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:b63a9b74804070a900390931dfdc9011b21e4ff6",
+   "source": "speedyapply",
+   "company": "i3 Corps",
+   "title": "Entry Level Software Engineer",
+   "location": "Huntsville, AL",
+   "url": "https://careers-i3-corps.icims.com/jobs/5175/entry-level-software-engineer/job",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-15",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:30c549abd8b194af629ab8fb876131bc89c8466a",
@@ -3102,6 +3346,52 @@
    "firstSeenAt": "2026-07-15T15:00:25.217Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:b51606df70a62c56e31e4f976eec2f73812d9990",
+   "source": "speedyapply",
+   "company": "NXP Semiconductors",
+   "title": "NFC System Software Validation Engineer - Entry Level",
+   "location": "San Diego, CA",
+   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Innovation-Dr/NFC-System-Software-Validation-Engineer---Entry-Level_R-10064295",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-06-26",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:a33aff14cbf33a022afde9f7ef3a29868c0ba301",
+   "source": "speedyapply",
+   "company": "DataLab USA",
+   "title": "Production Programmer - Entry Level SQL Developer",
+   "location": "Germantown, MD",
+   "url": "https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 72,
+   "matchedSkills": [
+    "SQL"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 2
+   },
+   "postedAt": "2026-06-19",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:77a12a28dda2e355bfe32c3c0eb5b7ce12e269fe",
    "source": "speedyapply",
    "company": "Collective",
@@ -3168,6 +3458,50 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
+  },
+  {
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:76d1071c-8da4-43c1-8ea3-64c0ce8311fd",
    "source": "simplifyjobs",
    "company": "NVIDIA",
@@ -3188,6 +3522,50 @@
    },
    "postedAt": "2026-05-12T01:08:45.000Z",
    "firstSeenAt": "2026-08-04T03:30:46.698Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:684c01a1-1150-43b2-81a8-aaf6e5bd06db",
+   "source": "simplifyjobs",
+   "company": "General Dynamics Mission Systems",
+   "title": "Entry Level Software Engineer",
+   "location": "Brooklyn, OH",
+   "url": "https://careers-gdms.icims.com/jobs/72592/job?mobile=true&needsRedirect=false",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-05-18T22:07:07.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:78ab6c83-7d91-460e-acf5-e924894eb1cc",
+   "source": "simplifyjobs",
+   "company": "General Dynamics Mission Systems",
+   "title": "Entry Level Infrastructure Software Engineer",
+   "location": "Pittsfield, MA",
+   "url": "https://careers-gdms.icims.com/jobs/72580/job?mobile=true&needsRedirect=false",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-05-13T22:07:50.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
   },
   {
    "dedupeKey": "simplifyjobs:29d56cce-6d8e-4fac-aeb4-7c14135e0b12",
@@ -3300,6 +3678,96 @@
    "firstSeenAt": "2026-08-07T00:29:13.435Z"
   },
   {
+   "dedupeKey": "simplifyjobs:ebc85430-6db3-4aec-b94c-f1a42c8f21e8",
+   "source": "simplifyjobs",
+   "company": "Datalab USA",
+   "title": "Production Programmer – Entry Level SQL Developer",
+   "location": "Germantown, MD",
+   "url": "https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885/apply",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 72,
+   "matchedSkills": [
+    "SQL"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 2
+   },
+   "postedAt": "2026-06-17T22:07:35.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:6507515a-808f-4502-b19f-ead22fbf63d3",
+   "source": "simplifyjobs",
+   "company": "General Dynamics Mission Systems",
+   "title": "Entry Level Software Engineer",
+   "location": "Scottsdale, AZ",
+   "url": "https://careers-gdms.icims.com/jobs/73193/job?mobile=true&needsRedirect=false",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 75,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-06-22T06:05:24.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:034a9d93-f51a-4886-b0fe-c2f771263fa5",
+   "source": "simplifyjobs",
+   "company": "AG Technologies",
+   "title": "Entry Level Software Engineer",
+   "location": "Chesterfield, MO",
+   "url": "https://jobs.smartrecruiters.com/AGTechnologies1/100730616",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-06-22T14:05:01.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:01864a29-f685-449a-8b9a-abcaf7bc9c15",
+   "source": "simplifyjobs",
+   "company": "AG Technologies",
+   "title": "Entry Level Software Engineer",
+   "location": "Dallas, TX",
+   "url": "https://jobs.smartrecruiters.com/AGTechnologies1/108734797",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-06-22T14:04:58.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:267d5473-4baf-4bba-ba9c-ccd65a1c0e30",
    "source": "simplifyjobs",
    "company": "Palantir",
@@ -3364,6 +3832,50 @@
    },
    "postedAt": "2026-06-29T22:04:55.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:14ef1e83-8c2e-4630-9ce6-257af68d24db",
+   "source": "simplifyjobs",
+   "company": "Integration Innovation (i3)",
+   "title": "Entry Level Software Engineer",
+   "location": "Huntsville, AL",
+   "url": "https://careers-i3-corps.icims.com/jobs/5175/job?mobile=true&needsRedirect=false",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-06-29T22:06:37.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:24c60afb-02f8-4cfa-8b73-b1949e67ede8",
+   "source": "simplifyjobs",
+   "company": "NXP Semiconductors",
+   "title": "NFC System Software Engineer - Entry Level",
+   "location": "San Jose, CA",
+   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-06-25T22:04:25.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
   },
   {
    "dedupeKey": "simplifyjobs:80ed1f87-b2ee-49df-bc46-c9a78897a5ad",
@@ -3696,6 +4208,28 @@
    "firstSeenAt": "2026-07-23T00:11:25.726Z"
   },
   {
+   "dedupeKey": "simplifyjobs:bd40fda7-37cc-4439-aca3-fdc324bbba53",
+   "source": "simplifyjobs",
+   "company": "Lentech Inc.",
+   "title": "Entry Level Web Developer - Multiple Teams",
+   "location": "Laurel, MD",
+   "url": "https://lentechinc.applytojob.com/apply/qnjVhHgXdC/Entry-Web-Developer",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-23T06:15:29.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:e3baf487-91f1-4382-825c-a0b8cbdd9ea8",
    "source": "simplifyjobs",
    "company": "NewsBreak",
@@ -3762,6 +4296,30 @@
    "firstSeenAt": "2026-07-29T06:17:24.024Z"
   },
   {
+   "dedupeKey": "simplifyjobs:167abad4-6ad1-4afd-ac76-a97071a7a67b",
+   "source": "simplifyjobs",
+   "company": "Conduent",
+   "title": "Java Developer – Entry Level",
+   "location": "Atlanta, GA",
+   "url": "https://egua.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22738",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 72,
+   "matchedSkills": [
+    "Java"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 2
+   },
+   "postedAt": "2026-07-29T14:09:04.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:48921fdc-0754-40c8-91cc-f5e1bb6277bb",
    "source": "simplifyjobs",
    "company": "NewsBreak",
@@ -3826,6 +4384,50 @@
    },
    "postedAt": "2026-07-31T00:00:00.000Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:682f9b47-5081-4f77-85e3-da6ba3076369",
+   "source": "simplifyjobs",
+   "company": "EAi Technologies",
+   "title": "Entry Level Software Developer",
+   "location": "Vienna, VA",
+   "url": "https://eaiti.applytojob.com/apply/Y16NUsHVnd/Entry-Level-Software-Developer",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T06:16:56.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:165def57-d2b8-4820-944f-203575dd7b00",
+   "source": "simplifyjobs",
+   "company": "EAi Technologies",
+   "title": "Entry Level .NET Software Developer",
+   "location": "Vienna, VA",
+   "url": "https://eaiti.applytojob.com/apply/9RStfnAuq4/Entry-Level-NET-Software-Developer",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T06:16:56.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
   },
   {
    "dedupeKey": "simplifyjobs:492953a8-9863-41ff-b149-9e8fa3081af9",
@@ -4376,6 +4978,28 @@
    },
    "postedAt": "2026-08-03T14:20:21.000Z",
    "firstSeenAt": "2026-08-03T15:29:00.431Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:8d63e5dd-4357-4bde-9b49-d5536f5aef38",
+   "source": "simplifyjobs",
+   "company": "CAI",
+   "title": "Systems Analyst - Entry-Level",
+   "location": "Orlando, FL",
+   "url": "https://cai.wd5.myworkdayjobs.com/computer_aid/job/FL-CLIENT-STATE/Entry-Level-Systems-Analyst_R8248",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T00:00:00.000Z",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
   },
   {
    "dedupeKey": "simplifyjobs:c78d4a32-8ee7-49e9-8f39-e63ea6cd4b9e",
