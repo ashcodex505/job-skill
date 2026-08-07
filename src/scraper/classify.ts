@@ -90,6 +90,12 @@ export function detectRoleType(title: string): RoleType {
  * a hint is never allowed to override text actually present in the title.
  */
 export function detectSeason(title: string, hint?: string | null): string | null {
+  const roleType = detectRoleType(title);
+  // A new-grad title may state an eligibility window such as "Graduation
+  // Date: Fall 2025-Summer 2026". That describes who may apply, not the
+  // recruiting cycle of the posting, so it must not be compared with target
+  // seasons such as "2027 New Grad".
+  if (roleType === "new_grad" && /\bgraduation date\b/i.test(title)) return null;
   const m = title.match(SEASON_RE);
   if (m) {
     const term = m[1][0].toUpperCase() + m[1].slice(1).toLowerCase();
@@ -98,7 +104,6 @@ export function detectSeason(title: string, hint?: string | null): string | null
   }
   const year = title.match(YEAR_RE);
   if (year) {
-    const roleType = detectRoleType(title);
     if (roleType === "new_grad") return `${year[1]} New Grad`;
     // Internship titles often state only a bare cycle year with no season word
     // ("2027 Software Dev Engineer Intern" — Amazon's own convention). That's

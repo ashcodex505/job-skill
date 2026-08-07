@@ -73,6 +73,7 @@ export type NormalizationRejectionReason =
   | "not_explicit_new_grad"
   | "missing_required_new_grad_phrase"
   | "new_grad_season_not_allowed"
+  | "graduation_window_expired"
   | "stale_posting";
 
 export interface NormalizationExplanation {
@@ -91,6 +92,26 @@ const includesPhrase = (text: string, phrase: string): boolean => {
 
 const equalsIgnoreCase = (left: string, right: string): boolean =>
   normalizedWords(left) === normalizedWords(right);
+
+/**
+ * Graduation-date ranges describe applicant eligibility, not the posting's
+ * recruiting season. Reject them only after the latest stated term has
+ * ended: Winter=Feb, Spring=May, Summer=Jul, Fall/Autumn=Dec.
+ */
+export function isGraduationEligibilityExpired(title: string, ref: Date): boolean {
+  if (!/\bgraduation date\b/i.test(title)) return false;
+  const matches = [...title.matchAll(/\b(spring|summer|fall|autumn|winter)\s*[' ]?(20\d{2}|\d{2})\b/gi)];
+  if (matches.length === 0) return false;
+  const endTimes = matches.map((match) => {
+    const term = match[1].toLowerCase();
+    const year = Number(match[2].length === 2 ? `20${match[2]}` : match[2]);
+    if (term === "winter") return Date.UTC(year, 2, 0, 23, 59, 59, 999);
+    if (term === "spring") return Date.UTC(year, 5, 0, 23, 59, 59, 999);
+    if (term === "summer") return Date.UTC(year, 7, 0, 23, 59, 59, 999);
+    return Date.UTC(year, 11, 31, 23, 59, 59, 999);
+  });
+  return ref.getTime() > Math.max(...endTimes);
+}
 
 /**
  * Company names vary slightly by source (for example, "Meta" vs.
@@ -213,6 +234,9 @@ export function explainNormalization(raw: RawJob, config?: CareerConfig, ref: Da
   if (!relevant) return { job: null, reason: "irrelevant_title", classification };
   // Hard location policy: US, remote, or hybrid only — not a scoring signal.
   if (!isUsRemoteOrHybridLocation(locationSignal)) return { job: null, reason: "non_us_location", classification };
+  if (config && isGraduationEligibilityExpired(title, ref)) {
+    return { job: null, reason: "graduation_window_expired", classification };
+  }
   if (config) {
     const reason = careerPolicyRejectionReason({ company: raw.company, title }, classification, config);
     if (reason) return { job: null, reason, classification };

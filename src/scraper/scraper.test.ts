@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { classifyTitle, defaultSeasonTargets, detectRoleType, detectSeason, isUsRemoteOrHybridLocation } from "./classify";
-import { canonicalUrl, dedupeJobs, explainNormalization, isApprovedCompany, makeDedupeKey, normalizeJob, type RawJob } from "./normalize";
+import { canonicalUrl, dedupeJobs, explainNormalization, isApprovedCompany, isGraduationEligibilityExpired, makeDedupeKey, normalizeJob, type RawJob } from "./normalize";
 import type { CareerConfig } from "@/lib/career/config";
 
 /** Deterministic "today" for season-sensitive tests. */
@@ -21,7 +21,7 @@ const strictConfig: CareerConfig = {
   skills: [],
   targetRoles: ["Software Engineer", "Software Developer", "Backend", "Frontend", "Full-Stack", "Platform Engineer"],
   seasons: ["2027 New Grad", "Fall 2026", "Summer 2027"],
-  requiredNewGradTitleKeywords: ["New Grad", "New Graduate", "Early Career", "Early Careers", "College Grad", "College Graduate"],
+  requiredNewGradTitleKeywords: ["New Grad", "New Graduate", "Early Career", "Early Careers", "College Grad", "College Graduate", "Entry Level"],
   internshipSeasons: ["Fall 2026", "Summer 2027"],
   summer2027ApprovedCompanies: ["Stripe", "Meta"],
   locations: [],
@@ -181,6 +181,22 @@ describe("normalize + dedupe", () => {
     expect(normalizeJob(raw({ title: "Software Engineer, New Grad 2027" }), strictConfig, REF)).not.toBeNull();
     expect(normalizeJob(raw({ title: "Software Engineer — Early-Career" }), strictConfig, REF)).not.toBeNull();
     expect(normalizeJob(raw({ title: "Software Engineering AMTS (College Grad)", company: "Salesforce" }), strictConfig, REF)).not.toBeNull();
+    const doorDashTitle = "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)";
+    const doorDash = explainNormalization(
+      raw({ title: doorDashTitle, company: "DoorDash" }),
+      strictConfig,
+      new Date("2026-08-06T12:00:00Z"),
+    );
+    expect(doorDash.job).toBeNull();
+    expect(doorDash.reason).toBe("graduation_window_expired");
+    expect(isGraduationEligibilityExpired(doorDashTitle, new Date("2026-07-31T12:00:00Z"))).toBe(false);
+    expect(
+      normalizeJob(
+        raw({ title: "Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027)", company: "DoorDash" }),
+        strictConfig,
+        new Date("2026-08-06T12:00:00Z"),
+      ),
+    ).not.toBeNull();
     expect(normalizeJob(raw({ title: "Marketing Associate, New Grad 2027" }), strictConfig, REF)).toBeNull();
     expect(normalizeJob(raw({ title: "Software Engineer, New Grad 2028" }), strictConfig, REF)).toBeNull();
   });
