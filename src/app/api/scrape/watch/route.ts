@@ -1,90 +1,62 @@
-import { execFile } from "node:child_process";
-import fs from "node:fs";
-import path from "node:path";
-import { promisify } from "node:util";
+import { z } from "zod";
 import { handler, ok } from "@/lib/api";
-import { loadCareerConfig } from "@/lib/career/config";
-import { parsePriorityCompanies } from "@/lib/career/priority";
-import { parseWatchlist } from "@/lib/career/watchlist";
-import { COMPANY_PORTALS } from "@/scraper/registry";
+import { notifyLocalWatchJobs, type LocalWatchNotifyResult } from "@/scraper/local-watch-alert";
+import { loadLocalWatchSettings, saveLocalWatchSettings } from "@/scraper/local-watch-settings";
 import { runScraper } from "@/scraper/run";
 
 /**
- * Lightweight local watch-scan, triggered by the dashboard watchlist panel
- * while it's open: scrapes watched + priority supported companies, plus the
- * community feeds, into the local DB so the panel's poll can surface
- * brand-new matches without a manual scrape. Server-side throttle keeps
- * repeated panel ticks (every 5 min) from hammering the ATS APIs — effective
- * scan rate ~10 min. career/preferences.md's Summer 2027 approved-companies
- * list doubles as the fast-lane priority list too, alongside
- * career/priority-companies.md — no separate list required for it.
+ * Dashboard-only full supported-source scan. While the dashboard is open it
+ * runs every configured interval, scanning every real registry API adapter
+ * plus all community feeds. Registry entries marked unsupported are excluded
+ * because the separate Browser Scan owns those rendered career pages.
+ *
+ * runScraper reloads career/preferences.md every run, so its title, season,
+ * location, freshness, and approved-company policy is identical to CI.
+ * Eligible jobs newly inserted by this route create a deduplicated GitHub
+ * Issue labeled `local-watch`, matching Browser Scan's notification model.
  */
-const THROTTLE_MS = 9.5 * 60 * 1000;
-const execFileAsync = promisify(execFile);
 const g = globalThis as unknown as { __rtLastWatchScan?: number; __rtWatchScanRunning?: boolean };
 
-function readLines(file: string): string {
-  try {
-    return fs.readFileSync(path.join(process.cwd(), "career", file), "utf8");
-  } catch {
-    return "";
-  }
+function settingsResponse(settings = loadLocalWatchSettings()) {
+  return { ...settings, lastRunAt: g.__rtLastWatchScan ? new Date(g.__rtLastWatchScan).toISOString() : null };
 }
 
-/**
- * You edit career/preferences.md directly (not through a dashboard form),
- * so there's no API-route moment to hook a commit onto the way
- * browser-companies.md/priority-companies.md get one. Instead, every watch
- * tick (while the dashboard is open) checks whether the file has
- * uncommitted changes and pushes them if so — meaning a hand-edit reaches
- * CI within one tick interval (~10 min), not instantly, and not at all
- * while the dashboard is closed.
- */
-async function syncPreferencesIfDirty(): Promise<void> {
-  const git = (args: string[]) => execFileAsync("git", args, { cwd: process.cwd(), timeout: 60_000 });
-  try {
-    const { stdout } = await git(["status", "--porcelain", "--", "career/preferences.md"]);
-    if (!stdout.trim()) return;
-    await git(["add", "--", "career/preferences.md"]);
-    await git(["commit", "-m", "chore: update career preferences", "--", "career/preferences.md"]);
-    try {
-      await git(["push"]);
-    } catch {
-      await git(["pull", "--rebase", "--autostash", "origin", "main"]);
-      await git(["push"]);
-    }
-  } catch {
-    // Best-effort — a sync failure here must never block the scan itself.
-  }
-}
+export const GET = handler(async () => ok(settingsResponse()));
+
+const settingsInput = z.object({ intervalMinutes: z.number() });
+
+export const PUT = handler(async (req: Request) => {
+  const { intervalMinutes } = settingsInput.parse(await req.json());
+  return ok(settingsResponse(saveLocalWatchSettings({ intervalMinutes })));
+});
 
 export const POST = handler(async () => {
-  await syncPreferencesIfDirty();
-
-  const watches = parseWatchlist(readLines("watchlist.md"));
-  const priority = parsePriorityCompanies(readLines("priority-companies.md"));
-  const approved = loadCareerConfig().summer2027ApprovedCompanies;
-  if (watches.length === 0 && priority.length === 0 && approved.length === 0) {
-    return ok({ ran: false, reason: "no watches, priority companies, or approved companies" });
-  }
   if (g.__rtWatchScanRunning) return ok({ ran: false, reason: "scan already running" });
-  if (g.__rtLastWatchScan && Date.now() - g.__rtLastWatchScan < THROTTLE_MS) {
+  const { intervalMinutes } = loadLocalWatchSettings();
+  if (g.__rtLastWatchScan && Date.now() - g.__rtLastWatchScan < intervalMinutes * 60_000) {
     return ok({ ran: false, reason: "throttled" });
   }
 
-  const wanted = new Set([
-    ...watches.map((w) => w.company.toLowerCase()),
-    ...priority.map((c) => c.toLowerCase()),
-    ...approved.map((c) => c.toLowerCase()),
-    "amazon",
-  ]);
-  const companies = COMPANY_PORTALS.filter((p) => p.ats !== "unsupported" && wanted.has(p.name.toLowerCase())).map((p) => p.name);
-
   g.__rtWatchScanRunning = true;
   try {
-    const summary = await runScraper({ companies, simplifyFeed: true });
+    // No company filter = every supported adapter; feeds join full runs by default.
+    const summary = await runScraper();
+    let notify: LocalWatchNotifyResult;
+    try {
+      notify = await notifyLocalWatchJobs(summary.jobs, summary.newJobKeys);
+    } catch (error) {
+      notify = { notified: false, reason: error instanceof Error ? error.message : String(error) };
+    }
     g.__rtLastWatchScan = Date.now();
-    return ok({ ran: true, jobsFound: summary.jobsFound, newJobs: summary.newJobs });
+    return ok({
+      ran: true,
+      companiesScanned: summary.companiesScanned,
+      jobsFound: summary.jobsFound,
+      newJobs: summary.newJobs,
+      sourceErrors: summary.errors.length,
+      notify,
+      ...settingsResponse(),
+    });
   } finally {
     g.__rtWatchScanRunning = false;
   }
