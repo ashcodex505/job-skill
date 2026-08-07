@@ -1,29 +1,25 @@
 # 🎯 Job Board — SWE Early Career
 
 **369 open roles** across **141 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-07 16:06 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-07 17:05 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (9)
+## 🆕 New this cycle (5)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | ByteDance | Large Language Model Inference System Engineer New Grad - Applied Machine Learning 🆕 | San Jose, CA | — | 80% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7667726338627356933/detail) |
 | Terranova | Software Engineer Intern 🆕 | Berkeley, CA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/terranova/a8e5a8d2-4af3-4736-b66e-e0804447f7a0/application?embed=true) |
 | Northrop Grumman | 2027 Intern Software Engineer 🆕 | Melbourne, FL | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395) |
-| TikTok | Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer 🆕 | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7670700387322300677) |
-| TikTok | Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7670738362521520437) |
 | General Motors | Software Verification Engineer - AV Platform - Early Career 🆕 | Milford, MI +1 | — | 80% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Milford-Michigan-United-States-of-America/Software-Verification-Engineer--AV-Platform--Early-Career-_JR-202611592) |
 | Intuitive Research and Technology | Entry Level Software Engineer 🆕 | Huntsville, AL | — | 70% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://intuitive.wd1.myworkdayjobs.com/en-US/irtc_careers/job/Huntsville-AL/Entry-Level-Software-Engineer_2627-054) |
-| TikTok | Software Engineer Project Intern - Global E-Commerce Search Infrastructure - 2026 Start 🆕 | Seattle, WA | 2026 | 90% | 2026-07-15 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7662594807715072261) |
-| Amazon | Software Development Engineer Internship - Fall 2026 - US 🆕 | Seattle, WA | Fall 2026 | 100% | 2026-05-15 | 2026-08-07 | [**Apply ➜**](https://amazon.jobs/en/jobs/3116030/software-development-engineer-internship-fall-2026-us) |
 
 ## 🛠️ Internships (229)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Terranova | Software Engineer Intern 🆕 | Berkeley, CA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/terranova/a8e5a8d2-4af3-4736-b66e-e0804447f7a0/application?embed=true) |
-| Amazon | Software Development Engineer Internship - Fall 2026 - US 🆕 | Seattle, WA | Fall 2026 | 100% | 2026-05-15 | 2026-08-07 | [**Apply ➜**](https://amazon.jobs/en/jobs/3116030/software-development-engineer-internship-fall-2026-us) |
+| Amazon | Software Development Engineer Internship - Fall 2026 - US | Seattle, WA | Fall 2026 | 100% | 2026-05-15 | 2026-08-07 | [**Apply ➜**](https://amazon.jobs/en/jobs/3116030/software-development-engineer-internship-fall-2026-us) |
 |  impact.com  | Associate Software Engineer Intern | Santa Barbara, CA | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/impact/jobs/8645964002) |
 | Atoms | Software Engineer Intern - Winter 2027 | Seattle, WA; SF; LA; NYC; Mountain View, CA | Winter 2027 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8687915002) |
 | Centerfield | Frontend Engineer Intern | LA | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/centerfield/1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4/application?embed=true) |
@@ -33,9 +29,9 @@ Last updated: **2026-08-07 16:06 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer Intern - Commercial | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6/apply) |
 | Palantir | Privacy and Civil Liberties Software Engineer Intern | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply) |
 | Palantir | Forward Deployed Software Engineer Intern - Intel | Washington, DC | Winter 2027 | 100% | 2026-07-02 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89/apply) |
-| Rippling | Full Stack Software Engineer Intern - Winter 2027 | Seattle, WA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
+| Rippling | Full Stack Software Engineer Intern - Winter 2027 | New York, NY | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
 | Rippling | Machine Learning Software Engineer Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781) |
-| Rippling | Software Engineer Intern - Backend Focused - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
+| Rippling | Software Engineer Intern - Backend Focused - Winter 2027 | Seattle, WA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
 | Tenstorrent | Software Engineer Intern - Power Modeling & AI Tools | Santa Clara, CA | Winter 2027 | 100% | 2026-07-23 | 2026-08-06 | [**Apply ➜**](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation/Search Alliance | Seattle, WA | Fall 2026 | 100% | 2026-08-06 | 2026-08-06 | [**Apply ➜**](https://lifeattiktok.com/search/7670247810111768837) |
 | Western Digital | Software Engineering Co-op | Rochester, MN | Winter 2027 | 100% | 2026-07-16 | 2026-08-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/WesternDigital/744000138184309) |
@@ -193,9 +189,9 @@ Last updated: **2026-08-07 16:06 UTC** · auto-refreshed every 12h by [job-board
 | NVIDIA | PhD Research Intern, System Software and I/O Architecture - Fall 2026 | 3 Locations | Fall 2026 | 100% | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667) |
 | Anduril | 2027 Software Engineer Intern | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 | 96% (4 skills) | 2026-06-10 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 | Northrop Grumman | 2027 Intern Software Engineer 🆕 | Melbourne, FL | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395) |
-| TikTok | Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer 🆕 | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7670700387322300677) |
-| TikTok | Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7670738362521520437) |
-| TikTok | Software Engineer Project Intern - Global E-Commerce Search Infrastructure - 2026 Start 🆕 | Seattle, WA | 2026 | 90% | 2026-07-15 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7662594807715072261) |
+| TikTok | Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7670700387322300677) |
+| TikTok | Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7670738362521520437) |
+| TikTok | Software Engineer Project Intern - Global E-Commerce Search Infrastructure - 2026 Start | Seattle, WA | 2026 | 90% | 2026-07-15 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7662594807715072261) |
 | Northrop Grumman | 2027 Intern Software Engineer | Melbourne, FL | 2027 | 90% | 2026-08-05 | 2026-08-06 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573) |
 | TikTok | Software Engineer Intern - Media Engine - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-05 | 2026-08-06 | [**Apply ➜**](https://lifeattiktok.com/search/7670295535077427509) |
 | TikTok | Software Engineer Intern - Foundation Platform - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-05 | 2026-08-06 | [**Apply ➜**](https://lifeattiktok.com/search/7670281449668905269) |

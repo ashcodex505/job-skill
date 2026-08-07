@@ -252,14 +252,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-369-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-9-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--07-informational)
+![open roles](https://img.shields.io/badge/open%20roles-369-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-5-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--07-informational)
 
-Updated **2026-08-07 16:06 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-07 17:05 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Terranova | Software Engineer Intern 🆕 | Berkeley, CA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/terranova/a8e5a8d2-4af3-4736-b66e-e0804447f7a0/application?embed=true) |
-| Amazon | Software Development Engineer Internship - Fall 2026 - US 🆕 | Seattle, WA | Fall 2026 | 100% | 2026-05-15 | 2026-08-07 | [**Apply ➜**](https://amazon.jobs/en/jobs/3116030/software-development-engineer-internship-fall-2026-us) |
+| Amazon | Software Development Engineer Internship - Fall 2026 - US | Seattle, WA | Fall 2026 | 100% | 2026-05-15 | 2026-08-07 | [**Apply ➜**](https://amazon.jobs/en/jobs/3116030/software-development-engineer-internship-fall-2026-us) |
 |  impact.com  | Associate Software Engineer Intern | Santa Barbara, CA | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/impact/jobs/8645964002) |
 | Atoms | Software Engineer Intern - Winter 2027 | Seattle, WA; SF; LA; NYC; Mountain View, CA | Winter 2027 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8687915002) |
 | Centerfield | Frontend Engineer Intern | LA | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/centerfield/1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4/application?embed=true) |
@@ -269,9 +269,9 @@ Updated **2026-08-07 16:06 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Palantir | Forward Deployed Software Engineer Intern - Commercial | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6/apply) |
 | Palantir | Privacy and Civil Liberties Software Engineer Intern | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply) |
 | Palantir | Forward Deployed Software Engineer Intern - Intel | Washington, DC | Winter 2027 | 100% | 2026-07-02 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89/apply) |
-| Rippling | Full Stack Software Engineer Intern - Winter 2027 | Seattle, WA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
+| Rippling | Full Stack Software Engineer Intern - Winter 2027 | New York, NY | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
 | Rippling | Machine Learning Software Engineer Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781) |
-| Rippling | Software Engineer Intern - Backend Focused - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
+| Rippling | Software Engineer Intern - Backend Focused - Winter 2027 | Seattle, WA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
 | Tenstorrent | Software Engineer Intern - Power Modeling & AI Tools | Santa Clara, CA | Winter 2027 | 100% | 2026-07-23 | 2026-08-06 | [**Apply ➜**](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation/Search Alliance | Seattle, WA | Fall 2026 | 100% | 2026-08-06 | 2026-08-06 | [**Apply ➜**](https://lifeattiktok.com/search/7670247810111768837) |
 | Western Digital | Software Engineering Co-op | Rochester, MN | Winter 2027 | 100% | 2026-07-16 | 2026-08-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/WesternDigital/744000138184309) |
