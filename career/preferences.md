@@ -56,6 +56,8 @@ hard filter, not merely a relevance boost.
 
 - New Grad
 - New Graduate
+- College Grad
+- College Graduate
 - Early Career
 - Early Careers
 
@@ -144,6 +146,7 @@ Edit this section whenever a newly identified company meets that bar.
 - Perplexity
 - Pinterest
 - Plaid
+- Quora
 - Qualcomm
 - Ramp
 - Reddit
