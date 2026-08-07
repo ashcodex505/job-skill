@@ -60,6 +60,7 @@ hard filter, not merely a relevance boost.
 - College Graduate
 - Early Career
 - Early Careers
+- Entry Level
 
 ## Internship seasons
 
