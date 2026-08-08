@@ -1,13 +1,15 @@
 # 🎯 Job Board — SWE Early Career
 
-**379 open roles** across **146 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-08 00:04 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**381 open roles** across **147 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-08 02:13 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (14)
+## 🆕 New this cycle (16)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| ProNexus | Software Engineer Intern 🆕 | Remote in USA | Fall 2026 | 100% | 2026-08-08 | 2026-08-08 | [**Apply ➜**](https://apply.workable.com/pronexus-1/j/AF8C34AC6D/apply) |
+| ByteDance | Software Development Engineer Intern - Network Automation - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-08 | 2026-08-08 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7671147251943213317/detail) |
 | Freeform | Software Engineer New Grad 🆕 | LA | — | 80% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7826634003) |
 | The Nuclear Company | Software Engineering Intern 🆕 | Washington, DC | Spring 2027 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383171008) |
 | The Nuclear Company | AI/ML Engineer Intern - Platform Integration & AI/Data 🆕 | Washington, DC | Spring 2027 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383212008) |
@@ -23,10 +25,11 @@ Last updated: **2026-08-08 00:04 UTC** · auto-refreshed every 12h by [job-board
 | General Motors | Software Verification Engineer - AV Platform - Early Career 🆕 | Milford, MI +1 | — | 80% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Milford-Michigan-United-States-of-America/Software-Verification-Engineer--AV-Platform--Early-Career-_JR-202611592) |
 | Intuitive Research and Technology | Entry Level Software Engineer 🆕 | Huntsville, AL | — | 70% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://intuitive.wd1.myworkdayjobs.com/en-US/irtc_careers/job/Huntsville-AL/Entry-Level-Software-Engineer_2627-054) |
 
-## 🛠️ Internships (239)
+## 🛠️ Internships (241)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| ProNexus | Software Engineer Intern 🆕 | Remote in USA | Fall 2026 | 100% | 2026-08-08 | 2026-08-08 | [**Apply ➜**](https://apply.workable.com/pronexus-1/j/AF8C34AC6D/apply) |
 | Johnson & Johnson | Software Engineer Co-op 🆕 | Cincinnati, OH | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820) |
 | RTX | Systems Engineer 1 Intern - Intern Conversion 🆕 | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863190) |
 | RTX | Systems Engineer 1 Intern - Intern Conversion 🆕 | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863596) |
@@ -207,6 +210,7 @@ Last updated: **2026-08-08 00:04 UTC** · auto-refreshed every 12h by [job-board
 | NVIDIA | PhD Software Engineering Intern, Decision Intelligence - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 100% | 2026-05-22 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
 | NVIDIA | PhD Research Intern - System Software and I/O Architecture - Fall 2026 | Remote - Santa Clara, CA +2 | Fall 2026 | 100% | 2026-06-24 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667) |
 | Anduril | 2027 Software Engineer Intern | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 | 96% (4 skills) | 2026-06-10 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
+| ByteDance | Software Development Engineer Intern - Network Automation - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-08 | 2026-08-08 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7671147251943213317/detail) |
 | Northrop Grumman | 2027 Intern Software Engineer 🆕 | Melbourne, FL | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395) |
 | TikTok | Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7670700387322300677) |
 | TikTok | Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7670738362521520437) |
@@ -290,8 +294,8 @@ Last updated: **2026-08-08 00:04 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Samsara | Software Engineer I - New Grad, SF | San Francisco - SF9 | — | 83% (2 skills) | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Bastrop, TX | — | 83% (2 skills) | 2026-02-27 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8399140002?gh_jid=8399140002) |
-| SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-01-16 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
+| SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Freeform | Software Engineer New Grad 🆕 | LA | — | 80% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7826634003) |
 | General Motors | Software Verification Engineer - AV Platform - Early Career 🆕 | Milford, MI +1 | — | 80% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Milford-Michigan-United-States-of-America/Software-Verification-Engineer--AV-Platform--Early-Career-_JR-202611592) |

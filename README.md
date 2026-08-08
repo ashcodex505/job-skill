@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-379-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-14-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--08-informational)
+![open roles](https://img.shields.io/badge/open%20roles-381-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-16-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--08-informational)
 
-Updated **2026-08-08 00:04 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-08 02:13 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| ProNexus | Software Engineer Intern 🆕 | Remote in USA | Fall 2026 | 100% | 2026-08-08 | 2026-08-08 | [**Apply ➜**](https://apply.workable.com/pronexus-1/j/AF8C34AC6D/apply) |
 | Johnson & Johnson | Software Engineer Co-op 🆕 | Cincinnati, OH | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820) |
 | RTX | Systems Engineer 1 Intern - Intern Conversion 🆕 | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863190) |
 | RTX | Systems Engineer 1 Intern - Intern Conversion 🆕 | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863596) |
@@ -277,5 +278,4 @@ Updated **2026-08-08 00:04 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | State of Nebraska | IT Construction Systems Intern | Lincoln, NE | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://son.wd108.myworkdayjobs.com/NebraskaStateCareers/job/Lincoln-NE/Student-Intern---IT-Construction-Systems_JR2026-00028484-1) |
 | Palantir | Forward Deployed Software Engineer Intern - Commercial | Chicago, IL | Winter 2027 | 100% | 2026-06-30 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2/apply) |
 | Palantir | Forward Deployed Software Engineer Intern - Commercial | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6/apply) |
-| Palantir | Privacy and Civil Liberties Software Engineer Intern | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply) |
 <!-- JOB-BOARD:END -->
