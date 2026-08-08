@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**381 open roles** across **147 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-08 03:54 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**380 open roles** across **147 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-08 05:08 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (13)
@@ -22,7 +22,7 @@ Last updated: **2026-08-08 03:54 UTC** · auto-refreshed every 12h by [job-board
 | RTX | Systems Engineer 1 Intern - Intern Conversion 🆕 | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863190) |
 | RTX | Systems Engineer 1 Intern - Intern Conversion 🆕 | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863596) |
 
-## 🛠️ Internships (241)
+## 🛠️ Internships (240)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -159,7 +159,6 @@ Last updated: **2026-08-08 03:54 UTC** · auto-refreshed every 12h by [job-board
 | Tesla | Software Engineer Intern - Software Engineer - Data Platforms | Palo Alto, CA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/267004) |
 | Tesla | Software Engineer Intern - Linux Update Systems | Palo Alto, CA | Fall 2026 | 100% (1 skills) | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/266986) |
 | Tesla | Software Engineering Intern - Software Engineering - Service Engineering | Palo Alto, CA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/266119) |
-| Tesla | Operational Automation Software Engineer Intern - Operational Automation Engineer - Residential Energy | Draper, UT | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/271352) |
 | Tesla | Mobile App Software Engineer Intern - Mobile Application Software Engineer - Energy Engineering | Palo Alto, CA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/271382) |
 | Tesla | Software Engineer Intern - Multiple Teams | Palo Alto, CA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/271372) |
 | Tesla | Software Machine Learning Engineer Intern - Reliability Energy Engineering | Palo Alto, CA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/272619) |
@@ -413,12 +412,13 @@ Last updated: **2026-08-08 03:54 UTC** · auto-refreshed every 12h by [job-board
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 
-## 🚪 Recently closed (last 7 days) (39)
+## 🚪 Recently closed (last 7 days) (40)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Tesla | Operational Automation Software Engineer Intern - Operational Automation Engineer - Residential Energy | Fall 2026 | 2026-08-08 |
 | Quora | Machine Learning Engineer New Grad | — | 2026-08-07 |
 | Boeing | Entry-Level Software Test Engineer | — | 2026-08-07 |
 | Leidos | Entry-Level Software Developer | — | 2026-08-07 |
