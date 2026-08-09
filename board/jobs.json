@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T23:39:12.148Z",
+ "updatedAt": "2026-08-09T02:24:33.318Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -606,6 +606,50 @@
    "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
+   "dedupeKey": "workday:JR2017522",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "PhD Software Engineering Intern, Decision Intelligence - Fall 2026",
+   "location": "US, CA, Santa Clara",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-05-22",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "workday:JR2022295",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern, Dynamo - Fall 2026",
+   "location": "US, CA, Santa Clara",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-05",
+   "firstSeenAt": "2026-08-05T18:43:33.968Z"
+  },
+  {
    "dedupeKey": "greenhouse:8097343",
    "source": "greenhouse",
    "company": "Samsara",
@@ -673,50 +717,6 @@
    },
    "postedAt": "2026-07-22T07:45:53.755Z",
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
-  },
-  {
-   "dedupeKey": "workday:JR2017522",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "PhD Software Engineering Intern, Decision Intelligence - Fall 2026",
-   "location": "US, CA, Santa Clara",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-22",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "workday:JR2022295",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "Software Engineering Intern, Dynamo - Fall 2026",
-   "location": "US, CA, Santa Clara",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-05",
-   "firstSeenAt": "2026-08-05T18:43:33.968Z"
   },
   {
    "dedupeKey": "greenhouse:8052785",
@@ -2903,6 +2903,28 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:822f64ab7237bb62c8b8e55cc4d96529c365c87a",
+   "source": "speedyapply",
+   "company": "IXL Learning",
+   "title": "Software Engineer - New Grad",
+   "location": "Raleigh-Durham, NC +1",
+   "url": "https://www.ixl.com/company/jobs?gh_jid=8663379002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-06T22:21:05.000Z",
+   "firstSeenAt": "2026-08-09T02:24:33.318Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:220531d74b181809536d30c9730c42a7d1de108c",
    "source": "speedyapply",
    "company": "General Motors",
@@ -4093,6 +4115,28 @@
    },
    "postedAt": "2026-07-07T09:11:59.000Z",
    "firstSeenAt": "2026-07-08T07:44:25.607Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:053e56c0-3d9e-4d1c-83c7-b891671a652c",
+   "source": "simplifyjobs",
+   "company": "Hudson River Trading",
+   "title": "Algorithm Developer New Grad - Quant Researcher",
+   "location": "NYC",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052050",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-13T22:30:45.000Z",
+   "firstSeenAt": "2026-08-09T02:24:33.318Z"
   },
   {
    "dedupeKey": "simplifyjobs:58e0500b-3577-4e69-9d43-b710f8155f10",
@@ -7003,6 +7047,28 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
+   "dedupeKey": "simplifyjobs:cef7eb65-ef35-4d6e-961e-cd3c0afe1058",
+   "source": "simplifyjobs",
+   "company": "Postman",
+   "title": "AI Engineer Intern",
+   "location": "Berkeley, CA",
+   "url": "https://job-boards.greenhouse.io/postman/jobs/7823417003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-01T22:13:21.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:ee1bc7a8-d82f-4c73-8228-18ce9b38d4b0",
    "source": "simplifyjobs",
    "company": "Obsidian Solutions Group",
@@ -8497,6 +8563,28 @@
    },
    "postedAt": "2026-08-08T01:15:19.000Z",
    "firstSeenAt": "2026-08-08T02:13:31.138Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:40dbbf5f-d4ad-493a-9644-4f4b0662556c",
+   "source": "simplifyjobs",
+   "company": "Cadence Design Systems",
+   "title": "Software Engineer Intern",
+   "location": "Pittsburgh, PA",
+   "url": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/PITTSBURGH-03/Software-Engineering-Intern_R52334-2",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-13T14:14:46.000Z",
+   "firstSeenAt": "2026-08-09T02:24:33.318Z"
   }
  ],
  "closed": [
@@ -8819,16 +8907,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z",
    "closedAt": "2026-08-06T04:23:54.262Z",
    "url": "https://www.tesla.com/careers/search/job/269829"
-  },
-  {
-   "dedupeKey": "simplifyjobs:cef7eb65-ef35-4d6e-961e-cd3c0afe1058",
-   "company": "Postman",
-   "title": "AI Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-07T00:29:13.435Z",
-   "url": "https://job-boards.greenhouse.io/postman/jobs/7823417003"
   },
   {
    "dedupeKey": "simplifyjobs:af755532-e162-46d6-a161-7874c1865c6e",
