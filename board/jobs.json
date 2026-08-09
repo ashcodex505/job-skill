@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T18:56:03.313Z",
+ "updatedAt": "2026-08-09T19:43:50.454Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -606,6 +606,31 @@
    "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
+   "dedupeKey": "greenhouse:8097343",
+   "source": "greenhouse",
+   "company": "Samsara",
+   "title": "Software Engineer I - New Grad, SF",
+   "location": "San Francisco - SF9",
+   "url": "https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 83,
+   "matchedSkills": [
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-08-03T12:32:48-04:00",
+   "firstSeenAt": "2026-08-03T19:01:10.547Z"
+  },
+  {
    "dedupeKey": "workday:JR355250",
    "source": "workday",
    "company": "Salesforce",
@@ -692,31 +717,6 @@
    },
    "postedAt": "2026-08-05",
    "firstSeenAt": "2026-08-05T18:43:33.968Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8097343",
-   "source": "greenhouse",
-   "company": "Samsara",
-   "title": "Software Engineer I - New Grad, SF",
-   "location": "San Francisco - SF9",
-   "url": "https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 83,
-   "matchedSkills": [
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-08-03T12:32:48-04:00",
-   "firstSeenAt": "2026-08-03T19:01:10.547Z"
   },
   {
    "dedupeKey": "greenhouse:8052785",
