@@ -1,6 +1,57 @@
 {
- "updatedAt": "2026-08-09T09:21:22.615Z",
+ "updatedAt": "2026-08-09T09:58:43.788Z",
  "jobs": [
+  {
+   "dedupeKey": "reverse-discovery:8013085",
+   "source": "reverse-discovery",
+   "company": "akunacapital",
+   "title": "Software Engineer (Entry-Level) - C++",
+   "location": "Chicago, IL",
+   "url": "https://www.akunacapital.com/careers/job/8013085/?gh_jid=8013085",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 73,
+   "matchedSkills": [
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 3
+   },
+   "postedAt": "2026-07-13T14:41:18-04:00",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:8013230",
+   "source": "reverse-discovery",
+   "company": "akunacapital",
+   "title": "Software Engineer (Entry-Level) - Python",
+   "location": "Chicago, IL",
+   "url": "https://www.akunacapital.com/careers/job/8013230/?gh_jid=8013230",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 75,
+   "matchedSkills": [
+    "Python",
+    "React",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 5
+   },
+   "postedAt": "2026-07-13T14:21:16-04:00",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
   {
    "dedupeKey": "rippling:sha1:58c70e7c0d3ada7cbfacf6e76bdb7333d1e3b199",
    "source": "rippling",
@@ -2767,52 +2818,6 @@
    },
    "postedAt": "2026-04-23",
    "firstSeenAt": "2026-07-26T03:50:17.796Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:9b59f3922cdf48c0b800c13a2f4f1111cd412a5d",
-   "source": "speedyapply",
-   "company": "Akuna Capital",
-   "title": "Software Engineer - Entry-Level - Python",
-   "location": "Chicago, IL",
-   "url": "https://www.akunacapital.com/careers/job/8013230/?gh_jid=8013230",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 72,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 2
-   },
-   "postedAt": "2026-07-14",
-   "firstSeenAt": "2026-08-07T01:09:11.897Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:779cde252f7f2de4097293b128f996f26874b7ec",
-   "source": "speedyapply",
-   "company": "Akuna Capital",
-   "title": "Software Engineer - Entry-Level - C++",
-   "location": "Chicago, IL",
-   "url": "https://www.akunacapital.com/careers/job/8013085/?gh_jid=8013085",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 70,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-07-13T22:10:09.000Z",
-   "firstSeenAt": "2026-08-07T01:09:11.897Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:8593ba975d3cba76eb2020ffa4860d6b5bd078e7",
