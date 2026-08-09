@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T19:43:50.454Z",
+ "updatedAt": "2026-08-09T20:47:51.248Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -631,50 +631,6 @@
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
   },
   {
-   "dedupeKey": "workday:JR355250",
-   "source": "workday",
-   "company": "Salesforce",
-   "title": "Software Engineering AMTS (College Grad)",
-   "location": "6 Locations",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250-1",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-06T00:00:00.000Z",
-   "firstSeenAt": "2026-08-07T00:29:13.435Z"
-  },
-  {
-   "dedupeKey": "workday:JR337715",
-   "source": "workday",
-   "company": "Salesforce",
-   "title": "Summer 2027 Intern - Software Engineer",
-   "location": "2 Locations",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-22T07:45:53.755Z",
-   "firstSeenAt": "2026-07-22T07:45:53.755Z"
-  },
-  {
    "dedupeKey": "workday:JR2017522",
    "source": "workday",
    "company": "NVIDIA",
@@ -717,6 +673,50 @@
    },
    "postedAt": "2026-08-05",
    "firstSeenAt": "2026-08-05T18:43:33.968Z"
+  },
+  {
+   "dedupeKey": "workday:JR355250",
+   "source": "workday",
+   "company": "Salesforce",
+   "title": "Software Engineering AMTS (College Grad)",
+   "location": "6 Locations",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250-1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-06T00:00:00.000Z",
+   "firstSeenAt": "2026-08-07T00:29:13.435Z"
+  },
+  {
+   "dedupeKey": "workday:JR337715",
+   "source": "workday",
+   "company": "Salesforce",
+   "title": "Summer 2027 Intern - Software Engineer",
+   "location": "2 Locations",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-22T07:45:53.755Z",
+   "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
    "dedupeKey": "greenhouse:8052785",
@@ -8566,116 +8566,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "speedyapply:sha1:8b6bf67ecf008b964336f6f8dbfb8432f9b65c81",
-   "company": "TikTok",
-   "title": "Software Engineer Project Intern - Model Infrastructure - 2026 Start - BS/MS",
-   "season": "2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-26T09:01:16.777Z",
-   "closedAt": "2026-08-02T20:17:01.441Z",
-   "url": "https://lifeattiktok.com/search/7624284785283746053"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:83533a3fac24ecd58a4b562f48a1e4f4257d65d9",
-   "company": "Northrop Grumman",
-   "title": "2027 Returning Intern Software Engineer",
-   "season": "2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-28T14:30:13.646Z",
-   "closedAt": "2026-08-02T20:17:01.441Z",
-   "url": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:957be37e74eab6b8b7ad1b76012f76ab3bb0b3ee",
-   "company": "Hermeus",
-   "title": "Software Engineering Intern - Modeling & Simulation - Fall 2026",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-08-02T20:17:01.441Z",
-   "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:3ba6c184594e6a06ed18b183750aad9895a92c14",
-   "company": "Notion",
-   "title": "Software Engineer Intern - Fall 2026",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z",
-   "closedAt": "2026-08-02T20:17:01.441Z",
-   "url": "https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:abcb98ac2fc9dd7dec429a5ef6a7ff1b7dfdf7fb",
-   "company": "Hermeus",
-   "title": "Software Engineering Intern - HMI - Fall 2026",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-08-02T20:17:01.441Z",
-   "url": "https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:8d1c1d4b21cf179f554b2769fc0722cfa861e1f8",
-   "company": "Symbotic",
-   "title": "New Grad- Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-28T14:30:13.646Z",
-   "closedAt": "2026-08-02T20:17:01.441Z",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Software-Engineer_R6770"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:17fb1c2f30dba42f602a18aa62cb1acdd12fefeb",
-   "company": "Abridge",
-   "title": "Software Engineer - Early Career",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-15T15:00:25.217Z",
-   "closedAt": "2026-08-02T20:17:01.441Z",
-   "url": "https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:802c6e661b4ae82368239ac35f44c76462a0ec4b",
-   "company": "Realm",
-   "title": "Software Engineer - New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-08-02T20:17:01.441Z",
-   "url": "https://jobs.ashbyhq.com/realmalliance/56d8b433-31ad-43a2-997e-b8538f5f2c9f"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:1e3852bd9d99135b86c613efbaceefd959d30f78",
-   "company": "Aquatic Capital Management",
-   "title": "Software Engineer - Early Career",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-08-02T20:17:01.441Z",
-   "url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002"
-  },
-  {
-   "dedupeKey": "simplifyjobs:251ae0a3-b247-4bba-b985-e7a42dda28cd",
-   "company": "Marvell",
-   "title": "Systems Application Engineer – Early Career",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-22T04:32:58.433Z",
-   "closedAt": "2026-08-02T20:17:01.441Z",
-   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Systems-Application-Engineer---Early-Career_2602267"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e849f4c2-737b-476e-8296-765db1bdc056",
-   "company": "Cadence Design Systems",
-   "title": "Software Engineer 2 New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-22T04:32:58.433Z",
-   "closedAt": "2026-08-02T20:17:01.441Z",
-   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/BOSTON-02/Software-Engineer-II--New-College-Grad-2026-_R54895"
-  },
   {
    "dedupeKey": "simplifyjobs:015239c6-bc89-4abd-a7a9-97acc270ae0a",
    "company": "Composio",
