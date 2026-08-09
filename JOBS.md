@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**385 open roles** across **149 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-09 09:58 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**384 open roles** across **149 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-09 10:08 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (3)
@@ -12,7 +12,7 @@ Last updated: **2026-08-09 09:58 UTC** · auto-refreshed every 12h by [job-board
 | Hudson River Trading | Algorithm Developer New Grad - Quant Researcher 🆕 | NYC | — | 80% | 2026-07-13 | 2026-08-09 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052050) |
 | Cadence Design Systems | Software Engineer Intern 🆕 | Pittsburgh, PA | Fall 2026 | 100% | 2026-06-13 | 2026-08-09 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/PITTSBURGH-03/Software-Engineering-Intern_R52334-2) |
 
-## 🛠️ Internships (242)
+## 🛠️ Internships (241)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -142,7 +142,6 @@ Last updated: **2026-08-09 09:58 UTC** · auto-refreshed every 12h by [job-board
 | SoloPulse | Software Engineer Intern/Co-op | Norcross, GA | Fall 2026 | 100% | 2026-06-16 | 2026-08-02 | [**Apply ➜**](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56/apply) |
 | SpreeAI  | Software Engineer Intern | SF | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://ats.rippling.com/spreeai/jobs/d34aed29-7a11-4e37-b5bc-e9317f82f0b1) |
 | SpreeAI  | Machine Learning Engineer Intern - Computer Vision/Multimodal/Generative AI | SF | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://ats.rippling.com/spreeai/jobs/aa087086-dd4b-42be-a499-051546655e97) |
-| SpreeAI  | Mobile Software Engineer Intern - Flagship Apps - iOS / Android / Web | SF | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://ats.rippling.com/spreeai/jobs/c52472cb-2671-45d7-b666-17196dc3df25) |
 | SRI International | Drexel University Co-op: Software Engineering/Full stack development | Princeton, NJ | Fall 2026 | 100% | 2026-07-27 | 2026-08-02 | [**Apply ➜**](https://careers-sri.icims.com/jobs/6432/job?mobile=true&needsRedirect=false) |
 | Synchrony Financial | Software Engineer Intern | Sharonville, OH; Canton, OH; Ohio | Fall 2026 | 100% | 2026-06-12 | 2026-08-02 | [**Apply ➜**](https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Canton-Engagement-Hub-OH/Software-Engineer-Intern---Fall-2026_2601751-1) |
 | Tencent | Research Intern - Video World Models - Research & ML Systems | Palo Alto, CA | Fall 2026 | 100% | 2026-07-15 | 2026-08-02 | [**Apply ➜**](https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752) |
@@ -282,8 +281,8 @@ Last updated: **2026-08-09 09:58 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Samsara | Software Engineer I - New Grad, SF | San Francisco - SF9 | — | 83% (2 skills) | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Bastrop, TX | — | 83% (2 skills) | 2026-02-27 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8399140002?gh_jid=8399140002) |
-| SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-01-16 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
+| SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Hudson River Trading | Algorithm Developer New Grad - Quant Researcher 🆕 | NYC | — | 80% | 2026-07-13 | 2026-08-09 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052050) |
 | IXL Learning | Software Engineer - New Grad 🆕 | Raleigh-Durham, NC +1 | — | 80% | 2026-08-06 | 2026-08-09 | [**Apply ➜**](https://www.ixl.com/company/jobs?gh_jid=8663379002) |
@@ -377,10 +376,9 @@ Last updated: **2026-08-09 09:58 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - Intel, US Government | Washington, D.C. | — | 80% | 2026-06-15 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
-| akunacapital | Software Engineer (Entry-Level) - Python | Chicago, IL | — | 75% (3 skills) | 2026-07-13 | 2026-08-07 | [**Apply ➜**](https://www.akunacapital.com/careers/job/8013230/?gh_jid=8013230) |
 | General Dynamics Mission Systems | Entry Level Software Engineer | Scottsdale, AZ | — | 75% | 2026-07-15 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73193/entry-level-software-engineer/job) |
 | General Dynamics Mission Systems | Entry Level Software Engineer | Scottsdale, AZ | — | 75% | 2026-06-22 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73193/job?mobile=true&needsRedirect=false) |
-| akunacapital | Software Engineer (Entry-Level) - C++ | Chicago, IL | — | 73% (2 skills) | 2026-07-13 | 2026-08-07 | [**Apply ➜**](https://www.akunacapital.com/careers/job/8013085/?gh_jid=8013085) |
+| Akuna Capital | Software Engineer - Entry-Level - Python | Chicago, IL | — | 72% (1 skills) | 2026-07-13 | 2026-08-07 | [**Apply ➜**](https://www.akunacapital.com/careers/job/8013230/?gh_jid=8013230) |
 | Conduent | Java Developer – Entry Level | Atlanta, GA | — | 72% (1 skills) | 2026-07-29 | 2026-08-07 | [**Apply ➜**](https://egua.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22738) |
 | Datalab USA | Production Programmer – Entry Level SQL Developer | Germantown, MD | — | 72% (1 skills) | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885/apply) |
 | DataLab USA | Production Programmer - Entry Level SQL Developer | Germantown, MD | — | 72% (1 skills) | 2026-06-18 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885) |
@@ -388,6 +386,7 @@ Last updated: **2026-08-09 09:58 UTC** · auto-refreshed every 12h by [job-board
 | AeroVironment | Entry-Level Software Engineer | Dayton, OH | — | 70% | 2026-06-23 | 2026-08-07 | [**Apply ➜**](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Dayton-OH/Entry-Level-Software-Engineer_8010) |
 | AG Technologies | Entry Level Software Engineer | Chesterfield, MO | — | 70% | 2026-06-22 | 2026-08-07 | [**Apply ➜**](https://jobs.smartrecruiters.com/AGTechnologies1/100730616) |
 | AG Technologies | Entry Level Software Engineer | Dallas, TX | — | 70% | 2026-06-22 | 2026-08-07 | [**Apply ➜**](https://jobs.smartrecruiters.com/AGTechnologies1/108734797) |
+| Akuna Capital | Software Engineer - Entry-Level - C++ | Chicago, IL | — | 70% | 2026-07-13 | 2026-08-07 | [**Apply ➜**](https://www.akunacapital.com/careers/job/8013085/?gh_jid=8013085) |
 | Boeing | Entry-Level Software Test Engineer | Hazelwood, MO +1 | — | 70% | 2026-08-05 | 2026-08-07 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/en-US/external_careers/job/USA---Hazelwood-MO/Entry-Level-Software-Test-Engineer_JR2026516717-1) |
 | CAI | Systems Analyst - Entry-Level | Orlando, FL | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://cai.wd5.myworkdayjobs.com/computer_aid/job/FL-CLIENT-STATE/Entry-Level-Systems-Analyst_R8248) |
 | Cox | Entry Level Software Engineer - Atlanta - GA | Atlanta, GA | — | 70% | 2026-08-04 | 2026-08-07 | [**Apply ➜**](https://cox.wd1.myworkdayjobs.com/en-US/cox_external_career_site_1/job/Atlanta-GA/Entry-Level-Software-Engineer---Atlanta--GA_R202680858-1) |
@@ -407,12 +406,13 @@ Last updated: **2026-08-09 09:58 UTC** · auto-refreshed every 12h by [job-board
 | The Boeing Company | Entry-Level Software Engineer | Maryland Heights, MO; Hazelwood, MO | — | 70% | 2026-08-05 | 2026-08-07 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Maryland-Heights-MO/Entry-Level-Software-Engineer_JR2026516694) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 
-## 🚪 Recently closed (last 7 days) (38)
+## 🚪 Recently closed (last 7 days) (39)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| SpreeAI  | Mobile Software Engineer Intern - Flagship Apps - iOS / Android / Web | Fall 2026 | 2026-08-09 |
 | Tesla | Operational Automation Software Engineer Intern - Operational Automation Engineer - Residential Energy | Fall 2026 | 2026-08-08 |
 | Quora | Machine Learning Engineer New Grad | — | 2026-08-07 |
 | Leidos | Entry-Level Software Developer | — | 2026-08-07 |
