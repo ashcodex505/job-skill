@@ -12,8 +12,10 @@ import { runScraper } from "@/scraper/run";
  *
  * runScraper reloads career/preferences.md every run, so its title, season,
  * location, freshness, and approved-company policy is identical to CI.
- * Eligible jobs newly inserted by this route create a deduplicated GitHub
- * Issue labeled `local-watch`, matching Browser Scan's notification model.
+ * Newly inserted jobs are stored normally, but only postings with a confirmed
+ * date no more than two days old can create a `local-watch` issue. Its URL
+ * ledger is shared with CI's urgent/big-tech streams, with a semantic
+ * company/title/location/season fallback, so one opportunity is notified once.
  */
 const g = globalThis as unknown as { __rtLastWatchScan?: number; __rtWatchScanRunning?: boolean };
 

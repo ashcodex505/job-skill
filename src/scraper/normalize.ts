@@ -291,6 +291,12 @@ export function canonicalUrl(url: string): string {
   try {
     const u = new URL(url);
     let pathname = u.pathname.replace(/\/+$/, "");
+    // Some custom careers sites put every posting on one generic path and
+    // carry the only stable identity in a query parameter (IBM jobId, IXL
+    // gh_jid). Preserve those IDs while still dropping tracking parameters.
+    const stableQueryIdentity = ["jobId", "gh_jid", "job_id", "jid"]
+      .map((key) => [key, u.searchParams.get(key)] as const)
+      .find(([, value]) => Boolean(value));
     // Ashby exposes the same posting at both /<uuid> and
     // /<uuid>/application?embed=true. Treat those as one identity so feed
     // and direct-adapter copies cannot create duplicate issues.
@@ -303,7 +309,10 @@ export function canonicalUrl(url: string): string {
       const requisition = pathname.match(/(?:_|-)([a-z]{1,4}\d{4,})(?:-\d+)?$/i)?.[1];
       if (requisition) pathname = `/requisition/${requisition}`;
     }
-    return `${u.host}${pathname}`.toLowerCase().replace(/\/+$/, "");
+    const query = stableQueryIdentity && !pathname.toLowerCase().includes(stableQueryIdentity[1]!.toLowerCase())
+      ? `?${stableQueryIdentity[0]}=${stableQueryIdentity[1]}`
+      : "";
+    return `${u.host}${pathname}${query}`.toLowerCase().replace(/\/+$/, "");
   } catch {
     return url.toLowerCase().replace(/[?#].*$/, "").replace(/\/+$/, "");
   }

@@ -272,6 +272,15 @@ reliably push-notifies. While the app is open, the dashboard panel also polls
 locally every 5 minutes (GitHub cron is best-effort; the local poll is the
 fastest signal).
 
+The dashboard's separate full supported-source scan creates `local-watch`
+issues only for postings with a confirmed provider date no more than two days
+old (date-only sources use calendar days). Unknown or older dates may remain
+on the local board but cannot notify. It reads and updates the same committed
+canonical-URL ledger used by CI's urgent/big-tech alerts, recovers local alert
+history from GitHub issue bodies, and also records a semantic
+company/title/location/season identity. This prevents adapter/feed URL variants
+and crossings between local-watch and big-tech from producing duplicate issues.
+
 ## Security model (details in [security.md](security.md))
 
 Three layers: `encryption.ts` (pure AES-256-GCM, random 96-bit IV per

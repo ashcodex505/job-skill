@@ -176,8 +176,8 @@ export function WatchlistPanel() {
       {settings ? (
         <p className="mb-2 text-xs text-muted">
           {settings.lastRunAt
-            ? `Last checked ${new Date(settings.lastRunAt).toLocaleString()}. New eligible opportunities create a GitHub issue labeled local-watch.`
-            : "Not run yet this session. New eligible opportunities create a GitHub issue labeled local-watch."}
+            ? `Last checked ${new Date(settings.lastRunAt).toLocaleString()}. Newly posted (≤2 days), never-before-alerted opportunities create a local-watch issue.`
+            : "Not run yet this session. Only dated opportunities posted within 2 days can create a local-watch issue."}
         </p>
       ) : null}
 
@@ -247,7 +247,7 @@ export function WatchlistPanel() {
       {/* Matches */}
       {state.watches.length > 0 ? (
         matches.length === 0 ? (
-          <p className="text-xs text-muted">No open roles match your watches yet. The local-watch issue stream still covers every new eligible opportunity found by this scan.</p>
+          <p className="text-xs text-muted">No open roles match your watches yet. The local-watch issue stream covers fresh, dated opportunities that were not already sent by another alert stream.</p>
         ) : (
           <ul className="divide-y divide-border">
             {matches.map((j) => (

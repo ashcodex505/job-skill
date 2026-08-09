@@ -352,6 +352,19 @@ describe("cross-source duplicate collapse (canonical URL + earliest date)", () =
     expect(new Set(urls.map(canonicalUrl))).toEqual(new Set(["salesforce.wd12.myworkdayjobs.com/requisition/jr355250"]));
   });
 
+  it("canonicalUrl preserves a stable query ID when the path itself is generic", () => {
+    expect(canonicalUrl("https://careers.ibm.com/en_US/careers/JobDetail?jobId=85970&source=WEB_Search_NA")).toBe(
+      "careers.ibm.com/en_us/careers/jobdetail?jobid=85970",
+    );
+    expect(canonicalUrl("https://www.ixl.com/company/jobs?gh_jid=8662881002&utm_source=feed")).toBe(
+      "www.ixl.com/company/jobs?gh_jid=8662881002",
+    );
+  });
+
+  it("does not append a duplicate query ID when the path already contains it", () => {
+    expect(canonicalUrl("https://careers.roblox.com/jobs/8072244?gh_jid=8072244")).toBe("careers.roblox.com/jobs/8072244");
+  });
+
   it("adapter copy wins but inherits the earliest posted date from any duplicate", async () => {
     const { dedupeJobs, normalizeJob } = await import("./normalize");
     const base = {
@@ -411,6 +424,7 @@ describe("isUsRemoteOrHybridLocation (hard filter, not a scoring signal)", () =>
     expect(isUsRemoteOrHybridLocation("Dublin, Ireland")).toBe(false);
     expect(isUsRemoteOrHybridLocation("Bangalore, India")).toBe(false);
     expect(isUsRemoteOrHybridLocation("Toronto, Canada")).toBe(false);
+    expect(isUsRemoteOrHybridLocation("Gurgaon, IN")).toBe(false);
   });
 
   it("does not confuse US states with foreign countries of similar name", () => {
@@ -422,6 +436,7 @@ describe("isUsRemoteOrHybridLocation (hard filter, not a scoring signal)", () =>
     expect(isUsRemoteOrHybridLocation(null)).toBe(true);
     expect(isUsRemoteOrHybridLocation("")).toBe(true);
     expect(isUsRemoteOrHybridLocation("Multiple Locations")).toBe(true);
+    expect(isUsRemoteOrHybridLocation("Indianapolis, IN")).toBe(true);
   });
 });
 
@@ -443,6 +458,19 @@ describe("normalizeJob enforces the location hard filter", () => {
 
   it("keeps a US posting", () => {
     expect(normalizeJob({ ...base, location: "San Francisco, CA" })).not.toBeNull();
+  });
+
+  it("rejects the real IBM Gurgaon browser-card shape even without a structured location", () => {
+    expect(
+      normalizeJob({
+        ...base,
+        source: "browser",
+        company: "IBM",
+        title: "Software Engineering Data Engineer-Machine Learning Entry Level Gurgaon, IN",
+        location: null,
+        url: "https://careers.ibm.com/en_US/careers/JobDetail?jobId=85970&source=WEB_Search_NA",
+      }),
+    ).toBeNull();
   });
 });
 

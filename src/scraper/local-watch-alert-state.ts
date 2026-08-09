@@ -6,6 +6,8 @@ import type { BoardJob } from "./board";
 export interface LocalWatchAlertState {
   initialized: boolean;
   alerted: AlertLedger;
+  /** Company/title/location/season identities already alerted, across URL/source changes. */
+  semanticAlerted: AlertLedger;
   /** Jobs awaiting a successfully-created issue (survives auth/network errors). */
   pending: BoardJob[];
 }
@@ -18,10 +20,11 @@ export function loadLocalWatchAlertState(): LocalWatchAlertState {
     return {
       initialized: parsed.initialized === true,
       alerted: parsed.alerted && typeof parsed.alerted === "object" ? parsed.alerted : {},
+      semanticAlerted: parsed.semanticAlerted && typeof parsed.semanticAlerted === "object" ? parsed.semanticAlerted : {},
       pending: Array.isArray(parsed.pending) ? parsed.pending : [],
     };
   } catch {
-    return { initialized: false, alerted: {}, pending: [] };
+    return { initialized: false, alerted: {}, semanticAlerted: {}, pending: [] };
   }
 }
 
