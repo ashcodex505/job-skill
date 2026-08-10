@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T22:11:11.295Z",
+ "updatedAt": "2026-08-10T23:10:13.450Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -442,7 +442,7 @@
    "source": "rippling",
    "company": "Rippling",
    "title": "Full Stack Software Engineer Intern - Winter 2027",
-   "location": "New York, NY",
+   "location": "Seattle, WA",
    "url": "https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a",
    "season": "Winter 2027",
    "roleType": "internship",
@@ -550,6 +550,34 @@
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
+   "dedupeKey": "greenhouse:6131089004",
+   "source": "greenhouse",
+   "company": "Figma",
+   "title": "Software Engineer Intern (Winter 2027)",
+   "location": "San Francisco, CA • New York, NY",
+   "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-08-10T15:03:06-04:00",
+   "firstSeenAt": "2026-08-10T19:37:30.408Z"
+  },
+  {
    "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
    "source": "ashby",
    "company": "Notion",
@@ -606,48 +634,29 @@
    "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
-   "dedupeKey": "workday:JR355250",
-   "source": "workday",
-   "company": "Salesforce",
-   "title": "Software Engineering AMTS (College Grad)",
-   "location": "6 Locations",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250-1",
+   "dedupeKey": "greenhouse:8097343",
+   "source": "greenhouse",
+   "company": "Samsara",
+   "title": "Software Engineer I - New Grad, SF",
+   "location": "San Francisco - SF9",
+   "url": "https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343",
    "season": null,
    "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
+   "score": 83,
+   "matchedSkills": [
+    "TypeScript",
+    "React"
+   ],
    "breakdown": {
     "role": 40,
     "roleType": 30,
     "season": 0,
     "location": 0,
     "keywords": 10,
-    "skills": 0
+    "skills": 3
    },
-   "postedAt": "2026-08-06T00:00:00.000Z",
-   "firstSeenAt": "2026-08-07T00:29:13.435Z"
-  },
-  {
-   "dedupeKey": "workday:JR337715",
-   "source": "workday",
-   "company": "Salesforce",
-   "title": "Summer 2027 Intern - Software Engineer",
-   "location": "2 Locations",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-22T07:45:53.755Z",
-   "firstSeenAt": "2026-07-22T07:45:53.755Z"
+   "postedAt": "2026-08-03T12:32:48-04:00",
+   "firstSeenAt": "2026-08-03T19:01:10.547Z"
   },
   {
    "dedupeKey": "workday:JR2017522",
@@ -694,57 +703,48 @@
    "firstSeenAt": "2026-08-05T18:43:33.968Z"
   },
   {
-   "dedupeKey": "greenhouse:8097343",
-   "source": "greenhouse",
-   "company": "Samsara",
-   "title": "Software Engineer I - New Grad, SF",
-   "location": "San Francisco - SF9",
-   "url": "https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343",
+   "dedupeKey": "workday:JR355250",
+   "source": "workday",
+   "company": "Salesforce",
+   "title": "Software Engineering AMTS (College Grad)",
+   "location": "6 Locations",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250-1",
    "season": null,
    "roleType": "new_grad",
-   "score": 83,
-   "matchedSkills": [
-    "TypeScript",
-    "React"
-   ],
+   "score": 80,
+   "matchedSkills": [],
    "breakdown": {
     "role": 40,
     "roleType": 30,
     "season": 0,
     "location": 0,
     "keywords": 10,
-    "skills": 3
+    "skills": 0
    },
-   "postedAt": "2026-08-03T12:32:48-04:00",
-   "firstSeenAt": "2026-08-03T19:01:10.547Z"
+   "postedAt": "2026-08-06T00:00:00.000Z",
+   "firstSeenAt": "2026-08-07T00:29:13.435Z"
   },
   {
-   "dedupeKey": "greenhouse:6131089004",
-   "source": "greenhouse",
-   "company": "Figma",
-   "title": "Software Engineer Intern (Winter 2027)",
-   "location": "San Francisco, CA • New York, NY",
-   "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
-   "season": "Winter 2027",
+   "dedupeKey": "workday:JR337715",
+   "source": "workday",
+   "company": "Salesforce",
+   "title": "Summer 2027 Intern - Software Engineer",
+   "location": "2 Locations",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715",
+   "season": "Summer 2027",
    "roleType": "internship",
    "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "JavaScript",
-    "Data Structures",
-    "Algorithms"
-   ],
+   "matchedSkills": [],
    "breakdown": {
     "role": 40,
     "roleType": 30,
     "season": 25,
     "location": 0,
     "keywords": 10,
-    "skills": 8
+    "skills": 0
    },
-   "postedAt": "2026-08-10T15:03:06-04:00",
-   "firstSeenAt": "2026-08-10T19:37:30.408Z"
+   "postedAt": "2026-07-22T07:45:53.755Z",
+   "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
    "dedupeKey": "greenhouse:8052785",
@@ -952,30 +952,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "greenhouse:8376990002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-01-16T16:46:29-05:00",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "greenhouse:8446263002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -997,6 +973,30 @@
     "skills": 2
    },
    "postedAt": "2026-03-06T15:35:11-05:00",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8376990002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-01-16T16:46:29-05:00",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -5335,6 +5335,28 @@
    "firstSeenAt": "2026-08-10T19:37:30.408Z"
   },
   {
+   "dedupeKey": "simplifyjobs:22f4cbf0-ea63-4e72-9fba-4319ef8415c3",
+   "source": "simplifyjobs",
+   "company": "Blue Origin",
+   "title": "Software Development Engineer 1 - Early Career",
+   "location": "Seattle, WA",
+   "url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Software-Development-Engineer-I---Early-Career--2026-Starts-_R70051",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-10T00:00:00.000Z",
+   "firstSeenAt": "2026-08-10T23:10:13.450Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:ea8ff237-6cb5-424b-917e-9ce08abf23a1",
    "source": "simplifyjobs",
    "company": "Medpace, Inc.",
@@ -8547,6 +8569,138 @@
    },
    "postedAt": "2026-08-10T14:19:47.000Z",
    "firstSeenAt": "2026-08-10T15:11:30.915Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:3ee0c355-bfb2-4580-a632-b2cd47e53858",
+   "source": "simplifyjobs",
+   "company": "Tesla",
+   "title": "Electronic Design Engineer Intern - Electronic Systems",
+   "location": "Palo Alto, CA",
+   "url": "https://www.tesla.com/careers/search/job/279760",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-10T22:16:49.000Z",
+   "firstSeenAt": "2026-08-10T23:10:13.450Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:3ad0c282-1052-46d1-8033-6d723edf25a5",
+   "source": "simplifyjobs",
+   "company": "Atoms",
+   "title": "Machine Learning PhD Software Engineer Intern",
+   "location": "Seattle, WA; LA; NYC; Mountain View, CA",
+   "url": "https://job-boards.greenhouse.io/cssmerge/jobs/8693034002",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-10T22:16:42.000Z",
+   "firstSeenAt": "2026-08-10T23:10:13.450Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:155f6df6-7cca-471e-8fb1-e8318faa6845",
+   "source": "simplifyjobs",
+   "company": "Tesla",
+   "title": "Software Engineer Intern - Engineering Automation - Vehicle Engineering",
+   "location": "Palo Alto, CA",
+   "url": "https://www.tesla.com/careers/search/job/279763",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-10T22:13:17.000Z",
+   "firstSeenAt": "2026-08-10T23:10:13.450Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:73c1ef4b-88b7-4b1c-b439-231e8bb950fd",
+   "source": "simplifyjobs",
+   "company": "Medpace",
+   "title": "Software Development Co-op - Spring 2027",
+   "location": "Cincinnati, OH",
+   "url": "https://careers.medpace.com/jobs/12922?icims=1",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-10T22:10:18.000Z",
+   "firstSeenAt": "2026-08-10T23:10:13.450Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:af90f319-0d2d-4222-9f22-92f3dab0d342",
+   "source": "simplifyjobs",
+   "company": "Mujin",
+   "title": "Software Integration Intern",
+   "location": "Suwanee, GA",
+   "url": "https://mujin.bamboohr.com/careers/166/",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-10T22:36:55.000Z",
+   "firstSeenAt": "2026-08-10T23:10:13.450Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:245185f0-482e-4f3d-b036-598acb899969",
+   "source": "simplifyjobs",
+   "company": "Mujin",
+   "title": "Software Development Intern - Spring 2027",
+   "location": "Suwanee, GA",
+   "url": "https://mujin.bamboohr.com/careers/165/",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-10T22:34:13.000Z",
+   "firstSeenAt": "2026-08-10T23:10:13.450Z"
   }
  ],
  "closed": [
