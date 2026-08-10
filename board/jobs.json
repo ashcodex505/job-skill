@@ -1,6 +1,72 @@
 {
- "updatedAt": "2026-08-10T16:27:33.935Z",
+ "updatedAt": "2026-08-10T17:31:49.182Z",
  "jobs": [
+  {
+   "dedupeKey": "rippling:sha1:58c70e7c0d3ada7cbfacf6e76bdb7333d1e3b199",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Full Stack Software Engineer Intern - Winter 2027",
+   "location": "New York, NY",
+   "url": "https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:21.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
+  {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
+  {
+   "dedupeKey": "rippling:sha1:2d382454a1b2398d53b48c0f822cfe61f7a13204",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Software Engineer Intern - Backend Focused - Winter 2027",
+   "location": "Seattle, WA",
+   "url": "https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -436,72 +502,6 @@
    },
    "postedAt": "2025-06-26T19:53:39.925Z",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "rippling:sha1:58c70e7c0d3ada7cbfacf6e76bdb7333d1e3b199",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Full Stack Software Engineer Intern - Winter 2027",
-   "location": "New York, NY",
-   "url": "https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:21.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
-  {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
-  {
-   "dedupeKey": "rippling:sha1:2d382454a1b2398d53b48c0f822cfe61f7a13204",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Software Engineer Intern - Backend Focused - Winter 2027",
-   "location": "Seattle, WA",
-   "url": "https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
   },
   {
    "dedupeKey": "amazon:10412530",
@@ -1071,6 +1071,50 @@
    },
    "postedAt": "2026-08-03T13:41:40-04:00",
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
+  },
+  {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
+  },
+  {
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:33264af45ba9c25adba8a6f42b9614f467a11fff",
@@ -3585,50 +3629,6 @@
    },
    "postedAt": "2026-05-21",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
-  },
-  {
-   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
-   "source": "vansh",
-   "company": "Appian",
-   "title": "New Grad 2027: Software Engineer",
-   "location": "McLean, VA",
-   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T21:58:55.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "simplifyjobs:684c01a1-1150-43b2-81a8-aaf6e5bd06db",
@@ -8456,16 +8456,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:e7ca86c9-9b55-4d3a-a409-f781291f435d",
-   "company": "Autodesk",
-   "title": "Cloud Developer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-03T17:27:33.810Z",
-   "url": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Quebec-CAN---Remote/Stagiaire-en-Dveloppement-Cloud--Intern-Cloud-Developer_26WD99464-2"
-  },
   {
    "dedupeKey": "simplifyjobs:8cd6c68a-d1b7-4a16-9dc4-411fb9932fbb",
    "company": "Kirin",

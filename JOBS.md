@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **379 open roles** across **148 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-10 16:27 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-10 17:31 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (7)
@@ -405,7 +405,7 @@ Last updated: **2026-08-10 16:27 UTC** · auto-refreshed every 12h by [job-board
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 
-## 🚪 Recently closed (last 7 days) (38)
+## 🚪 Recently closed (last 7 days) (37)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -448,7 +448,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | NVIDIA | System Software Engineer New Grad - Dynamo-Triton Inference Server | — | 2026-08-03 |
 | Kirin | Software Engineer Intern - AI Agents + Devices | Fall 2026 | 2026-08-03 |
 | SpaceX | Fall 2026 Software Engineering Internship/Co-op | Fall 2026 | 2026-08-03 |
-| Autodesk | Cloud Developer Intern | Fall 2026 | 2026-08-03 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
