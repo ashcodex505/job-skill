@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
-**383 open roles** across **148 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-10 06:00 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**378 open roles** across **146 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-10 06:48 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🛠️ Internships (242)
+## 🛠️ Internships (239)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -31,7 +31,7 @@ Last updated: **2026-08-10 06:00 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer Intern - Commercial | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6/apply) |
 | Palantir | Privacy and Civil Liberties Software Engineer Intern | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply) |
 | Palantir | Forward Deployed Software Engineer Intern - Intel | Washington, DC | Winter 2027 | 100% | 2026-07-02 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89/apply) |
-| Rippling | Full Stack Software Engineer Intern - Winter 2027 | New York, NY | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
+| Rippling | Full Stack Software Engineer Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
 | Rippling | Machine Learning Software Engineer Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781) |
 | Rippling | Software Engineer Intern - Backend Focused - Winter 2027 | Seattle, WA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
 | Tenstorrent | Software Engineer Intern - Power Modeling & AI Tools | Santa Clara, CA | Winter 2027 | 100% | 2026-07-23 | 2026-08-06 | [**Apply ➜**](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
@@ -120,9 +120,6 @@ Last updated: **2026-08-10 06:00 UTC** · auto-refreshed every 12h by [job-board
 | Melius | Software Engineer Intern | NYC | Fall 2026 | 100% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf/application?embed=true) |
 | Melius | Software Engineer Intern | NYC | Spring 2027 | 100% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280/application?embed=true) |
 | Mobius Renewables | Software Engineer Intern | Houston, TX | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://ats.rippling.com/greengas/jobs/b2938290-cc66-4f54-9888-bbe286c1d9b6) |
-| Muru | Mobile Software Engineer Intern | New York, NY | Fall 2026 | 100% | 2026-06-23 | 2026-08-02 | [**Apply ➜**](https://www.murumed.com/job-listings/software-engineer-intern) |
-| Muru | Full-Stack Software Engineer Intern | New York, NY | Fall 2026 | 100% | 2026-06-23 | 2026-08-02 | [**Apply ➜**](https://www.murumed.com/job-listings/web-software-engineer-intern) |
-| Obsidian Solutions Group | Unity 3D Developer Intern | Fredericksburg, VA | Fall 2026 | 100% | 2026-07-17 | 2026-08-02 | [**Apply ➜**](https://recruiting.paylocity.com/Recruiting/Jobs/Details/4341435) |
 | Persona AI | Teleoperation Software Engineering Internship | Houston, TX; Pensacola, FL | Fall 2026 | 100% | 2026-07-13 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/persona.ai/6078fafd-ba34-4c89-b260-7eb15be3cb9c/application) |
 | Phonely | Software Engineer Intern - Multiple Teams | SF | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/phonely/c83696cb-ca3a-4a9d-9e87-bfcf4f79fef5/application?embed=true) |
 | Postman | AI Engineer Intern | Berkeley, CA | Fall 2026 | 100% | 2026-08-01 | 2026-08-02 | [**Apply ➜**](https://job-boards.greenhouse.io/postman/jobs/7823417003) |
@@ -251,7 +248,7 @@ Last updated: **2026-08-10 06:00 UTC** · auto-refreshed every 12h by [job-board
 | Virtu Financial | 2027 Internship - Software Engineer | Austin, TX +1 | 2027 | 90% | 2026-07-22 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 
-## 🎓 New Grad (141)
+## 🎓 New Grad (139)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -368,8 +365,6 @@ Last updated: **2026-08-10 06:00 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - Intel, US Government | Washington, D.C. | — | 80% | 2026-06-15 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
-| General Dynamics Mission Systems | Entry Level Software Engineer | Scottsdale, AZ | — | 75% | 2026-07-15 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73193/entry-level-software-engineer/job) |
-| General Dynamics Mission Systems | Entry Level Software Engineer | Scottsdale, AZ | — | 75% | 2026-06-22 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73193/job?mobile=true&needsRedirect=false) |
 | Akuna Capital | Software Engineer - Entry-Level - Python | Chicago, IL | — | 72% (1 skills) | 2026-07-13 | 2026-08-07 | [**Apply ➜**](https://www.akunacapital.com/careers/job/8013230/?gh_jid=8013230) |
 | Conduent | Java Developer – Entry Level | Atlanta, GA | — | 72% (1 skills) | 2026-07-29 | 2026-08-07 | [**Apply ➜**](https://egua.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22738) |
 | Datalab USA | Production Programmer – Entry Level SQL Developer | Germantown, MD | — | 72% (1 skills) | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885/apply) |
@@ -397,12 +392,17 @@ Last updated: **2026-08-10 06:00 UTC** · auto-refreshed every 12h by [job-board
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 
-## 🚪 Recently closed (last 7 days) (29)
+## 🚪 Recently closed (last 7 days) (34)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| General Dynamics Mission Systems | Entry Level Software Engineer | — | 2026-08-10 |
+| General Dynamics Mission Systems | Entry Level Software Engineer | — | 2026-08-10 |
+| Muru | Mobile Software Engineer Intern | Fall 2026 | 2026-08-10 |
+| Muru | Full-Stack Software Engineer Intern | Fall 2026 | 2026-08-10 |
+| Obsidian Solutions Group | Unity 3D Developer Intern | Fall 2026 | 2026-08-10 |
 | NVIDIA | Systems Software Engineer New Grad | — | 2026-08-10 |
 | The Boeing Company | Entry-Level Software Engineer | — | 2026-08-09 |
 | Tesla | Operational Automation Software Engineer Intern - Operational Automation Engineer - Residential Energy | Fall 2026 | 2026-08-08 |
