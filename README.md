@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-380-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-6-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--10-informational)
+![open roles](https://img.shields.io/badge/open%20roles-379-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-7-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--10-informational)
 
-Updated **2026-08-10 14:01 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-10 15:11 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| TikTok | Software Engineer Intern - Global E-commerce-Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lifeattiktok.com/search/7670839727059339525) |
 | Varda | Site Reliability Internship - Spring 2027 🆕 | El Segundo, CA | Spring 2027 | 100% | 2026-08-08 | 2026-08-10 | [**Apply ➜**](https://job-boards.greenhouse.io/vardaspace/jobs/7824814003) |
 | Cadence Design Systems | Software Engineer Intern | Pittsburgh, PA | Fall 2026 | 100% | 2026-06-13 | 2026-08-09 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/PITTSBURGH-03/Software-Engineering-Intern_R52334-2) |
 | ProNexus | Software Engineer Intern | Remote in USA | Fall 2026 | 100% | 2026-08-08 | 2026-08-08 | [**Apply ➜**](https://apply.workable.com/pronexus-1/j/AF8C34AC6D/apply) |
@@ -277,5 +278,4 @@ Updated **2026-08-10 14:01 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Centerfield | Frontend Engineer Intern | LA | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/centerfield/1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4/application?embed=true) |
 | KBR | Software Intern | Houston, TX | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Houston-Texas/Software-Intern_R2127863) |
 | State of Nebraska | IT Construction Systems Intern | Lincoln, NE | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://son.wd108.myworkdayjobs.com/NebraskaStateCareers/job/Lincoln-NE/Student-Intern---IT-Construction-Systems_JR2026-00028484-1) |
-| Palantir | Forward Deployed Software Engineer Intern - Commercial | Chicago, IL | Winter 2027 | 100% | 2026-06-30 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2/apply) |
 <!-- JOB-BOARD:END -->

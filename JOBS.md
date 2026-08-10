@@ -1,13 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
-**380 open roles** across **149 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-10 14:01 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**379 open roles** across **148 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-10 15:11 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (6)
+## 🆕 New this cycle (7)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| TikTok | Software Engineer Intern - Global E-commerce-Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lifeattiktok.com/search/7670839727059339525) |
 | Varda | Site Reliability Internship - Spring 2027 🆕 | El Segundo, CA | Spring 2027 | 100% | 2026-08-08 | 2026-08-10 | [**Apply ➜**](https://job-boards.greenhouse.io/vardaspace/jobs/7824814003) |
 | Abridge | Software Engineer - Early Career 🆕 | San Francisco, CA | — | 80% | 2026-08-08 | 2026-08-10 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace) |
 | Google | Software Engineer - Early Career - Campus 🆕 | Mountain View, CA +9 | — | 80% | 2026-08-07 | 2026-08-10 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/78703249065943750) |
@@ -15,10 +16,11 @@ Last updated: **2026-08-10 14:01 UTC** · auto-refreshed every 12h by [job-board
 | T. Rowe Price | Associate Software Engineer - Entry-level 🆕 | Owings Mills, MD | — | 70% | 2026-08-07 | 2026-08-10 | [**Apply ➜**](https://troweprice.wd5.myworkdayjobs.com/en-US/troweprice/job/Owings-Mills-MD/Associate-Software-Engineer--Entry-level-_82578) |
 | Belvedere Trading | Software Engineer - Entry Level 2027 🆕 | Chicago, IL | 2027 New Grad | 95% | 2026-08-05 | 2026-08-10 | [**Apply ➜**](https://jobs.lever.co/belvederetrading/2f6480e5-7bf1-4c41-b3b5-3c7404d95b5f) |
 
-## 🛠️ Internships (240)
+## 🛠️ Internships (239)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| TikTok | Software Engineer Intern - Global E-commerce-Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lifeattiktok.com/search/7670839727059339525) |
 | Varda | Site Reliability Internship - Spring 2027 🆕 | El Segundo, CA | Spring 2027 | 100% | 2026-08-08 | 2026-08-10 | [**Apply ➜**](https://job-boards.greenhouse.io/vardaspace/jobs/7824814003) |
 | Cadence Design Systems | Software Engineer Intern | Pittsburgh, PA | Fall 2026 | 100% | 2026-06-13 | 2026-08-09 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/PITTSBURGH-03/Software-Engineering-Intern_R52334-2) |
 | ProNexus | Software Engineer Intern | Remote in USA | Fall 2026 | 100% | 2026-08-08 | 2026-08-08 | [**Apply ➜**](https://apply.workable.com/pronexus-1/j/AF8C34AC6D/apply) |
@@ -85,7 +87,6 @@ Last updated: **2026-08-10 14:01 UTC** · auto-refreshed every 12h by [job-board
 | ByteDance | Research Scientist Intern - Distributed NoSQL Database Systems | Seattle, WA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7668371456348326149/detail) |
 | ByteDance | Research Scientist Intern - Distributed NoSQL Database Systems | San Jose, CA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7668371003554138421/detail) |
 | Black Cape | Software Engineer Intern | Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA) |
-| Copart | Software Engineer Intern | Dallas, TX | Fall 2026 | 100% | 2026-08-02 | 2026-08-03 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353) |
 | Nebo | Back-End Engineer Intern | Atlanta, GA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://neboagency.applytojob.com/apply/VhgOaS6Nx3/BackEnd-Engineering-Intern) |
 | Nebo | Front-End Engineer Intern | Atlanta, GA | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://neboagency.applytojob.com/apply/TtGKnP4ODV/FrontEnd-Engineering-Intern) |
 | Prospect Equities | Backend / Frontend Developer Intern | Chicago, IL | Fall 2026 | 100% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://prospectequities.applytojob.com/apply/XTbzSAcNtg/Backend-Frontend-Developer-Intern) |
@@ -147,7 +148,6 @@ Last updated: **2026-08-10 14:01 UTC** · auto-refreshed every 12h by [job-board
 | SpreeAI  | Mobile Software Engineer Intern - Flagship Apps - iOS / Android / Web | SF | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://ats.rippling.com/spreeai/jobs/c52472cb-2671-45d7-b666-17196dc3df25) |
 | SRI International | Drexel University Co-op: Software Engineering/Full stack development | Princeton, NJ | Fall 2026 | 100% | 2026-07-27 | 2026-08-02 | [**Apply ➜**](https://careers-sri.icims.com/jobs/6432/job?mobile=true&needsRedirect=false) |
 | Synchrony Financial | Software Engineer Intern | Sharonville, OH; Canton, OH; Ohio | Fall 2026 | 100% | 2026-06-12 | 2026-08-02 | [**Apply ➜**](https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Canton-Engagement-Hub-OH/Software-Engineer-Intern---Fall-2026_2601751-1) |
-| Tencent | Research Intern - Video World Models - Research & ML Systems | Palo Alto, CA | Fall 2026 | 100% | 2026-07-15 | 2026-08-02 | [**Apply ➜**](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1) |
 | Tesla | Software Engineer Intern - Software Engineer - Information Security | Bellevue, WA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/270497) |
 | Tesla | Software Engineer Intern - Software Engineer - IT Apps | Fremont, CA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/271209) |
 | Tesla | Software Engineer Intern - Software Engineer - Data Platforms | Palo Alto, CA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/267004) |
@@ -284,8 +284,8 @@ Last updated: **2026-08-10 14:01 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Samsara | Software Engineer I - New Grad, SF | San Francisco - SF9 | — | 83% (2 skills) | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Bastrop, TX | — | 83% (2 skills) | 2026-02-27 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8399140002?gh_jid=8399140002) |
-| SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-01-16 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
+| SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-01-16 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Abridge | Software Engineer - Early Career 🆕 | San Francisco, CA | — | 80% | 2026-08-08 | 2026-08-10 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace) |
 | Google | Software Engineer - Early Career - Campus 🆕 | Mountain View, CA +9 | — | 80% | 2026-08-07 | 2026-08-10 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/78703249065943750) |
@@ -405,12 +405,14 @@ Last updated: **2026-08-10 14:01 UTC** · auto-refreshed every 12h by [job-board
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 
-## 🚪 Recently closed (last 7 days) (37)
+## 🚪 Recently closed (last 7 days) (39)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Tencent | Research Intern - Video World Models - Research & ML Systems | Fall 2026 | 2026-08-10 |
+| Copart | Software Engineer Intern | Fall 2026 | 2026-08-10 |
 | NVIDIA | PhD Research Intern - System Software and I/O Architecture - Fall 2026 | Fall 2026 | 2026-08-10 |
 | Northrop Grumman | 2027 Intern Software Engineer | 2027 | 2026-08-10 |
 | Boeing | Entry-Level Software Test Engineer | — | 2026-08-10 |
