@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T04:17:33.063Z",
+ "updatedAt": "2026-08-10T06:00:15.157Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -442,7 +442,7 @@
    "source": "rippling",
    "company": "Rippling",
    "title": "Full Stack Software Engineer Intern - Winter 2027",
-   "location": "Seattle, WA",
+   "location": "New York, NY",
    "url": "https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a",
    "season": "Winter 2027",
    "roleType": "internship",
@@ -486,7 +486,7 @@
    "source": "rippling",
    "company": "Rippling",
    "title": "Software Engineer Intern - Backend Focused - Winter 2027",
-   "location": "San Francisco, CA",
+   "location": "Seattle, WA",
    "url": "https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484",
    "season": "Winter 2027",
    "roleType": "internship",
@@ -631,50 +631,6 @@
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
   },
   {
-   "dedupeKey": "workday:JR355250",
-   "source": "workday",
-   "company": "Salesforce",
-   "title": "Software Engineering AMTS (College Grad)",
-   "location": "6 Locations",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250-1",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-06T00:00:00.000Z",
-   "firstSeenAt": "2026-08-07T00:29:13.435Z"
-  },
-  {
-   "dedupeKey": "workday:JR337715",
-   "source": "workday",
-   "company": "Salesforce",
-   "title": "Summer 2027 Intern - Software Engineer",
-   "location": "2 Locations",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-22T07:45:53.755Z",
-   "firstSeenAt": "2026-07-22T07:45:53.755Z"
-  },
-  {
    "dedupeKey": "workday:JR2017522",
    "source": "workday",
    "company": "NVIDIA",
@@ -717,6 +673,50 @@
    },
    "postedAt": "2026-08-05",
    "firstSeenAt": "2026-08-05T18:43:33.968Z"
+  },
+  {
+   "dedupeKey": "workday:JR355250",
+   "source": "workday",
+   "company": "Salesforce",
+   "title": "Software Engineering AMTS (College Grad)",
+   "location": "6 Locations",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250-1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-06T00:00:00.000Z",
+   "firstSeenAt": "2026-08-07T00:29:13.435Z"
+  },
+  {
+   "dedupeKey": "workday:JR337715",
+   "source": "workday",
+   "company": "Salesforce",
+   "title": "Summer 2027 Intern - Software Engineer",
+   "location": "2 Locations",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-22T07:45:53.755Z",
+   "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
    "dedupeKey": "greenhouse:8052785",
@@ -924,30 +924,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "greenhouse:8446263002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software (Starlink)",
-   "location": "Sunnyvale, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-03-06T15:35:11-05:00",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "greenhouse:8376990002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -969,6 +945,30 @@
     "skills": 2
    },
    "postedAt": "2026-01-16T16:46:29-05:00",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8446263002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software (Starlink)",
+   "location": "Sunnyvale, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-03-06T15:35:11-05:00",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -1071,50 +1071,6 @@
    },
    "postedAt": "2025-12-22T18:35:42-05:00",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
-  },
-  {
-   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
-   "source": "vansh",
-   "company": "Appian",
-   "title": "New Grad 2027: Software Engineer",
-   "location": "McLean, VA",
-   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T21:58:55.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:d3da9b8fef157dccc8dd62b8a55bcce944c0c12b",
@@ -3563,6 +3519,50 @@
    },
    "postedAt": "2026-05-21",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
+  },
+  {
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "simplifyjobs:684c01a1-1150-43b2-81a8-aaf6e5bd06db",
