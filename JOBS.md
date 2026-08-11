@@ -1,13 +1,16 @@
 # 🎯 Job Board — SWE Early Career
 
-**392 open roles** across **155 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-11 21:59 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**393 open roles** across **157 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-11 22:57 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (9)
+## 🆕 New this cycle (12)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Foxconn Industrial Internet | Software Engineer Intern - Engineering and Operations 🆕 | Houston, TX | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](http://foxconnggroup.applytojob.com/apply/xf0soVofyI/Software-Engineering-Intern) |
+| Apple | Software Engineer - Information Systems and Technology - Early Career 🆕 | Austin, TX | — | 80% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.apple.com/en-us/details/200677377) |
+| General Dynamics Mission Systems | Cybersecurity Software Engineer Intern 🆕 | Manassas, VA | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74257/job?mobile=true&needsRedirect=false) |
 | Analytic Partners | Software Engineer Co-op - Mcgill University 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/f4d7b848-878f-4761-be25-3d6e4f4d1a54/apply) |
 | Analytic Partners | Software Engineer Co-op - Georgia Tech 🆕 | Miami, FL; Florida; United States | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/5452f2a3-77ba-4cce-afdd-000351105650/apply) |
 | Analytic Partners | Software Engineer Co-op - University of Waterloo 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/6303782e-636f-4bac-90cd-051411558b8b/apply) |
@@ -18,10 +21,12 @@ Last updated: **2026-08-11 21:59 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Software Engineer Intern - Global E-commerce-Search - 2027 Fall 🆕 | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-11 | [**Apply ➜**](https://lifeattiktok.com/search/7670839752644233525) |
 | General Dynamics Mission Systems | Entry Level Software Engineer 🆕 | Lakewood, OH | — | 70% | 2026-05-18 | 2026-08-11 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72592/entry-level-software-engineer/job) |
 
-## 🛠️ Internships (247)
+## 🛠️ Internships (248)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Foxconn Industrial Internet | Software Engineer Intern - Engineering and Operations 🆕 | Houston, TX | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](http://foxconnggroup.applytojob.com/apply/xf0soVofyI/Software-Engineering-Intern) |
+| General Dynamics Mission Systems | Cybersecurity Software Engineer Intern 🆕 | Manassas, VA | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74257/job?mobile=true&needsRedirect=false) |
 | Analytic Partners | Software Engineer Co-op - Mcgill University 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/f4d7b848-878f-4761-be25-3d6e4f4d1a54/apply) |
 | Analytic Partners | Software Engineer Co-op - Georgia Tech 🆕 | Miami, FL; Florida; United States | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/5452f2a3-77ba-4cce-afdd-000351105650/apply) |
 | Analytic Partners | Software Engineer Co-op - Northeastern University 🆕 | Miami, FL; Florida; United States | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/eb778fc4-088f-4c5f-b650-e3042ab1b688/apply) |
@@ -170,7 +175,6 @@ Last updated: **2026-08-11 21:59 UTC** · auto-refreshed every 12h by [job-board
 | Tesla | Software Engineer Intern - Residential Energy Device Software Engineer - Energy Engineering | Palo Alto, CA | Fall 2026 | 100% | 2026-06-12 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/273810) |
 | Tesla | Systems Modeling & Optimization Intern - Robotaxi Simulation Engineer - Systems Modeling & Optimization | Palo Alto, CA | Fall 2026 | 100% | 2026-06-16 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/273933) |
 | Tesla | Product Management Intern - Product Engineer - Applications Engineering | Fremont, CA | Fall 2026 | 100% | 2026-06-24 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/274754) |
-| Tesla | Machine Learning Engineer Intern - Machine Learning Engineer - Factory Software | Fremont, CA | Fall 2026 | 100% | 2026-06-30 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/275380) |
 | Tesla | Software Engineer Intern - Distributed Systems Software Engineer - Energy Engineering | Palo Alto, CA | Fall 2026 | 100% | 2026-07-01 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/275558) |
 | Tesla | Machine Learning Intern - AI Engineer - Tesla AI | Palo Alto, CA | Fall 2026 | 100% | 2026-07-01 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/275331) |
 | Tesla | Energy Engineering Intern - Software Engineer Diagnostics - Energy Engineering | Palo Alto, CA | Fall 2026 | 100% | 2026-07-03 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/275805) |
@@ -297,6 +301,7 @@ Last updated: **2026-08-11 21:59 UTC** · auto-refreshed every 12h by [job-board
 | SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-01-16 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
+| Apple | Software Engineer - Information Systems and Technology - Early Career 🆕 | Austin, TX | — | 80% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.apple.com/en-us/details/200677377) |
 | State Street | Software Engineer New Grad 🆕 | Burlington, MA | — | 80% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-795953) |
 | Ciena | Software Engineer - Security - New Grad 🆕 | Atlanta, GA | — | 80% | 2026-08-10 | 2026-08-11 | [**Apply ➜**](https://ciena.wd5.myworkdayjobs.com/en-US/careers/job/Atlanta/Software-Engineer--Security----New-Grad_R030880) |
 | Blue Origin | Software Development Engineer 1 - Early Career | Seattle, WA | — | 80% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Software-Development-Engineer-I---Early-Career--2026-Starts-_R70051) |
@@ -409,7 +414,6 @@ Last updated: **2026-08-11 21:59 UTC** · auto-refreshed every 12h by [job-board
 | EAi Technologies | Entry Level .NET Software Developer | Vienna, VA | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://eaiti.applytojob.com/apply/9RStfnAuq4/Entry-Level-NET-Software-Developer) |
 | General Dynamics Mission Systems | Entry Level Software Systems Engineer | Port Orchard, WA | — | 70% | 2026-07-27 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/73755/entry-level-software-systems-engineer/job) |
 | General Dynamics Mission Systems | Entry Level Software Engineer | Brooklyn, OH | — | 70% | 2026-05-18 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72592/job?mobile=true&needsRedirect=false) |
-| General Dynamics Mission Systems | Entry Level Infrastructure Software Engineer | Pittsfield, MA | — | 70% | 2026-05-13 | 2026-08-07 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72580/job?mobile=true&needsRedirect=false) |
 | i3 Corps | Entry Level Software Engineer | Huntsville, AL | — | 70% | 2026-07-14 | 2026-08-07 | [**Apply ➜**](https://careers-i3-corps.icims.com/jobs/5175/entry-level-software-engineer/job) |
 | Integration Innovation (i3) | Entry Level Software Engineer | Huntsville, AL | — | 70% | 2026-06-29 | 2026-08-07 | [**Apply ➜**](https://careers-i3-corps.icims.com/jobs/5175/job?mobile=true&needsRedirect=false) |
 | Leidos | Entry Level Software Tester | Lawton, OK | — | 70% | 2026-07-28 | 2026-08-07 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Lawton-OK/Entry-Level-Software-Tester_R-00187901) |
@@ -420,12 +424,14 @@ Last updated: **2026-08-11 21:59 UTC** · auto-refreshed every 12h by [job-board
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 
-## 🚪 Recently closed (last 7 days) (38)
+## 🚪 Recently closed (last 7 days) (40)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| General Dynamics Mission Systems | Entry Level Infrastructure Software Engineer | — | 2026-08-11 |
+| Tesla | Machine Learning Engineer Intern - Machine Learning Engineer - Factory Software | Fall 2026 | 2026-08-11 |
 | Ambarella | Software Development Engineer Intern | Fall 2026 | 2026-08-11 |
 | LPL Financial Holdings | Software Engineering New Grad | — | 2026-08-11 |
 | General Dynamics Mission Systems | Entry Level Software Engineer | — | 2026-08-11 |

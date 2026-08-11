@@ -252,12 +252,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-392-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-9-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--11-informational)
+![open roles](https://img.shields.io/badge/open%20roles-393-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-12-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--11-informational)
 
-Updated **2026-08-11 21:59 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-11 22:57 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Foxconn Industrial Internet | Software Engineer Intern - Engineering and Operations 🆕 | Houston, TX | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](http://foxconnggroup.applytojob.com/apply/xf0soVofyI/Software-Engineering-Intern) |
+| General Dynamics Mission Systems | Cybersecurity Software Engineer Intern 🆕 | Manassas, VA | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74257/job?mobile=true&needsRedirect=false) |
 | Analytic Partners | Software Engineer Co-op - Mcgill University 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/f4d7b848-878f-4761-be25-3d6e4f4d1a54/apply) |
 | Analytic Partners | Software Engineer Co-op - Georgia Tech 🆕 | Miami, FL; Florida; United States | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/5452f2a3-77ba-4cce-afdd-000351105650/apply) |
 | Analytic Partners | Software Engineer Co-op - Northeastern University 🆕 | Miami, FL; Florida; United States | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/eb778fc4-088f-4c5f-b650-e3042ab1b688/apply) |
@@ -276,6 +278,4 @@ Updated **2026-08-11 21:59 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Cadence Design Systems | Software Engineer Intern | Pittsburgh, PA | Fall 2026 | 100% | 2026-06-13 | 2026-08-09 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/PITTSBURGH-03/Software-Engineering-Intern_R52334-2) |
 | ProNexus | Software Engineer Intern | Remote in USA | Fall 2026 | 100% | 2026-08-08 | 2026-08-08 | [**Apply ➜**](https://apply.workable.com/pronexus-1/j/AF8C34AC6D/apply) |
 | Johnson & Johnson | Software Engineer Co-op | Cincinnati, OH | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820) |
-| RTX | Systems Engineer 1 Intern - Intern Conversion | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863190) |
-| RTX | Systems Engineer 1 Intern - Intern Conversion | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863596) |
 <!-- JOB-BOARD:END -->
