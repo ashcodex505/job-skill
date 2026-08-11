@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**393 open roles** across **156 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-11 19:42 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**392 open roles** across **155 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-11 20:59 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (9)
@@ -18,7 +18,7 @@ Last updated: **2026-08-11 19:42 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Software Engineer Intern - Global E-commerce-Search - 2027 Fall 🆕 | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-11 | [**Apply ➜**](https://lifeattiktok.com/search/7670839752644233525) |
 | General Dynamics Mission Systems | Entry Level Software Engineer 🆕 | Lakewood, OH | — | 70% | 2026-05-18 | 2026-08-11 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72592/entry-level-software-engineer/job) |
 
-## 🛠️ Internships (248)
+## 🛠️ Internships (247)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -59,7 +59,7 @@ Last updated: **2026-08-11 19:42 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer Intern - Commercial | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6/apply) |
 | Palantir | Privacy and Civil Liberties Software Engineer Intern | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply) |
 | Palantir | Forward Deployed Software Engineer Intern - Intel | Washington, DC | Winter 2027 | 100% | 2026-07-02 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89/apply) |
-| Rippling | Full Stack Software Engineer Intern - Winter 2027 | Seattle, WA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
+| Rippling | Full Stack Software Engineer Intern - Winter 2027 | New York, NY | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
 | Rippling | Machine Learning Software Engineer Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781) |
 | Rippling | Software Engineer Intern - Backend Focused - Winter 2027 | Seattle, WA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
 | Tenstorrent | Software Engineer Intern - Power Modeling & AI Tools | Santa Clara, CA | Winter 2027 | 100% | 2026-07-23 | 2026-08-06 | [**Apply ➜**](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
@@ -113,7 +113,6 @@ Last updated: **2026-08-11 19:42 UTC** · auto-refreshed every 12h by [job-board
 | Altom Transport | Software Development Intern | Markham, IL | Fall 2026 | 100% | 2026-06-03 | 2026-08-02 | [**Apply ➜**](https://apply.workable.com/altom-transport/j/8536165C7B/apply) |
 | Altom Transport | Software Development Intern | Markham, IL | Fall 2026 | 100% | 2026-05-28 | 2026-08-02 | [**Apply ➜**](https://apply.workable.com/altom-transport/j/1E3C4A9408/apply) |
 | Altom Transport | Software Development Intern | Markham, IL | Fall 2026 | 100% | 2026-06-23 | 2026-08-02 | [**Apply ➜**](https://apply.workable.com/altom-transport/j/9FC654F05E/apply) |
-| Ambarella | Software Development Engineer Intern | United States | Fall 2026 | 100% | 2026-05-23 | 2026-08-02 | [**Apply ➜**](https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Development-Engineer-Intern_JR100108) |
 | Argonne National Laboratory | Business Systems Administration Internship | Remote in USA; Woodridge, IL | Fall 2026 | 100% | 2026-07-04 | 2026-08-02 | [**Apply ➜**](https://argonne.wd1.myworkdayjobs.com/EDU_PUB/job/Lemont-IL-USA/Business-Systems-Administration-Internship_413528) |
 | Arkema Global | Manufacturing Data Systems Intern | Villanova, PA | Fall 2026 | 100% | 2026-07-29 | 2026-08-02 | [**Apply ➜**](https://jobs.arkema.com/job/Radnor-Manufacturing-Data-Systems-Intern-Job-PA/1420491833/?ats=successfactors) |
 | Astranis Space Technologies | Flight Software Intern - Fall 2026 | San Francisco, CA | Fall 2026 | 100% | 2026-04-30 | 2026-08-02 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4619283006) |
@@ -421,12 +420,13 @@ Last updated: **2026-08-11 19:42 UTC** · auto-refreshed every 12h by [job-board
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 
-## 🚪 Recently closed (last 7 days) (37)
+## 🚪 Recently closed (last 7 days) (38)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Ambarella | Software Development Engineer Intern | Fall 2026 | 2026-08-11 |
 | LPL Financial Holdings | Software Engineering New Grad | — | 2026-08-11 |
 | General Dynamics Mission Systems | Entry Level Software Engineer | — | 2026-08-11 |
 | Microsoft | Software Engineer Security & Identity Intern | Fall 2026 | 2026-08-11 |
