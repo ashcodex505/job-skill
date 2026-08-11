@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-392-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-15-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--11-informational)
+![open roles](https://img.shields.io/badge/open%20roles-391-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-14-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--11-informational)
 
-Updated **2026-08-11 04:04 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-11 05:18 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -267,7 +267,7 @@ Updated **2026-08-11 04:04 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Tesla | Electronic Design Engineer Intern - Electronic Systems 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279760) |
 | Tesla | Software Engineer Intern - Engineering Automation - Vehicle Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279763) |
 | Figma | Software Engineer Intern (Winter 2027) 🆕 | San Francisco, CA • New York, NY | Winter 2027 | 100% (5 skills) | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004) |
-| TikTok | Software Engineer Intern - Global E-commerce-Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lifeattiktok.com/search/7670839727059339525) |
+| TikTok | Software Engineer Intern - Global E-commerce-Search | Seattle, WA | Summer 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lifeattiktok.com/search/7670839727059339525) |
 | Varda | Site Reliability Internship - Spring 2027 | El Segundo, CA | Spring 2027 | 100% | 2026-08-08 | 2026-08-10 | [**Apply ➜**](https://job-boards.greenhouse.io/vardaspace/jobs/7824814003) |
 | Cadence Design Systems | Software Engineer Intern | Pittsburgh, PA | Fall 2026 | 100% | 2026-06-13 | 2026-08-09 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/PITTSBURGH-03/Software-Engineering-Intern_R52334-2) |
 | ProNexus | Software Engineer Intern | Remote in USA | Fall 2026 | 100% | 2026-08-08 | 2026-08-08 | [**Apply ➜**](https://apply.workable.com/pronexus-1/j/AF8C34AC6D/apply) |

@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
-**392 open roles** across **157 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-11 04:04 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**391 open roles** across **156 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-11 05:18 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (15)
+## 🆕 New this cycle (14)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -18,7 +18,6 @@ Last updated: **2026-08-11 04:04 UTC** · auto-refreshed every 12h by [job-board
 | Tesla | Software Engineer Intern - Engineering Automation - Vehicle Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279763) |
 | Medpace | Software Development Co-op - Spring 2027 🆕 | Cincinnati, OH | Spring 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://careers.medpace.com/jobs/12922?icims=1) |
 | Figma | Software Engineer Intern (Winter 2027) 🆕 | San Francisco, CA • New York, NY | Winter 2027 | 100% (5 skills) | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004) |
-| TikTok | Software Engineer Intern - Global E-commerce-Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lifeattiktok.com/search/7670839727059339525) |
 | Blue Origin | Software Development Engineer 1 - Early Career 🆕 | Seattle, WA | — | 80% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Software-Development-Engineer-I---Early-Career--2026-Starts-_R70051) |
 | LPL Financial Holdings | Software Engineering New Grad 🆕 | Austin, TX; Fort Mill, SC; Charlotte, NC | — | 80% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/New-Grad-2027---Software-Engineering_R-052475) |
 | Micron Technology | IT Software Support Engineer New Grad 🆕 | Boise, ID | — | 80% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---ID1/New-College-Grad---IT-Software-Support-Engineer_JR108465) |
@@ -37,7 +36,7 @@ Last updated: **2026-08-11 04:04 UTC** · auto-refreshed every 12h by [job-board
 | Tesla | Electronic Design Engineer Intern - Electronic Systems 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279760) |
 | Tesla | Software Engineer Intern - Engineering Automation - Vehicle Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279763) |
 | Figma | Software Engineer Intern (Winter 2027) 🆕 | San Francisco, CA • New York, NY | Winter 2027 | 100% (5 skills) | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004) |
-| TikTok | Software Engineer Intern - Global E-commerce-Search 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lifeattiktok.com/search/7670839727059339525) |
+| TikTok | Software Engineer Intern - Global E-commerce-Search | Seattle, WA | Summer 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lifeattiktok.com/search/7670839727059339525) |
 | Varda | Site Reliability Internship - Spring 2027 | El Segundo, CA | Spring 2027 | 100% | 2026-08-08 | 2026-08-10 | [**Apply ➜**](https://job-boards.greenhouse.io/vardaspace/jobs/7824814003) |
 | Cadence Design Systems | Software Engineer Intern | Pittsburgh, PA | Fall 2026 | 100% | 2026-06-13 | 2026-08-09 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/PITTSBURGH-03/Software-Engineering-Intern_R52334-2) |
 | ProNexus | Software Engineer Intern | Remote in USA | Fall 2026 | 100% | 2026-08-08 | 2026-08-08 | [**Apply ➜**](https://apply.workable.com/pronexus-1/j/AF8C34AC6D/apply) |
@@ -276,7 +275,7 @@ Last updated: **2026-08-11 04:04 UTC** · auto-refreshed every 12h by [job-board
 | Virtu Financial | 2027 Internship - Software Engineer | Austin, TX +1 | 2027 | 90% | 2026-07-22 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 
-## 🎓 New Grad (145)
+## 🎓 New Grad (144)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -300,8 +299,8 @@ Last updated: **2026-08-11 04:04 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Samsara | Software Engineer I - New Grad, SF | San Francisco - SF9 | — | 83% (2 skills) | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Bastrop, TX | — | 83% (2 skills) | 2026-02-27 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8399140002?gh_jid=8399140002) |
-| SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-01-16 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
+| SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-01-16 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Blue Origin | Software Development Engineer 1 - Early Career 🆕 | Seattle, WA | — | 80% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Software-Development-Engineer-I---Early-Career--2026-Starts-_R70051) |
 | LPL Financial Holdings | Software Engineering New Grad 🆕 | Austin, TX; Fort Mill, SC; Charlotte, NC | — | 80% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/New-Grad-2027---Software-Engineering_R-052475) |
@@ -317,7 +316,6 @@ Last updated: **2026-08-11 04:04 UTC** · auto-refreshed every 12h by [job-board
 | Salesforce | Software Engineering AMTS (College Grad) | 6 Locations | — | 80% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250-1) |
 | Nooks | Software Engineer - New Grad | San Francisco, CA | — | 80% | 2026-07-30 | 2026-08-06 | [**Apply ➜**](https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53) |
 | ByteDance | Backend Inference Runtime Engineer New Grad - AML Inference | San Jose, CA | — | 80% | 2026-08-06 | 2026-08-06 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7669789046777940229/detail) |
-| L3Harris Technologies | Software Engineer New Grad | Salt Lake City, UT | — | 80% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://jobs.l3harris.com/job/Salt-Lake-City-Sr-Associate,-Software-Engineer-UT-84116/1416228900/?ats=successfactors) |
 | Lightfield | Software Engineer - Infrastructure - Early Career | Cambridge, MA | — | 80% | 2026-08-02 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/lightfield/9a7ef2f9-577a-4242-b884-719e3cdf4420) |
 | Retell AI | Software Engineer - New Grad | Redwood City, CA | — | 80% | 2026-08-03 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/retell-ai/ea775189-0496-43d8-a386-df8148265463) |
 | TikTok | Machine Learning Engineer New Grad - Performance Monetization | San Jose, CA | — | 80% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669691374918011141) |
@@ -426,12 +424,13 @@ Last updated: **2026-08-11 04:04 UTC** · auto-refreshed every 12h by [job-board
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 
-## 🚪 Recently closed (last 7 days) (35)
+## 🚪 Recently closed (last 7 days) (36)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| L3Harris Technologies | Software Engineer New Grad | — | 2026-08-11 |
 | Tesla | Automated Diagnostics Intern - Software Engineer | Fall 2026 | 2026-08-11 |
 | Tencent | Research Intern - Video World Models - Research & ML Systems | Fall 2026 | 2026-08-10 |
 | Copart | Software Engineer Intern | Fall 2026 | 2026-08-10 |
