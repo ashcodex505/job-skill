@@ -1,23 +1,33 @@
 # 🎯 Job Board — SWE Early Career
 
-**388 open roles** across **155 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-11 16:30 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**394 open roles** across **157 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-11 17:35 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (4)
+## 🆕 New this cycle (9)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Cloudflare | Software Engineer Intern (Fall 2026) 🆕 | In-Office | Fall 2026 | 100% (3 skills) | 2026-08-10 | 2026-08-11 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845) |
+| Analytic Partners | Software Engineer Co-op - Mcgill University 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/f4d7b848-878f-4761-be25-3d6e4f4d1a54/apply) |
+| Analytic Partners | Software Engineer Co-op - Georgia Tech 🆕 | Miami, FL; Florida; United States | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/5452f2a3-77ba-4cce-afdd-000351105650/apply) |
+| Analytic Partners | Software Engineer Co-op - University of Waterloo 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/6303782e-636f-4bac-90cd-051411558b8b/apply) |
+| Analytic Partners | Software Engineer Co-op - Northeastern University 🆕 | Miami, FL; Florida; United States | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/eb778fc4-088f-4c5f-b650-e3042ab1b688/apply) |
+| Analytic Partners | Software Engineer Co-op - University of Toronto 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/485ae801-3fae-4dc1-950d-445ba990f6c9/apply) |
+| State Street | Software Engineer New Grad 🆕 | Burlington, MA | — | 80% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-795953) |
 | Ciena | Software Engineer - Security - New Grad 🆕 | Atlanta, GA | — | 80% | 2026-08-10 | 2026-08-11 | [**Apply ➜**](https://ciena.wd5.myworkdayjobs.com/en-US/careers/job/Atlanta/Software-Engineer--Security----New-Grad_R030880) |
 | TikTok | Software Engineer Intern - Global E-commerce-Search - 2027 Fall 🆕 | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-11 | [**Apply ➜**](https://lifeattiktok.com/search/7670839752644233525) |
 | General Dynamics Mission Systems | Entry Level Software Engineer 🆕 | Lakewood, OH | — | 70% | 2026-05-18 | 2026-08-11 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72592/entry-level-software-engineer/job) |
 
-## 🛠️ Internships (243)
+## 🛠️ Internships (248)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Cloudflare | Software Engineer Intern (Fall 2026) 🆕 | In-Office | Fall 2026 | 100% (3 skills) | 2026-08-10 | 2026-08-11 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845) |
+| Analytic Partners | Software Engineer Co-op - Mcgill University 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/f4d7b848-878f-4761-be25-3d6e4f4d1a54/apply) |
+| Analytic Partners | Software Engineer Co-op - Georgia Tech 🆕 | Miami, FL; Florida; United States | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/5452f2a3-77ba-4cce-afdd-000351105650/apply) |
+| Analytic Partners | Software Engineer Co-op - Northeastern University 🆕 | Miami, FL; Florida; United States | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/eb778fc4-088f-4c5f-b650-e3042ab1b688/apply) |
+| Analytic Partners | Software Engineer Co-op - University of Waterloo 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/6303782e-636f-4bac-90cd-051411558b8b/apply) |
+| Analytic Partners | Software Engineer Co-op - University of Toronto 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/485ae801-3fae-4dc1-950d-445ba990f6c9/apply) |
+| Cloudflare | Software Engineer Intern (Fall 2026) | In-Office | Fall 2026 | 100% (3 skills) | 2026-08-10 | 2026-08-11 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845) |
 | Caddi Workflow Automation | Software Engineer Intern | Seattle, WA | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://apply.workable.com/trycaddi/j/9D1291C697/apply) |
 | Atoms | Machine Learning PhD Software Engineer Intern | Seattle, WA; LA; NYC; Mountain View, CA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8693034002) |
 | Medpace | Software Development Co-op - Spring 2027 | Cincinnati, OH | Spring 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://careers.medpace.com/jobs/12922?icims=1) |
@@ -49,9 +59,9 @@ Last updated: **2026-08-11 16:30 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer Intern - Commercial | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6/apply) |
 | Palantir | Privacy and Civil Liberties Software Engineer Intern | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply) |
 | Palantir | Forward Deployed Software Engineer Intern - Intel | Washington, DC | Winter 2027 | 100% | 2026-07-02 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89/apply) |
-| Rippling | Full Stack Software Engineer Intern - Winter 2027 | Seattle, WA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
+| Rippling | Full Stack Software Engineer Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
 | Rippling | Machine Learning Software Engineer Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781) |
-| Rippling | Software Engineer Intern - Backend Focused - Winter 2027 | Seattle, WA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
+| Rippling | Software Engineer Intern - Backend Focused - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
 | Tenstorrent | Software Engineer Intern - Power Modeling & AI Tools | Santa Clara, CA | Winter 2027 | 100% | 2026-07-23 | 2026-08-06 | [**Apply ➜**](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation/Search Alliance | Seattle, WA | Fall 2026 | 100% | 2026-08-06 | 2026-08-06 | [**Apply ➜**](https://lifeattiktok.com/search/7670247810111768837) |
 | Western Digital | Software Engineering Co-op | Rochester, MN | Winter 2027 | 100% | 2026-07-16 | 2026-08-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/WesternDigital/744000138184309) |
@@ -261,7 +271,7 @@ Last updated: **2026-08-11 16:30 UTC** · auto-refreshed every 12h by [job-board
 | Virtu Financial | 2027 Internship - Software Engineer | Austin, TX +1 | 2027 | 90% | 2026-07-22 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 
-## 🎓 New Grad (145)
+## 🎓 New Grad (146)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -285,9 +295,10 @@ Last updated: **2026-08-11 16:30 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Samsara | Software Engineer I - New Grad, SF | San Francisco - SF9 | — | 83% (2 skills) | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Bastrop, TX | — | 83% (2 skills) | 2026-02-27 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8399140002?gh_jid=8399140002) |
-| SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-01-16 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
+| SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
+| State Street | Software Engineer New Grad 🆕 | Burlington, MA | — | 80% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-795953) |
 | Ciena | Software Engineer - Security - New Grad 🆕 | Atlanta, GA | — | 80% | 2026-08-10 | 2026-08-11 | [**Apply ➜**](https://ciena.wd5.myworkdayjobs.com/en-US/careers/job/Atlanta/Software-Engineer--Security----New-Grad_R030880) |
 | Blue Origin | Software Development Engineer 1 - Early Career | Seattle, WA | — | 80% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Software-Development-Engineer-I---Early-Career--2026-Starts-_R70051) |
 | LPL Financial Holdings | Software Engineering New Grad | Austin, TX; Fort Mill, SC; Charlotte, NC | — | 80% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/New-Grad-2027---Software-Engineering_R-052475) |

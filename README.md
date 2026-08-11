@@ -252,13 +252,18 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-388-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-4-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--11-informational)
+![open roles](https://img.shields.io/badge/open%20roles-394-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-9-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--11-informational)
 
-Updated **2026-08-11 16:30 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-11 17:35 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Cloudflare | Software Engineer Intern (Fall 2026) 🆕 | In-Office | Fall 2026 | 100% (3 skills) | 2026-08-10 | 2026-08-11 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845) |
+| Analytic Partners | Software Engineer Co-op - Mcgill University 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/f4d7b848-878f-4761-be25-3d6e4f4d1a54/apply) |
+| Analytic Partners | Software Engineer Co-op - Georgia Tech 🆕 | Miami, FL; Florida; United States | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/5452f2a3-77ba-4cce-afdd-000351105650/apply) |
+| Analytic Partners | Software Engineer Co-op - Northeastern University 🆕 | Miami, FL; Florida; United States | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/eb778fc4-088f-4c5f-b650-e3042ab1b688/apply) |
+| Analytic Partners | Software Engineer Co-op - University of Waterloo 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/6303782e-636f-4bac-90cd-051411558b8b/apply) |
+| Analytic Partners | Software Engineer Co-op - University of Toronto 🆕 | Miami, FL | Winter 2027 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://jobs.lever.co/analyticpartners/485ae801-3fae-4dc1-950d-445ba990f6c9/apply) |
+| Cloudflare | Software Engineer Intern (Fall 2026) | In-Office | Fall 2026 | 100% (3 skills) | 2026-08-10 | 2026-08-11 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845) |
 | Caddi Workflow Automation | Software Engineer Intern | Seattle, WA | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://apply.workable.com/trycaddi/j/9D1291C697/apply) |
 | Atoms | Machine Learning PhD Software Engineer Intern | Seattle, WA; LA; NYC; Mountain View, CA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8693034002) |
 | Medpace | Software Development Co-op - Spring 2027 | Cincinnati, OH | Spring 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://careers.medpace.com/jobs/12922?icims=1) |
@@ -273,9 +278,4 @@ Updated **2026-08-11 16:30 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Johnson & Johnson | Software Engineer Co-op | Cincinnati, OH | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820) |
 | RTX | Systems Engineer 1 Intern - Intern Conversion | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863190) |
 | RTX | Systems Engineer 1 Intern - Intern Conversion | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863596) |
-| The Nuclear Company | AI/ML Engineer Intern - Platform Integration & AI/Data | Washington, DC | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383163008) |
-| The Nuclear Company | AI/ML Engineer Intern - Platform Integration & AI/Data | Washington, DC | Spring 2027 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383212008) |
-| The Nuclear Company | Software Engineering Intern | Washington, DC | Spring 2027 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383171008) |
-| The Nuclear Company | AI Software Engineer Intern | Washington, DC | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383113008) |
-| Varda | Flight Software Internship - Spring 2027 | El Segundo, CA | Spring 2027 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/vardaspace/jobs/7824815003) |
 <!-- JOB-BOARD:END -->
