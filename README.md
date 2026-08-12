@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-410-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-10-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--12-informational)
+![open roles](https://img.shields.io/badge/open%20roles-410-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-11-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--12-informational)
 
-Updated **2026-08-12 21:58 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-12 22:54 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| American Fidelity | Software Development Intern 🆕 | Oklahoma City, OK | Winter 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005) |
 | Assured Guaranty | Product Software Developer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://boards.greenhouse.io/assuredguaranty/jobs/8700953002) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672883129493948677) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Mall 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672920375646488885) |
@@ -277,5 +278,4 @@ Updated **2026-08-12 21:58 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Medpace | Software Development Co-op - Spring 2027 | Cincinnati, OH | Spring 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://careers.medpace.com/jobs/12922?icims=1) |
 | Mujin | Software Integration Intern | Suwanee, GA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://mujin.bamboohr.com/careers/166/) |
 | Mujin | Software Development Intern - Spring 2027 | Suwanee, GA | Spring 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://mujin.bamboohr.com/careers/165/) |
-| Tesla | Electronic Design Engineer Intern - Electronic Systems | Palo Alto, CA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279760) |
 <!-- JOB-BOARD:END -->
