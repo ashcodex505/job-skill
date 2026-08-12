@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**403 open roles** across **161 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-12 10:40 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**401 open roles** across **160 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-12 11:56 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (18)
@@ -27,7 +27,7 @@ Last updated: **2026-08-12 10:40 UTC** · auto-refreshed every 12h by [job-board
 | Salesforce | Software Engineer Intern - Future Pathways 🆕 | Seattle, WA; SF | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-Intern---Future-Pathways_JR355842) |
 | Cohesity | Software Engineer New Grad 🆕 | Santa Clara, CA | — | 80% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Software-Engineer_R01282) |
 
-## 🛠️ Internships (249)
+## 🛠️ Internships (247)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -66,7 +66,6 @@ Last updated: **2026-08-12 10:40 UTC** · auto-refreshed every 12h by [job-board
 |  impact.com  | Associate Software Engineer Intern | Santa Barbara, CA | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/impact/jobs/8645964002) |
 | Atoms | Software Engineer Intern - Winter 2027 | Seattle, WA; SF; LA; NYC; Mountain View, CA | Winter 2027 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8687915002) |
 | Centerfield | Frontend Engineer Intern | LA | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/centerfield/1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4/application?embed=true) |
-| KBR | Software Intern | Houston, TX | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Houston-Texas/Software-Intern_R2127863) |
 | State of Nebraska | IT Construction Systems Intern | Lincoln, NE | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://son.wd108.myworkdayjobs.com/NebraskaStateCareers/job/Lincoln-NE/Student-Intern---IT-Construction-Systems_JR2026-00028484-1) |
 | Palantir | Forward Deployed Software Engineer Intern - Commercial | Chicago, IL | Winter 2027 | 100% | 2026-06-30 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2/apply) |
 | Palantir | Forward Deployed Software Engineer Intern - Commercial | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6/apply) |
@@ -166,7 +165,6 @@ Last updated: **2026-08-12 10:40 UTC** · auto-refreshed every 12h by [job-board
 | SoloPulse | Software Engineer Intern/Co-op | Norcross, GA | Fall 2026 | 100% | 2026-06-16 | 2026-08-02 | [**Apply ➜**](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56/apply) |
 | SpreeAI  | Software Engineer Intern | SF | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://ats.rippling.com/spreeai/jobs/d34aed29-7a11-4e37-b5bc-e9317f82f0b1) |
 | SpreeAI  | Machine Learning Engineer Intern - Computer Vision/Multimodal/Generative AI | SF | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://ats.rippling.com/spreeai/jobs/aa087086-dd4b-42be-a499-051546655e97) |
-| SpreeAI  | Mobile Software Engineer Intern - Flagship Apps - iOS / Android / Web | SF | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://ats.rippling.com/spreeai/jobs/c52472cb-2671-45d7-b666-17196dc3df25) |
 | SRI International | Drexel University Co-op: Software Engineering/Full stack development | Princeton, NJ | Fall 2026 | 100% | 2026-07-27 | 2026-08-02 | [**Apply ➜**](https://careers-sri.icims.com/jobs/6432/job?mobile=true&needsRedirect=false) |
 | Synchrony Financial | Software Engineer Intern | Sharonville, OH; Canton, OH; Ohio | Fall 2026 | 100% | 2026-06-12 | 2026-08-02 | [**Apply ➜**](https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Canton-Engagement-Hub-OH/Software-Engineer-Intern---Fall-2026_2601751-1) |
 | Tesla | Software Engineer Intern - Software Engineer - Information Security | Bellevue, WA | Fall 2026 | 100% | 2026-06-07 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/270497) |
@@ -305,8 +303,8 @@ Last updated: **2026-08-12 10:40 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Samsara | Software Engineer I - New Grad, SF | San Francisco - SF9 | — | 83% (2 skills) | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Bastrop, TX | — | 83% (2 skills) | 2026-02-27 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8399140002?gh_jid=8399140002) |
-| SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | SpaceX | New Graduate Engineer, Software (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-01-16 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002) |
+| SpaceX | New Graduate Engineer, Software (Starlink) | Sunnyvale, CA | — | 82% (1 skills) | 2026-03-06 | 2026-08-02 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Mach Industries | Software Engineer New Grad - Software - GNC 🆕 | Huntington Beach, CA | — | 80% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.ashbyhq.com/mach/43c8b037-c77d-4efb-9379-52a6c3718bdb/application?embed=true) |
 | Cohesity | Software Engineer New Grad 🆕 | Santa Clara, CA | — | 80% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Software-Engineer_R01282) |
@@ -440,12 +438,14 @@ Last updated: **2026-08-12 10:40 UTC** · auto-refreshed every 12h by [job-board
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 
-## 🚪 Recently closed (last 7 days) (43)
+## 🚪 Recently closed (last 7 days) (45)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| SpreeAI  | Mobile Software Engineer Intern - Flagship Apps - iOS / Android / Web | Fall 2026 | 2026-08-12 |
+| KBR | Software Intern | Fall 2026 | 2026-08-12 |
 | Johnson & Johnson | Software Engineer Co-op | Fall 2026 | 2026-08-12 |
 | Intel | AI Software Engineer Intern | Fall 2026 | 2026-08-12 |
 | Analytic Partners | Software Engineer Co-op - Georgia Tech | Winter 2027 | 2026-08-12 |
