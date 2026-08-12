@@ -252,18 +252,19 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-409-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-12-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--12-informational)
+![open roles](https://img.shields.io/badge/open%20roles-410-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-10-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--12-informational)
 
-Updated **2026-08-12 19:43 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-12 21:00 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Assured Guaranty | Product Software Developer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://boards.greenhouse.io/assuredguaranty/jobs/8700953002) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672883129493948677) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Mall 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672920375646488885) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672881840860940597) |
-| Felix Magazine | Web Developer/Programmer Intern 🆕 | Chicago, IL | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/83337967) |
-| Felix Magazine | Web Developer/Programmer Intern 🆕 | Chicago, IL | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/89098193) |
-| Felix Magazine | Web Developer/Programmer Intern 🆕 | LA | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/83337884) |
+| Felix Magazine | Web Developer/Programmer Intern | Chicago, IL | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/83337967) |
+| Felix Magazine | Web Developer/Programmer Intern | Chicago, IL | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/89098193) |
+| Felix Magazine | Web Developer/Programmer Intern | LA | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/83337884) |
 | Tesla | Software Engineer Intern - AI Inference Co Design | Palo Alto, CA | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279600) |
 | RTX | Electro-Optical Systems Technician Intern - AN/ZSQ-2 | Fort Campbell, KY | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-KY-FORT-CAMPBELL-7228NS-CUST--7228-Nightstalker-Wy--BLDG-6882-Rm-210-External-Site/SkillBridge--AN-ZSQ-2-Electro-Optical-Systems-Depot-Technician-Intern_01865923) |
 | Salesforce | Software Engineer Intern - Future Pathways | Seattle, WA; SF | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-Intern---Future-Pathways_JR355842) |
@@ -277,5 +278,4 @@ Updated **2026-08-12 19:43 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Mujin | Software Integration Intern | Suwanee, GA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://mujin.bamboohr.com/careers/166/) |
 | Mujin | Software Development Intern - Spring 2027 | Suwanee, GA | Spring 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://mujin.bamboohr.com/careers/165/) |
 | Tesla | Electronic Design Engineer Intern - Electronic Systems | Palo Alto, CA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279760) |
-| Tesla | Software Engineer Intern - Engineering Automation - Vehicle Engineering | Palo Alto, CA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279763) |
 <!-- JOB-BOARD:END -->
