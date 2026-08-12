@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-409-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-14-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--12-informational)
+![open roles](https://img.shields.io/badge/open%20roles-406-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-12-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--12-informational)
 
-Updated **2026-08-12 17:09 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-12 18:13 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -264,7 +264,7 @@ Updated **2026-08-12 17:09 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Felix Magazine | Web Developer/Programmer Intern 🆕 | Chicago, IL | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/83337967) |
 | Felix Magazine | Web Developer/Programmer Intern 🆕 | Chicago, IL | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/89098193) |
 | Felix Magazine | Web Developer/Programmer Intern 🆕 | LA | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/83337884) |
-| Tesla | Software Engineer Intern - AI Inference Co Design 🆕 | Palo Alto, CA | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279600) |
+| Tesla | Software Engineer Intern - AI Inference Co Design | Palo Alto, CA | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279600) |
 | RTX | Electro-Optical Systems Technician Intern - AN/ZSQ-2 | Fort Campbell, KY | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-KY-FORT-CAMPBELL-7228NS-CUST--7228-Nightstalker-Wy--BLDG-6882-Rm-210-External-Site/SkillBridge--AN-ZSQ-2-Electro-Optical-Systems-Depot-Technician-Intern_01865923) |
 | Salesforce | Software Engineer Intern - Future Pathways | Seattle, WA; SF | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-Intern---Future-Pathways_JR355842) |
 | Sentry | Software Engineer - New Grad - 2027 | San Francisco, CA | 2027 New Grad | 100% | 2026-08-02 | 2026-08-11 | [**Apply ➜**](https://jobs.ashbyhq.com/sentry/5c3196c7-f3d6-4dba-9c41-c886df4b2421) |
