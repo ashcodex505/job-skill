@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T15:09:10.795Z",
+ "updatedAt": "2026-08-13T16:30:48.949Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -634,31 +634,6 @@
    "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
-   "dedupeKey": "greenhouse:8097343",
-   "source": "greenhouse",
-   "company": "Samsara",
-   "title": "Software Engineer I - New Grad, SF",
-   "location": "San Francisco - SF9",
-   "url": "https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 83,
-   "matchedSkills": [
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-08-03T12:32:48-04:00",
-   "firstSeenAt": "2026-08-03T19:01:10.547Z"
-  },
-  {
    "dedupeKey": "workday:JR2017522",
    "source": "workday",
    "company": "NVIDIA",
@@ -799,6 +774,31 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "greenhouse:8097343",
+   "source": "greenhouse",
+   "company": "Samsara",
+   "title": "Software Engineer I - New Grad, SF",
+   "location": "San Francisco - SF9",
+   "url": "https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 83,
+   "matchedSkills": [
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-08-03T12:32:48-04:00",
+   "firstSeenAt": "2026-08-03T19:01:10.547Z"
+  },
+  {
    "dedupeKey": "greenhouse:8052083",
    "source": "greenhouse",
    "company": "Hudson River Trading",
@@ -902,84 +902,6 @@
    "firstSeenAt": "2026-08-05T16:49:59.297Z"
   },
   {
-   "dedupeKey": "greenhouse:5162263007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "2027 Early Career Software Engineer",
-   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-06-11T12:31:23-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5148079007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "2027 Software Engineer Intern",
-   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-06-10T19:33:06-04:00",
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7488508",
-   "source": "greenhouse",
-   "company": "Waymo",
-   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
-   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2025-12-22T18:35:42-05:00",
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
    "dedupeKey": "greenhouse:8493079002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -999,30 +921,6 @@
     "skills": 0
    },
    "postedAt": "2026-04-03T10:07:16-04:00",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8376990002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-01-16T16:46:29-05:00",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -1047,6 +945,30 @@
     "skills": 2
    },
    "postedAt": "2026-03-06T15:35:11-05:00",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8376990002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-01-16T16:46:29-05:00",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -1125,6 +1047,84 @@
    },
    "postedAt": "2026-08-03T13:41:40-04:00",
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7488508",
+   "source": "greenhouse",
+   "company": "Waymo",
+   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
+   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2025-12-22T18:35:42-05:00",
+   "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5162263007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "2027 Early Career Software Engineer",
+   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-06-11T12:31:23-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5148079007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "2027 Software Engineer Intern",
+   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-06-10T19:33:06-04:00",
+   "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:33264af45ba9c25adba8a6f42b9614f467a11fff",
@@ -7899,28 +7899,6 @@
    "firstSeenAt": "2026-08-03T23:42:10.720Z"
   },
   {
-   "dedupeKey": "simplifyjobs:05d6191d-bcef-4557-b17a-783ddb6d4b92",
-   "source": "simplifyjobs",
-   "company": "Prophet",
-   "title": "AI Engineer Intern - AI Foundry & Digital Growth",
-   "location": "NYC",
-   "url": "https://job-boards.greenhouse.io/prophet/jobs/4689859005",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-27T22:12:08.000Z",
-   "firstSeenAt": "2026-08-03T23:42:10.720Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:8b2a46d9-a5b0-4325-976b-4c70e9da4077",
    "source": "simplifyjobs",
    "company": "Incident IQ",
@@ -9731,6 +9709,16 @@
    "firstSeenAt": "2026-08-07T01:09:11.897Z",
    "closedAt": "2026-08-13T13:39:17.771Z",
    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Lawton-OK/Entry-Level-Software-Tester_R-00187901"
+  },
+  {
+   "dedupeKey": "simplifyjobs:05d6191d-bcef-4557-b17a-783ddb6d4b92",
+   "company": "Prophet",
+   "title": "AI Engineer Intern - AI Foundry & Digital Growth",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-03T23:42:10.720Z",
+   "closedAt": "2026-08-13T16:30:48.949Z",
+   "url": "https://job-boards.greenhouse.io/prophet/jobs/4689859005"
   }
  ]
 }
