@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
 **412 open roles** across **165 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-13 05:01 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-13 06:25 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (11)
+## 🆕 New this cycle (7)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -13,12 +13,8 @@ Last updated: **2026-08-13 05:01 UTC** · auto-refreshed every 12h by [job-board
 | Uniswap | Software Engineer - Early Career 🆕 | NYC | — | 80% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.ashbyhq.com/uniswap/fb4d4137-f003-4669-beb7-2a5caca88012/application?embed=true) |
 | Oracle | Platform Software Engineer 1 Intern - Full-time Intern Conversion 🆕 | United States | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342415) |
 | Assured Guaranty | Product Software Developer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://boards.greenhouse.io/assuredguaranty/jobs/8700953002) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672883129493948677) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672881840860940597) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Mall 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672920375646488885) |
 | American Fidelity | Software Development Intern 🆕 | Oklahoma City, OK | Winter 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005) |
 | Schweitzer Engineering Laboratories | Software Engineer Intern - AI Focus 🆕 | Pullman, WA | Fall 2026 | 100% | 2026-08-12 | 2026-08-13 | [**Apply ➜**](https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601) |
-| Symbotic | Software Engineer New Grad 🆕 | Burlington, MA | — | 80% | 2026-05-19 | 2026-08-12 | [**Apply ➜**](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Software-Engineer_R6770) |
 
 ## 🛠️ Internships (254)
 
@@ -28,9 +24,9 @@ Last updated: **2026-08-13 05:01 UTC** · auto-refreshed every 12h by [job-board
 | Oracle | Platform Software Engineer 1 Intern - Full-time Intern Conversion 🆕 | United States | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342415) |
 | American Fidelity | Software Development Intern 🆕 | Oklahoma City, OK | Winter 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005) |
 | Assured Guaranty | Product Software Developer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://boards.greenhouse.io/assuredguaranty/jobs/8700953002) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672883129493948677) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Mall 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672920375646488885) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672881840860940597) |
+| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation | San Jose, CA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672883129493948677) |
+| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Mall | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672920375646488885) |
+| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672881840860940597) |
 | Felix Magazine | Web Developer/Programmer Intern | Chicago, IL | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/83337967) |
 | Felix Magazine | Web Developer/Programmer Intern | Chicago, IL | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/89098193) |
 | Felix Magazine | Web Developer/Programmer Intern | LA | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/83337884) |
@@ -70,7 +66,7 @@ Last updated: **2026-08-13 05:01 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer Intern - Intel | Washington, DC | Winter 2027 | 100% | 2026-07-02 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89/apply) |
 | Rippling | Full Stack Software Engineer Intern - Winter 2027 | Seattle, WA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
 | Rippling | Machine Learning Software Engineer Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781) |
-| Rippling | Software Engineer Intern - Backend Focused - Winter 2027 | Seattle, WA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
+| Rippling | Software Engineer Intern - Backend Focused - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
 | Tenstorrent | Software Engineer Intern - Power Modeling & AI Tools | Santa Clara, CA | Winter 2027 | 100% | 2026-07-23 | 2026-08-06 | [**Apply ➜**](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation/Search Alliance | Seattle, WA | Fall 2026 | 100% | 2026-08-06 | 2026-08-06 | [**Apply ➜**](https://lifeattiktok.com/search/7670247810111768837) |
 | Western Digital | Software Engineering Co-op | Rochester, MN | Winter 2027 | 100% | 2026-07-16 | 2026-08-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/WesternDigital/744000138184309) |
@@ -310,7 +306,7 @@ Last updated: **2026-08-13 05:01 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Backend Software Engineer New Grad - Creator Strategy 🆕 | San Jose, CA | — | 80% | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://lifeattiktok.com/search/7672976491146004741) |
 | General Matter | Software Engineer New Grad 🆕 | LA | — | 80% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://job-boards.greenhouse.io/generalmatter/jobs/5375987008) |
 | Uniswap | Software Engineer - Early Career 🆕 | NYC | — | 80% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.ashbyhq.com/uniswap/fb4d4137-f003-4669-beb7-2a5caca88012/application?embed=true) |
-| Symbotic | Software Engineer New Grad 🆕 | Burlington, MA | — | 80% | 2026-05-19 | 2026-08-12 | [**Apply ➜**](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Software-Engineer_R6770) |
+| Symbotic | Software Engineer New Grad | Burlington, MA | — | 80% | 2026-05-19 | 2026-08-12 | [**Apply ➜**](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Software-Engineer_R6770) |
 | State Street | Software Engineer - CRD- New Graduate | Burlington, MA | — | 80% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/en-US/global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-795953) |
 | Mach Industries | Software Engineer New Grad - Software - GNC | Huntington Beach, CA | — | 80% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.ashbyhq.com/mach/43c8b037-c77d-4efb-9379-52a6c3718bdb/application?embed=true) |
 | Cohesity | Software Engineer New Grad | Santa Clara, CA | — | 80% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Software-Engineer_R01282) |

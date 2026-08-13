@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-412-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-11-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--13-informational)
+![open roles](https://img.shields.io/badge/open%20roles-412-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-7-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--13-informational)
 
-Updated **2026-08-13 05:01 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-13 06:25 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -262,9 +262,9 @@ Updated **2026-08-13 05:01 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Oracle | Platform Software Engineer 1 Intern - Full-time Intern Conversion 🆕 | United States | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342415) |
 | American Fidelity | Software Development Intern 🆕 | Oklahoma City, OK | Winter 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005) |
 | Assured Guaranty | Product Software Developer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://boards.greenhouse.io/assuredguaranty/jobs/8700953002) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672883129493948677) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Mall 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672920375646488885) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672881840860940597) |
+| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation | San Jose, CA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672883129493948677) |
+| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Mall | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672920375646488885) |
+| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672881840860940597) |
 | Felix Magazine | Web Developer/Programmer Intern | Chicago, IL | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/83337967) |
 | Felix Magazine | Web Developer/Programmer Intern | Chicago, IL | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/89098193) |
 | Felix Magazine | Web Developer/Programmer Intern | LA | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/83337884) |
