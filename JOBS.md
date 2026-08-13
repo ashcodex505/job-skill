@@ -1,13 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
-**411 open roles** across **163 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-13 21:57 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**411 open roles** across **164 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-13 22:56 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (5)
+## 🆕 New this cycle (6)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Interco | Software Development Intern - React 🆕 | St. Louis, MO | Fall 2026 | 100% (1 skills) | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://jobs.smartrecruiters.com/Interco/744000143346169) |
 | Applied Materials | Software Engineer New Grad - DevOps 🆕 | Gloucester, MA | — | 80% | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Software-Engineer--DevOps---New-College-Grad---Bachelor-s--Gloucester--MA-_R2625762) |
 | Northrop Grumman | 2027 Intern Software Engineer 🆕 | Melbourne, FL | 2027 | 90% | 2026-08-12 | 2026-08-13 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255) |
 | General Motors | Entry Level Software Engineer 🆕 | Warren, MI | — | 70% | 2026-08-12 | 2026-08-13 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Warren-Michigan-United-States-of-America/Entry-Level-Software-Engineer_JR-202616904) |
@@ -18,6 +19,7 @@ Last updated: **2026-08-13 21:57 UTC** · auto-refreshed every 12h by [job-board
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Interco | Software Development Intern - React 🆕 | St. Louis, MO | Fall 2026 | 100% (1 skills) | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://jobs.smartrecruiters.com/Interco/744000143346169) |
 | Specter Aerospace | Front-End Software Developer Co-op | Boston, MA; Peabody, MA | Spring 2027 | 100% | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://specteraerospace.bamboohr.com/careers/120/) |
 | Inbulks | Junior Front End Developer Intern | Long Island City, Queens, NY | Fall 2026 | 100% | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://jobs.smartrecruiters.com/InbulksCorp/743999750129753) |
 | Schweitzer Engineering Laboratories | Software Engineer Intern - AI Focus | Pullman, WA | Fall 2026 | 100% | 2026-08-12 | 2026-08-13 | [**Apply ➜**](https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601) |
@@ -54,7 +56,6 @@ Last updated: **2026-08-13 21:57 UTC** · auto-refreshed every 12h by [job-board
 | Varda | Flight Software Internship - Spring 2027 | El Segundo, CA | Spring 2027 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/vardaspace/jobs/7824815003) |
 | Varda Space | Applications Engineer Intern | El Segundo, CA | Spring 2027 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/vardaspace/jobs/7824822003) |
 | Terranova | Software Engineer Intern | Berkeley, CA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/terranova/a8e5a8d2-4af3-4736-b66e-e0804447f7a0/application?embed=true) |
-| Amazon | Software Development Engineer Internship - Fall 2026 - US | Seattle, WA | Fall 2026 | 100% | 2026-05-15 | 2026-08-07 | [**Apply ➜**](https://amazon.jobs/en/jobs/3116030/software-development-engineer-internship-fall-2026-us) |
 |  impact.com  | Associate Software Engineer Intern | Santa Barbara, CA | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/impact/jobs/8645964002) |
 | Atoms | Software Engineer Intern - Winter 2027 | Seattle, WA; SF; LA; NYC; Mountain View, CA | Winter 2027 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8687915002) |
 | Centerfield | Frontend Engineer Intern | LA | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/centerfield/1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4/application?embed=true) |
@@ -65,7 +66,7 @@ Last updated: **2026-08-13 21:57 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer Intern - Intel | Washington, DC | Winter 2027 | 100% | 2026-07-02 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89/apply) |
 | Rippling | Full Stack Software Engineer Intern - Winter 2027 | New York, NY | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a) |
 | Rippling | Machine Learning Software Engineer Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781) |
-| Rippling | Software Engineer Intern - Backend Focused - Winter 2027 | Seattle, WA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
+| Rippling | Software Engineer Intern - Backend Focused - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484) |
 | Tenstorrent | Software Engineer Intern - Power Modeling & AI Tools | Santa Clara, CA | Winter 2027 | 100% | 2026-07-23 | 2026-08-06 | [**Apply ➜**](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation/Search Alliance | Seattle, WA | Fall 2026 | 100% | 2026-08-06 | 2026-08-06 | [**Apply ➜**](https://lifeattiktok.com/search/7670247810111768837) |
 | Western Digital | Software Engineering Co-op | Rochester, MN | Winter 2027 | 100% | 2026-07-16 | 2026-08-06 | [**Apply ➜**](https://jobs.smartrecruiters.com/WesternDigital/744000138184309) |
@@ -435,12 +436,13 @@ Last updated: **2026-08-13 21:57 UTC** · auto-refreshed every 12h by [job-board
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 
-## 🚪 Recently closed (last 7 days) (52)
+## 🚪 Recently closed (last 7 days) (53)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Amazon | Software Development Engineer Internship - Fall 2026 - US | Fall 2026 | 2026-08-13 |
 | AG Technologies | Entry Level Software Engineer | — | 2026-08-13 |
 | AG Technologies | Entry Level Software Engineer | — | 2026-08-13 |
 | Prophet | AI Engineer Intern - AI Foundry & Digital Growth | Fall 2026 | 2026-08-13 |
