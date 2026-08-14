@@ -1,72 +1,6 @@
 {
- "updatedAt": "2026-08-14T12:26:22.065Z",
+ "updatedAt": "2026-08-14T13:59:31.187Z",
  "jobs": [
-  {
-   "dedupeKey": "rippling:sha1:58c70e7c0d3ada7cbfacf6e76bdb7333d1e3b199",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Full Stack Software Engineer Intern - Winter 2027",
-   "location": "New York, NY",
-   "url": "https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:21.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
-  {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
-  {
-   "dedupeKey": "rippling:sha1:2d382454a1b2398d53b48c0f822cfe61f7a13204",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Software Engineer Intern - Backend Focused - Winter 2027",
-   "location": "Seattle, WA",
-   "url": "https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -504,6 +438,72 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "rippling:sha1:58c70e7c0d3ada7cbfacf6e76bdb7333d1e3b199",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Full Stack Software Engineer Intern - Winter 2027",
+   "location": "Seattle, WA",
+   "url": "https://ats.rippling.com/rippling/jobs/35b3ba25-ff2e-4b68-a2d7-61be26f2b24a",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:21.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
+  {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
+  {
+   "dedupeKey": "rippling:sha1:2d382454a1b2398d53b48c0f822cfe61f7a13204",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Software Engineer Intern - Backend Focused - Winter 2027",
+   "location": "Seattle, WA",
+   "url": "https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
+  {
    "dedupeKey": "amazon:10412530",
    "source": "amazon",
    "company": "Amazon",
@@ -634,6 +634,31 @@
    "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
+   "dedupeKey": "greenhouse:8097343",
+   "source": "greenhouse",
+   "company": "Samsara",
+   "title": "Software Engineer I - New Grad, SF",
+   "location": "San Francisco - SF9",
+   "url": "https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 83,
+   "matchedSkills": [
+    "TypeScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-08-03T12:32:48-04:00",
+   "firstSeenAt": "2026-08-03T19:01:10.547Z"
+  },
+  {
    "dedupeKey": "workday:JR2017522",
    "source": "workday",
    "company": "NVIDIA",
@@ -676,31 +701,6 @@
    },
    "postedAt": "2026-08-05",
    "firstSeenAt": "2026-08-05T18:43:33.968Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8097343",
-   "source": "greenhouse",
-   "company": "Samsara",
-   "title": "Software Engineer I - New Grad, SF",
-   "location": "San Francisco - SF9",
-   "url": "https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 83,
-   "matchedSkills": [
-    "TypeScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-08-03T12:32:48-04:00",
-   "firstSeenAt": "2026-08-03T19:01:10.547Z"
   },
   {
    "dedupeKey": "workday:JR355250",
@@ -924,30 +924,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "greenhouse:8376990002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-01-16T16:46:29-05:00",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "greenhouse:8446263002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -969,6 +945,30 @@
     "skills": 2
    },
    "postedAt": "2026-03-06T15:35:11-05:00",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8376990002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-01-16T16:46:29-05:00",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -2339,6 +2339,28 @@
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:2c5affe56bd4dac060d18695aaf3daff88825c64",
+   "source": "speedyapply",
+   "company": "Composio",
+   "title": "Fullstack and Product Engineering Internship - Fall 2026 & Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/composio/eea3c0be-8589-4e3d-a684-de29a9eada0d",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-14",
+   "firstSeenAt": "2026-08-14T06:50:36.258Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:bc84c3bc0e11925443d6130cbc9e49a65aaa5563",
    "source": "speedyapply",
    "company": "Northrop Grumman",
@@ -2359,28 +2381,6 @@
    },
    "postedAt": "2026-08-12",
    "firstSeenAt": "2026-08-13T13:39:17.771Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:06d5bdb39e607be39e1059aa1ab17caf00c9f4dd",
-   "source": "speedyapply",
-   "company": "PathAI",
-   "title": "Software Engineering Co-op: September - December 2026",
-   "location": "Boston, MA",
-   "url": "https://www.pathai.com/careers/8623056002?gh_jid=8623056002",
-   "season": "2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-11T22:23:29.000Z",
-   "firstSeenAt": "2026-08-11T23:53:52.479Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:dcc63a20bf751613930d979bbaeef3d75114c43c",
@@ -2557,28 +2557,6 @@
    },
    "postedAt": "2026-07-30",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:38320bb37dad2ebf638399712e7d019b24b0c27e",
-   "source": "speedyapply",
-   "company": "PathAI",
-   "title": "Software Engineering Co-op MLOps: September - December 2026",
-   "location": "Boston, MA",
-   "url": "https://www.pathai.com/careers/8651564002?gh_jid=8651564002",
-   "season": "2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28",
-   "firstSeenAt": "2026-07-28T14:30:13.646Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:7cd240dab54e2da2959b6d56f2522e59e16e75ee",
@@ -2864,28 +2842,6 @@
     "skills": 0
    },
    "postedAt": "2026-06-17",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:44670a92d91d4f8058521e382921532e69529a44",
-   "source": "speedyapply",
-   "company": "Saronic Technologies",
-   "title": "Software Engineer Intern - Fall 2026",
-   "location": "Austin, TX",
-   "url": "https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-19",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
@@ -3287,28 +3243,6 @@
    "firstSeenAt": "2026-08-10T14:01:55.433Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:822f64ab7237bb62c8b8e55cc4d96529c365c87a",
-   "source": "speedyapply",
-   "company": "IXL Learning",
-   "title": "Software Engineer - New Grad",
-   "location": "Raleigh-Durham, NC +1",
-   "url": "https://www.ixl.com/company/jobs?gh_jid=8663379002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-06T22:21:05.000Z",
-   "firstSeenAt": "2026-08-09T02:24:33.318Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:be8e7ac1577e4bc6f538f6f9f0ee19178afdc529",
    "source": "speedyapply",
    "company": "IXL Learning",
@@ -3331,6 +3265,28 @@
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:822f64ab7237bb62c8b8e55cc4d96529c365c87a",
+   "source": "speedyapply",
+   "company": "IXL Learning",
+   "title": "Software Engineer - New Grad",
+   "location": "Raleigh-Durham, NC +1",
+   "url": "https://www.ixl.com/company/jobs?gh_jid=8663379002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-06T22:21:05.000Z",
+   "firstSeenAt": "2026-08-09T02:24:33.318Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:a8fd06d2ca5aff82ac7da9fe3d015cb7ab561cbd",
    "source": "speedyapply",
    "company": "T. Rowe Price",
@@ -3351,28 +3307,6 @@
    },
    "postedAt": "2026-08-07",
    "firstSeenAt": "2026-08-10T14:01:55.433Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:220531d74b181809536d30c9730c42a7d1de108c",
-   "source": "speedyapply",
-   "company": "General Motors",
-   "title": "Software Verification Engineer - AV Platform - Early Career",
-   "location": "Milford, MI +1",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Milford-Michigan-United-States-of-America/Software-Verification-Engineer--AV-Platform--Early-Career-_JR-202611592",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-06",
-   "firstSeenAt": "2026-08-07T13:55:22.739Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:f2124ce5e9df084e10ce60b92ccdc8552c8e46a7",
@@ -7019,6 +6953,28 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
+   "dedupeKey": "simplifyjobs:b307b311-8a8c-4096-bd3b-0d244f3423f0",
+   "source": "simplifyjobs",
+   "company": "SpreeAI ",
+   "title": "Machine Learning Engineer Intern - Computer Vision/Multimodal/Generative AI",
+   "location": "SF",
+   "url": "https://ats.rippling.com/spreeai/jobs/aa087086-dd4b-42be-a499-051546655e97",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-21T01:18:22.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:4c54516c-986b-40c6-be23-fc11b0404861",
    "source": "simplifyjobs",
    "company": "SpreeAI ",
@@ -9287,28 +9243,6 @@
    "firstSeenAt": "2026-08-14T06:03:38.100Z"
   },
   {
-   "dedupeKey": "simplifyjobs:4c0cebd4-5e15-474e-8493-34860927bdfb",
-   "source": "simplifyjobs",
-   "company": "Composio",
-   "title": "Fullstack Engineer Intern - Product Team",
-   "location": "SF",
-   "url": "https://jobs.ashbyhq.com/composio/eea3c0be-8589-4e3d-a684-de29a9eada0d/application?embed=true",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-14T05:56:54.000Z",
-   "firstSeenAt": "2026-08-14T06:50:36.258Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:a5d3459d-3d46-44dd-8e4e-693ca7320203",
    "source": "simplifyjobs",
    "company": "TikTok",
@@ -9332,26 +9266,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "speedyapply:sha1:0ed6837ed95d7b241687bbf414a4fee7babc8fff",
-   "company": "Leidos",
-   "title": "Entry-Level Software Developer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-07T01:09:11.897Z",
-   "closedAt": "2026-08-07T13:55:22.739Z",
-   "url": "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/St-Louis-MO/Entry-Level-Software-Developer_R-00188494"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:027408985c0eed87b5281b5cd58eeb471b91e06a",
-   "company": "Zettabyte",
-   "title": "Software Engineer - New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-08-07T13:55:22.739Z",
-   "url": "https://jobs.ashbyhq.com/zettabyte-space/50a9c6dc-7225-4ff0-a914-69d1dd325d6a"
-  },
   {
    "dedupeKey": "ashby:3eb7e80e-6a0d-41b6-8ee4-f62421c486e4",
    "company": "Quora",
@@ -9883,14 +9797,44 @@
    "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079"
   },
   {
-   "dedupeKey": "simplifyjobs:b307b311-8a8c-4096-bd3b-0d244f3423f0",
-   "company": "SpreeAI ",
-   "title": "Machine Learning Engineer Intern - Computer Vision/Multimodal/Generative AI",
+   "dedupeKey": "speedyapply:sha1:06d5bdb39e607be39e1059aa1ab17caf00c9f4dd",
+   "company": "PathAI",
+   "title": "Software Engineering Co-op: September - December 2026",
+   "season": "2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-11T23:53:52.479Z",
+   "closedAt": "2026-08-14T13:59:31.187Z",
+   "url": "https://www.pathai.com/careers/8623056002?gh_jid=8623056002"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:38320bb37dad2ebf638399712e7d019b24b0c27e",
+   "company": "PathAI",
+   "title": "Software Engineering Co-op MLOps: September - December 2026",
+   "season": "2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-07-28T14:30:13.646Z",
+   "closedAt": "2026-08-14T13:59:31.187Z",
+   "url": "https://www.pathai.com/careers/8651564002?gh_jid=8651564002"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:44670a92d91d4f8058521e382921532e69529a44",
+   "company": "Saronic Technologies",
+   "title": "Software Engineer Intern - Fall 2026",
    "season": "Fall 2026",
    "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-14T12:26:22.065Z",
-   "url": "https://ats.rippling.com/spreeai/jobs/aa087086-dd4b-42be-a499-051546655e97"
+   "firstSeenAt": "2026-07-15T08:30:50.814Z",
+   "closedAt": "2026-08-14T13:59:31.187Z",
+   "url": "https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:220531d74b181809536d30c9730c42a7d1de108c",
+   "company": "General Motors",
+   "title": "Software Verification Engineer - AV Platform - Early Career",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-08-07T13:55:22.739Z",
+   "closedAt": "2026-08-14T13:59:31.187Z",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Milford-Michigan-United-States-of-America/Software-Verification-Engineer--AV-Platform--Early-Career-_JR-202611592"
   }
  ]
 }
