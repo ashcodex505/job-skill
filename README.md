@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-419-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-12-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--14-informational)
+![open roles](https://img.shields.io/badge/open%20roles-419-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-13-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--14-informational)
 
-Updated **2026-08-14 09:17 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-14 10:36 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| TikTok | Mobile Software Engineer Intern - Global E-Commerce 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://lifeattiktok.com/search/7673663349758675205) |
 | Composio | Fullstack Engineer Intern - Product Team 🆕 | SF | Fall 2026 | 100% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://jobs.ashbyhq.com/composio/eea3c0be-8589-4e3d-a684-de29a9eada0d/application?embed=true) |
 | MSA Safety | Software Engineer Co-op - Product Development 🆕 | Cranberry Township, PA | Spring 2027 | 100% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://careers.msasafety.com/jobs/9992?icims=1) |
 | National Laboratory of the Rockies | Transportation Systems Analysis Intern - Year-Round 🆕 | Golden, CO | Fall 2026 | 100% | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--Year-Round--Intern---Transportation-Systems-Analysis_R14385) |
@@ -277,5 +278,4 @@ Updated **2026-08-14 09:17 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | RTX | Electro-Optical Systems Technician Intern - AN/ZSQ-2 | Fort Campbell, KY | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-KY-FORT-CAMPBELL-7228NS-CUST--7228-Nightstalker-Wy--BLDG-6882-Rm-210-External-Site/SkillBridge--AN-ZSQ-2-Electro-Optical-Systems-Depot-Technician-Intern_01865923) |
 | Sentry | Software Engineer - New Grad - 2027 | San Francisco, CA | 2027 New Grad | 100% | 2026-08-02 | 2026-08-11 | [**Apply ➜**](https://jobs.ashbyhq.com/sentry/5c3196c7-f3d6-4dba-9c41-c886df4b2421) |
 | Foxconn Industrial Internet | Software Engineer Intern - Engineering and Operations | Houston, TX | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](http://foxconnggroup.applytojob.com/apply/xf0soVofyI/Software-Engineering-Intern) |
-| General Dynamics Mission Systems | Cybersecurity Software Engineer Intern | Manassas, VA | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74257/job?mobile=true&needsRedirect=false) |
 <!-- JOB-BOARD:END -->
