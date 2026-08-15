@@ -252,12 +252,17 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-425-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-13-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--14-informational)
+![open roles](https://img.shields.io/badge/open%20roles-434-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-22-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--15-informational)
 
-Updated **2026-08-14 23:55 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-15 01:46 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Crowe | Data Analytics Developer Intern - Consulting Practice 🆕 | Chicago, IL | Fall 2026 | 100% | 2026-08-14 | 2026-08-15 | [**Apply ➜**](https://crowe.wd12.myworkdayjobs.com/en-US/external_careers/job/Chicago-IL-USA/Data-Analytics-Developer-Intern_R-71041) |
+| First American | Software Engineer Intern 🆕 | California | Fall 2026 | 100% | 2026-08-14 | 2026-08-15 | [**Apply ➜**](https://firstam.wd1.myworkdayjobs.com/firstamericancareers/job/USA-California-Remote/Software-Engineering-Intern_R058260) |
+| Interdigital | Wireless Engineering Intern - 6G Wireless Systems 🆕 | Manhattan, NYC; Melville, NY; Conshohocken, PA | Fall 2026 | 100% | 2026-08-14 | 2026-08-15 | [**Apply ➜**](https://interdigital.wd5.myworkdayjobs.com/InterDigital_Career/job/Conshohocken-PA/PhD-Intern--6G-Wireless-Systems---Sept-2026_REQ26-1135-1) |
+| Interdigital | Wireless Engineering Intern - 6G Wireless Systems 🆕 | Manhattan, NYC; Melville, NY; Conshohocken, PA | Fall 2026 | 100% | 2026-08-14 | 2026-08-15 | [**Apply ➜**](https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/PhD-Intern--6G-Wireless-Systems---Sept-2026_REQ26-1135) |
+| Valeo | Software Engineer Intern 🆕 | Troy, MI | Fall 2026 | 100% | 2026-08-14 | 2026-08-15 | [**Apply ➜**](https://valeo.wd3.myworkdayjobs.com/en-US/valeo_jobs/job/Troy-MI/Software-Engineer-Intern_REQ2026076575) |
 | TransMarket Group | Software Engineer Intern 🆕 | Chicago, IL | Fall 2026 | 100% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://job-boards.greenhouse.io/transmarketgroup/jobs/5212335007?gh_jid=5212335007) |
 | Applied Intuition | Software Integration Engineer - New Grad (2027) 🆕 | Sunnyvale | 2027 New Grad | 100% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19) |
 | Notion | Software Engineer Intern (Summer 2027) 🆕 | San Francisco, California; New York, New York | Summer 2027 | 100% (4 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c) |
@@ -273,9 +278,4 @@ Updated **2026-08-14 23:55 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Schweitzer Engineering Laboratories | Software Engineer Intern - AI Focus | Pullman, WA | Fall 2026 | 100% | 2026-08-12 | 2026-08-13 | [**Apply ➜**](https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601) |
 | Oracle | Platform Software Engineer 1 Intern - Full-time Intern Conversion | United States | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342415) |
 | American Fidelity | Software Development Intern | Oklahoma City, OK | Winter 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation | San Jose, CA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672883129493948677) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Mall | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672920375646488885) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Foundation | Seattle, WA | Summer 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://lifeattiktok.com/search/7672881840860940597) |
-| Felix Magazine | Web Developer/Programmer Intern | Chicago, IL | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/83337967) |
-| Felix Magazine | Web Developer/Programmer Intern | Chicago, IL | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/89098193) |
 <!-- JOB-BOARD:END -->
