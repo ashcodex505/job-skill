@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **433 open roles** across **178 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-15 21:51 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-15 22:33 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (1)
@@ -181,9 +181,9 @@ Last updated: **2026-08-15 21:51 UTC** · auto-refreshed every 12h by [job-board
 | Tesla | Software Engineer Intern - Energy Engineering | Palo Alto, CA | Fall 2026 | 100% | 2026-07-10 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/276333) |
 | Tesla | Vehicle Software Intern - Vehicle Controls | Palo Alto, CA | Fall 2026 | 100% | 2026-07-27 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/278203) |
 | Tesla | Charging Data Modeling Intern - Charging Data Modeling - Machine Learning Engineer | Palo Alto, CA | Fall 2026 | 100% | 2026-07-28 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/278249) |
-| Tesla | Software Engineer Intern - Software Engineer - AI Infrastructure | Palo Alto, CA | Fall 2026 | 100% | 2026-07-30 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/278578) |
 | Tesla | Vehicle Software Intern - Vehicle Software Engineer-Diagnostic User Interface | Palo Alto, CA | Fall 2026 | 100% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/278703) |
 | Tesla | Software Compiler Engineer Intern - AI Inference | Palo Alto, CA | Fall 2026 | 100% | 2026-08-01 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/278847) |
+| Tesla | Software Engineer Intern - Software Engineer - AI Infrastructure | Palo Alto, CA | Fall 2026 | 100% | 2026-07-30 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/278578) |
 | TikTok | Machine Learning Engineer Intern - Tiktok-Data-Search-Search Quality | San Jose, CA | Fall 2026 | 100% | 2026-07-29 | 2026-08-02 | [**Apply ➜**](https://lifeattiktok.com/search/7667690418804902149) |
 | Together AI | Systems Research Engineer Intern - GPU Programming | SF | Fall 2026 | 100% | 2026-06-12 | 2026-08-02 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5157559007) |
 | Voloridge | Quantitative Developer Intern | Jupiter, FL | Fall 2026 | 100% | 2026-07-14 | 2026-08-02 | [**Apply ➜**](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009) |
