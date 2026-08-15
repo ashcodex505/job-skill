@@ -618,6 +618,9 @@ async function scrapePinpoint(portal: CompanyPortal): Promise<RawJob[]> {
 const SHOPIFY_INTERNSHIPS_URL = "https://internships.shopify.com/";
 const SHOPIFY_JOB_LINK_RE =
   /https:\/\/www\.shopify\.com\/careers\/([a-z0-9-]+)_([0-9a-f-]{36})(?:\?[^"'<>\s]*)?/gi;
+const SHOPIFY_OPEN_RE = /applications\s+are\s+open/i;
+const SHOPIFY_INACTIVE_RE =
+  /applications\s+are\s+closed|sign\s+up\s+(?:for|to\s+receive)\s+notifications?|(?:be|get)\s+notified\s+when\s+applications\s+open/i;
 
 const titleCaseSlug = (slug: string): string =>
   slug
@@ -628,7 +631,9 @@ const titleCaseSlug = (slug: string): string =>
 
 /** Parse only applications the official microsite explicitly says are open. */
 export function parseShopifyInternshipsHtml(html: string, observedAt: Date = new Date()): RawJob[] {
-  if (!/applications\s+are\s+open/i.test(html)) return [];
+  // Shopify sometimes leaves old application links in the document after a
+  // cohort closes. An explicit inactive CTA therefore wins over stale links.
+  if (SHOPIFY_INACTIVE_RE.test(html)) return [];
 
   const jobs: RawJob[] = [];
   const seen = new Set<string>();
@@ -662,10 +667,10 @@ async function scrapeShopify(portal: CompanyPortal): Promise<RawJob[]> {
     fetchText(SHOPIFY_INTERNSHIPS_URL, { headers: { Accept: "text/html" } }),
   ]);
   const internships = parseShopifyInternshipsHtml(internshipHtml);
-  if (/applications\s+are\s+open/i.test(internshipHtml) && internships.length === 0) {
+  if (SHOPIFY_OPEN_RE.test(internshipHtml) && internships.length === 0) {
     throw new Error("Shopify says internship applications are open but no application links were parsed");
   }
-  if (!/applications\s+are\s+(?:open|closed)/i.test(internshipHtml)) {
+  if (internships.length === 0 && !SHOPIFY_INACTIVE_RE.test(internshipHtml)) {
     throw new Error("Shopify internship application status could not be parsed");
   }
   return [...regular, ...internships];

@@ -10,7 +10,7 @@
 # Separately, the `priority` job checks companies from TWO lists — Amazon
 # plus career/priority-companies.md (app-managed, the dashboard's Priority
 # companies panel) plus every company on career/preferences.md's own
-# "Summer 2027 approved companies" list that has a real adapter (~70 as of
+# "Summer 2027 approved companies" list that has a real adapter (~80 as of
 # this writing) — every 30 minutes, direct API calls with no upstream repo
 # to gate on. There is no push notification from any of these companies
 # ("tell us when a job opens") — polling on a schedule is the only way to
@@ -187,6 +187,12 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          # The preceding watch job may have pushed a board commit after this
+          # workflow's event SHA was captured. Start from the latest main so
+          # priority state (especially watch-health.json) is not dropped in a
+          # guaranteed rebase conflict with that sibling job.
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 24
@@ -243,21 +249,13 @@ jobs:
           elif [ -n "$issue" ]; then
             gh issue close "$issue" --comment "No strict new-grad title-policy gaps were found on this run."
           fi
-      - name: Report watcher recovery gap
+      - name: Record watcher recovery in run summary
         if: steps.board.outputs.recovery_gap_minutes != '' && steps.board.outputs.recovery_gap_minutes != '0'
         env:
-          GH_TOKEN: ${{ github.token }}
           RECOVERY_FILE: ${{ runner.temp }}/recovery.md
-          FINGERPRINT: ${{ steps.board.outputs.recovery_fingerprint }}
-          NOTIFY_USER: ${{ vars.JOB_ALERT_GITHUB_USER || github.repository_owner }}
         run: |
           [ -s "$RECOVERY_FILE" ] || exit 0
-          gh label create watcher-recovery --color 5319E7 --description "Scheduled watcher recovered after a scan gap" 2>/dev/null || true
-          issue=$(gh issue list --state all --limit 200 --json number,body --jq "[.[] | select(.body | contains(\"<!-- watcher-recovery:$FINGERPRINT -->\"))][0].number // empty")
-          if [ -z "$issue" ]; then
-            { echo "cc @$NOTIFY_USER"; echo; cat "$RECOVERY_FILE"; } > /tmp/recovery-body.md
-            gh issue create --title "🔄 Job watcher recovered after a scan gap" --label watcher-recovery --assignee "$NOTIFY_USER" --body-file /tmp/recovery-body.md
-          fi
+          { echo "## Watcher recovery"; echo; cat "$RECOVERY_FILE"; } >> "$GITHUB_STEP_SUMMARY"
       - name: Urgent watchlist alert
         if: steps.board.outputs.urgent_count != '' && steps.board.outputs.urgent_count != '0'
         env:

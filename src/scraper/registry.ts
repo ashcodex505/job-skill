@@ -19,12 +19,13 @@
  * Companies with `ats: "unsupported"` were checked and found to require
  * authenticated/session-bound APIs, private GraphQL, or Akamai/edge anti-bot
  * protection (Google, Apple, Meta, Microsoft, Uber, LinkedIn, Snowflake,
- * Tesla, TikTok, Applied Intuition, Bloomberg, Grammarly,
- * HashiCorp — each individually probed against every adapter type above,
+ * Tesla, TikTok, Bloomberg, Grammarly, and HashiCorp — each individually
+ * probed against every adapter type above,
  * not assumed). We never bypass those; they're listed with a careers link
  * for manual checking and are natural future adapters if that ever changes.
- * Seven of them (Google, Apple, Meta, Microsoft, Snowflake, Two Sigma,
- * TikTok) are instead covered by the local-only headless-browser scan — see
+ * Nine of them (Google, Apple, Meta, Microsoft, Snowflake, Two Sigma,
+ * TikTok, Bloomberg, IBM) are instead covered by the local-only
+ * headless-browser scan — see
  * career/browser-companies.md and docs/browser-scraping.md. Also tried and
  * confirmed NOT to work that way: LinkedIn (public/unauthenticated job
  * search only renders SEO category pages, not real postings — genuine
@@ -81,6 +82,8 @@ export interface CompanyPortal {
   personio?: { host: string };
   /** oraclecloud only — host is the full ORC tenant host, e.g. "acme.fa.us2.oraclecloud.com" */
   oraclecloud?: { host: string; siteNumber?: string; locationId?: string };
+  /** Required for unsupported portals so approved-company coverage is never silently ambiguous. */
+  fallbackCoverage?: "browser" | "community-feed" | "manual";
 }
 
 export const COMPANY_PORTALS: CompanyPortal[] = [
@@ -155,7 +158,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Plaid", website: "https://plaid.com", careersUrl: "https://plaid.com/careers", ats: "ashby", slug: "plaid" },
   // Wiz's former Ashby board now returns an empty board; its careers page
   // currently routes vacancies to LinkedIn, which has no anonymous API.
-  { name: "Wiz", website: "https://wiz.io", careersUrl: "https://wiz.io/careers", ats: "unsupported" },
+  { name: "Wiz", website: "https://wiz.io", careersUrl: "https://wiz.io/careers", ats: "unsupported", fallbackCoverage: "manual" },
   { name: "Replit", website: "https://replit.com", careersUrl: "https://replit.com/careers", ats: "ashby", slug: "replit" },
   { name: "Character.AI", website: "https://character.ai", careersUrl: "https://character.ai/careers", ats: "ashby", slug: "character" },
   { name: "Applied Intuition", website: "https://appliedintuition.com", careersUrl: "https://appliedintuition.com/careers", ats: "ashby", slug: "applied" },
@@ -192,6 +195,30 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   },
 
   // ── Workday ─────────────────────────────────────────────────────────
+  {
+    name: "Autodesk", website: "https://autodesk.com", careersUrl: "https://www.autodesk.com/careers/overview",
+    ats: "workday", workday: { tenant: "autodesk", host: "autodesk.wd1.myworkdayjobs.com", site: "Ext" },
+  },
+  {
+    name: "Expedia", website: "https://expediagroup.com", careersUrl: "https://careers.expediagroup.com/jobs/",
+    ats: "workday", workday: { tenant: "expedia", host: "expedia.wd108.myworkdayjobs.com", site: "search" },
+  },
+  {
+    name: "HP", website: "https://hp.com", careersUrl: "https://jobs.hp.com",
+    ats: "workday", workday: { tenant: "hp", host: "hp.wd5.myworkdayjobs.com", site: "ExternalCareerSite" },
+  },
+  {
+    name: "Qualcomm", website: "https://qualcomm.com", careersUrl: "https://careers.qualcomm.com/careers",
+    ats: "workday", workday: { tenant: "qualcomm", host: "qualcomm.wd12.myworkdayjobs.com", site: "External" },
+  },
+  {
+    name: "Yahoo", website: "https://yahooinc.com", careersUrl: "https://www.yahooinc.com/careers",
+    ats: "workday", workday: { tenant: "ouryahoo", host: "ouryahoo.wd5.myworkdayjobs.com", site: "careers" },
+  },
+  {
+    name: "Zoom", website: "https://zoom.us", careersUrl: "https://careers.zoom.us",
+    ats: "workday", workday: { tenant: "zoom", host: "zoom.wd5.myworkdayjobs.com", site: "Zoom" },
+  },
   {
     name: "NVIDIA", website: "https://nvidia.com", careersUrl: "https://nvidia.com/en-us/about-nvidia/careers/",
     ats: "workday", workday: { tenant: "nvidia", host: "nvidia.wd5.myworkdayjobs.com", site: "NVIDIAExternalCareerSite" },
@@ -239,33 +266,27 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Amazon", website: "https://amazon.com", careersUrl: "https://amazon.jobs/en/teams/internships-for-students", ats: "amazon" },
 
   // ── Custom portals (manual check — future adapters) ─────────────────
-  { name: "Apple", website: "https://apple.com", careersUrl: "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN", ats: "unsupported" },
-  { name: "Google", website: "https://google.com", careersUrl: "https://google.com/about/careers/applications/jobs/results/?target_level=INTERN_AND_APPRENTICE,EARLY", ats: "unsupported" },
-  { name: "Meta", website: "https://meta.com", careersUrl: "https://metacareers.com/jobs?is_in_page=0&sub_teams[0]=University%20Grad%20-%20Engineering%2C%20Tech%20%26%20Design", ats: "unsupported" },
-  { name: "Microsoft", website: "https://microsoft.com", careersUrl: "https://apply.careers.microsoft.com/careers?domain=microsoft.com", ats: "unsupported" },
-  { name: "Uber", website: "https://uber.com", careersUrl: "https://uber.com/us/en/careers/teams/university/", ats: "unsupported" },
-  { name: "LinkedIn", website: "https://linkedin.com", careersUrl: "https://careers.linkedin.com/students", ats: "unsupported" },
-  { name: "Snowflake", website: "https://snowflake.com", careersUrl: "https://careers.snowflake.com/us/en/search-results", ats: "unsupported" },
-  { name: "Tesla", website: "https://tesla.com", careersUrl: "https://tesla.com/careers/search/?type=3", ats: "unsupported" },
-  { name: "Jane Street", website: "https://janestreet.com", careersUrl: "https://janestreet.com/join-jane-street/open-roles/", ats: "unsupported" },
-  { name: "Two Sigma", website: "https://twosigma.com", careersUrl: "https://careers.twosigma.com/careers", ats: "unsupported" },
-  { name: "Citadel", website: "https://citadel.com", careersUrl: "https://citadel.com/careers/open-opportunities/students/", ats: "unsupported" },
-  { name: "TikTok", website: "https://tiktok.com", careersUrl: "https://lifeattiktok.com", ats: "unsupported" },
-  { name: "Bloomberg", website: "https://bloomberg.com", careersUrl: "https://careers.bloomberg.com", ats: "unsupported" },
-  { name: "Grammarly", website: "https://grammarly.com", careersUrl: "https://grammarly.com/careers", ats: "unsupported" },
-  { name: "HashiCorp", website: "https://hashicorp.com", careersUrl: "https://hashicorp.com/careers", ats: "unsupported" },
-  { name: "Autodesk", website: "https://autodesk.com", careersUrl: "https://www.autodesk.com/careers/overview", ats: "unsupported" },
-  { name: "Booking.com", website: "https://booking.com", careersUrl: "https://careers.booking.com", ats: "unsupported" },
-  { name: "Cisco", website: "https://cisco.com", careersUrl: "https://careers.cisco.com/global/en", ats: "unsupported" },
-  { name: "Expedia", website: "https://expediagroup.com", careersUrl: "https://careers.expediagroup.com", ats: "unsupported" },
-  { name: "HP", website: "https://hp.com", careersUrl: "https://jobs.hp.com", ats: "unsupported" },
-  { name: "IBM", website: "https://ibm.com", careersUrl: "https://www.ibm.com/careers", ats: "unsupported" },
-  { name: "Intuit", website: "https://intuit.com", careersUrl: "https://jobs.intuit.com", ats: "unsupported" },
-  { name: "Qualcomm", website: "https://qualcomm.com", careersUrl: "https://careers.qualcomm.com/careers", ats: "unsupported" },
-  { name: "SAP", website: "https://sap.com", careersUrl: "https://jobs.sap.com", ats: "unsupported" },
-  { name: "Splunk", website: "https://splunk.com", careersUrl: "https://careers.cisco.com/global/en/splunk", ats: "unsupported" },
-  { name: "VMware", website: "https://vmware.com", careersUrl: "https://www.broadcom.com/company/careers", ats: "unsupported" },
-  { name: "X (Twitter)", website: "https://x.com", careersUrl: "https://x.ai/careers", ats: "unsupported" },
-  { name: "Yahoo", website: "https://yahooinc.com", careersUrl: "https://www.yahooinc.com/careers", ats: "unsupported" },
-  { name: "Zoom", website: "https://zoom.us", careersUrl: "https://careers.zoom.us", ats: "unsupported" },
+  { name: "Apple", website: "https://apple.com", careersUrl: "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN", ats: "unsupported", fallbackCoverage: "browser" },
+  { name: "Google", website: "https://google.com", careersUrl: "https://google.com/about/careers/applications/jobs/results/?target_level=INTERN_AND_APPRENTICE,EARLY", ats: "unsupported", fallbackCoverage: "browser" },
+  { name: "Meta", website: "https://meta.com", careersUrl: "https://metacareers.com/jobs?is_in_page=0&sub_teams[0]=University%20Grad%20-%20Engineering%2C%20Tech%20%26%20Design", ats: "unsupported", fallbackCoverage: "browser" },
+  { name: "Microsoft", website: "https://microsoft.com", careersUrl: "https://apply.careers.microsoft.com/careers?domain=microsoft.com", ats: "unsupported", fallbackCoverage: "browser" },
+  { name: "Uber", website: "https://uber.com", careersUrl: "https://uber.com/us/en/careers/teams/university/", ats: "unsupported", fallbackCoverage: "manual" },
+  { name: "LinkedIn", website: "https://linkedin.com", careersUrl: "https://careers.linkedin.com/students", ats: "unsupported", fallbackCoverage: "manual" },
+  { name: "Snowflake", website: "https://snowflake.com", careersUrl: "https://careers.snowflake.com/us/en/search-results", ats: "unsupported", fallbackCoverage: "browser" },
+  { name: "Tesla", website: "https://tesla.com", careersUrl: "https://tesla.com/careers/search/?type=3", ats: "unsupported", fallbackCoverage: "community-feed" },
+  { name: "Jane Street", website: "https://janestreet.com", careersUrl: "https://janestreet.com/join-jane-street/open-roles/", ats: "unsupported", fallbackCoverage: "community-feed" },
+  { name: "Two Sigma", website: "https://twosigma.com", careersUrl: "https://careers.twosigma.com/careers", ats: "unsupported", fallbackCoverage: "browser" },
+  { name: "Citadel", website: "https://citadel.com", careersUrl: "https://citadel.com/careers/open-opportunities/students/", ats: "unsupported", fallbackCoverage: "manual" },
+  { name: "TikTok", website: "https://tiktok.com", careersUrl: "https://lifeattiktok.com", ats: "unsupported", fallbackCoverage: "browser" },
+  { name: "Bloomberg", website: "https://bloomberg.com", careersUrl: "https://careers.bloomberg.com", ats: "unsupported", fallbackCoverage: "browser" },
+  { name: "Grammarly", website: "https://grammarly.com", careersUrl: "https://grammarly.com/careers", ats: "unsupported", fallbackCoverage: "manual" },
+  { name: "HashiCorp", website: "https://hashicorp.com", careersUrl: "https://hashicorp.com/careers", ats: "unsupported", fallbackCoverage: "manual" },
+  { name: "Booking.com", website: "https://booking.com", careersUrl: "https://careers.booking.com", ats: "unsupported", fallbackCoverage: "manual" },
+  { name: "Cisco", website: "https://cisco.com", careersUrl: "https://careers.cisco.com/global/en", ats: "unsupported", fallbackCoverage: "manual" },
+  { name: "IBM", website: "https://ibm.com", careersUrl: "https://www.ibm.com/careers", ats: "unsupported", fallbackCoverage: "browser" },
+  { name: "Intuit", website: "https://intuit.com", careersUrl: "https://jobs.intuit.com", ats: "unsupported", fallbackCoverage: "manual" },
+  { name: "SAP", website: "https://sap.com", careersUrl: "https://jobs.sap.com", ats: "unsupported", fallbackCoverage: "manual" },
+  { name: "Splunk", website: "https://splunk.com", careersUrl: "https://careers.cisco.com/global/en/splunk", ats: "unsupported", fallbackCoverage: "manual" },
+  { name: "VMware", website: "https://vmware.com", careersUrl: "https://www.broadcom.com/company/careers", ats: "unsupported", fallbackCoverage: "manual" },
+  { name: "X (Twitter)", website: "https://x.com", careersUrl: "https://careers.x.com", ats: "unsupported", fallbackCoverage: "manual" },
 ];

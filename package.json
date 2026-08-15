@@ -17,6 +17,7 @@
     "alert:ack": "tsx src/scraper/alert-ack-cli.ts",
     "job:explain": "tsx src/scraper/explain-cli.ts",
     "scrape:check": "tsx src/scraper/check-cli.ts",
+    "scrape:coverage": "tsx src/scraper/coverage-cli.ts",
     "sheets:sync": "node --env-file-if-exists=.env.local --import tsx src/scripts/google-sheets-sync.ts"
   },
   "dependencies": {

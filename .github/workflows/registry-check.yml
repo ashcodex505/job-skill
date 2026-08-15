@@ -23,6 +23,8 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - name: Summarize approved-company coverage
+        run: npm run scrape:coverage >> "$GITHUB_STEP_SUMMARY"
       - name: Run slug doctor
         id: doctor
         run: |

@@ -307,6 +307,39 @@ describe("shopify composite adapter", () => {
     expect(parseShopifyInternshipsHtml(OPEN_HTML.replace("Applications are OPEN", "Applications are CLOSED"))).toEqual([]);
   });
 
+  it("accepts Shopify's current notification-only state and keeps regular postings", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(async (input: RequestInfo | URL) => {
+        if (String(input).includes("postings.json")) {
+          return new Response(
+            JSON.stringify({
+              data: [
+                {
+                  title: "Software Engineer",
+                  url: "https://shopify.pinpointhq.com/en/postings/regular",
+                  location: { name: "United States" },
+                },
+              ],
+            }),
+            { status: 200 },
+          );
+        }
+        return new Response("<main><h1>Engineering internships</h1><a>Sign up for notifications</a></main>", { status: 200 });
+      }),
+    );
+
+    await expect(
+      ADAPTERS.shopify({
+        name: "Shopify",
+        website: "https://shopify.com",
+        careersUrl: "https://www.shopify.com/careers",
+        ats: "shopify",
+        slug: "shopify",
+      }),
+    ).resolves.toEqual([expect.objectContaining({ source: "pinpoint", title: "Software Engineer" })]);
+  });
+
   it("combines regular Pinpoint roles with internship-program drops", async () => {
     vi.stubGlobal(
       "fetch",
