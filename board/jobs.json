@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T11:53:36.352Z",
+ "updatedAt": "2026-08-16T12:57:07.474Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -809,28 +809,6 @@
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
-   "dedupeKey": "ashby:7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
-   "source": "ashby",
-   "company": "Replit",
-   "title": "Software Engineering Intern (Summer 2027)",
-   "location": "Foster City, CA",
-   "url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-15T18:49:00.242+00:00",
-   "firstSeenAt": "2026-08-15T19:30:12.763Z"
-  },
-  {
    "dedupeKey": "workday:JR2017522",
    "source": "workday",
    "company": "NVIDIA",
@@ -873,6 +851,28 @@
    },
    "postedAt": "2026-08-05",
    "firstSeenAt": "2026-08-05T18:43:33.968Z"
+  },
+  {
+   "dedupeKey": "ashby:7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+   "source": "ashby",
+   "company": "Replit",
+   "title": "Software Engineering Intern (Summer 2027)",
+   "location": "Foster City, CA",
+   "url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-15T18:49:00.242+00:00",
+   "firstSeenAt": "2026-08-15T19:30:12.763Z"
   },
   {
    "dedupeKey": "greenhouse:8052083",
@@ -7342,6 +7342,28 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
+   "dedupeKey": "simplifyjobs:b5e78c49-7404-4a09-97c7-67befba7da2f",
+   "source": "simplifyjobs",
+   "company": "Argonne National Laboratory",
+   "title": "Business Systems Administration Internship",
+   "location": "Remote in USA; Woodridge, IL",
+   "url": "https://argonne.wd1.myworkdayjobs.com/EDU_PUB/job/Lemont-IL-USA/Business-Systems-Administration-Internship_413528",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-04T09:49:15.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:f97c8aa5-6888-44e1-a593-8b2b91ce485e",
    "source": "simplifyjobs",
    "company": "Fab2",
@@ -10309,16 +10331,6 @@
    "firstSeenAt": "2026-08-15T01:46:01.264Z",
    "closedAt": "2026-08-15T23:29:50.411Z",
    "url": "https://firstam.wd1.myworkdayjobs.com/firstamericancareers/job/USA-California-Remote/Software-Engineering-Intern_R058260"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b5e78c49-7404-4a09-97c7-67befba7da2f",
-   "company": "Argonne National Laboratory",
-   "title": "Business Systems Administration Internship",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-16T11:52:20.512Z",
-   "url": "https://argonne.wd1.myworkdayjobs.com/EDU_PUB/job/Lemont-IL-USA/Business-Systems-Administration-Internship_413528"
   }
  ]
 }
