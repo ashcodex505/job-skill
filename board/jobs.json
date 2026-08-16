@@ -1,53 +1,6 @@
 {
- "updatedAt": "2026-08-16T09:44:06.651Z",
+ "updatedAt": "2026-08-16T09:57:01.991Z",
  "jobs": [
-  {
-   "dedupeKey": "reverse-discovery:2f6480e5-7bf1-4c41-b3b5-3c7404d95b5f",
-   "source": "reverse-discovery",
-   "company": "belvederetrading",
-   "title": "Software Engineer - Entry Level 2027",
-   "location": "Chicago, Illinois",
-   "url": "https://jobs.lever.co/belvederetrading/2f6480e5-7bf1-4c41-b3b5-3c7404d95b5f",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 95,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04T16:48:33.119Z",
-   "firstSeenAt": "2026-08-10T14:01:55.433Z"
-  },
-  {
-   "dedupeKey": "reverse-discovery:bb6e555b-8bb1-4cd7-9813-4f82a5ebe839",
-   "source": "reverse-discovery",
-   "company": "brainco",
-   "title": "Early Career Machine Learning Engineer, Applied AI",
-   "location": "San Francisco Bay Area",
-   "url": "https://jobs.ashbyhq.com/brainco/bb6e555b-8bb1-4cd7-9813-4f82a5ebe839",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 83,
-   "matchedSkills": [
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-01-21T16:54:29.194+00:00",
-   "firstSeenAt": "2026-08-16T09:44:06.651Z"
-  },
   {
    "dedupeKey": "rippling:sha1:58c70e7c0d3ada7cbfacf6e76bdb7333d1e3b199",
    "source": "rippling",
@@ -1265,30 +1218,6 @@
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
   },
   {
-   "dedupeKey": "greenhouse:7488508",
-   "source": "greenhouse",
-   "company": "Waymo",
-   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
-   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2025-12-22T18:35:42-05:00",
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
    "dedupeKey": "greenhouse:5162263007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -1341,6 +1270,77 @@
    },
    "postedAt": "2026-06-10T19:33:06-04:00",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7488508",
+   "source": "greenhouse",
+   "company": "Waymo",
+   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
+   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2025-12-22T18:35:42-05:00",
+   "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:2f6480e5-7bf1-4c41-b3b5-3c7404d95b5f",
+   "source": "reverse-discovery",
+   "company": "belvederetrading",
+   "title": "Software Engineer - Entry Level 2027",
+   "location": "Chicago, Illinois",
+   "url": "https://jobs.lever.co/belvederetrading/2f6480e5-7bf1-4c41-b3b5-3c7404d95b5f",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 95,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T16:48:33.119Z",
+   "firstSeenAt": "2026-08-10T14:01:55.433Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:bb6e555b-8bb1-4cd7-9813-4f82a5ebe839",
+   "source": "reverse-discovery",
+   "company": "brainco",
+   "title": "Early Career Machine Learning Engineer, Applied AI",
+   "location": "San Francisco Bay Area",
+   "url": "https://jobs.ashbyhq.com/brainco/bb6e555b-8bb1-4cd7-9813-4f82a5ebe839",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 83,
+   "matchedSkills": [
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-01-21T16:54:29.194+00:00",
+   "firstSeenAt": "2026-08-16T09:44:06.651Z"
   },
   {
    "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
