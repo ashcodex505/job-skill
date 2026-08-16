@@ -1,6 +1,53 @@
 {
- "updatedAt": "2026-08-16T09:38:52.039Z",
+ "updatedAt": "2026-08-16T09:44:06.651Z",
  "jobs": [
+  {
+   "dedupeKey": "reverse-discovery:2f6480e5-7bf1-4c41-b3b5-3c7404d95b5f",
+   "source": "reverse-discovery",
+   "company": "belvederetrading",
+   "title": "Software Engineer - Entry Level 2027",
+   "location": "Chicago, Illinois",
+   "url": "https://jobs.lever.co/belvederetrading/2f6480e5-7bf1-4c41-b3b5-3c7404d95b5f",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 95,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04T16:48:33.119Z",
+   "firstSeenAt": "2026-08-10T14:01:55.433Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:bb6e555b-8bb1-4cd7-9813-4f82a5ebe839",
+   "source": "reverse-discovery",
+   "company": "brainco",
+   "title": "Early Career Machine Learning Engineer, Applied AI",
+   "location": "San Francisco Bay Area",
+   "url": "https://jobs.ashbyhq.com/brainco/bb6e555b-8bb1-4cd7-9813-4f82a5ebe839",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 83,
+   "matchedSkills": [
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-01-21T16:54:29.194+00:00",
+   "firstSeenAt": "2026-08-16T09:44:06.651Z"
+  },
   {
    "dedupeKey": "rippling:sha1:58c70e7c0d3ada7cbfacf6e76bdb7333d1e3b199",
    "source": "rippling",
@@ -3143,28 +3190,6 @@
     "skills": 0
    },
    "postedAt": "2026-08-07",
-   "firstSeenAt": "2026-08-10T14:01:55.433Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:42c918a4aac0be3c8f859f1318ba042ab8359935",
-   "source": "speedyapply",
-   "company": "Belvedere Trading",
-   "title": "Software Engineer - Entry Level 2027",
-   "location": "Chicago, IL",
-   "url": "https://jobs.lever.co/belvederetrading/2f6480e5-7bf1-4c41-b3b5-3c7404d95b5f",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 95,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-08-05",
    "firstSeenAt": "2026-08-10T14:01:55.433Z"
   },
   {
