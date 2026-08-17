@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T09:24:41.537Z",
+ "updatedAt": "2026-08-17T10:08:18.623Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -904,60 +904,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "greenhouse:5162263007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "2027 Early Career Software Engineer",
-   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-06-11T12:31:23-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5148079007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "2027 Software Engineer Intern",
-   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-06-10T19:33:06-04:00",
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
    "dedupeKey": "greenhouse:8072244",
    "source": "greenhouse",
    "company": "Roblox",
@@ -1228,6 +1174,60 @@
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
   },
   {
+   "dedupeKey": "greenhouse:5162263007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "2027 Early Career Software Engineer",
+   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-06-11T12:31:23-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5148079007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "2027 Software Engineer Intern",
+   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-06-10T19:33:06-04:00",
+   "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
    "dedupeKey": "greenhouse:7488508",
    "source": "greenhouse",
    "company": "Waymo",
@@ -1250,50 +1250,6 @@
    },
    "postedAt": "2025-12-22T18:35:42-05:00",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
-  },
-  {
-   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
-   "source": "vansh",
-   "company": "Appian",
-   "title": "New Grad 2027: Software Engineer",
-   "location": "McLean, VA",
-   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T21:58:55.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:442b93cd6234f6ca7e770d3a2a1bff3175582486",
@@ -4006,6 +3962,50 @@
    },
    "postedAt": "2026-05-13",
    "firstSeenAt": "2026-08-13T13:39:17.771Z"
+  },
+  {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
+  },
+  {
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "simplifyjobs:29d56cce-6d8e-4fac-aeb4-7c14135e0b12",
@@ -9588,28 +9588,6 @@
    "firstSeenAt": "2026-08-15T05:35:42.382Z"
   },
   {
-   "dedupeKey": "simplifyjobs:3a2e2c86-3612-46c8-891d-50a65e292f46",
-   "source": "simplifyjobs",
-   "company": "Photon",
-   "title": "Software Engineering Intern - AI",
-   "location": "Remote in USA",
-   "url": "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26738",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 5,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-16T01:18:36.000Z",
-   "firstSeenAt": "2026-08-16T01:54:52.164Z"
-  },
-  {
    "dedupeKey": "reverse-discovery:bb6e555b-8bb1-4cd7-9813-4f82a5ebe839",
    "source": "reverse-discovery",
    "company": "brainco",
@@ -9636,36 +9614,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:6507515a-808f-4502-b19f-ead22fbf63d3",
-   "company": "General Dynamics Mission Systems",
-   "title": "Entry Level Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-07T01:09:11.897Z",
-   "closedAt": "2026-08-10T09:44:46.266Z",
-   "url": "https://careers-gdms.icims.com/jobs/73193/job?mobile=true&needsRedirect=false"
-  },
-  {
-   "dedupeKey": "simplifyjobs:80ed1f87-b2ee-49df-bc46-c9a78897a5ad",
-   "company": "PointOne",
-   "title": "Software Engineer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-08-10T09:44:46.266Z",
-   "url": "https://jobs.ashbyhq.com/PointOne/1e312db8-6d18-4d07-af99-ed3ba165e7d9/application"
-  },
-  {
-   "dedupeKey": "simplifyjobs:9fe00265-7716-44f9-bc43-1017aa863220",
-   "company": "Microsoft",
-   "title": "Software Engineer Intern - CoreAI",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-03T12:34:46.349Z",
-   "closedAt": "2026-08-10T09:44:46.266Z",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950"
-  },
   {
    "dedupeKey": "simplifyjobs:830d601a-f246-424f-8b08-23956510de08",
    "company": "Maven Securities",
@@ -10285,6 +10233,16 @@
    "firstSeenAt": "2026-08-06T07:37:02.524Z",
    "closedAt": "2026-08-17T03:09:30.651Z",
    "url": "https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484"
+  },
+  {
+   "dedupeKey": "simplifyjobs:3a2e2c86-3612-46c8-891d-50a65e292f46",
+   "company": "Photon",
+   "title": "Software Engineering Intern - AI",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-16T01:54:52.164Z",
+   "closedAt": "2026-08-17T10:08:18.623Z",
+   "url": "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26738"
   }
  ]
 }
