@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-429-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-1-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--17-informational)
+![open roles](https://img.shields.io/badge/open%20roles-430-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-2-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--17-informational)
 
-Updated **2026-08-17 13:50 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-17 14:39 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| TikTok | Machine Learning Engineer Intern - E-Commerce Governance 🆕 | Seattle, WA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://lifeattiktok.com/search/7674029136531015941) |
 | Replit | Software Engineering Intern (Summer 2027) | Foster City, CA | Summer 2027 | 100% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1) |
 | Abridge | Software Engineer Intern | SF; NYC | Fall 2026 | 100% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application?embed=true) |
 | Hypercubic | Software Engineering Intern | SF | Fall 2026 | 100% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/hypercubic/ab7a23f9-7280-4443-b442-2813dc39d490/application?embed=true) |
@@ -277,5 +278,4 @@ Updated **2026-08-17 13:50 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Inbulks | Junior Front End Developer Intern | Long Island City, Queens, NY | Fall 2026 | 100% | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://jobs.smartrecruiters.com/InbulksCorp/743999750129753) |
 | Schweitzer Engineering Laboratories | Software Engineer Intern - AI Focus | Pullman, WA | Fall 2026 | 100% | 2026-08-12 | 2026-08-13 | [**Apply ➜**](https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601) |
 | Oracle | Platform Software Engineer 1 Intern - Full-time Intern Conversion | United States | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342415) |
-| American Fidelity | Software Development Intern | Oklahoma City, OK | Winter 2027 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005) |
 <!-- JOB-BOARD:END -->
