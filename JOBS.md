@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**427 open roles** across **176 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-17 21:56 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**426 open roles** across **175 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-17 22:35 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (3)
@@ -12,7 +12,7 @@ Last updated: **2026-08-17 21:56 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Machine Learning Engineer Intern - E-Commerce Governance 🆕 | Seattle, WA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://lifeattiktok.com/search/7674029136531015941) |
 | General Dynamics Mission Systems | Software Engineer - Entry Level 🆕 | Scottsdale, AZ | — | 75% | 2026-08-16 | 2026-08-17 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74274/software-engineer---entry-level/job) |
 
-## 🛠️ Internships (255)
+## 🛠️ Internships (254)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -142,7 +142,6 @@ Last updated: **2026-08-17 21:56 UTC** · auto-refreshed every 12h by [job-board
 | Field AI | Robotics Controls Intern - Robot Control Systems | Irvine, CA | Fall 2026 | 100% | 2026-07-28 | 2026-08-02 | [**Apply ➜**](https://jobs.lever.co/field-ai/8a3b5d4b-f88f-4704-bfdd-74e8dcd30704/apply) |
 | Heliux | Software Engineer - Internship - Spring 2027 | San Francisco, CA | Spring 2027 | 100% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/heliux/c71c0650-b6f7-491f-b291-6b280f58ee9c) |
 | Markem-Imaje | Software Engineer Intern | Keene, NH | Fall 2026 | 100% | 2026-06-24 | 2026-08-02 | [**Apply ➜**](https://careers.dovercorporation.com/job/Keene-Software-Engineer-Intern-NH-03431/1404722033) |
-| Medpace, Inc. | Software Development Co-op | Cincinnati, OH | Fall 2026 | 100% | 2026-05-19 | 2026-08-02 | [**Apply ➜**](https://careers.medpace.com/jobs/12766?lang=en-us&icims=1) |
 | Melius | Software Engineer Intern | NYC | Fall 2026 | 100% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf/application?embed=true) |
 | Melius | Software Engineer Intern | NYC | Spring 2027 | 100% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280/application?embed=true) |
 | Muru | Mobile Software Engineer Intern | New York, NY | Fall 2026 | 100% | 2026-06-23 | 2026-08-02 | [**Apply ➜**](https://www.murumed.com/job-listings/software-engineer-intern) |
@@ -300,11 +299,11 @@ Last updated: **2026-08-17 21:56 UTC** · auto-refreshed every 12h by [job-board
 | brainco | Early Career Machine Learning Engineer, Applied AI | San Francisco Bay Area | — | 83% (2 skills) | 2026-01-21 | 2026-08-16 | [**Apply ➜**](https://jobs.ashbyhq.com/brainco/bb6e555b-8bb1-4cd7-9813-4f82a5ebe839) |
 | Samsara | Software Engineer I - New Grad, SF | San Francisco - SF9 | — | 83% (2 skills) | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
-| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
+| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Flow Engineering | Software Engineer - Early Career | SF | — | 80% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/flowengineering/df49e713-ce33-40a8-8d6d-3759f61f4ea5/application?embed=true) |
 | Notion | Software Engineer New Grad | SF | — | 80% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true) |
@@ -449,12 +448,13 @@ Last updated: **2026-08-17 21:56 UTC** · auto-refreshed every 12h by [job-board
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | Dallas, TX | — | 70% | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815) |
 
-## 🚪 Recently closed (last 7 days) (61)
+## 🚪 Recently closed (last 7 days) (62)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Medpace, Inc. | Software Development Co-op | Fall 2026 | 2026-08-17 |
 | Cohesity | Software Engineer New Grad | — | 2026-08-17 |
 | General Dynamics Mission Systems | Cybersecurity Software Engineer Intern | Fall 2026 | 2026-08-17 |
 | Integration Innovation (i3) | Entry Level Software Engineer | — | 2026-08-17 |

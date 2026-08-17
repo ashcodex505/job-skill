@@ -1,28 +1,6 @@
 {
- "updatedAt": "2026-08-17T21:56:58.948Z",
+ "updatedAt": "2026-08-17T22:35:44.993Z",
  "jobs": [
-  {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -460,6 +438,28 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
+  {
    "dedupeKey": "amazon:10412530",
    "source": "amazon",
    "company": "Amazon",
@@ -504,6 +504,34 @@
    },
    "postedAt": "2025-12-03",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
+   "dedupeKey": "greenhouse:6131089004",
+   "source": "greenhouse",
+   "company": "Figma",
+   "title": "Software Engineer Intern (Winter 2027)",
+   "location": "San Francisco, CA • New York, NY",
+   "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-08-10T15:03:06-04:00",
+   "firstSeenAt": "2026-08-10T19:37:30.408Z"
   },
   {
    "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
@@ -639,34 +667,6 @@
    },
    "postedAt": "2026-08-03T12:32:48-04:00",
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
-  },
-  {
-   "dedupeKey": "greenhouse:6131089004",
-   "source": "greenhouse",
-   "company": "Figma",
-   "title": "Software Engineer Intern (Winter 2027)",
-   "location": "San Francisco, CA • New York, NY",
-   "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "JavaScript",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 8
-   },
-   "postedAt": "2026-08-10T15:03:06-04:00",
-   "firstSeenAt": "2026-08-10T19:37:30.408Z"
   },
   {
    "dedupeKey": "greenhouse:8118845",
@@ -1010,6 +1010,30 @@
    "firstSeenAt": "2026-08-05T16:49:59.297Z"
   },
   {
+   "dedupeKey": "greenhouse:7488508",
+   "source": "greenhouse",
+   "company": "Waymo",
+   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
+   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2025-12-22T18:35:42-05:00",
+   "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
    "dedupeKey": "greenhouse:8493079002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1056,30 +1080,6 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696058002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:22:04-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696080002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1104,12 +1104,12 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696143002",
+   "dedupeKey": "greenhouse:8696058002",
    "source": "greenhouse",
    "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
    "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002",
    "season": null,
    "roleType": "new_grad",
    "score": 82,
@@ -1124,7 +1124,7 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-08-14T12:21:23-04:00",
+   "postedAt": "2026-08-14T12:22:04-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -1173,6 +1173,30 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:21:38-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696143002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:23-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -1226,30 +1250,6 @@
    },
    "postedAt": "2026-08-03T13:41:40-04:00",
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7488508",
-   "source": "greenhouse",
-   "company": "Waymo",
-   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
-   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2025-12-22T18:35:42-05:00",
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:442b93cd6234f6ca7e770d3a2a1bff3175582486",
@@ -6086,28 +6086,6 @@
    "firstSeenAt": "2026-08-16T22:52:49.313Z"
   },
   {
-   "dedupeKey": "simplifyjobs:908ea2de-e80d-4c76-9020-f31ac7f04345",
-   "source": "simplifyjobs",
-   "company": "Medpace, Inc.",
-   "title": "Software Development Co-op",
-   "location": "Cincinnati, OH",
-   "url": "https://careers.medpace.com/jobs/12766?lang=en-us&icims=1",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-19T22:06:44.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:95bf548d-b42d-4076-aee6-3afce1e110be",
    "source": "simplifyjobs",
    "company": "Altom Transport",
@@ -10157,6 +10135,16 @@
    "firstSeenAt": "2026-08-11T22:57:09.683Z",
    "closedAt": "2026-08-17T21:36:20.612Z",
    "url": "https://careers-gdms.icims.com/jobs/74257/job?mobile=true&needsRedirect=false"
+  },
+  {
+   "dedupeKey": "simplifyjobs:908ea2de-e80d-4c76-9020-f31ac7f04345",
+   "company": "Medpace, Inc.",
+   "title": "Software Development Co-op",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-08-17T22:35:44.993Z",
+   "url": "https://careers.medpace.com/jobs/12766?lang=en-us&icims=1"
   }
  ]
 }
