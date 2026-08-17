@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T05:19:44.205Z",
+ "updatedAt": "2026-08-17T05:21:05.880Z",
  "jobs": [
   {
    "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
@@ -765,28 +765,6 @@
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
-   "dedupeKey": "ashby:7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
-   "source": "ashby",
-   "company": "Replit",
-   "title": "Software Engineering Intern (Summer 2027)",
-   "location": "Foster City, CA",
-   "url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-15T18:49:00.242+00:00",
-   "firstSeenAt": "2026-08-15T19:30:12.763Z"
-  },
-  {
    "dedupeKey": "workday:JR2017522",
    "source": "workday",
    "company": "NVIDIA",
@@ -829,6 +807,28 @@
    },
    "postedAt": "2026-08-05",
    "firstSeenAt": "2026-08-05T18:43:33.968Z"
+  },
+  {
+   "dedupeKey": "ashby:7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+   "source": "ashby",
+   "company": "Replit",
+   "title": "Software Engineering Intern (Summer 2027)",
+   "location": "Foster City, CA",
+   "url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-15T18:49:00.242+00:00",
+   "firstSeenAt": "2026-08-15T19:30:12.763Z"
   },
   {
    "dedupeKey": "greenhouse:8052083",
@@ -1104,6 +1104,30 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
+   "dedupeKey": "greenhouse:8696143002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:23-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
    "dedupeKey": "greenhouse:8696156002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1149,30 +1173,6 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:21:38-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8696143002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:23-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
