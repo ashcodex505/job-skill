@@ -1,21 +1,29 @@
 # 🎯 Job Board — SWE Early Career
 
-**426 open roles** across **175 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-17 22:56 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**430 open roles** across **178 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-17 23:33 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (3)
+## 🆕 New this cycle (7)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| L3Harris Technologies | Software Engineering Intern 🆕 | Clifton, NJ | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://jobs.l3harris.com/job/Clifton-Software-Engineering-Intern-(Clifton,-NJ)-1-NJ-07014/1420083900/?ats=successfactors) |
+| Point72 | Quantitative Developer Intern 🆕 | NYC | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://boards.greenhouse.io/point72/jobs/8721562002) |
 | Datadog | Software Engineer Intern - Observability and Security Platform 🆕 | Boston, MA; NYC | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Governance 🆕 | Seattle, WA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://lifeattiktok.com/search/7674029136531015941) |
+| American Fidelity | Software Mobile Intern 🆕 | Oklahoma City, OK | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Mobile-Intern--OKC-Local-Only-_JR1021) |
+| Intel | Software Development Intern 🆕 | Folsom, CA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1) |
 | General Dynamics Mission Systems | Software Engineer - Entry Level 🆕 | Scottsdale, AZ | — | 75% | 2026-08-16 | 2026-08-17 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74274/software-engineer---entry-level/job) |
 
-## 🛠️ Internships (254)
+## 🛠️ Internships (258)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| American Fidelity | Software Mobile Intern 🆕 | Oklahoma City, OK | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Mobile-Intern--OKC-Local-Only-_JR1021) |
+| Intel | Software Development Intern 🆕 | Folsom, CA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1) |
+| L3Harris Technologies | Software Engineering Intern 🆕 | Clifton, NJ | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://jobs.l3harris.com/job/Clifton-Software-Engineering-Intern-(Clifton,-NJ)-1-NJ-07014/1420083900/?ats=successfactors) |
+| Point72 | Quantitative Developer Intern 🆕 | NYC | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://boards.greenhouse.io/point72/jobs/8721562002) |
 | Datadog | Software Engineer Intern - Observability and Security Platform 🆕 | Boston, MA; NYC | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Governance 🆕 | Seattle, WA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://lifeattiktok.com/search/7674029136531015941) |
 | Replit | Software Engineering Intern (Summer 2027) | Foster City, CA | Summer 2027 | 100% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1) |
@@ -299,11 +307,11 @@ Last updated: **2026-08-17 22:56 UTC** · auto-refreshed every 12h by [job-board
 | brainco | Early Career Machine Learning Engineer, Applied AI | San Francisco Bay Area | — | 83% (2 skills) | 2026-01-21 | 2026-08-16 | [**Apply ➜**](https://jobs.ashbyhq.com/brainco/bb6e555b-8bb1-4cd7-9813-4f82a5ebe839) |
 | Samsara | Software Engineer I - New Grad, SF | San Francisco - SF9 | — | 83% (2 skills) | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
-| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
+| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Flow Engineering | Software Engineer - Early Career | SF | — | 80% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/flowengineering/df49e713-ce33-40a8-8d6d-3759f61f4ea5/application?embed=true) |
 | Notion | Software Engineer New Grad | SF | — | 80% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true) |

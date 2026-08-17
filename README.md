@@ -252,12 +252,16 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-426-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-3-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--17-informational)
+![open roles](https://img.shields.io/badge/open%20roles-430-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-7-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--17-informational)
 
-Updated **2026-08-17 22:56 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-17 23:33 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| American Fidelity | Software Mobile Intern 🆕 | Oklahoma City, OK | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Mobile-Intern--OKC-Local-Only-_JR1021) |
+| Intel | Software Development Intern 🆕 | Folsom, CA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1) |
+| L3Harris Technologies | Software Engineering Intern 🆕 | Clifton, NJ | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://jobs.l3harris.com/job/Clifton-Software-Engineering-Intern-(Clifton,-NJ)-1-NJ-07014/1420083900/?ats=successfactors) |
+| Point72 | Quantitative Developer Intern 🆕 | NYC | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://boards.greenhouse.io/point72/jobs/8721562002) |
 | Datadog | Software Engineer Intern - Observability and Security Platform 🆕 | Boston, MA; NYC | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Governance 🆕 | Seattle, WA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://lifeattiktok.com/search/7674029136531015941) |
 | Replit | Software Engineering Intern (Summer 2027) | Foster City, CA | Summer 2027 | 100% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1) |
@@ -274,8 +278,4 @@ Updated **2026-08-17 22:56 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Composio | Fullstack Engineering Internship - Product Team - Fall 2026 & Winter 2027 | San Francisco, CA | Fall 2026 | 100% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://jobs.ashbyhq.com/composio/eea3c0be-8589-4e3d-a684-de29a9eada0d) |
 | MSA Safety | Software Engineer Co-op - Product Development | Cranberry Township, PA | Spring 2027 | 100% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://careers.msasafety.com/jobs/9992?icims=1) |
 | National Laboratory of the Rockies | Transportation Systems Analysis Intern - Year-Round | Golden, CO | Fall 2026 | 100% | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--Year-Round--Intern---Transportation-Systems-Analysis_R14385) |
-| Interco | Software Development Intern - React | St. Louis, MO | Fall 2026 | 100% (1 skills) | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://jobs.smartrecruiters.com/Interco/744000143346169) |
-| Specter Aerospace | Front-End Software Developer Co-op | Boston, MA; Peabody, MA | Spring 2027 | 100% | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://specteraerospace.bamboohr.com/careers/120/) |
-| Inbulks | Junior Front End Developer Intern | Long Island City, Queens, NY | Fall 2026 | 100% | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://jobs.smartrecruiters.com/InbulksCorp/743999750129753) |
-| Schweitzer Engineering Laboratories | Software Engineer Intern - AI Focus | Pullman, WA | Fall 2026 | 100% | 2026-08-12 | 2026-08-13 | [**Apply ➜**](https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601) |
 <!-- JOB-BOARD:END -->
