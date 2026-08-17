@@ -1,8 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
 **429 open roles** across **177 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-17 11:56 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-17 13:02 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
+
+## 🆕 New this cycle (1)
+
+| Company | Role | Location | Season | Match | Posted | First seen | Apply |
+|---|---|---|---|---|---|---|---|
+| General Dynamics Mission Systems | Software Engineer - Entry Level 🆕 | Scottsdale, AZ | — | 75% | 2026-08-16 | 2026-08-17 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74274/software-engineer---entry-level/job) |
 
 ## 🛠️ Internships (255)
 
@@ -200,8 +206,8 @@ Last updated: **2026-08-17 11:56 UTC** · auto-refreshed every 12h by [job-board
 | Anduril | 2027 Software Engineer Intern | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 | 96% (4 skills) | 2026-06-10 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 | TikTok | Mobile Software Engineer Intern - Global E-Commerce - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://lifeattiktok.com/search/7673663349758675205) |
 | Northrop Grumman | 2027 Intern Software Engineer | Melbourne, FL | 2027 | 90% | 2026-08-12 | 2026-08-13 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255) |
-| Blue Origin | 2026 Intern Conversion - Software Development Engineer I | Seattle, WA +8 | 2026 | 90% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275) |
 | Blue Origin | 2026 Intern Conversion - Aerospace Software Apps Engineer I | Seattle, WA +8 | 2026 | 90% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306) |
+| Blue Origin | 2026 Intern Conversion - Software Development Engineer I | Seattle, WA +8 | 2026 | 90% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275) |
 | Quantbot Technologies | Quantitative Developer Internship - 2027 - New York | New York City, NY | 2027 | 90% | 2026-08-08 | 2026-08-12 | [**Apply ➜**](https://www.quantbot.com/careers/4341038009?gh_jid=4341038009) |
 | TikTok | Software Engineer Intern - Global E-commerce-Search - 2027 Fall | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-11 | [**Apply ➜**](https://lifeattiktok.com/search/7670839752644233525) |
 | TikTok | Software Engineer Intern - Global E-commerce-Search - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-10 | [**Apply ➜**](https://lifeattiktok.com/search/7670839727059339525) |
@@ -255,8 +261,8 @@ Last updated: **2026-08-17 11:56 UTC** · auto-refreshed every 12h by [job-board
 | Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 | New York City, NY | 2026 | 90% | 2026-07-23 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
 | Chevron | 2026-2027 Information Technology - Software Engineer - Intern | Houston, TX | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1) |
 | Five Rings | Summer Intern 2027 - Software Developer | New York City, NY | 2027 | 90% | 2026-07-15 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008) |
-| Netic | Software Engineer - Agent Platform - Intern - 2026-2027 | San Francisco, CA | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7) |
 | Netic | Full-Stack Software Engineer - Product - Intern - 2026-2027 | San Francisco, CA | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/f291394a-f3c5-4f46-9b87-77aea3d487ef) |
+| Netic | Software Engineer - Agent Platform - Intern - 2026-2027 | San Francisco, CA | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7) |
 | Old Mission Capital | Software Engineer - 2027 Internship Program - June Start | Chicago, IL | 2027 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://www.oldmissioncapital.com/careers/?gh_jid=7796180003) |
 | The Trade Desk | 2027 North America Software Engineering Internship | Denver, CO +2 | 2027 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007) |
 | TikTok | Frontend Software Engineer Project Intern - Global CRM - 2026 Start（BS/MS） | San Jose, CA | 2026 | 90% | 2026-06-23 | 2026-07-26 | [**Apply ➜**](https://lifeattiktok.com/search/7654431844394322229) |
@@ -407,6 +413,7 @@ Last updated: **2026-08-17 11:56 UTC** · auto-refreshed every 12h by [job-board
 | Palantir | Forward Deployed Software Engineer, New Grad - Intel, US Government | Washington, D.C. | — | 80% | 2026-06-15 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | Washington, D.C. | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) |
 | Palantir | Forward Deployed Software Engineer, New Grad - US Government | New York, NY | — | 80% | 2022-06-30 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) |
+| General Dynamics Mission Systems | Software Engineer - Entry Level 🆕 | Scottsdale, AZ | — | 75% | 2026-08-16 | 2026-08-17 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74274/software-engineer---entry-level/job) |
 | General Dynamics Mission Systems | Software Engineer - Entry Level | Scottsdale, AZ | — | 75% | 2026-08-16 | 2026-08-16 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74274/job?mobile=true&needsRedirect=false) |
 | DecisionPoint Corporation | Entry-level Software Developer | Remote in USA | — | 75% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://careers-decisionpointcorp.icims.com/jobs/3685/job?mobile=true&needsRedirect=false) |
 | Accenture | Entry Level Java Developer Associate | San Antonio, TX | — | 72% (1 skills) | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://jobs.smartrecruiters.com/AccentureFederalServices/78366121) |
@@ -418,7 +425,6 @@ Last updated: **2026-08-17 11:56 UTC** · auto-refreshed every 12h by [job-board
 | DataLab USA | Production Programmer - Entry Level SQL Developer | Germantown, MD | — | 72% (1 skills) | 2026-06-18 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885) |
 | Wolverine Trading | Entry Level C++ Software Engineer | Chicago, IL | — | 70% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://wolve.pinpointhq.com/en/postings/e03d9864-a128-40ff-91b5-dfc9fd1b59d6?ats=pinpointhq) |
 | Wolverine Trading | Entry Level C++ Software Engineer | Chicago, IL | — | 70% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://wolve.pinpointhq.com/en/postings/1f33c89b-2592-498d-b45a-1b2092cf944e?ats=pinpointhq) |
-| General Dynamics Mission Systems | Entry Level Infrastructure Software Engineer | Pittsfield, MA | — | 70% | 2026-05-13 | 2026-08-13 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72580/entry-level-infrastructure-software-engineer/job) |
 | 9to9 Software Solutions | Entry Level .NET Developer | Louisville, CO | — | 70% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/9to9SoftwareSolutionsLLC/743999674047805) |
 | 9to9 Software Solutions | Entry Level Software Developer | Copperhill, TN | — | 70% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/9to9SoftwareSolutionsLLC/743999677188473) |
 | 9to9 Software Solutions | Entry Level Software Developer | Randolph AFB, TX | — | 70% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/9to9SoftwareSolutionsLLC/743999674053935) |
@@ -449,6 +455,7 @@ Postings that disappeared from their company's feed — if one of these was on y
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| General Dynamics Mission Systems | Entry Level Infrastructure Software Engineer | — | 2026-08-17 |
 | RTX | Systems Engineer 1 Intern - Intern Conversion | Fall 2026 | 2026-08-17 |
 | Photon | Software Engineering Intern - AI | Fall 2026 | 2026-08-17 |
 | Apple | Software Engineer - Information Systems and Technology - Early Career | — | 2026-08-17 |
@@ -512,7 +519,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Boeing | Entry-Level Software Test Engineer | — | 2026-08-10 |
 | Bank of Montreal | Software Developer - Early Career -15 | — | 2026-08-10 |
 | Collective | Software Engineer - New Grad | — | 2026-08-10 |
-| Maven Securities | Developer New Grad | — | 2026-08-10 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._

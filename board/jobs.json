@@ -1,6 +1,28 @@
 {
- "updatedAt": "2026-08-17T11:56:33.743Z",
+ "updatedAt": "2026-08-17T13:02:21.872Z",
  "jobs": [
+  {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -438,28 +460,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
-  {
    "dedupeKey": "amazon:10412530",
    "source": "amazon",
    "company": "Amazon",
@@ -765,6 +765,28 @@
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
+   "dedupeKey": "ashby:7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+   "source": "ashby",
+   "company": "Replit",
+   "title": "Software Engineering Intern (Summer 2027)",
+   "location": "Foster City, CA",
+   "url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-15T18:49:00.242+00:00",
+   "firstSeenAt": "2026-08-15T19:30:12.763Z"
+  },
+  {
    "dedupeKey": "workday:JR2017522",
    "source": "workday",
    "company": "NVIDIA",
@@ -807,28 +829,6 @@
    },
    "postedAt": "2026-08-05",
    "firstSeenAt": "2026-08-05T18:43:33.968Z"
-  },
-  {
-   "dedupeKey": "ashby:7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
-   "source": "ashby",
-   "company": "Replit",
-   "title": "Software Engineering Intern (Summer 2027)",
-   "location": "Foster City, CA",
-   "url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-15T18:49:00.242+00:00",
-   "firstSeenAt": "2026-08-15T19:30:12.763Z"
   },
   {
    "dedupeKey": "greenhouse:8052083",
@@ -2552,12 +2552,12 @@
    "firstSeenAt": "2026-08-13T13:39:17.771Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:dcc63a20bf751613930d979bbaeef3d75114c43c",
+   "dedupeKey": "speedyapply:sha1:d08f0f75592d3dbc2779828b1808b1db0920e086",
    "source": "speedyapply",
    "company": "Blue Origin",
-   "title": "2026 Intern Conversion - Software Development Engineer I",
+   "title": "2026 Intern Conversion - Aerospace Software Apps Engineer I",
    "location": "Seattle, WA +8",
-   "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275",
+   "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306",
    "season": "2026",
    "roleType": "internship",
    "score": 90,
@@ -2574,12 +2574,12 @@
    "firstSeenAt": "2026-08-12T13:38:04.550Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:d08f0f75592d3dbc2779828b1808b1db0920e086",
+   "dedupeKey": "speedyapply:sha1:dcc63a20bf751613930d979bbaeef3d75114c43c",
    "source": "speedyapply",
    "company": "Blue Origin",
-   "title": "2026 Intern Conversion - Aerospace Software Apps Engineer I",
+   "title": "2026 Intern Conversion - Software Development Engineer I",
    "location": "Seattle, WA +8",
-   "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306",
+   "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275",
    "season": "2026",
    "roleType": "internship",
    "score": 90,
@@ -2618,28 +2618,6 @@
    "firstSeenAt": "2026-08-12T13:38:04.550Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:0d5d41be79864285473449a46049beee53d06b9c",
-   "source": "speedyapply",
-   "company": "Varda",
-   "title": "Site Reliability Internship - Spring 2027",
-   "location": "El Segundo, CA",
-   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824814003",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-08",
-   "firstSeenAt": "2026-08-10T14:01:55.433Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:7a5509fa32f22cabadeefd04ca3481f1f8e854ad",
    "source": "speedyapply",
    "company": "Varda",
@@ -2660,6 +2638,28 @@
    },
    "postedAt": "2026-08-07T22:07:47.000Z",
    "firstSeenAt": "2026-08-07T23:09:42.134Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:0d5d41be79864285473449a46049beee53d06b9c",
+   "source": "speedyapply",
+   "company": "Varda",
+   "title": "Site Reliability Internship - Spring 2027",
+   "location": "El Segundo, CA",
+   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824814003",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-08",
+   "firstSeenAt": "2026-08-10T14:01:55.433Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:de1a48f05a55889af2988d08606dd808ee74c84a",
@@ -2838,12 +2838,12 @@
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:352c01de5931ea9ee8cbf2e664bfa47feae5d0a5",
+   "dedupeKey": "speedyapply:sha1:fa3b8f27fb1fd3a06e87954043ce58c76175d31c",
    "source": "speedyapply",
    "company": "Netic",
-   "title": "Software Engineer - Agent Platform - Intern - 2026-2027",
+   "title": "Full-Stack Software Engineer - Product - Intern - 2026-2027",
    "location": "San Francisco, CA",
-   "url": "https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7",
+   "url": "https://jobs.ashbyhq.com/netic/f291394a-f3c5-4f46-9b87-77aea3d487ef",
    "season": "2026",
    "roleType": "internship",
    "score": 90,
@@ -2860,12 +2860,12 @@
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:fa3b8f27fb1fd3a06e87954043ce58c76175d31c",
+   "dedupeKey": "speedyapply:sha1:352c01de5931ea9ee8cbf2e664bfa47feae5d0a5",
    "source": "speedyapply",
    "company": "Netic",
-   "title": "Full-Stack Software Engineer - Product - Intern - 2026-2027",
+   "title": "Software Engineer - Agent Platform - Intern - 2026-2027",
    "location": "San Francisco, CA",
-   "url": "https://jobs.ashbyhq.com/netic/f291394a-f3c5-4f46-9b87-77aea3d487ef",
+   "url": "https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7",
    "season": "2026",
    "roleType": "internship",
    "score": 90,
@@ -3190,6 +3190,28 @@
    },
    "postedAt": "2026-07-07",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:699bbb3acd164c12e71ef6d403763255f848b752",
+   "source": "speedyapply",
+   "company": "General Dynamics Mission Systems",
+   "title": "Software Engineer - Entry Level",
+   "location": "Scottsdale, AZ",
+   "url": "https://careers-gdms.icims.com/jobs/74274/software-engineer---entry-level/job",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 75,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-16",
+   "firstSeenAt": "2026-08-17T13:02:21.872Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:2de7f35124e711c863cf37f9f95782ad963fa688",
@@ -3984,28 +4006,6 @@
    },
    "postedAt": "2026-05-18",
    "firstSeenAt": "2026-08-11T14:03:01.769Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:0c7ecba08ceb6261fc76344bef7a7bf43c6c9923",
-   "source": "speedyapply",
-   "company": "General Dynamics Mission Systems",
-   "title": "Entry Level Infrastructure Software Engineer",
-   "location": "Pittsfield, MA",
-   "url": "https://careers-gdms.icims.com/jobs/72580/entry-level-infrastructure-software-engineer/job",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 70,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-05-13",
-   "firstSeenAt": "2026-08-13T13:39:17.771Z"
   },
   {
    "dedupeKey": "simplifyjobs:29d56cce-6d8e-4fac-aeb4-7c14135e0b12",
@@ -9593,16 +9593,6 @@
  ],
  "closed": [
   {
-   "dedupeKey": "simplifyjobs:830d601a-f246-424f-8b08-23956510de08",
-   "company": "Maven Securities",
-   "title": "Developer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-03T12:34:46.349Z",
-   "closedAt": "2026-08-10T12:27:31.769Z",
-   "url": "https://job-boards.greenhouse.io/emergingtalent/jobs/8048802"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:50dc47085324f28436854f43c29ea8e5befe72f1",
    "company": "NVIDIA",
    "title": "PhD Research Intern - System Software and I/O Architecture - Fall 2026",
@@ -10231,6 +10221,16 @@
    "firstSeenAt": "2026-08-07T23:09:42.134Z",
    "closedAt": "2026-08-17T11:36:07.491Z",
    "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863596"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:0c7ecba08ceb6261fc76344bef7a7bf43c6c9923",
+   "company": "General Dynamics Mission Systems",
+   "title": "Entry Level Infrastructure Software Engineer",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-08-13T13:39:17.771Z",
+   "closedAt": "2026-08-17T13:02:21.872Z",
+   "url": "https://careers-gdms.icims.com/jobs/72580/entry-level-infrastructure-software-engineer/job"
   }
  ]
 }
