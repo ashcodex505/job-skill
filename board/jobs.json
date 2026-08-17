@@ -1,6 +1,28 @@
 {
- "updatedAt": "2026-08-17T07:14:32.886Z",
+ "updatedAt": "2026-08-17T08:10:56.811Z",
  "jobs": [
+  {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -436,28 +458,6 @@
    },
    "postedAt": "2025-06-26T19:53:39.925Z",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
   },
   {
    "dedupeKey": "amazon:10412530",
@@ -1250,50 +1250,6 @@
    },
    "postedAt": "2025-12-22T18:35:42-05:00",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
-  },
-  {
-   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
-   "source": "vansh",
-   "company": "Appian",
-   "title": "New Grad 2027: Software Engineer",
-   "location": "McLean, VA",
-   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T21:58:55.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:442b93cd6234f6ca7e770d3a2a1bff3175582486",
@@ -4006,6 +3962,50 @@
    },
    "postedAt": "2026-05-13",
    "firstSeenAt": "2026-08-13T13:39:17.771Z"
+  },
+  {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
+  },
+  {
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "simplifyjobs:29d56cce-6d8e-4fac-aeb4-7c14135e0b12",
