@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T22:57:43.192Z",
+ "updatedAt": "2026-08-18T23:32:01.570Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -1150,30 +1150,6 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696158002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:38-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696156002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1195,6 +1171,30 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:21:32-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696158002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:38-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -5910,28 +5910,6 @@
    "firstSeenAt": "2026-08-14T06:03:38.100Z"
   },
   {
-   "dedupeKey": "simplifyjobs:4326baaa-75b2-4470-b205-61aed39b27b9",
-   "source": "simplifyjobs",
-   "company": "NVIDIA",
-   "title": "Software Engineer New Grad - Deep Learning Libraries",
-   "location": "Santa Clara, CA",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Deep-Learning-Libraries---New-College-Graduate-2026_JR2023252",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-14T00:00:00.000Z",
-   "firstSeenAt": "2026-08-14T16:01:51.912Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:94d01de5-9fda-4158-938a-a669c956dc3e",
    "source": "simplifyjobs",
    "company": "WeRide",
@@ -6238,6 +6216,28 @@
    },
    "postedAt": "2026-08-18T22:06:19.000Z",
    "firstSeenAt": "2026-08-18T22:36:10.725Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:6677ee34-5236-4d72-a9f0-40a1b0ec9227",
+   "source": "simplifyjobs",
+   "company": "Koah",
+   "title": "Software Engineer - Early Career",
+   "location": "SF",
+   "url": "https://jobs.ashbyhq.com/koahlabs/197c931d-3cda-44b3-b26b-470976730808/application?embed=true",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T22:55:04.000Z",
+   "firstSeenAt": "2026-08-18T23:32:01.570Z"
   },
   {
    "dedupeKey": "simplifyjobs:95bf548d-b42d-4076-aee6-3afce1e110be",
@@ -10182,6 +10182,72 @@
    "firstSeenAt": "2026-08-18T22:36:10.725Z"
   },
   {
+   "dedupeKey": "simplifyjobs:26ab432a-efdf-4282-a102-5fe08a924dec",
+   "source": "simplifyjobs",
+   "company": "Zipline",
+   "title": "Enterprise Systems Software Engineer Intern - Spring 2027",
+   "location": "South SF",
+   "url": "https://www.zipline.com/open-roles?gh_jid=7893926003",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T22:32:18.000Z",
+   "firstSeenAt": "2026-08-18T23:32:01.570Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:24c4a1ab-ac3a-4010-8111-bc59706b756e",
+   "source": "simplifyjobs",
+   "company": "Zipline",
+   "title": "Enterprise Systems Software Engineer Intern - Spring 2027",
+   "location": "South SF",
+   "url": "https://www.zipline.com/open-roles?gh_jid=7886501003",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T22:32:18.000Z",
+   "firstSeenAt": "2026-08-18T23:32:01.570Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:9cc1f56c-0976-4b70-858c-3ca47bbd6331",
+   "source": "simplifyjobs",
+   "company": "Intuit",
+   "title": "Software Engineer Intern",
+   "location": "NYC",
+   "url": "https://jobs.intuit.com/job/new-york/intern-software-engineering/27595/99410270400",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T23:00:15.000Z",
+   "firstSeenAt": "2026-08-18T23:32:01.570Z"
+  },
+  {
    "dedupeKey": "reverse-discovery:bb6e555b-8bb1-4cd7-9813-4f82a5ebe839",
    "source": "reverse-discovery",
    "company": "brainco",
@@ -10747,6 +10813,16 @@
    "firstSeenAt": "2026-08-07T01:09:11.897Z",
    "closedAt": "2026-08-18T15:41:21.544Z",
    "url": "https://cai.wd5.myworkdayjobs.com/computer_aid/job/FL-CLIENT-STATE/Entry-Level-Systems-Analyst_R8248"
+  },
+  {
+   "dedupeKey": "simplifyjobs:4326baaa-75b2-4470-b205-61aed39b27b9",
+   "company": "NVIDIA",
+   "title": "Software Engineer New Grad - Deep Learning Libraries",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-08-14T16:01:51.912Z",
+   "closedAt": "2026-08-18T23:32:01.570Z",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Deep-Learning-Libraries---New-College-Graduate-2026_JR2023252"
   }
  ]
 }
