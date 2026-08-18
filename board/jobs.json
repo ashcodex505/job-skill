@@ -1,6 +1,28 @@
 {
- "updatedAt": "2026-08-17T23:54:35.076Z",
+ "updatedAt": "2026-08-18T01:46:52.040Z",
  "jobs": [
+  {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -436,28 +458,6 @@
    },
    "postedAt": "2025-06-26T19:53:39.925Z",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
   },
   {
    "dedupeKey": "amazon:10412530",
@@ -1056,30 +1056,6 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696058002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:22:04-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696080002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1104,12 +1080,12 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696143002",
+   "dedupeKey": "greenhouse:8696058002",
    "source": "greenhouse",
    "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
    "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002",
    "season": null,
    "roleType": "new_grad",
    "score": 82,
@@ -1124,7 +1100,31 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-08-14T12:21:23-04:00",
+   "postedAt": "2026-08-14T12:22:04-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696156002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:32-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -1152,12 +1152,12 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696156002",
+   "dedupeKey": "greenhouse:8696143002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
    "season": null,
    "roleType": "new_grad",
    "score": 82,
@@ -1172,7 +1172,7 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-08-14T12:21:32-04:00",
+   "postedAt": "2026-08-14T12:21:23-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -6086,6 +6086,72 @@
    "firstSeenAt": "2026-08-16T22:52:49.313Z"
   },
   {
+   "dedupeKey": "simplifyjobs:8b15cf88-1dc7-4e50-9279-545c21772f6c",
+   "source": "simplifyjobs",
+   "company": "CACI",
+   "title": "Entry Level Software Engineer",
+   "location": "Annapolis Junction, MD",
+   "url": "https://jobs.smartrecruiters.com/NextCenturyCorporation/106031601",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T01:16:41.000Z",
+   "firstSeenAt": "2026-08-18T01:46:52.040Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:9d095560-7990-43f5-93aa-7c97612afafe",
+   "source": "simplifyjobs",
+   "company": "Mesotech International",
+   "title": "Electronic Systems Engineer - Entry-Level",
+   "location": "Rancho Cordova, CA",
+   "url": "https://jobs.smartrecruiters.com/MesotechInternationalInc/744000085097170",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T01:13:21.000Z",
+   "firstSeenAt": "2026-08-18T01:46:52.040Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:596bedfe-2992-4851-ab7c-0320f7808b0c",
+   "source": "simplifyjobs",
+   "company": "Marlabs",
+   "title": "Entry Level Programmer / Developer",
+   "location": "Piscataway, NJ",
+   "url": "https://jobs.smartrecruiters.com/MarlabsInc1/82334887",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T01:09:37.000Z",
+   "firstSeenAt": "2026-08-18T01:46:52.040Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:95bf548d-b42d-4076-aee6-3afce1e110be",
    "source": "simplifyjobs",
    "company": "Altom Transport",
@@ -9586,6 +9652,116 @@
    },
    "postedAt": "2026-08-17T00:00:00.000Z",
    "firstSeenAt": "2026-08-17T23:33:07.034Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:7a1b2d0b-fb4d-450e-9f60-44a50b914ab1",
+   "source": "simplifyjobs",
+   "company": "RegDesk",
+   "title": "Front End Developer Intern",
+   "location": "Philadelphia, PA",
+   "url": "https://jobs.smartrecruiters.com/RegDeskInc/92145731",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T01:12:15.000Z",
+   "firstSeenAt": "2026-08-18T01:46:52.040Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:06d4f7fc-332c-4434-9f9b-abc6fc22ddca",
+   "source": "simplifyjobs",
+   "company": "SightCall",
+   "title": "Web Developer Intern",
+   "location": "SF",
+   "url": "https://jobs.smartrecruiters.com/SightCall/80298252",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T01:11:30.000Z",
+   "firstSeenAt": "2026-08-18T01:46:52.040Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:149cce4b-7421-4fc6-8841-bd40fabd4c41",
+   "source": "simplifyjobs",
+   "company": "Zoomifier",
+   "title": "Software Development Intern",
+   "location": "NYC",
+   "url": "https://jobs.smartrecruiters.com/CustomShow/75886593",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T01:10:34.000Z",
+   "firstSeenAt": "2026-08-18T01:46:52.040Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a4cdc0e5-bf6b-4620-a36e-7486462931cc",
+   "source": "simplifyjobs",
+   "company": "Encephalo Investments",
+   "title": "Software Developer Intern",
+   "location": "Woodbury, MN",
+   "url": "https://jobs.smartrecruiters.com/EncephaloInvestments/743999734497349",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T01:10:36.000Z",
+   "firstSeenAt": "2026-08-18T01:46:52.040Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:d269fad7-d513-4c35-b790-f31017a09c8a",
+   "source": "simplifyjobs",
+   "company": "KOSTAL Group",
+   "title": "Systems Engineering Intern",
+   "location": "Troy, MI",
+   "url": "https://jobs.smartrecruiters.com/KOSTALGroup/744000138137225",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T01:08:29.000Z",
+   "firstSeenAt": "2026-08-18T01:46:52.040Z"
   },
   {
    "dedupeKey": "reverse-discovery:bb6e555b-8bb1-4cd7-9813-4f82a5ebe839",
