@@ -252,16 +252,16 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-449-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-6-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--18-informational)
+![open roles](https://img.shields.io/badge/open%20roles-449-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-3-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--18-informational)
 
-Updated **2026-08-18 21:36 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-18 21:53 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Draper | Full Stack Web Development Co-op - Spring 2027 🆕 | Cambridge, MA | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1) |
 | TikTok | Software Engineer Intern - TikTok Search Data Infra 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://lifeattiktok.com/search/7675128776856029445) |
-| L3Harris Technologies | Software Engineer Intern 🆕 | Greenville, TX | Winter 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Greenville-Intern,-Software-Engineer-Spring-2027-TX-75402/1420331200/?ats=successfactors) |
-| L3Harris Technologies | Software Engineer Intern 🆕 | Palm Bay, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1420321500/?ats=successfactors) |
+| L3Harris Technologies | Software Engineer Intern | Greenville, TX | Winter 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Greenville-Intern,-Software-Engineer-Spring-2027-TX-75402/1420331200/?ats=successfactors) |
+| L3Harris Technologies | Software Engineer Intern | Palm Bay, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1420321500/?ats=successfactors) |
 | RTX | Conversion Systems Engineer 1 Intern | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-17 | 2026-08-18 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion-Systems-Engineer-I--Onsite-_01866833) |
 | RTX | Conversion Systems Engineer 1 Intern | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-17 | 2026-08-18 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion-Systems-Engineer-I--Onsite-_01866850) |
 | RTX | Software Engineer Intern - Spring 2027 | Melbourne, FL | Spring 2027 | 100% | 2026-08-17 | 2026-08-18 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Spring-2027-_01864146) |
