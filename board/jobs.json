@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T23:33:30.477Z",
+ "updatedAt": "2026-08-18T23:53:24.519Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -1126,30 +1126,6 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696156002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:32-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696158002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1195,6 +1171,30 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:21:23-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696156002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:32-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -4072,28 +4072,6 @@
    },
    "postedAt": "2026-06-16T19:37:39.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:59064f30-dfa0-4d90-bd4a-576cf3536318",
-   "source": "simplifyjobs",
-   "company": "Texas Instruments",
-   "title": "New College Graduate - Information Technology - Software Development Engineer Development Program",
-   "location": "Dallas, TX",
-   "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 70,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-06-17T06:03:58.000Z",
-   "firstSeenAt": "2026-08-07T00:29:13.435Z"
   },
   {
    "dedupeKey": "simplifyjobs:ebc85430-6db3-4aec-b94c-f1a42c8f21e8",
@@ -10823,6 +10801,16 @@
    "firstSeenAt": "2026-08-14T16:01:51.912Z",
    "closedAt": "2026-08-18T23:32:01.570Z",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Deep-Learning-Libraries---New-College-Graduate-2026_JR2023252"
+  },
+  {
+   "dedupeKey": "simplifyjobs:59064f30-dfa0-4d90-bd4a-576cf3536318",
+   "company": "Texas Instruments",
+   "title": "New College Graduate - Information Technology - Software Development Engineer Development Program",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-08-07T00:29:13.435Z",
+   "closedAt": "2026-08-18T23:53:24.519Z",
+   "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815"
   }
  ]
 }
