@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
 **449 open roles** across **187 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-18 20:37 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-18 20:56 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (7)
+## 🆕 New this cycle (6)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -12,7 +12,6 @@ Last updated: **2026-08-18 20:37 UTC** · auto-refreshed every 12h by [job-board
 | L3Harris Technologies | Software Engineer Intern 🆕 | Palm Bay, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1420321500/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern 🆕 | Greenville, TX | Winter 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Greenville-Intern,-Software-Engineer-Spring-2027-TX-75402/1420331200/?ats=successfactors) |
 | WOOD Consulting Services | Software Engineer 0 - Entry-Level Software Engineering 🆕 | Fort Meade, MD | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-woodcons.icims.com/jobs/14759/job?mobile=true&needsRedirect=false) |
-| Apple | Software Engineer - IS&T Early Career Opportunities 🆕 | Cupertino, CA; Sunnyvale, CA | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.apple.com/en-us/details/200678510) |
 | Draper | Full Stack Web Development Co-op - Spring 2027 🆕 | Cambridge, MA | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1) |
 | State Street | Software Engineer New Grad 🆕 | Burlington, MA | — | 80% | 2026-06-18 | 2026-08-18 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-792647) |
 
@@ -328,7 +327,7 @@ Last updated: **2026-08-18 20:37 UTC** · auto-refreshed every 12h by [job-board
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | State Street | Software Engineer New Grad 🆕 | Burlington, MA | — | 80% | 2026-06-18 | 2026-08-18 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-792647) |
 | WOOD Consulting Services | Software Engineer 0 - Entry-Level Software Engineering 🆕 | Fort Meade, MD | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-woodcons.icims.com/jobs/14759/job?mobile=true&needsRedirect=false) |
-| Apple | Software Engineer - IS&T Early Career Opportunities 🆕 | Cupertino, CA; Sunnyvale, CA | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.apple.com/en-us/details/200678510) |
+| Apple | Software Engineer - IS&T Early Career Opportunities | Cupertino, CA; Sunnyvale, CA | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.apple.com/en-us/details/200678510) |
 | Charta Health | Software Engineer New Grad | SF; NYC | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.ashbyhq.com/chartahealth/9403a4cc-1bac-4798-9d82-be31ba8b42a0/application?embed=true) |
 | Nexthop.ai | Software Engineer New Grad | Santa Clara, CA | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://nexthopai.bamboohr.com/careers/24/) |
 | Flow Engineering | Software Engineer - Early Career | SF | — | 80% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/flowengineering/df49e713-ce33-40a8-8d6d-3759f61f4ea5/application?embed=true) |
