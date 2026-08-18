@@ -252,12 +252,15 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-433-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-13-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--18-informational)
+![open roles](https://img.shields.io/badge/open%20roles-445-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-19-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--18-informational)
 
-Updated **2026-08-18 05:51 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-18 07:00 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| RTX | Conversion Systems Engineer 1 Intern 🆕 | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-17 | 2026-08-18 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion-Systems-Engineer-I--Onsite-_01866833) |
+| RTX | Conversion Systems Engineer 1 Intern 🆕 | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-17 | 2026-08-18 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion-Systems-Engineer-I--Onsite-_01866850) |
+| RTX | Software Engineer Intern - Spring 2027 🆕 | Melbourne, FL | Spring 2027 | 100% | 2026-08-17 | 2026-08-18 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Spring-2027-_01864146) |
 | Encephalo Investments | Software Developer Intern 🆕 | Woodbury, MN | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/EncephaloInvestments/743999734497349) |
 | KOSTAL Group | Systems Engineering Intern 🆕 | Troy, MI | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/KOSTALGroup/744000138137225) |
 | RegDesk | Front End Developer Intern 🆕 | Philadelphia, PA | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/RegDeskInc/92145731) |
@@ -275,7 +278,4 @@ Updated **2026-08-18 05:51 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Crowe | Data Analytics Developer Intern - Consulting Practice | Chicago, IL | Fall 2026 | 100% | 2026-08-14 | 2026-08-15 | [**Apply ➜**](https://crowe.wd12.myworkdayjobs.com/en-US/external_careers/job/Chicago-IL-USA/Data-Analytics-Developer-Intern_R-71041) |
 | Interdigital | Wireless Engineering Intern - 6G Wireless Systems | Manhattan, NYC; Melville, NY; Conshohocken, PA | Fall 2026 | 100% | 2026-08-14 | 2026-08-15 | [**Apply ➜**](https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/PhD-Intern--6G-Wireless-Systems---Sept-2026_REQ26-1135) |
 | Valeo | Software Engineer Intern | Troy, MI | Fall 2026 | 100% | 2026-08-14 | 2026-08-15 | [**Apply ➜**](https://valeo.wd3.myworkdayjobs.com/en-US/valeo_jobs/job/Troy-MI/Software-Engineer-Intern_REQ2026076575) |
-| TransMarket Group | Software Engineer Intern | Chicago, IL | Fall 2026 | 100% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://job-boards.greenhouse.io/transmarketgroup/jobs/5212335007?gh_jid=5212335007) |
-| Applied Intuition | Software Integration Engineer - New Grad (2027) | Sunnyvale | 2027 New Grad | 100% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19) |
-| Notion | Software Engineer Intern (Summer 2027) | San Francisco, California; New York, New York | Summer 2027 | 100% (4 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c) |
 <!-- JOB-BOARD:END -->
