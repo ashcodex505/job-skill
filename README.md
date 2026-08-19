@@ -252,13 +252,12 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-457-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-14-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--19-informational)
+![open roles](https://img.shields.io/badge/open%20roles-456-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-13-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--19-informational)
 
-Updated **2026-08-19 03:09 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-19 03:57 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Intuit | Software Engineer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.intuit.com/job/new-york/intern-software-engineering/27595/99410270400) |
 | Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7893926003) |
 | Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7886501003) |
 | By Light Professional IT Services | Software Design Engineer Intern 🆕 | Orlando, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-bylight.icims.com/jobs/11204/job?mobile=true&needsRedirect=false) |
@@ -278,4 +277,5 @@ Updated **2026-08-19 03:09 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Encephalo Investments | Software Developer Intern | Woodbury, MN | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/EncephaloInvestments/743999734497349) |
 | KOSTAL Group | Systems Engineering Intern | Troy, MI | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/KOSTALGroup/744000138137225) |
 | RegDesk | Front End Developer Intern | Philadelphia, PA | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/RegDeskInc/92145731) |
+| SightCall | Web Developer Intern | SF | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/SightCall/80298252) |
 <!-- JOB-BOARD:END -->

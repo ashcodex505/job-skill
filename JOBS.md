@@ -1,14 +1,13 @@
 # 🎯 Job Board — SWE Early Career
 
-**457 open roles** across **192 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-19 03:09 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**456 open roles** across **191 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-19 03:57 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (14)
+## 🆕 New this cycle (13)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Intuit | Software Engineer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.intuit.com/job/new-york/intern-software-engineering/27595/99410270400) |
 | Koah | Software Engineer - Early Career 🆕 | SF | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.ashbyhq.com/koahlabs/197c931d-3cda-44b3-b26b-470976730808/application?embed=true) |
 | Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7893926003) |
 | Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7886501003) |
@@ -23,11 +22,10 @@ Last updated: **2026-08-19 03:09 UTC** · auto-refreshed every 12h by [job-board
 | Draper | Full Stack Web Development Co-op - Spring 2027 🆕 | Cambridge, MA | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1) |
 | State Street | Software Engineer New Grad 🆕 | Burlington, MA | — | 80% | 2026-06-18 | 2026-08-18 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-792647) |
 
-## 🛠️ Internships (280)
+## 🛠️ Internships (279)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Intuit | Software Engineer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.intuit.com/job/new-york/intern-software-engineering/27595/99410270400) |
 | Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7893926003) |
 | Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7886501003) |
 | By Light Professional IT Services | Software Design Engineer Intern 🆕 | Orlando, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-bylight.icims.com/jobs/11204/job?mobile=true&needsRedirect=false) |
@@ -337,8 +335,8 @@ Last updated: **2026-08-19 03:09 UTC** · auto-refreshed every 12h by [job-board
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Koah | Software Engineer - Early Career 🆕 | SF | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.ashbyhq.com/koahlabs/197c931d-3cda-44b3-b26b-470976730808/application?embed=true) |
@@ -490,12 +488,13 @@ Last updated: **2026-08-19 03:09 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (56)
+## 🚪 Recently closed (last 7 days) (57)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Intuit | Software Engineer Intern | Fall 2026 | 2026-08-19 |
 | Fab2 | Rust Software Engineer Intern - Chip Design Tools | Fall 2026 | 2026-08-19 |
 | Arkema Global | Manufacturing Data Systems Intern | Fall 2026 | 2026-08-19 |
 | Texas Instruments | New College Graduate - Information Technology - Software Development Engineer Development Program | — | 2026-08-18 |
