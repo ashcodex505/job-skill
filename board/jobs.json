@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T11:35:29.363Z",
+ "updatedAt": "2026-08-19T11:36:50.166Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -506,6 +506,34 @@
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
+   "dedupeKey": "greenhouse:6131089004",
+   "source": "greenhouse",
+   "company": "Figma",
+   "title": "Software Engineer Intern (Winter 2027)",
+   "location": "San Francisco, CA • New York, NY",
+   "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-08-10T15:03:06-04:00",
+   "firstSeenAt": "2026-08-10T19:37:30.408Z"
+  },
+  {
    "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
    "source": "ashby",
    "company": "Notion",
@@ -614,34 +642,6 @@
    },
    "postedAt": "2026-08-14T19:07:13.459+00:00",
    "firstSeenAt": "2026-08-14T19:54:43.365Z"
-  },
-  {
-   "dedupeKey": "greenhouse:6131089004",
-   "source": "greenhouse",
-   "company": "Figma",
-   "title": "Software Engineer Intern (Winter 2027)",
-   "location": "San Francisco, CA • New York, NY",
-   "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "JavaScript",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 8
-   },
-   "postedAt": "2026-08-10T15:03:06-04:00",
-   "firstSeenAt": "2026-08-10T19:37:30.408Z"
   },
   {
    "dedupeKey": "greenhouse:8097343",
@@ -1126,30 +1126,6 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696143002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:23-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696158002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1195,6 +1171,30 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:21:32-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696143002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:23-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {

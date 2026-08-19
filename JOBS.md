@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
 **462 open roles** across **192 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-19 11:35 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-19 11:36 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (17)
+## 🆕 New this cycle (9)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -17,14 +17,6 @@ Last updated: **2026-08-19 11:35 UTC** · auto-refreshed every 12h by [job-board
 | Koah | Software Engineer - Early Career 🆕 | SF | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.ashbyhq.com/koahlabs/197c931d-3cda-44b3-b26b-470976730808/application?embed=true) |
 | Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7893926003) |
 | Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7886501003) |
-| L3Harris Technologies | Software Engineer Intern 🆕 | Melbourne, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Melbourne-Intern,-Software-Engineer-FL-32919/1420708400/?ats=successfactors) |
-| L3Harris Technologies | Software Engineer Intern 🆕 | Herndon, VA | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Herndon-Intern-C,-Software-Engineer-VA-20171/1420704700/?ats=successfactors) |
-| L3Harris Technologies | Software Engineer Intern 3 🆕 | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1420759900/?ats=successfactors) |
-| L3Harris Technologies | Software Engineer Intern 🆕 | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1420701600/?ats=successfactors) |
-| By Light Professional IT Services | Software Design Engineer Intern 🆕 | Orlando, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-bylight.icims.com/jobs/11204/job?mobile=true&needsRedirect=false) |
-| Foundation Finance | Full Stack Developer Intern 🆕 | Rothschild, WI | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://careers.foundationfinance.com/jobs/2097?icims=1) |
-| Renesas Electronics | Systems Design Engineer New Grad 🆕 | Austin, TX | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/RenesasElectronics/744000144160389) |
-| Cole Engineering Services | Software Engineer Intern 🆕 | Orlando, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-cesi.icims.com/jobs/11204/job?mobile=true&needsRedirect=false) |
 
 ## 🛠️ Internships (284)
 
@@ -37,13 +29,13 @@ Last updated: **2026-08-19 11:35 UTC** · auto-refreshed every 12h by [job-board
 | Microsoft | AI Software Engineer Intern 🆕 | Redmond, WA; Mountain View, CA | Fall 2026 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556962891) |
 | Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7893926003) |
 | Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7886501003) |
-| By Light Professional IT Services | Software Design Engineer Intern 🆕 | Orlando, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-bylight.icims.com/jobs/11204/job?mobile=true&needsRedirect=false) |
-| Cole Engineering Services | Software Engineer Intern 🆕 | Orlando, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-cesi.icims.com/jobs/11204/job?mobile=true&needsRedirect=false) |
-| Foundation Finance | Full Stack Developer Intern 🆕 | Rothschild, WI | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://careers.foundationfinance.com/jobs/2097?icims=1) |
-| L3Harris Technologies | Software Engineer Intern 🆕 | Melbourne, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Melbourne-Intern,-Software-Engineer-FL-32919/1420708400/?ats=successfactors) |
-| L3Harris Technologies | Software Engineer Intern 🆕 | Herndon, VA | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Herndon-Intern-C,-Software-Engineer-VA-20171/1420704700/?ats=successfactors) |
-| L3Harris Technologies | Software Engineer Intern 3 🆕 | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1420759900/?ats=successfactors) |
-| L3Harris Technologies | Software Engineer Intern 🆕 | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1420701600/?ats=successfactors) |
+| By Light Professional IT Services | Software Design Engineer Intern | Orlando, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-bylight.icims.com/jobs/11204/job?mobile=true&needsRedirect=false) |
+| Cole Engineering Services | Software Engineer Intern | Orlando, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-cesi.icims.com/jobs/11204/job?mobile=true&needsRedirect=false) |
+| Foundation Finance | Full Stack Developer Intern | Rothschild, WI | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://careers.foundationfinance.com/jobs/2097?icims=1) |
+| L3Harris Technologies | Software Engineer Intern | Melbourne, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Melbourne-Intern,-Software-Engineer-FL-32919/1420708400/?ats=successfactors) |
+| L3Harris Technologies | Software Engineer Intern | Herndon, VA | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Herndon-Intern-C,-Software-Engineer-VA-20171/1420704700/?ats=successfactors) |
+| L3Harris Technologies | Software Engineer Intern 3 | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1420759900/?ats=successfactors) |
+| L3Harris Technologies | Software Engineer Intern | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1420701600/?ats=successfactors) |
 | Draper | Full Stack Web Development Co-op - Spring 2027 | Cambridge, MA | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1) |
 | TikTok | Software Engineer Intern - TikTok Search Data Infra | San Jose, CA | Summer 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://lifeattiktok.com/search/7675128776856029445) |
 | L3Harris Technologies | Software Engineer Intern | Greenville, TX | Winter 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Greenville-Intern,-Software-Engineer-Spring-2027-TX-75402/1420331200/?ats=successfactors) |
@@ -344,13 +336,13 @@ Last updated: **2026-08-19 11:35 UTC** · auto-refreshed every 12h by [job-board
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | SpaceX | New Graduate Engineer, Software (Starship) 🆕 | Starbase, TX | — | 80% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8729121002?gh_jid=8729121002) |
 | Koah | Software Engineer - Early Career 🆕 | SF | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.ashbyhq.com/koahlabs/197c931d-3cda-44b3-b26b-470976730808/application?embed=true) |
-| Renesas Electronics | Systems Design Engineer New Grad 🆕 | Austin, TX | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/RenesasElectronics/744000144160389) |
+| Renesas Electronics | Systems Design Engineer New Grad | Austin, TX | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/RenesasElectronics/744000144160389) |
 | State Street | Software Engineer New Grad | Burlington, MA | — | 80% | 2026-06-18 | 2026-08-18 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-792647) |
 | WOOD Consulting Services | Software Engineer 0 - Entry-Level Software Engineering | Fort Meade, MD | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-woodcons.icims.com/jobs/14759/job?mobile=true&needsRedirect=false) |
 | Apple | Software Engineer - IS&T Early Career Opportunities | Cupertino, CA; Sunnyvale, CA | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.apple.com/en-us/details/200678510) |
