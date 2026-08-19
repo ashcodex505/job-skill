@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T11:36:50.166Z",
+ "updatedAt": "2026-08-19T11:57:12.971Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -10318,16 +10318,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:65168593-c923-4365-b58a-af70c7f8c6cd",
-   "company": "KBR",
-   "title": "Software Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-07T00:29:13.435Z",
-   "closedAt": "2026-08-12T11:56:05.821Z",
-   "url": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Houston-Texas/Software-Intern_R2127863"
-  },
   {
    "dedupeKey": "speedyapply:sha1:d26e41e5fadb226c0e3cee1ca13c6e2f1263cc82",
    "company": "Nuro",
