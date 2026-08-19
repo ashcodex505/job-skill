@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T22:37:32.827Z",
+ "updatedAt": "2026-08-19T22:57:36.540Z",
  "jobs": [
   {
    "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
@@ -22,6 +22,52 @@
    },
    "postedAt": "2026-06-05T22:09:20.000Z",
    "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
+  {
+   "dedupeKey": "amazon:10412530",
+   "source": "amazon",
+   "company": "Amazon",
+   "title": "Software Development Engineer Intern, AWS Data Services - Fall 2026 (US)",
+   "location": "Seattle, Washington, USA",
+   "url": "https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "AWS"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-05-06",
+   "firstSeenAt": "2026-07-21T02:13:16.397Z"
+  },
+  {
+   "dedupeKey": "amazon:3136266",
+   "source": "amazon",
+   "company": "Amazon",
+   "title": "Robotics - Software Development Engineer Intern/Co-op - 2026",
+   "location": "Westboro, Wisconsin, USA",
+   "url": "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026",
+   "season": "2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2025-12-03",
+   "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -458,52 +504,6 @@
    },
    "postedAt": "2025-06-26T19:53:39.925Z",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "amazon:10412530",
-   "source": "amazon",
-   "company": "Amazon",
-   "title": "Software Development Engineer Intern, AWS Data Services - Fall 2026 (US)",
-   "location": "Seattle, Washington, USA",
-   "url": "https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "AWS"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-05-06",
-   "firstSeenAt": "2026-07-21T02:13:16.397Z"
-  },
-  {
-   "dedupeKey": "amazon:3136266",
-   "source": "amazon",
-   "company": "Amazon",
-   "title": "Robotics - Software Development Engineer Intern/Co-op - 2026",
-   "location": "Westboro, Wisconsin, USA",
-   "url": "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026",
-   "season": "2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2025-12-03",
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
    "dedupeKey": "greenhouse:6131089004",
@@ -1032,6 +1032,30 @@
    "firstSeenAt": "2026-08-05T16:49:59.297Z"
   },
   {
+   "dedupeKey": "greenhouse:7488508",
+   "source": "greenhouse",
+   "company": "Waymo",
+   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
+   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2025-12-22T18:35:42-05:00",
+   "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
    "dedupeKey": "greenhouse:8493079002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1150,6 +1174,30 @@
    "firstSeenAt": "2026-08-19T19:35:07.029Z"
   },
   {
+   "dedupeKey": "greenhouse:8696156002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:32-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
    "dedupeKey": "greenhouse:8696158002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1195,30 +1243,6 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:21:23-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8696156002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:32-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -1294,30 +1318,6 @@
    },
    "postedAt": "2026-08-03T13:41:40-04:00",
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7488508",
-   "source": "greenhouse",
-   "company": "Waymo",
-   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
-   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2025-12-22T18:35:42-05:00",
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:442b93cd6234f6ca7e770d3a2a1bff3175582486",
@@ -10408,16 +10408,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:ea8ff237-6cb5-424b-917e-9ce08abf23a1",
-   "company": "Medpace, Inc.",
-   "title": "AI Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-12T22:54:35.300Z",
-   "url": "https://careers.medpace.com/jobs/12729?lang=en-us&icims=1"
-  },
   {
    "dedupeKey": "simplifyjobs:72e1792e-aad9-40a4-9464-641c1c28ccd1",
    "company": "Zipline",
