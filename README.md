@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-456-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-13-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--19-informational)
+![open roles](https://img.shields.io/badge/open%20roles-456-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-11-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--19-informational)
 
-Updated **2026-08-19 03:58 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-19 04:47 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -267,7 +267,7 @@ Updated **2026-08-19 03:58 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | L3Harris Technologies | Software Engineer Intern 🆕 | Herndon, VA | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Herndon-Intern-C,-Software-Engineer-VA-20171/1420704700/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern 3 🆕 | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1420759900/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern 🆕 | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1420701600/?ats=successfactors) |
-| Draper | Full Stack Web Development Co-op - Spring 2027 🆕 | Cambridge, MA | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1) |
+| Draper | Full Stack Web Development Co-op - Spring 2027 | Cambridge, MA | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1) |
 | TikTok | Software Engineer Intern - TikTok Search Data Infra | San Jose, CA | Summer 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://lifeattiktok.com/search/7675128776856029445) |
 | L3Harris Technologies | Software Engineer Intern | Greenville, TX | Winter 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Greenville-Intern,-Software-Engineer-Spring-2027-TX-75402/1420331200/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern | Palm Bay, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1420321500/?ats=successfactors) |
