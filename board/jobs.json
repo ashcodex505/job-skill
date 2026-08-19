@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T09:45:50.271Z",
+ "updatedAt": "2026-08-19T10:40:06.482Z",
  "jobs": [
   {
    "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
@@ -10202,6 +10202,94 @@
    },
    "postedAt": "2026-08-19T08:26:14.000Z",
    "firstSeenAt": "2026-08-19T08:50:54.450Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ea8c5ebd-a6c4-49ff-9dac-f3532c41737a",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "Systems Software Engineering Intern",
+   "location": "Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-19T00:00:00.000Z",
+   "firstSeenAt": "2026-08-19T10:40:06.482Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:790a9545-abe4-4bd0-af4b-55b368673465",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "Computer Architecture and Systems Intern - Research",
+   "location": "Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Architecture-and-Systems_JR2023854",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-19T00:00:00.000Z",
+   "firstSeenAt": "2026-08-19T10:40:06.482Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:02243e49-7e4c-44aa-9dd1-0ba4a235d93d",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "Developer and Performance Technology Intern",
+   "location": "Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-19T00:00:00.000Z",
+   "firstSeenAt": "2026-08-19T10:40:06.482Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:be628885-fde3-4b73-bb0a-58e11856e97b",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern",
+   "location": "Canada; Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-19T00:00:00.000Z",
+   "firstSeenAt": "2026-08-19T10:40:06.482Z"
   },
   {
    "dedupeKey": "reverse-discovery:bb6e555b-8bb1-4cd7-9813-4f82a5ebe839",
