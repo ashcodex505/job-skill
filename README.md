@@ -252,16 +252,17 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-485-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-21-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--20-informational)
+![open roles](https://img.shields.io/badge/open%20roles-486-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-15-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--20-informational)
 
-Updated **2026-08-20 15:45 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-20 16:47 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Cloudflare | Software Engineer Intern (Fall 2026) 🆕 | In-Office | Fall 2026 | 100% (3 skills) | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855) |
 | Zipline | Software Systems Validation Intern - Spring 2027 🆕 | South San Francisco, CA | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7893955003) |
 | TikTok | Machine Learning Engineer Intern 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675847556668295429) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Supply Chain & Logistics-LLM/Agent - PhD 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675845333947812149) |
-| Zipline | Applications Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7908677003) |
+| Zipline | Applications Engineer Intern - Spring 2027 | South SF | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7908677003) |
 | Western Magnetics | Software Engineer Intern | South SF | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://apply.workable.com/western-magnetics/j/E366930F3F/apply) |
 | Specialisterne | Software Engineer Intern - Neurodiversity Hiring Initiative | Dallas, TX | Fall 2026 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://specialisterne.applytojob.com/apply/gOkVN8zGTL/Software-Engineer-Intern-Neurodiversity-Hiring-Initiative) |
 | RTX | Software Engineer Intern | San Diego, CA | Fall 2026 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-SAN-DIEGO-SD1--8650-Balboa-Ave--SAN-ANTONIO-BLDG/Software-Engineering-Intern--Onsite-_01867845) |
@@ -277,5 +278,4 @@ Updated **2026-08-20 15:45 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Cole Engineering Services | Software Engineer Intern | Orlando, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-cesi.icims.com/jobs/11204/job?mobile=true&needsRedirect=false) |
 | Foundation Finance | Full Stack Developer Intern | Rothschild, WI | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://careers.foundationfinance.com/jobs/2097?icims=1) |
 | L3Harris Technologies | Software Engineer Intern | Melbourne, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Melbourne-Intern,-Software-Engineer-FL-32919/1420708400/?ats=successfactors) |
-| L3Harris Technologies | Software Engineer Intern | Herndon, VA | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Herndon-Intern-C,-Software-Engineer-VA-20171/1420704700/?ats=successfactors) |
 <!-- JOB-BOARD:END -->
