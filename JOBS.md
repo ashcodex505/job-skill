@@ -1,13 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
-**493 open roles** across **196 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-20 23:37 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**494 open roles** across **197 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-20 23:57 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (20)
+## 🆕 New this cycle (21)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Databricks | Software Engineering Intern (2027 Start) - Winter 🆕 | Bellevue, Washington; Mountain View, California; San Francisco, California | 2027 | 96% (4 skills) | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002) |
 | Zipline | Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7907191003) |
 | Tesla | Internship - Fullstack Engineer - Applications Engineering - Winter/Spring 2027 🆕 | Fremont, CA | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.tesla.com/careers/search/job/280820) |
 | Toshiba Global Commerce | AI Software Engineer Intern 🆕 | Durham, NC | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5214224007) |
@@ -29,7 +30,7 @@ Last updated: **2026-08-20 23:37 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Site Reliability Engineer Intern - Global SRE - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-06 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7670874691332212997) |
 | Anduril | Early Career Test and Evaluation Systems Integrator 🆕 | Costa Mesa, CA | — | 80% | 2026-07-13 | 2026-08-20 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5185888007) |
 
-## 🛠️ Internships (308)
+## 🛠️ Internships (309)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -261,6 +262,7 @@ Last updated: **2026-08-20 23:37 UTC** · auto-refreshed every 12h by [job-board
 | Synchrony Bank | Software Engineer Intern - Fall 2026 | Remote - Guangzhou, China +1 | Fall 2026 | 100% | 2026-06-17 | 2026-07-15 | [**Apply ➜**](https://synchronyfinancial.wd5.myworkdayjobs.com/en-US/university/job/Canton-Engagement-Hub-OH/Software-Engineer-Intern---Fall-2026_2601751-1) |
 | Vital Lyfe | Software Engineering Internship - Fall 2026 | Los Angeles, CA | Fall 2026 | 100% | 2026-07-09 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af) |
 | NVIDIA | PhD Software Engineering Intern, Decision Intelligence - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 100% | 2026-05-22 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
+| Databricks | Software Engineering Intern (2027 Start) - Winter 🆕 | Bellevue, Washington; Mountain View, California; San Francisco, California | 2027 | 96% (4 skills) | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002) |
 | Anduril | 2027 Software Engineer Intern | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 | 96% (4 skills) | 2026-06-10 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 | Northrop Grumman | 2027 Intern Software Engineer 🆕 | Melbourne, FL | 2027 | 90% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573) |
 | PIMCO | 2027 Summer Intern - Technology Analyst - Software Engineering 🆕 | Austin, TX | 2027 | 90% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://pimco.wd1.myworkdayjobs.com/en-US/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745) |
@@ -532,7 +534,7 @@ Last updated: **2026-08-20 23:37 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (44)
+## 🚪 Recently closed (last 7 days) (42)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -580,8 +582,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Saronic Technologies | Software Engineer Intern - Fall 2026 | Fall 2026 | 2026-08-14 |
 | General Motors | Software Verification Engineer - AV Platform - Early Career | — | 2026-08-14 |
 | Fab2 | Software Engineer Intern | Fall 2026 | 2026-08-14 |
-| Tesla | Software Engineer Intern - Software Engineer - Data Platforms | Fall 2026 | 2026-08-13 |
-|  impact.com  | Associate Software Engineer Intern | Fall 2026 | 2026-08-13 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
