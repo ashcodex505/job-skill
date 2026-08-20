@@ -1,28 +1,6 @@
 {
- "updatedAt": "2026-08-20T13:08:10.536Z",
+ "updatedAt": "2026-08-20T13:57:25.317Z",
  "jobs": [
-  {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -460,6 +438,28 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
+  {
    "dedupeKey": "amazon:10412530",
    "source": "amazon",
    "company": "Amazon",
@@ -787,52 +787,6 @@
    "firstSeenAt": "2026-08-15T19:30:12.763Z"
   },
   {
-   "dedupeKey": "greenhouse:8052083",
-   "source": "greenhouse",
-   "company": "Hudson River Trading",
-   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
-   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-07-13T11:35:06-04:00",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
-   "source": "ashby",
-   "company": "Applied Intuition",
-   "title": "Software Integration Engineer - New Grad (2027)",
-   "location": "Sunnyvale",
-   "url": "https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-14T21:59:07.522+00:00",
-   "firstSeenAt": "2026-08-14T22:34:43.994Z"
-  },
-  {
    "dedupeKey": "workday:JR2022645",
    "source": "workday",
    "company": "NVIDIA",
@@ -897,6 +851,52 @@
    },
    "postedAt": "2026-05-22",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8052083",
+   "source": "greenhouse",
+   "company": "Hudson River Trading",
+   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
+   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-07-13T11:35:06-04:00",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
+   "source": "ashby",
+   "company": "Applied Intuition",
+   "title": "Software Integration Engineer - New Grad (2027)",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-14T21:59:07.522+00:00",
+   "firstSeenAt": "2026-08-14T22:34:43.994Z"
   },
   {
    "dedupeKey": "ashby:452afc2e-0c79-41f8-8201-1aab7df775db",
@@ -1318,6 +1318,50 @@
    },
    "postedAt": "2025-12-22T18:35:42-05:00",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
+  },
+  {
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:642e3a71231f015566d27b722758e3563f4a8b8f",
@@ -4382,50 +4426,6 @@
    },
    "postedAt": "2026-05-18",
    "firstSeenAt": "2026-08-11T14:03:01.769Z"
-  },
-  {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
-  },
-  {
-   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
-   "source": "vansh",
-   "company": "Appian",
-   "title": "New Grad 2027: Software Engineer",
-   "location": "McLean, VA",
-   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T21:58:55.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "simplifyjobs:29d56cce-6d8e-4fac-aeb4-7c14135e0b12",
@@ -10850,56 +10850,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "speedyapply:sha1:2c3f75da15eedf0bcff84356dac6582e18269a3a",
-   "company": "Quantbot Technologies",
-   "title": "Software Engineer Summer Internship - 2027 - New York",
-   "season": "2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-12T13:38:04.550Z",
-   "closedAt": "2026-08-13T13:39:17.771Z",
-   "url": "https://www.quantbot.com/careers/4299458009?gh_jid=4299458009"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:71479daac86fd03d5b354b728accc0895a6fad09",
-   "company": "DensityAI",
-   "title": "Technical Intern- Software - Fall 2026",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-05T14:59:52.547Z",
-   "closedAt": "2026-08-13T13:39:17.771Z",
-   "url": "https://job-boards.greenhouse.io/densityai/jobs/4336452009"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:9d4efdba7b01931edcc758267b3e425bc7b61f83",
-   "company": "Zipline",
-   "title": "Enterprise Systems Software Engineer Intern - Fall 2026",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z",
-   "closedAt": "2026-08-13T13:39:17.771Z",
-   "url": "https://www.zipline.com/open-roles?gh_jid=7767667003"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:432419a31ce508bf2eedae0a90e4161f47386b3b",
-   "company": "Intuitive Research and Technology",
-   "title": "Entry Level Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-07T13:55:22.739Z",
-   "closedAt": "2026-08-13T13:39:17.771Z",
-   "url": "https://intuitive.wd1.myworkdayjobs.com/en-US/irtc_careers/job/Huntsville-AL/Entry-Level-Software-Engineer_2627-054"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:22e51dd55eee2973e8f990034f99a0809ee2ab99",
-   "company": "Leidos",
-   "title": "Entry Level Software Tester",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-07T01:09:11.897Z",
-   "closedAt": "2026-08-13T13:39:17.771Z",
-   "url": "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Lawton-OK/Entry-Level-Software-Tester_R-00187901"
-  },
   {
    "dedupeKey": "simplifyjobs:05d6191d-bcef-4557-b17a-783ddb6d4b92",
    "company": "Prophet",
