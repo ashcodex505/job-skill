@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
-**476 open roles** across **193 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-20 11:59 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**486 open roles** across **194 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-20 13:06 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (13)
+## 🆕 New this cycle (23)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -13,28 +13,35 @@ Last updated: **2026-08-20 11:59 UTC** · auto-refreshed every 12h by [job-board
 | Datalab USA | Production Programmer – Entry Level SQL Developer 🆕 | Germantown, MD | — | 72% (1 skills) | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://jobs.lever.co/datalabusa/dd9a80d9-a296-4ea9-a231-b68bf268e8ea/apply) |
 | Zipline | Applications Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7908677003) |
 | Kikoff | Software Engineer New Grad 🆕 | SF | — | 80% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://job-boards.greenhouse.io/kikoff/jobs/4376677009) |
-| TikTok | Software Engineer Intern - Recommendation Infra - Performance Efficiency 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675159726676101381) |
-| TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672926068681951493) |
-| TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672930401597671733) |
-| TikTok | Software Engineer Intern - TikTok Search Architecture 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675517686256863541) |
 | Western Magnetics | Software Engineer Intern 🆕 | South SF | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://apply.workable.com/western-magnetics/j/E366930F3F/apply) |
-| Specialisterne | Software Engineer Intern - Neurodiversity Hiring Initiative 🆕 | Dallas, TX | Fall 2026 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://specialisterne.applytojob.com/apply/gOkVN8zGTL/Software-Engineer-Intern-Neurodiversity-Hiring-Initiative) |
-| Susquehanna International Group | Quantitative Strategy Developer New Grad 🆕 | Bala Cynwyd, PA | — | 80% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11321/job?mobile=true&needsRedirect=false) |
+| Zipline | Software Systems Validation Intern - Spring 2027 🆕 | South San Francisco, CA | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7893955003) |
+| DataLab USA | Production Programmer - Entry Level SQL Developer 🆕 | Germantown, MD | — | 72% (1 skills) | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://jobs.lever.co/datalabusa/dd9a80d9-a296-4ea9-a231-b68bf268e8ea) |
+| Northrop Grumman | 2027 Intern Software Engineer 🆕 | Melbourne, FL | 2027 | 90% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573) |
+| TikTok | Software Engineer Intern - TikTok Search Architecture - 2027 Fall 🆕 | San Jose, CA | 2027 | 90% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675524738811218229) |
+| TikTok | Software Engineer Intern - TikTok Search Architecture - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675517686256863541) |
 | GlobalFoundries | AI/ML Software Engineer New Grad 🆕 | Austin, TX; Santa Clara, CA; Richardson, TX | — | 80% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://globalfoundries.wd1.myworkdayjobs.com/External/job/Richardson/AI-ML-Software-Engineer--2026-New-College-Graduate-_JR-2602832) |
+| Susquehanna International Group | Quantitative Strategy Developer - New Grad 🆕 | Bala Cynwyd, PA | — | 80% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11321/quantitative-strategy-developer---new-grad/job) |
+| PIMCO | 2027 Summer Intern - Technology Analyst - Software Engineering 🆕 | Austin, TX | 2027 | 90% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://pimco.wd1.myworkdayjobs.com/en-US/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745) |
+| TikTok | Software Engineer Intern - TikTok Search Data Infra - 2027 Fall 🆕 | San Jose, CA | 2027 | 90% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675129440242010421) |
+| TikTok | Software Engineer Intern - Recommendation Infra - Performance Efficiency - 2027 Fall 🆕 | San Jose, CA | 2027 | 90% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675163472469444917) |
+| TikTok | Software Engineer Intern - Recommendation Infra - Performance Efficiency - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675159726676101381) |
+| State Street | Software Engineer - CRD- New Graduate 🆕 | Burlington, MA | — | 80% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/en-US/global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-792647) |
+| TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Fall 🆕 | Seattle, WA | 2027 | 90% | 2026-08-15 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7674029284224092421) |
+| TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Fall 🆕 | San Jose, CA | 2027 | 90% | 2026-08-12 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672934842451577141) |
+| TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-12 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672930401597671733) |
+| TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Summer 🆕 | Seattle, WA | 2027 | 90% | 2026-08-12 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672926068681951493) |
+| TikTok | Site Reliability Engineer Intern - Global SRE - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-06 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7670874691332212997) |
 
-## 🛠️ Internships (294)
+## 🛠️ Internships (302)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Zipline | Software Systems Validation Intern - Spring 2027 🆕 | South San Francisco, CA | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7893955003) |
 | TikTok | Machine Learning Engineer Intern 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675847556668295429) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Supply Chain & Logistics-LLM/Agent - PhD 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675845333947812149) |
-| TikTok | Software Engineer Intern - Recommendation Infra - Performance Efficiency 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675159726676101381) |
-| TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672926068681951493) |
-| TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672930401597671733) |
-| TikTok | Software Engineer Intern - TikTok Search Architecture 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675517686256863541) |
 | Zipline | Applications Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7908677003) |
 | Western Magnetics | Software Engineer Intern 🆕 | South SF | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://apply.workable.com/western-magnetics/j/E366930F3F/apply) |
-| Specialisterne | Software Engineer Intern - Neurodiversity Hiring Initiative 🆕 | Dallas, TX | Fall 2026 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://specialisterne.applytojob.com/apply/gOkVN8zGTL/Software-Engineer-Intern-Neurodiversity-Hiring-Initiative) |
+| Specialisterne | Software Engineer Intern - Neurodiversity Hiring Initiative | Dallas, TX | Fall 2026 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://specialisterne.applytojob.com/apply/gOkVN8zGTL/Software-Engineer-Intern-Neurodiversity-Hiring-Initiative) |
 | RTX | Software Engineer Intern | San Diego, CA | Fall 2026 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-SAN-DIEGO-SD1--8650-Balboa-Ave--SAN-ANTONIO-BLDG/Software-Engineering-Intern--Onsite-_01867845) |
 | TikTok | Machine Learning MLOps Intern - Global Site Reliability Engineering | San Jose, CA | Summer 2027 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://lifeattiktok.com/search/7670875283026053381) |
 | NVIDIA | Systems Software Engineering Intern | Santa Clara, CA | Fall 2026 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492) |
@@ -43,7 +50,7 @@ Last updated: **2026-08-20 11:59 UTC** · auto-refreshed every 12h by [job-board
 | NVIDIA | Software Engineering Intern | Canada; Santa Clara, CA | Summer 2027 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495) |
 | Microsoft | AI Software Engineer Intern | Redmond, WA; Mountain View, CA | Fall 2026 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556962891) |
 | Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 | South San Francisco, CA | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7893926003) |
-| Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 | South San Francisco, CA | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7886501003) |
+| Zipline | Enterprise Systems Software Engineer Intern - Spring 2027 | South SF | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7886501003) |
 | By Light Professional IT Services | Software Design Engineer Intern | Orlando, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-bylight.icims.com/jobs/11204/job?mobile=true&needsRedirect=false) |
 | Cole Engineering Services | Software Engineer Intern | Orlando, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs-cesi.icims.com/jobs/11204/job?mobile=true&needsRedirect=false) |
 | Foundation Finance | Full Stack Developer Intern | Rothschild, WI | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://careers.foundationfinance.com/jobs/2097?icims=1) |
@@ -51,8 +58,7 @@ Last updated: **2026-08-20 11:59 UTC** · auto-refreshed every 12h by [job-board
 | L3Harris Technologies | Software Engineer Intern | Herndon, VA | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Herndon-Intern-C,-Software-Engineer-VA-20171/1420704700/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern 3 | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1420759900/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1420701600/?ats=successfactors) |
-| Draper | Full Stack Web Development Co-op - Spring 2027 | Cambridge, MA | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1) |
-| TikTok | Software Engineer Intern - TikTok Search Data Infra | San Jose, CA | Summer 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://lifeattiktok.com/search/7675128776856029445) |
+| Draper | Full Stack Web Development Co-Op - Spring 2027 | Cambridge, MA | Spring 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/en-US/draper_careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1) |
 | L3Harris Technologies | Software Engineer Intern | Greenville, TX | Winter 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Greenville-Intern,-Software-Engineer-Spring-2027-TX-75402/1420331200/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern | Palm Bay, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1420321500/?ats=successfactors) |
 | RTX | Conversion Systems Engineer 1 Intern | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-17 | 2026-08-18 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion-Systems-Engineer-I--Onsite-_01866833) |
@@ -238,7 +244,6 @@ Last updated: **2026-08-20 11:59 UTC** · auto-refreshed every 12h by [job-board
 | Astranis Space Technologies | Software Engineer Intern - Enterprise Systems - Fall 2026 | San Francisco, CA | Fall 2026 | 100% | 2026-07-23 | 2026-07-24 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 | Rivian | Android Developer Intern - Fall 2026 | Palo Alto, CA | Fall 2026 | 100% | 2026-06-03 | 2026-07-22 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/5633bb03-cc16-47fc-af02-db9dc355eddd) |
 | Salesforce | Summer 2027 Intern - Software Engineer | 2 Locations | Summer 2027 | 100% | 2026-07-22 | 2026-07-22 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715) |
-| Amazon | Software Development Engineer Intern - AWS Data Services - Fall 2026 - US | Seattle, WA | Fall 2026 | 100% (1 skills) | 2026-04-22 | 2026-07-21 | [**Apply ➜**](https://www.amazon.jobs/jobs/10412530/apply) |
 | Deepgram | Software Engineering- Internship - Fall 2026/Summer 2027 | Remote - USA | Fall 2026 | 100% | 2026-07-17 | 2026-07-21 | [**Apply ➜**](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
 | Amazon | Software Development Engineer Intern, AWS Data Services - Fall 2026 (US) | Seattle, Washington, USA | Fall 2026 | 100% (1 skills) | 2026-05-06 | 2026-07-21 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us) |
 | Astranis Space Technologies | Software Engineer- Backend Intern - Fall 2026 | San Francisco, CA | Fall 2026 | 100% | 2026-05-13 | 2026-07-15 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
@@ -247,47 +252,60 @@ Last updated: **2026-08-20 11:59 UTC** · auto-refreshed every 12h by [job-board
 | Jump Trading | Campus UI Software Engineer Intern | Chicago, IL | Fall 2026 | 100% | 2026-05-03 | 2026-07-15 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?token=8003019) |
 | MyJunior AI | Software Engineering Intern — Fall 2026 | New York City, NY | Fall 2026 | 100% | 2026-07-01 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/junior/23ee686b-d305-4ac9-860d-16c99ddb4891) |
 | Rivian | Software Engineering Intern - Vehicle Controls - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-04 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55) |
-| Rivian | Software Engineering Intern - Connected Systems - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-03 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92) |
 | Rivian | Software Engineering Intern - Applications - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-03 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c) |
+| Rivian | Software Engineering Intern - Connected Systems - Fall 2026 | Irvine, CA +1 | Fall 2026 | 100% | 2026-06-03 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92) |
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 | Peachtree Corners, GA | Fall 2026 | 100% | 2026-06-17 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
 | Synchrony Bank | Software Engineer Intern - Fall 2026 | Remote - Guangzhou, China +1 | Fall 2026 | 100% | 2026-06-17 | 2026-07-15 | [**Apply ➜**](https://synchronyfinancial.wd5.myworkdayjobs.com/en-US/university/job/Canton-Engagement-Hub-OH/Software-Engineer-Intern---Fall-2026_2601751-1) |
 | Vital Lyfe | Software Engineering Internship - Fall 2026 | Los Angeles, CA | Fall 2026 | 100% | 2026-07-09 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af) |
 | NVIDIA | PhD Software Engineering Intern, Decision Intelligence - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 100% | 2026-05-22 | 2026-07-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
 | Anduril | 2027 Software Engineer Intern | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 | 96% (4 skills) | 2026-06-10 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
+| Northrop Grumman | 2027 Intern Software Engineer 🆕 | Melbourne, FL | 2027 | 90% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573) |
+| PIMCO | 2027 Summer Intern - Technology Analyst - Software Engineering 🆕 | Austin, TX | 2027 | 90% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://pimco.wd1.myworkdayjobs.com/en-US/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745) |
+| TikTok | Software Engineer Intern - TikTok Search Architecture - 2027 Fall 🆕 | San Jose, CA | 2027 | 90% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675524738811218229) |
+| TikTok | Software Engineer Intern - TikTok Search Data Infra - 2027 Fall 🆕 | San Jose, CA | 2027 | 90% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675129440242010421) |
+| TikTok | Software Engineer Intern - Recommendation Infra - Performance Efficiency - 2027 Fall 🆕 | San Jose, CA | 2027 | 90% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675163472469444917) |
+| TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Fall 🆕 | Seattle, WA | 2027 | 90% | 2026-08-15 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7674029284224092421) |
+| TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Fall 🆕 | San Jose, CA | 2027 | 90% | 2026-08-12 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672934842451577141) |
+| TikTok | Site Reliability Engineer Intern - Global SRE - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-06 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7670874691332212997) |
+| TikTok | Software Engineer Intern - TikTok Search Architecture - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675517686256863541) |
+| TikTok | Software Engineer Intern - Recommendation Infra - Performance Efficiency - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675159726676101381) |
+| TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-12 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672930401597671733) |
+| TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Summer 🆕 | Seattle, WA | 2027 | 90% | 2026-08-12 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672926068681951493) |
+| TikTok | Software Engineer Intern - TikTok Search Data Infra - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://lifeattiktok.com/search/7675128776856029445) |
 | NVIDIA | Software Engineering Intern, NCCL - 2026 | 2 Locations | 2026 | 90% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645) |
 | TikTok | Mobile Software Engineer Intern - Global E-Commerce - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://lifeattiktok.com/search/7673663349758675205) |
 | Northrop Grumman | 2027 Intern Software Engineer | Melbourne, FL | 2027 | 90% | 2026-08-12 | 2026-08-13 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255) |
-| Blue Origin | 2026 Intern Conversion - Software Development Engineer I | Seattle, WA +8 | 2026 | 90% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275) |
 | Blue Origin | 2026 Intern Conversion - Aerospace Software Apps Engineer I | Seattle, WA +8 | 2026 | 90% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306) |
+| Blue Origin | 2026 Intern Conversion - Software Development Engineer I | Seattle, WA +8 | 2026 | 90% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275) |
 | Quantbot Technologies | Quantitative Developer Internship - 2027 - New York | New York City, NY | 2027 | 90% | 2026-08-08 | 2026-08-12 | [**Apply ➜**](https://www.quantbot.com/careers/4341038009?gh_jid=4341038009) |
 | TikTok | Software Engineer Intern - Global E-commerce-Search - 2027 Fall | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-11 | [**Apply ➜**](https://lifeattiktok.com/search/7670839752644233525) |
 | TikTok | Software Engineer Intern - Global E-commerce-Search - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-10 | [**Apply ➜**](https://lifeattiktok.com/search/7670839727059339525) |
 | ByteDance | Software Development Engineer Intern - Network Automation - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-08 | 2026-08-08 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7671147251943213317/detail) |
 | TikTok | Frontend Engineer Intern - Ads Interface - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7671211313289398581) |
 | Northrop Grumman | 2027 Intern Software Engineer | Melbourne, FL | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395) |
-| TikTok | Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7670738362521520437) |
 | TikTok | Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7670700387322300677) |
+| TikTok | Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7670738362521520437) |
 | TikTok | Software Engineer Project Intern - Global E-Commerce Search Infrastructure - 2026 Start | Seattle, WA | 2026 | 90% | 2026-07-15 | 2026-08-07 | [**Apply ➜**](https://lifeattiktok.com/search/7662594807715072261) |
 | TikTok | Software Engineer Intern - Media Engine - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-05 | 2026-08-06 | [**Apply ➜**](https://lifeattiktok.com/search/7670295535077427509) |
 | TikTok | Software Engineer Intern - Foundation Platform - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-05 | 2026-08-06 | [**Apply ➜**](https://lifeattiktok.com/search/7670281449668905269) |
-| TikTok | Software Development Engineer in Test Intern - Global E-Commerce - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-01 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668837276597127477) |
-| TikTok | Software Development Engineer in Test Intern - Global E-Commerce - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-01 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668837275459324213) |
+| TikTok | Software Development Engineer Intern - Global E-Commerce-Quality Platform & AI Test Automation - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-01 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668837276597127477) |
+| TikTok | Software Development Engineer Intern - Global E-Commerce - Quality Platform & AI Test Automation - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-01 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668837275459324213) |
 | TikTok | Software Development Engineer in Test Intern（TikTok-Testing）- 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7667934759481526581) |
 | TikTok | Backend Software Engineer Intern - Creation Platform - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7670289874020993285) |
 | TikTok | Software Engineer Intern - Transaction Platform - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669943120351906053) |
-| TikTok | Frontend Engineer Intern - Global CRM - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669711026846058757) |
 | TikTok | Software Engineer Intern - AI Agent & Global Revenue Platform - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669712589169117445) |
+| TikTok | Frontend Engineer Intern - Global CRM - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669711026846058757) |
 | TikTok | Software Engineer Intern - TikTok-Intelligent Creation-Camera - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-01 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668862422178318597) |
 | TikTok | Backend Software Engineer Intern - TikTok-Global Live-Foundation - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667935150530840837) |
-| TikTok | Software Engineer Intern - Ads Interface - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669705785962727733) |
 | TikTok | Software Engineer Intern - Global CRM - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669711844487399685) |
-| TikTok | Software Engineer Intern - TikTok - Effects Performance - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-01 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668725183121000757) |
+| TikTok | Software Engineer Intern - Ads Interface - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669705785962727733) |
 | TikTok | Software Engineer Intern - TikTok - Shoot Experience Optimization - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-01 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668921505254410549) |
-| TikTok | Backend Software Engineer Intern - Global E-Commerce - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-01 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668834837268416821) |
 | TikTok | Backend Software Engineer Intern - Global E-Commerce - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-01 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668834837268138293) |
+| TikTok | Backend Software Engineer Intern - Global E-Commerce - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-01 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668834837268416821) |
+| TikTok | Software Engineer Intern - TikTok - Effects Performance - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-01 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668725183121000757) |
 | TikTok | Backend Software Engineer Intern - TikTok - Product Infrastructure - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667935633764370741) |
-| TikTok | Software Engineer Intern - TikTok-Agentic Creation-AIGC - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-31 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668675500744837381) |
 | TikTok | Software Engineer Intern - ML Infra - 2027 Start - PhD | San Jose, CA | 2027 | 90% | 2026-07-31 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668696895234197813) |
+| TikTok | Software Engineer Intern - TikTok-Agentic Creation-AIGC - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-31 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668675500744837381) |
 | TikTok | Software Engineer Intern - TikTok-Agentic Creation-Effect Platform - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-31 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668445566565321013) |
 | TikTok | Software Engineer Intern - Creative Intelligence and Brand Innovation - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-31 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668642761473902901) |
 | TikTok | Software Engineer Intern - Business Integrity - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-31 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668584916620527925) |
@@ -297,23 +315,23 @@ Last updated: **2026-08-20 11:59 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Software Engineer Intern - Ads Measurement Signal and Privacy - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-31 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668582031916435717) |
 | TikTok | Software Engineer Intern - Ads Infrastructure - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-31 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668581636242016565) |
 | TikTok | Backend Software Engineer Intern - TikTok-Privacy and Security - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667935739300317493) |
-| TikTok | Software Engineer Intern - TikTok-Generalized Arch-Code Intelligence & Quality Validation - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667935738376227077) |
-| TikTok | Software Engineer Intern - TikTok- Developer Platform - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667935739300792629) |
-| TikTok | Backend Software Engineer Intern - TikTok-Social-Foundation - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667935565120112949) |
-| TikTok | Software Engineer Intern - TikTok-Social-Friending - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667935399050692917) |
-| TikTok | Backend Software Engineer Intern - TikTok-Growth-Innovative Growth - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667934860750063925) |
-| TikTok | Backend Software Engineer Intern - TikTok-Social-Friending - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667934635573692725) |
-| TikTok | Backend Software Engineer Intern - TikTok- PGC-Digital Content Center - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667934302872537397) |
 | TikTok | Backend Software Engineer Intern - TikTok-PGC-Creator Strategy - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667933770819897605) |
+| TikTok | Backend Software Engineer Intern - TikTok- PGC-Digital Content Center - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667934302872537397) |
+| TikTok | Backend Software Engineer Intern - TikTok-Social-Friending - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667934635573692725) |
+| TikTok | Backend Software Engineer Intern - TikTok-Growth-Innovative Growth - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667934860750063925) |
+| TikTok | Software Engineer Intern - TikTok-Social-Friending - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667935399050692917) |
+| TikTok | Backend Software Engineer Intern - TikTok-Social-Foundation - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667935565120112949) |
+| TikTok | Software Engineer Intern - TikTok- Developer Platform - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667935739300792629) |
+| TikTok | Software Engineer Intern - TikTok-Generalized Arch-Code Intelligence & Quality Validation - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667935738376227077) |
 | TikTok | Backend Software Engineer Intern - TikTok-Search - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667933335084124469) |
-| TikTok | General Hire Software Engineer Intern - Trust and Safety-Engineering - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-07-15 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7662684280234232117) |
 | TikTok | General Hire Software Engineer Intern - Trust and Safety-Engineering - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-15 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7662700594251958581) |
+| TikTok | General Hire Software Engineer Intern - Trust and Safety-Engineering - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-07-15 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7662684280234232117) |
 | Virtu Financial | 2027 Internship - Frontend Engineer - UI | Austin, TX +1 | 2027 | 90% | 2026-07-30 | 2026-08-02 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
 | Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 | New York City, NY | 2026 | 90% | 2026-07-23 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
 | Chevron | 2026-2027 Information Technology - Software Engineer - Intern | Houston, TX | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1) |
 | Five Rings | Summer Intern 2027 - Software Developer | New York City, NY | 2027 | 90% | 2026-07-15 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008) |
-| Netic | Software Engineer - Agent Platform - Intern - 2026-2027 | San Francisco, CA | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7) |
 | Netic | Full-Stack Software Engineer - Product - Intern - 2026-2027 | San Francisco, CA | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/f291394a-f3c5-4f46-9b87-77aea3d487ef) |
+| Netic | Software Engineer - Agent Platform - Intern - 2026-2027 | San Francisco, CA | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7) |
 | Old Mission Capital | Software Engineer - 2027 Internship Program - June Start | Chicago, IL | 2027 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://www.oldmissioncapital.com/careers/?gh_jid=7796180003) |
 | The Trade Desk | 2027 North America Software Engineering Internship | Denver, CO +2 | 2027 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007) |
 | TikTok | Frontend Software Engineer Project Intern - Global CRM - 2026 Start（BS/MS） | San Jose, CA | 2026 | 90% | 2026-06-23 | 2026-07-26 | [**Apply ➜**](https://lifeattiktok.com/search/7654431844394322229) |
@@ -321,7 +339,7 @@ Last updated: **2026-08-20 11:59 UTC** · auto-refreshed every 12h by [job-board
 | Virtu Financial | 2027 Internship - Software Engineer | Austin, TX +1 | 2027 | 90% | 2026-07-22 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 
-## 🎓 New Grad (182)
+## 🎓 New Grad (184)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -334,7 +352,6 @@ Last updated: **2026-08-20 11:59 UTC** · auto-refreshed every 12h by [job-board
 | Notion | Software Engineer, Early Career (AI) | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
 | Notion | Software Engineer, Early Career | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
 | CACI | Software Engineer - Early Career - Cloud | Remote - Hanover, MD | — | 85% | 2026-08-17 | 2026-08-19 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Hanover-MD-US/Software-Engineer---Early-Career---Cloud_330679) |
-| CACI | Cloud Software and Support Engineer - Early Career | Remote - Hanover, MD | — | 85% | 2026-07-27 | 2026-08-02 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Hanover-MD-US/Cloud-Software-and-Support-Engineer---Early-Career_329648) |
 | Palantir | Software Engineer, New Grad | New York, NY | — | 85% (3 skills) | 2021-07-01 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92) |
 | Palantir | Software Engineer, New Grad | Denver, CO | — | 85% (3 skills) | 2020-10-27 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29) |
 | Palantir | Software Engineer, New Grad - Defense | New York, NY | — | 85% (3 skills) | 2025-06-19 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278) |
@@ -351,13 +368,15 @@ Last updated: **2026-08-20 11:59 UTC** · auto-refreshed every 12h by [job-board
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
+| State Street | Software Engineer - CRD- New Graduate 🆕 | Burlington, MA | — | 80% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/en-US/global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-792647) |
+| Susquehanna International Group | Quantitative Strategy Developer - New Grad 🆕 | Bala Cynwyd, PA | — | 80% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11321/quantitative-strategy-developer---new-grad/job) |
 | Kikoff | Software Engineer New Grad 🆕 | SF | — | 80% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://job-boards.greenhouse.io/kikoff/jobs/4376677009) |
 | GlobalFoundries | AI/ML Software Engineer New Grad 🆕 | Austin, TX; Santa Clara, CA; Richardson, TX | — | 80% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://globalfoundries.wd1.myworkdayjobs.com/External/job/Richardson/AI-ML-Software-Engineer--2026-New-College-Graduate-_JR-2602832) |
-| Susquehanna International Group | Quantitative Strategy Developer New Grad 🆕 | Bala Cynwyd, PA | — | 80% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11321/job?mobile=true&needsRedirect=false) |
+| Susquehanna International Group | Quantitative Strategy Developer New Grad | Bala Cynwyd, PA | — | 80% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11321/job?mobile=true&needsRedirect=false) |
 | CACI | Early Career NASA Space Reactor - 1 Freedom Flight Software Development Engineer | Houston, TX | — | 80% | 2026-08-17 | 2026-08-19 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Houston-TX-US/Early-Career-NASA-Space-Reactor---1-Freedom-Flight-Software-Development-Engineer_330677) |
 | SpaceX | New Graduate Engineer, Software (Starship) | Starbase, TX | — | 80% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8729121002?gh_jid=8729121002) |
 | Koah Labs | Software Engineer - Early Career | San Francisco, CA | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.ashbyhq.com/koahlabs/197c931d-3cda-44b3-b26b-470976730808) |
@@ -475,6 +494,7 @@ Last updated: **2026-08-20 11:59 UTC** · auto-refreshed every 12h by [job-board
 | General Dynamics Mission Systems | Software Engineer - Entry Level | Scottsdale, AZ | — | 75% | 2026-08-16 | 2026-08-17 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74274/software-engineer---entry-level/job) |
 | General Dynamics Mission Systems | Software Engineer - Entry Level | Scottsdale, AZ | — | 75% | 2026-08-16 | 2026-08-16 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74274/job?mobile=true&needsRedirect=false) |
 | DecisionPoint Corporation | Entry-level Software Developer | Remote in USA | — | 75% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://careers-decisionpointcorp.icims.com/jobs/3685/job?mobile=true&needsRedirect=false) |
+| DataLab USA | Production Programmer - Entry Level SQL Developer 🆕 | Germantown, MD | — | 72% (1 skills) | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://jobs.lever.co/datalabusa/dd9a80d9-a296-4ea9-a231-b68bf268e8ea) |
 | Datalab USA | Production Programmer – Entry Level SQL Developer 🆕 | Germantown, MD | — | 72% (1 skills) | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://jobs.lever.co/datalabusa/dd9a80d9-a296-4ea9-a231-b68bf268e8ea/apply) |
 | Accenture | Entry Level Java Developer Associate | San Antonio, TX | — | 72% (1 skills) | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://jobs.smartrecruiters.com/AccentureFederalServices/78366121) |
 | 9to9 Software Solutions | Entry Level Java Developer | Silver Creek, NY | — | 72% (1 skills) | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/9to9SoftwareSolutionsLLC/743999674047363) |
@@ -508,12 +528,14 @@ Last updated: **2026-08-20 11:59 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (50)
+## 🚪 Recently closed (last 7 days) (52)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Amazon | Software Development Engineer Intern - AWS Data Services - Fall 2026 - US | Fall 2026 | 2026-08-20 |
+| CACI | Cloud Software and Support Engineer - Early Career | — | 2026-08-20 |
 | State Street | Software Engineer New Grad | — | 2026-08-20 |
 | Together AI | Systems Research Engineer Intern - GPU Programming | Fall 2026 | 2026-08-20 |
 | Cook Systems | Entry-Level Software Developer | — | 2026-08-19 |
