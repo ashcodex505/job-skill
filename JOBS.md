@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
 **494 open roles** across **198 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-21 11:37 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-21 11:58 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (14)
+## 🆕 New this cycle (9)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -16,11 +16,6 @@ Last updated: **2026-08-21 11:37 UTC** · auto-refreshed every 12h by [job-board
 | Phoebe | Software Engineer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://jobs.ashbyhq.com/phoebe-work/1ffe3e63-2163-447e-a8b0-1fff8b87e0ca/application?embed=true) |
 | Databricks | Software Engineering Intern (2027 Start) - Winter 🆕 | Bellevue, Washington; Mountain View, California; San Francisco, California | 2027 | 96% (4 skills) | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002) |
 | Zipline | Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7907191003) |
-| Tesla | Internship - Fullstack Engineer - Applications Engineering - Winter/Spring 2027 🆕 | Fremont, CA | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.tesla.com/careers/search/job/280820) |
-| Toshiba Global Commerce | AI Software Engineer Intern 🆕 | Durham, NC | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5214224007) |
-| Excellus BCBS | Software Engineering Intern - Multiple Openings 🆕 | Rochester, NY; De Witt, NY; Albany, NY; Binghamton, NY; Buffalo, NY | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Software-Engineering---Fall-2026--Multiple-Openings-_JR103878-2) |
-| Leidos | Engineering Intern - Defense Systems - Threat Modeling & Simulation Portfolio 🆕 | Huntsville, AL | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Engineering-Intern_R-00189691) |
-| National Laboratory of the Rockies | Graduate Energy Systems Intern 🆕 | Remote in USA; Boulder, CO | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://nrel.wd5.myworkdayjobs.com/NLR/job/Boulder-CO/Graduate-Summer-Intern---Modeling-and-Analysis-of-Distributed-Hybrid-Energy-Systems_R14469) |
 | Anduril | Early Career Test and Evaluation Systems Integrator 🆕 | Costa Mesa, CA | — | 80% | 2026-07-13 | 2026-08-20 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5185888007) |
 
 ## 🛠️ Internships (311)
@@ -34,11 +29,11 @@ Last updated: **2026-08-21 11:37 UTC** · auto-refreshed every 12h by [job-board
 | Lawrence Livermore National Laboratory (LLNL) | Energy Systems Analyst Graduate Intern - Fall 2026 🆕 | Livermore, CA | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://jobs.smartrecruiters.com/LLNL/3743990014731696) |
 | Phoebe | Software Engineer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://jobs.ashbyhq.com/phoebe-work/1ffe3e63-2163-447e-a8b0-1fff8b87e0ca/application?embed=true) |
 | Zipline | Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7907191003) |
-| Excellus BCBS | Software Engineering Intern - Multiple Openings 🆕 | Rochester, NY; De Witt, NY; Albany, NY; Binghamton, NY; Buffalo, NY | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Software-Engineering---Fall-2026--Multiple-Openings-_JR103878-2) |
-| Leidos | Engineering Intern - Defense Systems - Threat Modeling & Simulation Portfolio 🆕 | Huntsville, AL | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Engineering-Intern_R-00189691) |
-| National Laboratory of the Rockies | Graduate Energy Systems Intern 🆕 | Remote in USA; Boulder, CO | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://nrel.wd5.myworkdayjobs.com/NLR/job/Boulder-CO/Graduate-Summer-Intern---Modeling-and-Analysis-of-Distributed-Hybrid-Energy-Systems_R14469) |
-| Tesla | Internship - Fullstack Engineer - Applications Engineering - Winter/Spring 2027 🆕 | Fremont, CA | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.tesla.com/careers/search/job/280820) |
-| Toshiba Global Commerce | AI Software Engineer Intern 🆕 | Durham, NC | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5214224007) |
+| Excellus BCBS | Software Engineering Intern - Multiple Openings | Rochester, NY; De Witt, NY; Albany, NY; Binghamton, NY; Buffalo, NY | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Software-Engineering---Fall-2026--Multiple-Openings-_JR103878-2) |
+| Leidos | Engineering Intern - Defense Systems - Threat Modeling & Simulation Portfolio | Huntsville, AL | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Engineering-Intern_R-00189691) |
+| National Laboratory of the Rockies | Graduate Energy Systems Intern | Remote in USA; Boulder, CO | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://nrel.wd5.myworkdayjobs.com/NLR/job/Boulder-CO/Graduate-Summer-Intern---Modeling-and-Analysis-of-Distributed-Hybrid-Energy-Systems_R14469) |
+| Tesla | Internship - Fullstack Engineer - Applications Engineering - Winter/Spring 2027 | Fremont, CA | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.tesla.com/careers/search/job/280820) |
+| Toshiba Global Commerce | AI Software Engineer Intern | Durham, NC | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5214224007) |
 | Cloudflare | Software Engineer Intern (Fall 2026) | In-Office | Fall 2026 | 100% (3 skills) | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855) |
 | Zipline | Software Systems Validation Intern - Spring 2027 | South San Francisco, CA | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7893955003) |
 | TikTok | Machine Learning Engineer Intern | Seattle, WA | Summer 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675847556668295429) |
