@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T06:03:53.702Z",
+ "updatedAt": "2026-08-21T07:02:58.654Z",
  "jobs": [
   {
    "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
@@ -9137,28 +9137,6 @@
    "firstSeenAt": "2026-08-07T00:29:13.435Z"
   },
   {
-   "dedupeKey": "simplifyjobs:b74df225-de2e-4317-b24c-f56e01804516",
-   "source": "simplifyjobs",
-   "company": "State of Nebraska",
-   "title": "IT Construction Systems Intern",
-   "location": "Lincoln, NE",
-   "url": "https://son.wd108.myworkdayjobs.com/NebraskaStateCareers/job/Lincoln-NE/Student-Intern---IT-Construction-Systems_JR2026-00028484-1",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-06T00:00:00.000Z",
-   "firstSeenAt": "2026-08-07T00:29:13.435Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:1200d9c3-8c18-4a2b-a55a-19887da19374",
    "source": "simplifyjobs",
    "company": "Centerfield",
@@ -10371,28 +10349,6 @@
    "firstSeenAt": "2026-08-18T07:00:21.805Z"
   },
   {
-   "dedupeKey": "simplifyjobs:df3b11d6-07b6-49f9-a445-97f32c89967e",
-   "source": "simplifyjobs",
-   "company": "RTX",
-   "title": "Software Engineer Intern - Spring 2027",
-   "location": "Melbourne, FL",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Spring-2027-_01864146",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-17T00:00:00.000Z",
-   "firstSeenAt": "2026-08-18T07:00:21.805Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:8c190f84-7c21-4a30-a956-f5a480ccdec6",
    "source": "simplifyjobs",
    "company": "L3Harris Technologies",
@@ -11031,6 +10987,116 @@
    "firstSeenAt": "2026-08-21T01:53:07.522Z"
   },
   {
+   "dedupeKey": "simplifyjobs:2057d1a3-289b-49ae-8328-fa3527c533c5",
+   "source": "simplifyjobs",
+   "company": "AMD",
+   "title": "Software Engineer Intern/Co-op - Masters",
+   "location": "San Jose, CA; Santa Clara, CA",
+   "url": "https://careers.amd.com/jobs/91176?icims=1",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-21T06:22:18.000Z",
+   "firstSeenAt": "2026-08-21T07:02:58.654Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:3e9d3b5d-b9b8-4556-8c46-75ca36c2b15d",
+   "source": "simplifyjobs",
+   "company": "AMD",
+   "title": "Software Engineer Intern/Co-op",
+   "location": "San Jose, CA; Santa Clara, CA",
+   "url": "https://careers.amd.com/jobs/90891?icims=1",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-21T06:22:18.000Z",
+   "firstSeenAt": "2026-08-21T07:02:58.654Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:3142b23d-4dfa-443e-82dd-703b3711394b",
+   "source": "simplifyjobs",
+   "company": "AMD",
+   "title": "Software Engineer Intern/Co-op",
+   "location": "Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA",
+   "url": "https://careers.amd.com/jobs/91180?icims=1",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-21T06:22:18.000Z",
+   "firstSeenAt": "2026-08-21T07:02:58.654Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:944978fc-7eeb-4346-82ad-857bec5239a5",
+   "source": "simplifyjobs",
+   "company": "AMD",
+   "title": "Software Engineer Intern/Co-op",
+   "location": "Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA",
+   "url": "https://careers.amd.com/jobs/90947?icims=1",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-21T06:22:18.000Z",
+   "firstSeenAt": "2026-08-21T07:02:58.654Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:17156e64-71de-4381-bb2e-56629af78b66",
+   "source": "simplifyjobs",
+   "company": "Lawrence Livermore National Laboratory (LLNL)",
+   "title": "Energy Systems Analyst Graduate Intern - Fall 2026",
+   "location": "Livermore, CA",
+   "url": "https://jobs.smartrecruiters.com/LLNL/3743990014731696",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-21T06:12:14.000Z",
+   "firstSeenAt": "2026-08-21T07:02:58.654Z"
+  },
+  {
    "dedupeKey": "reverse-discovery:bb6e555b-8bb1-4cd7-9813-4f82a5ebe839",
    "source": "reverse-discovery",
    "company": "brainco",
@@ -11466,6 +11532,26 @@
    "firstSeenAt": "2026-08-15T01:46:01.264Z",
    "closedAt": "2026-08-20T23:35:43.186Z",
    "url": "https://valeo.wd3.myworkdayjobs.com/en-US/valeo_jobs/job/Troy-MI/Software-Engineer-Intern_REQ2026076575"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b74df225-de2e-4317-b24c-f56e01804516",
+   "company": "State of Nebraska",
+   "title": "IT Construction Systems Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-07T00:29:13.435Z",
+   "closedAt": "2026-08-21T07:02:58.654Z",
+   "url": "https://son.wd108.myworkdayjobs.com/NebraskaStateCareers/job/Lincoln-NE/Student-Intern---IT-Construction-Systems_JR2026-00028484-1"
+  },
+  {
+   "dedupeKey": "simplifyjobs:df3b11d6-07b6-49f9-a445-97f32c89967e",
+   "company": "RTX",
+   "title": "Software Engineer Intern - Spring 2027",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-18T07:00:21.805Z",
+   "closedAt": "2026-08-21T07:02:58.654Z",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Spring-2027-_01864146"
   }
  ]
 }
