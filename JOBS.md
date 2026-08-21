@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**498 open roles** across **199 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-21 07:04 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**496 open roles** across **198 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-21 07:52 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (14)
@@ -341,7 +341,7 @@ Last updated: **2026-08-21 07:04 UTC** · auto-refreshed every 12h by [job-board
 | Virtu Financial | 2027 Internship - Software Engineer | Austin, TX +1 | 2027 | 90% | 2026-07-22 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 
-## 🎓 New Grad (185)
+## 🎓 New Grad (183)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -396,14 +396,12 @@ Last updated: **2026-08-21 07:04 UTC** · auto-refreshed every 12h by [job-board
 | Johns Hopkins Applied Physics Laboratory | Data Scientist New Grad - Data Science - System Performance Evaluation | Laurel, MD | — | 80% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://careers.jhuapl.edu/jobs/57653?icims=1) |
 | Johns Hopkins Applied Physics Laboratory | Computer Scientist New Grad - Tactical System Prototyping and Deployment | Laurel, MD | — | 80% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://careers.jhuapl.edu/jobs/59416?icims=1) |
 | Kyndryl | Associate AI Engineer - Early Career Consult Program | Dallas, TX | — | 80% | 2026-08-13 | 2026-08-14 | [**Apply ➜**](https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739) |
-| Seagate Technology  | Systems Engineer - Early Career | Longmont, CO | — | 80% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://seagatecareers.com/job/Longmont-Systems-Engineer-Early-Career-CO-80501/1419329400/?ats=successfactors) |
 | TikTok | Backend Software Engineer New Grad - Creator Strategy | San Jose, CA | — | 80% | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://lifeattiktok.com/search/7672976491146004741) |
 | General Matter | Software Engineer - New Grad | Los Angeles, CA | — | 80% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://job-boards.greenhouse.io/generalmatter/jobs/5375987008) |
 | Uniswap Labs | Software Engineer - Early Career | New York City, NY | — | 80% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.ashbyhq.com/uniswap/fb4d4137-f003-4669-beb7-2a5caca88012) |
 | Symbotic | New Grad- Software Engineer | Wilmington, MA | — | 80% | 2026-05-19 | 2026-08-12 | [**Apply ➜**](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Software-Engineer_R6770) |
 | State Street | Software Engineer - CRD- New Graduate | Burlington, MA | — | 80% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/en-US/global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-795953) |
 | Mach Industries | Software Engineer New Grad - Software - GNC | Huntington Beach, CA | — | 80% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.ashbyhq.com/mach/43c8b037-c77d-4efb-9379-52a6c3718bdb/application?embed=true) |
-| State Street | Software Engineer New Grad | Burlington, MA | — | 80% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-795953) |
 | Blue Origin | Software Development Engineer 1 - Early Career | Seattle, WA | — | 80% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Software-Development-Engineer-I---Early-Career--2026-Starts-_R70051) |
 | LPL Financial Holdings | Software Engineering New Grad | Austin, TX; Fort Mill, SC; Charlotte, NC | — | 80% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/New-Grad-2027---Software-Engineering_R-052475) |
 | Abridge | Software Engineer - Early Career | San Francisco, CA | — | 80% | 2026-08-08 | 2026-08-10 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace) |
@@ -531,12 +529,14 @@ Last updated: **2026-08-21 07:04 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (43)
+## 🚪 Recently closed (last 7 days) (45)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| State Street | Software Engineer New Grad | — | 2026-08-21 |
+| Seagate Technology  | Systems Engineer - Early Career | — | 2026-08-21 |
 | State of Nebraska | IT Construction Systems Intern | Fall 2026 | 2026-08-21 |
 | RTX | Software Engineer Intern - Spring 2027 | Spring 2027 | 2026-08-21 |
 | Valeo | Software Engineer Intern | Fall 2026 | 2026-08-20 |
