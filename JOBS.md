@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **488 open roles** across **196 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-21 16:48 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-21 17:39 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (7)
@@ -514,7 +514,7 @@ Last updated: **2026-08-21 16:48 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (51)
+## 🚪 Recently closed (last 7 days) (48)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -568,9 +568,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | T. Rowe Price | Associate Software Engineer - Entry-level | — | 2026-08-15 |
 | Interdigital | Wireless Engineering Intern - 6G Wireless Systems | Fall 2026 | 2026-08-15 |
 | Mobius Renewables | Software Engineer Intern | Fall 2026 | 2026-08-15 |
-| SpaceX | New Graduate Engineer, Software (Starlink) | — | 2026-08-14 |
-| SpaceX | New Graduate Engineer, Software (Starlink) | — | 2026-08-14 |
-| SpaceX | New Graduate Engineer, Software (Starlink) | — | 2026-08-14 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
