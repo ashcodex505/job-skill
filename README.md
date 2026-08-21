@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-494-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-21-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--20-informational)
+![open roles](https://img.shields.io/badge/open%20roles-495-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-22-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--21-informational)
 
-Updated **2026-08-20 23:57 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-21 01:53 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Phoebe | Software Engineer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://jobs.ashbyhq.com/phoebe-work/1ffe3e63-2163-447e-a8b0-1fff8b87e0ca/application?embed=true) |
 | Zipline | Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7907191003) |
 | Excellus BCBS | Software Engineering Intern - Multiple Openings 🆕 | Rochester, NY; De Witt, NY; Albany, NY; Binghamton, NY; Buffalo, NY | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Software-Engineering---Fall-2026--Multiple-Openings-_JR103878-2) |
 | Leidos | Engineering Intern - Defense Systems - Threat Modeling & Simulation Portfolio 🆕 | Huntsville, AL | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Engineering-Intern_R-00189691) |
@@ -277,5 +278,4 @@ Updated **2026-08-20 23:57 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | NVIDIA | Computer Architecture and Systems Intern - Research | Santa Clara, CA | Summer 2027 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Architecture-and-Systems_JR2023854) |
 | NVIDIA | Developer and Performance Technology Intern | Santa Clara, CA | Summer 2027 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499) |
 | NVIDIA | Software Engineering Intern | Canada; Santa Clara, CA | Summer 2027 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495) |
-| Microsoft | AI Software Engineer Intern | Redmond, WA; Mountain View, CA | Fall 2026 | 100% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556962891) |
 <!-- JOB-BOARD:END -->

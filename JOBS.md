@@ -1,13 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
-**494 open roles** across **197 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-20 23:57 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**495 open roles** across **198 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-21 01:53 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (21)
+## 🆕 New this cycle (22)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Phoebe | Software Engineer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://jobs.ashbyhq.com/phoebe-work/1ffe3e63-2163-447e-a8b0-1fff8b87e0ca/application?embed=true) |
 | Databricks | Software Engineering Intern (2027 Start) - Winter 🆕 | Bellevue, Washington; Mountain View, California; San Francisco, California | 2027 | 96% (4 skills) | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002) |
 | Zipline | Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7907191003) |
 | Tesla | Internship - Fullstack Engineer - Applications Engineering - Winter/Spring 2027 🆕 | Fremont, CA | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.tesla.com/careers/search/job/280820) |
@@ -30,10 +31,11 @@ Last updated: **2026-08-20 23:57 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Site Reliability Engineer Intern - Global SRE - 2027 Summer 🆕 | San Jose, CA | 2027 | 90% | 2026-08-06 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7670874691332212997) |
 | Anduril | Early Career Test and Evaluation Systems Integrator 🆕 | Costa Mesa, CA | — | 80% | 2026-07-13 | 2026-08-20 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5185888007) |
 
-## 🛠️ Internships (309)
+## 🛠️ Internships (310)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Phoebe | Software Engineer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://jobs.ashbyhq.com/phoebe-work/1ffe3e63-2163-447e-a8b0-1fff8b87e0ca/application?embed=true) |
 | Zipline | Software Engineer Intern - Spring 2027 🆕 | South SF | Spring 2027 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://www.zipline.com/open-roles?gh_jid=7907191003) |
 | Excellus BCBS | Software Engineering Intern - Multiple Openings 🆕 | Rochester, NY; De Witt, NY; Albany, NY; Binghamton, NY; Buffalo, NY | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Software-Engineering---Fall-2026--Multiple-Openings-_JR103878-2) |
 | Leidos | Engineering Intern - Defense Systems - Threat Modeling & Simulation Portfolio 🆕 | Huntsville, AL | Fall 2026 | 100% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Engineering-Intern_R-00189691) |
@@ -373,9 +375,9 @@ Last updated: **2026-08-20 23:57 UTC** · auto-refreshed every 12h by [job-board
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Anduril | Early Career Test and Evaluation Systems Integrator 🆕 | Costa Mesa, CA | — | 80% | 2026-07-13 | 2026-08-20 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5185888007) |
 | State Street | Software Engineer - CRD- New Graduate 🆕 | Burlington, MA | — | 80% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/en-US/global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-792647) |
