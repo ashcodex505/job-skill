@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**497 open roles** across **200 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-22 03:53 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**496 open roles** across **199 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-22 04:44 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (14)
@@ -23,7 +23,7 @@ Last updated: **2026-08-22 03:53 UTC** · auto-refreshed every 12h by [job-board
 | Applied Materials | Software Engineer 2 – New College Grad 🆕 | Santa Clara, CA | — | 70% | 2026-07-08 | 2026-08-21 | [**Apply ➜**](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineer-II--New-College-Grad---Santa-Clara--CA-_R2622398) |
 | Fortinet | Applied AI Engineer New Grad - AI Agent 🆕 | Sunnyvale, CA | — | 80% | 2026-05-25 | 2026-08-21 | [**Apply ➜**](https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23077) |
 
-## 🛠️ Internships (313)
+## 🛠️ Internships (312)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -139,7 +139,6 @@ Last updated: **2026-08-22 03:53 UTC** · auto-refreshed every 12h by [job-board
 | Rippling | Machine Learning Software Engineer Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-06-05 | 2026-08-06 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781) |
 | Tenstorrent | Software Engineer Intern - Power Modeling & AI Tools | Santa Clara, CA | Winter 2027 | 100% | 2026-07-23 | 2026-08-06 | [**Apply ➜**](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation/Search Alliance | Seattle, WA | Fall 2026 | 100% | 2026-08-06 | 2026-08-06 | [**Apply ➜**](https://lifeattiktok.com/search/7670247810111768837) |
-| Gulf Management | Software Engineer & Business Systems Intern | Covington, LA | Fall 2026 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://gulfmanagement.applytojob.com/apply/pnJkrOYga9/Software-Engineer-Business-Systems-Intern) |
 | NVIDIA | Software Engineering Intern, Dynamo - Fall 2026 | US, CA, Santa Clara | Fall 2026 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295) |
 | Roblox | [Summer 2027] Software Engineer Intern | San Mateo, CA, United States | Summer 2027 | 100% (3 skills) | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) |
 | TikTok | Machine Learning Engineer Intern - Search | Seattle, WA | Summer 2027 | 100% | 2026-08-05 | 2026-08-05 | [**Apply ➜**](https://lifeattiktok.com/search/7668396597746862341) |
@@ -530,12 +529,13 @@ Last updated: **2026-08-22 03:53 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (53)
+## 🚪 Recently closed (last 7 days) (54)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Gulf Management | Software Engineer & Business Systems Intern | Fall 2026 | 2026-08-22 |
 | Western Digital | Software Engineering Co-op | Winter 2027 | 2026-08-22 |
 | Western Magnetics | Software Engineer Intern | Fall 2026 | 2026-08-21 |
 | Cook Systems | Entry-Level Software Developer | — | 2026-08-21 |
