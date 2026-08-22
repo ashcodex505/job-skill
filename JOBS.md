@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
-**496 open roles** across **199 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-22 08:43 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**495 open roles** across **198 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-22 09:37 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (12)
+## 🆕 New this cycle (7)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -13,13 +13,8 @@ Last updated: **2026-08-22 08:43 UTC** · auto-refreshed every 12h by [job-board
 | True Anomaly | Software Engineer 1 New Grad - QA 🆕 | Long Beach, CA; Denver, CO | — | 80% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5219057007) |
 | SimIS | Artificial Intelligence Developer Intern - Aerospace/Aviation 🆕 | Suffolk, VA | Fall 2026 | 100% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern) |
 | General Dynamics Mission Systems | Software Engineer - Entry Level 🆕 | Manassas, VA | — | 70% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74471/job?mobile=true&needsRedirect=false) |
-| Fullbay | Software Engineer Intern 🆕 | Phoenix, AZ | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://fullbay.bamboohr.com/careers/131/) |
-| Syska Hennessy Group | Innovations Intern - Full Stack/Front End Engineering 🆕 | NYC | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://job-boards.greenhouse.io/syskahennessy/jobs/8147733) |
 | Availity | Software Engineer Intern - Multiple Teams 🆕 | Remote in USA | Fall 2026 | 100% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://availity.wd1.myworkdayjobs.com/availity_careers_us/job/Remote---United-States/Software-Engineering-Intern_R0008436) |
-| Interdigital | Information Systems / Salesforce Intern 🆕 | Conshohocken, PA | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Intern--IS-Systems---Salesforce_REQ26-1133) |
-| Hyve Solutions | Software Engineer New Grad 🆕 | Fremont, CA | — | 80% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://synnex.wd5.myworkdayjobs.com/hyvecareers/job/Fremont-CA/Software-Engineer--New-College-Grad-_R55432) |
 | Applied Materials | Software Engineer 2 – New College Grad 🆕 | Santa Clara, CA | — | 70% | 2026-07-08 | 2026-08-21 | [**Apply ➜**](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineer-II--New-College-Grad---Santa-Clara--CA-_R2622398) |
-| Fortinet | Applied AI Engineer New Grad - AI Agent 🆕 | Sunnyvale, CA | — | 80% | 2026-05-25 | 2026-08-21 | [**Apply ➜**](https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23077) |
 
 ## 🛠️ Internships (312)
 
@@ -29,9 +24,9 @@ Last updated: **2026-08-22 08:43 UTC** · auto-refreshed every 12h by [job-board
 | Availity | Software Engineer Intern - Multiple Teams 🆕 | Remote in USA | Fall 2026 | 100% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://availity.wd1.myworkdayjobs.com/availity_careers_us/job/Remote---United-States/Software-Engineering-Intern_R0008436) |
 | SimIS | Artificial Intelligence Developer Intern - Aerospace/Aviation 🆕 | Suffolk, VA | Fall 2026 | 100% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern) |
 | TikTok | Software Engineer Intern 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://lifeattiktok.com/search/7676276048527214901) |
-| Fullbay | Software Engineer Intern 🆕 | Phoenix, AZ | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://fullbay.bamboohr.com/careers/131/) |
-| Interdigital | Information Systems / Salesforce Intern 🆕 | Conshohocken, PA | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Intern--IS-Systems---Salesforce_REQ26-1133) |
-| Syska Hennessy Group | Innovations Intern - Full Stack/Front End Engineering 🆕 | NYC | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://job-boards.greenhouse.io/syskahennessy/jobs/8147733) |
+| Fullbay | Software Engineer Intern | Phoenix, AZ | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://fullbay.bamboohr.com/careers/131/) |
+| Interdigital | Information Systems / Salesforce Intern | Conshohocken, PA | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Intern--IS-Systems---Salesforce_REQ26-1133) |
+| Syska Hennessy Group | Innovations Intern - Full Stack/Front End Engineering | NYC | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://job-boards.greenhouse.io/syskahennessy/jobs/8147733) |
 | AMD | Software Engineer Intern/Co-op - Masters | San Jose, CA; Santa Clara, CA | Spring 2027 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers.amd.com/jobs/91176?icims=1) |
 | AMD | Software Engineer Intern/Co-op | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers.amd.com/jobs/90891?icims=1) |
 | AMD | Software Engineer Intern/Co-op | Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA | Spring 2027 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers.amd.com/jobs/91180?icims=1) |
@@ -338,7 +333,7 @@ Last updated: **2026-08-22 08:43 UTC** · auto-refreshed every 12h by [job-board
 | Virtu Financial | 2027 Internship - Software Engineer | Austin, TX +1 | 2027 | 90% | 2026-07-22 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 
-## 🎓 New Grad (184)
+## 🎓 New Grad (183)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -372,8 +367,7 @@ Last updated: **2026-08-22 08:43 UTC** · auto-refreshed every 12h by [job-board
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | True Anomaly | Software Engineer 1 New Grad - QA 🆕 | Long Beach, CA; Denver, CO | — | 80% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5219057007) |
-| Fortinet | Applied AI Engineer New Grad - AI Agent 🆕 | Sunnyvale, CA | — | 80% | 2026-05-25 | 2026-08-21 | [**Apply ➜**](https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23077) |
-| Hyve Solutions | Software Engineer New Grad 🆕 | Fremont, CA | — | 80% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://synnex.wd5.myworkdayjobs.com/hyvecareers/job/Fremont-CA/Software-Engineer--New-College-Grad-_R55432) |
+| Hyve Solutions | Software Engineer New Grad | Fremont, CA | — | 80% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://synnex.wd5.myworkdayjobs.com/hyvecareers/job/Fremont-CA/Software-Engineer--New-College-Grad-_R55432) |
 | Susquehanna International Group | Trading System Engineer New Grad | Bala Cynwyd, PA | — | 80% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11349/job?mobile=true&needsRedirect=false) |
 | Anduril | Early Career Test and Evaluation Systems Integrator | Costa Mesa, CA | — | 80% | 2026-07-13 | 2026-08-20 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5185888007) |
 | Susquehanna International Group | Quantitative Strategy Developer - New Grad | Bala Cynwyd, PA | — | 80% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11321/quantitative-strategy-developer---new-grad/job) |
@@ -533,6 +527,7 @@ Postings that disappeared from their company's feed — if one of these was on y
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Fortinet | Applied AI Engineer New Grad - AI Agent | — | 2026-08-22 |
 | Gulf Management | Software Engineer & Business Systems Intern | Fall 2026 | 2026-08-22 |
 | Western Digital | Software Engineering Co-op | Winter 2027 | 2026-08-22 |
 | Western Magnetics | Software Engineer Intern | Fall 2026 | 2026-08-21 |
@@ -586,7 +581,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | General Motors | Entry Level Software Engineer | — | 2026-08-15 |
 | T. Rowe Price | Associate Software Engineer - Entry-level | — | 2026-08-15 |
 | Interdigital | Wireless Engineering Intern - 6G Wireless Systems | Fall 2026 | 2026-08-15 |
-| Mobius Renewables | Software Engineer Intern | Fall 2026 | 2026-08-15 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
