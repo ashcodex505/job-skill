@@ -1,17 +1,8 @@
 # 🎯 Job Board — SWE Early Career
 
 **494 open roles** across **199 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-23 01:56 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-23 01:57 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
-
-## 🆕 New this cycle (4)
-
-| Company | Role | Location | Season | Match | Posted | First seen | Apply |
-|---|---|---|---|---|---|---|---|
-| i3 Corps | Entry Level Software Engineer 🆕 | Huntsville, AL | — | 70% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://careers-i3-corps.icims.com/jobs/5218/entry-level-software-engineer/job) |
-| General Dynamics Mission Systems | Software Engineer - Entry Level 🆕 | Manassas, VA | — | 70% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74471/software-engineer-%e2%80%93-entry-level/job) |
-| Leidos | Entry-Level Software Developer 🆕 | St. Louis, MO | — | 70% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/St-Louis-MO/Entry-Level-Software-Developer_R-00188494) |
-| Assyst | .NET Developer - Entry Level 🆕 | Sterling, VA | — | 70% | 2026-08-17 | 2026-08-22 | [**Apply ➜**](https://job-boards.greenhouse.io/assystinc/jobs/4371586009) |
 
 ## 🛠️ Internships (309)
 
@@ -486,10 +477,10 @@ Last updated: **2026-08-23 01:56 UTC** · auto-refreshed every 12h by [job-board
 | Conduent | Java Developer – Entry Level | Atlanta, GA | — | 72% (1 skills) | 2026-07-29 | 2026-08-07 | [**Apply ➜**](https://egua.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22738) |
 | Datalab USA | Production Programmer – Entry Level SQL Developer | Germantown, MD | — | 72% (1 skills) | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885/apply) |
 | DataLab USA | Production Programmer - Entry Level SQL Developer | Germantown, MD | — | 72% (1 skills) | 2026-06-18 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885) |
-| Assyst | .NET Developer - Entry Level 🆕 | Sterling, VA | — | 70% | 2026-08-17 | 2026-08-22 | [**Apply ➜**](https://job-boards.greenhouse.io/assystinc/jobs/4371586009) |
-| General Dynamics Mission Systems | Software Engineer - Entry Level 🆕 | Manassas, VA | — | 70% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74471/software-engineer-%e2%80%93-entry-level/job) |
-| i3 Corps | Entry Level Software Engineer 🆕 | Huntsville, AL | — | 70% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://careers-i3-corps.icims.com/jobs/5218/entry-level-software-engineer/job) |
-| Leidos | Entry-Level Software Developer 🆕 | St. Louis, MO | — | 70% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/St-Louis-MO/Entry-Level-Software-Developer_R-00188494) |
+| Assyst | .NET Developer - Entry Level | Sterling, VA | — | 70% | 2026-08-17 | 2026-08-22 | [**Apply ➜**](https://job-boards.greenhouse.io/assystinc/jobs/4371586009) |
+| General Dynamics Mission Systems | Software Engineer - Entry Level | Manassas, VA | — | 70% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74471/software-engineer-%e2%80%93-entry-level/job) |
+| i3 Corps | Entry Level Software Engineer | Huntsville, AL | — | 70% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://careers-i3-corps.icims.com/jobs/5218/entry-level-software-engineer/job) |
+| Leidos | Entry-Level Software Developer | St. Louis, MO | — | 70% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/St-Louis-MO/Entry-Level-Software-Developer_R-00188494) |
 | Applied Materials | Software Engineer 2 – New College Grad | Santa Clara, CA | — | 70% | 2026-07-08 | 2026-08-21 | [**Apply ➜**](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineer-II--New-College-Grad---Santa-Clara--CA-_R2622398) |
 | General Dynamics Mission Systems | Software Engineer - Entry Level | Manassas, VA | — | 70% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74471/job?mobile=true&needsRedirect=false) |
 | Hyve Solutions | Software Engineer - New College Grad | Fremont, CA | — | 70% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://synnex.wd5.myworkdayjobs.com/en-US/hyvecareers/job/Fremont-CA/Software-Engineer--New-College-Grad-_R55432) |
