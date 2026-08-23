@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
-**494 open roles** across **199 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-23 06:58 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**493 open roles** across **199 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-23 07:42 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🛠️ Internships (309)
+## 🛠️ Internships (308)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -59,7 +59,6 @@ Last updated: **2026-08-23 06:58 UTC** · auto-refreshed every 12h by [job-board
 | Zoomifier | Software Development Intern | NYC | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/CustomShow/75886593) |
 | American Fidelity | Software Mobile Intern | Oklahoma City, OK | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Mobile-Intern--OKC-Local-Only-_JR1021) |
 | Intel | Software Development Intern | Folsom, CA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1) |
-| L3Harris Technologies | Software Engineering Intern | Clifton, NJ | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://jobs.l3harris.com/job/Clifton-Software-Engineering-Intern-(Clifton,-NJ)-1-NJ-07014/1420083900/?ats=successfactors) |
 | Point72 | Quantitative Developer Intern | NYC | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://boards.greenhouse.io/point72/jobs/8721562002) |
 | Datadog | Software Engineer Intern - Observability and Security Platform | Boston, MA; NYC | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Governance | Seattle, WA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://lifeattiktok.com/search/7674029136531015941) |
@@ -345,11 +344,11 @@ Last updated: **2026-08-23 06:58 UTC** · auto-refreshed every 12h by [job-board
 | Samsara | Software Engineer I - New Grad, SF | San Francisco - SF9 | — | 83% (2 skills) | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8097343?gh_jid=8097343) |
 | SpaceX | New Graduate Engineer, Software (Application Software) | Hawthorne, CA | — | 82% (1 skills) | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8730567002?gh_jid=8730567002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
-| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
+| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | True Anomaly | Software Engineer I - QA - New Grad | Denver, CO +1 | — | 80% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5219057007) |
 | Susquehanna International Group | Trading System Engineer New Grad | Bala Cynwyd, PA | — | 80% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11349/job?mobile=true&needsRedirect=false) |
@@ -508,12 +507,13 @@ Last updated: **2026-08-23 06:58 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (55)
+## 🚪 Recently closed (last 7 days) (56)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| L3Harris Technologies | Software Engineering Intern | Fall 2026 | 2026-08-23 |
 | Apple | Software Engineer - IS&T Early Career Opportunities | — | 2026-08-23 |
 | Toshiba Global Commerce | AI Software Engineer Intern | Fall 2026 | 2026-08-22 |
 | Rivian | Software Engineering Intern - Applications - Fall 2026 | Fall 2026 | 2026-08-22 |
