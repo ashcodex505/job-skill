@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T11:53:53.362Z",
+ "updatedAt": "2026-08-23T12:58:22.185Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -1131,30 +1131,6 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696080002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:22:28-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696058002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1176,6 +1152,30 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:22:04-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696080002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:22:28-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -2935,12 +2935,12 @@
    "firstSeenAt": "2026-08-13T13:39:17.771Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:dcc63a20bf751613930d979bbaeef3d75114c43c",
+   "dedupeKey": "speedyapply:sha1:d08f0f75592d3dbc2779828b1808b1db0920e086",
    "source": "speedyapply",
    "company": "Blue Origin",
-   "title": "2026 Intern Conversion - Software Development Engineer I",
+   "title": "2026 Intern Conversion - Aerospace Software Apps Engineer I",
    "location": "Seattle, WA +8",
-   "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275",
+   "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306",
    "season": "2026",
    "roleType": "internship",
    "score": 90,
@@ -2957,12 +2957,12 @@
    "firstSeenAt": "2026-08-12T13:38:04.550Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:d08f0f75592d3dbc2779828b1808b1db0920e086",
+   "dedupeKey": "speedyapply:sha1:dcc63a20bf751613930d979bbaeef3d75114c43c",
    "source": "speedyapply",
    "company": "Blue Origin",
-   "title": "2026 Intern Conversion - Aerospace Software Apps Engineer I",
+   "title": "2026 Intern Conversion - Software Development Engineer I",
    "location": "Seattle, WA +8",
-   "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306",
+   "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275",
    "season": "2026",
    "roleType": "internship",
    "score": 90,
@@ -3001,28 +3001,6 @@
    "firstSeenAt": "2026-08-12T13:38:04.550Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:7a5509fa32f22cabadeefd04ca3481f1f8e854ad",
-   "source": "speedyapply",
-   "company": "Varda",
-   "title": "Flight Software Internship - Spring 2027",
-   "location": "El Segundo, CA",
-   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824815003",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-07T22:07:47.000Z",
-   "firstSeenAt": "2026-08-07T23:09:42.134Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:0d5d41be79864285473449a46049beee53d06b9c",
    "source": "speedyapply",
    "company": "Varda",
@@ -3043,6 +3021,28 @@
    },
    "postedAt": "2026-08-08",
    "firstSeenAt": "2026-08-10T14:01:55.433Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:7a5509fa32f22cabadeefd04ca3481f1f8e854ad",
+   "source": "speedyapply",
+   "company": "Varda",
+   "title": "Flight Software Internship - Spring 2027",
+   "location": "El Segundo, CA",
+   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824815003",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-07T22:07:47.000Z",
+   "firstSeenAt": "2026-08-07T23:09:42.134Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:de1a48f05a55889af2988d08606dd808ee74c84a",
@@ -3221,12 +3221,12 @@
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:352c01de5931ea9ee8cbf2e664bfa47feae5d0a5",
+   "dedupeKey": "speedyapply:sha1:fa3b8f27fb1fd3a06e87954043ce58c76175d31c",
    "source": "speedyapply",
    "company": "Netic",
-   "title": "Software Engineer - Agent Platform - Intern - 2026-2027",
+   "title": "Full-Stack Software Engineer - Product - Intern - 2026-2027",
    "location": "San Francisco, CA",
-   "url": "https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7",
+   "url": "https://jobs.ashbyhq.com/netic/f291394a-f3c5-4f46-9b87-77aea3d487ef",
    "season": "2026",
    "roleType": "internship",
    "score": 90,
@@ -3243,12 +3243,12 @@
    "firstSeenAt": "2026-07-26T09:01:16.777Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:fa3b8f27fb1fd3a06e87954043ce58c76175d31c",
+   "dedupeKey": "speedyapply:sha1:352c01de5931ea9ee8cbf2e664bfa47feae5d0a5",
    "source": "speedyapply",
    "company": "Netic",
-   "title": "Full-Stack Software Engineer - Product - Intern - 2026-2027",
+   "title": "Software Engineer - Agent Platform - Intern - 2026-2027",
    "location": "San Francisco, CA",
-   "url": "https://jobs.ashbyhq.com/netic/f291394a-f3c5-4f46-9b87-77aea3d487ef",
+   "url": "https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7",
    "season": "2026",
    "roleType": "internship",
    "score": 90,

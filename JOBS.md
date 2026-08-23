@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **494 open roles** across **200 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-23 11:53 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-23 12:58 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (1)
@@ -259,8 +259,8 @@ Last updated: **2026-08-23 11:53 UTC** · auto-refreshed every 12h by [job-board
 | NVIDIA | Software Engineering Intern, NCCL - 2026 | 2 Locations | 2026 | 90% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645) |
 | TikTok | Mobile Software Engineer Intern - Global E-Commerce - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://lifeattiktok.com/search/7673663349758675205) |
 | Northrop Grumman | 2027 Intern Software Engineer | Melbourne, FL | 2027 | 90% | 2026-08-12 | 2026-08-13 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255) |
-| Blue Origin | 2026 Intern Conversion - Software Development Engineer I | Seattle, WA +8 | 2026 | 90% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275) |
 | Blue Origin | 2026 Intern Conversion - Aerospace Software Apps Engineer I | Seattle, WA +8 | 2026 | 90% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306) |
+| Blue Origin | 2026 Intern Conversion - Software Development Engineer I | Seattle, WA +8 | 2026 | 90% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275) |
 | Quantbot Technologies | Quantitative Developer Internship - 2027 - New York | New York City, NY | 2027 | 90% | 2026-08-08 | 2026-08-12 | [**Apply ➜**](https://www.quantbot.com/careers/4341038009?gh_jid=4341038009) |
 | TikTok | Software Engineer Intern - Global E-commerce-Search - 2027 Fall | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-11 | [**Apply ➜**](https://lifeattiktok.com/search/7670839752644233525) |
 | TikTok | Software Engineer Intern - Global E-commerce-Search - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-10 | [**Apply ➜**](https://lifeattiktok.com/search/7670839727059339525) |
@@ -314,8 +314,8 @@ Last updated: **2026-08-23 11:53 UTC** · auto-refreshed every 12h by [job-board
 | Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 | New York City, NY | 2026 | 90% | 2026-07-23 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
 | Chevron | 2026-2027 Information Technology - Software Engineer - Intern | Houston, TX | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1) |
 | Five Rings | Summer Intern 2027 - Software Developer | New York City, NY | 2027 | 90% | 2026-07-15 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008) |
-| Netic | Software Engineer - Agent Platform - Intern - 2026-2027 | San Francisco, CA | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7) |
 | Netic | Full-Stack Software Engineer - Product - Intern - 2026-2027 | San Francisco, CA | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/f291394a-f3c5-4f46-9b87-77aea3d487ef) |
+| Netic | Software Engineer - Agent Platform - Intern - 2026-2027 | San Francisco, CA | 2026 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7) |
 | Old Mission Capital | Software Engineer - 2027 Internship Program - June Start | Chicago, IL | 2027 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://www.oldmissioncapital.com/careers/?gh_jid=7796180003) |
 | The Trade Desk | 2027 North America Software Engineering Internship | Denver, CO +2 | 2027 | 90% | 2026-07-16 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007) |
 | TikTok | Frontend Software Engineer Project Intern - Global CRM - 2026 Start（BS/MS） | San Jose, CA | 2026 | 90% | 2026-06-23 | 2026-07-26 | [**Apply ➜**](https://lifeattiktok.com/search/7654431844394322229) |
@@ -351,8 +351,8 @@ Last updated: **2026-08-23 11:53 UTC** · auto-refreshed every 12h by [job-board
 | aquaticcapitalmanagement | Software Engineer, Early Career 🆕 | Chicago; New York | — | 82% (1 skills) | 2026-04-01 | 2026-08-23 | [**Apply ➜**](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002) |
 | SpaceX | New Graduate Engineer, Software (Application Software) | Hawthorne, CA | — | 82% (1 skills) | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8730567002?gh_jid=8730567002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
-| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
+| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
