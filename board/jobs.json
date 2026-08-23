@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T09:38:13.839Z",
+ "updatedAt": "2026-08-23T09:39:34.489Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -906,6 +906,28 @@
    "firstSeenAt": "2026-08-05T18:43:33.968Z"
   },
   {
+   "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
+   "source": "ashby",
+   "company": "Applied Intuition",
+   "title": "Software Integration Engineer - New Grad (2027)",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-14T21:59:07.522+00:00",
+   "firstSeenAt": "2026-08-14T22:34:43.994Z"
+  },
+  {
    "dedupeKey": "greenhouse:8052083",
    "source": "greenhouse",
    "company": "Hudson River Trading",
@@ -928,28 +950,6 @@
    },
    "postedAt": "2026-07-13T11:35:06-04:00",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
-   "source": "ashby",
-   "company": "Applied Intuition",
-   "title": "Software Integration Engineer - New Grad (2027)",
-   "location": "Sunnyvale",
-   "url": "https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-14T21:59:07.522+00:00",
-   "firstSeenAt": "2026-08-14T22:34:43.994Z"
   },
   {
    "dedupeKey": "ashby:452afc2e-0c79-41f8-8201-1aab7df775db",
@@ -977,60 +977,6 @@
    },
    "postedAt": "2026-07-31T23:57:14.341Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5162263007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "2027 Early Career Software Engineer",
-   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-06-11T12:31:23-04:00",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5148079007",
-   "source": "greenhouse",
-   "company": "Anduril",
-   "title": "2027 Software Engineer Intern",
-   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-06-10T19:33:06-04:00",
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
    "dedupeKey": "greenhouse:8072244",
@@ -1131,30 +1077,6 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696080002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:22:28-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696058002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1176,6 +1098,30 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:22:04-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696080002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:22:28-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -1370,6 +1316,60 @@
     "skills": 2
    },
    "postedAt": "2025-12-22T18:35:42-05:00",
+   "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5162263007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "2027 Early Career Software Engineer",
+   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5162263007?gh_jid=5162263007",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-06-11T12:31:23-04:00",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5148079007",
+   "source": "greenhouse",
+   "company": "Anduril",
+   "title": "2027 Software Engineer Intern",
+   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-06-10T19:33:06-04:00",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
