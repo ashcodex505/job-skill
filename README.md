@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-507-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-19-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--24-informational)
+![open roles](https://img.shields.io/badge/open%20roles-510-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-20-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--24-informational)
 
-Updated **2026-08-24 21:40 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-24 22:38 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Philips | Software Systems Engineering Co-op - Image Guided Therapy Devices - IVUS Clinical Imaging Software Application 🆕 | Plymouth, MN | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern-Co-op---Software-System-Engineering---Plymouth--MN---Summer-2027_590406) |
 | Atoms | Robotics Software Engineer Intern 🆕 | LA; Pittsburgh, PA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8695475002) |
 | Monolithic Power Systems | AI Developer Intern 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers/job/San-Jose---California/AI-Developer-Intern_R-1756) |
 | Booz Allen | Software Engineer Intern 🆕 | Seattle, WA; Bremerton, WA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Bremerton-WA/Software-Engineer---Intern_R0247218) |
@@ -277,5 +278,4 @@ Updated **2026-08-24 21:40 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Analog Devices | Systems Integration Engineer Intern | Wilmington, MA; Durham, NC | Fall 2026 | 100% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/System-Integration-Engineer-Intern_R265305) |
 | Microsoft | AI Software Engineer Intern - Edge | Redmond, WA; Mountain View, CA | Fall 2026 | 100% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556979054) |
 | SimIS | Artificial Intelligence Developer Intern - Aerospace/Aviation | Suffolk, VA | Fall 2026 | 100% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern) |
-| Fullbay | Software Engineer Intern | Phoenix, AZ | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://fullbay.bamboohr.com/careers/131/) |
 <!-- JOB-BOARD:END -->
