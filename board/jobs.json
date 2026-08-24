@@ -1,6 +1,28 @@
 {
- "updatedAt": "2026-08-24T20:44:10.463Z",
+ "updatedAt": "2026-08-24T21:39:20.245Z",
  "jobs": [
+  {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -438,28 +460,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
-  {
    "dedupeKey": "amazon:10412530",
    "source": "amazon",
    "company": "Amazon",
@@ -816,28 +816,6 @@
    },
    "postedAt": "2026-07-22T07:45:53.755Z",
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
-  },
-  {
-   "dedupeKey": "ashby:7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
-   "source": "ashby",
-   "company": "Replit",
-   "title": "Software Engineering Intern (Summer 2027)",
-   "location": "Foster City, CA",
-   "url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-15T18:49:00.242+00:00",
-   "firstSeenAt": "2026-08-15T19:30:12.763Z"
   },
   {
    "dedupeKey": "workday:JR2022645",
@@ -1225,6 +1203,30 @@
    "firstSeenAt": "2026-08-19T19:35:07.029Z"
   },
   {
+   "dedupeKey": "greenhouse:8696156002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:32-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
    "dedupeKey": "greenhouse:8696158002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1273,12 +1275,12 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696156002",
+   "dedupeKey": "greenhouse:8724316002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002",
    "season": null,
    "roleType": "new_grad",
    "score": 82,
@@ -1293,8 +1295,8 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-08-14T12:21:32-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+   "postedAt": "2026-08-19T11:08:34-04:00",
+   "firstSeenAt": "2026-08-24T21:39:20.245Z"
   },
   {
    "dedupeKey": "greenhouse:8729121002",
@@ -2911,6 +2913,28 @@
    },
    "postedAt": "2026-08-18",
    "firstSeenAt": "2026-08-20T13:06:36.489Z"
+  },
+  {
+   "dedupeKey": "ashby:7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+   "source": "ashby",
+   "company": "Replit",
+   "title": "Software Engineering Intern - Summer 2027",
+   "location": "Foster City, CA",
+   "url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-15T18:49:00.242+00:00",
+   "firstSeenAt": "2026-08-15T19:30:12.763Z"
   },
   {
    "dedupeKey": "reverse-discovery:eea3c0be-8589-4e3d-a684-de29a9eada0d",
@@ -6317,28 +6341,6 @@
    "firstSeenAt": "2026-08-14T06:03:38.100Z"
   },
   {
-   "dedupeKey": "simplifyjobs:ebe4a852-92bc-4d9b-8f32-f4aeea67b6f7",
-   "source": "simplifyjobs",
-   "company": "Johns Hopkins Applied Physics Laboratory",
-   "title": "Data Scientist New Grad - Data Science - System Performance Evaluation",
-   "location": "Laurel, MD",
-   "url": "https://careers.jhuapl.edu/jobs/57653?icims=1",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-14T03:58:54.000Z",
-   "firstSeenAt": "2026-08-14T06:03:38.100Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:33f1e0dc-9651-4eef-92eb-c0a9247d5893",
    "source": "simplifyjobs",
    "company": "Johns Hopkins Applied Physics Laboratory",
@@ -7645,28 +7647,6 @@
    "title": "Software Engineer Intern",
    "location": "Dallas, TX",
    "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109673",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-15T00:00:00.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b2905e3d-2dad-4ffd-a2cc-2b8c1aa04707",
-   "source": "simplifyjobs",
-   "company": "RFCUNY",
-   "title": "IT & Data Systems Intern - Archibus & Applications Development",
-   "location": "NYC",
-   "url": "https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/IT---Data-Systems-Intern--Archibus---Applications-Development-_JR3276",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -9841,28 +9821,6 @@
    "firstSeenAt": "2026-08-14T06:03:38.100Z"
   },
   {
-   "dedupeKey": "simplifyjobs:25747e2e-ee6b-44e3-bc88-704d6db5696a",
-   "source": "simplifyjobs",
-   "company": "Baker Hughes",
-   "title": "Benefit Tool Developer Intern - Month Fixed Term Contract",
-   "location": "Aberdeen, UK",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GB-AC-ABERDEEN-BAKER-HUGHES-BUILDING/Intern---Benefit-Tool-Developer--12-Month-Fixed-Term-Contract-_R168066",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-14T00:00:00.000Z",
-   "firstSeenAt": "2026-08-14T18:01:04.639Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:990a1adb-e945-417c-b734-fb15286f993b",
    "source": "simplifyjobs",
    "company": "TransMarket Group",
@@ -11271,6 +11229,50 @@
    "firstSeenAt": "2026-08-24T20:42:47.310Z"
   },
   {
+   "dedupeKey": "simplifyjobs:3d9f6139-bedb-4b94-9e84-1b542b3250ac",
+   "source": "simplifyjobs",
+   "company": "Atoms",
+   "title": "Robotics Software Engineer Intern",
+   "location": "LA; Pittsburgh, PA",
+   "url": "https://job-boards.greenhouse.io/cssmerge/jobs/8695475002",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-24T20:39:57.000Z",
+   "firstSeenAt": "2026-08-24T21:39:20.245Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:5a92381f-f858-4847-a147-1dc9ffc07f92",
+   "source": "simplifyjobs",
+   "company": "Monolithic Power Systems",
+   "title": "AI Developer Intern",
+   "location": "San Jose, CA",
+   "url": "https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers/job/San-Jose---California/AI-Developer-Intern_R-1756",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-24T00:00:00.000Z",
+   "firstSeenAt": "2026-08-24T21:39:20.245Z"
+  },
+  {
    "dedupeKey": "ashby:8c035d3d-081d-4c8a-914a-72f4efaad254",
    "source": "ashby",
    "company": "Cohere",
@@ -11343,26 +11345,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:6ad93ce0-0fca-4ce7-a3be-52c11a1e1d93",
-   "company": "Cohesity",
-   "title": "Software Engineer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-12T02:38:25.752Z",
-   "closedAt": "2026-08-17T21:36:20.612Z",
-   "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Software-Engineer_R01282"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f3f9b259-5f4f-4f09-af62-b8d45604be0d",
-   "company": "General Dynamics Mission Systems",
-   "title": "Cybersecurity Software Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-11T22:57:09.683Z",
-   "closedAt": "2026-08-17T21:36:20.612Z",
-   "url": "https://careers-gdms.icims.com/jobs/74257/job?mobile=true&needsRedirect=false"
-  },
   {
    "dedupeKey": "simplifyjobs:908ea2de-e80d-4c76-9020-f31ac7f04345",
    "company": "Medpace, Inc.",
@@ -11852,6 +11834,36 @@
    "firstSeenAt": "2026-08-20T22:39:05.977Z",
    "closedAt": "2026-08-24T18:54:38.520Z",
    "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Engineering-Intern_R-00189691"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ebe4a852-92bc-4d9b-8f32-f4aeea67b6f7",
+   "company": "Johns Hopkins Applied Physics Laboratory",
+   "title": "Data Scientist New Grad - Data Science - System Performance Evaluation",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-08-14T06:03:38.100Z",
+   "closedAt": "2026-08-24T21:39:20.245Z",
+   "url": "https://careers.jhuapl.edu/jobs/57653?icims=1"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b2905e3d-2dad-4ffd-a2cc-2b8c1aa04707",
+   "company": "RFCUNY",
+   "title": "IT & Data Systems Intern - Archibus & Applications Development",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-08-24T21:39:20.245Z",
+   "url": "https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/IT---Data-Systems-Intern--Archibus---Applications-Development-_JR3276"
+  },
+  {
+   "dedupeKey": "simplifyjobs:25747e2e-ee6b-44e3-bc88-704d6db5696a",
+   "company": "Baker Hughes",
+   "title": "Benefit Tool Developer Intern - Month Fixed Term Contract",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-14T18:01:04.639Z",
+   "closedAt": "2026-08-24T21:39:20.245Z",
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GB-AC-ABERDEEN-BAKER-HUGHES-BUILDING/Intern---Benefit-Tool-Developer--12-Month-Fixed-Term-Contract-_R168066"
   }
  ]
 }
