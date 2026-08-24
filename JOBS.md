@@ -1,13 +1,15 @@
 # 🎯 Job Board — SWE Early Career
 
-**506 open roles** across **203 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-24 14:56 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**507 open roles** across **203 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-24 15:51 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (11)
+## 🆕 New this cycle (13)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Audax Group | AI Engineer Co-op 🆕 | Boston, MA | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://job-boards.greenhouse.io/audaxgroup/jobs/4722801005) |
+| Google | Software Engineer Early Career - Multiple Teams 🆕 | Madison, WI; Seattle, WA; Austin, TX; LA; Raleigh, NC; San Bruno, CA; Durham, NC; Kirkland, WA; NYC; Sunnyvale, CA; Mountain View, CA; Atlanta, GA | — | 80% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/84680705375642310) |
 | Gulfstream | Software Engineer Intern - Innovation, Engineering and Flight 🆕 | Savannah, GA | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://careers.gulfstream.com/job/Savannah-Spring-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421676700/?ats=successfactors) |
 | The Walt Disney Company | Systems Software Engineer Intern 🆕 | Glendale, CA | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137) |
 | The Walt Disney Company | Labor Systems Web Integration Intern - Spring 2027 🆕 | Lake Buena Vista, FL | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/Labor-Systems-Web-Integration-Intern--Spring-2027_10158184) |
@@ -24,6 +26,7 @@ Last updated: **2026-08-24 14:56 UTC** · auto-refreshed every 12h by [job-board
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Audax Group | AI Engineer Co-op 🆕 | Boston, MA | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://job-boards.greenhouse.io/audaxgroup/jobs/4722801005) |
 | Gulfstream | Software Engineer Intern - Innovation, Engineering and Flight 🆕 | Savannah, GA | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://careers.gulfstream.com/job/Savannah-Spring-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421676700/?ats=successfactors) |
 | The Walt Disney Company | Systems Software Engineer Intern 🆕 | Glendale, CA | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137) |
 | The Walt Disney Company | Labor Systems Web Integration Intern - Spring 2027 🆕 | Lake Buena Vista, FL | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/Labor-Systems-Web-Integration-Intern--Spring-2027_10158184) |
@@ -113,7 +116,6 @@ Last updated: **2026-08-24 14:56 UTC** · auto-refreshed every 12h by [job-board
 | Felix Magazine | Web Developer/Programmer Intern | LA | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/LuxeMediaLLC/83337884) |
 | Tesla | Software Engineer Intern - AI Inference Co Design | Palo Alto, CA | Fall 2026 | 100% | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279600) |
 | RTX | Electro-Optical Systems Technician Intern - AN/ZSQ-2 | Fort Campbell, KY | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-KY-FORT-CAMPBELL-7228NS-CUST--7228-Nightstalker-Wy--BLDG-6882-Rm-210-External-Site/SkillBridge--AN-ZSQ-2-Electro-Optical-Systems-Depot-Technician-Intern_01865923) |
-| Foxconn Industrial Internet | Software Engineer Intern - Engineering and Operations | Houston, TX | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](http://foxconnggroup.applytojob.com/apply/xf0soVofyI/Software-Engineering-Intern) |
 | Cloudflare | Software Engineer Intern (Fall 2026) | In-Office | Fall 2026 | 100% (3 skills) | 2026-08-10 | 2026-08-11 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845) |
 | Caddi Workflow Automation | Software Engineer Intern | Seattle, WA | Fall 2026 | 100% | 2026-08-11 | 2026-08-11 | [**Apply ➜**](https://apply.workable.com/trycaddi/j/9D1291C697/apply) |
 | Atoms | Machine Learning PhD Software Engineer Intern | Seattle, WA; LA; NYC; Mountain View, CA | Winter 2027 | 100% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8693034002) |
@@ -343,7 +345,7 @@ Last updated: **2026-08-24 14:56 UTC** · auto-refreshed every 12h by [job-board
 | Virtu Financial | 2027 Internship - Software Engineer | Austin, TX +1 | 2027 | 90% | 2026-07-22 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 
-## 🎓 New Grad (188)
+## 🎓 New Grad (189)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -371,12 +373,13 @@ Last updated: **2026-08-24 14:56 UTC** · auto-refreshed every 12h by [job-board
 | aquaticcapitalmanagement | Software Engineer, Early Career | Chicago; New York | — | 82% (1 skills) | 2026-04-01 | 2026-08-23 | [**Apply ➜**](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002) |
 | SpaceX | New Graduate Engineer, Software (Application Software) | Hawthorne, CA | — | 82% (1 skills) | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8730567002?gh_jid=8730567002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
-| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
+| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
+| Google | Software Engineer Early Career - Multiple Teams 🆕 | Madison, WI; Seattle, WA; Austin, TX; LA; Raleigh, NC; San Bruno, CA; Durham, NC; Kirkland, WA; NYC; Sunnyvale, CA; Mountain View, CA; Atlanta, GA | — | 80% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/84680705375642310) |
 | Maven Securities | Developer New Grad 🆕 | Chicago, IL | — | 80% | 2026-08-03 | 2026-08-24 | [**Apply ➜**](https://job-boards.greenhouse.io/emergingtalent/jobs/8048802) |
 | True Anomaly | Software Engineer I - QA - New Grad | Denver, CO +1 | — | 80% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5219057007) |
 | Susquehanna International Group | Trading System Engineer New Grad | Bala Cynwyd, PA | — | 80% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11349/job?mobile=true&needsRedirect=false) |
@@ -542,6 +545,7 @@ Postings that disappeared from their company's feed — if one of these was on y
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Foxconn Industrial Internet | Software Engineer Intern - Engineering and Operations | Fall 2026 | 2026-08-24 |
 | L3Harris Technologies | Software Engineering Intern | Fall 2026 | 2026-08-23 |
 | Apple | Software Engineer - IS&T Early Career Opportunities | — | 2026-08-23 |
 | Toshiba Global Commerce | AI Software Engineer Intern | Fall 2026 | 2026-08-22 |
@@ -590,7 +594,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Cohesity | Software Engineer New Grad | — | 2026-08-17 |
 | General Dynamics Mission Systems | Cybersecurity Software Engineer Intern | Fall 2026 | 2026-08-17 |
 | Integration Innovation (i3) | Entry Level Software Engineer | — | 2026-08-17 |
-| Bosch Home Comfort | ADAS Software Engineer Intern | Fall 2026 | 2026-08-17 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
