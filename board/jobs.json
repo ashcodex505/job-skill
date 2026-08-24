@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T22:40:04.195Z",
+ "updatedAt": "2026-08-24T23:31:16.201Z",
  "jobs": [
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -979,58 +979,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "greenhouse:8072244",
-   "source": "greenhouse",
-   "company": "Roblox",
-   "title": "[2027] Software Engineer, Early Career",
-   "location": "San Mateo, CA, United States",
-   "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "Node.js"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2026-08-05T12:03:38-04:00",
-   "firstSeenAt": "2026-08-05T16:49:59.297Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8072713",
-   "source": "greenhouse",
-   "company": "Roblox",
-   "title": "[Summer 2027] Software Engineer Intern",
-   "location": "San Mateo, CA, United States",
-   "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "Node.js"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2026-08-05T12:03:16-04:00",
-   "firstSeenAt": "2026-08-05T16:49:59.297Z"
-  },
-  {
    "dedupeKey": "greenhouse:5162263007",
    "source": "greenhouse",
    "company": "Anduril",
@@ -1083,6 +1031,58 @@
    },
    "postedAt": "2026-06-10T19:33:06-04:00",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8072244",
+   "source": "greenhouse",
+   "company": "Roblox",
+   "title": "[2027] Software Engineer, Early Career",
+   "location": "San Mateo, CA, United States",
+   "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "Node.js"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-05T12:03:38-04:00",
+   "firstSeenAt": "2026-08-05T16:49:59.297Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8072713",
+   "source": "greenhouse",
+   "company": "Roblox",
+   "title": "[Summer 2027] Software Engineer Intern",
+   "location": "San Mateo, CA, United States",
+   "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "Node.js"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-05T12:03:16-04:00",
+   "firstSeenAt": "2026-08-05T16:49:59.297Z"
   },
   {
    "dedupeKey": "greenhouse:8493079002",
@@ -1203,12 +1203,12 @@
    "firstSeenAt": "2026-08-19T19:35:07.029Z"
   },
   {
-   "dedupeKey": "greenhouse:8696158002",
+   "dedupeKey": "greenhouse:8696156002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
    "season": null,
    "roleType": "new_grad",
    "score": 82,
@@ -1223,7 +1223,7 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-08-14T12:21:38-04:00",
+   "postedAt": "2026-08-14T12:21:32-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -1251,12 +1251,12 @@
    "firstSeenAt": "2026-08-24T21:39:20.245Z"
   },
   {
-   "dedupeKey": "greenhouse:8696156002",
+   "dedupeKey": "greenhouse:8696158002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002",
    "season": null,
    "roleType": "new_grad",
    "score": 82,
@@ -1271,7 +1271,7 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-08-14T12:21:32-04:00",
+   "postedAt": "2026-08-14T12:21:38-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -7927,28 +7927,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "simplifyjobs:33e07ede-5d28-4a3b-bf01-3140aceac8da",
-   "source": "simplifyjobs",
-   "company": "SRI International",
-   "title": "Drexel University Co-op: Software Engineering/Full stack development",
-   "location": "Princeton, NJ",
-   "url": "https://careers-sri.icims.com/jobs/6432/job?mobile=true&needsRedirect=false",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-27T22:07:27.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:498eccae-caa0-431f-8c04-ffd7922d92a6",
    "source": "simplifyjobs",
    "company": "Tesla",
@@ -11317,6 +11295,28 @@
    "firstSeenAt": "2026-08-24T22:38:40.900Z"
   },
   {
+   "dedupeKey": "simplifyjobs:23283fde-40f1-42d9-bf10-9b7362a6c553",
+   "source": "simplifyjobs",
+   "company": "Brunswick",
+   "title": "Software Engineer Intern - Boating Intelligence Design Lab",
+   "location": "Champaign, IL",
+   "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-24T00:00:00.000Z",
+   "firstSeenAt": "2026-08-24T23:31:16.201Z"
+  },
+  {
    "dedupeKey": "ashby:8c035d3d-081d-4c8a-914a-72f4efaad254",
    "source": "ashby",
    "company": "Cohere",
@@ -11898,6 +11898,16 @@
    "firstSeenAt": "2026-08-14T18:01:04.639Z",
    "closedAt": "2026-08-24T21:39:20.245Z",
    "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GB-AC-ABERDEEN-BAKER-HUGHES-BUILDING/Intern---Benefit-Tool-Developer--12-Month-Fixed-Term-Contract-_R168066"
+  },
+  {
+   "dedupeKey": "simplifyjobs:33e07ede-5d28-4a3b-bf01-3140aceac8da",
+   "company": "SRI International",
+   "title": "Drexel University Co-op: Software Engineering/Full stack development",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-08-24T23:31:16.201Z",
+   "url": "https://careers-sri.icims.com/jobs/6432/job?mobile=true&needsRedirect=false"
   }
  ]
 }
