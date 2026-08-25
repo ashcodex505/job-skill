@@ -23,7 +23,7 @@ must declare a fallback. Tests fail if either invariant is broken.
 ## Direct adapters added in this audit
 
 The following companies expose verified public Workday CXS endpoints and are
-now included in scheduled priority scans:
+now included in scheduled watch scans:
 
 - Autodesk (`autodesk.wd1.myworkdayjobs.com`, site `Ext`)
 - Expedia (`expedia.wd108.myworkdayjobs.com`, site `search`)

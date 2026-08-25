@@ -121,8 +121,7 @@ async function main() {
     console.log("Discover mode: scanning a rotating slice of the public ATS company directory");
   }
   if (watchMode) {
-    // Fires whenever a community feed repo gets a new commit (see
-    // watch.yml's gate job) — scrapes watchlisted companies +
+    // Unified scheduled mode — scrapes watchlisted companies +
     // career/priority-companies.md + career/preferences.md's Summer 2027
     // approved-companies list (same three sources --priority mode reads),
     // plus the community feeds (SimplifyJobs, speedyapply, vansh — which
@@ -130,6 +129,7 @@ async function main() {
     const extraCompanies = loadPriorityCompanies();
     const approvedCompanies = loadCareerConfig().summer2027ApprovedCompanies;
     const watched = new Set([
+      "amazon",
       ...watches.map((w) => w.company.toLowerCase()),
       ...extraCompanies.map((c) => c.toLowerCase()),
       ...approvedCompanies.map((c) => c.toLowerCase()),
@@ -147,8 +147,8 @@ async function main() {
     // (manually hand-picked drops), plus every company on career/preferences.md's
     // Summer 2027 approved-companies list that has a real adapter — so that
     // list alone is enough to get fast-lane coverage, no separate priority
-    // list required. No feed here — the gated feed-watch job already covers
-    // that on its own schedule.
+    // list required. This direct-only mode remains available for local use;
+    // CI uses --watch so direct sources and community feeds share one job.
     const extra = loadPriorityCompanies();
     const approved = loadCareerConfig().summer2027ApprovedCompanies;
     const wanted = new Set(["amazon", ...extra.map((c) => c.toLowerCase()), ...approved.map((c) => c.toLowerCase())]);
@@ -186,12 +186,12 @@ async function main() {
 
   const now = new Date().toISOString();
   let recoveryGap: RecoveryGap | null = null;
-  if (priorityMode) {
+  if (watchMode || priorityMode) {
     let watchHealth: WatchHealthState | null = null;
     try {
       watchHealth = JSON.parse(fs.readFileSync(WATCH_HEALTH_FILE, "utf8"));
     } catch {
-      /* first successful priority run */
+      /* first successful scheduled watch run */
     }
     recoveryGap = detectRecoveryGap(watchHealth, now);
     fs.writeFileSync(WATCH_HEALTH_FILE, JSON.stringify({ lastSuccessfulPriorityScanAt: now }, null, 1));
@@ -267,7 +267,7 @@ async function main() {
   if (recoveryGap) {
     const recoveryBody = [
       `<!-- watcher-recovery:${recoveryGap.fingerprint} -->`,
-      `The priority job watcher recovered after a **${recoveryGap.gapMinutes}-minute scan gap**.`,
+      `The scheduled job watcher recovered after a **${recoveryGap.gapMinutes}-minute scan gap**.`,
       "",
       `- Last successful scan: ${recoveryGap.previousSuccessfulAt}`,
       `- Recovery scan: ${recoveryGap.recoveredAt}`,

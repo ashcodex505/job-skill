@@ -4,9 +4,9 @@
 
 # Priority companies
 
-Companies checked every ~30 minutes instead of the default 12-hour sweep.
+Companies checked every 30–60 minutes instead of the default 12-hour sweep.
 Amazon is always included on the fast lane and does not need to be listed
-here. Managed from the dashboard; the CI `priority` job in watch.yml reads
+here. Managed from the dashboard; the unified CI job in watch.yml reads
 the committed copy of this file.
 
 ## Priority

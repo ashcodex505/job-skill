@@ -92,12 +92,10 @@ src/
 scripts/         build-mac-app.sh (Spotlight-launchable .app)
 career/          profile.md · preferences.md · watchlist.md (app-managed) — human-readable
 board/jobs.json     committed scraper state (firstSeenAt memory across CI runs)
-board/feed-heads.json  last-seen commit SHA per watched community repo (gate state)
 board/alerted.json  every URL ever included in a ⭐/🚨 issue (180d retention)
 board/discovery-cursor.json  next-slice offset per ATS for reverse discovery
-.github/workflows/  job-board.yml (12h full sweep) · watch.yml (community-feed
-                     scrape gated on upstream commits, twice-hourly poll; plus
-                     an ungated Amazon-only check every run) · discovery.yml
+.github/workflows/  job-board.yml (12h full sweep) · watch.yml (one unified
+                     direct-source + community-feed scan, 43–48 scheduled runs/day) · discovery.yml
                      (weekly reverse-discovery sweep) · registry-check.yml
                      (monthly slug doctor)
 ```

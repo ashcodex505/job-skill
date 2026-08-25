@@ -1,17 +1,17 @@
 import { parseSection } from "./markdown";
 
 /**
- * Priority companies: "check this one every 30 minutes, not just every
- * 12 hours". Stored in career/priority-companies.md so the CI `priority`
- * job (watch.yml) reads the committed copy, but the file is APP-MANAGED —
+ * Priority companies: "check this one every 30–60 minutes, not just every
+ * 12 hours". Stored in career/priority-companies.md so the unified CI watch
+ * job reads the committed copy, but the file is APP-MANAGED —
  * the dashboard UI is the only add/remove surface.
  *
  * Amazon is always scraped on the fast lane regardless of this list (see
- * board-cli.ts --priority) — this file only ever ADDS companies on top of
+ * board-cli.ts --watch) — this file only ever ADDS companies on top of
  * that baseline, so removing everything here can't silently disable it.
  *
  * Only companies with a real ATS adapter (registry.ts, ats !== "unsupported")
- * are eligible: a 30-minute check is only meaningful when there's an actual
+ * are eligible: a frequent check is only meaningful when there's an actual
  * API to call. Validation happens where the file is written (the API route),
  * not here — this module stays a pure parse/serialize, like watchlist.ts.
  */
@@ -22,9 +22,9 @@ const HEADER = `<!-- APP-MANAGED FILE: edited by the Resume Tracker dashboard (P
 
 # Priority companies
 
-Companies checked every ~30 minutes instead of the default 12-hour sweep.
+Companies checked every 30–60 minutes instead of the default 12-hour sweep.
 Amazon is always included on the fast lane and does not need to be listed
-here. Managed from the dashboard; the CI \`priority\` job in watch.yml reads
+here. Managed from the dashboard; the unified CI job in watch.yml reads
 the committed copy of this file.
 
 ## Priority

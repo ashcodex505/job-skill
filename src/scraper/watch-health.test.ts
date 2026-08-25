@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { detectRecoveryGap } from "./watch-health";
 
-describe("priority watcher recovery", () => {
+describe("scheduled watcher recovery", () => {
   it("reports a prolonged gap after the first successful recovery scan", () => {
     const gap = detectRecoveryGap(
       { lastSuccessfulPriorityScanAt: "2026-08-06T14:59:00Z" },

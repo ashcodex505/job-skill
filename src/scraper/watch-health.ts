@@ -1,6 +1,8 @@
 import { createHash } from "node:crypto";
 
 export interface WatchHealthState {
+  // Kept for compatibility with the committed state created by the former
+  // separate priority job. It now records every successful scheduled watch.
   lastSuccessfulPriorityScanAt: string | null;
 }
 
