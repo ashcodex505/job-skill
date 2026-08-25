@@ -1,28 +1,6 @@
 {
- "updatedAt": "2026-08-25T10:46:05.680Z",
+ "updatedAt": "2026-08-25T11:02:57.901Z",
  "jobs": [
-  {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -460,6 +438,28 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
+  {
    "dedupeKey": "amazon:10412530",
    "source": "amazon",
    "company": "Amazon",
@@ -671,32 +671,6 @@
    "firstSeenAt": "2026-08-14T19:54:43.365Z"
   },
   {
-   "dedupeKey": "greenhouse:8118845",
-   "source": "greenhouse",
-   "company": "Cloudflare",
-   "title": "Software Engineer Intern (Fall 2026)",
-   "location": "In-Office",
-   "url": "https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "JavaScript"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2026-08-10T22:49:28-04:00",
-   "firstSeenAt": "2026-08-11T04:04:44.596Z"
-  },
-  {
    "dedupeKey": "greenhouse:8118855",
    "source": "greenhouse",
    "company": "Cloudflare",
@@ -721,6 +695,32 @@
    },
    "postedAt": "2026-08-20T12:26:40-04:00",
    "firstSeenAt": "2026-08-20T16:47:46.912Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8118845",
+   "source": "greenhouse",
+   "company": "Cloudflare",
+   "title": "Software Engineer Intern (Fall 2026)",
+   "location": "In-Office",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "JavaScript"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-10T22:49:28-04:00",
+   "firstSeenAt": "2026-08-11T04:04:44.596Z"
   },
   {
    "dedupeKey": "greenhouse:8052785",
@@ -881,6 +881,30 @@
    "firstSeenAt": "2026-08-24T07:17:56.744Z"
   },
   {
+   "dedupeKey": "greenhouse:8052083",
+   "source": "greenhouse",
+   "company": "Hudson River Trading",
+   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
+   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-07-13T11:35:06-04:00",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
    "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
    "source": "ashby",
    "company": "Applied Intuition",
@@ -1036,54 +1060,6 @@
    "firstSeenAt": "2026-08-05T16:49:59.297Z"
   },
   {
-   "dedupeKey": "greenhouse:8052083",
-   "source": "greenhouse",
-   "company": "Hudson River Trading",
-   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
-   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-07-13T11:35:06-04:00",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7488508",
-   "source": "greenhouse",
-   "company": "Waymo",
-   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
-   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2025-12-22T18:35:42-05:00",
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
    "dedupeKey": "greenhouse:8493079002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1130,30 +1106,6 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696058002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:22:04-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696080002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1175,6 +1127,30 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:22:28-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696058002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:22:04-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -1202,30 +1178,6 @@
    "firstSeenAt": "2026-08-19T19:35:07.029Z"
   },
   {
-   "dedupeKey": "greenhouse:8696156002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:32-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8724316002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1250,30 +1202,6 @@
    "firstSeenAt": "2026-08-24T21:39:20.245Z"
   },
   {
-   "dedupeKey": "greenhouse:8696158002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:38-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696143002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1295,6 +1223,54 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:21:23-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696156002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:32-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696158002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:38-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -1370,6 +1346,30 @@
    },
    "postedAt": "2026-08-03T13:41:40-04:00",
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7488508",
+   "source": "greenhouse",
+   "company": "Waymo",
+   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
+   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2025-12-22T18:35:42-05:00",
+   "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:75df162887eaa2a1e91a24e11314c9effd95d62b",
@@ -9884,6 +9884,28 @@
    "firstSeenAt": "2026-08-17T14:39:18.135Z"
   },
   {
+   "dedupeKey": "simplifyjobs:47fe2157-ddd3-4233-87d7-cf96058a286d",
+   "source": "simplifyjobs",
+   "company": "Datadog",
+   "title": "Software Engineer Intern - Observability and Security Platform",
+   "location": "Boston, MA; NYC",
+   "url": "https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-17T14:35:39.000Z",
+   "firstSeenAt": "2026-08-17T15:35:41.651Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:60c7c83c-4da3-419f-b94d-37706d65f534",
    "source": "simplifyjobs",
    "company": "Point72",
@@ -10058,28 +10080,6 @@
    },
    "postedAt": "2026-08-18T01:08:29.000Z",
    "firstSeenAt": "2026-08-18T01:46:52.040Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:9131bf1f-b7ea-4120-bdd0-8ff538058bf0",
-   "source": "simplifyjobs",
-   "company": "RTX",
-   "title": "Conversion Systems Engineer 1 Intern",
-   "location": "Cedar Rapids, IA",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion-Systems-Engineer-I--Onsite-_01866833",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-17T00:00:00.000Z",
-   "firstSeenAt": "2026-08-18T07:00:21.805Z"
   },
   {
    "dedupeKey": "simplifyjobs:a167d0aa-3bb9-4b88-84a5-ee03be6a494f",
@@ -10500,6 +10500,28 @@
    "firstSeenAt": "2026-08-20T03:07:16.909Z"
   },
   {
+   "dedupeKey": "simplifyjobs:a908b011-3049-4c5c-831e-b0a4e17ddebf",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7675847556668295429",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-20T09:17:19.000Z",
+   "firstSeenAt": "2026-08-20T09:46:19.524Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:79ddabd2-cd14-4fd6-8aec-f82858b2190e",
    "source": "simplifyjobs",
    "company": "TikTok",
@@ -10696,6 +10718,28 @@
    },
    "postedAt": "2026-08-21T06:12:14.000Z",
    "firstSeenAt": "2026-08-21T07:02:58.654Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:631bbbfe-8d2d-4b49-8e16-c60d7eebde34",
+   "source": "simplifyjobs",
+   "company": "Syska Hennessy Group",
+   "title": "Innovations Intern - Full Stack/Front End Engineering",
+   "location": "NYC",
+   "url": "https://job-boards.greenhouse.io/syskahennessy/jobs/8147733",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-21T19:50:52.000Z",
+   "firstSeenAt": "2026-08-21T20:36:43.100Z"
   },
   {
    "dedupeKey": "simplifyjobs:e4dd1ece-36bc-4785-88a7-beb7bdfb4414",
@@ -10962,6 +11006,28 @@
    "firstSeenAt": "2026-08-24T14:54:46.756Z"
   },
   {
+   "dedupeKey": "simplifyjobs:1a96028f-58d2-45a5-82b1-7ab93a23a719",
+   "source": "simplifyjobs",
+   "company": "The Walt Disney Company",
+   "title": "Systems Software Engineer Intern",
+   "location": "Glendale, CA",
+   "url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137-1",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-24T00:00:00.000Z",
+   "firstSeenAt": "2026-08-24T14:54:46.756Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:f5178797-4efa-456f-aa5f-fa10203f6b9d",
    "source": "simplifyjobs",
    "company": "The Walt Disney Company",
@@ -11138,6 +11204,28 @@
    "firstSeenAt": "2026-08-24T22:38:40.900Z"
   },
   {
+   "dedupeKey": "simplifyjobs:23283fde-40f1-42d9-bf10-9b7362a6c553",
+   "source": "simplifyjobs",
+   "company": "Brunswick",
+   "title": "Software Engineer Intern - Boating Intelligence Design Lab",
+   "location": "Champaign, IL",
+   "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-24T00:00:00.000Z",
+   "firstSeenAt": "2026-08-24T23:31:16.201Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:39309c17-e806-4ea4-ba0d-0d69cfaca27f",
    "source": "simplifyjobs",
    "company": "Rivet Industries",
@@ -11157,6 +11245,28 @@
     "skills": 0
    },
    "postedAt": "2026-08-25T00:26:17.000Z",
+   "firstSeenAt": "2026-08-25T01:47:50.982Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ce5ce805-2b7c-460d-a010-28c5e413b7f6",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Flight Software Engineer Co-op",
+   "location": "Cambridge, MA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967400003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T00:49:43.000Z",
    "firstSeenAt": "2026-08-25T01:47:50.982Z"
   },
   {
@@ -11226,6 +11336,96 @@
    "firstSeenAt": "2026-08-25T04:20:05.626Z"
   },
   {
+   "dedupeKey": "simplifyjobs:7a0e26e4-7787-42a2-8128-e496212ae724",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Full Stack Software Engineer Co-op",
+   "location": "Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968093003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T06:19:43.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:eeda0ac4-569c-4d27-927d-56e668f95ffa",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Python Software Engineer Co-op",
+   "location": "Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-25T06:19:43.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:c27d16b6-b660-4fb5-b2f8-825ddf9072f7",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Cloud Software Engineer Co-op",
+   "location": "Cambridge, MA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T06:19:43.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:d7b507c0-bb45-40b2-97e2-575198d7b5c7",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Front End Software Engineer Co-op",
+   "location": "Cambridge, MA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968076003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T06:19:44.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:1e31d74f-0f5b-482c-9140-d0be0ff9eeeb",
    "source": "simplifyjobs",
    "company": "Meridian Partners",
@@ -11248,6 +11448,204 @@
    },
    "postedAt": "2026-08-25T06:19:43.000Z",
    "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:bc77c289-ab13-4062-adf6-da8e0aa72034",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Machine Learning Engineer Co-op",
+   "location": "Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968308003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T06:19:43.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:850ae44b-e26e-426b-a045-99d7bb70e509",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Full Stack Software Engineer Co-op",
+   "location": "Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T06:19:43.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b6132ac2-9368-4e6a-aa27-567060ba3f3f",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Front End Software Engineer Co-op",
+   "location": "Cambridge, MA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967961003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T06:19:44.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:8af72864-f555-42d6-8983-01f688580c2c",
+   "source": "simplifyjobs",
+   "company": "L3Harris Technologies",
+   "title": "Software Engineer Intern",
+   "location": "Fort Wayne, IN",
+   "url": "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422838400/?ats=successfactors",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T09:01:29.000Z",
+   "firstSeenAt": "2026-08-25T11:02:57.901Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b6d77c85-4c5b-4da2-819e-86166d105648",
+   "source": "simplifyjobs",
+   "company": "L3Harris Technologies",
+   "title": "Software Engineer Intern",
+   "location": "Palm Bay, FL",
+   "url": "https://jobs.l3harris.com/job/Palm-Bay-Intern-D,-Software-Engineer-FL-32905/1422837000/?ats=successfactors",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T09:01:26.000Z",
+   "firstSeenAt": "2026-08-25T11:02:57.901Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b65e3651-3dfc-4e67-a3bc-0a32f8f46d54",
+   "source": "simplifyjobs",
+   "company": "L3Harris Technologies",
+   "title": "Software Engineer Intern",
+   "location": "Palm Bay, FL",
+   "url": "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1422837500/?ats=successfactors",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T09:01:27.000Z",
+   "firstSeenAt": "2026-08-25T11:02:57.901Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:9779cb97-3712-4e51-9ee6-6c3054eddb59",
+   "source": "simplifyjobs",
+   "company": "L3Harris Technologies",
+   "title": "Software Engineer Intern",
+   "location": "Fort Wayne, IN",
+   "url": "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837800/?ats=successfactors",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T09:01:26.000Z",
+   "firstSeenAt": "2026-08-25T11:02:57.901Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:108a515b-4b16-408c-93fe-5932b4f01064",
+   "source": "simplifyjobs",
+   "company": "L3Harris Technologies",
+   "title": "Software Engineer Intern",
+   "location": "Fort Wayne, IN",
+   "url": "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837600/?ats=successfactors",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T09:01:27.000Z",
+   "firstSeenAt": "2026-08-25T11:02:57.901Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:9131bf1f-b7ea-4120-bdd0-8ff538058bf0",
+   "source": "simplifyjobs",
+   "company": "RTX",
+   "title": "Conversion Systems Engineer 1 Intern",
+   "location": "Cedar Rapids, IA",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion-Systems-Engineer-I--Onsite-_01866833",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-17T00:00:00.000Z",
+   "firstSeenAt": "2026-08-18T07:00:21.805Z"
   },
   {
    "dedupeKey": "ashby:8c035d3d-081d-4c8a-914a-72f4efaad254",
@@ -11863,36 +12261,6 @@
    "url": "https://jobs.lever.co/field-ai/8a3b5d4b-f88f-4704-bfdd-74e8dcd30704/apply"
   },
   {
-   "dedupeKey": "simplifyjobs:47fe2157-ddd3-4233-87d7-cf96058a286d",
-   "company": "Datadog",
-   "title": "Software Engineer Intern - Observability and Security Platform",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-17T15:35:41.651Z",
-   "closedAt": "2026-08-25T09:48:33.884Z",
-   "url": "https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095"
-  },
-  {
-   "dedupeKey": "simplifyjobs:631bbbfe-8d2d-4b49-8e16-c60d7eebde34",
-   "company": "Syska Hennessy Group",
-   "title": "Innovations Intern - Full Stack/Front End Engineering",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-21T20:36:43.100Z",
-   "closedAt": "2026-08-25T09:48:33.884Z",
-   "url": "https://job-boards.greenhouse.io/syskahennessy/jobs/8147733"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1a96028f-58d2-45a5-82b1-7ab93a23a719",
-   "company": "The Walt Disney Company",
-   "title": "Systems Software Engineer Intern",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-24T14:54:46.756Z",
-   "closedAt": "2026-08-25T09:48:33.884Z",
-   "url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137-1"
-  },
-  {
    "dedupeKey": "simplifyjobs:830d601a-f246-424f-8b08-23956510de08",
    "company": "Maven Securities",
    "title": "Developer New Grad",
@@ -11901,106 +12269,6 @@
    "firstSeenAt": "2026-08-24T09:28:23.495Z",
    "closedAt": "2026-08-25T10:46:05.680Z",
    "url": "https://job-boards.greenhouse.io/emergingtalent/jobs/8048802"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a908b011-3049-4c5c-831e-b0a4e17ddebf",
-   "company": "TikTok",
-   "title": "Machine Learning Engineer Intern",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-20T09:46:19.524Z",
-   "closedAt": "2026-08-25T10:46:05.680Z",
-   "url": "https://lifeattiktok.com/search/7675847556668295429"
-  },
-  {
-   "dedupeKey": "simplifyjobs:23283fde-40f1-42d9-bf10-9b7362a6c553",
-   "company": "Brunswick",
-   "title": "Software Engineer Intern - Boating Intelligence Design Lab",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-24T23:31:16.201Z",
-   "closedAt": "2026-08-25T10:46:05.680Z",
-   "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316"
-  },
-  {
-   "dedupeKey": "simplifyjobs:ce5ce805-2b7c-460d-a010-28c5e413b7f6",
-   "company": "Meridian Partners",
-   "title": "Flight Software Engineer Co-op",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-25T01:47:50.982Z",
-   "closedAt": "2026-08-25T10:46:05.680Z",
-   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967400003"
-  },
-  {
-   "dedupeKey": "simplifyjobs:7a0e26e4-7787-42a2-8128-e496212ae724",
-   "company": "Meridian Partners",
-   "title": "Full Stack Software Engineer Co-op",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-25T07:03:56.269Z",
-   "closedAt": "2026-08-25T10:46:05.680Z",
-   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968093003"
-  },
-  {
-   "dedupeKey": "simplifyjobs:eeda0ac4-569c-4d27-927d-56e668f95ffa",
-   "company": "Meridian Partners",
-   "title": "Python Software Engineer Co-op",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-25T07:03:56.269Z",
-   "closedAt": "2026-08-25T10:46:05.680Z",
-   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c27d16b6-b660-4fb5-b2f8-825ddf9072f7",
-   "company": "Meridian Partners",
-   "title": "Cloud Software Engineer Co-op",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-25T07:03:56.269Z",
-   "closedAt": "2026-08-25T10:46:05.680Z",
-   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003"
-  },
-  {
-   "dedupeKey": "simplifyjobs:d7b507c0-bb45-40b2-97e2-575198d7b5c7",
-   "company": "Meridian Partners",
-   "title": "Front End Software Engineer Co-op",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-25T07:03:56.269Z",
-   "closedAt": "2026-08-25T10:46:05.680Z",
-   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968076003"
-  },
-  {
-   "dedupeKey": "simplifyjobs:bc77c289-ab13-4062-adf6-da8e0aa72034",
-   "company": "Meridian Partners",
-   "title": "Machine Learning Engineer Co-op",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-25T07:03:56.269Z",
-   "closedAt": "2026-08-25T10:46:05.680Z",
-   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968308003"
-  },
-  {
-   "dedupeKey": "simplifyjobs:850ae44b-e26e-426b-a045-99d7bb70e509",
-   "company": "Meridian Partners",
-   "title": "Full Stack Software Engineer Co-op",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-25T07:03:56.269Z",
-   "closedAt": "2026-08-25T10:46:05.680Z",
-   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b6132ac2-9368-4e6a-aa27-567060ba3f3f",
-   "company": "Meridian Partners",
-   "title": "Front End Software Engineer Co-op",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-25T07:03:56.269Z",
-   "closedAt": "2026-08-25T10:46:05.680Z",
-   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967961003"
   }
  ]
 }
