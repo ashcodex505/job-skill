@@ -1,6 +1,28 @@
 {
- "updatedAt": "2026-08-25T06:03:13.176Z",
+ "updatedAt": "2026-08-25T07:03:56.269Z",
  "jobs": [
+  {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -436,28 +458,6 @@
    },
    "postedAt": "2025-06-26T19:53:39.925Z",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
   },
   {
    "dedupeKey": "amazon:10412530",
@@ -11378,6 +11378,186 @@
    },
    "postedAt": "2026-08-25T03:14:31.000Z",
    "firstSeenAt": "2026-08-25T04:20:05.626Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:7a0e26e4-7787-42a2-8128-e496212ae724",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Full Stack Software Engineer Co-op",
+   "location": "Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968093003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T06:19:43.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:eeda0ac4-569c-4d27-927d-56e668f95ffa",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Python Software Engineer Co-op",
+   "location": "Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-25T06:19:43.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:c27d16b6-b660-4fb5-b2f8-825ddf9072f7",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Cloud Software Engineer Co-op",
+   "location": "Cambridge, MA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T06:19:43.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:d7b507c0-bb45-40b2-97e2-575198d7b5c7",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Front End Software Engineer Co-op",
+   "location": "Cambridge, MA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968076003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T06:19:44.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:1e31d74f-0f5b-482c-9140-d0be0ff9eeeb",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Python Software Engineer Co-op",
+   "location": "Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-25T06:19:43.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:bc77c289-ab13-4062-adf6-da8e0aa72034",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Machine Learning Engineer Co-op",
+   "location": "Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968308003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T06:19:43.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:850ae44b-e26e-426b-a045-99d7bb70e509",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Full Stack Software Engineer Co-op",
+   "location": "Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T06:19:43.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b6132ac2-9368-4e6a-aa27-567060ba3f3f",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Front End Software Engineer Co-op",
+   "location": "Cambridge, MA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967961003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T06:19:44.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
   },
   {
    "dedupeKey": "ashby:8c035d3d-081d-4c8a-914a-72f4efaad254",
