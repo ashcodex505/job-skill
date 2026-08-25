@@ -252,12 +252,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-510-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-21-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--24-informational)
+![open roles](https://img.shields.io/badge/open%20roles-510-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-23-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--25-informational)
 
-Updated **2026-08-24 23:54 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-25 01:47 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Meridian Partners | Flight Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967400003) |
+| Rivet Industries | Software Engineer Intern - XR Team - Fall 2026 🆕 | Bellevue, WA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.ashbyhq.com/rivet/4e02461a-9f6c-4d3c-a511-6d54f31999bc/application?embed=true) |
 | Brunswick | Software Engineer Intern - Boating Intelligence Design Lab 🆕 | Champaign, IL | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316) |
 | Philips | Software Systems Engineering Co-op - Image Guided Therapy Devices - IVUS Clinical Imaging Software Application 🆕 | Plymouth, MN | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern-Co-op---Software-System-Engineering---Plymouth--MN---Summer-2027_590406) |
 | Atoms | Robotics Software Engineer Intern 🆕 | LA; Pittsburgh, PA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8695475002) |
@@ -276,6 +278,4 @@ Updated **2026-08-24 23:54 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | The Walt Disney Company | Labor Systems Web Integration Intern - Spring 2027 🆕 | Lake Buena Vista, FL | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Lake-Buena-Vista-FL-USA/Labor-Systems-Web-Integration-Intern--Spring-2027_10158184-1) |
 | The Walt Disney Company | Systems Software Engineer Intern 🆕 | Glendale, CA | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137-1) |
 | The Walt Disney Company | Geographic Information Systems Intern - GIS 🆕 | Anaheim, CA | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Anaheim-CA-USA/Geographic-Information-Systems--GIS--Intern--Spring-2027_10158899-1) |
-| Analog Devices | Systems Integration Engineer Intern | Wilmington, MA; Durham, NC | Fall 2026 | 100% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/System-Integration-Engineer-Intern_R265305) |
-| Microsoft | AI Software Engineer Intern - Edge | Redmond, WA; Mountain View, CA | Fall 2026 | 100% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556979054) |
 <!-- JOB-BOARD:END -->
