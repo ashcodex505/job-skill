@@ -1,6 +1,28 @@
 {
- "updatedAt": "2026-08-25T09:11:14.775Z",
+ "updatedAt": "2026-08-25T09:48:33.884Z",
  "jobs": [
+  {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -438,28 +460,6 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
-  {
    "dedupeKey": "amazon:10412530",
    "source": "amazon",
    "company": "Amazon",
@@ -793,30 +793,6 @@
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
-   "dedupeKey": "greenhouse:8052083",
-   "source": "greenhouse",
-   "company": "Hudson River Trading",
-   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
-   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-07-13T11:35:06-04:00",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
    "dedupeKey": "workday:JR2022645",
    "source": "workday",
    "company": "NVIDIA",
@@ -903,6 +879,30 @@
    },
    "postedAt": "2026-08-24",
    "firstSeenAt": "2026-08-24T07:17:56.744Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8052083",
+   "source": "greenhouse",
+   "company": "Hudson River Trading",
+   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
+   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-07-13T11:35:06-04:00",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
    "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
@@ -9906,28 +9906,6 @@
    "firstSeenAt": "2026-08-17T14:39:18.135Z"
   },
   {
-   "dedupeKey": "simplifyjobs:47fe2157-ddd3-4233-87d7-cf96058a286d",
-   "source": "simplifyjobs",
-   "company": "Datadog",
-   "title": "Software Engineer Intern - Observability and Security Platform",
-   "location": "Boston, MA; NYC",
-   "url": "https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-17T14:35:39.000Z",
-   "firstSeenAt": "2026-08-17T15:35:41.651Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:60c7c83c-4da3-419f-b94d-37706d65f534",
    "source": "simplifyjobs",
    "company": "Point72",
@@ -10764,28 +10742,6 @@
    "firstSeenAt": "2026-08-21T07:02:58.654Z"
   },
   {
-   "dedupeKey": "simplifyjobs:631bbbfe-8d2d-4b49-8e16-c60d7eebde34",
-   "source": "simplifyjobs",
-   "company": "Syska Hennessy Group",
-   "title": "Innovations Intern - Full Stack/Front End Engineering",
-   "location": "NYC",
-   "url": "https://job-boards.greenhouse.io/syskahennessy/jobs/8147733",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-21T19:50:52.000Z",
-   "firstSeenAt": "2026-08-21T20:36:43.100Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:e4dd1ece-36bc-4785-88a7-beb7bdfb4414",
    "source": "simplifyjobs",
    "company": "Fullbay",
@@ -10962,6 +10918,28 @@
    "firstSeenAt": "2026-08-24T14:54:46.756Z"
   },
   {
+   "dedupeKey": "simplifyjobs:10360e05-db49-4c1b-a62d-7e0038f835fd",
+   "source": "simplifyjobs",
+   "company": "The Walt Disney Company",
+   "title": "Geographic Information Systems Intern - GIS",
+   "location": "Anaheim, CA",
+   "url": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/Geographic-Information-Systems--GIS--Intern--Spring-2027_10158899",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-24T00:00:00.000Z",
+   "firstSeenAt": "2026-08-24T14:54:46.756Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:23aca199-d8e5-4ce4-a030-42cd3eff7a05",
    "source": "simplifyjobs",
    "company": "The Walt Disney Company",
@@ -11013,28 +10991,6 @@
    "location": "Lake Buena Vista, FL",
    "url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Lake-Buena-Vista-FL-USA/Labor-Systems-Web-Integration-Intern--Spring-2027_10158184-1",
    "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-24T00:00:00.000Z",
-   "firstSeenAt": "2026-08-24T14:54:46.756Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1a96028f-58d2-45a5-82b1-7ab93a23a719",
-   "source": "simplifyjobs",
-   "company": "The Walt Disney Company",
-   "title": "Systems Software Engineer Intern",
-   "location": "Glendale, CA",
-   "url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137-1",
-   "season": "Winter 2027",
    "roleType": "internship",
    "score": 100,
    "matchedSkills": [],
@@ -11445,6 +11401,30 @@
     "skills": 0
    },
    "postedAt": "2026-08-25T06:19:44.000Z",
+   "firstSeenAt": "2026-08-25T07:03:56.269Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:1e31d74f-0f5b-482c-9140-d0be0ff9eeeb",
+   "source": "simplifyjobs",
+   "company": "Meridian Partners",
+   "title": "Python Software Engineer Co-op",
+   "location": "Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA",
+   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-25T06:19:43.000Z",
    "firstSeenAt": "2026-08-25T07:03:56.269Z"
   },
   {
@@ -12127,24 +12107,34 @@
    "url": "https://jobs.lever.co/field-ai/8a3b5d4b-f88f-4704-bfdd-74e8dcd30704/apply"
   },
   {
-   "dedupeKey": "simplifyjobs:10360e05-db49-4c1b-a62d-7e0038f835fd",
+   "dedupeKey": "simplifyjobs:47fe2157-ddd3-4233-87d7-cf96058a286d",
+   "company": "Datadog",
+   "title": "Software Engineer Intern - Observability and Security Platform",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-17T15:35:41.651Z",
+   "closedAt": "2026-08-25T09:48:33.884Z",
+   "url": "https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095"
+  },
+  {
+   "dedupeKey": "simplifyjobs:631bbbfe-8d2d-4b49-8e16-c60d7eebde34",
+   "company": "Syska Hennessy Group",
+   "title": "Innovations Intern - Full Stack/Front End Engineering",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-21T20:36:43.100Z",
+   "closedAt": "2026-08-25T09:48:33.884Z",
+   "url": "https://job-boards.greenhouse.io/syskahennessy/jobs/8147733"
+  },
+  {
+   "dedupeKey": "simplifyjobs:1a96028f-58d2-45a5-82b1-7ab93a23a719",
    "company": "The Walt Disney Company",
-   "title": "Geographic Information Systems Intern - GIS",
+   "title": "Systems Software Engineer Intern",
    "season": "Winter 2027",
    "roleType": "internship",
    "firstSeenAt": "2026-08-24T14:54:46.756Z",
-   "closedAt": "2026-08-25T09:11:14.775Z",
-   "url": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/Geographic-Information-Systems--GIS--Intern--Spring-2027_10158899"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1e31d74f-0f5b-482c-9140-d0be0ff9eeeb",
-   "company": "Meridian Partners",
-   "title": "Python Software Engineer Co-op",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-25T07:03:56.269Z",
-   "closedAt": "2026-08-25T09:11:14.775Z",
-   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003"
+   "closedAt": "2026-08-25T09:48:33.884Z",
+   "url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137-1"
   }
  ]
 }

@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
-**519 open roles** across **207 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-25 09:11 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**518 open roles** across **205 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-25 09:48 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (21)
+## 🆕 New this cycle (19)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -13,6 +13,7 @@ Last updated: **2026-08-25 09:11 UTC** · auto-refreshed every 12h by [job-board
 | Meridian Partners | Full Stack Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968093003) |
 | Meridian Partners | Python Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003) |
 | Meridian Partners | Cloud Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003) |
+| Meridian Partners | Python Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003) |
 | Meridian Partners | Machine Learning Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968308003) |
 | Meridian Partners | Full Stack Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003) |
 | L3Harris Technologies | Software Engineer Intern 🆕 | Melbourne, FL | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Melbourne-Intern-C,-Software-Engineer-FL-32919/1422807400/?ats=successfactors) |
@@ -22,15 +23,12 @@ Last updated: **2026-08-25 09:11 UTC** · auto-refreshed every 12h by [job-board
 | Rivet Industries | Software Engineer Intern - XR Team - Fall 2026 🆕 | Bellevue, WA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.ashbyhq.com/rivet/4e02461a-9f6c-4d3c-a511-6d54f31999bc/application?embed=true) |
 | Hardin Design | Entry-Level Web Developer 🆕 | Madison, WI | — | 70% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://jobs.smartrecruiters.com/HardinDesign/744000145322155) |
 | Atoms | Robotics Software Engineer Intern 🆕 | LA; Pittsburgh, PA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8695475002) |
-| L3Harris Technologies | Software Engineer Intern 🆕 | Wilmington, MA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://jobs.l3harris.com/job/Wilmington-Intern-D,-Software-Engineer-MA-01887/1422529400/?ats=successfactors) |
-| Booz Allen | Software Engineer Intern 🆕 | Seattle, WA; Bremerton, WA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Bremerton-WA/Software-Engineer---Intern_R0247218) |
 | Brunswick | Software Engineer Intern - Boating Intelligence Design Lab 🆕 | Champaign, IL | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316) |
-| DuCharme, McMillen & Associates | Software Development Intern - Spring 2027 🆕 | Indianapolis, IN; Fort Wayne, IN | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://dmainc.wd5.myworkdayjobs.com/dma/job/Fort-Wayne-IN/Software-Development-Intern---Spring-2027_REQ634) |
 | Monolithic Power Systems | AI Developer Intern 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers/job/San-Jose---California/AI-Developer-Intern_R-1756) |
 | Philips | Software Systems Engineering Co-op - Image Guided Therapy Devices - IVUS Clinical Imaging Software Application 🆕 | Plymouth, MN | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern-Co-op---Software-System-Engineering---Plymouth--MN---Summer-2027_590406) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) 🆕 | Hawthorne, CA | — | 82% (1 skills) | 2026-08-19 | 2026-08-24 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002) |
 
-## 🛠️ Internships (330)
+## 🛠️ Internships (329)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -38,6 +36,7 @@ Last updated: **2026-08-25 09:11 UTC** · auto-refreshed every 12h by [job-board
 | Meridian Partners | Python Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003) |
 | Meridian Partners | Cloud Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003) |
 | Meridian Partners | Front End Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968076003) |
+| Meridian Partners | Python Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003) |
 | Meridian Partners | Machine Learning Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968308003) |
 | Meridian Partners | Full Stack Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003) |
 | Meridian Partners | Front End Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967961003) |
@@ -50,25 +49,24 @@ Last updated: **2026-08-25 09:11 UTC** · auto-refreshed every 12h by [job-board
 | Philips | Software Systems Engineering Co-op - Image Guided Therapy Devices - IVUS Clinical Imaging Software Application 🆕 | Plymouth, MN | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern-Co-op---Software-System-Engineering---Plymouth--MN---Summer-2027_590406) |
 | Atoms | Robotics Software Engineer Intern 🆕 | LA; Pittsburgh, PA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8695475002) |
 | Monolithic Power Systems | AI Developer Intern 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers/job/San-Jose---California/AI-Developer-Intern_R-1756) |
-| Booz Allen | Software Engineer Intern 🆕 | Seattle, WA; Bremerton, WA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Bremerton-WA/Software-Engineer---Intern_R0247218) |
-| DuCharme, McMillen & Associates | Software Development Intern - Spring 2027 🆕 | Indianapolis, IN; Fort Wayne, IN | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://dmainc.wd5.myworkdayjobs.com/dma/job/Fort-Wayne-IN/Software-Development-Intern---Spring-2027_REQ634) |
-| L3Harris Technologies | Software Engineer Intern 🆕 | Wilmington, MA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://jobs.l3harris.com/job/Wilmington-Intern-D,-Software-Engineer-MA-01887/1422529400/?ats=successfactors) |
+| Booz Allen | Software Engineer Intern | Seattle, WA; Bremerton, WA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Bremerton-WA/Software-Engineer---Intern_R0247218) |
+| DuCharme, McMillen & Associates | Software Development Intern - Spring 2027 | Indianapolis, IN; Fort Wayne, IN | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://dmainc.wd5.myworkdayjobs.com/dma/job/Fort-Wayne-IN/Software-Development-Intern---Spring-2027_REQ634) |
+| L3Harris Technologies | Software Engineer Intern | Wilmington, MA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://jobs.l3harris.com/job/Wilmington-Intern-D,-Software-Engineer-MA-01887/1422529400/?ats=successfactors) |
 | Cohere | Software Engineer Intern (Winter 2027) | Canada; United States | Winter 2027 | 100% | 2026-05-01 | 2026-08-24 | [**Apply ➜**](https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254) |
 | Audax Group | AI Engineer Co-op | Boston, MA | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://job-boards.greenhouse.io/audaxgroup/jobs/4722801005) |
 | Gulfstream | Software Engineer Intern - Innovation, Engineering and Flight | Savannah, GA | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://careers.gulfstream.com/job/Savannah-Spring-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421676700/?ats=successfactors) |
 | The Walt Disney Company | Systems Software Engineer Intern | Glendale, CA | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137) |
 | The Walt Disney Company | Labor Systems Web Integration Intern - Spring 2027 | Lake Buena Vista, FL | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/Labor-Systems-Web-Integration-Intern--Spring-2027_10158184) |
+| The Walt Disney Company | Geographic Information Systems Intern - GIS | Anaheim, CA | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/Geographic-Information-Systems--GIS--Intern--Spring-2027_10158899) |
 | The Walt Disney Company | Labor Systems Data Analytics & Integration Intern - Spring 2027 | Lake Buena Vista, FL | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/Labor-Systems-Data-Analytics---Integration-Intern--Spring-2027_10157891-1) |
 | The Walt Disney Company | Labor Systems Data Analytics & Integration Intern - Spring 2027 | Lake Buena Vista, FL | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Lake-Buena-Vista-FL-USA/Labor-Systems-Data-Analytics---Integration-Intern--Spring-2027_10157891-2) |
 | The Walt Disney Company | Labor Systems Web Integration Intern - Spring 2027 | Lake Buena Vista, FL | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Lake-Buena-Vista-FL-USA/Labor-Systems-Web-Integration-Intern--Spring-2027_10158184-1) |
-| The Walt Disney Company | Systems Software Engineer Intern | Glendale, CA | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137-1) |
 | The Walt Disney Company | Geographic Information Systems Intern - GIS | Anaheim, CA | Winter 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Anaheim-CA-USA/Geographic-Information-Systems--GIS--Intern--Spring-2027_10158899-1) |
 | Analog Devices | Systems Integration Engineer Intern | Wilmington, MA; Durham, NC | Fall 2026 | 100% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/System-Integration-Engineer-Intern_R265305) |
 | Microsoft | AI Software Engineer Intern - Edge | Redmond, WA; Mountain View, CA | Fall 2026 | 100% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556979054) |
 | SimIS | Artificial Intelligence Developer Intern - Aerospace/Aviation | Suffolk, VA | Fall 2026 | 100% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern) |
 | Fullbay | Software Engineer Intern | Phoenix, AZ | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://fullbay.bamboohr.com/careers/131/) |
 | Interdigital | Information Systems / Salesforce Intern | Conshohocken, PA | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Intern--IS-Systems---Salesforce_REQ26-1133) |
-| Syska Hennessy Group | Innovations Intern - Full Stack/Front End Engineering | NYC | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://job-boards.greenhouse.io/syskahennessy/jobs/8147733) |
 | AMD | Software Engineer Intern/Co-op - Masters | San Jose, CA; Santa Clara, CA | Spring 2027 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers.amd.com/jobs/91176?icims=1) |
 | AMD | Software Engineer Intern/Co-op | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers.amd.com/jobs/90891?icims=1) |
 | AMD | Software Engineer Intern/Co-op | Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA | Spring 2027 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers.amd.com/jobs/91180?icims=1) |
@@ -113,7 +111,6 @@ Last updated: **2026-08-25 09:11 UTC** · auto-refreshed every 12h by [job-board
 | American Fidelity | Software Mobile Intern | Oklahoma City, OK | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Mobile-Intern--OKC-Local-Only-_JR1021) |
 | Intel | Software Development Intern | Folsom, CA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1) |
 | Point72 | Quantitative Developer Intern | NYC | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://boards.greenhouse.io/point72/jobs/8721562002) |
-| Datadog | Software Engineer Intern - Observability and Security Platform | Boston, MA; NYC | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Governance | Seattle, WA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://lifeattiktok.com/search/7674029136531015941) |
 | Replit | Software Engineering Intern - Summer 2027 | Foster City, CA | Summer 2027 | 100% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1) |
 | Abridge | Software Engineer Intern | SF; NYC | Fall 2026 | 100% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application?embed=true) |
@@ -559,14 +556,15 @@ Last updated: **2026-08-25 09:11 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (56)
+## 🚪 Recently closed (last 7 days) (57)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
-| The Walt Disney Company | Geographic Information Systems Intern - GIS | Winter 2027 | 2026-08-25 |
-| Meridian Partners | Python Software Engineer Co-op | Fall 2026 | 2026-08-25 |
+| Datadog | Software Engineer Intern - Observability and Security Platform | Winter 2027 | 2026-08-25 |
+| Syska Hennessy Group | Innovations Intern - Full Stack/Front End Engineering | Fall 2026 | 2026-08-25 |
+| The Walt Disney Company | Systems Software Engineer Intern | Winter 2027 | 2026-08-25 |
 | Traba | Software Engineer New Grad | — | 2026-08-25 |
 | Field AI | Robotics Controls Intern - Robot Control Systems | Fall 2026 | 2026-08-25 |
 | SRI International | Drexel University Co-op: Software Engineering/Full stack development | Fall 2026 | 2026-08-24 |
