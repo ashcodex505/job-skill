@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
-**531 open roles** across **204 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-25 19:57 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**529 open roles** across **203 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-25 20:41 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (30)
+## 🆕 New this cycle (22)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -21,14 +21,6 @@ Last updated: **2026-08-25 19:57 UTC** · auto-refreshed every 12h by [job-board
 | L3Harris Technologies | Software Engineer Intern 🆕 | Fort Wayne, IN | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837600/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern 🆕 | Palm Bay, FL | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Palm-Bay-Intern-D,-Software-Engineer-FL-32905/1422837000/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern 🆕 | Fort Wayne, IN | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837800/?ats=successfactors) |
-| Meridian Partners | Front End Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968076003) |
-| Meridian Partners | Front End Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967961003) |
-| Meridian Partners | Full Stack Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968093003) |
-| Meridian Partners | Python Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003) |
-| Meridian Partners | Cloud Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003) |
-| Meridian Partners | Python Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003) |
-| Meridian Partners | Machine Learning Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968308003) |
-| Meridian Partners | Full Stack Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003) |
 | Advanced Space | 2027 Software Engineering Summer Internship 🆕 | Westminster, CO | 2027 | 90% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/advancedspace/jobs/4324855009) |
 | Fidelity Investments | Software Engineer New Grad - LEAP 🆕 | Westlake, TX; Merrimack, NH | — | 80% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://fmr.wd1.myworkdayjobs.com/targeted/job/Westlake-TX/XMLNAME-2026-Undergraduate---LEAP--Software-Engineer_2134380) |
 | DMA | Software Development Intern - Spring 2027 🆕 | Fort Wayne, IN +1 | Spring 2027 | 100% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://dmainc.wd5.myworkdayjobs.com/en-US/dma/job/Fort-Wayne-IN/Software-Development-Intern---Spring-2027_REQ634) |
@@ -39,7 +31,7 @@ Last updated: **2026-08-25 19:57 UTC** · auto-refreshed every 12h by [job-board
 | General Dynamics Mission Systems | Entry Level Software Systems Engineer 🆕 | Manassas, VA | — | 70% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74522/entry-level-software-systems-engineer/job) |
 | Amentum | Entry Level Software Engineer 🆕 | Fredericksburg, VA; Dahlgren, VA | — | 70% | 2026-07-06 | 2026-08-25 | [**Apply ➜**](https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-VA-Dahlgren/Entry-Level-Software-Engineer_R0165144) |
 
-## 🛠️ Internships (345)
+## 🛠️ Internships (344)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -55,14 +47,14 @@ Last updated: **2026-08-25 19:57 UTC** · auto-refreshed every 12h by [job-board
 | L3Harris Technologies | Software Engineer Intern 🆕 | Palm Bay, FL | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1422837500/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern 🆕 | Fort Wayne, IN | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837800/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern 🆕 | Fort Wayne, IN | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837600/?ats=successfactors) |
-| Meridian Partners | Full Stack Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968093003) |
-| Meridian Partners | Python Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003) |
-| Meridian Partners | Cloud Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003) |
-| Meridian Partners | Front End Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968076003) |
-| Meridian Partners | Python Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003) |
-| Meridian Partners | Machine Learning Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968308003) |
-| Meridian Partners | Full Stack Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003) |
-| Meridian Partners | Front End Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967961003) |
+| Meridian Partners | Full Stack Software Engineer Co-op | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968093003) |
+| Meridian Partners | Python Software Engineer Co-op | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003) |
+| Meridian Partners | Cloud Software Engineer Co-op | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003) |
+| Meridian Partners | Front End Software Engineer Co-op | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968076003) |
+| Meridian Partners | Python Software Engineer Co-op | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003) |
+| Meridian Partners | Machine Learning Engineer Co-op | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968308003) |
+| Meridian Partners | Full Stack Software Engineer Co-op | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003) |
+| Meridian Partners | Front End Software Engineer Co-op | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967961003) |
 | L3Harris Technologies | Software Engineer Intern | Melbourne, FL | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Melbourne-Intern-C,-Software-Engineer-FL-32919/1422807400/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern | Fort Wayne, IN | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Fort-Wayne-Intern-D,-Software-Engineer-IN-46818/1422797900/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern | Palm Bay, FL | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Palm-Bay-Intern-D,-Software-Engineer-FL-32905/1422806300/?ats=successfactors) |
@@ -178,7 +170,6 @@ Last updated: **2026-08-25 19:57 UTC** · auto-refreshed every 12h by [job-board
 | Varda | Flight Software Internship - Spring 2027 | El Segundo, CA | Spring 2027 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/vardaspace/jobs/7824815003) |
 | Varda Space | Applications Engineer Intern | El Segundo, CA | Spring 2027 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/vardaspace/jobs/7824822003) |
 | Terranova | Software Engineer Intern | Berkeley, CA | Fall 2026 | 100% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/terranova/a8e5a8d2-4af3-4736-b66e-e0804447f7a0/application?embed=true) |
-| Atoms | Software Engineer Intern - Winter 2027 | Seattle, WA; SF; LA; NYC; Mountain View, CA | Winter 2027 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8687915002) |
 | Centerfield | Frontend Engineer Intern | LA | Fall 2026 | 100% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/centerfield/1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4/application?embed=true) |
 | Palantir | Forward Deployed Software Engineer Intern - Commercial | Chicago, IL | Winter 2027 | 100% | 2026-06-30 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2/apply) |
 | Palantir | Forward Deployed Software Engineer Intern - Commercial | NYC | Winter 2027 | 100% | 2026-06-29 | 2026-08-06 | [**Apply ➜**](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6/apply) |
@@ -389,7 +380,7 @@ Last updated: **2026-08-25 19:57 UTC** · auto-refreshed every 12h by [job-board
 | Virtu Financial | 2027 Internship - Software Engineer | Austin, TX +1 | 2027 | 90% | 2026-07-22 | 2026-07-26 | [**Apply ➜**](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Westboro, Wisconsin, USA | 2026 | 90% | 2025-12-03 | 2026-07-26 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 
-## 🎓 New Grad (186)
+## 🎓 New Grad (185)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -419,9 +410,9 @@ Last updated: **2026-08-25 19:57 UTC** · auto-refreshed every 12h by [job-board
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Fidelity Investments | Software Engineer New Grad - LEAP 🆕 | Westlake, TX; Merrimack, NH | — | 80% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://fmr.wd1.myworkdayjobs.com/targeted/job/Westlake-TX/XMLNAME-2026-Undergraduate---LEAP--Software-Engineer_2134380) |
 | Google | Software Engineer Early Career - Multiple Teams | Madison, WI; Seattle, WA; Austin, TX; LA; Raleigh, NC; San Bruno, CA; Durham, NC; Kirkland, WA; NYC; Sunnyvale, CA; Mountain View, CA; Atlanta, GA | — | 80% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/84680705375642310) |
@@ -430,7 +421,6 @@ Last updated: **2026-08-25 19:57 UTC** · auto-refreshed every 12h by [job-board
 | Anduril | Early Career Test and Evaluation Systems Integrator | Costa Mesa, CA | — | 80% | 2026-07-13 | 2026-08-20 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5185888007) |
 | Susquehanna International Group | Quantitative Strategy Developer - New Grad | Bala Cynwyd, PA | — | 80% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11321/quantitative-strategy-developer---new-grad/job) |
 | Kikoff | Software Engineer New Grad | SF | — | 80% | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://job-boards.greenhouse.io/kikoff/jobs/4376677009) |
-| GlobalFoundries | AI/ML Software Engineer New Grad | Austin, TX; Santa Clara, CA; Richardson, TX | — | 80% | 2026-08-19 | 2026-08-20 | [**Apply ➜**](https://globalfoundries.wd1.myworkdayjobs.com/External/job/Richardson/AI-ML-Software-Engineer--2026-New-College-Graduate-_JR-2602832) |
 | Susquehanna International Group | Quantitative Strategy Developer New Grad | Bala Cynwyd, PA | — | 80% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11321/job?mobile=true&needsRedirect=false) |
 | SpaceX | New Graduate Engineer, Software (Starship) | Starbase, TX | — | 80% | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8729121002?gh_jid=8729121002) |
 | Koah Labs | Software Engineer - Early Career | San Francisco, CA | — | 80% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.ashbyhq.com/koahlabs/197c931d-3cda-44b3-b26b-470976730808) |
@@ -580,12 +570,14 @@ Last updated: **2026-08-25 19:57 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (62)
+## 🚪 Recently closed (last 7 days) (64)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| GlobalFoundries | AI/ML Software Engineer New Grad | — | 2026-08-25 |
+| Atoms | Software Engineer Intern - Winter 2027 | Winter 2027 | 2026-08-25 |
 | Atoms | Software Engineer New Grad | — | 2026-08-25 |
 | Intel | Software Development Intern | Fall 2026 | 2026-08-25 |
 | Atoms | Robotics Software Engineer Intern | Fall 2026 | 2026-08-25 |

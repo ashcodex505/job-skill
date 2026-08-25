@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-531-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-30-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--25-informational)
+![open roles](https://img.shields.io/badge/open%20roles-529-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-22-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--25-informational)
 
-Updated **2026-08-25 19:57 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-25 20:41 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -270,12 +270,12 @@ Updated **2026-08-25 19:57 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | L3Harris Technologies | Software Engineer Intern 🆕 | Palm Bay, FL | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1422837500/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern 🆕 | Fort Wayne, IN | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837800/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern 🆕 | Fort Wayne, IN | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837600/?ats=successfactors) |
-| Meridian Partners | Full Stack Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968093003) |
-| Meridian Partners | Python Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003) |
-| Meridian Partners | Cloud Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003) |
-| Meridian Partners | Front End Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968076003) |
-| Meridian Partners | Python Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003) |
-| Meridian Partners | Machine Learning Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968308003) |
-| Meridian Partners | Full Stack Software Engineer Co-op 🆕 | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003) |
-| Meridian Partners | Front End Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967961003) |
+| Meridian Partners | Full Stack Software Engineer Co-op | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968093003) |
+| Meridian Partners | Python Software Engineer Co-op | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003) |
+| Meridian Partners | Cloud Software Engineer Co-op | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003) |
+| Meridian Partners | Front End Software Engineer Co-op | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968076003) |
+| Meridian Partners | Python Software Engineer Co-op | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% (1 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003) |
+| Meridian Partners | Machine Learning Engineer Co-op | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968308003) |
+| Meridian Partners | Full Stack Software Engineer Co-op | Cambridge, MA; Seattle, WA; Arlington County, Arlington, VA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003) |
+| Meridian Partners | Front End Software Engineer Co-op | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967961003) |
 <!-- JOB-BOARD:END -->
