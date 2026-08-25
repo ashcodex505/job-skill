@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**527 open roles** across **204 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-25 15:56 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**525 open roles** across **203 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-25 16:11 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (26)
@@ -35,7 +35,7 @@ Last updated: **2026-08-25 15:56 UTC** · auto-refreshed every 12h by [job-board
 | Philips | Co-op - Software System Engineering - Plymouth - MN - January 2027 🆕 | Plymouth, MN | 2027 | 90% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern-Co-op---Software-System-Engineering---Plymouth--MN---Summer-2027_590406) |
 | General Dynamics Mission Systems | Entry Level Software Systems Engineer 🆕 | Manassas, VA | — | 70% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74522/entry-level-software-systems-engineer/job) |
 
-## 🛠️ Internships (342)
+## 🛠️ Internships (340)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -64,7 +64,6 @@ Last updated: **2026-08-25 15:56 UTC** · auto-refreshed every 12h by [job-board
 | Meridian Partners | Flight Software Engineer Co-op | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967400003) |
 | Rivet Industries | Software Engineer Intern - XR Team - Fall 2026 | Bellevue, WA | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.ashbyhq.com/rivet/4e02461a-9f6c-4d3c-a511-6d54f31999bc/application?embed=true) |
 | Brunswick | Software Engineer Intern - Boating Intelligence Design Lab | Champaign, IL | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316) |
-| Atoms | Robotics Software Engineer Intern | LA; Pittsburgh, PA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8695475002) |
 | Monolithic Power Systems | AI Developer Intern | San Jose, CA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers/job/San-Jose---California/AI-Developer-Intern_R-1756) |
 | Booz Allen | Software Engineer Intern | Seattle, WA; Bremerton, WA | Fall 2026 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Bremerton-WA/Software-Engineer---Intern_R0247218) |
 | DuCharme, McMillen & Associates | Software Development Intern - Spring 2027 | Indianapolis, IN; Fort Wayne, IN | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://dmainc.wd5.myworkdayjobs.com/dma/job/Fort-Wayne-IN/Software-Development-Intern---Spring-2027_REQ634) |
@@ -127,7 +126,6 @@ Last updated: **2026-08-25 15:56 UTC** · auto-refreshed every 12h by [job-board
 | SightCall | Web Developer Intern | SF | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/SightCall/80298252) |
 | Zoomifier | Software Development Intern | NYC | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/CustomShow/75886593) |
 | American Fidelity | Software Mobile Intern | Oklahoma City, OK | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Mobile-Intern--OKC-Local-Only-_JR1021) |
-| Intel | Software Development Intern | Folsom, CA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1) |
 | Point72 | Quantitative Developer Intern | NYC | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://boards.greenhouse.io/point72/jobs/8721562002) |
 | Datadog | Software Engineer Intern - Observability and Security Platform | Boston, MA; NYC | Winter 2027 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Governance | Seattle, WA | Fall 2026 | 100% | 2026-08-17 | 2026-08-17 | [**Apply ➜**](https://lifeattiktok.com/search/7674029136531015941) |
@@ -572,12 +570,14 @@ Last updated: **2026-08-25 15:56 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (59)
+## 🚪 Recently closed (last 7 days) (61)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Intel | Software Development Intern | Fall 2026 | 2026-08-25 |
+| Atoms | Robotics Software Engineer Intern | Fall 2026 | 2026-08-25 |
 | Philips | Software Systems Engineering Co-op - Image Guided Therapy Devices - IVUS Clinical Imaging Software Application | Winter 2027 | 2026-08-25 |
 | Draper | Full Stack Web Development Co-Op - Spring 2027 | Spring 2027 | 2026-08-25 |
 | Replit | Software Engineering Intern - Summer 2027 | Summer 2027 | 2026-08-25 |
