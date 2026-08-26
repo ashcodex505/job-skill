@@ -88,8 +88,7 @@ jobs:
             echo "No board changes."
           else
             git commit \
-              -m "chore: refresh job board (${{ steps.board.outputs.summary }}) [skip ci]" \
-              -m "Co-authored-by: Ashish Kurse <ashishkurse@gmail.com>"
+               -m "chore: refresh job board (${{ steps.board.outputs.summary }}) [skip ci]"
             if ! git pull --rebase origin main; then
               echo "Push race detected — dropping this run's board commit; it self-corrects next run."
               git rebase --abort
