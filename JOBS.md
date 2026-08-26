@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
 **543 open roles** across **205 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-26 04:52 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-26 05:08 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (26)
+## 🆕 New this cycle (25)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -31,7 +31,6 @@ Last updated: **2026-08-26 04:52 UTC** · auto-refreshed every 12h by [job-board
 | Verkada | Backend Software Engineering Intern 2027 🆕 | San Mateo, CA United States | 2027 | 96% (4 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5210813007) |
 | Johns Hopkins Applied Physics Laboratory | Data Scientist Intern - Data Science - System Performance Evaluation 🆕 | Laurel, MD | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://careers.jhuapl.edu/jobs/59800?icims=1) |
 | Brunswick | Systems Engineer Co-op - Software Engineering 🆕 | Fond du Lac, WI | Winter 2027 | 100% | 2026-08-25 | 2026-08-26 | [**Apply ➜**](https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine---Systems-Software-Engineering-Co-op_JR-051212) |
-| Fidelity Investments | Software Engineer New Grad - LEAP 🆕 | Westlake, TX; Merrimack, NH | — | 80% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://fmr.wd1.myworkdayjobs.com/targeted/job/Westlake-TX/XMLNAME-2026-Undergraduate---LEAP--Software-Engineer_2134380) |
 | Micron Technology | System Software Engineer New Grad 🆕 | Boise, ID | — | 80% | 2026-08-25 | 2026-08-26 | [**Apply ➜**](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---SIG-Building/New-College-Grad---System-Software-Engineer_JR109291) |
 | Amentum | Entry Level Software Engineer 🆕 | Fredericksburg, VA; Dahlgren, VA | — | 70% | 2026-07-06 | 2026-08-25 | [**Apply ➜**](https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-VA-Dahlgren/Entry-Level-Software-Engineer_R0165144) |
 
@@ -433,7 +432,7 @@ Last updated: **2026-08-26 04:52 UTC** · auto-refreshed every 12h by [job-board
 | True Anomaly | Software Engineer 1 New Grad - Spacecraft Simulation 🆕 | Long Beach, CA; Denver, CO | — | 80% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5221555007) |
 | True Anomaly | Flight Software Engineer 1 New Grad 🆕 | Long Beach, CA; Denver, CO | — | 80% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5221572007) |
 | True Anomaly | Data Science Software Engineer 1 New Grad - Data Science 🆕 | Long Beach, CA; Denver, CO | — | 80% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5221560007) |
-| Fidelity Investments | Software Engineer New Grad - LEAP 🆕 | Westlake, TX; Merrimack, NH | — | 80% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://fmr.wd1.myworkdayjobs.com/targeted/job/Westlake-TX/XMLNAME-2026-Undergraduate---LEAP--Software-Engineer_2134380) |
+| Fidelity Investments | Software Engineer New Grad - LEAP | Westlake, TX; Merrimack, NH | — | 80% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://fmr.wd1.myworkdayjobs.com/targeted/job/Westlake-TX/XMLNAME-2026-Undergraduate---LEAP--Software-Engineer_2134380) |
 | Google | Software Engineer Early Career - Multiple Teams | Madison, WI; Seattle, WA; Austin, TX; LA; Raleigh, NC; San Bruno, CA; Durham, NC; Kirkland, WA; NYC; Sunnyvale, CA; Mountain View, CA; Atlanta, GA | — | 80% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/84680705375642310) |
 | True Anomaly | Software Engineer I - QA - New Grad | Denver, CO +1 | — | 80% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5219057007) |
 | Susquehanna International Group | Trading System Engineer New Grad | Bala Cynwyd, PA | — | 80% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11349/job?mobile=true&needsRedirect=false) |
