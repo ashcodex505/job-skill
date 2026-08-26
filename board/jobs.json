@@ -1,28 +1,6 @@
 {
- "updatedAt": "2026-08-26T08:58:37.833Z",
+ "updatedAt": "2026-08-26T09:21:42.062Z",
  "jobs": [
-  {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -460,31 +438,26 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
-   "dedupeKey": "greenhouse:8732364002",
-   "source": "greenhouse",
-   "company": "Databricks",
-   "title": "Software Engineering Intern (2027 Start) - Winter",
-   "location": "Bellevue, Washington; Mountain View, California; San Francisco, California",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002",
-   "season": "2027",
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
    "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "Data Structures",
-    "Algorithms"
-   ],
+   "score": 100,
+   "matchedSkills": [],
    "breakdown": {
     "role": 40,
     "roleType": 30,
-    "season": 10,
+    "season": 25,
     "location": 0,
     "keywords": 10,
-    "skills": 6
+    "skills": 0
    },
-   "postedAt": "2026-08-20T19:40:25-04:00",
-   "firstSeenAt": "2026-08-20T23:57:01.929Z"
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
   },
   {
    "dedupeKey": "amazon:10412530",
@@ -531,6 +504,33 @@
    },
    "postedAt": "2025-12-03",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8732364002",
+   "source": "greenhouse",
+   "company": "Databricks",
+   "title": "Software Engineering Intern (2027 Start) - Winter",
+   "location": "Bellevue, Washington; Mountain View, California; San Francisco, California",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-08-20T19:40:25-04:00",
+   "firstSeenAt": "2026-08-20T23:57:01.929Z"
   },
   {
    "dedupeKey": "greenhouse:6131089004",
@@ -5002,28 +5002,6 @@
    "firstSeenAt": "2026-07-08T07:44:25.607Z"
   },
   {
-   "dedupeKey": "simplifyjobs:d0aa5e4a-9602-46ff-a906-bcd51900a9a5",
-   "source": "simplifyjobs",
-   "company": "Applied Materials",
-   "title": "Software Engineer 2 – New College Grad",
-   "location": "Santa Clara, CA",
-   "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineer-II--New-College-Grad---Santa-Clara--CA-_R2622398",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 70,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-07-08T01:09:22.000Z",
-   "firstSeenAt": "2026-08-21T22:36:17.181Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:053e56c0-3d9e-4d1c-83c7-b891671a652c",
    "source": "simplifyjobs",
    "company": "Hudson River Trading",
@@ -5838,6 +5816,28 @@
    },
    "postedAt": "2026-08-03T09:16:39.000Z",
    "firstSeenAt": "2026-08-03T12:34:46.349Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:830d601a-f246-424f-8b08-23956510de08",
+   "source": "simplifyjobs",
+   "company": "Maven Securities",
+   "title": "Developer New Grad",
+   "location": "Chicago, IL",
+   "url": "https://job-boards.greenhouse.io/emergingtalent/jobs/8048802",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T09:27:21.000Z",
+   "firstSeenAt": "2026-08-24T09:28:23.495Z"
   },
   {
    "dedupeKey": "simplifyjobs:e5443b5b-331f-470e-b03e-f8cb378f467a",
@@ -8230,6 +8230,28 @@
    "title": "Software Engineer Intern",
    "location": "Dallas, TX",
    "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T00:00:00.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:079e1669-46b8-488f-8297-f7c139a745ec",
+   "source": "simplifyjobs",
+   "company": "Copart",
+   "title": "Software Engineer Intern",
+   "location": "Dallas, TX",
+   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109965",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -12559,16 +12581,6 @@
    "url": "https://jobs.lever.co/field-ai/8a3b5d4b-f88f-4704-bfdd-74e8dcd30704/apply"
   },
   {
-   "dedupeKey": "simplifyjobs:830d601a-f246-424f-8b08-23956510de08",
-   "company": "Maven Securities",
-   "title": "Developer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-24T09:28:23.495Z",
-   "closedAt": "2026-08-25T10:46:05.680Z",
-   "url": "https://job-boards.greenhouse.io/emergingtalent/jobs/8048802"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:290b23f7ea0a405cb561b9a3b27298afc5f76cf5",
    "company": "Draper",
    "title": "Full Stack Web Development Co-Op - Spring 2027",
@@ -12739,14 +12751,14 @@
    "url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Bremerton-WA/Software-Engineer---Intern_R0247218"
   },
   {
-   "dedupeKey": "simplifyjobs:079e1669-46b8-488f-8297-f7c139a745ec",
-   "company": "Copart",
-   "title": "Software Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-26T08:58:37.833Z",
-   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109965"
+   "dedupeKey": "simplifyjobs:d0aa5e4a-9602-46ff-a906-bcd51900a9a5",
+   "company": "Applied Materials",
+   "title": "Software Engineer 2 – New College Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-08-21T22:36:17.181Z",
+   "closedAt": "2026-08-26T09:21:42.062Z",
+   "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineer-II--New-College-Grad---Santa-Clara--CA-_R2622398"
   }
  ]
 }

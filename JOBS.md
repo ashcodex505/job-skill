@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**542 open roles** across **205 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-26 08:58 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**543 open roles** across **205 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-26 09:21 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (18)
@@ -27,7 +27,7 @@ Last updated: **2026-08-26 08:58 UTC** · auto-refreshed every 12h by [job-board
 | Brunswick | Systems Engineer Co-op - Software Engineering 🆕 | Fond du Lac, WI | Winter 2027 | 100% | 2026-08-25 | 2026-08-26 | [**Apply ➜**](https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine---Systems-Software-Engineering-Co-op_JR-051212) |
 | Micron Technology | System Software Engineer New Grad 🆕 | Boise, ID | — | 80% | 2026-08-25 | 2026-08-26 | [**Apply ➜**](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---SIG-Building/New-College-Grad---System-Software-Engineer_JR109291) |
 
-## 🛠️ Internships (350)
+## 🛠️ Internships (351)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -237,6 +237,7 @@ Last updated: **2026-08-26 08:58 UTC** · auto-refreshed every 12h by [job-board
 | Copart | Software Engineer Intern | Dallas, TX | Fall 2026 | 100% | 2026-07-15 | 2026-08-02 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109673) |
 | Copart | Software Engineer Intern | Dallas, TX | Fall 2026 | 100% | 2026-07-20 | 2026-08-02 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079) |
 | Copart | Software Engineer Intern | Dallas, TX | Fall 2026 | 100% | 2026-07-30 | 2026-08-02 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964) |
+| Copart | Software Engineer Intern | Dallas, TX | Fall 2026 | 100% | 2026-07-30 | 2026-08-02 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109965) |
 | Dexmate | Frontend Engineer Intern | Fremont, CA | Fall 2026 | 100% | 2026-07-21 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/dexmate/eac26b6f-1a53-441f-8e52-ee0a0b1bc119/application?embed=true) |
 | Droyd Robotics | Software Engineer Intern | SF | Fall 2026 | 100% | 2026-07-04 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/droyd/8d46ed05-1b38-4c68-938e-f10b4c7d4694/application) |
 | Heliux | Software Engineer - Internship - Spring 2027 | San Francisco, CA | Spring 2027 | 100% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/heliux/c71c0650-b6f7-491f-b291-6b280f58ee9c) |
@@ -426,6 +427,7 @@ Last updated: **2026-08-26 08:58 UTC** · auto-refreshed every 12h by [job-board
 | True Anomaly | Data Science Software Engineer 1 New Grad - Data Science 🆕 | Long Beach, CA; Denver, CO | — | 80% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5221560007) |
 | Fidelity Investments | Software Engineer New Grad - LEAP | Westlake, TX; Merrimack, NH | — | 80% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://fmr.wd1.myworkdayjobs.com/targeted/job/Westlake-TX/XMLNAME-2026-Undergraduate---LEAP--Software-Engineer_2134380) |
 | Google | Software Engineer Early Career - Multiple Teams | Madison, WI; Seattle, WA; Austin, TX; LA; Raleigh, NC; San Bruno, CA; Durham, NC; Kirkland, WA; NYC; Sunnyvale, CA; Mountain View, CA; Atlanta, GA | — | 80% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/84680705375642310) |
+| Maven Securities | Developer New Grad | Chicago, IL | — | 80% | 2026-08-03 | 2026-08-24 | [**Apply ➜**](https://job-boards.greenhouse.io/emergingtalent/jobs/8048802) |
 | True Anomaly | Software Engineer I - QA - New Grad | Denver, CO +1 | — | 80% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5219057007) |
 | Susquehanna International Group | Trading System Engineer New Grad | Bala Cynwyd, PA | — | 80% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11349/job?mobile=true&needsRedirect=false) |
 | Anduril | Early Career Test and Evaluation Systems Integrator | Costa Mesa, CA | — | 80% | 2026-07-13 | 2026-08-20 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5185888007) |
@@ -553,7 +555,6 @@ Last updated: **2026-08-26 08:58 UTC** · auto-refreshed every 12h by [job-board
 | Assyst | .NET Developer - Entry Level | Sterling, VA | — | 70% | 2026-08-17 | 2026-08-22 | [**Apply ➜**](https://job-boards.greenhouse.io/assystinc/jobs/4371586009) |
 | General Dynamics Mission Systems | Software Engineer - Entry Level | Manassas, VA | — | 70% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74471/software-engineer-%e2%80%93-entry-level/job) |
 | i3 Corps | Entry Level Software Engineer | Huntsville, AL | — | 70% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://careers-i3-corps.icims.com/jobs/5218/entry-level-software-engineer/job) |
-| Applied Materials | Software Engineer 2 – New College Grad | Santa Clara, CA | — | 70% | 2026-07-08 | 2026-08-21 | [**Apply ➜**](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineer-II--New-College-Grad---Santa-Clara--CA-_R2622398) |
 | General Dynamics Mission Systems | Software Engineer - Entry Level | Manassas, VA | — | 70% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74471/job?mobile=true&needsRedirect=false) |
 | Amentum | Software Programmer - Entry Level | Tullahoma, TN | — | 70% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-TN-Tullahoma/Software-Programmer---Entry-Level_R0168838) |
 | VivSoft Technologies | Software Engineer - Entry Level | Herndon, VA | — | 70% | 2026-06-02 | 2026-08-21 | [**Apply ➜**](http://vivsofttechnologiesfa.applytojob.com/apply/QLa8RzmXAc/Software-Engineer-Entry-Level) |
@@ -579,13 +580,13 @@ Last updated: **2026-08-26 08:58 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (64)
+## 🚪 Recently closed (last 7 days) (63)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
-| Copart | Software Engineer Intern | Fall 2026 | 2026-08-26 |
+| Applied Materials | Software Engineer 2 – New College Grad | — | 2026-08-26 |
 | Booz Allen | Software Engineer Intern | Fall 2026 | 2026-08-26 |
 | NVIDIA | Developer Technology Engineer New Grad - Public Sector | — | 2026-08-26 |
 | Tesla | Software Engineer Intern - Software Engineer - Information Security | Fall 2026 | 2026-08-26 |
@@ -603,7 +604,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Leidos | Entry-Level Software Developer | — | 2026-08-25 |
 | Symbotic | New Grad- Software Engineer | — | 2026-08-25 |
 | Samsara | Software Engineer I - New Grad - SF | — | 2026-08-25 |
-| Maven Securities | Developer New Grad | — | 2026-08-25 |
 | Traba | Software Engineer New Grad | — | 2026-08-25 |
 | Field AI | Robotics Controls Intern - Robot Control Systems | Fall 2026 | 2026-08-25 |
 | SRI International | Drexel University Co-op: Software Engineering/Full stack development | Fall 2026 | 2026-08-24 |
