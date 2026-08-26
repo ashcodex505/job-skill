@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-544-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-33-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--26-informational)
+![open roles](https://img.shields.io/badge/open%20roles-544-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-26-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--26-informational)
 
-Updated **2026-08-26 01:55 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-26 02:11 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -270,10 +270,10 @@ Updated **2026-08-26 01:55 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | TikTok | AI Infrastructure Engineer Intern - Recommendation & LLM 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-26 | 2026-08-26 | [**Apply ➜**](https://lifeattiktok.com/search/7672671220798818613) |
 | Zip | Software Engineer New Grad - 2027 Start 🆕 | SF | 2027 New Grad | 100% | 2026-08-25 | 2026-08-26 | [**Apply ➜**](https://jobs.ashbyhq.com/zip/df6eb1ee-b360-46fe-b23f-658626ec59ea/application?embed=true) |
 | Johns Hopkins Applied Physics Laboratory | Data Scientist Intern - Data Science - System Performance Evaluation 🆕 | Laurel, MD | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://careers.jhuapl.edu/jobs/59800?icims=1) |
-| DMA | Software Development Intern - Spring 2027 🆕 | Fort Wayne, IN +1 | Spring 2027 | 100% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://dmainc.wd5.myworkdayjobs.com/en-US/dma/job/Fort-Wayne-IN/Software-Development-Intern---Spring-2027_REQ634) |
-| Google | Software Engineering Intern - PhD - Summer 2027 🆕 | Mountain View, CA +29 | Summer 2027 | 100% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/91436104816698054) |
-| Walt Disney | Glendale System Software Engineering Internship - Spring 2027 🆕 | Glendale, CA | Spring 2027 | 100% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137) |
-| Walt Disney | Glendale System Software Engineering Internship - Spring 2027 🆕 | Glendale, CA | Spring 2027 | 100% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/en-US/disneycareerdc/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137-1) |
+| DMA | Software Development Intern - Spring 2027 | Fort Wayne, IN +1 | Spring 2027 | 100% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://dmainc.wd5.myworkdayjobs.com/en-US/dma/job/Fort-Wayne-IN/Software-Development-Intern---Spring-2027_REQ634) |
+| Google | Software Engineering Intern - PhD - Summer 2027 | Mountain View, CA +29 | Summer 2027 | 100% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/91436104816698054) |
+| Walt Disney | Glendale System Software Engineering Internship - Spring 2027 | Glendale, CA | Spring 2027 | 100% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137) |
+| Walt Disney | Glendale System Software Engineering Internship - Spring 2027 | Glendale, CA | Spring 2027 | 100% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/en-US/disneycareerdc/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137-1) |
 | L3Harris Technologies | Software Engineer Intern | Palm Bay, FL | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1422837400/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern,-Software-Engineer-CO-80916/1422839500/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern | Fort Wayne, IN | Fall 2026 | 100% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422838400/?ats=successfactors) |
