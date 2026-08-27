@@ -252,16 +252,23 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-557-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-6-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--27-informational)
+![open roles](https://img.shields.io/badge/open%20roles-565-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-15-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--27-informational)
 
-Updated **2026-08-27 20:22 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-27 23:03 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+|  CCC Intelligent Solutions | Applied AI Engineer Intern 🆕 | Chicago, IL | Fall 2026 | 100% | 2026-07-27 | 2026-08-27 | [**Apply ➜**](https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Applied-AI-Engineering-Intern_0014827) |
+| Amazon | Software Development Engineer Intern - Annapurna Labs 🆕 | Seattle, WA; Austin, TX; NYC; Cupertino, CA | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027) |
+| Leidos | Software Developer Co-op 🆕 | Bethesda, MD | Winter 2027 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Software-Developer-Co-op_R-00190766) |
+| Plexus | Intern - Software Engineer - Spring 2027 🆕 | Neenah, WI | Spring 2027 | 100% | 2026-08-25 | 2026-08-27 | [**Apply ➜**](https://plexus.wd504.myworkdayjobs.com/en-US/plexus_careers/job/Neenah-WI/Intern---Software-Engineer--Spring-2027-_R041060) |
+| Tesla | Software Engineer Intern - Vehicle Software - Summer 2027 🆕 | Palo Alto, CA | Summer 2027 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281097) |
+| Tesla | Software Engineer Intern - Information Security - Spring 2027 🆕 | Bellevue, WA | Spring 2027 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281473) |
+| Tesla | Automated Diagnostics Intern - Software Engineer 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281623) |
 | Ambarella | Software Engineer Intern 🆕 | United States | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Development-Engineer-Intern_JR100366-1) |
 | Ambarella | Software Architecture Intern 🆕 | United States | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Architecture-Engineer-Intern_JR100365) |
 | Blue Origin | Electronics/Electrical Systems Engineer 1 Intern 🆕 | Seattle, WA; LA; Florida; Longmont, CO; Arlington County, Arlington, VA; Reston, VA; Denver, CO; Huntsville, AL; Van Horn, TX | Fall 2026 | 100% | 2026-08-11 | 2026-08-27 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Electronics-Electrical-Systems-Engineer-I_R70292) |
-| L3Harris Technologies | Software Engineer Intern 🆕 | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1423787000/?ats=successfactors) |
+| L3Harris Technologies | Software Engineer Intern | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1423787000/?ats=successfactors) |
 | Conduent | Applied AI Engineer Intern - Government Healthcare Solutions | Remote in USA | Fall 2026 | 100% | 2026-08-26 | 2026-08-27 | [**Apply ➜**](https://egua.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25529) |
 | Johnson & Johnson | Software Engineer Co-op - MedTech | Cincinnati, OH | Spring 2027 | 100% | 2026-08-26 | 2026-08-27 | [**Apply ➜**](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op--Spring-2027_R-095741) |
 | Lightcast | Software Engineer Intern - API Development | Moscow, ID | Fall 2026 | 100% | 2026-08-26 | 2026-08-27 | [**Apply ➜**](https://jobs.lever.co/economicmodeling/a6d45716-c743-4013-a1d8-310850c115f9/apply) |
@@ -271,11 +278,4 @@ Updated **2026-08-27 20:22 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | L3Harris Technologies | Software Engineer Intern | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-26 | 2026-08-26 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1423742600/?ats=successfactors) |
 | Netflix | Machine Learning/AI Infrastructure Engineering Intern - AI Platform | Los Gatos, CA | Winter 2027 | 100% | 2026-08-26 | 2026-08-26 | [**Apply ➜**](https://explore.jobs.netflix.net/careers/job/790317917022) |
 | Realm | Software Engineer Intern | Remote in USA | Fall 2026 | 100% | 2026-08-26 | 2026-08-26 | [**Apply ➜**](https://jobs.ashbyhq.com/realmalliance/a8a2f78e-1c28-4b52-a77a-c2b2ad9b7a8a/application?embed=true) |
-| Tesla | Fullstack C++ Engineer Intern - Vehicle User Interface | Palo Alto, CA | Spring 2027 | 100% | 2026-08-26 | 2026-08-26 | [**Apply ➜**](https://www.tesla.com/careers/search/job/280604) |
-| Tesla | Fullstack Software Engineer Intern - Fleetnet - Fullstack Software Engineering | Palo Alto, CA | Spring 2027 | 100% | 2026-08-26 | 2026-08-26 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281099) |
-| Tesla | Software Engineer Intern - Maps & Navigation Validation | Palo Alto, CA | Spring 2027 | 100% | 2026-08-26 | 2026-08-26 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281271) |
-| Tesla | Software Engineer Intern - Maps & Navigation - Robotaxi | Palo Alto, CA | Spring 2027 | 100% | 2026-08-26 | 2026-08-26 | [**Apply ➜**](https://www.tesla.com/careers/search/job/280960) |
-| Tesla | Android Engineer Intern - Mobile Software | Palo Alto, CA | Spring 2027 | 100% | 2026-08-26 | 2026-08-26 | [**Apply ➜**](https://www.tesla.com/careers/search/job/280605) |
-| Brunswick | Systems Engineer Co-op - Software Engineering | Fond du Lac, WI | Winter 2027 | 100% | 2026-08-25 | 2026-08-26 | [**Apply ➜**](https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine---Systems-Software-Engineering-Co-op_JR-051212) |
-| L3Harris Technologies | Software Engineer Intern | Palm Bay, FL | Fall 2026 | 100% | 2026-08-26 | 2026-08-26 | [**Apply ➜**](https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423100800/?ats=successfactors) |
 <!-- JOB-BOARD:END -->
