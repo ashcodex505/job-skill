@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-28T05:20:31.148Z",
+ "updatedAt": "2026-08-28T07:03:37.242Z",
  "jobs": [
   {
    "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
@@ -815,6 +815,30 @@
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
+   "dedupeKey": "greenhouse:8052083",
+   "source": "greenhouse",
+   "company": "Hudson River Trading",
+   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
+   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-07-13T11:35:06-04:00",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
    "dedupeKey": "workday:JR2022645",
    "source": "workday",
    "company": "NVIDIA",
@@ -923,30 +947,6 @@
    },
    "postedAt": "2026-08-24",
    "firstSeenAt": "2026-08-24T07:17:56.744Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8052083",
-   "source": "greenhouse",
-   "company": "Hudson River Trading",
-   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
-   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-07-13T11:35:06-04:00",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
    "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
@@ -12586,6 +12586,28 @@
    "firstSeenAt": "2026-08-28T05:20:31.148Z"
   },
   {
+   "dedupeKey": "simplifyjobs:8b74bc73-21bb-499c-a67a-d34845246a91",
+   "source": "simplifyjobs",
+   "company": "Tesla",
+   "title": "Backend Engineer Intern - Infrastructure Engineering",
+   "location": "Fremont, CA",
+   "url": "https://www.tesla.com/careers/search/job/281467",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-28T06:22:38.000Z",
+   "firstSeenAt": "2026-08-28T07:03:37.242Z"
+  },
+  {
    "dedupeKey": "ashby:8c035d3d-081d-4c8a-914a-72f4efaad254",
    "source": "ashby",
    "company": "Cohere",
@@ -12658,26 +12680,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:b74df225-de2e-4317-b24c-f56e01804516",
-   "company": "State of Nebraska",
-   "title": "IT Construction Systems Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-07T00:29:13.435Z",
-   "closedAt": "2026-08-21T07:02:58.654Z",
-   "url": "https://son.wd108.myworkdayjobs.com/NebraskaStateCareers/job/Lincoln-NE/Student-Intern---IT-Construction-Systems_JR2026-00028484-1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:df3b11d6-07b6-49f9-a445-97f32c89967e",
-   "company": "RTX",
-   "title": "Software Engineer Intern - Spring 2027",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-18T07:00:21.805Z",
-   "closedAt": "2026-08-21T07:02:58.654Z",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Spring-2027-_01864146"
-  },
   {
    "dedupeKey": "simplifyjobs:407e1e4c-8d82-4e4c-b3ff-9482dc645fb7",
    "company": "State Street",

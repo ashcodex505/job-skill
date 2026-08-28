@@ -1,13 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
-**567 open roles** across **211 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-28 05:20 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**568 open roles** across **211 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-08-28 07:03 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (18)
+## 🆕 New this cycle (15)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Tesla | Backend Engineer Intern - Infrastructure Engineering 🆕 | Fremont, CA | Winter 2027 | 100% | 2026-08-28 | 2026-08-28 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281467) |
 | Blockhouse | Applied AI Engineer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-28 | 2026-08-28 | [**Apply ➜**](https://jobs.ashbyhq.com/blockhouse/2e9fbde8-709c-4c1f-b908-cd51a53c8529/application?embed=true) |
 | Fab2 | Automation Software Engineer Intern - Winter 🆕 | SF; Austin, TX | Winter 2027 | 100% | 2026-08-28 | 2026-08-28 | [**Apply ➜**](https://jobs.ashbyhq.com/fab2/f38b33e7-149e-45b2-b03f-fb8c1b437765/application?embed=true) |
 | L3Harris Technologies | Software Engineer New Grad - Software Engineering 🆕 | Salt Lake City, UT | — | 80% | 2026-08-27 | 2026-08-28 | [**Apply ➜**](https://jobs.l3harris.com/job/Salt-Lake-City-Assoc,-Software-Engineer-(New-Grad-Salt-Lake-City,-UT)-1-1-1-UT-84117/1424142200/?ats=successfactors) |
@@ -15,22 +16,19 @@ Last updated: **2026-08-28 05:20 UTC** · auto-refreshed every 12h by [job-board
 | Tesla | Software Engineer Intern - Information Security - Spring 2027 🆕 | Bellevue, WA | Spring 2027 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281473) |
 | Tesla | Automated Diagnostics Intern - Software Engineer 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281623) |
 | Amazon | Software Development Engineer Intern - Annapurna Labs 🆕 | Seattle, WA; Austin, TX; NYC; Cupertino, CA | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027) |
-| Ambarella | Software Engineer Intern 🆕 | United States | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Development-Engineer-Intern_JR100366-1) |
-| Ambarella | Software Architecture Intern 🆕 | United States | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Architecture-Engineer-Intern_JR100365) |
 | Leidos | Software Developer Co-op 🆕 | Bethesda, MD | Winter 2027 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Software-Developer-Co-op_R-00190766) |
 | Amazon | Software Development Engineer Intern, Annapurna Labs - 2027 🆕 | Cupertino, California, USA | 2027 | 90% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027) |
 | Amazon | Robotics - Software Development Engineer Fall Intern/Co-op - 2026 🆕 | Westboro, Wisconsin, USA | 2026 | 90% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10517149/robotics-software-development-engineer-fall-intern-co-op-2026) |
-| NVIDIA | Developer Technology Engineering Intern - 2027 🆕 | 2 Locations | 2027 | 90% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/Developer-Technology-Engineering-Intern---2027_JR2024122) |
 | Micron Technology | Software Engineer New Grad 🆕 | Boise, ID | — | 80% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/New-College-Grad---Software-Engineer_JR109692) |
 | Plexus | Intern - Software Engineer - Spring 2027 🆕 | Neenah, WI | Spring 2027 | 100% | 2026-08-25 | 2026-08-27 | [**Apply ➜**](https://plexus.wd504.myworkdayjobs.com/en-US/plexus_careers/job/Neenah-WI/Intern---Software-Engineer--Spring-2027-_R041060) |
 | Cox | Entry Level Software Engineer - Burlington - VT 🆕 | Burlington, VT | — | 70% | 2026-08-25 | 2026-08-27 | [**Apply ➜**](https://cox.wd1.myworkdayjobs.com/en-US/cox_external_career_site_1/job/Burlington-VT/Entry-Level-Software-Engineer--Burlington--VT-_R202681784) |
-| Blue Origin | Electronics/Electrical Systems Engineer 1 Intern 🆕 | Seattle, WA; LA; Florida; Longmont, CO; Arlington County, Arlington, VA; Reston, VA; Denver, CO; Huntsville, AL; Van Horn, TX | Fall 2026 | 100% | 2026-08-11 | 2026-08-27 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Electronics-Electrical-Systems-Engineer-I_R70292) |
 |  CCC Intelligent Solutions | Applied AI Engineer Intern 🆕 | Chicago, IL | Fall 2026 | 100% | 2026-07-27 | 2026-08-27 | [**Apply ➜**](https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Applied-AI-Engineering-Intern_0014827) |
 
-## 🛠️ Internships (370)
+## 🛠️ Internships (371)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Tesla | Backend Engineer Intern - Infrastructure Engineering 🆕 | Fremont, CA | Winter 2027 | 100% | 2026-08-28 | 2026-08-28 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281467) |
 | Blockhouse | Applied AI Engineer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-08-28 | 2026-08-28 | [**Apply ➜**](https://jobs.ashbyhq.com/blockhouse/2e9fbde8-709c-4c1f-b908-cd51a53c8529/application?embed=true) |
 | Fab2 | Automation Software Engineer Intern - Winter 🆕 | SF; Austin, TX | Winter 2027 | 100% | 2026-08-28 | 2026-08-28 | [**Apply ➜**](https://jobs.ashbyhq.com/fab2/f38b33e7-149e-45b2-b03f-fb8c1b437765/application?embed=true) |
 |  CCC Intelligent Solutions | Applied AI Engineer Intern 🆕 | Chicago, IL | Fall 2026 | 100% | 2026-07-27 | 2026-08-27 | [**Apply ➜**](https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Applied-AI-Engineering-Intern_0014827) |
@@ -40,9 +38,9 @@ Last updated: **2026-08-28 05:20 UTC** · auto-refreshed every 12h by [job-board
 | Tesla | Software Engineer Intern - Vehicle Software - Summer 2027 🆕 | Palo Alto, CA | Summer 2027 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281097) |
 | Tesla | Software Engineer Intern - Information Security - Spring 2027 🆕 | Bellevue, WA | Spring 2027 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281473) |
 | Tesla | Automated Diagnostics Intern - Software Engineer 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281623) |
-| Ambarella | Software Engineer Intern 🆕 | United States | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Development-Engineer-Intern_JR100366-1) |
-| Ambarella | Software Architecture Intern 🆕 | United States | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Architecture-Engineer-Intern_JR100365) |
-| Blue Origin | Electronics/Electrical Systems Engineer 1 Intern 🆕 | Seattle, WA; LA; Florida; Longmont, CO; Arlington County, Arlington, VA; Reston, VA; Denver, CO; Huntsville, AL; Van Horn, TX | Fall 2026 | 100% | 2026-08-11 | 2026-08-27 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Electronics-Electrical-Systems-Engineer-I_R70292) |
+| Ambarella | Software Engineer Intern | United States | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Development-Engineer-Intern_JR100366-1) |
+| Ambarella | Software Architecture Intern | United States | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Architecture-Engineer-Intern_JR100365) |
+| Blue Origin | Electronics/Electrical Systems Engineer 1 Intern | Seattle, WA; LA; Florida; Longmont, CO; Arlington County, Arlington, VA; Reston, VA; Denver, CO; Huntsville, AL; Van Horn, TX | Fall 2026 | 100% | 2026-08-11 | 2026-08-27 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Electronics-Electrical-Systems-Engineer-I_R70292) |
 | L3Harris Technologies | Software Engineer Intern | Colorado Springs, CO | Fall 2026 | 100% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1423787000/?ats=successfactors) |
 | Conduent | Applied AI Engineer Intern - Government Healthcare Solutions | Remote in USA | Fall 2026 | 100% | 2026-08-26 | 2026-08-27 | [**Apply ➜**](https://egua.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25529) |
 | Johnson & Johnson | Software Engineer Co-op - MedTech | Cincinnati, OH | Spring 2027 | 100% | 2026-08-26 | 2026-08-27 | [**Apply ➜**](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op--Spring-2027_R-095741) |
@@ -318,7 +316,7 @@ Last updated: **2026-08-28 05:20 UTC** · auto-refreshed every 12h by [job-board
 | Verkada | Frontend Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 95% (3 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5210942007) |
 | Amazon | Software Development Engineer Intern, Annapurna Labs - 2027 🆕 | Cupertino, California, USA | 2027 | 90% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027) |
 | Amazon | Robotics - Software Development Engineer Fall Intern/Co-op - 2026 🆕 | Westboro, Wisconsin, USA | 2026 | 90% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10517149/robotics-software-development-engineer-fall-intern-co-op-2026) |
-| NVIDIA | Developer Technology Engineering Intern - 2027 🆕 | 2 Locations | 2027 | 90% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/Developer-Technology-Engineering-Intern---2027_JR2024122) |
+| NVIDIA | Developer Technology Engineering Intern - 2027 | 2 Locations | 2027 | 90% | 2026-08-27 | 2026-08-27 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/Developer-Technology-Engineering-Intern---2027_JR2024122) |
 | Verkada | Mobile Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 90% | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5219131007) |
 | Advanced Space | 2027 Software Engineering Summer Internship | Westminster, CO | 2027 | 90% | 2026-08-24 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/advancedspace/jobs/4324855009) |
 | NVIDIA | AI Developer Technology Engineer Intern, AI - 2027 | 2 Locations | 2027 | 90% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002) |
@@ -604,7 +602,7 @@ Last updated: **2026-08-28 05:20 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (67)
+## 🚪 Recently closed (last 7 days) (65)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -675,8 +673,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | RTX | Software Engineer Intern | Fall 2026 | 2026-08-21 |
 | State Street | Software Engineer New Grad | — | 2026-08-21 |
 | Seagate Technology  | Systems Engineer - Early Career | — | 2026-08-21 |
-| State of Nebraska | IT Construction Systems Intern | Fall 2026 | 2026-08-21 |
-| RTX | Software Engineer Intern - Spring 2027 | Spring 2027 | 2026-08-21 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
