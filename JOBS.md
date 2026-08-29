@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **581 open roles** across **215 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-08-29 09:01 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-08-29 10:23 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (23)
@@ -623,7 +623,7 @@ Last updated: **2026-08-29 09:01 UTC** · auto-refreshed every 12h by [job-board
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (63)
+## 🚪 Recently closed (last 7 days) (62)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -691,7 +691,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Rivian | Software Engineering Intern - Applications - Fall 2026 | Fall 2026 | 2026-08-22 |
 | Rivian | Android Developer Intern - Fall 2026 | Fall 2026 | 2026-08-22 |
 | Rivian | Software Engineering Intern - Connected Systems - Fall 2026 | Fall 2026 | 2026-08-22 |
-| Fortinet | Applied AI Engineer New Grad - AI Agent | — | 2026-08-22 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
