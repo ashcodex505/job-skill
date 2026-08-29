@@ -252,24 +252,24 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-579-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-23-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--29-informational)
+![open roles](https://img.shields.io/badge/open%20roles-579-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-0-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--29-informational)
 
-Updated **2026-08-29 14:26 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-29 15:16 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Brunswick | Software Engineer Intern 🆕 | Menomonee Falls, WI | Fall 2026 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Menomonee-Falls-WI/Software-Engineer-Intern_JR-051426-1) |
-| Clerkie | Software Engineer Intern 🆕 | Remote in USA | Fall 2026 | 100% | 2026-08-29 | 2026-08-29 | [**Apply ➜**](http://getfiber.ai/careers?gh_jid=5225258007) |
-| Intuit | Software Engineer Intern - Full Stack 🆕 | Charlotte, NC; NYC; Mountain View, CA; Atlanta, GA; San Diego, CA | Summer 2027 | 100% | 2026-08-29 | 2026-08-29 | [**Apply ➜**](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864) |
-| Johnson & Johnson | Software Engineering Co-Op - Spring 2027 🆕 | Cincinnati, OH | Spring 2027 | 100% | 2026-08-27 | 2026-08-29 | [**Apply ➜**](https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op--Spring-2027_R-095741) |
-| Kognitos | Software Engineer Intern - AI-Native — Fall 2026 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-27 | 2026-08-29 | [**Apply ➜**](https://jobs.ashbyhq.com/kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5) |
-| Motorola | Mission Critical Networks Software Engineer Co-op 🆕 | Chicago, IL; Schaumburg, IL | Fall 2026 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782) |
-| Persona AI | Robotics Software Intern - Manipulation 🆕 | Houston, TX | Fall 2026 | 100% | 2026-08-29 | 2026-08-29 | [**Apply ➜**](https://jobs.ashbyhq.com/persona.ai/1e8d195c-e28e-423d-a06a-9eeb401ed4fc/application?embed=true) |
-| Schweitzer Engineering Laboratories | Engineering Intern - Protection Systems Forensics 🆕 | Pullman, WA | Fall 2026 | 100% | 2026-08-29 | 2026-08-29 | [**Apply ➜**](https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Engineering-Intern_2025-18137) |
-| The Walt Disney Company | Systems Application Development and Sustainment Intern 🆕 | Orlando, FL | Spring 2027 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Orlando-FL-USA/System-App-Dev---Sustainment-Intern_10159463-1) |
-| The Walt Disney Company | Software Engineer Intern 🆕 | Orlando, FL | Spring 2027 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Orlando-FL-USA/Software-Engineering-Intern--Spring-2027_10158599-1) |
-| The Walt Disney Company | Systems Application Development and Sustainment Intern 🆕 | Orlando, FL | Spring 2027 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Orlando-FL-USA/System-App-Dev---Sustainment-Intern_10159463) |
-| The Walt Disney Company | Software Engineer Intern 🆕 | Orlando, FL | Spring 2027 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Orlando-FL-USA/Software-Engineering-Intern--Spring-2027_10158599) |
+| Brunswick | Software Engineer Intern | Menomonee Falls, WI | Fall 2026 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Menomonee-Falls-WI/Software-Engineer-Intern_JR-051426-1) |
+| Clerkie | Software Engineer Intern | Remote in USA | Fall 2026 | 100% | 2026-08-29 | 2026-08-29 | [**Apply ➜**](http://getfiber.ai/careers?gh_jid=5225258007) |
+| Intuit | Software Engineer Intern - Full Stack | Charlotte, NC; NYC; Mountain View, CA; Atlanta, GA; San Diego, CA | Summer 2027 | 100% | 2026-08-29 | 2026-08-29 | [**Apply ➜**](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864) |
+| Johnson & Johnson | Software Engineering Co-Op - Spring 2027 | Cincinnati, OH | Spring 2027 | 100% | 2026-08-27 | 2026-08-29 | [**Apply ➜**](https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op--Spring-2027_R-095741) |
+| Kognitos | Software Engineer Intern - AI-Native — Fall 2026 | San Jose, CA | Fall 2026 | 100% | 2026-08-27 | 2026-08-29 | [**Apply ➜**](https://jobs.ashbyhq.com/kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5) |
+| Motorola | Mission Critical Networks Software Engineer Co-op | Chicago, IL; Schaumburg, IL | Fall 2026 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782) |
+| Persona AI | Robotics Software Intern - Manipulation | Houston, TX | Fall 2026 | 100% | 2026-08-29 | 2026-08-29 | [**Apply ➜**](https://jobs.ashbyhq.com/persona.ai/1e8d195c-e28e-423d-a06a-9eeb401ed4fc/application?embed=true) |
+| Schweitzer Engineering Laboratories | Engineering Intern - Protection Systems Forensics | Pullman, WA | Fall 2026 | 100% | 2026-08-29 | 2026-08-29 | [**Apply ➜**](https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Engineering-Intern_2025-18137) |
+| The Walt Disney Company | Systems Application Development and Sustainment Intern | Orlando, FL | Spring 2027 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Orlando-FL-USA/System-App-Dev---Sustainment-Intern_10159463-1) |
+| The Walt Disney Company | Software Engineer Intern | Orlando, FL | Spring 2027 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Orlando-FL-USA/Software-Engineering-Intern--Spring-2027_10158599-1) |
+| The Walt Disney Company | Systems Application Development and Sustainment Intern | Orlando, FL | Spring 2027 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Orlando-FL-USA/System-App-Dev---Sustainment-Intern_10159463) |
+| The Walt Disney Company | Software Engineer Intern | Orlando, FL | Spring 2027 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Orlando-FL-USA/Software-Engineering-Intern--Spring-2027_10158599) |
 | Analog Devices | AI/ML Engineer Intern | Wilmington, MA | Fall 2026 | 100% | 2026-08-28 | 2026-08-28 | [**Apply ➜**](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/AI-ML-Engineer-Intern_R265579) |
 | Emory University | Student Tester and Developer Intern - GPS Sample | Decatur, GA | Fall 2026 | 100% | 2026-08-21 | 2026-08-28 | [**Apply ➜**](https://staff-emory.icims.com/jobs/172196/job?mobile=true&needsRedirect=false) |
 | Salesforce | Summer 2027 Intern - Software Engineer | 8 Locations | Summer 2027 | 100% | 2026-08-28 | 2026-08-28 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771-1) |
