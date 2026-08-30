@@ -1,6 +1,78 @@
 {
- "updatedAt": "2026-08-30T13:58:30.555Z",
+ "updatedAt": "2026-08-30T14:26:12.237Z",
  "jobs": [
+  {
+   "dedupeKey": "reverse-discovery:4830113101",
+   "source": "reverse-discovery",
+   "company": "asm",
+   "title": "Software Engineering Intern (Spring 2027)",
+   "location": "US > Arizona > Phoenix",
+   "url": "https://www.asm.com/open-vacancies/?gh_jid=4830113101",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-04-22T15:54:34-04:00",
+   "firstSeenAt": "2026-08-30T14:26:12.237Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:4619283006",
+   "source": "reverse-discovery",
+   "company": "astranis",
+   "title": "Flight Software Intern (Fall 2026)",
+   "location": "San Francisco",
+   "url": "https://job-boards.greenhouse.io/astranis/jobs/4619283006",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-04-29T13:21:29-04:00",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:75a1f1ad-13d2-4513-952c-71b6dfcaa84f",
+   "source": "reverse-discovery",
+   "company": "creatify",
+   "title": "Software Engineer Intern 2026",
+   "location": "Mountain View",
+   "url": "https://jobs.ashbyhq.com/creatify/75a1f1ad-13d2-4513-952c-71b6dfcaa84f",
+   "season": "2026",
+   "roleType": "internship",
+   "score": 98,
+   "matchedSkills": [
+    "Python",
+    "React",
+    "SQL",
+    "AWS",
+    "Docker"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-03-18T06:33:23.897+00:00",
+   "firstSeenAt": "2026-08-30T14:26:12.237Z"
+  },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
    "source": "lever",
@@ -13215,16 +13287,6 @@
    "firstSeenAt": "2026-08-07T00:29:13.435Z",
    "closedAt": "2026-08-27T20:22:07.623Z",
    "url": "https://job-boards.greenhouse.io/cssmerge/jobs/8687915002"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:572b7711be226589bee75fd0c4e5d3ebfcea147c",
-   "company": "Astranis Space Technologies",
-   "title": "Flight Software Intern - Fall 2026",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-27T23:03:12.445Z",
-   "url": "https://job-boards.greenhouse.io/astranis/jobs/4619283006"
   },
   {
    "dedupeKey": "simplifyjobs:685487cc-2bf1-41f3-9324-4441e3ba0475",
