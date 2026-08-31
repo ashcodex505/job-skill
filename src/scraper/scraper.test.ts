@@ -85,6 +85,20 @@ describe("classify", () => {
     expect(classifyTitle("Full-Stack Developer, Early Career").relevant).toBe(true);
   });
 
+  it("recognizes forward deployed engineering title variations", () => {
+    for (const title of [
+      "Forward Deployed Engineer (FDE)",
+      "Forward-Deployed Security Engineer",
+      "Forward Deployment Engineer",
+      "Partner Deployed Engineer",
+      "FDE, New Grad 2027",
+    ]) {
+      const classification = classifyTitle(title);
+      expect(classification.breakdown.role, title).toBe(40);
+      expect(classification.relevant, title).toBe(true);
+    }
+  });
+
   it("rejects non-engineering roles", () => {
     expect(classifyTitle("Account Executive").relevant).toBe(false);
     expect(classifyTitle("Recruiting Coordinator").relevant).toBe(false);
@@ -199,6 +213,13 @@ describe("normalize + dedupe", () => {
     ).not.toBeNull();
     expect(normalizeJob(raw({ title: "Marketing Associate, New Grad 2027" }), strictConfig, REF)).toBeNull();
     expect(normalizeJob(raw({ title: "Software Engineer, New Grad 2028" }), strictConfig, REF)).toBeNull();
+  });
+
+  it("keeps forward deployed engineering inside the existing early-career policy", () => {
+    expect(normalizeJob(raw({ title: "Forward Deployed Engineer", company: "OpenAI" }), strictConfig, REF)).toBeNull();
+    expect(normalizeJob(raw({ title: "Forward-Deployed Engineer, New Grad 2027", company: "OpenAI" }), strictConfig, REF)).not.toBeNull();
+    expect(normalizeJob(raw({ title: "FDE Intern (Summer 2027)", company: "Stripe" }), strictConfig, REF)).not.toBeNull();
+    expect(normalizeJob(raw({ title: "Manager, Forward Deployed Engineering", company: "OpenAI" }), strictConfig, REF)).toBeNull();
   });
 
   it("explains strict-policy misses instead of silently discarding them", () => {

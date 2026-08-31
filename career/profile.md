@@ -12,7 +12,7 @@ hire.
 
 - Current level: student / early-career software engineer
 - Professional background: software engineering internships, projects, and coursework
-- Best-fit full-time roles: 2027 software engineering positions explicitly labeled **New Grad**, **New Graduate**, **Early Career**, or **Early Careers**
+- Best-fit full-time roles: 2027 software engineering and forward deployed engineering positions explicitly labeled **New Grad**, **New Graduate**, **Early Career**, or **Early Careers**
 - Out of scope: general or experienced-hire SWE roles that expect two or more years of post-graduation industry experience
 
 An entry-level-sounding title is not enough by itself. Full-time results should
@@ -22,8 +22,9 @@ for a graduating student.
 ## Search priorities
 
 1. **2027 new-grad software engineering:** only explicitly labeled new-grad or early-career roles.
-2. **Fall 2026 internships:** software engineering internships aligned with my skills and background.
-3. **Summer 2027 internships:** highly selective technology opportunities at major technology companies, unicorns, or approved high-signal product startups.
+2. **Forward deployed engineering:** customer-facing engineering roles that combine software implementation, technical delivery, production integration, and close work with users, when explicitly labeled intern, new-grad, or early-career.
+3. **Fall 2026 internships:** software engineering internships aligned with my skills and background.
+4. **Summer 2027 internships:** highly selective technology opportunities at major technology companies, frontier AI labs, unicorns, or approved high-signal product startups.
 
 For Summer 2027, prioritize companies with exceptional engineering depth,
 selectivity, product impact, technical scale, or high-growth potential. Ordinary

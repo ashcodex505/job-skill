@@ -40,6 +40,7 @@ generic ("Multiple Locations").
 - Frontend Engineer
 - Full-Stack Engineer
 - Platform Engineer
+- Forward Deployed Engineer
 
 ## Seasons
 
@@ -97,10 +98,13 @@ Edit this section whenever a newly identified company meets that bar.
 - Brex
 - Canva
 - Character.AI
+- Cerebras
 - Cisco
 - Citadel
 - Cloudflare
+- Cognition
 - Coinbase
+- Cohere
 - Confluent
 - Cursor
 - Databricks
@@ -120,6 +124,7 @@ Edit this section whenever a newly identified company meets that bar.
 - Google
 - Grammarly
 - HashiCorp
+- Harvey
 - HP
 - Hudson River Trading
 - Hugging Face
@@ -147,10 +152,12 @@ Edit this section whenever a newly identified company meets that bar.
 - Perplexity
 - Pinterest
 - Plaid
+- Physical Intelligence
 - Quora
 - Qualcomm
 - Ramp
 - Reddit
+- Reflection AI
 - Replit
 - Rippling
 - Robinhood
@@ -159,6 +166,7 @@ Edit this section whenever a newly identified company meets that bar.
 - Samsara
 - SAP
 - Scale AI
+- Sierra
 - ServiceNow
 - Shopify
 - Snap
@@ -166,10 +174,12 @@ Edit this section whenever a newly identified company meets that bar.
 - SpaceX
 - Splunk
 - Spotify
+- SSI
 - Stripe
 - Supabase
 - Tesla
 - TikTok
+- Together AI
 - Two Sigma
 - Uber
 - Vercel
@@ -220,6 +230,7 @@ new-grad, season, or Summer 2027 company rules.
 - Early Career
 - Early Careers
 - Software Engineering
+- Forward Deployed
 - Payments
 - Fintech
 

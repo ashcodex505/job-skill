@@ -91,6 +91,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Stripe", website: "https://stripe.com", careersUrl: "https://stripe.com/jobs", ats: "greenhouse", slug: "stripe" },
   { name: "Databricks", website: "https://databricks.com", careersUrl: "https://databricks.com/company/careers", ats: "greenhouse", slug: "databricks" },
   { name: "Anthropic", website: "https://anthropic.com", careersUrl: "https://anthropic.com/careers", ats: "greenhouse", slug: "anthropic" },
+  { name: "Together AI", website: "https://together.ai", careersUrl: "https://www.together.ai/careers", ats: "greenhouse", slug: "togetherai" },
   { name: "Figma", website: "https://figma.com", careersUrl: "https://figma.com/careers", ats: "greenhouse", slug: "figma" },
   { name: "Samsara", website: "https://samsara.com", careersUrl: "https://samsara.com/company/careers", ats: "greenhouse", slug: "samsara" },
   { name: "MongoDB", website: "https://mongodb.com", careersUrl: "https://mongodb.com/careers", ats: "greenhouse", slug: "mongodb" },
@@ -155,6 +156,12 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Confluent", website: "https://confluent.io", careersUrl: "https://careers.confluent.io", ats: "ashby", slug: "confluent" },
   { name: "Cohere", website: "https://cohere.com", careersUrl: "https://cohere.com/careers", ats: "ashby", slug: "cohere" },
   { name: "Harvey", website: "https://harvey.ai", careersUrl: "https://harvey.ai/careers", ats: "ashby", slug: "harvey" },
+  { name: "Cerebras", website: "https://cerebras.ai", careersUrl: "https://www.cerebras.ai/open-positions", ats: "ashby", slug: "cerebras" },
+  { name: "Reflection AI", website: "https://reflection.ai", careersUrl: "https://reflection.ai/careers", ats: "ashby", slug: "reflectionai" },
+  { name: "SSI", website: "https://ssi.inc", careersUrl: "https://ssi.inc", ats: "ashby", slug: "ssi" },
+  { name: "Sierra", website: "https://sierra.ai", careersUrl: "https://sierra.ai/careers", ats: "ashby", slug: "Sierra" },
+  { name: "Cognition", website: "https://cognition.com", careersUrl: "https://cognition.com/careers", ats: "ashby", slug: "cognition" },
+  { name: "Physical Intelligence", website: "https://www.pi.website", careersUrl: "https://jobs.ashbyhq.com/physicalintelligence", ats: "ashby", slug: "physicalintelligence" },
   { name: "Plaid", website: "https://plaid.com", careersUrl: "https://plaid.com/careers", ats: "ashby", slug: "plaid" },
   // Wiz's former Ashby board now returns an empty board; its careers page
   // currently routes vacancies to LinkedIn, which has no anonymous API.

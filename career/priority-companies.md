@@ -75,3 +75,12 @@ the committed copy of this file.
 - Mistral AI
 - Wiz
 - Quora
+- Cohere
+- Harvey
+- Cerebras
+- Together AI
+- Reflection AI
+- SSI
+- Sierra
+- Cognition
+- Physical Intelligence

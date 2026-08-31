@@ -35,6 +35,13 @@ const ROLE_KEYWORDS = [
   /site reliability/i,
   /web developer/i,
   /applications engineer/i,
+  // Customer-facing builders at AI labs and high-signal product companies.
+  // Keep the acronym bounded: a plain target-role substring such as "FDE"
+  // could otherwise match unrelated text inside a longer word.
+  /\bforward[- ]deployed(?: (?:software|infrastructure|ai|ml|security|product))? engineer\b/i,
+  /\b(?:ai )?deployment engineer\b/i,
+  /\b(?:partner )?deployed engineer\b/i,
+  /\bfde\b/i,
 ];
 
 const INTERN_KEYWORDS = [/\bintern(ship)?\b/i, /\bco[- ]?op\b/i];

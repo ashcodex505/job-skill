@@ -34,6 +34,13 @@ describe("approved-company scraper coverage", () => {
     }
   });
 
+  it("reports the frontier AI additions as direct coverage", () => {
+    for (const company of ["Cerebras", "Cognition", "Physical Intelligence", "Reflection AI", "Sierra", "SSI"]) {
+      expect(rows.find((row) => row.company === company)).toMatchObject({ mode: "direct", source: "ashby" });
+    }
+    expect(rows.find((row) => row.company === "Together AI")).toMatchObject({ mode: "direct", source: "greenhouse" });
+  });
+
   it("renders non-direct gaps without turning them into issue notifications", () => {
     const markdown = renderCoverageMarkdown(rows);
     expect(markdown).toContain("Approved-company scraper coverage");
