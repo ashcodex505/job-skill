@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-571-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-19-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--31-informational)
+![open roles](https://img.shields.io/badge/open%20roles-571-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-13-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--31-informational)
 
-Updated **2026-08-31 13:36 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-31 14:21 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -271,8 +271,8 @@ Updated **2026-08-31 13:36 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | TikTok | Machine Learning Engineer Intern - E-Commerce Knowledge Graph 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://lifeattiktok.com/search/7676652813409552645) |
 | TikTok | Machine Learning Engineer Intern - E-Commerce Knowledge Graph 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://lifeattiktok.com/search/7676650607912601861) |
 | Equifax | Technology Intern - Software Development - Site Reliability Engineering 🆕 | Alpharetta, GA | Fall 2026 | 100% | 2026-08-30 | 2026-08-31 | [**Apply ➜**](https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/USIS-Technology-Intern_J00178784) |
-| Kognitos | Forward Deployed Engineer Intern 🆕 | Mountain View, CA | Fall 2026 | 100% | 2026-07-28 | 2026-08-31 | [**Apply ➜**](https://jobs.ashbyhq.com/Kognitos/a4bc3ebf-b619-4c1b-9c9e-784d16c8b148/application?embed=true) |
-| Nextiva | Forward Deployed Engineer Intern - AI Implementation 🆕 | Scottsdale, AZ | Fall 2026 | 100% | 2026-07-24 | 2026-08-31 | [**Apply ➜**](https://www.nextiva.com/company/careers-listing?gh_jid=8639480002) |
+| Kognitos | Forward Deployed Engineer Intern | Mountain View, CA | Fall 2026 | 100% | 2026-07-28 | 2026-08-31 | [**Apply ➜**](https://jobs.ashbyhq.com/Kognitos/a4bc3ebf-b619-4c1b-9c9e-784d16c8b148/application?embed=true) |
+| Nextiva | Forward Deployed Engineer Intern - AI Implementation | Scottsdale, AZ | Fall 2026 | 100% | 2026-07-24 | 2026-08-31 | [**Apply ➜**](https://www.nextiva.com/company/careers-listing?gh_jid=8639480002) |
 | Walt Disney | Software Engineering Intern - Spring 2027 | Orlando, FL | Spring 2027 | 100% | 2026-08-28 | 2026-08-30 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/en-US/disneycareerdc/job/Orlando-FL-USA/Software-Engineering-Intern--Spring-2027_10158599-1) |
 | Walt Disney | Software Engineering Intern - Spring 2027 | Orlando, FL | Spring 2027 | 100% | 2026-08-28 | 2026-08-30 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Orlando-FL-USA/Software-Engineering-Intern--Spring-2027_10158599) |
 | asm | Software Engineering Intern (Spring 2027) | US > Arizona > Phoenix | Spring 2027 | 100% | 2026-04-22 | 2026-08-30 | [**Apply ➜**](https://www.asm.com/open-vacancies/?gh_jid=4830113101) |
