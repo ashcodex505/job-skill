@@ -252,12 +252,16 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-569-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-4-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--31-informational)
+![open roles](https://img.shields.io/badge/open%20roles-567-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-9-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--08--31-informational)
 
-Updated **2026-08-31 20:19 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-08-31 21:57 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Bosch Home Comfort | Software Engineer Intern - 8 months/40hrs per week 🆕 | Farmington Hills, MI | Winter 2027 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://jobs.smartrecruiters.com/BoschGroup/744000146524909) |
+| CIBC | Software Engineer Co-op 🆕 | Chicago, IL | Spring 2027 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Spring-Term-Software-Engineer-Co-op---Chicago--Northeastern-University-_2617782-1) |
+| CIBC | Software Engineer Co-op 🆕 | Chicago, IL | Spring 2027 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://cibc.wd3.myworkdayjobs.com/campus/job/Chicago-IL/XMLNAME-2027-Spring-Term-Software-Engineer-Co-op---Chicago--Northeastern-University-_2617782) |
+| Sierra | Software Engineer, Agent (New Grad 2027) 🆕 | San Francisco, CA; New York, NY | 2027 New Grad | 100% (2 skills) | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://jobs.ashbyhq.com/Sierra/149f368c-52d5-408f-ba26-ad888f318a00) |
 | Copart | AI Engineer Intern 🆕 | Dallas, TX | Fall 2026 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/AI-Engineer-Intern_JR110948) |
 | GE Aerospace | Applied AI Engineer Co-op | Evendale, OH; Atlanta, GA | Spring 2027 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Applied-AI-Engineer-Co-op---Spring-2027--January-Start-_R5039041-1) |
 | Qorvo | Software Engineer Intern | Richardson, TX | Fall 2026 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://careers.qorvo.com/job/Richardson-Software-Engineer-Intern-TX-75080/1421453600/?ats=successfactors) |
@@ -274,8 +278,4 @@ Updated **2026-08-31 20:19 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Equifax | Technology Intern - Software Development - Site Reliability Engineering | Alpharetta, GA | Fall 2026 | 100% | 2026-08-30 | 2026-08-31 | [**Apply ➜**](https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/USIS-Technology-Intern_J00178784) |
 | Kognitos | Forward Deployed Engineer Intern | Mountain View, CA | Fall 2026 | 100% | 2026-07-28 | 2026-08-31 | [**Apply ➜**](https://jobs.ashbyhq.com/Kognitos/a4bc3ebf-b619-4c1b-9c9e-784d16c8b148/application?embed=true) |
 | Nextiva | Forward Deployed Engineer Intern - AI Implementation | Scottsdale, AZ | Fall 2026 | 100% | 2026-07-24 | 2026-08-31 | [**Apply ➜**](https://www.nextiva.com/company/careers-listing?gh_jid=8639480002) |
-| Walt Disney | Software Engineering Intern - Spring 2027 | Orlando, FL | Spring 2027 | 100% | 2026-08-28 | 2026-08-30 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/en-US/disneycareerdc/job/Orlando-FL-USA/Software-Engineering-Intern--Spring-2027_10158599-1) |
-| Walt Disney | Software Engineering Intern - Spring 2027 | Orlando, FL | Spring 2027 | 100% | 2026-08-28 | 2026-08-30 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Orlando-FL-USA/Software-Engineering-Intern--Spring-2027_10158599) |
-| asm | Software Engineering Intern (Spring 2027) | US > Arizona > Phoenix | Spring 2027 | 100% | 2026-04-22 | 2026-08-30 | [**Apply ➜**](https://www.asm.com/open-vacancies/?gh_jid=4830113101) |
-| Brunswick | Software Engineer Intern | Menomonee Falls, WI | Fall 2026 | 100% | 2026-08-28 | 2026-08-29 | [**Apply ➜**](https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Menomonee-Falls-WI/Software-Engineer-Intern_JR-051426-1) |
 <!-- JOB-BOARD:END -->
