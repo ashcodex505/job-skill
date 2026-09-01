@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
 **604 open roles** across **237 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-01 18:26 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-09-01 18:46 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (26)
+## 🆕 New this cycle (23)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -13,10 +13,7 @@ Last updated: **2026-09-01 18:26 UTC** · auto-refreshed every 12h by [job-board
 | Tesla | Software Engineer Intern - Fullstack Engineer - Infrastructure Engineering 🆕 | Fremont, CA | Winter 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281462) |
 | Katalyst Space Technologies | Software Engineer New Grad - Software Engineer 1 🆕 | Broomfield, CO | — | 80% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://job-boards.greenhouse.io/katalyst/jobs/6176710004) |
 | Tesla | Software Engineer Intern - Core AI Compiler & Runtime 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281951) |
-| Sierra | Software Engineer Intern 🆕 | SF; NYC | Summer 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://jobs.ashbyhq.com/Sierra/34b31b67-268c-4270-b48f-72e59064c96e/application?embed=true) |
-| Emerson Electric | Software Engineer Co-op - January 2027 - May 2027 🆕 | Shakopee, MN | 2027 | 90% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009454) |
 | Fifth Third Bank | Software Engineer Co-Op - Enterprise Finance Applications - Spring 2027 🆕 | Cincinnati, OH | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Spring-2027_R71587) |
-| ISN Software Corporation | Software Developer Internship - Fall 2026 🆕 | Dallas, TX | Fall 2026 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://isnetworld.com/en/about/careers/jobs?gh_jid=6176204004) |
 | Southwest Airlines | Software Engineer Intern - Multiple Teams 🆕 | Dallas, TX | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Software-Engineering-Internships_R-2026-71386) |
 | Ciena | Software Developer New Grad 🆕 | Atlanta, GA | — | 80% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/WaveLogic-Software-Developer---New-Grad_R031608) |
 | IXL Learning | Software Engineer - New Grad 🆕 | San Mateo, CA | — | 80% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://www.ixl.com/company/jobs?gh_jid=8765715002) |
@@ -52,8 +49,8 @@ Last updated: **2026-09-01 18:26 UTC** · auto-refreshed every 12h by [job-board
 | Fifth Third Bank | Software Engineer Co-Op - Enterprise Finance Applications - Spring 2027 🆕 | Cincinnati, OH | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Spring-2027_R71587) |
 | Southwest Airlines | Software Engineer Intern - Multiple Teams 🆕 | Dallas, TX | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Software-Engineering-Internships_R-2026-71386) |
 | Tesla | Software Engineer Intern - Core AI Compiler & Runtime 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281951) |
-| ISN Software Corporation | Software Developer Internship - Fall 2026 🆕 | Dallas, TX | Fall 2026 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://isnetworld.com/en/about/careers/jobs?gh_jid=6176204004) |
-| Sierra | Software Engineer Intern 🆕 | SF; NYC | Summer 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://jobs.ashbyhq.com/Sierra/34b31b67-268c-4270-b48f-72e59064c96e/application?embed=true) |
+| ISN Software Corporation | Software Developer Internship - Fall 2026 | Dallas, TX | Fall 2026 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://isnetworld.com/en/about/careers/jobs?gh_jid=6176204004) |
+| Sierra | Software Engineer Intern | SF; NYC | Summer 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://jobs.ashbyhq.com/Sierra/34b31b67-268c-4270-b48f-72e59064c96e/application?embed=true) |
 | HP IQ | Software Engineering Intern - Software Systems - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://job-boards.greenhouse.io/hpiq/jobs/6140119004) |
 | HP IQ | Software Engineering Intern - Product & Developer Productivity - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://job-boards.greenhouse.io/hpiq/jobs/6114890004) |
 | HP IQ | Software Engineer Intern - Cloud Services - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://job-boards.greenhouse.io/hpiq/jobs/6111955004) |
@@ -338,7 +335,7 @@ Last updated: **2026-09-01 18:26 UTC** · auto-refreshed every 12h by [job-board
 | CIBC | 2027 Spring Term Software Engineer Co-op - Chicago - Northeastern University 🆕 | Chicago, IL | 2027 | 90% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://cibc.wd3.myworkdayjobs.com/en-US/campus/job/Chicago-IL/XMLNAME-2027-Spring-Term-Software-Engineer-Co-op---Chicago--Northeastern-University-_2617782) |
 | CIBC | 2027 Spring Term Software Engineer Co-op - Chicago - Northeastern University 🆕 | Chicago, IL | 2027 | 90% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://cibc.wd3.myworkdayjobs.com/en-US/search/job/Chicago-IL/XMLNAME-2027-Spring-Term-Software-Engineer-Co-op---Chicago--Northeastern-University-_2617782-1) |
 | Home Depot | 2027 Summer Internship - Software Engineering 🆕 | Atlanta, GA | 2027 | 90% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://homedepot.wd5.myworkdayjobs.com/en-US/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Software-Engineering_Req191937) |
-| Emerson Electric | Software Engineer Co-op - January 2027 - May 2027 🆕 | Shakopee, MN | 2027 | 90% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009454) |
+| Emerson Electric | Software Engineer Co-op - January 2027 - May 2027 | Shakopee, MN | 2027 | 90% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009454) |
 | Adobe | 2027 Intern - Machine Learning Engineer | 6 Locations | 2027 | 90% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519) |
 | Booz Allen | University - 2027 Summer Games Software Developer Intern - Atlanta - GA | Atlanta, GA | 2027 | 90% | 2026-08-28 | 2026-08-30 | [**Apply ➜**](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Atlanta-GA/University---2027-Summer-Games-Software-Developer-Intern---Atlanta--GA_R0248138) |
 | Booz Allen | University - 2027 Summer Games Software Developer Intern | Charleston, SC | 2027 | 90% | 2026-08-28 | 2026-08-30 | [**Apply ➜**](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Charleston-SC/University---2027-Summer-Games-Software-Developer-Intern_R0248134) |
