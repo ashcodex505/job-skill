@@ -252,12 +252,15 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-604-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-23-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--01-informational)
+![open roles](https://img.shields.io/badge/open%20roles-601-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-31-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--01-informational)
 
-Updated **2026-09-01 18:46 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-01 20:00 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Atlassian | Software Engineer Intern 🆕 | Seattle, WA; SF | Summer 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job) |
+| Philips | Software Engineer Co-op - R&D 🆕 | Cambridge, MA | Winter 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Engineer--R-D----Cambridge--MA---January---August-2027_588891) |
+| Philips | Software Engineering Co-op - APM 🆕 | Cambridge, MA | Winter 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Engineering--APM----Cambridge--MA---Jan---Aug-2027_590097) |
 | Atlassian | Software Engineer Intern, 2027 Summer U.S. 🆕 | San Francisco - United States -   San Francisco, California 94104 United States; Remote - Remote | 2027 | 100% (5 skills) | 2026-08-17 | 2026-09-01 | [**Apply ➜**](https://www.atlassian.com/company/careers/details/26266) |
 | Microsoft | Software Engineer Intern - CoreAI 🆕 | Redmond, WA | Summer 2027 | 100% | 2026-08-03 | 2026-09-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556951950) |
 | Microsoft | Software Engineer: AI/ML & LLM Intern 🆕 | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-09-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922929) |
@@ -272,10 +275,7 @@ Updated **2026-09-01 18:46 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Fifth Third Bank | Software Engineer Co-Op - Enterprise Finance Applications - Spring 2027 🆕 | Cincinnati, OH | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Spring-2027_R71587) |
 | Southwest Airlines | Software Engineer Intern - Multiple Teams 🆕 | Dallas, TX | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Software-Engineering-Internships_R-2026-71386) |
 | Tesla | Software Engineer Intern - Core AI Compiler & Runtime 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281951) |
-| ISN Software Corporation | Software Developer Internship - Fall 2026 | Dallas, TX | Fall 2026 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://isnetworld.com/en/about/careers/jobs?gh_jid=6176204004) |
 | Sierra | Software Engineer Intern | SF; NYC | Summer 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://jobs.ashbyhq.com/Sierra/34b31b67-268c-4270-b48f-72e59064c96e/application?embed=true) |
 | HP IQ | Software Engineering Intern - Software Systems - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://job-boards.greenhouse.io/hpiq/jobs/6140119004) |
 | HP IQ | Software Engineering Intern - Product & Developer Productivity - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://job-boards.greenhouse.io/hpiq/jobs/6114890004) |
-| HP IQ | Software Engineer Intern - Cloud Services - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://job-boards.greenhouse.io/hpiq/jobs/6111955004) |
-| HP IQ | Software Engineering Intern - Product Security - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://job-boards.greenhouse.io/hpiq/jobs/6116398004) |
 <!-- JOB-BOARD:END -->
