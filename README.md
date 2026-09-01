@@ -252,12 +252,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-593-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-30-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--01-informational)
+![open roles](https://img.shields.io/badge/open%20roles-598-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-31-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--01-informational)
 
-Updated **2026-09-01 05:32 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-01 10:00 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Southwest Airlines | Software Engineer Intern - Multiple Teams 🆕 | Dallas, TX | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Software-Engineering-Internships_R-2026-71386) |
+| Tesla | Software Engineer Intern - Core AI Compiler & Runtime 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281951) |
 | ISN Software | Software Developer Intern - Fall 2026 🆕 | Dallas, TX | Fall 2026 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://isnetworld.com/en/about/careers/jobs?gh_jid=6176204004) |
 | Sierra | Software Engineer Intern 🆕 | SF; NYC | Summer 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://jobs.ashbyhq.com/Sierra/34b31b67-268c-4270-b48f-72e59064c96e/application?embed=true) |
 | HP IQ | Software Engineer Intern 🆕 | SF | Summer 2027 | 100% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://job-boards.greenhouse.io/hpiq/jobs/6114912004) |
@@ -275,7 +277,5 @@ Updated **2026-09-01 05:32 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | CIBC | Software Engineer Co-op 🆕 | Chicago, IL | Spring 2027 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Spring-Term-Software-Engineer-Co-op---Chicago--Northeastern-University-_2617782-1) |
 | CIBC | Software Engineer Co-op 🆕 | Chicago, IL | Spring 2027 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://cibc.wd3.myworkdayjobs.com/campus/job/Chicago-IL/XMLNAME-2027-Spring-Term-Software-Engineer-Co-op---Chicago--Northeastern-University-_2617782) |
 | Sierra | Software Engineer, Agent (New Grad 2027) 🆕 | San Francisco, CA; New York, NY | 2027 New Grad | 100% (2 skills) | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://jobs.ashbyhq.com/Sierra/149f368c-52d5-408f-ba26-ad888f318a00) |
-| Copart | AI Engineer Intern 🆕 | Dallas, TX | Fall 2026 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/AI-Engineer-Intern_JR110948) |
-| GE Aerospace | Applied AI Engineer Co-op | Evendale, OH; Atlanta, GA | Spring 2027 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Applied-AI-Engineer-Co-op---Spring-2027--January-Start-_R5039041-1) |
-| Qorvo | Software Engineer Intern | Richardson, TX | Fall 2026 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://careers.qorvo.com/job/Richardson-Software-Engineer-Intern-TX-75080/1421453600/?ats=successfactors) |
+| Copart | AI Engineer Intern | Dallas, TX | Fall 2026 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/AI-Engineer-Intern_JR110948) |
 <!-- JOB-BOARD:END -->
