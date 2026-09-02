@@ -252,20 +252,20 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-613-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-5-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--02-informational)
+![open roles](https://img.shields.io/badge/open%20roles-622-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-18-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--02-informational)
 
-Updated **2026-09-02 14:39 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-02 18:38 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Geotab | DataOps Developer Intern - Months 🆕 | Atlanta, GA | Winter 2027 | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://job-boards.greenhouse.io/internshiplist2000/jobs/5389379008) |
-| Tesla | Vehicle Software Engineer Intern - Diagnostic User Interface 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281921) |
-| Tesla | Robotaxi Simulation Engineer Intern - Systems Modeling & Optimization 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281936) |
-| Tesla | Machine Learning Engineer Intern - Charging Data Modeling 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281940) |
+| Tesla | Vehicle Software Engineer Intern - Diagnostic User Interface | Palo Alto, CA | Winter 2027 | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281921) |
+| Tesla | Robotaxi Simulation Engineer Intern - Systems Modeling & Optimization | Palo Alto, CA | Winter 2027 | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281936) |
+| Tesla | Machine Learning Engineer Intern - Charging Data Modeling | Palo Alto, CA | Winter 2027 | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281940) |
 | Berkshire Grey | Software Co-op | Bedford, MA | Spring 2027 | 100% | 2026-09-01 | 2026-09-02 | [**Apply ➜**](https://berkshiregrey.bamboohr.com/careers/763/) |
-| Parsons | Software Developer Intern - Fall 2026/Spring 2027 | Remote in USA | Fall 2026 | 100% | 2026-09-01 | 2026-09-02 | [**Apply ➜**](https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---Remote-Any-Location/Software-Developer-Intern_R185565) |
+| Parsons | Software Developer Intern - Fall 2026/Spring 2027 | Remote - USA | Fall 2026 | 100% | 2026-09-01 | 2026-09-02 | [**Apply ➜**](https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---Remote-Any-Location/Software-Developer-Intern_R185565) |
 | Hermeus | Software Engineer Intern - Modeling & Simulation - Multiple Teams | LA | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply) |
-| HP IQ | Software Engineer Intern - Connectivity | SF | Summer 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://job-boards.greenhouse.io/hpiq/jobs/6176783004) |
+| HP IQ | Software Engineering Intern - Connectivity - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://job-boards.greenhouse.io/hpiq/jobs/6176783004) |
 | Nike | Global Apparel Materials Developer Intern - Apparel Development - Global Apparel Materials | Beaverton, OR | Winter 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://nike.wd1.myworkdayjobs.com/nke/job/Beaverton-Oregon/NIKE--Inc-Apparel-Development--Global-Apparel-Materials--Undergraduate-Internship_R-91228) |
 | Atlassian | Software Engineer Intern | Seattle, WA; SF | Summer 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job) |
 | Philips | Software Engineer Co-op - R&D | Cambridge, MA | Winter 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Engineer--R-D----Cambridge--MA---January---August-2027_588891) |
