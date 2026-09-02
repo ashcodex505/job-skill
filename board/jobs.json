@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-02T09:51:33.618Z",
+ "updatedAt": "2026-09-02T14:25:35.799Z",
  "jobs": [
   {
    "dedupeKey": "atlassian:111:26266",
@@ -53,28 +53,6 @@
    },
    "postedAt": "2026-08-31T18:22:27-04:00",
    "firstSeenAt": "2026-08-31T23:48:00.919Z"
-  },
-  {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
   },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -533,6 +511,28 @@
    },
    "postedAt": "2025-06-26T19:53:39.925Z",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
   },
   {
    "dedupeKey": "amazon:10517567",
@@ -1682,50 +1682,6 @@
    },
    "postedAt": "2025-12-22T18:35:42-05:00",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
-  },
-  {
-   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
-   "source": "vansh",
-   "company": "Appian",
-   "title": "New Grad 2027: Software Engineer",
-   "location": "McLean, VA",
-   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T21:58:55.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:5aeca8d24bcbe1a96541ed7c946df00e8c7804a4",
@@ -5384,6 +5340,50 @@
    },
    "postedAt": "2026-05-21",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
+  },
+  {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
+  },
+  {
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "simplifyjobs:29d56cce-6d8e-4fac-aeb4-7c14135e0b12",
@@ -13544,6 +13544,28 @@
    "firstSeenAt": "2026-09-02T04:23:48.772Z"
   },
   {
+   "dedupeKey": "simplifyjobs:fb0f6a70-7886-4ed4-a59d-12e6a0e79c9d",
+   "source": "simplifyjobs",
+   "company": "Geotab",
+   "title": "DataOps Developer Intern - Months",
+   "location": "Atlanta, GA",
+   "url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5389379008",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-02T13:17:05.000Z",
+   "firstSeenAt": "2026-09-02T14:25:35.799Z"
+  },
+  {
    "dedupeKey": "reverse-discovery:4830113101",
    "source": "reverse-discovery",
    "company": "asm",
@@ -13666,56 +13688,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:bcbeaa17-8b2a-4a48-bc56-ae7f245fa7f0",
-   "company": "Amentum",
-   "title": "Entry Level Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z",
-   "closedAt": "2026-08-26T10:49:08.182Z",
-   "url": "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-VA-Dahlgren/Entry-Level-Software-Engineer_R0165144"
-  },
-  {
-   "dedupeKey": "simplifyjobs:501a5d9d-54bb-4a8b-a3a5-2c6efd18d963",
-   "company": "Fidelity Investments",
-   "title": "Software Engineer New Grad - LEAP",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-25T15:56:22.622Z",
-   "closedAt": "2026-08-26T11:40:35.499Z",
-   "url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Westlake-TX/XMLNAME-2026-Undergraduate---LEAP--Software-Engineer_2134380"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:182489862565aa05b73203efe3b9f7d5d4a49714",
-   "company": "Philips",
-   "title": "Co-op - Software System Engineering - Plymouth - MN - January 2027",
-   "season": "2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-25T13:07:49.330Z",
-   "closedAt": "2026-08-26T13:13:02.058Z",
-   "url": "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern-Co-op---Software-System-Engineering---Plymouth--MN---Summer-2027_590406"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:d9a1edd6afb62dcf223f06d62abe01e31a994a60",
-   "company": "Deepgram",
-   "title": "Software Engineering- Internship - Fall 2026/Summer 2027",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-21T02:14:34.883Z",
-   "closedAt": "2026-08-26T13:13:02.058Z",
-   "url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:3cacf5459e594d29112bd6e742a25ca6fcf436ad",
-   "company": "General Dynamics Mission Systems",
-   "title": "Entry Level Software Systems Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-07T01:09:11.897Z",
-   "closedAt": "2026-08-26T13:13:02.058Z",
-   "url": "https://careers-gdms.icims.com/jobs/73755/entry-level-software-systems-engineer/job"
-  },
   {
    "dedupeKey": "simplifyjobs:1ab64208-6dc5-42b3-8f44-b12675e50c49",
    "company": "Micron Technology",
