@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-623-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-19-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--02-informational)
+![open roles](https://img.shields.io/badge/open%20roles-617-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-20-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--02-informational)
 
-Updated **2026-09-02 18:55 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-02 19:54 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Anduril | 2027 Early Career Flight Software Engineer 🆕 | Costa Mesa, California, United States | 2027 New Grad | 100% (2 skills) | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5228868007?gh_jid=5228868007) |
 | Applied Intuition | Cybersecurity Software Engineer - New Grad (December 2027) 🆕 | Sunnyvale | 2027 New Grad | 100% (2 skills) | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e) |
 | Geotab | DataOps Developer Intern - Months 🆕 | Atlanta, GA | Winter 2027 | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://job-boards.greenhouse.io/internshiplist2000/jobs/5389379008) |
 | Tesla | Vehicle Software Engineer Intern - Diagnostic User Interface | Palo Alto, CA | Winter 2027 | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281921) |
@@ -277,5 +278,4 @@ Updated **2026-09-02 18:55 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Microsoft | Software Engineer Intern - Data Platform & Analytics | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-09-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922931) |
 | Microsoft | Software Engineer Security & Identity Intern | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-09-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922930) |
 | Microsoft | Full-Stack Product Engineer Intern - Web + Services | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-09-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922922) |
-| Microsoft | Software Engineer Intern - Cloud & Distributed Backend | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-09-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922923) |
 <!-- JOB-BOARD:END -->
