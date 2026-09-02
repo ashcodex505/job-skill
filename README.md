@@ -252,12 +252,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-609-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-34-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--01-informational)
+![open roles](https://img.shields.io/badge/open%20roles-612-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-32-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--02-informational)
 
-Updated **2026-09-01 21:57 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-02 00:04 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Berkshire Grey | Software Co-op 🆕 | Bedford, MA | Spring 2027 | 100% | 2026-09-01 | 2026-09-02 | [**Apply ➜**](https://berkshiregrey.bamboohr.com/careers/763/) |
+| Parsons | Software Developer Intern - Fall 2026/Spring 2027 🆕 | Remote in USA | Fall 2026 | 100% | 2026-09-01 | 2026-09-02 | [**Apply ➜**](https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---Remote-Any-Location/Software-Developer-Intern_R185565) |
 | Hermeus | Software Engineer Intern - Modeling & Simulation - Multiple Teams 🆕 | LA | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply) |
 | HP IQ | Software Engineer Intern - Connectivity 🆕 | SF | Summer 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://job-boards.greenhouse.io/hpiq/jobs/6176783004) |
 | Nike | Global Apparel Materials Developer Intern - Apparel Development - Global Apparel Materials 🆕 | Beaverton, OR | Winter 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://nike.wd1.myworkdayjobs.com/nke/job/Beaverton-Oregon/NIKE--Inc-Apparel-Development--Global-Apparel-Materials--Undergraduate-Internship_R-91228) |
@@ -274,8 +276,6 @@ Updated **2026-09-01 21:57 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Microsoft | Software Engineer Intern - AI and ML Projects 🆕 | Mountain View, CA | Summer 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556972687) |
 | Microsoft | Software Engineer Intern - AI and ML 🆕 | Boston, MA | Summer 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556972698) |
 | Tesla | Software Engineer Intern - Fullstack Engineer - Infrastructure Engineering 🆕 | Fremont, CA | Winter 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281462) |
-| Blue Origin | Software Development Engineer I - Early Career - 2027 Starts 🆕 | Seattle, WA +4 | 2027 New Grad | 100% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/Software-Development-Engineer-I---Early-Career--2027-Starts-_R71326) |
-| Fifth Third Bank | Software Engineer Co-Op - Enterprise Finance Applications - Spring 2027 🆕 | Cincinnati, OH | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Spring-2027_R71587) |
-| Southwest Airlines | Software Engineer Intern - Multiple Teams 🆕 | Dallas, TX | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Software-Engineering-Internships_R-2026-71386) |
-| Tesla | Software Engineer Intern - Core AI Compiler & Runtime 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281951) |
+| Blue Origin | Software Development Engineer I - Early Career - 2027 Starts | Seattle, WA +4 | 2027 New Grad | 100% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/Software-Development-Engineer-I---Early-Career--2027-Starts-_R71326) |
+| Fifth Third Bank | Software Engineer Co-Op - Enterprise Finance Applications - Spring 2027 | Cincinnati, OH | Spring 2027 | 100% | 2026-09-01 | 2026-09-01 | [**Apply ➜**](https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Spring-2027_R71587) |
 <!-- JOB-BOARD:END -->
