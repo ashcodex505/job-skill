@@ -252,12 +252,15 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-632-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-31-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--03-informational)
+![open roles](https://img.shields.io/badge/open%20roles-632-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-35-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--03-informational)
 
-Updated **2026-09-03 21:52 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-03 22:35 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Peak Energy | Systems Integration and Test Engineer Intern - Winter 2027 🆕 | Burlingame, CA | Winter 2027 | 100% | 2026-07-13 | 2026-09-03 | [**Apply ➜**](https://peakenergy.com/get-in-touch/careers/jobs?job_id=5185852007&gh_jid=5185852007) |
+| SiFive | Design Verification Infrastructure Intern - Platform 🆕 | Boston, MA; Austin, TX; Santa Clara, CA; Berkeley, CA | Fall 2026 | 100% | 2026-08-01 | 2026-09-03 | [**Apply ➜**](https://sifive.wd1.myworkdayjobs.com/en-US/sifivecareers/job/Santa-Clara-California-United-States/Intern---Design-Verification-Infrastructure-Engineer---Platform_R-101291-1) |
+| TikTok | Machine Learning Infrastructure Engineer Intern - Ads Infrastructure 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-04 | 2026-09-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668881813744191749) |
 | Lila Sciences | Software Product Management Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-06-16 | 2026-09-03 | [**Apply ➜**](https://job-boards.greenhouse.io/lilasciences/jobs/4286512009) |
 | Composio | Forward Deployed Engineer Intern 🆕 | SF | Fall 2026 | 100% | 2026-08-14 | 2026-09-03 | [**Apply ➜**](https://jobs.ashbyhq.com/composio/6b742321-a1e6-46d7-88d1-103bae44df23/application?embed=true) |
 | Intel | System Technology PhD Intern - Research Engineer 🆕 | Austin, TX; Santa Clara, CA; Hillsboro, OR | Summer 2027 | 100% | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/System-Technology---Research-Engineer--PhD-Intern-_JR0286791) |
@@ -275,7 +278,4 @@ Updated **2026-09-03 21:52 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Intel | Software Engineer Intern 🆕 | Austin, TX; Santa Clara, CA; Hillsboro, OR; Folsom, CA; Phoenix, AZ | Spring 2027 | 100% | 2026-09-02 | 2026-09-03 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Bachelor-s_JR0286834) |
 | Oceanus Marine Technologies | Software Engineer Intern 🆕 | El Segundo, CA | Fall 2026 | 100% | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://jobs.ashbyhq.com/oceanus/c16078ab-131c-461e-9049-b094633ae41b/application?embed=true) |
 | Qorvo | Radio Systems and Test Intern 🆕 | Fort Lauderdale, FL | Fall 2026 | 100% | 2026-08-31 | 2026-09-03 | [**Apply ➜**](https://careers.qorvo.com/job/Ft_-Lauderdale-Radio-Systems-and-Test-Intern-FL-33309/1422353400/?ats=successfactors) |
-| Tesla | Software Integration Engineer Intern - Battery Management Systems 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282241) |
-| Tesla | Software Engineer Intern - Vehicle UI Development 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282242) |
-| Tesla | Software Engineer Intern - AI Tooling 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282291) |
 <!-- JOB-BOARD:END -->
