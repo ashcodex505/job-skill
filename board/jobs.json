@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-03T10:03:16.236Z",
+ "updatedAt": "2026-09-03T11:08:24.139Z",
  "jobs": [
   {
    "dedupeKey": "atlassian:250:26275",
@@ -1320,135 +1320,6 @@
    "firstSeenAt": "2026-08-14T22:34:43.994Z"
   },
   {
-   "dedupeKey": "greenhouse:5210813007",
-   "source": "greenhouse",
-   "company": "Verkada",
-   "title": "Backend Software Engineering Intern 2027",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5210813007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "AWS",
-    "Docker",
-    "Linux"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-08-25",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5210942007",
-   "source": "greenhouse",
-   "company": "Verkada",
-   "title": "Frontend Software Engineering Intern 2027",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5210942007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 95,
-   "matchedSkills": [
-    "TypeScript",
-    "JavaScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2026-08-25",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5219131007",
-   "source": "greenhouse",
-   "company": "Verkada",
-   "title": "Mobile Software Engineering Intern 2027",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5219131007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-25",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5213881007",
-   "source": "greenhouse",
-   "company": "Verkada",
-   "title": "Security Software Engineering Intern 2027",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5213881007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "AWS",
-    "Docker",
-    "Linux"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-08-25",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z"
-  },
-  {
-   "dedupeKey": "ashby:452afc2e-0c79-41f8-8201-1aab7df775db",
-   "source": "ashby",
-   "company": "Quora",
-   "title": "Software Engineer, Machine Learning Platform, New Grad - Quora (Remote)",
-   "location": "Remote - Multiple Locations; United States; Canada",
-   "url": "https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 91,
-   "matchedSkills": [
-    "Python",
-    "AWS",
-    "Docker",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 5,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-07-31T23:57:14.341Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "greenhouse:8493079002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1735,6 +1606,135 @@
    },
    "postedAt": "2026-08-03",
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5210813007",
+   "source": "greenhouse",
+   "company": "Verkada",
+   "title": "Backend Software Engineering Intern 2027",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5210813007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "AWS",
+    "Docker",
+    "Linux"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-08-25",
+   "firstSeenAt": "2026-08-25T18:54:45.779Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5210942007",
+   "source": "greenhouse",
+   "company": "Verkada",
+   "title": "Frontend Software Engineering Intern 2027",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5210942007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 95,
+   "matchedSkills": [
+    "TypeScript",
+    "JavaScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-25",
+   "firstSeenAt": "2026-08-25T18:54:45.779Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5219131007",
+   "source": "greenhouse",
+   "company": "Verkada",
+   "title": "Mobile Software Engineering Intern 2027",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5219131007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25",
+   "firstSeenAt": "2026-08-25T18:54:45.779Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5213881007",
+   "source": "greenhouse",
+   "company": "Verkada",
+   "title": "Security Software Engineering Intern 2027",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5213881007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "AWS",
+    "Docker",
+    "Linux"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-08-25",
+   "firstSeenAt": "2026-08-25T18:54:45.779Z"
+  },
+  {
+   "dedupeKey": "ashby:452afc2e-0c79-41f8-8201-1aab7df775db",
+   "source": "ashby",
+   "company": "Quora",
+   "title": "Software Engineer, Machine Learning Platform, New Grad - Quora (Remote)",
+   "location": "Remote - Multiple Locations; United States; Canada",
+   "url": "https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 91,
+   "matchedSkills": [
+    "Python",
+    "AWS",
+    "Docker",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-07-31T23:57:14.341Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "greenhouse:7488508",
@@ -8533,6 +8533,72 @@
    "firstSeenAt": "2026-09-03T09:58:19.603Z"
   },
   {
+   "dedupeKey": "simplifyjobs:b1a94042-0745-42b3-8e10-95436ad94aae",
+   "source": "simplifyjobs",
+   "company": "Applied Materials",
+   "title": "Systems Engineer 1 New Grad - Fusion",
+   "location": "Gloucester, MA",
+   "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Engineer-Development-Rotation-Program---Systems-Engineer-I-New-College-Grad---BS-or-MS--Gloucester--MA-_R2625758-1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-14T00:00:00.000Z",
+   "firstSeenAt": "2026-09-03T11:08:24.139Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:0f0587c3-f43f-4a49-ab68-5ac6786e237a",
+   "source": "simplifyjobs",
+   "company": "Northwood Space",
+   "title": "RF & Antenna Systems Engineer - Early Career",
+   "location": "LA; Torrance, CA",
+   "url": "https://jobs.ashbyhq.com/NorthwoodSpace/11992bc2-5ec9-4143-9b64-e70be5b13726/application?embed=true",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-10T19:10:15.000Z",
+   "firstSeenAt": "2026-09-03T11:08:24.139Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:73ccc5e7-16e0-40f4-8626-b594e1e053fd",
+   "source": "simplifyjobs",
+   "company": "Torch Technologies",
+   "title": "Entry-Level Radar Engineer - Tactical Missile Systems",
+   "location": "Huntsville, AL",
+   "url": "https://starfish.wd501.myworkdayjobs.com/Careers/job/Huntsville-AL/Entry-Level-Radar-Engineer_R1397",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-07-16T00:00:00.000Z",
+   "firstSeenAt": "2026-09-03T11:08:24.139Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:64725ad4-eb28-4c0e-8af0-7e56f560abc2",
    "source": "simplifyjobs",
    "company": "Tesla",
@@ -8951,6 +9017,28 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
+   "dedupeKey": "simplifyjobs:27bc7565-972b-4dff-a2b6-d86296a62c88",
+   "source": "simplifyjobs",
+   "company": "Copart",
+   "title": "Software Engineer Intern",
+   "location": "Dallas, TX",
+   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-15T00:00:00.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:7d13d689-657d-404d-9463-284ccb89bd44",
    "source": "simplifyjobs",
    "company": "Beacon Software",
@@ -8992,6 +9080,28 @@
     "skills": 0
    },
    "postedAt": "2026-07-15T00:00:00.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:2852d53d-1e2d-4026-9f6f-90758dc79f0a",
+   "source": "simplifyjobs",
+   "company": "Copart",
+   "title": "Software Engineer Intern",
+   "location": "Dallas, TX",
+   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-20T00:00:00.000Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -10359,12 +10469,12 @@
    "firstSeenAt": "2026-08-07T06:39:26.619Z"
   },
   {
-   "dedupeKey": "simplifyjobs:5e274ea4-55e9-4ee0-8e93-82d466c18810",
+   "dedupeKey": "simplifyjobs:ea2731af-2fbc-4e8e-834a-a0db3c17ab9c",
    "source": "simplifyjobs",
    "company": "RTX",
    "title": "Systems Engineer 1 Intern - Intern Conversion",
    "location": "Cedar Rapids, IA",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863596",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863190",
    "season": "Fall 2026",
    "roleType": "internship",
    "score": 100,
@@ -11087,6 +11197,28 @@
    "firstSeenAt": "2026-08-17T23:33:07.034Z"
   },
   {
+   "dedupeKey": "simplifyjobs:2d8fe16e-0d23-496c-9f2a-a5a1dd0f386a",
+   "source": "simplifyjobs",
+   "company": "Intel",
+   "title": "Software Development Intern",
+   "location": "Folsom, CA",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-17T00:00:00.000Z",
+   "firstSeenAt": "2026-09-03T04:55:53.353Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:7a1b2d0b-fb4d-450e-9f60-44a50b914ab1",
    "source": "simplifyjobs",
    "company": "RegDesk",
@@ -11358,28 +11490,6 @@
    "location": "Santa Clara, CA",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
    "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-19T00:00:00.000Z",
-   "firstSeenAt": "2026-08-19T10:40:06.482Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:790a9545-abe4-4bd0-af4b-55b368673465",
-   "source": "simplifyjobs",
-   "company": "NVIDIA",
-   "title": "Computer Architecture and Systems Intern - Research",
-   "location": "Santa Clara, CA",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Architecture-and-Systems_JR2023854",
-   "season": "Summer 2027",
    "roleType": "internship",
    "score": 100,
    "matchedSkills": [],
@@ -11769,28 +11879,6 @@
    "firstSeenAt": "2026-08-21T20:36:43.100Z"
   },
   {
-   "dedupeKey": "simplifyjobs:4542fdc9-ae91-4050-aa44-0ec742dd1dbe",
-   "source": "simplifyjobs",
-   "company": "Interdigital",
-   "title": "Information Systems / Salesforce Intern",
-   "location": "Conshohocken, PA",
-   "url": "https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Intern--IS-Systems---Salesforce_REQ26-1133",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-21T00:00:00.000Z",
-   "firstSeenAt": "2026-08-21T20:36:43.100Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:733e27ec-57f0-4e26-8f45-410e4fd4aed5",
    "source": "simplifyjobs",
    "company": "SimIS",
@@ -11987,6 +12075,28 @@
    },
    "postedAt": "2026-08-24T00:00:00.000Z",
    "firstSeenAt": "2026-08-24T21:39:20.245Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:23283fde-40f1-42d9-bf10-9b7362a6c553",
+   "source": "simplifyjobs",
+   "company": "Brunswick",
+   "title": "Software Engineer Intern - Boating Intelligence Design Lab",
+   "location": "Champaign, IL",
+   "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-24T00:00:00.000Z",
+   "firstSeenAt": "2026-08-24T23:31:16.201Z"
   },
   {
    "dedupeKey": "simplifyjobs:39309c17-e806-4ea4-ba0d-0d69cfaca27f",
@@ -12763,28 +12873,6 @@
    "firstSeenAt": "2026-08-28T07:03:37.242Z"
   },
   {
-   "dedupeKey": "simplifyjobs:e2ae47c8-3242-4ff9-87f1-e19745909137",
-   "source": "simplifyjobs",
-   "company": "Emory University",
-   "title": "Student Tester and Developer Intern - GPS Sample",
-   "location": "Decatur, GA",
-   "url": "https://staff-emory.icims.com/jobs/172196/job?mobile=true&needsRedirect=false",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-21T22:05:46.000Z",
-   "firstSeenAt": "2026-08-28T17:31:34.982Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:4a0d4bf5-9311-4e02-bc23-e93e7601bcd1",
    "source": "simplifyjobs",
    "company": "Analog Devices",
@@ -12981,6 +13069,28 @@
    },
    "postedAt": "2026-08-29T00:37:27.000Z",
    "firstSeenAt": "2026-08-29T02:08:10.248Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b06bb8f0-2561-491a-833c-68686d80da8e",
+   "source": "simplifyjobs",
+   "company": "Tesla",
+   "title": "Access Control Systems Integration Engineer Intern - Vehicle Software",
+   "location": "Palo Alto, CA",
+   "url": "https://www.tesla.com/careers/search/job/277192",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-17T06:08:56.000Z",
+   "firstSeenAt": "2026-08-30T12:49:58.577Z"
   },
   {
    "dedupeKey": "simplifyjobs:3e77a1a2-8628-4836-9e07-b43a12a8468e",
@@ -14061,6 +14171,116 @@
    "firstSeenAt": "2026-09-03T09:58:19.603Z"
   },
   {
+   "dedupeKey": "simplifyjobs:c5c964b0-551b-4248-8fc8-6503f3519f57",
+   "source": "simplifyjobs",
+   "company": "Avery Dennison",
+   "title": "RFID Applications Engineer Co-op - Spring 2027 - Plus one semester",
+   "location": "Miamisburg, OH",
+   "url": "https://jobs.smartrecruiters.com/AveryDennison/744000144595999",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-20T22:07:05.000Z",
+   "firstSeenAt": "2026-09-03T11:08:24.139Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f7218e45-fc0c-48fe-942b-9d0e8daca6b2",
+   "source": "simplifyjobs",
+   "company": "GE Aerospace",
+   "title": "Systems Engineer Co-op - Electrical Engineering & Computer Engineering/Science - Avionics",
+   "location": "Grand Rapids, MI; Clearwater, FL",
+   "url": "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Grand-Rapids/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Spring-2027_R5030096-2",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-17T00:00:00.000Z",
+   "firstSeenAt": "2026-09-03T11:08:24.139Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:c5562522-fdf2-43a1-b6e1-2b11a8e48969",
+   "source": "simplifyjobs",
+   "company": "Tesla",
+   "title": "Systems Architecture & Integration Engineer Intern - LV Architecture",
+   "location": "Palo Alto, CA",
+   "url": "https://www.tesla.com/careers/search/job/279766",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-12T03:35:31.000Z",
+   "firstSeenAt": "2026-09-03T11:08:24.139Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:833ede40-8c80-49d5-939f-6613da986aaa",
+   "source": "simplifyjobs",
+   "company": "Pennsylvania State University",
+   "title": "Research Engineering Intern - Strategic Systems Operations Division - Applied Research Laboratory",
+   "location": "State College, PA; Reston, VA",
+   "url": "https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/Research-Engineering-Interns_REQ_0000076869",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-20T10:59:12.000Z",
+   "firstSeenAt": "2026-09-03T11:08:24.139Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:6e136f7b-d21d-46b4-9020-2c24cdf5ba0f",
+   "source": "simplifyjobs",
+   "company": "Motorola",
+   "title": "Wireless Systems Engineer Intern - Wireless Systems",
+   "location": "LA",
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/R-D-Intern---Wireless-Systems-Engineer---2026_R62376",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-13T10:31:12.000Z",
+   "firstSeenAt": "2026-09-03T11:08:24.139Z"
+  },
+  {
    "dedupeKey": "reverse-discovery:4830113101",
    "source": "reverse-discovery",
    "company": "asm",
@@ -14183,16 +14403,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:ea2731af-2fbc-4e8e-834a-a0db3c17ab9c",
-   "company": "RTX",
-   "title": "Systems Engineer 1 Intern - Intern Conversion",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-07T23:09:42.134Z",
-   "closedAt": "2026-08-27T16:36:18.343Z",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863190"
-  },
   {
    "dedupeKey": "amazon:3136266",
    "company": "Amazon",
@@ -14804,16 +15014,6 @@
    "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864"
   },
   {
-   "dedupeKey": "simplifyjobs:b06bb8f0-2561-491a-833c-68686d80da8e",
-   "company": "Tesla",
-   "title": "Access Control Systems Integration Engineer Intern - Vehicle Software",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-30T12:49:58.577Z",
-   "closedAt": "2026-08-31T11:42:00.462Z",
-   "url": "https://www.tesla.com/careers/search/job/277192"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:6af851ba26b94e40e52528eb8a0de656a5e47219",
    "company": "General Motors",
    "title": "Entry Level Software Engineer",
@@ -15334,46 +15534,6 @@
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Software-R-D-Engineer--VLSI-Physical-Design---New-College-Grad-2026_JR2019330"
   },
   {
-   "dedupeKey": "simplifyjobs:27bc7565-972b-4dff-a2b6-d86296a62c88",
-   "company": "Copart",
-   "title": "Software Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-09-03T09:58:19.603Z",
-   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2852d53d-1e2d-4026-9f6f-90758dc79f0a",
-   "company": "Copart",
-   "title": "Software Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-09-03T09:58:19.603Z",
-   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2d8fe16e-0d23-496c-9f2a-a5a1dd0f386a",
-   "company": "Intel",
-   "title": "Software Development Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-03T04:55:53.353Z",
-   "closedAt": "2026-09-03T09:58:19.603Z",
-   "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:23283fde-40f1-42d9-bf10-9b7362a6c553",
-   "company": "Brunswick",
-   "title": "Software Engineer Intern - Boating Intelligence Design Lab",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-24T23:31:16.201Z",
-   "closedAt": "2026-09-03T09:58:19.603Z",
-   "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316"
-  },
-  {
    "dedupeKey": "simplifyjobs:5a9ddf5e-7efd-444f-9eb2-f4e5c80da75c",
    "company": "Netflix",
    "title": "Machine Learning/AI Infrastructure Engineering Intern - AI Platform",
@@ -15382,6 +15542,46 @@
    "firstSeenAt": "2026-08-26T23:25:35.559Z",
    "closedAt": "2026-09-03T09:58:19.603Z",
    "url": "https://explore.jobs.netflix.net/careers/job/790317917022"
+  },
+  {
+   "dedupeKey": "simplifyjobs:5e274ea4-55e9-4ee0-8e93-82d466c18810",
+   "company": "RTX",
+   "title": "Systems Engineer 1 Intern - Intern Conversion",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-07T23:09:42.134Z",
+   "closedAt": "2026-09-03T11:08:24.139Z",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863596"
+  },
+  {
+   "dedupeKey": "simplifyjobs:790a9545-abe4-4bd0-af4b-55b368673465",
+   "company": "NVIDIA",
+   "title": "Computer Architecture and Systems Intern - Research",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-19T10:40:06.482Z",
+   "closedAt": "2026-09-03T11:08:24.139Z",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Architecture-and-Systems_JR2023854"
+  },
+  {
+   "dedupeKey": "simplifyjobs:4542fdc9-ae91-4050-aa44-0ec742dd1dbe",
+   "company": "Interdigital",
+   "title": "Information Systems / Salesforce Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-21T20:36:43.100Z",
+   "closedAt": "2026-09-03T11:08:24.139Z",
+   "url": "https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Intern--IS-Systems---Salesforce_REQ26-1133"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e2ae47c8-3242-4ff9-87f1-e19745909137",
+   "company": "Emory University",
+   "title": "Student Tester and Developer Intern - GPS Sample",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-28T17:31:34.982Z",
+   "closedAt": "2026-09-03T11:08:24.139Z",
+   "url": "https://staff-emory.icims.com/jobs/172196/job?mobile=true&needsRedirect=false"
   }
  ]
 }
