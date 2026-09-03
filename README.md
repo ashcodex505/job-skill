@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-627-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-23-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--03-informational)
+![open roles](https://img.shields.io/badge/open%20roles-635-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-24-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--03-informational)
 
-Updated **2026-09-03 09:58 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-03 10:03 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -271,11 +271,11 @@ Updated **2026-09-03 09:58 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Tesla | Software Engineer Intern - Finance Programs 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282303) |
 | CACI | Software Engineer Co-op - Fall 2026 🆕 | King of Prussia, PA | Fall 2026 | 100% | 2026-09-02 | 2026-09-03 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/external/job/King-of-Prussia-PA-US/Software-Engineering-Co-op---Fall-2026_331472) |
 | RTX | Software Engineering Co-op 🆕 | Cedar Rapids, IA | Winter 2027 | 100% | 2026-09-02 | 2026-09-03 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Winter-Spring-2027-_01870191) |
+| North Atlantic Industries | Electrical Engineer Intern - Test Systems 🆕 | Bohemia, NY | Fall 2026 | 100% | 2026-09-02 | 2026-09-03 | [**Apply ➜**](https://recruiting.paylocity.com/Recruiting/Jobs/Details/4450195) |
 | Tesla | Systems Integration Engineer Intern - Body Controls 🆕 | Palo Alto, CA | Fall 2026 | 100% | 2026-06-07 | 2026-09-03 | [**Apply ➜**](https://www.tesla.com/careers/search/job/270617) |
 | Atlassian | Software Engineer Intern, 2027 Canada 🆕 | Canada -     Canada; Remote - Remote | 2027 | 100% (4 skills) | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://www.atlassian.com/company/careers/details/26275) |
 | Anduril | 2027 Early Career Flight Software Engineer | Costa Mesa, California, United States | 2027 New Grad | 100% (2 skills) | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5228868007?gh_jid=5228868007) |
 | Applied Intuition | Cybersecurity Software Engineer - New Grad (December 2027) | Sunnyvale | 2027 New Grad | 100% (2 skills) | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e) |
 | Geotab | DataOps Developer Intern - Months | Atlanta, GA | Winter 2027 | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://job-boards.greenhouse.io/internshiplist2000/jobs/5389379008) |
 | Tesla | Robotaxi Simulation Engineer Intern - Systems Modeling & Optimization | Palo Alto, CA | Winter 2027 | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281936) |
-| Tesla | Machine Learning Engineer Intern - Charging Data Modeling | Palo Alto, CA | Winter 2027 | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281940) |
 <!-- JOB-BOARD:END -->
