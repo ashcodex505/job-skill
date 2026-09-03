@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-03T18:51:56.120Z",
+ "updatedAt": "2026-09-03T19:46:47.759Z",
  "jobs": [
   {
    "dedupeKey": "atlassian:250:26275",
@@ -873,6 +873,28 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "ashby:8c035d3d-081d-4c8a-914a-72f4efaad254",
+   "source": "ashby",
+   "company": "Cohere",
+   "title": "Software Engineer Intern (Winter 2027)",
+   "location": "Canada; Dubai; London; United States; United Kingdom",
+   "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-05-01T20:20:40.899+00:00",
+   "firstSeenAt": "2026-08-24T17:54:22.894Z"
+  },
+  {
    "dedupeKey": "workday:JR340771",
    "source": "workday",
    "company": "Salesforce",
@@ -937,6 +959,50 @@
    },
    "postedAt": "2026-07-22T07:45:53.755Z",
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
+  },
+  {
+   "dedupeKey": "workday:R171519",
+   "source": "workday",
+   "company": "Adobe",
+   "title": "2027 Intern - Machine Learning Engineer",
+   "location": "6 Locations",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-31",
+   "firstSeenAt": "2026-08-31T23:48:00.919Z"
+  },
+  {
+   "dedupeKey": "workday:R171666",
+   "source": "workday",
+   "company": "Adobe",
+   "title": "2027 Intern - Software Engineer",
+   "location": "7 Locations",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-03",
+   "firstSeenAt": "2026-09-03T16:22:11.704Z"
   },
   {
    "dedupeKey": "workday:JR2022645",
@@ -1047,72 +1113,6 @@
    },
    "postedAt": "2026-08-24",
    "firstSeenAt": "2026-08-24T07:17:56.744Z"
-  },
-  {
-   "dedupeKey": "ashby:8c035d3d-081d-4c8a-914a-72f4efaad254",
-   "source": "ashby",
-   "company": "Cohere",
-   "title": "Software Engineer Intern (Winter 2027)",
-   "location": "Canada; Dubai; London; United States; United Kingdom",
-   "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-01T20:20:40.899+00:00",
-   "firstSeenAt": "2026-08-24T17:54:22.894Z"
-  },
-  {
-   "dedupeKey": "workday:R171519",
-   "source": "workday",
-   "company": "Adobe",
-   "title": "2027 Intern - Machine Learning Engineer",
-   "location": "6 Locations",
-   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-31",
-   "firstSeenAt": "2026-08-31T23:48:00.919Z"
-  },
-  {
-   "dedupeKey": "workday:R171666",
-   "source": "workday",
-   "company": "Adobe",
-   "title": "2027 Intern - Software Engineer",
-   "location": "7 Locations",
-   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-03",
-   "firstSeenAt": "2026-09-03T16:22:11.704Z"
   },
   {
    "dedupeKey": "greenhouse:8052083",
@@ -1381,54 +1381,6 @@
    "firstSeenAt": "2026-08-19T19:35:07.029Z"
   },
   {
-   "dedupeKey": "greenhouse:8696156002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:32-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8724316002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-19T11:08:34-04:00",
-   "firstSeenAt": "2026-08-24T21:39:20.245Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696143002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1450,6 +1402,30 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:21:23-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696156002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:32-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -1475,6 +1451,30 @@
    },
    "postedAt": "2026-08-14T12:21:38-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8724316002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-19T11:08:34-04:00",
+   "firstSeenAt": "2026-08-24T21:39:20.245Z"
   },
   {
    "dedupeKey": "greenhouse:8729121002",
@@ -6039,28 +6039,6 @@
    },
    "postedAt": "2026-06-29T22:04:55.000Z",
    "firstSeenAt": "2026-07-05T08:25:11.093Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:24c60afb-02f8-4cfa-8b73-b1949e67ede8",
-   "source": "simplifyjobs",
-   "company": "NXP Semiconductors",
-   "title": "NFC System Software Engineer - Entry Level",
-   "location": "San Jose, CA",
-   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 70,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-06-25T22:04:25.000Z",
-   "firstSeenAt": "2026-08-07T01:09:11.897Z"
   },
   {
    "dedupeKey": "simplifyjobs:645100d8-0e6e-414b-aa7c-96ecb3ea36e4",
@@ -14153,6 +14131,28 @@
    "firstSeenAt": "2026-09-03T18:51:56.120Z"
   },
   {
+   "dedupeKey": "simplifyjobs:b1a481a6-be62-46c4-a6c8-7c8b894bf94e",
+   "source": "simplifyjobs",
+   "company": "Lila Sciences",
+   "title": "Software Product Management Co-op",
+   "location": "Cambridge, MA",
+   "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4286512009",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-16T19:56:52.000Z",
+   "firstSeenAt": "2026-09-03T19:46:47.759Z"
+  },
+  {
    "dedupeKey": "reverse-discovery:4830113101",
    "source": "reverse-discovery",
    "company": "asm",
@@ -15624,6 +15624,16 @@
    "firstSeenAt": "2026-09-03T11:08:24.139Z",
    "closedAt": "2026-09-03T18:51:56.120Z",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/R-D-Intern---Wireless-Systems-Engineer---2026_R62376"
+  },
+  {
+   "dedupeKey": "simplifyjobs:24c60afb-02f8-4cfa-8b73-b1949e67ede8",
+   "company": "NXP Semiconductors",
+   "title": "NFC System Software Engineer - Entry Level",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z",
+   "closedAt": "2026-09-03T19:46:47.759Z",
+   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298"
   }
  ]
 }

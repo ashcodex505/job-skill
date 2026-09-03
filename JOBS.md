@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
-**639 open roles** across **244 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-03 18:51 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**639 open roles** across **245 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-03 19:46 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (32)
+## 🆕 New this cycle (33)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -39,12 +39,14 @@ Last updated: **2026-09-03 18:51 UTC** · auto-refreshed every 12h by [job-board
 | AG Technologies | Entry Level Software Engineer 🆕 | Chesterfield, MO | — | 70% | 2026-06-22 | 2026-09-03 | [**Apply ➜**](https://jobs.smartrecruiters.com/AGTechnologies1/100730616) |
 | AG Technologies | Entry Level Software Engineer 🆕 | Dallas, TX | — | 70% | 2026-06-22 | 2026-09-03 | [**Apply ➜**](https://jobs.smartrecruiters.com/AGTechnologies1/108734797) |
 | Pennsylvania State University | Research Engineering Intern - Strategic Systems Operations Division - Applied Research Laboratory 🆕 | State College, PA; Reston, VA | Fall 2026 | 100% | 2026-06-20 | 2026-09-03 | [**Apply ➜**](https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/Research-Engineering-Interns_REQ_0000076869) |
+| Lila Sciences | Software Product Management Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-06-16 | 2026-09-03 | [**Apply ➜**](https://job-boards.greenhouse.io/lilasciences/jobs/4286512009) |
 | Pennsylvania State University | Uncrewed Systems Intern 🆕 | University Park, State College, PA | Fall 2026 | 100% | 2026-06-13 | 2026-09-03 | [**Apply ➜**](https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/Uncrewed-Systems-Intern_REQ_0000076298-1) |
 
-## 🛠️ Internships (413)
+## 🛠️ Internships (414)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Lila Sciences | Software Product Management Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-06-16 | 2026-09-03 | [**Apply ➜**](https://job-boards.greenhouse.io/lilasciences/jobs/4286512009) |
 | Composio | Forward Deployed Engineer Intern 🆕 | SF | Fall 2026 | 100% | 2026-08-14 | 2026-09-03 | [**Apply ➜**](https://jobs.ashbyhq.com/composio/6b742321-a1e6-46d7-88d1-103bae44df23/application?embed=true) |
 | Intel | System Technology PhD Intern - Research Engineer 🆕 | Austin, TX; Santa Clara, CA; Hillsboro, OR | Summer 2027 | 100% | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/System-Technology---Research-Engineer--PhD-Intern-_JR0286791) |
 | Pennsylvania State University | Uncrewed Systems Intern 🆕 | University Park, State College, PA | Fall 2026 | 100% | 2026-06-13 | 2026-09-03 | [**Apply ➜**](https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/Uncrewed-Systems-Intern_REQ_0000076298-1) |
@@ -444,10 +446,9 @@ Last updated: **2026-09-03 18:51 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Software Engineer Intern - TikTok-Social-Friending - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667935399050692917) |
 | TikTok | Backend Software Engineer Intern - TikTok-Growth-Innovative Growth - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667934860750063925) |
 | TikTok | Backend Software Engineer Intern - TikTok- PGC-Digital Content Center - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667934302872537397) |
-| TikTok | Backend Software Engineer Intern - TikTok-Social-Friending - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7667934635573692725) |
 
-_…and 13 more (raise the cap in src/scraper/board.ts)._
-## 🎓 New Grad (226)
+_…and 14 more (raise the cap in src/scraper/board.ts)._
+## 🎓 New Grad (225)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -482,8 +483,8 @@ _…and 13 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Johns Hopkins Applied Physics Laboratory | System Modeling, Evaluation, and Planning New Grad - System Modeling, Evaluation, and Planning 🆕 | Laurel, MD | — | 80% | 2026-08-14 | 2026-09-03 | [**Apply ➜**](https://careers.jhuapl.edu/jobs/57615?icims=1) |
@@ -675,15 +676,15 @@ _…and 13 more (raise the cap in src/scraper/board.ts)._
 | Lentech Inc. | Entry Level Web Developer - Multiple Teams | Laurel, MD | — | 70% | 2026-07-23 | 2026-08-07 | [**Apply ➜**](https://lentechinc.applytojob.com/apply/qnjVhHgXdC/Entry-Web-Developer) |
 | Muon | Software Engineer - Entry-Level | San Jose, CA | — | 70% | 2026-08-05 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/muonspace/jobs/5204498007) |
 | NXP Semiconductors | NFC System Software Validation Engineer - Entry Level | San Diego, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Innovation-Dr/NFC-System-Software-Validation-Engineer---Entry-Level_R-10064295) |
-| NXP Semiconductors | NFC System Software Engineer - Entry Level | San Jose, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/NFC-System-Software-Engineer---Entry-Level_R-10064298) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (135)
+## 🚪 Recently closed (last 7 days) (136)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| NXP Semiconductors | NFC System Software Engineer - Entry Level | — | 2026-09-03 |
 | Palantir | Software Engineer New Grad - Production Infrastructure | — | 2026-09-03 |
 | Argonne National Laboratory | Business Systems Administration Internship | Fall 2026 | 2026-09-03 |
 | Motorola | Wireless Systems Engineer Intern - Wireless Systems | Fall 2026 | 2026-09-03 |
