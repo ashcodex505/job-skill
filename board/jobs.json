@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-04T22:20:45.395Z",
+ "updatedAt": "2026-09-04T23:13:47.011Z",
  "jobs": [
   {
    "dedupeKey": "atlassian:250:26275",
@@ -80,6 +80,28 @@
    },
    "postedAt": "2026-08-31T18:22:27-04:00",
    "firstSeenAt": "2026-08-31T23:48:00.919Z"
+  },
+  {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
   },
   {
    "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
@@ -538,28 +560,6 @@
    },
    "postedAt": "2025-06-26T19:53:39.925Z",
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
   },
   {
    "dedupeKey": "amazon:10529525",
@@ -1566,30 +1566,6 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696080002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:22:28-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696058002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1611,6 +1587,30 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:22:04-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696080002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:22:28-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -1638,30 +1638,6 @@
    "firstSeenAt": "2026-08-19T19:35:07.029Z"
   },
   {
-   "dedupeKey": "greenhouse:8696158002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:38-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8724316002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -1684,6 +1660,30 @@
    },
    "postedAt": "2026-08-19T11:08:34-04:00",
    "firstSeenAt": "2026-08-24T21:39:20.245Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696156002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:32-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
    "dedupeKey": "greenhouse:8696143002",
@@ -1710,12 +1710,12 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696156002",
+   "dedupeKey": "greenhouse:8696158002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002",
    "season": null,
    "roleType": "new_grad",
    "score": 82,
@@ -1730,7 +1730,7 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-08-14T12:21:32-04:00",
+   "postedAt": "2026-08-14T12:21:38-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -8198,6 +8198,28 @@
    "firstSeenAt": "2026-08-25T21:39:54.989Z"
   },
   {
+   "dedupeKey": "simplifyjobs:f2e72238-f7aa-4546-964c-34afbdf904bb",
+   "source": "simplifyjobs",
+   "company": "Zip",
+   "title": "Software Engineer New Grad - 2027 Start",
+   "location": "SF",
+   "url": "https://jobs.ashbyhq.com/zip/df6eb1ee-b360-46fe-b23f-658626ec59ea/application?embed=true",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T23:36:56.000Z",
+   "firstSeenAt": "2026-08-26T01:55:36.803Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:b556adb1-8adc-4b0f-9230-3a2067a6428d",
    "source": "simplifyjobs",
    "company": "Embedding VC",
@@ -8768,6 +8790,160 @@
    },
    "postedAt": "2026-09-04T06:21:45-04:00",
    "firstSeenAt": "2026-09-04T11:16:17.515Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ace2a03a-1f53-4778-8e95-2ca42b7a7d5a",
+   "source": "simplifyjobs",
+   "company": "General Dynamics Mission Systems",
+   "title": "Entry Level Software Engineer",
+   "location": "Lakewood, OH",
+   "url": "https://careers-gdms.icims.com/jobs/73057/job?mobile=true&needsRedirect=false",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:15:54.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:01526870-c76a-40bc-981b-2617e593fde3",
+   "source": "simplifyjobs",
+   "company": "Spirit AeroSystems",
+   "title": "Entry-Level Software Engineer",
+   "location": "Wichita, KS",
+   "url": "https://careers.spiritaero.com/jobs/17433?icims=1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:07:38.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:c192d7cd-8e41-43d0-9f80-86b20fa05310",
+   "source": "simplifyjobs",
+   "company": "Johns Hopkins Applied Physics Laboratory",
+   "title": "Systems & Software Engineer New Grad - Multi-Domain Mission Planning Development",
+   "location": "Laurel, MD",
+   "url": "https://careers.jhuapl.edu/jobs/59974?icims=1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:07:29.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:3c896aa0-4c92-4cf3-93d4-7da41b7a9f91",
+   "source": "simplifyjobs",
+   "company": "Johns Hopkins Applied Physics Laboratory",
+   "title": "Data Scientist New Grad - Computer Scientist - Decision Systems",
+   "location": "Laurel, MD",
+   "url": "https://careers.jhuapl.edu/jobs/59918?icims=1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:07:27.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:78d9bccf-8fd2-497a-80a4-f3b00fed7d3a",
+   "source": "simplifyjobs",
+   "company": "Credence",
+   "title": "Entry-Level AI Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://apply.workable.com/credence/j/BAD39E80E0/apply",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:44:02.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:1391f391-f29c-43d6-8325-a988430b5fe9",
+   "source": "simplifyjobs",
+   "company": "PayPal",
+   "title": "Software Engineer New Grad - Software Engineering",
+   "location": "Austin, TX; San Jose, CA; Chicago, IL",
+   "url": "https://paypal.eightfold.ai/careers/job/274921995088",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:41:07.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:271f04b2-4017-4e86-b67f-387e7a47b5fe",
+   "source": "simplifyjobs",
+   "company": "ID.me",
+   "title": "Software Development Engineer New Grad",
+   "location": "Mountain View, CA",
+   "url": "https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7980382003",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:20:33.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
   },
   {
    "dedupeKey": "simplifyjobs:64725ad4-eb28-4c0e-8af0-7e56f560abc2",
@@ -14520,6 +14696,204 @@
    "firstSeenAt": "2026-09-04T14:31:32.918Z"
   },
   {
+   "dedupeKey": "simplifyjobs:867f83e8-8c2d-4871-a154-59496914e89c",
+   "source": "simplifyjobs",
+   "company": "Saab",
+   "title": "Software Engineering Co-op",
+   "location": "East Syracuse, NY",
+   "url": "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Spring---Summer-2027-_R-03240-1",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T00:00:00.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:4494b591-4110-46e8-84bb-6f5752c5e2a3",
+   "source": "simplifyjobs",
+   "company": "Texas Instruments",
+   "title": "Systems Engineering Intern",
+   "location": "Dallas, TX",
+   "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017705",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:12:19.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:03f41f5f-8abb-4769-af48-22497157aece",
+   "source": "simplifyjobs",
+   "company": "Microchip Technology",
+   "title": "Intern – Engineering - Device Software and Test",
+   "location": "Chandler, AZ",
+   "url": "https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-20T00:00:00.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ac7aeef5-fa3e-4e1a-bf34-19e5ac1a602c",
+   "source": "simplifyjobs",
+   "company": "Super",
+   "title": "Software Engineer Intern - Platform",
+   "location": "Toronto, ON, Canada; Remote in Canada",
+   "url": "https://jobs.ashbyhq.com/super.com/29751d58-eacc-4b5a-8e9d-e59cb7a595c7/application?embed=true",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:41:14.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:3dea76a2-75a6-47bf-baa6-fd8f384271e2",
+   "source": "simplifyjobs",
+   "company": "Super",
+   "title": "Software Engineer Intern - Full-Stack",
+   "location": "Toronto, ON, Canada; Remote in Canada",
+   "url": "https://jobs.ashbyhq.com/super.com/b2615f7e-c6d2-46d6-9699-5027da9b5757/application?embed=true",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:41:14.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:30829caf-2d43-4e4c-aeb6-aa37a19f224b",
+   "source": "simplifyjobs",
+   "company": "PayPal",
+   "title": "Software Engineer Intern",
+   "location": "Austin, TX; San Jose, CA; Chicago, IL",
+   "url": "https://paypal.eightfold.ai/careers/job/274922260559",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:41:07.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a2743d30-b180-4a83-8edf-a8092e35fd0f",
+   "source": "simplifyjobs",
+   "company": "Rivian and Volkswagen Group Technologies",
+   "title": "Software Engineering Intern - Applications - Infotainment & Mobile",
+   "location": "Palo Alto, CA; Irvine, CA",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/c5c0f2e3-ae78-4ca6-94f8-b6940d3cdb69/application?embed=true",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:40:38.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b4226799-e9a0-4472-bb83-fd8e4c46a84f",
+   "source": "simplifyjobs",
+   "company": "Zipline",
+   "title": "Aircraft Software Integration Intern",
+   "location": "South SF",
+   "url": "https://www.zipline.com/open-roles/7986810003?gh_jid=7986810003",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:31:57.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f503c11d-3e20-467e-974e-94f5e84053d9",
+   "source": "simplifyjobs",
+   "company": "Brave",
+   "title": "Software Engineer Intern - Waterloo University",
+   "location": "Remote in Canada",
+   "url": "https://job-boards.greenhouse.io/brave/jobs/8161945",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:21:08.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
    "dedupeKey": "reverse-discovery:4830113101",
    "source": "reverse-discovery",
    "company": "asm",
@@ -15531,16 +15905,6 @@
    "firstSeenAt": "2026-08-30T17:24:35.380Z",
    "closedAt": "2026-09-02T18:38:22.760Z",
    "url": "https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Charleston-SC/University---2027-Summer-Games-Software-Developer-Intern_R0248134"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:6d71e48c8cb84c01607a90fbed44e7bf89e413cb",
-   "company": "Zip",
-   "title": "Software Engineer - New Grad - 2027 Start",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-26T01:55:36.803Z",
-   "closedAt": "2026-09-02T18:38:22.760Z",
-   "url": "https://jobs.ashbyhq.com/zip/df6eb1ee-b360-46fe-b23f-658626ec59ea"
   },
   {
    "dedupeKey": "speedyapply:sha1:699bbb3acd164c12e71ef6d403763255f848b752",
