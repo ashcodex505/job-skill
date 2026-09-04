@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**657 open roles** across **249 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-04 16:17 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**656 open roles** across **249 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-04 17:45 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (38)
@@ -453,7 +453,7 @@ Last updated: **2026-09-04 16:17 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Software Engineer Intern - TikTok - Effects Performance - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-31 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668725183121000757) |
 
 _…and 37 more (raise the cap in src/scraper/board.ts)._
-## 🎓 New Grad (220)
+## 🎓 New Grad (219)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -490,8 +490,8 @@ _…and 37 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Procter & Gamble | IT Engineering New Grad - Software, Platform, & Network 🆕 | Cincinnati, OH | — | 80% | 2026-08-24 | 2026-09-04 | [**Apply ➜**](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/IT-Engineering--Software--Platform----Network----2027-Grads-_R000157918) |
@@ -539,7 +539,6 @@ _…and 37 more (raise the cap in src/scraper/board.ts)._
 | Notion | Software Engineer New Grad | SF | — | 80% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true) |
 | WeRide | Software Engineer New Grad - Algorithm | San Jose, CA | — | 80% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://jobs.lever.co/weride/5a7cbc83-2381-482e-9d6d-e9c9d59ad63b/apply) |
 | Composio | Fullstack Engineer - Product Team - New Grad | San Francisco, CA | — | 80% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://jobs.ashbyhq.com/composio/01e0e7ad-44a2-44e8-9340-64ca70eff491) |
-| Johns Hopkins Applied Physics Laboratory | Systems Engineer/Analyst New Grad - Multi-Mission Planning Development | Laurel, MD | — | 80% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://careers.jhuapl.edu/jobs/58164?icims=1) |
 | Johns Hopkins Applied Physics Laboratory | Computer Scientist New Grad - Tactical System Prototyping and Deployment | Laurel, MD | — | 80% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://careers.jhuapl.edu/jobs/59416?icims=1) |
 | Kyndryl | Associate AI Engineer - Early Career Consult Program | Dallas, TX | — | 80% | 2026-08-13 | 2026-08-14 | [**Apply ➜**](https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739) |
 | TikTok | Backend Software Engineer New Grad - Creator Strategy | San Jose, CA | — | 80% | 2026-08-13 | 2026-08-13 | [**Apply ➜**](https://lifeattiktok.com/search/7672976491146004741) |
@@ -678,12 +677,13 @@ _…and 37 more (raise the cap in src/scraper/board.ts)._
 | NXP Semiconductors | NFC System Software Validation Engineer - Entry Level | San Diego, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Innovation-Dr/NFC-System-Software-Validation-Engineer---Entry-Level_R-10064295) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (158)
+## 🚪 Recently closed (last 7 days) (157)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Johns Hopkins Applied Physics Laboratory | Systems Engineer/Analyst New Grad - Multi-Mission Planning Development | — | 2026-09-04 |
 | Western & Southern Financial Group | Software Engineering Intern - Full Year 2027 | 2027 | 2026-09-04 |
 | Booz Allen | University - 2027 Summer Games Software Developer Intern | 2027 | 2026-09-04 |
 | Motorola Solutions | Mission Critical Networks Software Engineer - 2027 Co-op | 2027 | 2026-09-04 |
@@ -840,8 +840,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | The Walt Disney Company | Systems Software Engineer Intern | Winter 2027 | 2026-08-29 |
 | The Walt Disney Company | Systems Software Engineer Intern | Winter 2027 | 2026-08-29 |
 | Blockhouse | Applied AI Engineer Intern | Fall 2026 | 2026-08-29 |
-| Cole Engineering Services | Software Engineer Intern | Fall 2026 | 2026-08-28 |
-| Conduent | Applied AI Engineer Intern - Government Healthcare Solutions | Fall 2026 | 2026-08-28 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
