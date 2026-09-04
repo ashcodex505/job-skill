@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-04T05:53:38.487Z",
+ "updatedAt": "2026-09-04T09:47:01.915Z",
  "jobs": [
   {
    "dedupeKey": "atlassian:250:26275",
@@ -562,6 +562,33 @@
    "firstSeenAt": "2026-07-05T06:56:59.748Z"
   },
   {
+   "dedupeKey": "greenhouse:8732364002",
+   "source": "greenhouse",
+   "company": "Databricks",
+   "title": "Software Engineering Intern (2027 Start) - Winter",
+   "location": "Bellevue, Washington; Mountain View, California; San Francisco, California",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-08-20T19:40:25-04:00",
+   "firstSeenAt": "2026-08-20T23:57:01.929Z"
+  },
+  {
    "dedupeKey": "amazon:10529525",
    "source": "amazon",
    "company": "Amazon",
@@ -650,33 +677,6 @@
    },
    "postedAt": "2026-05-06",
    "firstSeenAt": "2026-07-21T02:13:16.397Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8732364002",
-   "source": "greenhouse",
-   "company": "Databricks",
-   "title": "Software Engineering Intern (2027 Start) - Winter",
-   "location": "Bellevue, Washington; Mountain View, California; San Francisco, California",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-08-20T19:40:25-04:00",
-   "firstSeenAt": "2026-08-20T23:57:01.929Z"
   },
   {
    "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
@@ -817,32 +817,6 @@
    "firstSeenAt": "2026-08-10T19:37:30.408Z"
   },
   {
-   "dedupeKey": "greenhouse:8118855",
-   "source": "greenhouse",
-   "company": "Cloudflare",
-   "title": "Software Engineer Intern (Fall 2026)",
-   "location": "In-Office",
-   "url": "https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "JavaScript"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2026-08-20T12:26:40-04:00",
-   "firstSeenAt": "2026-08-20T16:47:46.912Z"
-  },
-  {
    "dedupeKey": "greenhouse:8118845",
    "source": "greenhouse",
    "company": "Cloudflare",
@@ -869,6 +843,32 @@
    "firstSeenAt": "2026-08-11T04:04:44.596Z"
   },
   {
+   "dedupeKey": "greenhouse:8118855",
+   "source": "greenhouse",
+   "company": "Cloudflare",
+   "title": "Software Engineer Intern (Fall 2026)",
+   "location": "In-Office",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "JavaScript"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-20T12:26:40-04:00",
+   "firstSeenAt": "2026-08-20T16:47:46.912Z"
+  },
+  {
    "dedupeKey": "greenhouse:8052785",
    "source": "greenhouse",
    "company": "Cloudflare",
@@ -893,28 +893,6 @@
    },
    "postedAt": "2026-07-15",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "ashby:8c035d3d-081d-4c8a-914a-72f4efaad254",
-   "source": "ashby",
-   "company": "Cohere",
-   "title": "Software Engineer Intern (Winter 2027)",
-   "location": "Canada; Dubai; London; United States; United Kingdom",
-   "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-01T20:20:40.899+00:00",
-   "firstSeenAt": "2026-08-24T17:54:22.894Z"
   },
   {
    "dedupeKey": "workday:JR340771",
@@ -1025,6 +1003,28 @@
    },
    "postedAt": "2026-09-03",
    "firstSeenAt": "2026-09-03T16:22:11.704Z"
+  },
+  {
+   "dedupeKey": "ashby:8c035d3d-081d-4c8a-914a-72f4efaad254",
+   "source": "ashby",
+   "company": "Cohere",
+   "title": "Software Engineer Intern (Winter 2027)",
+   "location": "Canada; Dubai; London; United States; United Kingdom",
+   "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-05-01T20:20:40.899+00:00",
+   "firstSeenAt": "2026-08-24T17:54:22.894Z"
   },
   {
    "dedupeKey": "workday:JR2022645",
@@ -1315,53 +1315,6 @@
    },
    "postedAt": "2026-08-05",
    "firstSeenAt": "2026-08-05T16:49:59.297Z"
-  },
-  {
-   "dedupeKey": "ashby:a561fff8-aa38-4a5d-8b29-66c191f7328e",
-   "source": "ashby",
-   "company": "Applied Intuition",
-   "title": "Cybersecurity Software Engineer - New Grad (December 2027)",
-   "location": "Sunnyvale",
-   "url": "https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-09-02T18:46:50.291+00:00",
-   "firstSeenAt": "2026-09-02T18:55:37.622Z"
-  },
-  {
-   "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
-   "source": "ashby",
-   "company": "Applied Intuition",
-   "title": "Software Integration Engineer - New Grad (2027)",
-   "location": "Sunnyvale",
-   "url": "https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-14",
-   "firstSeenAt": "2026-08-14T22:34:43.994Z"
   },
   {
    "dedupeKey": "greenhouse:5210813007",
@@ -1752,6 +1705,53 @@
    },
    "postedAt": "2026-08-03",
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
+  },
+  {
+   "dedupeKey": "ashby:a561fff8-aa38-4a5d-8b29-66c191f7328e",
+   "source": "ashby",
+   "company": "Applied Intuition",
+   "title": "Cybersecurity Software Engineer - New Grad (December 2027)",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-09-02T18:46:50.291+00:00",
+   "firstSeenAt": "2026-09-02T18:55:37.622Z"
+  },
+  {
+   "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
+   "source": "ashby",
+   "company": "Applied Intuition",
+   "title": "Software Integration Engineer - New Grad (2027)",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-14",
+   "firstSeenAt": "2026-08-14T22:34:43.994Z"
   },
   {
    "dedupeKey": "ashby:452afc2e-0c79-41f8-8201-1aab7df775db",
@@ -7636,28 +7636,6 @@
    "firstSeenAt": "2026-08-14T22:34:43.994Z"
   },
   {
-   "dedupeKey": "simplifyjobs:24b848e7-18bc-4eab-b684-9d352141cbdd",
-   "source": "simplifyjobs",
-   "company": "Wolverine Trading",
-   "title": "Entry Level C++ Software Engineer",
-   "location": "Chicago, IL",
-   "url": "https://wolve.pinpointhq.com/en/postings/e03d9864-a128-40ff-91b5-dfc9fd1b59d6?ats=pinpointhq",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 70,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-08-15T00:41:47.000Z",
-   "firstSeenAt": "2026-08-15T01:46:01.264Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:4ac72dac-062c-4ad9-94fb-8bd0961f1d95",
    "source": "simplifyjobs",
    "company": "Notion",
@@ -7677,28 +7655,6 @@
     "skills": 0
    },
    "postedAt": "2026-08-15T00:41:51.000Z",
-   "firstSeenAt": "2026-08-15T01:46:01.264Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:13e63ccc-9879-4a3a-a29a-f10688ec7ba6",
-   "source": "simplifyjobs",
-   "company": "Wolverine Trading",
-   "title": "Entry Level C++ Software Engineer",
-   "location": "Chicago, IL",
-   "url": "https://wolve.pinpointhq.com/en/postings/1f33c89b-2592-498d-b45a-1b2092cf944e?ats=pinpointhq",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 70,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-08-15T00:41:48.000Z",
    "firstSeenAt": "2026-08-15T01:46:01.264Z"
   },
   {
@@ -8320,28 +8276,6 @@
    "firstSeenAt": "2026-09-01T21:45:23.516Z"
   },
   {
-   "dedupeKey": "simplifyjobs:251dd790-b5bc-48d9-ab3e-9deb38e21b46",
-   "source": "simplifyjobs",
-   "company": "General Motors",
-   "title": "Entry Level Software Design Release Engineer",
-   "location": "Milford, MI; Warren, MI",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/GM-Global-Technical-Center---Cole-Engineering-Center-Tower/Entry-Level-Software-Design-Release-Engineer_JR-202618509",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 70,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-09-01T00:00:00.000Z",
-   "firstSeenAt": "2026-09-02T00:04:33.169Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:fe751f52-a6e4-4204-990f-387c8238183d",
    "source": "simplifyjobs",
    "company": "NVIDIA",
@@ -8474,28 +8408,6 @@
    "firstSeenAt": "2026-09-03T11:08:24.139Z"
   },
   {
-   "dedupeKey": "simplifyjobs:0f0587c3-f43f-4a49-ab68-5ac6786e237a",
-   "source": "simplifyjobs",
-   "company": "Northwood Space",
-   "title": "RF & Antenna Systems Engineer - Early Career",
-   "location": "LA; Torrance, CA",
-   "url": "https://jobs.ashbyhq.com/NorthwoodSpace/11992bc2-5ec9-4143-9b64-e70be5b13726/application?embed=true",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-10T19:10:15.000Z",
-   "firstSeenAt": "2026-09-03T11:08:24.139Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:076c001c-ee0d-4860-be0f-ebef83c4d55e",
    "source": "simplifyjobs",
    "company": "Johns Hopkins Applied Physics Laboratory",
@@ -8625,50 +8537,6 @@
     "skills": 0
    },
    "postedAt": "2026-06-16T19:41:40.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b7ecf859-e102-435c-ad58-a6bb88c51c60",
-   "source": "simplifyjobs",
-   "company": "Muru",
-   "title": "Mobile Software Engineer Intern",
-   "location": "New York, NY",
-   "url": "https://www.murumed.com/job-listings/software-engineer-intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-23T13:40:34.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:ac9a60d7-eb51-4cbb-af68-97f00839f454",
-   "source": "simplifyjobs",
-   "company": "Muru",
-   "title": "Full-Stack Software Engineer Intern",
-   "location": "New York, NY",
-   "url": "https://www.murumed.com/job-listings/web-software-engineer-intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-23T13:41:56.000Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -8848,28 +8716,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "simplifyjobs:fa7fbaf4-50b2-4148-af69-22df652b6fd5",
-   "source": "simplifyjobs",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer Intern - Intel",
-   "location": "Washington, DC",
-   "url": "https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89/apply",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-02T03:28:33.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:457f1bf0-10ec-41b5-ab16-bc702e1a0fb4",
    "source": "simplifyjobs",
    "company": "Droyd Robotics",
@@ -8980,28 +8826,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "simplifyjobs:27bc7565-972b-4dff-a2b6-d86296a62c88",
-   "source": "simplifyjobs",
-   "company": "Copart",
-   "title": "Software Engineer Intern",
-   "location": "Dallas, TX",
-   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-15T00:00:00.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:7d13d689-657d-404d-9463-284ccb89bd44",
    "source": "simplifyjobs",
    "company": "Beacon Software",
@@ -9021,28 +8845,6 @@
     "skills": 0
    },
    "postedAt": "2026-07-15T14:11:58.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2852d53d-1e2d-4026-9f6f-90758dc79f0a",
-   "source": "simplifyjobs",
-   "company": "Copart",
-   "title": "Software Engineer Intern",
-   "location": "Dallas, TX",
-   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-20T00:00:00.000Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -9351,28 +9153,6 @@
     "skills": 0
    },
    "postedAt": "2026-08-01T22:13:21.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:ee1bc7a8-d82f-4c73-8228-18ce9b38d4b0",
-   "source": "simplifyjobs",
-   "company": "Obsidian Solutions Group",
-   "title": "Unity 3D Developer Intern",
-   "location": "Fredericksburg, VA",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4341435",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-17T20:59:45.000Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -11754,28 +11534,6 @@
    "firstSeenAt": "2026-08-24T21:39:20.245Z"
   },
   {
-   "dedupeKey": "simplifyjobs:23283fde-40f1-42d9-bf10-9b7362a6c553",
-   "source": "simplifyjobs",
-   "company": "Brunswick",
-   "title": "Software Engineer Intern - Boating Intelligence Design Lab",
-   "location": "Champaign, IL",
-   "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-24T00:00:00.000Z",
-   "firstSeenAt": "2026-08-24T23:31:16.201Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:39309c17-e806-4ea4-ba0d-0d69cfaca27f",
    "source": "simplifyjobs",
    "company": "Rivet Industries",
@@ -11998,50 +11756,6 @@
    },
    "postedAt": "2026-08-25T18:11:24.000Z",
    "firstSeenAt": "2026-08-25T18:54:45.779Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c5f6ea15-e5f6-4de7-a91b-def695d75241",
-   "source": "simplifyjobs",
-   "company": "North Atlantic Industries",
-   "title": "Software Engineer Intern",
-   "location": "Bohemia, NY",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4450421",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-26T00:25:36.000Z",
-   "firstSeenAt": "2026-08-26T01:55:36.803Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:9d4cf71d-6b40-40ca-8cb0-f26b01ceccc2",
-   "source": "simplifyjobs",
-   "company": "North Atlantic Industries",
-   "title": "Full Stack Software Engineer Intern",
-   "location": "Bohemia, NY",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4450017",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-26T00:25:37.000Z",
-   "firstSeenAt": "2026-08-26T01:55:36.803Z"
   },
   {
    "dedupeKey": "simplifyjobs:87b11195-7636-4d15-98ef-a30cea2dff16",
@@ -13496,28 +13210,6 @@
    "firstSeenAt": "2026-09-03T04:55:53.353Z"
   },
   {
-   "dedupeKey": "simplifyjobs:ecd18833-b99e-4340-9bf0-35ed5048a44c",
-   "source": "simplifyjobs",
-   "company": "North Atlantic Industries",
-   "title": "Electrical Engineer Intern - Test Systems",
-   "location": "Bohemia, NY",
-   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4450195",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-02T01:50:25.000Z",
-   "firstSeenAt": "2026-09-03T04:55:53.353Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:d6adfc0f-f025-42f9-9f5b-0a52306e7501",
    "source": "simplifyjobs",
    "company": "RTX",
@@ -14418,6 +14110,50 @@
    },
    "postedAt": "2026-09-03T00:00:00.000Z",
    "firstSeenAt": "2026-09-04T05:03:03.873Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a5f886cf-d5b6-41ac-9bfc-98833aff9bb6",
+   "source": "simplifyjobs",
+   "company": "Primer",
+   "title": "Software Engineer Intern - Full Stack",
+   "location": "SF",
+   "url": "https://jobs.ashbyhq.com/primer/edd1667b-6323-444a-adc1-40bae5b9a3b0/application?embed=true",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T06:28:01.000Z",
+   "firstSeenAt": "2026-09-04T09:47:01.915Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:66d624a4-bf98-4f02-b127-38342b345cff",
+   "source": "simplifyjobs",
+   "company": "ByteDance",
+   "title": "Data Platform Engineer Intern - Global Engineering CDN",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7538139519473092882/detail",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-11T17:18:52.000Z",
+   "firstSeenAt": "2026-09-04T09:47:01.915Z"
   },
   {
    "dedupeKey": "reverse-discovery:4830113101",
@@ -16011,6 +15747,138 @@
    "firstSeenAt": "2026-08-28T17:31:34.982Z",
    "closedAt": "2026-09-04T05:53:38.487Z",
    "url": "https://starfish.wd501.myworkdayjobs.com/Careers/job/Huntsville-AL/Entry-Junior-Level-Software-Engineer_R1608"
+  },
+  {
+   "dedupeKey": "simplifyjobs:251dd790-b5bc-48d9-ab3e-9deb38e21b46",
+   "company": "General Motors",
+   "title": "Entry Level Software Design Release Engineer",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-09-02T00:04:33.169Z",
+   "closedAt": "2026-09-04T09:47:01.915Z",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/GM-Global-Technical-Center---Cole-Engineering-Center-Tower/Entry-Level-Software-Design-Release-Engineer_JR-202618509"
+  },
+  {
+   "dedupeKey": "simplifyjobs:0f0587c3-f43f-4a49-ab68-5ac6786e237a",
+   "company": "Northwood Space",
+   "title": "RF & Antenna Systems Engineer - Early Career",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-09-03T11:08:24.139Z",
+   "closedAt": "2026-09-04T09:47:01.915Z",
+   "url": "https://jobs.ashbyhq.com/NorthwoodSpace/11992bc2-5ec9-4143-9b64-e70be5b13726/application?embed=true"
+  },
+  {
+   "dedupeKey": "simplifyjobs:fa7fbaf4-50b2-4148-af69-22df652b6fd5",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer Intern - Intel",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z",
+   "closedAt": "2026-09-04T09:47:01.915Z",
+   "url": "https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89/apply"
+  },
+  {
+   "dedupeKey": "simplifyjobs:27bc7565-972b-4dff-a2b6-d86296a62c88",
+   "company": "Copart",
+   "title": "Software Engineer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-09-04T09:47:01.915Z",
+   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689"
+  },
+  {
+   "dedupeKey": "simplifyjobs:2852d53d-1e2d-4026-9f6f-90758dc79f0a",
+   "company": "Copart",
+   "title": "Software Engineer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-09-04T09:47:01.915Z",
+   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079"
+  },
+  {
+   "dedupeKey": "simplifyjobs:23283fde-40f1-42d9-bf10-9b7362a6c553",
+   "company": "Brunswick",
+   "title": "Software Engineer Intern - Boating Intelligence Design Lab",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-24T23:31:16.201Z",
+   "closedAt": "2026-09-04T09:47:01.915Z",
+   "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316"
+  },
+  {
+   "dedupeKey": "simplifyjobs:24b848e7-18bc-4eab-b684-9d352141cbdd",
+   "company": "Wolverine Trading",
+   "title": "Entry Level C++ Software Engineer",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-08-15T01:46:01.264Z",
+   "closedAt": "2026-09-04T09:47:01.915Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:13e63ccc-9879-4a3a-a29a-f10688ec7ba6",
+   "company": "Wolverine Trading",
+   "title": "Entry Level C++ Software Engineer",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-08-15T01:46:01.264Z",
+   "closedAt": "2026-09-04T09:47:01.915Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b7ecf859-e102-435c-ad58-a6bb88c51c60",
+   "company": "Muru",
+   "title": "Mobile Software Engineer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-09-04T09:47:01.915Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ac9a60d7-eb51-4cbb-af68-97f00839f454",
+   "company": "Muru",
+   "title": "Full-Stack Software Engineer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-09-04T09:47:01.915Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ee1bc7a8-d82f-4c73-8228-18ce9b38d4b0",
+   "company": "Obsidian Solutions Group",
+   "title": "Unity 3D Developer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-09-04T09:47:01.915Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:c5f6ea15-e5f6-4de7-a91b-def695d75241",
+   "company": "North Atlantic Industries",
+   "title": "Software Engineer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-26T01:55:36.803Z",
+   "closedAt": "2026-09-04T09:47:01.915Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:9d4cf71d-6b40-40ca-8cb0-f26b01ceccc2",
+   "company": "North Atlantic Industries",
+   "title": "Full Stack Software Engineer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-26T01:55:36.803Z",
+   "closedAt": "2026-09-04T09:47:01.915Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ecd18833-b99e-4340-9bf0-35ed5048a44c",
+   "company": "North Atlantic Industries",
+   "title": "Electrical Engineer Intern - Test Systems",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-03T04:55:53.353Z",
+   "closedAt": "2026-09-04T09:47:01.915Z"
   }
  ]
 }

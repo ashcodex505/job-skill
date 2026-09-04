@@ -252,12 +252,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-651-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-33-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--04-informational)
+![open roles](https://img.shields.io/badge/open%20roles-639-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-31-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--04-informational)
 
-Updated **2026-09-04 05:53 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-04 09:47 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| ByteDance | Data Platform Engineer Intern - Global Engineering CDN 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-11 | 2026-09-04 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7538139519473092882/detail) |
+| Primer | Software Engineer Intern - Full Stack 🆕 | SF | Winter 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://jobs.ashbyhq.com/primer/edd1667b-6323-444a-adc1-40bae5b9a3b0/application?embed=true) |
 | Amazon | Software Development Engineer Intern - Robotics 🆕 | Seattle, WA; Nashville, TN; Austin, TX; North Reading, MA; Arlington County, Arlington, VA; Bellevue, WA; Westborough, MA | Summer 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027) |
 | Booz Allen | Software Engineer Intern 🆕 | Seattle, WA; Bremerton, WA | Fall 2026 | 100% | 2026-08-24 | 2026-09-04 | [**Apply ➜**](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Bremerton-WA/Software-Engineer---Intern_R0247218) |
 | ByteDance | GPU/AI Application Platform Engineer Intern - Server Platform 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-06 | 2026-09-04 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7668475133954197765/detail) |
@@ -276,6 +278,4 @@ Updated **2026-09-04 05:53 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Tesla | Software Engineer Intern - Torque Path & Chassis Controls - Vehicle Software 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-03 | 2026-09-04 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282255) |
 | Tesla | Software Integration Engineer Intern - Optimus 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-03 | 2026-09-04 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282342) |
 | The Exploration Company | Software Intern - Software 🆕 | LA | Spring 2027 | 100% | 2026-09-03 | 2026-09-04 | [**Apply ➜**](https://jobs.ashbyhq.com/the-exploration-company/e23f19f1-b5fa-408a-822c-c6c37631a2fe/application?embed=true) |
-| TikTok | AI/ML Infrastructure Engineer Intern - Data-Arch-Tiktok Live 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-07 | 2026-09-04 | [**Apply ➜**](https://lifeattiktok.com/search/7670876223732762933) |
-| TikTok | AI Infrastructure Engineer Intern - Algorithm Infrastructure 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-05 | 2026-09-04 | [**Apply ➜**](https://lifeattiktok.com/search/7670120579999385861) |
 <!-- JOB-BOARD:END -->
