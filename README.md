@@ -252,12 +252,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-647-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-31-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--04-informational)
+![open roles](https://img.shields.io/badge/open%20roles-649-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-27-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--04-informational)
 
-Updated **2026-09-04 11:16 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-04 14:31 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Tesla | Fleet Management Algorithms Intern - Vehicle Software 🆕 | Palo Alto, CA | Spring 2027 | 100% (1 skills) | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282483) |
+| Tesla | Audio & Sensor Software Engineer Intern - Vehicle Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282301) |
 | ByteDance | Data Platform Engineer Intern - Global Engineering CDN 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-11 | 2026-09-04 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7538139519473092882/detail) |
 | Primer | Software Engineer Intern - Full Stack 🆕 | SF | Winter 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://jobs.ashbyhq.com/primer/edd1667b-6323-444a-adc1-40bae5b9a3b0/application?embed=true) |
 | Amazon | Software Development Engineer Intern - Robotics 🆕 | Seattle, WA; Nashville, TN; Austin, TX; North Reading, MA; Arlington County, Arlington, VA; Bellevue, WA; Westborough, MA | Summer 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027) |
@@ -276,6 +278,4 @@ Updated **2026-09-04 11:16 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | skillz | Software Engineer Co-op 🆕 | Las Vegas, NV | Winter 2027 | 100% | 2026-09-03 | 2026-09-04 | [**Apply ➜**](https://job-boards.greenhouse.io/skillzinc/jobs/8168006) |
 | Tesla | Access Control Systems Integration Engineer Intern - Access Control Systems 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-03 | 2026-09-04 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282258) |
 | Tesla | Software Engineer Intern - Torque Path & Chassis Controls - Vehicle Software 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-03 | 2026-09-04 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282255) |
-| Tesla | Software Integration Engineer Intern - Optimus 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-03 | 2026-09-04 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282342) |
-| The Exploration Company | Software Intern - Software 🆕 | LA | Spring 2027 | 100% | 2026-09-03 | 2026-09-04 | [**Apply ➜**](https://jobs.ashbyhq.com/the-exploration-company/e23f19f1-b5fa-408a-822c-c6c37631a2fe/application?embed=true) |
 <!-- JOB-BOARD:END -->
