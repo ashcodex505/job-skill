@@ -1,14 +1,13 @@
 # 🎯 Job Board — SWE Early Career
 
 **666 open roles** across **256 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-05 16:55 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-09-05 19:00 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (10)
+## 🆕 New this cycle (9)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Tesla | Software Engineer Intern - Code Hardening & Framework Resilience - Robotaxi 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282598) |
 | Rivian | Software Engineering Intern - Connected Systems - January - August 2027 🆕 | Irvine, CA +1 | 2027 | 90% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2) |
 | Schonfeld | 2027 Software Engineering Intern 🆕 | New York City, NY | 2027 | 90% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://job-boards.greenhouse.io/schonfeld/jobs/8180089) |
 | GlobalFoundries | Software Engineer - Cloud Platform - 2027 New College Graduate 🆕 | California, USA | 2027 New Grad | 95% | 2026-09-04 | 2026-09-05 | [**Apply ➜**](https://globalfoundries.wd1.myworkdayjobs.com/en-US/external/job/USA---California---Santa-Clara/Software-Engineer--Cloud-Platform--2027-New-College-Graduate-_JR-2604056) |
@@ -23,7 +22,7 @@ Last updated: **2026-09-05 16:55 UTC** · auto-refreshed every 12h by [job-board
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Tesla | Software Engineer Intern - Code Hardening & Framework Resilience - Robotaxi 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282598) |
+| Tesla | Software Engineer Intern - Code Hardening & Framework Resilience - Robotaxi | Palo Alto, CA | Spring 2027 | 100% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282598) |
 | Brave | Software Engineer Intern - Waterloo University | Remote in Canada | Fall 2026 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://job-boards.greenhouse.io/brave/jobs/8161945) |
 | Microchip Technology | Intern – Engineering - Device Software and Test | Chandler, AZ | Fall 2026 | 100% | 2026-08-20 | 2026-09-04 | [**Apply ➜**](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26) |
 | PayPal | Software Engineer Intern | Austin, TX; San Jose, CA; Chicago, IL | Summer 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://paypal.eightfold.ai/careers/job/274922260559) |
@@ -463,9 +462,9 @@ _…and 42 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | ID.me | Software Development Engineer New Grad | Mountain View, CA | — | 80% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7980382003) |
 | Johns Hopkins Applied Physics Laboratory | Systems & Software Engineer New Grad - Multi-Domain Mission Planning Development | Laurel, MD | — | 80% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://careers.jhuapl.edu/jobs/59974?icims=1) |

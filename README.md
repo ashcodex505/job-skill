@@ -252,13 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-666-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-10-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--05-informational)
+![open roles](https://img.shields.io/badge/open%20roles-666-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-9-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--05-informational)
 
-Updated **2026-09-05 16:55 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-05 19:00 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Tesla | Software Engineer Intern - Code Hardening & Framework Resilience - Robotaxi 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282598) |
+| Tesla | Software Engineer Intern - Code Hardening & Framework Resilience - Robotaxi | Palo Alto, CA | Spring 2027 | 100% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282598) |
 | Brave | Software Engineer Intern - Waterloo University | Remote in Canada | Fall 2026 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://job-boards.greenhouse.io/brave/jobs/8161945) |
 | Microchip Technology | Intern – Engineering - Device Software and Test | Chandler, AZ | Fall 2026 | 100% | 2026-08-20 | 2026-09-04 | [**Apply ➜**](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26) |
 | PayPal | Software Engineer Intern | Austin, TX; San Jose, CA; Chicago, IL | Summer 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://paypal.eightfold.ai/careers/job/274922260559) |
