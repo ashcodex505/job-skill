@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-05T21:36:58.693Z",
+ "updatedAt": "2026-09-05T23:14:48.835Z",
  "jobs": [
   {
    "dedupeKey": "atlassian:250:26275",
@@ -983,6 +983,50 @@
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
+   "dedupeKey": "workday:R171519",
+   "source": "workday",
+   "company": "Adobe",
+   "title": "2027 Intern - Machine Learning Engineer",
+   "location": "6 Locations",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-31",
+   "firstSeenAt": "2026-08-31T23:48:00.919Z"
+  },
+  {
+   "dedupeKey": "workday:R171666",
+   "source": "workday",
+   "company": "Adobe",
+   "title": "2027 Intern - Software Engineer",
+   "location": "7 Locations",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-03",
+   "firstSeenAt": "2026-09-03T16:22:11.704Z"
+  },
+  {
    "dedupeKey": "workday:JR2022645",
    "source": "workday",
    "company": "NVIDIA",
@@ -1091,50 +1135,6 @@
    },
    "postedAt": "2026-08-24",
    "firstSeenAt": "2026-08-24T07:17:56.744Z"
-  },
-  {
-   "dedupeKey": "workday:R171519",
-   "source": "workday",
-   "company": "Adobe",
-   "title": "2027 Intern - Machine Learning Engineer",
-   "location": "6 Locations",
-   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-31",
-   "firstSeenAt": "2026-08-31T23:48:00.919Z"
-  },
-  {
-   "dedupeKey": "workday:R171666",
-   "source": "workday",
-   "company": "Adobe",
-   "title": "2027 Intern - Software Engineer",
-   "location": "7 Locations",
-   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-03",
-   "firstSeenAt": "2026-09-03T16:22:11.704Z"
   },
   {
    "dedupeKey": "greenhouse:8052083",
@@ -1560,12 +1560,12 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696156002",
+   "dedupeKey": "greenhouse:8724316002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002",
    "season": null,
    "roleType": "new_grad",
    "score": 82,
@@ -1580,8 +1580,8 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-08-14T12:21:32-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+   "postedAt": "2026-08-19T11:08:34-04:00",
+   "firstSeenAt": "2026-08-24T21:39:20.245Z"
   },
   {
    "dedupeKey": "greenhouse:8696143002",
@@ -1608,12 +1608,12 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8724316002",
+   "dedupeKey": "greenhouse:8696156002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
    "season": null,
    "roleType": "new_grad",
    "score": 82,
@@ -1628,8 +1628,8 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-08-19T11:08:34-04:00",
-   "firstSeenAt": "2026-08-24T21:39:20.245Z"
+   "postedAt": "2026-08-14T12:21:32-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
    "dedupeKey": "greenhouse:8729121002",
@@ -1908,6 +1908,50 @@
    },
    "postedAt": "2025-12-22T18:35:42-05:00",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
+  },
+  {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
+  },
+  {
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:4d6970bc021ff96087a5378ae306948362110181",
@@ -6292,50 +6336,6 @@
    },
    "postedAt": "2026-05-21",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
-  },
-  {
-   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
-   "source": "vansh",
-   "company": "Appian",
-   "title": "New Grad 2027: Software Engineer",
-   "location": "McLean, VA",
-   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T21:58:55.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "simplifyjobs:1f6bee99-9cca-467c-a0b3-899d61139a03",
