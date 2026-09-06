@@ -1,6 +1,28 @@
 {
- "updatedAt": "2026-09-06T11:17:40.128Z",
+ "updatedAt": "2026-09-06T12:54:23.656Z",
  "jobs": [
+  {
+   "dedupeKey": "reverse-discovery:5c8433ea-c7e6-4350-bbd5-2889e7fdb2b1",
+   "source": "reverse-discovery",
+   "company": "embedding-vc",
+   "title": "AI Engineer (Early Career)",
+   "location": "San Francisco Bay Area",
+   "url": "https://jobs.ashbyhq.com/embedding-vc/5c8433ea-c7e6-4350-bbd5-2889e7fdb2b1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-26T01:36:21.991+00:00",
+   "firstSeenAt": "2026-08-26T21:00:04.890Z"
+  },
   {
    "dedupeKey": "atlassian:250:26275",
    "source": "atlassian",
@@ -8284,28 +8306,6 @@
    },
    "postedAt": "2026-08-25T21:11:37.000Z",
    "firstSeenAt": "2026-08-25T21:39:54.989Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b556adb1-8adc-4b0f-9230-3a2067a6428d",
-   "source": "simplifyjobs",
-   "company": "Embedding VC",
-   "title": "AI Engineer - Early Career",
-   "location": "SF",
-   "url": "https://jobs.ashbyhq.com/embedding-vc/5c8433ea-c7e6-4350-bbd5-2889e7fdb2b1/application?embed=true",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-26T19:11:16.000Z",
-   "firstSeenAt": "2026-08-26T21:00:04.890Z"
   },
   {
    "dedupeKey": "simplifyjobs:94439f86-761e-479b-ad07-ff674a810362",
