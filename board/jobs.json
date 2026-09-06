@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-06T21:18:44.806Z",
+ "updatedAt": "2026-09-06T21:37:18.627Z",
  "jobs": [
   {
    "dedupeKey": "atlassian:250:26275",
@@ -895,6 +895,28 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "ashby:8c035d3d-081d-4c8a-914a-72f4efaad254",
+   "source": "ashby",
+   "company": "Cohere",
+   "title": "Software Engineer Intern (Winter 2027)",
+   "location": "Canada; Dubai; London; United States; United Kingdom",
+   "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-05-01T20:20:40.899+00:00",
+   "firstSeenAt": "2026-08-24T17:54:22.894Z"
+  },
+  {
    "dedupeKey": "workday:JR340771",
    "source": "workday",
    "company": "Salesforce",
@@ -1069,28 +1091,6 @@
    },
    "postedAt": "2026-08-24",
    "firstSeenAt": "2026-08-24T07:17:56.744Z"
-  },
-  {
-   "dedupeKey": "ashby:8c035d3d-081d-4c8a-914a-72f4efaad254",
-   "source": "ashby",
-   "company": "Cohere",
-   "title": "Software Engineer Intern (Winter 2027)",
-   "location": "Canada; Dubai; London; United States; United Kingdom",
-   "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-01T20:20:40.899+00:00",
-   "firstSeenAt": "2026-08-24T17:54:22.894Z"
   },
   {
    "dedupeKey": "workday:R171519",
@@ -1369,155 +1369,6 @@
    },
    "postedAt": "2026-08-05",
    "firstSeenAt": "2026-08-05T16:49:59.297Z"
-  },
-  {
-   "dedupeKey": "ashby:a561fff8-aa38-4a5d-8b29-66c191f7328e",
-   "source": "ashby",
-   "company": "Applied Intuition",
-   "title": "Cybersecurity Software Engineer - New Grad (December 2027)",
-   "location": "Sunnyvale",
-   "url": "https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-09-02T18:46:50.291+00:00",
-   "firstSeenAt": "2026-09-02T18:55:37.622Z"
-  },
-  {
-   "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
-   "source": "ashby",
-   "company": "Applied Intuition",
-   "title": "Software Integration Engineer - New Grad (2027)",
-   "location": "Sunnyvale",
-   "url": "https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-14",
-   "firstSeenAt": "2026-08-14T22:34:43.994Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5210813007",
-   "source": "greenhouse",
-   "company": "Verkada",
-   "title": "Backend Software Engineering Intern 2027",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5210813007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "AWS",
-    "Docker",
-    "Linux"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-08-25",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5210942007",
-   "source": "greenhouse",
-   "company": "Verkada",
-   "title": "Frontend Software Engineering Intern 2027",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5210942007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 95,
-   "matchedSkills": [
-    "TypeScript",
-    "JavaScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2026-08-25",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5219131007",
-   "source": "greenhouse",
-   "company": "Verkada",
-   "title": "Mobile Software Engineering Intern 2027",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5219131007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-25",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5213881007",
-   "source": "greenhouse",
-   "company": "Verkada",
-   "title": "Security Software Engineering Intern 2027",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5213881007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "AWS",
-    "Docker",
-    "Linux"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-08-25",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z"
   },
   {
    "dedupeKey": "greenhouse:8493079002",
@@ -1806,6 +1657,155 @@
    },
    "postedAt": "2026-08-03",
    "firstSeenAt": "2026-08-03T19:01:10.547Z"
+  },
+  {
+   "dedupeKey": "ashby:a561fff8-aa38-4a5d-8b29-66c191f7328e",
+   "source": "ashby",
+   "company": "Applied Intuition",
+   "title": "Cybersecurity Software Engineer - New Grad (December 2027)",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-09-02T18:46:50.291+00:00",
+   "firstSeenAt": "2026-09-02T18:55:37.622Z"
+  },
+  {
+   "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
+   "source": "ashby",
+   "company": "Applied Intuition",
+   "title": "Software Integration Engineer - New Grad (2027)",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-14",
+   "firstSeenAt": "2026-08-14T22:34:43.994Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5210813007",
+   "source": "greenhouse",
+   "company": "Verkada",
+   "title": "Backend Software Engineering Intern 2027",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5210813007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "AWS",
+    "Docker",
+    "Linux"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-08-25",
+   "firstSeenAt": "2026-08-25T18:54:45.779Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5210942007",
+   "source": "greenhouse",
+   "company": "Verkada",
+   "title": "Frontend Software Engineering Intern 2027",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5210942007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 95,
+   "matchedSkills": [
+    "TypeScript",
+    "JavaScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-25",
+   "firstSeenAt": "2026-08-25T18:54:45.779Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5219131007",
+   "source": "greenhouse",
+   "company": "Verkada",
+   "title": "Mobile Software Engineering Intern 2027",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5219131007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25",
+   "firstSeenAt": "2026-08-25T18:54:45.779Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5213881007",
+   "source": "greenhouse",
+   "company": "Verkada",
+   "title": "Security Software Engineering Intern 2027",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5213881007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "AWS",
+    "Docker",
+    "Linux"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-08-25",
+   "firstSeenAt": "2026-08-25T18:54:45.779Z"
   },
   {
    "dedupeKey": "ashby:452afc2e-0c79-41f8-8201-1aab7df775db",
