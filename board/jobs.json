@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-07T18:22:19.556Z",
+ "updatedAt": "2026-09-07T20:32:30.523Z",
  "jobs": [
   {
    "dedupeKey": "atlassian:250:26275",
@@ -14774,56 +14774,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "speedyapply:sha1:6af851ba26b94e40e52528eb8a0de656a5e47219",
-   "company": "General Motors",
-   "title": "Entry Level Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-30T17:24:35.380Z",
-   "closedAt": "2026-08-31T19:59:55.152Z",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Warren-Michigan-United-States-of-America/Entry-Level-Software-Engineer_JR-202616904"
-  },
-  {
-   "dedupeKey": "simplifyjobs:4ad87d63-2221-4e93-9644-1fafb2275d88",
-   "company": "Tesla",
-   "title": "Systems Modeling & Optimization Intern - Robotaxi Simulation Engineer - Systems Modeling & Optimization",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-31T19:59:55.152Z",
-   "url": "https://www.tesla.com/careers/search/job/273933"
-  },
-  {
-   "dedupeKey": "simplifyjobs:cd64a5ea-e39f-46da-9968-2118ff190093",
-   "company": "Tesla",
-   "title": "Product Management Intern - Product Engineer - Applications Engineering",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-31T19:59:55.152Z",
-   "url": "https://www.tesla.com/careers/search/job/274754"
-  },
-  {
-   "dedupeKey": "simplifyjobs:498eccae-caa0-431f-8c04-ffd7922d92a6",
-   "company": "Tesla",
-   "title": "Vehicle Software Intern - Vehicle Controls",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-31T19:59:55.152Z",
-   "url": "https://www.tesla.com/careers/search/job/278203"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b9a81086-50d0-4ea0-bd8e-97fd33f70311",
-   "company": "Tesla",
-   "title": "Charging Data Modeling Intern - Charging Data Modeling - Machine Learning Engineer",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-08-31T19:59:55.152Z",
-   "url": "https://www.tesla.com/careers/search/job/278249"
-  },
   {
    "dedupeKey": "simplifyjobs:c5c8e3b2-6997-4369-a19b-4cacff935fdd",
    "company": "Bosch Home Comfort",

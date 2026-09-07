@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **661 open roles** across **255 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-07 18:22 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-09-07 20:32 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (1)
@@ -643,7 +643,7 @@ _…and 39 more (raise the cap in src/scraper/board.ts)._
 | NXP Semiconductors | NFC System Software Validation Engineer - Entry Level | San Diego, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Innovation-Dr/NFC-System-Software-Validation-Engineer---Entry-Level_R-10064295) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (127)
+## 🚪 Recently closed (last 7 days) (122)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -771,11 +771,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Tesla | Software Compiler Engineer Intern - AI Inference | Fall 2026 | 2026-09-01 |
 | Schweitzer Engineering Laboratories | Software Engineer Intern - AI Focus | Fall 2026 | 2026-09-01 |
 | Bosch Home Comfort | Software Engineer Intern - 8 months/40hrs per week | Winter 2027 | 2026-08-31 |
-| General Motors | Entry Level Software Engineer | — | 2026-08-31 |
-| Tesla | Systems Modeling & Optimization Intern - Robotaxi Simulation Engineer - Systems Modeling & Optimization | Fall 2026 | 2026-08-31 |
-| Tesla | Product Management Intern - Product Engineer - Applications Engineering | Fall 2026 | 2026-08-31 |
-| Tesla | Vehicle Software Intern - Vehicle Controls | Fall 2026 | 2026-08-31 |
-| Tesla | Charging Data Modeling Intern - Charging Data Modeling - Machine Learning Engineer | Fall 2026 | 2026-08-31 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
