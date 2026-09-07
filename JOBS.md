@@ -1,13 +1,20 @@
 # 🎯 Job Board — SWE Early Career
 
-**660 open roles** across **254 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-07 12:59 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**661 open roles** across **255 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-07 16:26 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🛠️ Internships (438)
+## 🆕 New this cycle (1)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Dropbox | Software Engineering Intern (Summer 2027) 🆕 | Remote - US: All locations | Summer 2027 | 100% | 2026-09-07 | 2026-09-07 | [**Apply ➜**](https://jobs.dropbox.com/listing/8106224?gh_jid=8106224) |
+
+## 🛠️ Internships (439)
+
+| Company | Role | Location | Season | Match | Posted | First seen | Apply |
+|---|---|---|---|---|---|---|---|
+| Dropbox | Software Engineering Intern (Summer 2027) 🆕 | Remote - US: All locations | Summer 2027 | 100% | 2026-09-07 | 2026-09-07 | [**Apply ➜**](https://jobs.dropbox.com/listing/8106224?gh_jid=8106224) |
 | Tesla | Software Engineer Intern - Code Hardening & Framework Resilience - Robotaxi | Palo Alto, CA | Spring 2027 | 100% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282598) |
 | Brave | Software Engineer Intern - Waterloo University | Remote in Canada | Fall 2026 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://job-boards.greenhouse.io/brave/jobs/8161945) |
 | Microchip Technology | Intern – Engineering - Device Software and Test | Chandler, AZ | Fall 2026 | 100% | 2026-08-20 | 2026-09-04 | [**Apply ➜**](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26) |
@@ -407,9 +414,8 @@ Last updated: **2026-09-07 12:59 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Frontend Engineer Intern - Global CRM - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669711026846058757) |
 | TikTok | Software Engineer Intern - TikTok-Intelligent Creation-Camera - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-01 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668862422178318597) |
 | TikTok | Backend Software Engineer Intern - TikTok-Global Live-Foundation - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667935150530840837) |
-| TikTok | Software Engineer Intern - Ads Interface - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-03 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669705785962727733) |
 
-_…and 38 more (raise the cap in src/scraper/board.ts)._
+_…and 39 more (raise the cap in src/scraper/board.ts)._
 ## 🎓 New Grad (222)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
