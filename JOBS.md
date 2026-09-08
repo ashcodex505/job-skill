@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**661 open roles** across **255 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-07 23:28 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**660 open roles** across **255 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-08 00:38 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (1)
@@ -416,7 +416,7 @@ Last updated: **2026-09-07 23:28 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Backend Software Engineer Intern - TikTok-Global Live-Foundation - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667935150530840837) |
 
 _…and 39 more (raise the cap in src/scraper/board.ts)._
-## 🎓 New Grad (222)
+## 🎓 New Grad (221)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -453,14 +453,13 @@ _…and 39 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | ID.me | Software Development Engineer New Grad | Mountain View, CA | — | 80% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7980382003) |
 | Johns Hopkins Applied Physics Laboratory | Systems & Software Engineer New Grad - Multi-Domain Mission Planning Development | Laurel, MD | — | 80% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://careers.jhuapl.edu/jobs/59974?icims=1) |
 | Johns Hopkins Applied Physics Laboratory | Data Scientist New Grad - Computer Scientist - Decision Systems | Laurel, MD | — | 80% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://careers.jhuapl.edu/jobs/59918?icims=1) |
-| PayPal | Software Engineer New Grad - Software Engineering | Austin, TX; San Jose, CA; Chicago, IL | — | 80% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://paypal.eightfold.ai/careers/job/274921995088) |
 | Procter & Gamble | IT Engineering New Grad - Software, Platform, & Network | Cincinnati, OH | — | 80% | 2026-08-24 | 2026-09-04 | [**Apply ➜**](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/IT-Engineering--Software--Platform----Network----2027-Grads-_R000157918) |
 | Cadence Design Systems | Software Engineer New Grad | San Jose, CA | — | 80% | 2026-09-03 | 2026-09-04 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/SAN-JOSE/Software-Engineer---new-college-grad-Dec-2026-_R55738) |
 | TikTok | Machine Learning Infrastructure Engineer New Grad - Ads Infra | San Jose, CA | — | 80% | 2026-08-03 | 2026-09-03 | [**Apply ➜**](https://lifeattiktok.com/search/7668693662561634613) |
@@ -649,6 +648,7 @@ Postings that disappeared from their company's feed — if one of these was on y
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| PayPal | Software Engineer New Grad - Software Engineering | — | 2026-09-08 |
 | Intel | Software Development Intern | Fall 2026 | 2026-09-07 |
 | Booz Allen | University - 2027 Summer Games Software Developer Intern | 2027 | 2026-09-06 |
 | Walt Disney | Software Engineering Intern - Spring 2027 | Spring 2027 | 2026-09-06 |
@@ -770,7 +770,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | General Dynamics Mission Systems | Entry Level Software Engineer | — | 2026-09-01 |
 | Tesla | Software Compiler Engineer Intern - AI Inference | Fall 2026 | 2026-09-01 |
 | Schweitzer Engineering Laboratories | Software Engineer Intern - AI Focus | Fall 2026 | 2026-09-01 |
-| Bosch Home Comfort | Software Engineer Intern - 8 months/40hrs per week | Winter 2027 | 2026-08-31 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
