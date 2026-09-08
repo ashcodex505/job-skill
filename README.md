@@ -254,7 +254,7 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 
 ![open roles](https://img.shields.io/badge/open%20roles-660-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-1-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--08-informational)
 
-Updated **2026-09-08 00:38 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-08 04:27 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -262,7 +262,6 @@ Updated **2026-09-08 00:38 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Tesla | Software Engineer Intern - Code Hardening & Framework Resilience - Robotaxi | Palo Alto, CA | Spring 2027 | 100% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282598) |
 | Brave | Software Engineer Intern - Waterloo University | Remote in Canada | Fall 2026 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://job-boards.greenhouse.io/brave/jobs/8161945) |
 | Microchip Technology | Intern – Engineering - Device Software and Test | Chandler, AZ | Fall 2026 | 100% | 2026-08-20 | 2026-09-04 | [**Apply ➜**](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26) |
-| PayPal | Software Engineer Intern | Austin, TX; San Jose, CA; Chicago, IL | Summer 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://paypal.eightfold.ai/careers/job/274922260559) |
 | Saab | Software Engineering Co-op | East Syracuse, NY | Spring 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Spring---Summer-2027-_R-03240-1) |
 | Super | Software Engineer Intern - Platform | Toronto, ON, Canada; Remote in Canada | Winter 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://jobs.ashbyhq.com/super.com/29751d58-eacc-4b5a-8e9d-e59cb7a595c7/application?embed=true) |
 | Super | Software Engineer Intern - Full-Stack | Toronto, ON, Canada; Remote in Canada | Winter 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://jobs.ashbyhq.com/super.com/b2615f7e-c6d2-46d6-9699-5027da9b5757/application?embed=true) |
@@ -278,4 +277,5 @@ Updated **2026-09-08 00:38 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Amazon | Software Development Engineer Intern - Robotics | Seattle, WA; Nashville, TN; Austin, TX; North Reading, MA; Arlington County, Arlington, VA; Bellevue, WA; Westborough, MA | Summer 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027) |
 | ByteDance | GPU/AI Application Platform Engineer Intern - Server Platform | San Jose, CA | Fall 2026 | 100% | 2026-08-06 | 2026-09-04 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7668475133954197765/detail) |
 | GE Vernova | Software Engineer Co-op - Critical Infrastructure Communication | Rochester, NY | Winter 2027 | 100% | 2026-09-03 | 2026-09-04 | [**Apply ➜**](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Software-Engineering---Co-op---Spring-Summer-2027_R5051780-1) |
+| GE Vernova | CIC Systems Engineer Co-op | Rochester, NY | Winter 2027 | 100% | 2026-09-03 | 2026-09-04 | [**Apply ➜**](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-CIC-Systems-Engineer-Co-op---Spring---Summer-2027_R5051807-1) |
 <!-- JOB-BOARD:END -->
