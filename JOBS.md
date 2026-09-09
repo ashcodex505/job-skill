@@ -1,13 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
-**658 open roles** across **257 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-09 06:33 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**660 open roles** across **257 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-09 09:38 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (9)
+## 🆕 New this cycle (10)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Tesla | Software Engineer Intern - Service Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282233) |
 | Applied Intuition | Electrical System Integration Engineer - New Grad 🆕 | Sunnyvale | — | 82% (1 skills) | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/6b9a508b-359f-43c1-aa83-cabf55c3e03e) |
 | True Anomaly | Software Engineer 1 New Grad - Elixir 🆕 | Long Beach, CA; Denver, CO | — | 80% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5232802007) |
 | Two Sigma | Software Engineering Intern - Summer 2027 🆕 | NYC | Summer 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://twosigma.avature.net/careers/JobDetail/14016) |
@@ -18,10 +19,11 @@ Last updated: **2026-09-09 06:33 UTC** · auto-refreshed every 12h by [job-board
 | GlobalFoundries | Systems Engineer New Grad 🆕 | Richardson, TX | — | 80% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/Systems-Engineer--2027-New-College-Graduate-_JR-2604083) |
 | Kustomer | Software Engineer – Early Career - Full Stack 🆕 | NYC | — | 80% | 2026-07-10 | 2026-09-08 | [**Apply ➜**](https://jobs.ashbyhq.com/kustomer/4037272a-7fd3-4040-906b-47fde875a817/application) |
 
-## 🛠️ Internships (432)
+## 🛠️ Internships (434)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Tesla | Software Engineer Intern - Service Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282233) |
 | Datadog | Software Engineer Intern - Summer 🆕 | Boston, MA; NYC | Summer 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118) |
 | Formlabs | AI Software Intern 🆕 | Somerville, MA | Winter 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://careers.formlabs.com/job/8174874/apply/?gh_jid=8174874) |
 | RTX | Systems Co-op 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Spring-Summer-Co-Op---Systems---AVI-MIL-FMS-DAS_01872835) |
@@ -317,6 +319,7 @@ Last updated: **2026-09-09 06:33 UTC** · auto-refreshed every 12h by [job-board
 | Seven Research | Core Developer Intern | NYC | Fall 2026 | 100% | 2026-07-01 | 2026-08-02 | [**Apply ➜**](https://job-boards.greenhouse.io/sevenresearch/jobs/4895047008) |
 | SoloPulse | Software Engineer Intern/Co-op | Norcross, GA | Fall 2026 | 100% | 2026-06-16 | 2026-08-02 | [**Apply ➜**](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56/apply) |
 | Tesla | Machine Learning Intern - AI Engineer - Tesla AI | Palo Alto, CA | Fall 2026 | 100% | 2026-07-01 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/275331) |
+| Tesla | Software Engineer Intern - Software Engineer - AI Infrastructure | Palo Alto, CA | Fall 2026 | 100% | 2026-07-30 | 2026-08-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/278578) |
 | TikTok | Machine Learning Engineer Intern - Tiktok-Data-Search-Search Quality | San Jose, CA | Fall 2026 | 100% | 2026-07-29 | 2026-08-02 | [**Apply ➜**](https://lifeattiktok.com/search/7667690418804902149) |
 | Voloridge | Quantitative Developer Intern | Jupiter, FL | Fall 2026 | 100% | 2026-07-14 | 2026-08-02 | [**Apply ➜**](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009) |
 | Rendezvous Robotics | Software Engineering Intern, Spring 2027 | Golden, CO | Spring 2027 | 100% | 2026-07-28 | 2026-07-28 | [**Apply ➜**](https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us) |
@@ -420,10 +423,8 @@ Last updated: **2026-09-09 06:33 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Backend Software Engineer Intern - Global E-Commerce - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-01 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668834837268138293) |
 | TikTok | Backend Software Engineer Intern - Global E-Commerce - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-01 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668834837268416821) |
 | TikTok | Software Engineer Intern - TikTok - Shoot Experience Optimization - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-01 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668921505254410549) |
-| TikTok | Software Engineer Intern - TikTok - Effects Performance - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-31 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668725183121000757) |
-| TikTok | Backend Software Engineer Intern - TikTok - Product Infrastructure - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-07-29 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7667935633764370741) |
 
-_…and 32 more (raise the cap in src/scraper/board.ts)._
+_…and 34 more (raise the cap in src/scraper/board.ts)._
 ## 🎓 New Grad (226)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
@@ -655,7 +656,7 @@ _…and 32 more (raise the cap in src/scraper/board.ts)._
 | NXP Semiconductors | NFC System Software Validation Engineer - Entry Level | San Diego, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Innovation-Dr/NFC-System-Software-Validation-Engineer---Entry-Level_R-10064295) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (112)
+## 🚪 Recently closed (last 7 days) (108)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -735,7 +736,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Focal | Field Deployment Engineer - Entry Level | — | 2026-09-03 |
 | Torch Technologies | Entry-Level Radar Engineer - Tactical Missile Systems | — | 2026-09-03 |
 | RFCUNY | IT & Data Systems Intern - Archibus & Applications Development | Fall 2026 | 2026-09-03 |
-| Tesla | Software Engineer Intern - Software Engineer - AI Infrastructure | Fall 2026 | 2026-09-03 |
 | Qorvo | Software Engineer Intern | Fall 2026 | 2026-09-03 |
 | NXP Semiconductors | NFC System Software Engineer - Entry Level | — | 2026-09-03 |
 | Palantir | Software Engineer New Grad - Production Infrastructure | — | 2026-09-03 |
@@ -770,9 +770,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Booz Allen | University - 2027 Summer Games Software Developer Intern - Atlanta - GA | 2027 | 2026-09-02 |
 | Booz Allen | University - 2027 Summer Games Software Developer Intern | 2027 | 2026-09-02 |
 | General Dynamics Mission Systems | Software Engineer - Entry Level | — | 2026-09-02 |
-| Tesla | Software Engineer Intern - Software Engineer - IT Apps | Fall 2026 | 2026-09-02 |
-| SpreeAI  | Software Engineer Intern | Fall 2026 | 2026-09-02 |
-| Tesla | Vehicle Software Intern - Vehicle Software Engineer-Diagnostic User Interface | Fall 2026 | 2026-09-02 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._

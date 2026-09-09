@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-09T06:33:41.272Z",
+ "updatedAt": "2026-09-09T09:38:59.781Z",
  "jobs": [
   {
    "dedupeKey": "atlassian:250:26275",
@@ -1027,6 +1027,58 @@
    "firstSeenAt": "2026-09-03T16:22:11.704Z"
   },
   {
+   "dedupeKey": "greenhouse:6181759004",
+   "source": "greenhouse",
+   "company": "Vercel",
+   "title": "Software Engineering Intern - Summer '27",
+   "location": "Hybrid - San Francisco",
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/6181759004",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "TypeScript",
+    "JavaScript",
+    "Next.js"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-09-08T11:31:06-04:00",
+   "firstSeenAt": "2026-09-08T17:23:47.799Z"
+  },
+  {
+   "dedupeKey": "greenhouse:6181755004",
+   "source": "greenhouse",
+   "company": "Vercel",
+   "title": "Software Engineering Intern - Winter '27",
+   "location": "Hybrid - San Francisco",
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/6181755004",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "TypeScript",
+    "JavaScript",
+    "Next.js"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-09-08T11:31:09-04:00",
+   "firstSeenAt": "2026-09-08T17:23:47.799Z"
+  },
+  {
    "dedupeKey": "workday:JR2022645",
    "source": "workday",
    "company": "NVIDIA",
@@ -1135,58 +1187,6 @@
    },
    "postedAt": "2026-08-24",
    "firstSeenAt": "2026-08-24T07:17:56.744Z"
-  },
-  {
-   "dedupeKey": "greenhouse:6181759004",
-   "source": "greenhouse",
-   "company": "Vercel",
-   "title": "Software Engineering Intern - Summer '27",
-   "location": "Hybrid - San Francisco",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6181759004",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "TypeScript",
-    "JavaScript",
-    "Next.js"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2026-09-08T11:31:06-04:00",
-   "firstSeenAt": "2026-09-08T17:23:47.799Z"
-  },
-  {
-   "dedupeKey": "greenhouse:6181755004",
-   "source": "greenhouse",
-   "company": "Vercel",
-   "title": "Software Engineering Intern - Winter '27",
-   "location": "Hybrid - San Francisco",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6181755004",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "TypeScript",
-    "JavaScript",
-    "Next.js"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2026-09-08T11:31:09-04:00",
-   "firstSeenAt": "2026-09-08T17:23:47.799Z"
   },
   {
    "dedupeKey": "greenhouse:8052083",
@@ -1804,6 +1804,108 @@
    "firstSeenAt": "2026-09-09T04:39:03.021Z"
   },
   {
+   "dedupeKey": "greenhouse:5210813007",
+   "source": "greenhouse",
+   "company": "Verkada",
+   "title": "Backend Software Engineering Intern 2027",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5210813007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "AWS",
+    "Docker",
+    "Linux"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-08-25",
+   "firstSeenAt": "2026-08-25T18:54:45.779Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5210942007",
+   "source": "greenhouse",
+   "company": "Verkada",
+   "title": "Frontend Software Engineering Intern 2027",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5210942007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 95,
+   "matchedSkills": [
+    "TypeScript",
+    "JavaScript",
+    "React"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-25",
+   "firstSeenAt": "2026-08-25T18:54:45.779Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5219131007",
+   "source": "greenhouse",
+   "company": "Verkada",
+   "title": "Mobile Software Engineering Intern 2027",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5219131007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25",
+   "firstSeenAt": "2026-08-25T18:54:45.779Z"
+  },
+  {
+   "dedupeKey": "greenhouse:5213881007",
+   "source": "greenhouse",
+   "company": "Verkada",
+   "title": "Security Software Engineering Intern 2027",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5213881007",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "AWS",
+    "Docker",
+    "Linux"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-08-25",
+   "firstSeenAt": "2026-08-25T18:54:45.779Z"
+  },
+  {
    "dedupeKey": "ashby:452afc2e-0c79-41f8-8201-1aab7df775db",
    "source": "ashby",
    "company": "Quora",
@@ -1926,152 +2028,6 @@
    },
    "postedAt": "2025-12-22T18:35:42-05:00",
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5210813007",
-   "source": "greenhouse",
-   "company": "Verkada",
-   "title": "Backend Software Engineering Intern 2027",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5210813007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "AWS",
-    "Docker",
-    "Linux"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-08-25",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5210942007",
-   "source": "greenhouse",
-   "company": "Verkada",
-   "title": "Frontend Software Engineering Intern 2027",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5210942007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 95,
-   "matchedSkills": [
-    "TypeScript",
-    "JavaScript",
-    "React"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2026-08-25",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5219131007",
-   "source": "greenhouse",
-   "company": "Verkada",
-   "title": "Mobile Software Engineering Intern 2027",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5219131007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-25",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z"
-  },
-  {
-   "dedupeKey": "greenhouse:5213881007",
-   "source": "greenhouse",
-   "company": "Verkada",
-   "title": "Security Software Engineering Intern 2027",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5213881007",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "AWS",
-    "Docker",
-    "Linux"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-08-25",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z"
-  },
-  {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
-  },
-  {
-   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
-   "source": "vansh",
-   "company": "Appian",
-   "title": "New Grad 2027: Software Engineer",
-   "location": "McLean, VA",
-   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T21:58:55.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:4d6970bc021ff96087a5378ae306948362110181",
@@ -6348,6 +6304,50 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
+  },
+  {
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:1f6bee99-9cca-467c-a0b3-899d61139a03",
    "source": "simplifyjobs",
    "company": "Palantir",
@@ -9547,6 +9547,28 @@
     "skills": 0
    },
    "postedAt": "2026-07-29T01:15:25.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:0fe46774-0c06-4ab5-94e3-f5f8af293290",
+   "source": "simplifyjobs",
+   "company": "Tesla",
+   "title": "Software Engineer Intern - Software Engineer - AI Infrastructure",
+   "location": "Palo Alto, CA",
+   "url": "https://www.tesla.com/careers/search/job/278578",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T01:15:47.000Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -14596,6 +14618,28 @@
    "firstSeenAt": "2026-09-08T23:36:36.910Z"
   },
   {
+   "dedupeKey": "simplifyjobs:61ec7d70-4c67-42e3-b8ec-b7d24c4048e2",
+   "source": "simplifyjobs",
+   "company": "Tesla",
+   "title": "Software Engineer Intern - Service Engineering",
+   "location": "Palo Alto, CA",
+   "url": "https://www.tesla.com/careers/search/job/282233",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-09T06:24:36.000Z",
+   "firstSeenAt": "2026-09-09T09:38:59.781Z"
+  },
+  {
    "dedupeKey": "reverse-discovery:4830113101",
    "source": "reverse-discovery",
    "company": "asm",
@@ -14718,36 +14762,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:4dcbe6c9-b5cb-4f75-9418-4f669ff1d180",
-   "company": "Tesla",
-   "title": "Software Engineer Intern - Software Engineer - IT Apps",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-09-02T09:32:50.277Z",
-   "url": "https://www.tesla.com/careers/search/job/271209"
-  },
-  {
-   "dedupeKey": "simplifyjobs:0b289d87-b4b1-4056-8003-0a76181dcb52",
-   "company": "SpreeAI ",
-   "title": "Software Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-09-02T09:32:50.277Z",
-   "url": "https://ats.rippling.com/spreeai/jobs/d34aed29-7a11-4e37-b5bc-e9317f82f0b1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b5c7fd89-4672-4907-87b7-68a4b6957acb",
-   "company": "Tesla",
-   "title": "Vehicle Software Intern - Vehicle Software Engineer-Diagnostic User Interface",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-09-02T09:32:50.277Z",
-   "url": "https://www.tesla.com/careers/search/job/278703"
-  },
   {
    "dedupeKey": "speedyapply:sha1:07f8b1654978a678f00f16a618188d23932d10a2",
    "company": "ISN Software Corporation",
@@ -15127,16 +15141,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z",
    "closedAt": "2026-09-03T21:52:24.180Z",
    "url": "https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/IT---Data-Systems-Intern--Archibus---Applications-Development-_JR3277"
-  },
-  {
-   "dedupeKey": "simplifyjobs:0fe46774-0c06-4ab5-94e3-f5f8af293290",
-   "company": "Tesla",
-   "title": "Software Engineer Intern - Software Engineer - AI Infrastructure",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-09-03T21:52:24.180Z",
-   "url": "https://www.tesla.com/careers/search/job/278578"
   },
   {
    "dedupeKey": "simplifyjobs:e50cfb4e-c4b2-47dc-b594-f28655f5499c",

@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-658-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-9-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--09-informational)
+![open roles](https://img.shields.io/badge/open%20roles-660-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-10-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--09-informational)
 
-Updated **2026-09-09 06:33 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-09 09:38 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Tesla | Software Engineer Intern - Service Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282233) |
 | Datadog | Software Engineer Intern - Summer 🆕 | Boston, MA; NYC | Summer 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118) |
 | Formlabs | AI Software Intern 🆕 | Somerville, MA | Winter 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://careers.formlabs.com/job/8174874/apply/?gh_jid=8174874) |
 | RTX | Systems Co-op 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Spring-Summer-Co-Op---Systems---AVI-MIL-FMS-DAS_01872835) |
@@ -277,5 +278,4 @@ Updated **2026-09-09 06:33 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Innovative Systems | Intern/Co-op-Spring 2027 - Software Engineering | Pittsburgh, PA | Spring 2027 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](http://career.innovativesystems.com/apply/wJuSCjOOqx/InternCoopSpring-2027-Software-Engineering) |
 | Raytheon | Software Engineering Co-op - Winter/Spring 2027 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-02 | 2026-09-04 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Winter-Spring-2027-_01870191) |
 | Scale AI | Software Engineering Intern (Summer 2027) | San Francisco, CA | Summer 2027 | 100% (4 skills) | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4730845005) |
-| Tesla | Fleet Management Algorithms Intern - Vehicle Software | Palo Alto, CA | Spring 2027 | 100% (1 skills) | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282483) |
 <!-- JOB-BOARD:END -->
