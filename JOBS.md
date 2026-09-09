@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
 **658 open roles** across **257 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-09 04:39 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-09-09 06:33 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (12)
+## 🆕 New this cycle (9)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -14,11 +14,8 @@ Last updated: **2026-09-09 04:39 UTC** · auto-refreshed every 12h by [job-board
 | Formlabs | AI Software Intern 🆕 | Somerville, MA | Winter 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://careers.formlabs.com/job/8174874/apply/?gh_jid=8174874) |
 | Datadog | Software Engineer Intern - Summer 🆕 | Boston, MA; NYC | Summer 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118) |
 | SpaceX | New Graduate Engineer, Software (Starship) 🆕 | Hawthorne, CA | — | 80% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8743362002?gh_jid=8743362002) |
-| Vercel | Software Engineering Intern - Winter '27 🆕 | Hybrid - San Francisco | Winter 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181755004) |
-| Vercel | Software Engineering Intern - Summer '27 🆕 | Hybrid - San Francisco | Summer 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181759004) |
 | RTX | Systems Co-op 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Spring-Summer-Co-Op---Systems---AVI-MIL-FMS-DAS_01872835) |
 | GlobalFoundries | Systems Engineer New Grad 🆕 | Richardson, TX | — | 80% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/Systems-Engineer--2027-New-College-Graduate-_JR-2604083) |
-| ICF | 2027 Summer Intern - Software Developer - Reston - VA 🆕 | Reston, VA | 2027 | 90% | 2026-09-07 | 2026-09-08 | [**Apply ➜**](https://icf.wd5.myworkdayjobs.com/en-US/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002) |
 | Kustomer | Software Engineer – Early Career - Full Stack 🆕 | NYC | — | 80% | 2026-07-10 | 2026-09-08 | [**Apply ➜**](https://jobs.ashbyhq.com/kustomer/4037272a-7fd3-4040-906b-47fde875a817/application) |
 
 ## 🛠️ Internships (432)
@@ -29,8 +26,8 @@ Last updated: **2026-09-09 04:39 UTC** · auto-refreshed every 12h by [job-board
 | Formlabs | AI Software Intern 🆕 | Somerville, MA | Winter 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://careers.formlabs.com/job/8174874/apply/?gh_jid=8174874) |
 | RTX | Systems Co-op 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Spring-Summer-Co-Op---Systems---AVI-MIL-FMS-DAS_01872835) |
 | Two Sigma | Software Engineering Intern - Summer 2027 🆕 | NYC | Summer 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://twosigma.avature.net/careers/JobDetail/14016) |
-| Vercel | Software Engineering Intern - Summer '27 🆕 | Hybrid - San Francisco | Summer 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181759004) |
-| Vercel | Software Engineering Intern - Winter '27 🆕 | Hybrid - San Francisco | Winter 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181755004) |
+| Vercel | Software Engineering Intern - Summer '27 | Hybrid - San Francisco | Summer 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181759004) |
+| Vercel | Software Engineering Intern - Winter '27 | Hybrid - San Francisco | Winter 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181755004) |
 | Zions Bank | Process Automation Developer Intern | United States | Winter 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://zionsbancorp.taleo.net/careersection/joinexternalmobile/jobdetail.ftl?job=071580) |
 | Dropbox | Software Engineering Intern (Summer 2027) | Remote - US: All locations | Summer 2027 | 100% | 2026-09-07 | 2026-09-07 | [**Apply ➜**](https://jobs.dropbox.com/listing/8106224?gh_jid=8106224) |
 | Tesla | Software Engineer Intern - Code Hardening & Framework Resilience - Robotaxi | Palo Alto, CA | Spring 2027 | 100% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282598) |
@@ -341,7 +338,7 @@ Last updated: **2026-09-09 04:39 UTC** · auto-refreshed every 12h by [job-board
 | Waymo | 2027 Summer Intern, BS, SysEng Software Engineer | Mountain View, California, USA | 2027 | 95% (3 skills) | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8174099) |
 | Verkada | Frontend Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 95% (3 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5210942007) |
 | Waymo | 2027 Summer Intern, MS, Software Engineering, Behavior Test | San Francisco, California, USA | 2027 | 93% (2 skills) | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8174504) |
-| ICF | 2027 Summer Intern - Software Developer - Reston - VA 🆕 | Reston, VA | 2027 | 90% | 2026-09-07 | 2026-09-08 | [**Apply ➜**](https://icf.wd5.myworkdayjobs.com/en-US/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002) |
+| ICF | 2027 Summer Intern - Software Developer - Reston - VA | Reston, VA | 2027 | 90% | 2026-09-07 | 2026-09-08 | [**Apply ➜**](https://icf.wd5.myworkdayjobs.com/en-US/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002) |
 | CIBC | 2027 Summer Intern - Software Engineering | Chicago, IL | 2027 | 90% | 2026-09-04 | 2026-09-05 | [**Apply ➜**](https://cibc.wd3.myworkdayjobs.com/en-US/search/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1) |
 | CIBC | 2027 Summer Intern - Software Engineering | Chicago, IL | 2027 | 90% | 2026-09-04 | 2026-09-05 | [**Apply ➜**](https://cibc.wd3.myworkdayjobs.com/en-US/campus/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322) |
 | Rivian | Software Engineering Intern - Connected Systems - January - August 2027 | Irvine, CA +1 | 2027 | 90% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2) |

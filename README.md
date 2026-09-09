@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-658-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-12-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--09-informational)
+![open roles](https://img.shields.io/badge/open%20roles-658-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-9-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--09-informational)
 
-Updated **2026-09-09 04:39 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-09 06:33 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -262,8 +262,8 @@ Updated **2026-09-09 04:39 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Formlabs | AI Software Intern 🆕 | Somerville, MA | Winter 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://careers.formlabs.com/job/8174874/apply/?gh_jid=8174874) |
 | RTX | Systems Co-op 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Spring-Summer-Co-Op---Systems---AVI-MIL-FMS-DAS_01872835) |
 | Two Sigma | Software Engineering Intern - Summer 2027 🆕 | NYC | Summer 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://twosigma.avature.net/careers/JobDetail/14016) |
-| Vercel | Software Engineering Intern - Summer '27 🆕 | Hybrid - San Francisco | Summer 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181759004) |
-| Vercel | Software Engineering Intern - Winter '27 🆕 | Hybrid - San Francisco | Winter 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181755004) |
+| Vercel | Software Engineering Intern - Summer '27 | Hybrid - San Francisco | Summer 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181759004) |
+| Vercel | Software Engineering Intern - Winter '27 | Hybrid - San Francisco | Winter 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181755004) |
 | Zions Bank | Process Automation Developer Intern | United States | Winter 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://zionsbancorp.taleo.net/careersection/joinexternalmobile/jobdetail.ftl?job=071580) |
 | Dropbox | Software Engineering Intern (Summer 2027) | Remote - US: All locations | Summer 2027 | 100% | 2026-09-07 | 2026-09-07 | [**Apply ➜**](https://jobs.dropbox.com/listing/8106224?gh_jid=8106224) |
 | Tesla | Software Engineer Intern - Code Hardening & Framework Resilience - Robotaxi | Palo Alto, CA | Spring 2027 | 100% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282598) |
