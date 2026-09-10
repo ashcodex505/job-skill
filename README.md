@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-680-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-27-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--10-informational)
+![open roles](https://img.shields.io/badge/open%20roles-679-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-15-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--10-informational)
 
-Updated **2026-09-10 05:54 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-10 06:33 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -268,7 +268,7 @@ Updated **2026-09-10 05:54 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Cursor | Software Engineer, New Grad 2027 🆕 | San Francisco; New York | 2027 New Grad | 100% | 2026-09-08 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/cursor/d0e5b41d-84ab-4887-bd3a-55589b11dd7b) |
 | Replit | Software Engineer - New Grad (2027) 🆕 | Foster City, CA | 2027 New Grad | 100% (5 skills) | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc) |
 | Sierra | Software Engineer Intern, Agent (Winter 2027) 🆕 | San Francisco, CA | Winter 2027 | 100% (2 skills) | 2026-09-01 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/Sierra/02e1c456-8489-4a74-9fe7-af8845b040e4) |
-| fgf brands | IT Software QA Automation Co-Op - Winter 2027 🆕 | Woodbridge, CA | Winter 2027 | 100% | 2026-09-08 | 2026-09-09 | [**Apply ➜**](https://careerscoopinternen-fgfbrands.icims.com/jobs/26841/it-software-qa-automation-co-op-%28winter-2027%29/job) |
+| fgf brands | IT Software QA Automation Co-Op - Winter 2027 | Woodbridge, CA | Winter 2027 | 100% | 2026-09-08 | 2026-09-09 | [**Apply ➜**](https://careerscoopinternen-fgfbrands.icims.com/jobs/26841/it-software-qa-automation-co-op-%28winter-2027%29/job) |
 | Tesla | Software Engineer Intern - Service Engineering | Palo Alto, CA | Winter 2027 | 100% | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282233) |
 | Datadog | Software Engineer Intern - Summer | Boston, MA; NYC | Summer 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118) |
 | Formlabs | AI Software Intern - Winter/Spring 2027 | Somerville, MA | Spring 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://careers.formlabs.com/job/8174874/apply/?gh_jid=8174874) |
