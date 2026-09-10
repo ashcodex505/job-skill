@@ -252,12 +252,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-679-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-25-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--10-informational)
+![open roles](https://img.shields.io/badge/open%20roles-680-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-27-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--10-informational)
 
-Updated **2026-09-10 01:23 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-10 05:54 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Dell Technologies | Software Engineer Intern - Client Solutions Group Engineering 🆕 | Austin, TX | Summer 2027 | 100% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/298217) |
+| Epic Games | Backend Services Programmer Intern - Epic Games Services 🆕 | Cary, NC | Summer 2027 | 100% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004) |
 | Nova-Tech | Software Development Co-op 🆕 | Willmar, MN | Winter 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN) |
 | RTX | Software Engineering Co-op 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op---Spring-Summer-2027-_01872230) |
 | Tesla | Software Engineer Intern - IT Apps 🆕 | Fremont, CA | Spring 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282774) |
@@ -276,6 +278,4 @@ Updated **2026-09-10 01:23 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Vercel | Software Engineering Intern - Winter '27 | Hybrid - San Francisco | Winter 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181755004) |
 | Zions Bank | Process Automation Developer Intern | United States | Winter 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://zionsbancorp.taleo.net/careersection/joinexternalmobile/jobdetail.ftl?job=071580) |
 | Dropbox | Software Engineering Intern (Summer 2027) | Remote - US: All locations | Summer 2027 | 100% | 2026-09-07 | 2026-09-07 | [**Apply ➜**](https://jobs.dropbox.com/listing/8106224?gh_jid=8106224) |
-| Tesla | Software Engineer Intern - Code Hardening & Framework Resilience - Robotaxi | Palo Alto, CA | Spring 2027 | 100% | 2026-09-05 | 2026-09-05 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282598) |
-| Brave | Software Engineer Intern - Waterloo University | Remote in Canada | Fall 2026 | 100% | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://job-boards.greenhouse.io/brave/jobs/8161945) |
 <!-- JOB-BOARD:END -->
