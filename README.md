@@ -252,23 +252,25 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-682-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-17-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--10-informational)
+![open roles](https://img.shields.io/badge/open%20roles-688-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-19-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--10-informational)
 
-Updated **2026-09-10 11:44 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-10 16:21 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Rocket Lab | Flight Software Intern Spring 2027 🆕 | Littleton, CO | Spring 2027 | 100% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://job-boards.greenhouse.io/rocketlab/jobs/7989724003) |
 | Blue Origin | Electrical Systems Engineer Co-op - Fixed Term 🆕 | LA | Winter 2027 | 100% | 2026-09-08 | 2026-09-10 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Los-Angeles-CA/Electronics-Electrical-Systems-Engineer-Co-Op_R71548) |
 | Hermeus | Software Engineer Intern - Modeling & Simulation - Multiple Teams 🆕 | LA | Spring 2027 | 100% | 2026-09-01 | 2026-09-10 | [**Apply ➜**](https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply) |
 | Dell Technologies | Software Engineer Intern - Client Solutions Group Engineering 🆕 | Austin, TX | Summer 2027 | 100% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/298217) |
 | Epic Games | Backend Services Programmer Intern - Epic Games Services 🆕 | Cary, NC | Summer 2027 | 100% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004) |
-| Nova-Tech | Software Development Co-op 🆕 | Willmar, MN | Winter 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN) |
-| RTX | Software Engineering Co-op 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op---Spring-Summer-2027-_01872230) |
-| Tesla | Software Engineer Intern - IT Apps 🆕 | Fremont, CA | Spring 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282774) |
-| Tesla | Software Engineer Intern - Autonomy Systems Foundations 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282825) |
-| Tesla | Machine Learning Engineer Intern - Factory Software 🆕 | Fremont, CA | Spring 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282916) |
-| Cursor | Software Engineer, New Grad 2027 🆕 | San Francisco; New York | 2027 New Grad | 100% | 2026-09-08 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/cursor/d0e5b41d-84ab-4887-bd3a-55589b11dd7b) |
-| Replit | Software Engineer - New Grad (2027) 🆕 | Foster City, CA | 2027 New Grad | 100% (5 skills) | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc) |
+| Nova-Tech | Software Development Co-op | Willmar, MN | Winter 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN) |
+| RTX | Software Engineering Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op---Spring-Summer-2027-_01872230) |
+| Tesla | Software Engineer Intern - IT Apps | Fremont, CA | Spring 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282774) |
+| Tesla | Software Engineer Intern - Autonomy Systems Foundations | Palo Alto, CA | Winter 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282825) |
+| Tesla | Machine Learning Engineer Intern - Factory Software | Fremont, CA | Spring 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282916) |
+| Cursor | Software Engineer, New Grad 2027 | San Francisco; New York | 2027 New Grad | 100% | 2026-09-08 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/cursor/d0e5b41d-84ab-4887-bd3a-55589b11dd7b) |
+| Domino Data Lab | Software Engineer - New Grad - 2027 | Remote - New York City, NY | 2027 New Grad | 100% | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://app.careerpuck.com/job-board/domino-data-lab/job/7992556?gh_jid=7992556) |
+| Replit | Software Engineer - New Grad (2027) | Foster City, CA | 2027 New Grad | 100% (5 skills) | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc) |
 | Sierra | Software Engineer Intern, Agent (Winter 2027) | San Francisco, CA | Winter 2027 | 100% (2 skills) | 2026-09-01 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/Sierra/02e1c456-8489-4a74-9fe7-af8845b040e4) |
 | fgf brands | IT Software QA Automation Co-Op - Winter 2027 | Woodbridge, CA | Winter 2027 | 100% | 2026-09-08 | 2026-09-09 | [**Apply ➜**](https://careerscoopinternen-fgfbrands.icims.com/jobs/26841/it-software-qa-automation-co-op-%28winter-2027%29/job) |
 | Tesla | Software Engineer Intern - Service Engineering | Palo Alto, CA | Winter 2027 | 100% | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282233) |
@@ -276,6 +278,4 @@ Updated **2026-09-10 11:44 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Formlabs | AI Software Intern - Winter/Spring 2027 | Somerville, MA | Spring 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://careers.formlabs.com/job/8174874/apply/?gh_jid=8174874) |
 | RTX | Systems Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Spring-Summer-Co-Op---Systems---AVI-MIL-FMS-DAS_01872835) |
 | Two Sigma | Software Engineering Intern - Summer 2027 | NYC | Summer 2027 | 100% | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://twosigma.avature.net/careers/JobDetail/14016) |
-| Vercel | Software Engineering Intern - Summer '27 | Hybrid - San Francisco | Summer 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181759004) |
-| Vercel | Software Engineering Intern - Winter '27 | Hybrid - San Francisco | Winter 2027 | 100% (3 skills) | 2026-09-08 | 2026-09-08 | [**Apply ➜**](https://job-boards.greenhouse.io/vercel/jobs/6181755004) |
 <!-- JOB-BOARD:END -->
