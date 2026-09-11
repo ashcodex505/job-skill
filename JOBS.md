@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **694 open roles** across **271 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-11 11:12 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-09-11 11:44 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (7)
@@ -666,7 +666,7 @@ _…and 55 more (raise the cap in src/scraper/board.ts)._
 | NXP Semiconductors | NFC System Software Validation Engineer - Entry Level | San Diego, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Innovation-Dr/NFC-System-Software-Validation-Engineer---Entry-Level_R-10064295) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (75)
+## 🚪 Recently closed (last 7 days) (73)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -745,8 +745,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Applied Intuition | Forward Deployed Engineer New Grad | — | 2026-09-04 |
 | Tesla | Backend Engineer Intern - Infrastructure Engineering | Winter 2027 | 2026-09-04 |
 | Tesla | Software Engineer Intern - Fullstack Engineer - Infrastructure Engineering | Winter 2027 | 2026-09-04 |
-| Nextiva | Forward Deployed Engineer Intern - AI Implementation | Fall 2026 | 2026-09-04 |
-| Kognitos | Forward Deployed Engineer Intern | Fall 2026 | 2026-09-04 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
