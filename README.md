@@ -252,12 +252,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-694-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-8-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--11-informational)
+![open roles](https://img.shields.io/badge/open%20roles-696-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-10-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--11-informational)
 
-Updated **2026-09-11 16:25 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-11 17:08 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Lyft | Software Engineer Intern, Backend (Summer 2027) 🆕 | San Francisco, CA | Summer 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002) |
+| Lyft | Software Engineer Intern, Fullstack (Summer 2027) 🆕 | New York, NY | Summer 2027 | 100% (5 skills) | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002) |
 | Tesla | Software Engineer Intern - Data Platforms 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283117) |
 | TD Bank | Software Engineer Co-op - Global Technology & Solutions 🆕 | Mt Laurel Township, NJ | Spring 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Software-Engineer--SWE-_R_1509773) |
 | GrayMatter Robotics | Robotics Engineering Intern - Systems & Applications 🆕 | LA; Carson, CA | Fall 2026 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://jobs.ashbyhq.com/graymatter-robotics/aa7c2419-7bb9-4080-9403-937c4db01bb6/application?embed=true) |
@@ -276,6 +278,4 @@ Updated **2026-09-11 16:25 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Cursor | Software Engineer, New Grad 2027 | San Francisco; New York | 2027 New Grad | 100% | 2026-09-08 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/cursor/d0e5b41d-84ab-4887-bd3a-55589b11dd7b) |
 | Domino Data Lab | Software Engineer - New Grad - 2027 | Remote - New York City, NY | 2027 New Grad | 100% | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://app.careerpuck.com/job-board/domino-data-lab/job/7992556?gh_jid=7992556) |
 | Replit | Software Engineer - New Grad (2027) | Foster City, CA | 2027 New Grad | 100% (5 skills) | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc) |
-| Sierra | Software Engineer Intern, Agent (Winter 2027) | San Francisco, CA | Winter 2027 | 100% (2 skills) | 2026-09-01 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/Sierra/02e1c456-8489-4a74-9fe7-af8845b040e4) |
-| fgf brands | IT Software QA Automation Co-Op - Winter 2027 | Woodbridge, CA | Winter 2027 | 100% | 2026-09-08 | 2026-09-09 | [**Apply ➜**](https://careerscoopinternen-fgfbrands.icims.com/jobs/26841/it-software-qa-automation-co-op-%28winter-2027%29/job) |
 <!-- JOB-BOARD:END -->

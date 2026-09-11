@@ -1,13 +1,15 @@
 # 🎯 Job Board — SWE Early Career
 
-**694 open roles** across **273 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-11 16:25 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**696 open roles** across **274 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-11 17:08 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (8)
+## 🆕 New this cycle (10)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Lyft | Software Engineer Intern, Fullstack (Summer 2027) 🆕 | New York, NY | Summer 2027 | 100% (5 skills) | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002) |
+| Lyft | Software Engineer Intern, Backend (Summer 2027) 🆕 | San Francisco, CA | Summer 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002) |
 | Tesla | Software Engineer Intern - Data Platforms 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283117) |
 | GrayMatter Robotics | Robotics Engineering Intern - Systems & Applications 🆕 | LA; Carson, CA | Fall 2026 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://jobs.ashbyhq.com/graymatter-robotics/aa7c2419-7bb9-4080-9403-937c4db01bb6/application?embed=true) |
 | TD Bank | Software Engineer Co-op - Global Technology & Solutions 🆕 | Mt Laurel Township, NJ | Spring 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Software-Engineer--SWE-_R_1509773) |
@@ -17,10 +19,12 @@ Last updated: **2026-09-11 16:25 UTC** · auto-refreshed every 12h by [job-board
 | General Dynamics Mission Systems | Entry Level Infrastructure Software Engineer 🆕 | Pittsfield, MA | — | 70% | 2026-09-10 | 2026-09-11 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72580/entry-level-infrastructure-software-engineer/job) |
 | Amentum | Entry Level Software Engineer 🆕 | Dahlgren, VA | — | 70% | 2026-07-06 | 2026-09-11 | [**Apply ➜**](https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-VA-Dahlgren/Entry-Level-Software-Engineer_R0148259) |
 
-## 🛠️ Internships (454)
+## 🛠️ Internships (456)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Lyft | Software Engineer Intern, Backend (Summer 2027) 🆕 | San Francisco, CA | Summer 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002) |
+| Lyft | Software Engineer Intern, Fullstack (Summer 2027) 🆕 | New York, NY | Summer 2027 | 100% (5 skills) | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002) |
 | Tesla | Software Engineer Intern - Data Platforms 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283117) |
 | TD Bank | Software Engineer Co-op - Global Technology & Solutions 🆕 | Mt Laurel Township, NJ | Spring 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Software-Engineer--SWE-_R_1509773) |
 | GrayMatter Robotics | Robotics Engineering Intern - Systems & Applications 🆕 | LA; Carson, CA | Fall 2026 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://jobs.ashbyhq.com/graymatter-robotics/aa7c2419-7bb9-4080-9403-937c4db01bb6/application?embed=true) |
@@ -419,10 +423,8 @@ Last updated: **2026-09-11 16:25 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Mobile Software Engineer Intern - Global E-Commerce - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://lifeattiktok.com/search/7673663349758675205) |
 | Blue Origin | 2026 Intern Conversion - Aerospace Software Apps Engineer I | Seattle, WA +8 | 2026 | 90% | 2026-08-11 | 2026-08-12 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306) |
 | TikTok | Software Engineer Intern - Global E-commerce-Search - 2027 Fall | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-11 | [**Apply ➜**](https://lifeattiktok.com/search/7670839752644233525) |
-| TikTok | Software Engineer Intern - Global E-commerce-Search - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-06 | 2026-08-10 | [**Apply ➜**](https://lifeattiktok.com/search/7670839727059339525) |
-| ByteDance | Software Development Engineer Intern - Network Automation - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-08 | 2026-08-08 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7671147251943213317/detail) |
 
-_…and 54 more (raise the cap in src/scraper/board.ts)._
+_…and 56 more (raise the cap in src/scraper/board.ts)._
 ## 🎓 New Grad (240)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
@@ -465,8 +467,8 @@ _…and 54 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Johns Hopkins Applied Physics Laboratory | Software Engineer New Grad - Multiple Teams | Laurel, MD | — | 80% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://careers.jhuapl.edu/jobs/59817?icims=1) |
 | Nexthop.ai | Software Engineer New Grad | Santa Clara, CA | — | 80% | 2026-08-18 | 2026-09-10 | [**Apply ➜**](https://nexthopai.bamboohr.com/careers/24/) |
