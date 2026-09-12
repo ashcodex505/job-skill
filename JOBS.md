@@ -1,23 +1,24 @@
 # 🎯 Job Board — SWE Early Career
 
-**705 open roles** across **279 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-12 17:24 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**706 open roles** across **280 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-12 19:15 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (5)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Klaviyo | Software Engineer Co-op 🆕 | Boston, MA | Spring 2027 | 100% | 2026-09-12 | 2026-09-12 | [**Apply ➜**](https://job-boards.greenhouse.io/klaviyocampus/jobs/7989365003) |
 | Retell AI | Forward Deployed Engineer New Grad 🆕 | Redwood City, CA | — | 80% | 2026-09-12 | 2026-09-12 | [**Apply ➜**](https://jobs.ashbyhq.com/retell-ai/161bcfc9-56dd-4d0c-869d-e5de1431a940/application?embed=true) |
 | Megazone Cloud US | Software Engineer Co-op 2027 🆕 | Rochester, NY | 2027 | 90% | 2026-09-12 | 2026-09-12 | [**Apply ➜**](https://jobs.ashbyhq.com/megazone/e2889469-cf20-4227-bf24-2a6e885f8dca) |
 | Motorola Solutions | 2027 Software Engineering Summer Internship 🆕 | Plantation, FL | 2027 | 90% | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125) |
 | Philips | Co-op - Software Design Assurance - IGTD - Plymouth - MN - January 2027 🆕 | Plymouth, MN +1 | 2027 | 90% | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Plymouth-Minnesota-United-States/Co-op---Software-Design-Assurance--IGTD----Plymouth--MN---January-2027_592000) |
-| TikTok | Software Engineer Intern - Ads Infrastructure - 2026 Summer - BS/MS 🆕 | San Jose, CA | 2026 | 90% | 2026-06-15 | 2026-09-12 | [**Apply ➜**](https://lifeattiktok.com/search/7572665884037826869) |
 
-## 🛠️ Internships (459)
+## 🛠️ Internships (460)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Klaviyo | Software Engineer Co-op 🆕 | Boston, MA | Spring 2027 | 100% | 2026-09-12 | 2026-09-12 | [**Apply ➜**](https://job-boards.greenhouse.io/klaviyocampus/jobs/7989365003) |
 | Abridge | Software Engineer Intern | SF; NYC | Fall 2026 | 100% | 2026-08-15 | 2026-09-12 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application?embed=true) |
 | Draper | Systems Engineering Co-op - Spring 2027 | Cambridge, MA | Spring 2027 | 100% | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Systems-Engineering-Co-Op--Spring-2027-_JR002882) |
 | AMD | Machine Learning System Engineering Intern/Co-op | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://careers.amd.com/jobs/92342?icims=1) |
@@ -351,7 +352,7 @@ Last updated: **2026-09-12 17:24 UTC** · auto-refreshed every 12h by [job-board
 | Megazone Cloud US | Software Engineer Co-op 2027 🆕 | Rochester, NY | 2027 | 90% | 2026-09-12 | 2026-09-12 | [**Apply ➜**](https://jobs.ashbyhq.com/megazone/e2889469-cf20-4227-bf24-2a6e885f8dca) |
 | Motorola Solutions | 2027 Software Engineering Summer Internship 🆕 | Plantation, FL | 2027 | 90% | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125) |
 | Philips | Co-op - Software Design Assurance - IGTD - Plymouth - MN - January 2027 🆕 | Plymouth, MN +1 | 2027 | 90% | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Plymouth-Minnesota-United-States/Co-op---Software-Design-Assurance--IGTD----Plymouth--MN---January-2027_592000) |
-| TikTok | Software Engineer Intern - Ads Infrastructure - 2026 Summer - BS/MS 🆕 | San Jose, CA | 2026 | 90% | 2026-06-15 | 2026-09-12 | [**Apply ➜**](https://lifeattiktok.com/search/7572665884037826869) |
+| TikTok | Software Engineer Intern - Ads Infrastructure - 2026 Summer - BS/MS | San Jose, CA | 2026 | 90% | 2026-06-15 | 2026-09-12 | [**Apply ➜**](https://lifeattiktok.com/search/7572665884037826869) |
 | Northrop Grumman | 2027 Spring Co-op Cyber Software Engineer Intern - Cincinnati OH | Cincinnati, OH | 2027 | 90% | 2026-09-10 | 2026-09-11 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Spring-Co-op-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10250275-1) |
 | Target | Software Engineering Summer Internship-Minneapolis - MN - Starting June 2027 | NCD Brooklyn Park, MN | 2027 | 90% | 2026-09-10 | 2026-09-11 | [**Apply ➜**](https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082) |
 | Kensho | Software Engineer - Summer Intern 2027 | Cambridge, MA +1 | 2027 | 90% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://spgi.wd5.myworkdayjobs.com/en-US/kensho_careers/job/Cambridge-MA/Software-Engineer---Summer-Intern-2027_331717-1) |
@@ -417,9 +418,8 @@ Last updated: **2026-09-12 17:24 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-12 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672930401597671733) |
 | TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Summer | Seattle, WA | 2027 | 90% | 2026-08-12 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672926068681951493) |
 | TikTok | Software Engineer Intern - TikTok Search Data Infra - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://lifeattiktok.com/search/7675128776856029445) |
-| NVIDIA | Software Engineering Intern, NCCL - 2026 | 2 Locations | 2026 | 90% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645) |
 
-_…and 59 more (raise the cap in src/scraper/board.ts)._
+_…and 60 more (raise the cap in src/scraper/board.ts)._
 ## 🎓 New Grad (246)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
