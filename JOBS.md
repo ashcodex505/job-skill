@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **699 open roles** across **276 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-12 01:04 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-09-12 01:27 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (16)
@@ -681,7 +681,7 @@ _…and 54 more (raise the cap in src/scraper/board.ts)._
 | NXP Semiconductors | NFC System Software Validation Engineer - Entry Level | San Diego, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Innovation-Dr/NFC-System-Software-Validation-Engineer---Entry-Level_R-10064295) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (70)
+## 🚪 Recently closed (last 7 days) (69)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -756,7 +756,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | The Walt Disney Company | Systems Application Development and Sustainment Intern | Spring 2027 | 2026-09-05 |
 | The Walt Disney Company | Systems Application Development and Sustainment Intern | Spring 2027 | 2026-09-05 |
 | The Walt Disney Company | Software Engineer Intern | Spring 2027 | 2026-09-05 |
-| Tesla | Mobile App Software Engineer Intern - Mobile Application Software Engineer - Energy Engineering | Fall 2026 | 2026-09-05 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
