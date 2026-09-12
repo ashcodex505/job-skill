@@ -252,16 +252,16 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-699-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-11-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--12-informational)
+![open roles](https://img.shields.io/badge/open%20roles-700-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-7-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--12-informational)
 
-Updated **2026-09-12 11:11 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-12 14:04 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Abridge | Software Engineer Intern 🆕 | SF; NYC | Fall 2026 | 100% | 2026-08-15 | 2026-09-12 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application?embed=true) |
 | Draper | Systems Engineering Co-op - Spring 2027 🆕 | Cambridge, MA | Spring 2027 | 100% | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Systems-Engineering-Co-Op--Spring-2027-_JR002882) |
-| AMD | Machine Learning System Engineering Intern/Co-op 🆕 | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://careers.amd.com/jobs/92342?icims=1) |
-| AMD | AI Systems & GPU Performance Engineer Intern 🆕 | San Jose, CA; Santa Clara, CA | Spring 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://careers.amd.com/jobs/92354?icims=1) |
+| AMD | Machine Learning System Engineering Intern/Co-op | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://careers.amd.com/jobs/92342?icims=1) |
+| AMD | AI Systems & GPU Performance Engineer Intern | San Jose, CA; Santa Clara, CA | Spring 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://careers.amd.com/jobs/92354?icims=1) |
 | Lyft | Software Engineer Intern, Backend (Summer 2027) | San Francisco, CA | Summer 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002) |
 | Lyft | Software Engineer Intern, Fullstack (Summer 2027) | New York, NY | Summer 2027 | 100% (5 skills) | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002) |
 | Tesla | Software Engineer Intern - Data Platforms | Palo Alto, CA | Spring 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283117) |
@@ -274,8 +274,8 @@ Updated **2026-09-12 11:11 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Hermeus | Software Engineer Intern - Modeling & Simulation - Multiple Teams | LA | Spring 2027 | 100% | 2026-09-01 | 2026-09-10 | [**Apply ➜**](https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply) |
 | Epic Games | Backend Services Programmer Intern - Epic Games Services | Cary, NC | Summer 2027 | 100% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004) |
 | Nova-Tech | Software Development Co-op | Willmar, MN | Winter 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN) |
+| RTX | Software Engineering Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op---Spring-Summer-2027-_01872230) |
 | Tesla | Software Engineer Intern - IT Apps | Fremont, CA | Spring 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282774) |
 | Tesla | Software Engineer Intern - Autonomy Systems Foundations | Palo Alto, CA | Winter 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282825) |
 | Tesla | Machine Learning Engineer Intern - Factory Software | Fremont, CA | Spring 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://www.tesla.com/careers/search/job/282916) |
-| Cursor | Software Engineer, New Grad 2027 | San Francisco; New York | 2027 New Grad | 100% | 2026-09-08 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/cursor/d0e5b41d-84ab-4887-bd3a-55589b11dd7b) |
 <!-- JOB-BOARD:END -->
