@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **706 open roles** across **280 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-13 00:55 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-09-13 01:22 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (4)
@@ -454,8 +454,8 @@ _…and 60 more (raise the cap in src/scraper/board.ts)._
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
 | Stripe | Software Engineer, New Grad | San Francisco, Seattle, New York | — | 83% (2 skills) | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8128744) |
 | brainco | Early Career Machine Learning Engineer, Applied AI | San Francisco Bay Area | — | 83% (2 skills) | 2026-01-21 | 2026-08-16 | [**Apply ➜**](https://jobs.ashbyhq.com/brainco/bb6e555b-8bb1-4cd7-9813-4f82a5ebe839) |
-| SpaceX | New Graduate Engineer, Security Software (Starshield) | Hawthorne, CA | — | 82% (1 skills) | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002) |
 | SpaceX | New Graduate Engineer, Security Software (Starshield) | Washington, DC | — | 82% (1 skills) | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002) |
+| SpaceX | New Graduate Engineer, Security Software (Starshield) | Hawthorne, CA | — | 82% (1 skills) | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002) |
 | Applied Intuition | Electrical System Integration Engineer - New Grad | Sunnyvale | — | 82% (1 skills) | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/6b9a508b-359f-43c1-aa83-cabf55c3e03e) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Hawthorne, CA | — | 82% (1 skills) | 2026-08-19 | 2026-08-24 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002) |
 | aquaticcapitalmanagement | Software Engineer, Early Career | Chicago; New York | — | 82% (1 skills) | 2026-04-01 | 2026-08-23 | [**Apply ➜**](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002) |
