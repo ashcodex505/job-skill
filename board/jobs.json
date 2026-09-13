@@ -1,6 +1,98 @@
 {
- "updatedAt": "2026-09-13T12:49:50.081Z",
+ "updatedAt": "2026-09-13T13:49:28.201Z",
  "jobs": [
+  {
+   "dedupeKey": "reverse-discovery:b36ba5ac-4247-4d90-ac90-6df3e9d46885",
+   "source": "reverse-discovery",
+   "company": "datalabusa",
+   "title": "Production Programmer - Entry Level SQL Developer",
+   "location": "Germantown, MD",
+   "url": "https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 72,
+   "matchedSkills": [
+    "SQL"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 2
+   },
+   "postedAt": "2026-06-17",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:dd9a80d9-a296-4ea9-a231-b68bf268e8ea",
+   "source": "reverse-discovery",
+   "company": "datalabusa",
+   "title": "Production Programmer - Entry Level SQL Developer",
+   "location": "Germantown, MD",
+   "url": "https://jobs.lever.co/datalabusa/dd9a80d9-a296-4ea9-a231-b68bf268e8ea",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 72,
+   "matchedSkills": [
+    "SQL"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 2
+   },
+   "postedAt": "2026-08-20",
+   "firstSeenAt": "2026-08-20T13:06:36.489Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:f83af2f4-3d80-42fc-b1b5-8e65342ce152",
+   "source": "reverse-discovery",
+   "company": "focal",
+   "title": "Field Deployment Engineer (Entry Level)",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/focal/f83af2f4-3d80-42fc-b1b5-8e65342ce152",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-02-25T01:56:12.646+00:00",
+   "firstSeenAt": "2026-09-13T13:49:28.201Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:5b8d0c16-3b74-40ff-b5e6-9fdde6db0e86",
+   "source": "reverse-discovery",
+   "company": "fourier",
+   "title": "Fall 2026 R&D Engineering Intern – Hydrogen Systems",
+   "location": "HQ",
+   "url": "https://jobs.ashbyhq.com/fourier/5b8d0c16-3b74-40ff-b5e6-9fdde6db0e86",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-06T13:31:14.439+00:00",
+   "firstSeenAt": "2026-09-13T13:49:28.201Z"
+  },
   {
    "dedupeKey": "atlassian:250:26275",
    "source": "atlassian",
@@ -6449,30 +6541,6 @@
    "firstSeenAt": "2026-08-22T12:57:06.907Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:6a84ba685fff4764cb59191824e78fc3d4b4debd",
-   "source": "speedyapply",
-   "company": "DataLab USA",
-   "title": "Production Programmer - Entry Level SQL Developer",
-   "location": "Germantown, MD",
-   "url": "https://jobs.lever.co/datalabusa/dd9a80d9-a296-4ea9-a231-b68bf268e8ea",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 72,
-   "matchedSkills": [
-    "SQL"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 2
-   },
-   "postedAt": "2026-08-20",
-   "firstSeenAt": "2026-08-20T13:06:36.489Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:cfebf85ca668d3751f7500dd14461ce9b9f307f9",
    "source": "speedyapply",
    "company": "Koah Labs",
@@ -6932,30 +7000,6 @@
     "skills": 0
    },
    "postedAt": "2026-06-25",
-   "firstSeenAt": "2026-08-07T01:09:11.897Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:a33aff14cbf33a022afde9f7ef3a29868c0ba301",
-   "source": "speedyapply",
-   "company": "DataLab USA",
-   "title": "Production Programmer - Entry Level SQL Developer",
-   "location": "Germantown, MD",
-   "url": "https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 72,
-   "matchedSkills": [
-    "SQL"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 2
-   },
-   "postedAt": "2026-06-17",
    "firstSeenAt": "2026-08-07T01:09:11.897Z"
   },
   {
