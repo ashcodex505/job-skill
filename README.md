@@ -252,12 +252,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-717-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-18-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--14-informational)
+![open roles](https://img.shields.io/badge/open%20roles-704-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-19-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--14-informational)
 
-Updated **2026-09-14 19:34 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-14 21:00 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| GSK | Web App Developer Co-op 🆕 | Cambridge, MA | Winter 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://gsk-us-earlytalent.icims.com/jobs/11013/job?mobile=true&needsRedirect=false) |
+| Tive | Software Engineer Co-op 🆕 | Boston, MA | Winter 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://ats.rippling.com/tive-careers/jobs/c88ab3d3-a8e7-4639-b95b-d6c9b5290dd0) |
 | C3.ai | Forward Deployed Engineer New Grad - 2027 🆕 | Redwood City, CA | 2027 New Grad | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://c3.ai/job-description/8804558002?gh_jid=8804558002) |
 | Copart | Software Engineer Intern 🆕 | Dallas, TX | Fall 2026 | 100% | 2026-07-15 | 2026-09-14 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109673) |
 | Dell Technologies | Software Engineering Intern 🆕 | Round Rock, TX; Hopkinton, MA | Summer 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297773) |
@@ -268,7 +270,7 @@ Updated **2026-09-14 19:34 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Robinhood | Software Engineering Intern, iOS (Summer 2027) 🆕 | Menlo Park, CA; New York, NY | Summer 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/8142959?t=gh_src=&gh_jid=8142959) |
 | Robinhood | Software Engineering Intern, Web (Summer 2027) 🆕 | Menlo Park, CA; New York, NY | Summer 2027 | 100% (4 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/8142963?t=gh_src=&gh_jid=8142963) |
 | Scale AI | Software Engineering Intern (Summer 2027) 🆕 | Doha, Qatar | Summer 2027 | 100% (4 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4730834005) |
-| Philips | Software Systems Engineering Co-op - Image Guided Therapy Devices - IVUS Clinical Imaging Software Application 🆕 | Plymouth, MN | Winter 2027 | 100% | 2026-08-24 | 2026-09-14 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern-Co-op---Software-System-Engineering---Plymouth--MN---Summer-2027_590406) |
+| Philips | Software Systems Engineering Co-op - Image Guided Therapy Devices - IVUS Clinical Imaging Software Application | Plymouth, MN | Winter 2027 | 100% | 2026-08-24 | 2026-09-14 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern-Co-op---Software-System-Engineering---Plymouth--MN---Summer-2027_590406) |
 | fourier | Fall 2026 R&D Engineering Intern – Hydrogen Systems | HQ | Fall 2026 | 100% | 2026-08-06 | 2026-09-13 | [**Apply ➜**](https://jobs.ashbyhq.com/fourier/5b8d0c16-3b74-40ff-b5e6-9fdde6db0e86) |
 | Klaviyo | Software Engineer Co-op - Spring 2027 | Boston, MA | Spring 2027 | 100% | 2026-09-12 | 2026-09-12 | [**Apply ➜**](https://job-boards.greenhouse.io/klaviyocampus/jobs/7989365003) |
 | Abridge | Software Engineer Intern | SF; NYC | Fall 2026 | 100% | 2026-08-15 | 2026-09-12 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application?embed=true) |
@@ -276,6 +278,4 @@ Updated **2026-09-14 19:34 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Draper | Systems Engineering Co-op - Spring 2027 | Cambridge, MA | Spring 2027 | 100% | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Systems-Engineering-Co-Op--Spring-2027-_JR002882) |
 | AMD | Machine Learning System Engineering Intern/Co-op | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://careers.amd.com/jobs/92342?icims=1) |
 | AMD | AI Systems & GPU Performance Engineer Intern | San Jose, CA; Santa Clara, CA | Spring 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://careers.amd.com/jobs/92354?icims=1) |
-| Lyft | Software Engineer Intern, Backend (Summer 2027) | San Francisco, CA | Summer 2027 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002) |
-| Lyft | Software Engineer Intern, Fullstack (Summer 2027) | New York, NY | Summer 2027 | 100% (5 skills) | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002) |
 <!-- JOB-BOARD:END -->
