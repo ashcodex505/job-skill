@@ -252,12 +252,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-705-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-1-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--14-informational)
+![open roles](https://img.shields.io/badge/open%20roles-706-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-2-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--14-informational)
 
-Updated **2026-09-14 06:10 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-14 06:53 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Philips | Software Systems Engineering Co-op - Image Guided Therapy Devices - IVUS Clinical Imaging Software Application 🆕 | Plymouth, MN | Winter 2027 | 100% | 2026-08-24 | 2026-09-14 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern-Co-op---Software-System-Engineering---Plymouth--MN---Summer-2027_590406) |
 | fourier | Fall 2026 R&D Engineering Intern – Hydrogen Systems | HQ | Fall 2026 | 100% | 2026-08-06 | 2026-09-13 | [**Apply ➜**](https://jobs.ashbyhq.com/fourier/5b8d0c16-3b74-40ff-b5e6-9fdde6db0e86) |
 | Klaviyo | Software Engineer Co-op - Spring 2027 | Boston, MA | Spring 2027 | 100% | 2026-09-12 | 2026-09-12 | [**Apply ➜**](https://job-boards.greenhouse.io/klaviyocampus/jobs/7989365003) |
 | Abridge | Software Engineer Intern | SF; NYC | Fall 2026 | 100% | 2026-08-15 | 2026-09-12 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application?embed=true) |
@@ -277,5 +278,4 @@ Updated **2026-09-14 06:10 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Hermeus | Software Engineer Intern - Modeling & Simulation - Multiple Teams | LA | Spring 2027 | 100% | 2026-09-01 | 2026-09-10 | [**Apply ➜**](https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply) |
 | Epic Games | Backend Services Programmer Intern - Epic Games Services | Cary, NC | Summer 2027 | 100% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004) |
 | Nova-Tech | Software Development Co-op | Willmar, MN | Winter 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN) |
-| RTX | Software Engineering Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op---Spring-Summer-2027-_01872230) |
 <!-- JOB-BOARD:END -->
