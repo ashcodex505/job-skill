@@ -252,12 +252,17 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-696-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-1-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--14-informational)
+![open roles](https://img.shields.io/badge/open%20roles-710-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-7-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--14-informational)
 
-Updated **2026-09-14 10:49 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-14 13:56 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Robinhood | Software Engineering Intern, Android (Summer 2027) 🆕 | Menlo Park, CA; New York, NY | Summer 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/8142961?t=gh_src=&gh_jid=8142961) |
+| Robinhood | Software Engineering Intern, Backend (Summer 2027) 🆕 | Bellevue, WA; Menlo Park, CA; New York, NY | Summer 2027 | 100% (3 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/8123225?t=gh_src=&gh_jid=8123225) |
+| Robinhood | Software Engineering Intern, iOS (Summer 2027) 🆕 | Menlo Park, CA; New York, NY | Summer 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/8142959?t=gh_src=&gh_jid=8142959) |
+| Robinhood | Software Engineering Intern, Web (Summer 2027) 🆕 | Menlo Park, CA; New York, NY | Summer 2027 | 100% (4 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://boards.greenhouse.io/robinhood/jobs/8142963?t=gh_src=&gh_jid=8142963) |
+| Scale AI | Software Engineering Intern (Summer 2027) 🆕 | Doha, Qatar | Summer 2027 | 100% (4 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4730834005) |
 | Philips | Software Systems Engineering Co-op - Image Guided Therapy Devices - IVUS Clinical Imaging Software Application 🆕 | Plymouth, MN | Winter 2027 | 100% | 2026-08-24 | 2026-09-14 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern-Co-op---Software-System-Engineering---Plymouth--MN---Summer-2027_590406) |
 | fourier | Fall 2026 R&D Engineering Intern – Hydrogen Systems | HQ | Fall 2026 | 100% | 2026-08-06 | 2026-09-13 | [**Apply ➜**](https://jobs.ashbyhq.com/fourier/5b8d0c16-3b74-40ff-b5e6-9fdde6db0e86) |
 | Klaviyo | Software Engineer Co-op - Spring 2027 | Boston, MA | Spring 2027 | 100% | 2026-09-12 | 2026-09-12 | [**Apply ➜**](https://job-boards.greenhouse.io/klaviyocampus/jobs/7989365003) |
@@ -273,9 +278,4 @@ Updated **2026-09-14 10:49 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | GrayMatter Robotics | Robotics Engineering Intern - Systems & Applications | LA; Carson, CA | Fall 2026 | 100% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://jobs.ashbyhq.com/graymatter-robotics/aa7c2419-7bb9-4080-9403-937c4db01bb6/application?embed=true) |
 | Paccar | Software Developer Intern | Renton, WA | Winter 2027 | 100% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://jobs.paccar.com/job/Renton-2027-Winter-Internship-Software-Developer-Intern-WA-98057/1435928733/?ats=successfactors) |
 | RTX | Software Engineering Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op--Spring-Summer-2027-_01871551) |
-| Rocket Lab | Flight Software Intern Spring 2027 | Littleton, CO | Spring 2027 | 100% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://job-boards.greenhouse.io/rocketlab/jobs/7989724003) |
-| Blue Origin | Electrical Systems Engineer Co-op - Fixed Term | LA | Winter 2027 | 100% | 2026-09-08 | 2026-09-10 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Los-Angeles-CA/Electronics-Electrical-Systems-Engineer-Co-Op_R71548) |
-| Hermeus | Software Engineer Intern - Modeling & Simulation - Multiple Teams | LA | Spring 2027 | 100% | 2026-09-01 | 2026-09-10 | [**Apply ➜**](https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply) |
-| Epic Games | Backend Services Programmer Intern - Epic Games Services | Cary, NC | Summer 2027 | 100% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004) |
-| Nova-Tech | Software Development Co-op | Willmar, MN | Winter 2027 | 100% | 2026-09-09 | 2026-09-10 | [**Apply ➜**](https://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN) |
 <!-- JOB-BOARD:END -->
