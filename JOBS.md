@@ -1,22 +1,20 @@
 # 🎯 Job Board — SWE Early Career
 
 **705 open roles** across **283 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-14 01:29 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-09-14 06:10 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (3)
+## 🆕 New this cycle (1)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Autostore | Entry Level Software Engineer 🆕 | Atlanta, GA | — | 70% | 2026-09-13 | 2026-09-13 | [**Apply ➜**](https://autostore.wd3.myworkdayjobs.com/autostore/job/Atlanta-GA-USA/Entry-Level-Software-Engineer_JR102691) |
-| fourier | Fall 2026 R&D Engineering Intern – Hydrogen Systems 🆕 | HQ | Fall 2026 | 100% | 2026-08-06 | 2026-09-13 | [**Apply ➜**](https://jobs.ashbyhq.com/fourier/5b8d0c16-3b74-40ff-b5e6-9fdde6db0e86) |
-| focal | Field Deployment Engineer (Entry Level) 🆕 | San Francisco | — | 70% | 2026-02-25 | 2026-09-13 | [**Apply ➜**](https://jobs.ashbyhq.com/focal/f83af2f4-3d80-42fc-b1b5-8e65342ce152) |
 
 ## 🛠️ Internships (457)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| fourier | Fall 2026 R&D Engineering Intern – Hydrogen Systems 🆕 | HQ | Fall 2026 | 100% | 2026-08-06 | 2026-09-13 | [**Apply ➜**](https://jobs.ashbyhq.com/fourier/5b8d0c16-3b74-40ff-b5e6-9fdde6db0e86) |
+| fourier | Fall 2026 R&D Engineering Intern – Hydrogen Systems | HQ | Fall 2026 | 100% | 2026-08-06 | 2026-09-13 | [**Apply ➜**](https://jobs.ashbyhq.com/fourier/5b8d0c16-3b74-40ff-b5e6-9fdde6db0e86) |
 | Klaviyo | Software Engineer Co-op - Spring 2027 | Boston, MA | Spring 2027 | 100% | 2026-09-12 | 2026-09-12 | [**Apply ➜**](https://job-boards.greenhouse.io/klaviyocampus/jobs/7989365003) |
 | Abridge | Software Engineer Intern | SF; NYC | Fall 2026 | 100% | 2026-08-15 | 2026-09-12 | [**Apply ➜**](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application?embed=true) |
 | Draper | Systems Engineering Co-op - Spring 2027 | Cambridge, MA | Spring 2027 | 100% | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Systems-Engineering-Co-Op--Spring-2027-_JR002882) |
@@ -619,7 +617,7 @@ _…and 57 more (raise the cap in src/scraper/board.ts)._
 | Datalab USA | Production Programmer – Entry Level SQL Developer | Germantown, MD | — | 72% (1 skills) | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885/apply) |
 | DataLab USA | Production Programmer - Entry Level SQL Developer | Germantown, MD | — | 72% (1 skills) | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885) |
 | Autostore | Entry Level Software Engineer 🆕 | Atlanta, GA | — | 70% | 2026-09-13 | 2026-09-13 | [**Apply ➜**](https://autostore.wd3.myworkdayjobs.com/autostore/job/Atlanta-GA-USA/Entry-Level-Software-Engineer_JR102691) |
-| focal | Field Deployment Engineer (Entry Level) 🆕 | San Francisco | — | 70% | 2026-02-25 | 2026-09-13 | [**Apply ➜**](https://jobs.ashbyhq.com/focal/f83af2f4-3d80-42fc-b1b5-8e65342ce152) |
+| focal | Field Deployment Engineer (Entry Level) | San Francisco | — | 70% | 2026-02-25 | 2026-09-13 | [**Apply ➜**](https://jobs.ashbyhq.com/focal/f83af2f4-3d80-42fc-b1b5-8e65342ce152) |
 | The Boeing Company | Entry Level Simulation Software Engineer | Hazelwood, MO | — | 70% | 2026-07-07 | 2026-09-11 | [**Apply ➜**](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Entry-Level-Simulation-Software-Engineer_JR2026516853-1) |
 | General Dynamics Mission Systems | Entry Level Infrastructure Software Engineer | Pittsfield, MA | — | 70% | 2026-09-10 | 2026-09-11 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/72580/entry-level-infrastructure-software-engineer/job) |
 | Rover.com | Entry Level Software Engineer - Recommendations | Seattle, WA | — | 70% | 2026-09-11 | 2026-09-11 | [**Apply ➜**](https://jobs.lever.co/rover/303b3b2f-9679-4a77-8908-456e29240486) |
