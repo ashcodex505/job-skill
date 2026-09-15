@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-724-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-13-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--15-informational)
+![open roles](https://img.shields.io/badge/open%20roles-722-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-13-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--15-informational)
 
-Updated **2026-09-15 21:41 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-15 22:10 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|

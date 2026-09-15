@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**724 open roles** across **292 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-15 21:41 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**722 open roles** across **291 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-15 22:10 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (13)
@@ -22,7 +22,7 @@ Last updated: **2026-09-15 21:41 UTC** · auto-refreshed every 12h by [job-board
 | Solace | Associate Software Engineer - College Grad 2027 🆕 | Redwood City, CA | 2027 New Grad | 95% | 2026-08-26 | 2026-09-15 | [**Apply ➜**](https://jobs.ashbyhq.com/solace/db008474-d93e-41a7-939e-8d5825eb0d0f) |
 | Quantiq | Software Developer- New Graduate 🆕 | Austin, TX | — | 80% | 2026-06-12 | 2026-09-15 | [**Apply ➜**](https://job-boards.greenhouse.io/quantiq/jobs/4280650009) |
 
-## 🛠️ Internships (466)
+## 🛠️ Internships (465)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -219,7 +219,6 @@ Last updated: **2026-09-15 21:41 UTC** · auto-refreshed every 12h by [job-board
 | Gulfstream | Software Engineer Intern - Innovation, Engineering and Flight | Savannah, GA | Spring 2027 | 100% | 2026-08-24 | 2026-08-24 | [**Apply ➜**](https://careers.gulfstream.com/job/Savannah-Spring-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421676700/?ats=successfactors) |
 | Analog Devices | Systems Integration Engineer Intern | Wilmington, MA; Durham, NC | Fall 2026 | 100% | 2026-08-22 | 2026-08-22 | [**Apply ➜**](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/System-Integration-Engineer-Intern_R265305) |
 | SimIS | Artificial Intelligence Developer Intern - Aerospace/Aviation | Suffolk, VA | Fall 2026 | 100% | 2026-08-21 | 2026-08-22 | [**Apply ➜**](https://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern) |
-| Syska Hennessy Group | Innovations Intern - Full Stack/Front End Engineering | NYC | Fall 2026 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://job-boards.greenhouse.io/syskahennessy/jobs/8147733) |
 | AMD | Software Engineer Intern/Co-op - Masters | San Jose, CA; Santa Clara, CA | Spring 2027 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers.amd.com/jobs/91176?icims=1) |
 | AMD | Software Engineer Intern/Co-op | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers.amd.com/jobs/90891?icims=1) |
 | AMD | Software Engineer Intern/Co-op | Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA | Spring 2027 | 100% | 2026-08-21 | 2026-08-21 | [**Apply ➜**](https://careers.amd.com/jobs/91180?icims=1) |
@@ -426,9 +425,10 @@ Last updated: **2026-09-15 21:41 UTC** · auto-refreshed every 12h by [job-board
 | TikTok | Software Engineer Intern - TikTok Search Data Infra - 2027 Fall | San Jose, CA | 2027 | 90% | 2026-08-18 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7675129440242010421) |
 | TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Fall | Seattle, WA | 2027 | 90% | 2026-08-15 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7674029284224092421) |
 | TikTok | Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Fall | San Jose, CA | 2027 | 90% | 2026-08-12 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7672934842451577141) |
+| TikTok | Site Reliability Engineer Intern - Global SRE - 2027 Summer | San Jose, CA | 2027 | 90% | 2026-08-06 | 2026-08-20 | [**Apply ➜**](https://lifeattiktok.com/search/7670874691332212997) |
 
-_…and 66 more (raise the cap in src/scraper/board.ts)._
-## 🎓 New Grad (258)
+_…and 65 more (raise the cap in src/scraper/board.ts)._
+## 🎓 New Grad (257)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -478,9 +478,9 @@ _…and 66 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | Waymo | Machine Learning Engineer Perception LLM/VLM (PhD, New Grad) | Mountain View, CA USA;  San Francisco, CA USA; | — | 82% (1 skills) | 2025-12-22 | 2026-07-26 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=7488508) |
 | Miter | Software Engineer - New Grad 🆕 | New York City, NY +1 | — | 80% | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://jobs.ashbyhq.com/miter/f4567649-a0eb-445d-bd00-a0673a26ec6d) |
 | Quantiq | Software Developer- New Graduate 🆕 | Austin, TX | — | 80% | 2026-06-12 | 2026-09-15 | [**Apply ➜**](https://job-boards.greenhouse.io/quantiq/jobs/4280650009) |
@@ -638,7 +638,6 @@ _…and 66 more (raise the cap in src/scraper/board.ts)._
 | 9to9 Software Solutions | Entry Level Java Developer | Elk Grove, CA | — | 72% (1 skills) | 2026-08-12 | 2026-08-12 | [**Apply ➜**](https://jobs.smartrecruiters.com/9to9SoftwareSolutionsLLC/743999677209089) |
 | Akuna Capital | Software Engineer - Entry-Level - Python | Chicago, IL | — | 72% (1 skills) | 2026-07-13 | 2026-08-07 | [**Apply ➜**](https://www.akunacapital.com/careers/job/8013230/?gh_jid=8013230) |
 | Conduent | Java Developer – Entry Level | Atlanta, GA | — | 72% (1 skills) | 2026-07-29 | 2026-08-07 | [**Apply ➜**](https://egua.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22738) |
-| Datalab USA | Production Programmer – Entry Level SQL Developer | Germantown, MD | — | 72% (1 skills) | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885/apply) |
 | DataLab USA | Production Programmer - Entry Level SQL Developer | Germantown, MD | — | 72% (1 skills) | 2026-06-17 | 2026-08-07 | [**Apply ➜**](https://jobs.lever.co/datalabusa/b36ba5ac-4247-4d90-ac90-6df3e9d46885) |
 | Applied Materials | Algorithm Developer II New College Grad- Master's - Santa Clara - CA 🆕 | Santa Clara, CA | — | 70% | 2026-09-14 | 2026-09-15 | [**Apply ➜**](https://amat.wd1.myworkdayjobs.com/en-US/external/job/Santa-ClaraCA/Algorithm-Developer-II_R2627187) |
 | IQVIA | MedTech Field Service Software Tech Entry Level - Central Time Zone 🆕 | Kansas City, MO +4 | — | 70% | 2026-09-14 | 2026-09-15 | [**Apply ➜**](https://iqvia.wd1.myworkdayjobs.com/en-US/iqvia/job/Kansas-City-MO/MedTech-Field-Service-Software-Tech-Entry-Level---Central-Time-Zone_R1568795) |
@@ -691,12 +690,14 @@ _…and 66 more (raise the cap in src/scraper/board.ts)._
 | NXP Semiconductors | NFC System Software Validation Engineer - Entry Level | San Diego, CA | — | 70% | 2026-06-25 | 2026-08-07 | [**Apply ➜**](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Innovation-Dr/NFC-System-Software-Validation-Engineer---Entry-Level_R-10064295) |
 | Pariveda | Entry-Level Software Engineer | Dallas, TX +8 | — | 70% | 2026-08-03 | 2026-08-07 | [**Apply ➜**](https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0) |
 
-## 🚪 Recently closed (last 7 days) (69)
+## 🚪 Recently closed (last 7 days) (71)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Datalab USA | Production Programmer – Entry Level SQL Developer | — | 2026-09-15 |
+| Syska Hennessy Group | Innovations Intern - Full Stack/Front End Engineering | Fall 2026 | 2026-09-15 |
 | Microchip Technology | Engineering Intern - Software Development | Fall 2026 | 2026-09-15 |
 | Analog Devices | AI/ML Engineer Intern | Fall 2026 | 2026-09-15 |
 | Atlassian | Software Engineer Intern, 2027 Canada | 2027 | 2026-09-15 |
