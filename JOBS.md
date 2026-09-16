@@ -1,13 +1,28 @@
 # 🎯 Job Board — SWE Early Career
 
-**1687 open roles** across **669 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-16 22:07 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1709 open roles** across **677 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-16 23:49 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (962)
+## 🆕 New this cycle (984)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Koch Industries | Software Engineer Co-op - Information Technology 🆕 | Wichita, KS | Summer 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://koch.avature.net/en_US/careers/JobDetail/192476) |
+| Emergent Labs | Software Engineer Intern 🆕 | SF | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/emergentlabsinc/jobs/4323651009) |
+| Nanopath | Software Development Co-op 🆕 | Cambridge, MA | Winter 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/nanopathinc/jobs/4732881005) |
+| Waymo | Quantitative Software Engineer Intern 🆕 | SF; Mountain View, CA | Summer 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8197554) |
+| EQT Corporation | Data Engineering Intern - Completions Services 🆕 | Canonsburg, PA | Summer 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/eqtcorporation/jobs/5422414008) |
+| Clockwork Systems | Software Engineer Intern 🆕 | Palo Alto, CA | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/clockworksystems/jobs/6174230004) |
+| Headlands Tech Holdings | C++ Software Developer New Grad 🆕 | Chicago, IL | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4336806009) |
+| D3 Embedded | Embedded Systems Design Co-op 🆕 | West Henrietta, NY | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://d3engineering.applytojob.com/apply/uixxAbdlV5/Embedded-Systems-Design-Coop) |
+| Kitware | Software Developer Intern - Computer Vision 🆕 | Clifton Park, NY | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://jobs.lever.co/kitware/7b6ff8f9-34c6-4338-845d-4e1bbc142906/apply) |
+| AMD | AI Model Optimization & Software Engineer Intern/Co-op 🆕 | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/92522?icims=1) |
+| AMD | AI Model Optimization & Software Engineer Intern/Co-op 🆕 | Austin, TX | Winter 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/92526?icims=1) |
+| General Dynamics Mission Systems | Software Engineer Intern 🆕 | Dedham, MA | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74993/job?mobile=true&needsRedirect=false) |
+| Garmin | Software Engineer Intern 🆕 | Manhattan, KS | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers.garmin.com/jobs/20177?icims=1) |
+| Renesas Electronics | Software Engineer Intern 🆕 | San Jose, CA | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://jobs.smartrecruiters.com/RenesasElectronics/744000149952164) |
+| DecisionPoint | Software Engineer Intern 🆕 | United States | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers-decisionpointcorp.icims.com/jobs/3771/job?mobile=true&needsRedirect=false) |
 | Intel | Development Tools Software Intern 🆕 | Mexico, Guadalajara | — | 80% | — | 2026-09-16 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-US/External/job/Mexico-Guadalajara/Development-Tools-Software-Intern_JR0285211) |
 | Waymo | 2027 Summer Intern, MS/PhD, Software Engineer 🆕 | Mountain View, California, USA | 2027 | 93% (2 skills) | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8202801) |
 | Eaton | Junior Software Engineer - Research & Development Engineering 🆕 | Wimborne Minster, Wimborne, UK | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://eaton.eightfold.ai/careers/job/687239270493) |
@@ -15,9 +30,18 @@ Last updated: **2026-09-16 22:07 UTC** · auto-refreshed every 12h by [job-board
 | Nokia | Embedded Software Co-op 🆕 | Sunnyvale, CA | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40172) |
 | Emerson Electric | Software Engineer Intern 🆕 | Austin, TX | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010928) |
 | Amazon | Junior Software Engineer Intern - Jr. Developer Program 🆕 | San Luis Obispo, CA | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://amazon.jobs/en/jobs/10544071/jr-software-development-engineer-san-luis-obispo-ca-jr-developer-program) |
+| Itron | Firmware Engineer Intern 🆕 | West Union, SC | Winter 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://itron.wd5.myworkdayjobs.com/Early_Careers/job/United-States-of-America-South-Carolina-West-Union/Intern----Firmware-Engineer--Spring-2027-_JR102920) |
+| RTX | Software Engineer Co-op - Winter/Spring 2027 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Winter-Spring-2027-_01875464) |
+| Intel | Operations Research Engineering Analytics Intern 🆕 | Phoenix, AZ | Winter 2026 | 95% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Operations-Research--Engineering-Analytics-Graduate-Intern_JR0286502) |
 | Analog Devices | Test Engineer Intern 🆕 | Wilmington, MA; Durham, NC | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Test-Engineering-Intern_R266146) |
+| Graco | Software Engineer Intern - Commerce Applications 🆕 | Dayton, MN | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://graco.wd501.myworkdayjobs.com/Graco_Careers/job/Dayton-Minnesota-USA-French-Lake/Software-Engineer-Intern_R0023556) |
+| KBR | Image Processing Software Engineer Intern 🆕 | Sioux Falls, SD | Summer 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Sioux-Falls-South-Dakota/Image-Processing-Software-Engineer-Intern_R2130067) |
+| KBR | Data Processing Systems Engineer Intern 🆕 | Sioux Falls, SD | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Sioux-Falls-South-Dakota/Data-Processing-Systems-Engineer-Intern_R2130060) |
+| RTX | Software Engineer Intern 🆕 | Tucson, AZ | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Software-Engineer-Intern_01874282) |
+| Vermeer | Data Engineer Intern - IT 🆕 | Pella, IA | Winter 2026 | 90% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/IT-Data-Engineer-Intern_REQ-22171) |
 | Brevium | Software Engineer Intern 🆕 | American Fork, UT | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/brevium/jobs/4713683006) |
 | Gecko Robotics | Embedded Software Engineering Intern 🆕 | Pittsburgh, PA | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/gecko-robotics/24561868-f075-4edf-a991-59ff0174e92a) |
+| General Motors | Software Engineer - Early Careers 🆕 | Seattle, WA; Austin, TX; Warren, MI | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Austin-Texas-United-States-of-America/Software-Engineer--Data-Software-Engineering-and-Cloud-Platforms--Early-Careers_JR-202620418) |
 | ICF International | Junior Software Engineer 🆕 | Reston, VA | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/Junior-Software-Engineer--Entry-level---Remote-US-_R2603054) |
 | National Information Solutions Cooperative | Intern - Software Development - AI Development 🆕 | Cedar Rapids, IA +1 | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/testnisc/jobs/8204161) |
 | National Information Solutions Cooperative | Intern - Software Development - AI Development 🆕 | Cedar Rapids, IA +1 | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/testnisc/jobs/8204156) |
@@ -84,36 +108,18 @@ Last updated: **2026-09-16 22:07 UTC** · auto-refreshed every 12h by [job-board
 | Arconic | Data Engineering Intern 🆕 | New Kensington, PA | Summer 2026 | 90% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://hdnn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/114184) |
 | Acron Aviation | Software Engineer Intern 🆕 | Phoenix, AZ | Summer 2026 | 95% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://jobs.lever.co/acronaviation/34cf5ad0-840a-4c1b-8231-02a433d0479e/apply) |
 | Raytheon | Software Engineering Co-op - Summer/Fall 2027 🆕 | Wilsonville, OR | Fall 2027 | 100% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Software-Engineering-Co-op--Summer-Fall-2027-_01870236) |
-| Raytheon | Software Engineering Co-op - Summer/Fall 2027 🆕 | Wilsonville, OR | Fall 2027 | 100% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Software-Engineering-Co-op--Summer-Fall-2027-_01873970) |
-| RTX | Software Engineer Co-op - Summer/Fall 2027 🆕 | Wilsonville, OR | Fall 2027 | 100% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Software-Engineering-Co-op--Summer-Fall-2027-_01873970) |
-| Intel | System Technology Research Engineer Intern - Foundry System Technology 🆕 | Austin, TX; Santa Clara, CA; Hillsboro, OR | Summer 2026 | 90% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/System-Technology-Research-Engineer----PhD-Intern-_JR0287000) |
-| Viavi Solutions | Software Engineer Co-op 🆕 | Germantown, MD | Winter 2026 | 90% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Germantown-MD-USA/Software-Engineering-Co-Op_260005140-1) |
-| Wells Fargo | 2027 Technology Summer Internship - Early Careers - Software Engineering - California 🆕 | San Francisco, CA +2 | 2027 | 90% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/job/SAN-FRANCISCO-CA/XMLNAME-2027-Technology-Summer-Internship---Early-Careers--Software-Engineering---California-_R-574294) |
-| Wells Fargo | 2027 Technology Summer Internship - Early Careers - Software Engineering 🆕 | Charlotte, NC +5 | 2027 | 90% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Technology-Summer-Internship---Early-Careers--Software-Engineering-_R-574285) |
-| WEX | Backend Software Engineer Intern - C#/Java & AI Workflows - Undergraduate 🆕 | Remote - USA | — | 87% (1 skills) | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Backend-Software-Engineer-Intern---C--Java---AI-Workflows--Undergraduate-_R22586) |
-| WEX | Backend Software Engineer Intern - Java & AI - Master’s 🆕 | Remote - USA | — | 87% (1 skills) | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Backend-Software-Engineer-Intern---Java---AI--Master-s-_R22547) |
-| Acron Aviation | Software Engineer Intern - Phoenix Site 🆕 | Phoenix, AZ | — | 85% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://jobs.lever.co/acronaviation/34cf5ad0-840a-4c1b-8231-02a433d0479e) |
-| WEX | Backend Software Engineer Intern - C# - Cloud Security & AI - Undergraduate 🆕 | Remote - USA | — | 85% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Backend-Software-Engineer-Intern---C---Cloud-Security---AI--Undergraduate-_R22589) |
-| WEX | DevOps & Backend Software Engineer Intern - Undergraduate 🆕 | Remote - USA | — | 85% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/DevOps---Backend-Software-Engineer-Intern--Undergraduate-_R22584) |
-| WEX | Software Engineer Intern - AI & Cloud - Graduate/Master’s 🆕 | Remote - USA | — | 85% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Software-Engineer-Intern---AI---Cloud--Graduate-Master-s-_R22546) |
-| Base Power Company | Software Engineering Intern 🆕 | Austin, TX | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc) |
-| Base Power Company | Firmware Engineering Intern 🆕 | Austin, TX | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/base-power/a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7) |
-| CNA Insurance | Technology Internship Program - Software Engineering 🆕 | Chicago, IL | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://cna.wd1.myworkdayjobs.com/en-US/cna_careers/job/Chicago-IL-USA/Technology-Internship-Program--Software-Engineering-_R-8107) |
-| CRC Group | Internship - Software Engineering 🆕 | Dallas, TX | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://tihinsurance.wd1.myworkdayjobs.com/en-US/crc_careers/job/Dallas-TX---12377-Merit-Dr/Internship---Software-Engineering_R0000003172) |
-| Enact | Software Engineering Intern 🆕 | Raleigh, NC | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://gnw.wd1.myworkdayjobs.com/en-US/enact_mi/job/Raleigh-North-Carolina/Software-Engineering-Intern_REQ-260367) |
-| EquipmentShare | Intern: Software Engineer 🆕 | Columbia, MO | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://www.equipmentshare.com/careers/openings/?gh_jid=8188474) |
-| EquipmentShare | Intern: Software Engineer 🆕 | Columbia, MO | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://www.equipmentshare.com/careers/openings/?gh_jid=8188926) |
-| EquipmentShare | Intern: Software Engineer 🆕 | Columbia, MO | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://www.equipmentshare.com/careers/openings/?gh_jid=8188802) |
-| Genworth | Software Engineering Intern 🆕 | Raleigh, NC | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://gnw.wd1.myworkdayjobs.com/en-US/gnw/job/Raleigh-North-Carolina/Software-Engineering-Intern_REQ-260367-1) |
-| Labcorp | Intern - Software Developer 🆕 | Durham, NC | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://labcorp.wd1.myworkdayjobs.com/en-US/external/job/Durham-NC/Intern---Software-Developer_2632330) |
-| Mastercard | Software Engineer I 🆕 | O'Fallon, MO | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://mastercard.wd1.myworkdayjobs.com/en-US/corporatecareers/job/OFallon-Missouri/Software-Development-Engineer_R-284431) |
-| Micron Technology | Intern - IT Software Engineer 🆕 | Boise, ID | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR111582) |
 
-_…and 862 more (raise the cap in src/scraper/board.ts)._
-## 🛠️ Internships (1141)
+_…and 884 more (raise the cap in src/scraper/board.ts)._
+## 🛠️ Internships (1161)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| AMD | AI Model Optimization & Software Engineer Intern/Co-op 🆕 | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/92522?icims=1) |
+| AMD | AI Model Optimization & Software Engineer Intern/Co-op 🆕 | Austin, TX | Winter 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/92526?icims=1) |
+| Itron | Firmware Engineer Intern 🆕 | West Union, SC | Winter 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://itron.wd5.myworkdayjobs.com/Early_Careers/job/United-States-of-America-South-Carolina-West-Union/Intern----Firmware-Engineer--Spring-2027-_JR102920) |
+| Nanopath | Software Development Co-op 🆕 | Cambridge, MA | Winter 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/nanopathinc/jobs/4732881005) |
+| RTX | Software Engineer Co-op - Winter/Spring 2027 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Winter-Spring-2027-_01875464) |
+| Waymo | Quantitative Software Engineer Intern 🆕 | SF; Mountain View, CA | Summer 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8197554) |
 | Tesla | Electronic Design Engineer Intern - Electronic Systems 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-08-10 | 2026-09-16 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279760) |
 | Acxiom | Data Engineer Intern 🆕 | Conway, AR | Winter 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482) |
 | Altice USA | Data Engineer Intern 🆕 | Long Island City, Queens, NY | Fall 2026 | 100% | 2026-07-31 | 2026-09-16 | [**Apply ➜**](https://www.optimumcareers.com/job/Long-Island-City-Intern-Data-Engineer-NY-11101/1414286700/?ats=successfactors) |
@@ -488,12 +494,14 @@ _…and 862 more (raise the cap in src/scraper/board.ts)._
 | MyJunior AI | Software Engineering Intern — Fall 2026 | New York City, NY | Fall 2026 | 100% | 2026-06-30 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/junior/23ee686b-d305-4ac9-860d-16c99ddb4891) |
 | Rivian and Volkswagen Group Technologies | Software Engineering Intern - Vehicle Controls | Irvine, CA; Palo Alto, CA | Fall 2026 | 100% | 2026-06-04 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55) |
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 | Peachtree Corners, GA | Fall 2026 | 100% | 2026-06-16 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
+| Vital Lyfe | Software Engineering Internship - Fall 2026 | Los Angeles, CA | Fall 2026 | 100% | 2026-07-09 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af) |
 | Atlassian | Software Engineer Intern, 2027 Summer U.S. | San Francisco - United States -   San Francisco, California 94104 United States; Seattle - United States -   Seattle, Washington  United States | 2027 | 98% (5 skills) | 2026-08-17 | 2026-09-01 | [**Apply ➜**](https://www.atlassian.com/company/careers/details/26266) |
 | creatify | Software Engineer Intern 2026 | Mountain View | 2026 | 98% (5 skills) | 2026-03-18 | 2026-08-30 | [**Apply ➜**](https://jobs.ashbyhq.com/creatify/75a1f1ad-13d2-4513-952c-71b6dfcaa84f) |
 | Verkada | Backend Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 96% (4 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5210813007) |
 | Verkada | Security Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 96% (4 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5213881007) |
 | Databricks | Software Engineering Intern (2027 Start) - Winter | Bellevue, Washington; Mountain View, California; San Francisco, California | 2027 | 96% (4 skills) | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002) |
 | Anduril | 2027 Software Engineer Intern | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 | 96% (4 skills) | 2026-06-10 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
+| Intel | Operations Research Engineering Analytics Intern 🆕 | Phoenix, AZ | Winter 2026 | 95% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Operations-Research--Engineering-Analytics-Graduate-Intern_JR0286502) |
 | Acron Aviation | Software Engineer Intern 🆕 | Phoenix, AZ | Summer 2026 | 95% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://jobs.lever.co/acronaviation/34cf5ad0-840a-4c1b-8231-02a433d0479e/apply) |
 | Cotiviti | AI Engineer Intern 🆕 | Remote in USA | Summer 2026 | 95% | 2026-07-09 | 2026-09-16 | [**Apply ➜**](https://careers-cotiviti.icims.com/jobs/19531/job?mobile=true&needsRedirect=false) |
 | General Dynamics Mission Systems | Systems Engineer Intern 🆕 | Scottsdale, AZ | Winter 2026 | 95% | 2026-09-10 | 2026-09-16 | [**Apply ➜**](https://careers-gdms.icims.com/jobs/74773/job?mobile=true&needsRedirect=false) |
@@ -506,17 +514,9 @@ _…and 862 more (raise the cap in src/scraper/board.ts)._
 | Verkada | Frontend Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 95% (3 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5210942007) |
 | Waymo | 2027 Summer Intern, MS/PhD, Software Engineer 🆕 | Mountain View, California, USA | 2027 | 93% (2 skills) | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8202801) |
 | Anduril | 2027 Flight Software Engineer Intern | Costa Mesa, California, United States | 2027 | 93% (2 skills) | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5239083007?gh_jid=5239083007) |
-| Waymo | 2027 Summer Intern, MS, Software Engineering, Behavior Test | San Francisco, California, USA | 2027 | 93% (2 skills) | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8174504) |
-| Calpion/Plutus Health | AI Engineering Intern - Python & Agentic AI 🆕 | Dallas, TX | Summer 2026 | 92% (1 skills) | 2026-08-13 | 2026-09-16 | [**Apply ➜**](https://calpionplutus.bamboohr.com/careers/310/) |
-| Interco | Software Development Intern - React 🆕 | St. Louis, MO | Winter 2026 | 92% (1 skills) | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://jobs.smartrecruiters.com/Interco/744000149591449) |
-| Verkada | Embedded Software Engineering Intern 2027 🆕 | San Mateo, CA United States | 2027 | 92% (1 skills) | 2026-08-25 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5211595007) |
-| Zscaler | Site Reliability Engineer-SkillBridge Intern 🆕 | Remote - USA | — | 91% (4 skills) | 2026-02-06 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/zscaler/jobs/5045817007) |
-| Adobe | 2027 Intern - Software Engineer 🆕 | 7 Locations | 2027 | 90% | 2026-09-03 | 2026-09-16 | [**Apply ➜**](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666) |
-| Adobe | 2027 Intern - Machine Learning Engineer 🆕 | 6 Locations | 2027 | 90% | 2026-08-31 | 2026-09-16 | [**Apply ➜**](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519) |
-| Google | Software Engineer Intern 🆕 | Palo Alto, CA; Cambridge, MA; Madison, WI; Seattle, WA; Washington, DC; SF; Austin, TX; LA; San Jose, CA; Irvine, CA; South SF; Redwood City, CA; Raleigh, NC; San Bruno, CA; Redmond, WA; Durham, NC; Santa Cruz, CA; Chicago, IL; Goleta, CA; Pittsburgh, PA; Kirkland, WA; Reston, VA; NYC; Bellevue, WA; Sunnyvale, CA; Mountain View, CA; Portland, OR; Boulder, CO; Atlanta, GA; San Diego, CA | Summer 2026 | 90% | 2026-08-24 | 2026-09-16 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/91436104816698054) |
 
-_…and 741 more (raise the cap in src/scraper/board.ts)._
-## 🎓 New Grad (546)
+_…and 761 more (raise the cap in src/scraper/board.ts)._
+## 🎓 New Grad (548)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -534,7 +534,7 @@ _…and 741 more (raise the cap in src/scraper/board.ts)._
 | Replit | Software Engineer - New Grad (2027) | Foster City, CA | 2027 New Grad | 100% (5 skills) | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc) |
 | Arch | Software Engineer - Early Careers - 2027 Start | New York City, NY | 2027 New Grad | 100% | 2026-09-02 | 2026-09-03 | [**Apply ➜**](https://jobs.ashbyhq.com/arch.co/9fde8d03-9f47-44ac-bd14-53829722c06d) |
 | Anduril | 2027 Early Career Flight Software Engineer | Costa Mesa, California, United States | 2027 New Grad | 100% (2 skills) | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5228868007?gh_jid=5228868007) |
-| Applied Intuition | Cybersecurity Software Engineer - New Grad (December 2027) | Sunnyvale | 2027 New Grad | 100% (2 skills) | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e) |
+| Applied Intuition | Cybersecurity Software Engineer - New Grad - December 2027 | Sunnyvale, CA | 2027 New Grad | 100% | 2026-09-02 | 2026-09-02 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e) |
 | Blue Origin | Software Development Engineer I - Early Career - 2027 Starts | Seattle, WA +4 | 2027 New Grad | 100% | 2026-08-31 | 2026-09-01 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/Software-Development-Engineer-I---Early-Career--2027-Starts-_R71326) |
 | Sierra | Software Engineer, Agent (New Grad 2027) | San Francisco, CA; New York, NY | 2027 New Grad | 100% (2 skills) | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://jobs.ashbyhq.com/Sierra/149f368c-52d5-408f-ba26-ad888f318a00) |
 | Zip | Software Engineer - New Grad - 2027 Start | San Francisco, CA | 2027 New Grad | 100% | 2026-08-25 | 2026-08-26 | [**Apply ➜**](https://jobs.ashbyhq.com/zip/df6eb1ee-b360-46fe-b23f-658626ec59ea) |
@@ -548,8 +548,8 @@ _…and 741 more (raise the cap in src/scraper/board.ts)._
 | Affirm | Software Engineer I, Frontend (Upfunnel) 🆕 | Remote Canada | — | 90% (3 skills) | 2026-09-11 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7985907003) |
 | Affirm | Software Engineer I, Backend (Collections) 🆕 | Remote Spain | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807506003) |
 | Affirm | Software Engineer I, Backend (Collections) 🆕 | Remote Poland | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807508003) |
-| Affirm | Software Engineer I, Fullstack (Servicing International) 🆕 | Remote Spain | — | 88% (2 skills) | 2026-08-05 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7809763003) |
 | Affirm | Software Engineer I, Fullstack (Servicing International) 🆕 | Remote Poland | — | 88% (2 skills) | 2026-08-05 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7809761003) |
+| Affirm | Software Engineer I, Fullstack (Servicing International) 🆕 | Remote Spain | — | 88% (2 skills) | 2026-08-05 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7809763003) |
 | DoorDash | Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US | Los Angeles, CA; New York, NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA | — | 88% (5 skills) | 2026-09-04 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8163709) |
 | Notion | Software Engineer, Early Career (AI) | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
 | Notion | Software Engineer, Early Career | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
@@ -597,8 +597,8 @@ _…and 741 more (raise the cap in src/scraper/board.ts)._
 | Walgreens | Software Engineer 1 - Java 🆕 | Deerfield, IL | — | 82% (1 skills) | 2026-08-03 | 2026-09-16 | [**Apply ➜**](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=26336&siteid=5014&PageType=JobDetails&jobid=1855141) |
 | MBDA | Weapon Systems Algorithms Engineer New Grad | Bristol, UK; Stevenage, UK | — | 82% (1 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://mbda.wd3.myworkdayjobs.com/MBDA-UK/job/Bristol/Weapon-Systems-Algorithms-Engineer---Graduate-Programme-2027_R37707) |
 | Okta | Developer Support Associate (New Grad) | Chicago, Illinois | — | 82% (1 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://www.okta.com/company/careers/opportunity/8191506?gh_jid=8191506) |
-| SpaceX | New Graduate Engineer, Security Software (Starshield) | Hawthorne, CA | — | 82% (1 skills) | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002) |
 | SpaceX | New Graduate Engineer, Security Software (Starshield) | Washington, DC | — | 82% (1 skills) | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002) |
+| SpaceX | New Graduate Engineer, Security Software (Starshield) | Hawthorne, CA | — | 82% (1 skills) | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002) |
 | Applied Intuition | Electrical System Integration Engineer - New Grad | Sunnyvale | — | 82% (1 skills) | 2026-09-09 | 2026-09-09 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/6b9a508b-359f-43c1-aa83-cabf55c3e03e) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Hawthorne, CA | — | 82% (1 skills) | 2026-08-19 | 2026-08-24 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002) |
 | aquaticcapitalmanagement | Software Engineer, Early Career | Chicago; New York | — | 82% (1 skills) | 2026-04-01 | 2026-08-23 | [**Apply ➜**](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002) |
@@ -607,8 +607,10 @@ _…and 741 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
+| General Motors | Software Engineer - Early Careers 🆕 | Seattle, WA; Austin, TX; Warren, MI | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Austin-Texas-United-States-of-America/Software-Engineer--Data-Software-Engineering-and-Cloud-Platforms--Early-Careers_JR-202620418) |
+| Headlands Tech Holdings | C++ Software Developer New Grad 🆕 | Chicago, IL | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4336806009) |
 | Abridge | Junior Software Engineer 🆕 | SF Office | — | 80% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/Abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace) |
 | ActioNet | Junior Developer-Req#4505 🆕 | Rosslyn, VA | — | 80% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://jobs.jobvite.com/actionet-review/job/ofYQzfwm) |
 | ActioNet | Junior Developer-Req#4505 🆕 | Rosslyn, VA | — | 80% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://jobs.jobvite.com/actionet/job/ofYQzfwm) |
@@ -637,8 +639,8 @@ _…and 741 more (raise the cap in src/scraper/board.ts)._
 | American Express | AI Engineer 1 - Enterprise Technology Services 🆕 | NYC | — | 80% | 2026-09-02 | 2026-09-16 | [**Apply ➜**](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012982) |
 | American Express | Software Engineer 1 - Enterprise Technology Services 🆕 | Charlotte, NC | — | 80% | 2026-09-02 | 2026-09-16 | [**Apply ➜**](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012869) |
 | American Express | AI Engineer 1 - Enterprise Technology Services 🆕 | Sunrise, FL | — | 80% | 2026-09-02 | 2026-09-16 | [**Apply ➜**](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012988) |
-| Amerisure | Software Engineer 1 🆕 | Southfield, MI | — | 80% | 2026-07-30 | 2026-09-16 | [**Apply ➜**](https://osv-amerisure.wd5.myworkdayjobs.com/Amerisure/job/Farmington-Hills-MI/Software-Engineer-I_JR-002063) |
 | Amerisure | Software Engineer I 🆕 | Farmington Hills, MI | — | 80% | 2026-07-30 | 2026-09-16 | [**Apply ➜**](https://osv-amerisure.wd5.myworkdayjobs.com/en-US/amerisure/job/Farmington-Hills-MI/Software-Engineer-I_JR-002063) |
+| Amerisure | Software Engineer 1 🆕 | Southfield, MI | — | 80% | 2026-07-30 | 2026-09-16 | [**Apply ➜**](https://osv-amerisure.wd5.myworkdayjobs.com/Amerisure/job/Farmington-Hills-MI/Software-Engineer-I_JR-002063) |
 | Anatomage | 3D Software Junior Developer 🆕 | Santa Clara, CA | — | 80% | 2026-08-27 | 2026-09-16 | [**Apply ➜**](https://apply.workable.com/anatomage/j/9E0E93FEFF/) |
 | Antares | Reactor Software Engineer I-II 🆕 | Los Angeles, CA | — | 80% | 2026-07-17 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/antares/78234003-fa70-41ab-b3c8-a2e703687f42) |
 | Applied Materials | Global Software Support Engineer I 🆕 | Austin, TX | — | 80% | 2026-08-18 | 2026-09-16 | [**Apply ➜**](https://amat.wd1.myworkdayjobs.com/en-US/external/job/AustinTX/Global-Software-Support-Engineer-I_R2625245) |
@@ -794,8 +796,8 @@ _…and 741 more (raise the cap in src/scraper/board.ts)._
 | Sierra Nevada Corporation | Software Engineer I 🆕 | Lone Tree, CO +2 | — | 80% | 2026-08-27 | 2026-09-16 | [**Apply ➜**](https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Lone-Tree-CO/Software-Engineer-I_R0030526) |
 | Silicon Laboratories | Software Engineer 1 - RAIL team 🆕 | Austin, TX | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/Austin/Software-Engineer-I_21011-1) |
 | Silicon Labs | Software Engineer I 🆕 | Austin, TX | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://silabs.wd1.myworkdayjobs.com/en-US/siliconlabscareers/job/Austin/Software-Engineer-I_21011-1) |
-| SimpliSafe | Software Engineer I 🆕 | Boston, MA | — | 80% | 2026-07-07 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/simplisafe/jobs/8049515) |
 | SimpliSafe | Software Engineer I- User Systems 🆕 | Boston, MA | — | 80% | 2026-08-03 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/simplisafe/jobs/8095181) |
+| SimpliSafe | Software Engineer I - Device Control 🆕 | Boston, MA | — | 80% | 2026-07-07 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/simplisafe/jobs/8049515) |
 | Smarter Agent | Junior Data Engineer - Multiple Teams 🆕 | Collingswood, NJ | — | 80% | 2026-08-18 | 2026-09-16 | [**Apply ➜**](https://jobs.smartrecruiters.com/SmarterAgent/743999706496509) |
 | SMX | Junior Software Engineer - 5510 🆕 | Huntsville, AL | — | 80% | 2026-08-07 | 2026-09-16 | [**Apply ➜**](https://www.smxtech.com/careers/?gh_jid=7832667003) |
 | SOCOTEC Global | Junior Software Engineer 🆕 | NYC | — | 80% | 2026-08-03 | 2026-09-16 | [**Apply ➜**](https://jobs.smartrecruiters.com/Socotec/744000141326319) |
@@ -918,16 +920,16 @@ _…and 741 more (raise the cap in src/scraper/board.ts)._
 | LPL Financial Holdings | Software Engineering New Grad | Austin, TX; Fort Mill, SC; Charlotte, NC | — | 80% | 2026-08-10 | 2026-08-10 | [**Apply ➜**](https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/New-Grad-2027---Software-Engineering_R-052475) |
 | Google | Software Engineer - Early Career - Campus | Mountain View, CA +9 | — | 80% | 2026-08-07 | 2026-08-10 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/78703249065943750) |
 | Hudson River Trading | Algorithm Developer New Grad - Quant Researcher | NYC | — | 80% | 2026-07-13 | 2026-08-09 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052050) |
-| Freeform | Software Engineer New Grad | LA | — | 80% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7826634003) |
-| ByteDance | Large Language Model Inference System Engineer New Grad - Applied Machine Learning | San Jose, CA | — | 80% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7667726338627356933/detail) |
 
-_…and 146 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (69)
+_…and 148 more (raise the cap in src/scraper/board.ts)._
+## 🚪 Recently closed (last 7 days) (71)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| HP | Software Internship Roles - HP Solutions (HPS) | — | 2026-09-16 |
+| NVIDIA | AI Developer Technology Intern, Robotics - 2027 | 2027 | 2026-09-16 |
 | Nidec | Software Development Engineer 1 | — | 2026-09-16 |
 | Gulfstream | Software Engineer Intern - Innovation, Engineering and Flight | Spring 2027 | 2026-09-16 |
 | L3Harris Technologies | Integration and Test Engineering Intern - Test Engineering Support | Winter 2026 | 2026-09-16 |
