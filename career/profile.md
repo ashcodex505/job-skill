@@ -68,3 +68,10 @@ career interests, not claims of security or clinical expertise.
 - Built full-stack applications using React, Next.js, and Node.js
 - Comfortable working across backend, frontend, databases, and infrastructure coursework and projects
 - Hands-on experience using and maintaining the career-ops job-search pipeline
+
+## Degree and role exclusions
+
+I am open to master's-eligible roles, including postings accepting either
+master's or PhD candidates. Skip PhD-only/doctoral-only opportunities and any
+job with **hardware** in its title. A PhD preference alone does not exclude a
+role. These rules also apply to internships and FDE opportunities.

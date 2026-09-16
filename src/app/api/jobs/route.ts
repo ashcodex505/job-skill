@@ -1,6 +1,7 @@
 import { desc } from "drizzle-orm";
 import { db, tables } from "@/db";
 import { handler, ok, parseTags } from "@/lib/api";
+import { roleRestriction } from "@/scraper/role-restrictions";
 
 export const GET = handler(async () => {
   const [jobs, lastRun] = await Promise.all([
@@ -16,7 +17,7 @@ export const GET = handler(async () => {
     // Descriptions are up to 10k chars × thousands of jobs (a >10 MB payload
     // the dashboard polls every 5 min) — send a flag; fetch text on demand
     // via /api/jobs/[id]/description.
-    jobs: jobs.map(({ description, ...j }) => ({
+    jobs: jobs.filter((job) => !roleRestriction(job.title, job.description)).map(({ description, ...j }) => ({
       ...j,
       hasDescription: Boolean(description),
       matchedSkills: parseTags(j.matchedSkills),

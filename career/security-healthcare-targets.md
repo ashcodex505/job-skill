@@ -133,3 +133,10 @@ existing big-tech alert stream; no extra urgent watches are added.
 For future additions, apply the same evidence threshold and verify an actual
 collection route before editing the allowlist. Category prose does not cause
 the Actions bot to research or discover additional companies on its own.
+
+## Degree and role exclusions
+
+I am open to master's-eligible roles, including postings accepting either
+master's or PhD candidates. Skip PhD-only/doctoral-only opportunities and any
+job with **hardware** in its title. A PhD preference alone does not exclude a
+role. These rules also apply to internships and FDE opportunities.

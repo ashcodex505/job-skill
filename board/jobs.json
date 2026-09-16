@@ -1903,50 +1903,6 @@
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
-   "dedupeKey": "workday:R171666",
-   "source": "workday",
-   "company": "Adobe",
-   "title": "2027 Intern - Software Engineer",
-   "location": "7 Locations",
-   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-03",
-   "firstSeenAt": "2026-09-03T16:22:11.704Z"
-  },
-  {
-   "dedupeKey": "workday:R171519",
-   "source": "workday",
-   "company": "Adobe",
-   "title": "2027 Intern - Machine Learning Engineer",
-   "location": "6 Locations",
-   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-31",
-   "firstSeenAt": "2026-08-31T23:48:00.919Z"
-  },
-  {
    "dedupeKey": "workday:JR2017522",
    "source": "workday",
    "company": "NVIDIA",
@@ -4067,30 +4023,6 @@
    "firstSeenAt": "2026-09-03T21:52:24.180Z"
   },
   {
-   "dedupeKey": "greenhouse:7488508",
-   "source": "greenhouse",
-   "company": "Waymo",
-   "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
-   "location": "Mountain View, CA USA;  San Francisco, CA USA;",
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2025-12-22T18:35:42-05:00",
-   "firstSeenAt": "2026-07-26T08:59:26.070Z"
-  },
-  {
    "dedupeKey": "greenhouse:6183293004",
    "source": "greenhouse",
    "company": "Epic Games",
@@ -4606,28 +4538,6 @@
    },
    "postedAt": "2026-08-27",
    "firstSeenAt": "2026-08-29T02:08:10.248Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:f873e14fa4b1d4266f661f8ef2d6915ddecbe266",
-   "source": "speedyapply",
-   "company": "Google",
-   "title": "Software Engineering Intern - PhD - Summer 2027",
-   "location": "Mountain View, CA +29",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/91436104816698054",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-24",
-   "firstSeenAt": "2026-08-25T13:07:49.330Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:75df162887eaa2a1e91a24e11314c9effd95d62b",
@@ -5376,28 +5286,6 @@
    },
    "postedAt": "2026-07-31",
    "firstSeenAt": "2026-08-04T07:59:11.829Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:c63f8f923ceccc70139563ae8671fa8ca1952a10",
-   "source": "speedyapply",
-   "company": "TikTok",
-   "title": "Software Engineer Intern - ML Infra - 2027 Start - PhD",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7668696895234197813",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-31",
-   "firstSeenAt": "2026-08-03T08:51:10.281Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:b35765c43c59bb534104cc34b4c084c8055e8599",
@@ -28387,12 +28275,12 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "simplifyjobs:3ee0c355-bfb2-4580-a632-b2cd47e53858",
+   "dedupeKey": "simplifyjobs:3ad0c282-1052-46d1-8033-6d723edf25a5",
    "source": "simplifyjobs",
-   "company": "Tesla",
-   "title": "Electronic Design Engineer Intern - Electronic Systems",
-   "location": "Palo Alto, CA",
-   "url": "https://www.tesla.com/careers/search/job/279760",
+   "company": "Atoms",
+   "title": "Machine Learning PhD Software Engineer Intern",
+   "location": "Seattle, WA; LA; NYC; Mountain View, CA",
+   "url": "https://job-boards.greenhouse.io/cssmerge/jobs/8693034002",
    "season": "Winter 2027",
    "roleType": "internship",
    "score": 100,
@@ -28405,7 +28293,7 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-08-10T22:16:49.000Z",
+   "postedAt": "2026-08-10T22:16:42.000Z",
    "firstSeenAt": "2026-08-10T23:10:13.450Z"
   },
   {
@@ -29464,28 +29352,6 @@
     "skills": 0
    },
    "postedAt": "2026-08-20T09:17:19.000Z",
-   "firstSeenAt": "2026-08-20T09:46:19.524Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:79ddabd2-cd14-4fd6-8aec-f82858b2190e",
-   "source": "simplifyjobs",
-   "company": "TikTok",
-   "title": "Machine Learning Engineer Intern - E-Commerce Supply Chain & Logistics-LLM/Agent - PhD",
-   "location": "Seattle, WA",
-   "url": "https://lifeattiktok.com/search/7675845333947812149",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-20T09:17:24.000Z",
    "firstSeenAt": "2026-08-20T09:46:19.524Z"
   },
   {

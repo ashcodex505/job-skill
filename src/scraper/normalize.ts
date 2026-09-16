@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import { roleRestriction } from "./role-restrictions";
 import { skillMatch, stripHtml, type CareerConfig } from "@/lib/career/config";
 import { classifyTitle, isUsRemoteOrHybridLocation, type Classification, type ScoreBreakdown } from "./classify";
 
@@ -65,6 +66,8 @@ export interface NormalizedJob extends Omit<RawJob, "description"> {
 }
 
 export type NormalizationRejectionReason =
+  | "hardware_role"
+  | "phd_only"
   | "empty_title"
   | "irrelevant_title"
   | "non_us_location"
@@ -224,6 +227,8 @@ export function normalizeJob(raw: RawJob, config?: CareerConfig, ref: Date = new
 export function explainNormalization(raw: RawJob, config?: CareerConfig, ref: Date = new Date()): NormalizationExplanation {
   const title = raw.title.trim().replace(/\s+/g, " ");
   if (!title) return { job: null, reason: "empty_title", classification: null };
+  const restriction = roleRestriction(title, raw.description);
+  if (restriction) return { job: null, reason: restriction, classification: null };
   // browser-sourced jobs (source: "browser") have no structured location
   // field — the generic DOM extractor glues it into the title text instead
   // ("Software Engineer Intern United States, Washington, Redmond") — so

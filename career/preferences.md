@@ -96,7 +96,6 @@ rules in this file apply, so an approved company may have zero eligible roles.
 - Applications Engineer
 - Firmware Engineer
 - Embedded Engineer
-- Hardware Engineer
 
 ## Seasons
 
@@ -321,6 +320,18 @@ new-grad, season, or Summer 2027 company rules.
 - Engineer 1
 - Junior
 
+## Degree eligibility and hardware exclusions
+
+Accept roles open to master's students/graduates, including combined
+Master's / PhD, MS / PhD, and MSc / PhD opportunities. Exclude PhD-only or
+doctoral-only roles. A PhD preference alone is not a PhD-only requirement.
+The scraper checks titles and available descriptions; when a source supplies
+no description, it can only apply degree rules to the title.
+
+Exclude any role with the word **hardware** in its title, even if it accepts
+master's candidates or is otherwise an internship/new-grad match. Incidental
+hardware mentions in software job descriptions do not disqualify a role.
+
 ## Negative title keywords
 
 Exclude specializations and seniority signals that do not match the current
@@ -333,6 +344,7 @@ search. A negative keyword always wins over a positive match.
 - Manager
 - Mid-Level
 - Experienced Hire
+- Hardware
 - COBOL
 - Mainframe
 - Salesforce Admin

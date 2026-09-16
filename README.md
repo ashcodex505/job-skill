@@ -265,6 +265,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
+### 🚨 Watchlist alerts — apply now
+
+| Company | Role | Location | Season | Match | Posted | First seen | Apply |
+|---|---|---|---|---|---|---|---|
+| 🔴 Salesforce | Software Engineering AMTS (College Grad) | 6 Locations | — | 80% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250-1) |
+| 🔴 Quora | New Grad: Software Engineer | Remote | — | 85% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db) |
+
+![open roles](https://img.shields.io/badge/open%20roles-731-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-6-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
 ![open roles](https://img.shields.io/badge/open%20roles-1740-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-1006-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
 
 Updated **2026-09-16 19:19 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**

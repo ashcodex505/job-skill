@@ -1,4 +1,5 @@
 import type { ScoreBreakdown } from "./classify";
+import { acceptsMasters, roleRestriction } from "./role-restrictions";
 import { canonicalUrl, FEED_SOURCES } from "./normalize";
 import type { NormalizedJob } from "./normalize";
 
@@ -10,6 +11,8 @@ import type { NormalizedJob } from "./normalize";
  */
 
 export interface BoardJob {
+  /** Preserve a description-backed master's alternative across partial scans. */
+  acceptsMasters?: boolean;
   dedupeKey: string;
   source: string;
   company: string;
@@ -140,6 +143,7 @@ export function mergeBoard(
       roleType: j.roleType,
       score: j.score,
       matchedSkills: j.matchedSkills,
+      acceptsMasters: acceptsMasters(j.title, j.descriptionText),
       breakdown: j.breakdown,
       postedAt: resolvePostedAt(prev?.postedAt, j.postedAt, firstSeenAt),
       firstSeenAt,
@@ -172,7 +176,16 @@ export function mergeBoard(
     (c) => new Date(now).getTime() - new Date(c.closedAt).getTime() < CLOSED_RETENTION_MS,
   );
 
-  return { updatedAt: now, jobs, closed };
+  return filterRestrictedBoard({ updatedAt: now, jobs, closed });
+}
+
+/** Apply updated exclusions to carried-forward rows, including partial scans. */
+export function filterRestrictedBoard(board: BoardData): BoardData {
+  return {
+    ...board,
+    jobs: board.jobs.filter((job) => !roleRestriction(job.title, null, job.acceptsMasters)),
+    closed: board.closed?.filter((job) => !roleRestriction(job.title)),
+  };
 }
 
 /**
