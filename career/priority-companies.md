@@ -84,3 +84,19 @@ the committed copy of this file.
 - Sierra
 - Cognition
 - Physical Intelligence
+- Abnormal AI
+- Abridge
+- Aidoc
+- Ambience Healthcare
+- Chainguard
+- CrowdStrike
+- Hippocratic AI
+- Huntress
+- Oura
+- Owkin
+- Palo Alto Networks
+- PathAI
+- Semgrep
+- Throne Science
+- Vanta
+- Zscaler

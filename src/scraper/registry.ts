@@ -60,6 +60,7 @@ export interface CompanyPortal {
     | "workable"
     | "amazon"
     | "atlassian"
+    | "throne"
     | "eightfold"
     | "bamboohr"
     | "recruitee"
@@ -134,6 +135,25 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "GitLab", website: "https://gitlab.com", careersUrl: "https://about.gitlab.com/jobs", ats: "greenhouse", slug: "gitlab" },
   { name: "xAI", website: "https://x.ai", careersUrl: "https://x.ai/careers", ats: "greenhouse", slug: "xai" },
   { name: "Epic Games", website: "https://epicgames.com", careersUrl: "https://epicgames.com/careers", ats: "greenhouse", slug: "epicgames" },
+
+  // Security and healthcare targets: verified 2026-09-16. Research and
+  // exact public collection routes: career/security-healthcare-targets.md.
+  { name: "Abnormal AI", website: "https://abnormal.ai", careersUrl: "https://abnormal.ai/careers", ats: "greenhouse", slug: "abnormalsecurity" },
+  { name: "Chainguard", website: "https://www.chainguard.dev", careersUrl: "https://www.chainguard.dev/careers", ats: "greenhouse", slug: "chainguard" },
+  { name: "Huntress", website: "https://www.huntress.com", careersUrl: "https://www.huntress.com/company/careers", ats: "greenhouse", slug: "huntress" },
+  { name: "Aidoc", website: "https://www.aidoc.com", careersUrl: "https://www.aidoc.com/about/careers/", ats: "greenhouse", slug: "aidocmedical" },
+  { name: "Oura", website: "https://ouraring.com", careersUrl: "https://ouraring.com/careers", ats: "greenhouse", slug: "oura" },
+  { name: "PathAI", website: "https://www.pathai.com", careersUrl: "https://www.pathai.com/careers", ats: "greenhouse", slug: "pathai" },
+  { name: "Semgrep", website: "https://semgrep.dev", careersUrl: "https://semgrep.dev/about/careers/", ats: "ashby", slug: "semgrep" },
+  { name: "Abridge", website: "https://www.abridge.com", careersUrl: "https://www.abridge.com/careers", ats: "ashby", slug: "Abridge" },
+  { name: "Ambience Healthcare", website: "https://www.ambiencehealthcare.com", careersUrl: "https://www.ambiencehealthcare.com/careers", ats: "ashby", slug: "ambiencehealthcare" },
+  { name: "Hippocratic AI", website: "https://hippocraticai.com", careersUrl: "https://hippocraticai.com/careers/", ats: "ashby", slug: "Hippocratic%20AI" },
+  { name: "Owkin", website: "https://www.owkin.com", careersUrl: "https://www.owkin.com/careers", ats: "ashby", slug: "owkin" },
+  {
+    name: "CrowdStrike", website: "https://www.crowdstrike.com", careersUrl: "https://www.crowdstrike.com/en-us/careers/",
+    ats: "workday", workday: { tenant: "crowdstrike", host: "crowdstrike.wd5.myworkdayjobs.com", site: "crowdstrikecareers" },
+  },
+  { name: "Throne Science", website: "https://thronescience.com", careersUrl: "https://thronescience.com/pages/careers", ats: "throne" },
 
   // ── Lever ───────────────────────────────────────────────────────────
   { name: "Palantir", website: "https://palantir.com", careersUrl: "https://palantir.com/careers", ats: "lever", slug: "palantir" },

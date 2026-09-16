@@ -13,7 +13,7 @@ export interface CareerConfig {
   seasons: string[];
   /** Title phrases a full-time role must contain to count as new grad. */
   requiredNewGradTitleKeywords: string[];
-  /** Internship seasons that are allowed through the strict career filter. */
+  /** Allowed internship seasons; "Any" also permits unstated/rolling dates. */
   internshipSeasons: string[];
   /** Summer 2027 internship company allowlist; empty disables the company gate. */
   summer2027ApprovedCompanies: string[];

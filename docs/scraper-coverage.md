@@ -1,6 +1,8 @@
 # Scraper coverage audit
 
-Last audited: 2026-08-15
+Baseline audit: 2026-08-15
+
+Security/healthcare expansion verified: 2026-09-16
 
 Run `npm run scrape:coverage` for the current generated summary. The monthly
 registry check also writes this report to its GitHub Actions run summary; it
@@ -72,3 +74,25 @@ These sources must not be “supported” using guessed tenant names or HTML
 selectors that silently return incomplete results. They should move to direct
 coverage only after a reproducible public endpoint and pagination behavior are
 verified.
+
+## Security and healthcare expansion — 2026-09-16
+
+All 16 companies in the [target catalog](../career/security-healthcare-targets.md)
+have direct scheduled routes: Greenhouse, Ashby, Workday, or the dedicated
+Throne public-HTML adapter. The catalog records careers URLs, exact endpoints,
+raw posting counts, and research evidence. Palo Alto Networks, Vanta, and
+Zscaler reuse existing registry entries; the other 13 are newly registered.
+Throne is server-rendered and requires no local browser. Missing or incomplete
+job-card markup raises a source error rather than silently closing jobs.
+
+Cyera and Function Health are documented follow-up candidates, not enabled
+sources: Comeet and Gem need verified adapters, and Function's legacy Breezy
+board is empty despite current openings on Gem. Existing manual/browser
+coverage above is unchanged by this expansion.
+
+The current role policy also includes junior and Engineer I / 1 technical roles,
+including AI/ML and distributed systems. `Internship seasons: Any` accepts every
+season and unstated dates while retaining the Summer 2027 company restriction.
+Workday's targeted searches include entry-level, junior, and level-I terms so
+these roles can reach the eligibility filter. Counts in the research catalog
+reflect the earlier verification run and its narrower search terms.

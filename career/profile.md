@@ -12,24 +12,32 @@ hire.
 
 - Current level: student / early-career software engineer
 - Professional background: software engineering internships, projects, and coursework
-- Best-fit full-time roles: 2027 software engineering and forward deployed engineering positions explicitly labeled **New Grad**, **New Graduate**, **Early Career**, or **Early Careers**
-- Out of scope: general or experienced-hire SWE roles that expect two or more years of post-graduation industry experience
+- Best-fit full-time roles: 2027 new-grad technical engineering, including Software Engineer I / 1, AI/ML, distributed systems, infrastructure, platform, data, cloud, security, research, and other technical engineering positions
+- Accepted early-career signals: New Grad, New Graduate, Early Career, Entry Level, Junior, Engineer I / 1, Developer I / 1, SWE I / 1, or SDE I / 1
+- Out of scope: experienced-hire roles requiring post-graduation experience I do not have, and senior/staff/lead/manager roles
 
-An entry-level-sounding title is not enough by itself. Full-time results should
-carry one of the approved early-career labels so the role is genuinely intended
-for a graduating student.
+Review experience and degree requirements before applying; a level-I or junior
+title does not guarantee that a company accepts new graduates. My interests in
+AI, systems, security, and other technical areas are not claims of expertise.
 
 ## Search priorities
 
-1. **2027 new-grad software engineering:** only explicitly labeled new-grad or early-career roles.
-2. **Forward deployed engineering:** customer-facing engineering roles that combine software implementation, technical delivery, production integration, and close work with users, when explicitly labeled intern, new-grad, or early-career.
-3. **Fall 2026 internships:** software engineering internships aligned with my skills and background.
-4. **Summer 2027 internships:** highly selective technology opportunities at major technology companies, frontier AI labs, unicorns, or approved high-signal product startups.
+1. **2027 new-grad engineering:** software engineering and other technical engineering jobs suitable for a new graduate, including level-I and junior roles.
+2. **AI and distributed systems:** AI/ML, research engineering, backend, infrastructure, platform, cloud, data, security, and related technical roles at an appropriate experience level.
+3. **Forward Deployed Engineering (FDE):** explicitly open to customer-facing software/AI engineering, deployment, and production integration roles, including FDE internships/co-ops in any season and new-grad, entry-level, junior, or level-I FDE positions.
+4. **Internships and co-ops in any season:** Fall 2026, Winter 2027, Spring 2027, Summer 2027, next fall (Fall 2027), and rolling or unspecified dates, subject to enrollment and degree eligibility.
 
 For Summer 2027, prioritize companies with exceptional engineering depth,
 selectivity, product impact, technical scale, or high-growth potential. Ordinary
 corporate IT, consulting, staffing, and non-technology internships are not a
 fit for that season.
+
+Additional company priorities are software security and healthcare software/AI
+startups with credible growth potential and a culture of high agency and
+end-to-end ownership. Examples include CrowdStrike, Palo Alto Networks, and
+Throne Science; the curated list and careers links live in
+[security-healthcare-targets.md](security-healthcare-targets.md). These are
+career interests, not claims of security or clinical expertise.
 
 > Keep the Skills list synchronized with the wording on the current resume.
 > Posting descriptions are matched against these exact terms, so only include

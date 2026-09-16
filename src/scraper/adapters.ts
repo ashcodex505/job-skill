@@ -1,9 +1,10 @@
 import type { CompanyPortal } from "./registry";
 import type { RawJob } from "./normalize";
+import { parseThroneCareers, parseThroneDescription } from "./throne";
 
 /**
- * ATS adapters. Each hits an official public jobs API (no auth, no CAPTCHA,
- * no scraping of rendered HTML) and maps the response to RawJob[].
+ * ATS adapters use public jobs APIs. Throne and Shopify also read public,
+ * server-rendered careers HTML; none require browser execution or login.
  * All requests share one polite fetch with a timeout and an identifying UA.
  */
 
@@ -857,7 +858,11 @@ const WORKDAY_PAGE_SIZE = 20;
 // NEW_GRAD_KEYWORDS/INTERN_KEYWORDS already look for — catches postings
 // phrased "University Graduate", "Early Career", etc. that "new grad" alone
 // would miss, without paying for a whole-board pull.
-const WORKDAY_SEARCH_TERMS = ["intern", "co-op", "new grad", "college grad", "university graduate", "early career", "campus hire"];
+const WORKDAY_SEARCH_TERMS = [
+  "intern", "co-op", "new grad", "college grad", "university graduate", "early career", "campus hire",
+  "entry level", "junior", "engineer I", "engineer 1", "developer I", "developer 1",
+  "SWE I", "SWE 1", "SDE I", "SDE 1",
+];
 const WORKDAY_MAX_PAGES_PER_TERM = 10; // 200 postings/term — a targeted query rarely needs this many
 
 async function scrapeWorkday(portal: CompanyPortal): Promise<RawJob[]> {
@@ -1163,7 +1168,17 @@ export async function scrapeSpeedyApplyFeeds(now: Date = new Date()): Promise<Ra
   return jobs;
 }
 
+async function scrapeThrone(): Promise<RawJob[]> {
+  const jobs = parseThroneCareers(await fetchText("https://thronescience.com/pages/careers"));
+  for (const job of jobs) {
+    job.description = parseThroneDescription(await fetchText(job.url));
+    await sleep(150);
+  }
+  return jobs;
+}
+
 export const ADAPTERS: Record<string, (portal: CompanyPortal) => Promise<RawJob[]>> = {
+  throne: scrapeThrone,
   greenhouse: scrapeGreenhouse,
   lever: scrapeLever,
   ashby: scrapeAshby,

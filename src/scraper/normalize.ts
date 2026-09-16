@@ -15,6 +15,7 @@ export interface RawJob {
     | "workable"
     | "amazon"
     | "atlassian"
+    | "throne"
     | "eightfold"
     | "bamboohr"
     | "recruitee"
@@ -149,7 +150,8 @@ export function careerPolicyRejectionReason(
   const { roleType, season, breakdown } = classification;
 
   if (roleType === "internship" && config.internshipSeasons.length > 0) {
-    if (breakdown.role === 0 || !season) return "internship_missing_season_or_role";
+    const anySeason = config.internshipSeasons.some((target) => equalsIgnoreCase(target, "Any"));
+    if (breakdown.role === 0 || (!season && !anySeason)) return "internship_missing_season_or_role";
 
     // A bare cycle year ("2027" — Amazon's own title convention, no season
     // word) is under-specified but not "missing": accept it if the year
@@ -158,19 +160,19 @@ export function careerPolicyRejectionReason(
     // word is held to the exact-season match (and the Summer 2027 company
     // gate below) — this mirrors how a missing/generic year already isn't
     // held against new-grad titles.
-    const isBareYear = /^\d{4}$/.test(season);
-    if (isBareYear) {
+    const isBareYear = season !== null && /^\d{4}$/.test(season);
+    if (isBareYear && !anySeason) {
       const targetYears = config.internshipSeasons.map((target) => target.match(/\d{4}/)?.[0]).filter(Boolean);
       if (!targetYears.includes(season)) return "internship_season_not_allowed";
       return null;
     }
 
-    if (!config.internshipSeasons.some((target) => equalsIgnoreCase(target, season))) {
+    if (!anySeason && !config.internshipSeasons.some((target) => equalsIgnoreCase(target, season!))) {
       return "internship_season_not_allowed";
     }
 
     if (
-      equalsIgnoreCase(season, "Summer 2027") &&
+      season !== null && equalsIgnoreCase(season, "Summer 2027") &&
       config.summer2027ApprovedCompanies.length > 0 &&
       !isApprovedCompany(raw.company, config.summer2027ApprovedCompanies)
     ) {

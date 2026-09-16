@@ -55,6 +55,8 @@ const NEW_GRAD_KEYWORDS = [
   /entry[- ]level/i,
   /grad(uate)? (software|engineer|program)/i,
   /\bemerging talent\b/i,
+  /\bjunior\b/i,
+  /\b(?:engineer|developer|swe|sde)[ -]+(?:i|1)\b/i,
 ];
 
 /** Disqualifying unless the title is clearly intern/new-grad anyway. */

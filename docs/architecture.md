@@ -51,9 +51,9 @@ src/
     types.ts · status.ts · validation.ts · api.ts (route wrapper) · client.ts · claude.ts
   scraper/
     registry.ts  companies → ATS + slug (greenhouse/lever/ashby/workday/
-                 smartrecruiters/workable/amazon/eightfold/bamboohr/recruitee/
+                 smartrecruiters/workable/amazon/throne/eightfold/bamboohr/recruitee/
                  breezy/rippling/personio/pinpoint/jibeapply/oraclecloud/unsupported)
-    adapters.ts  one fetch adapter per ATS (16 types) + Amazon's own search API +
+    adapters.ts  ATS and first-party adapters (including Throne public HTML) +
                  SimplifyJobs, vanshb03, and speedyapply community feeds; shared
                  fetchJson/fetchText retry with exponential backoff + Retry-After
     discover.ts  reverse ATS discovery — rotating slice of a public ~28,000-company
@@ -65,6 +65,7 @@ src/
                  companies — LOCAL ONLY, same isolation as browser-scrape.ts
     scout-state.ts  pure read/write of board/scout-companies.json — the
                  only scout-related file board-cli.ts (and CI) may import
+    throne.ts    public careers HTML parsing, stable job IDs, layout-drift checks
     classify.ts  title regexes, dynamic season targets, score breakdown,
                  hard US/remote/hybrid location filter                  (pure)
     normalize.ts RawJob → NormalizedJob, canonical-URL dedupe + location

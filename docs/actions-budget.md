@@ -48,3 +48,12 @@ minutes, reduce the schedule to roughly 29 runs per day before the next cycle.
 The `$0` account-wide Actions product budget with **Stop usage when budget
 limit is reached** must remain enabled. This document and the workflow schedule
 are pacing controls; they are not billing enforcement.
+
+## Security and healthcare expansion
+
+The September 2026 [company expansion](../career/security-healthcare-targets.md)
+adds sources to the existing consolidated watcher, without adding schedules or
+jobs. Local source checks establish reachability, not GitHub billed duration.
+Recheck watch-run duration after deployment using the recalibration procedure
+above, since more approved companies and the expanded Workday junior/level-I
+search terms can increase the billed runtime.
