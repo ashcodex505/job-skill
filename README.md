@@ -265,28 +265,18 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-### 🚨 Watchlist alerts — apply now
+![open roles](https://img.shields.io/badge/open%20roles-1691-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-964-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
+
+Updated **2026-09-16 19:46 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| 🔴 Salesforce | Software Engineering AMTS (College Grad) | 6 Locations | — | 80% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250-1) |
-| 🔴 Quora | New Grad: Software Engineer | Remote | — | 85% | 2026-07-31 | 2026-08-02 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db) |
-
-![open roles](https://img.shields.io/badge/open%20roles-731-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-6-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
-![open roles](https://img.shields.io/badge/open%20roles-1740-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-1006-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
-
-Updated **2026-09-16 19:19 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
-
-| Company | Role | Location | Season | Match | Posted | First seen | Apply |
-|---|---|---|---|---|---|---|---|
+| Tesla | Electronic Design Engineer Intern - Electronic Systems 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-08-10 | 2026-09-16 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279760) |
 | Acxiom | Data Engineer Intern 🆕 | Conway, AR | Winter 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482) |
 | Altice USA | Data Engineer Intern 🆕 | Long Island City, Queens, NY | Fall 2026 | 100% | 2026-07-31 | 2026-09-16 | [**Apply ➜**](https://www.optimumcareers.com/job/Long-Island-City-Intern-Data-Engineer-NY-11101/1414286700/?ats=successfactors) |
-| AMD | Hardware Engineer Intern/Co-op - Hardware Engineering 🆕 | Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA | Winter 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/91182?icims=1) |
 | AMD | Firmware Engineer Intern/Co-op 🆕 | Secaucus, NJ; Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Massachusetts | Winter 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90801?icims=1) |
 | AMD | Firmware Engineering Intern Co-op - Undergrad 🆕 | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90807?icims=1) |
-| AMD | Hardware Engineering Intern/Co-op - Undergrad 🆕 | Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA | Spring 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/91173?icims=1) |
 | AMD | Firmware Engineer Co-op/Intern 🆕 | San Jose, CA; Santa Clara, CA | Spring 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90809?icims=1) |
-| AMD | Hardware Engineer Intern/Co-op 🆕 | San Jose, CA; Santa Clara, CA | Spring 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90894?icims=1) |
 | AMD | Firmware Engineer Intern/Co-op 🆕 | Secaucus, NJ; Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA | Spring 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90805?icims=1) |
 | Ampersand | Data Engineering Co-op - Open to Northeastern students only 🆕 | Boston, MA | Fall 2026 | 100% | 2026-08-20 | 2026-09-16 | [**Apply ➜**](https://ats.rippling.com/ampersand-biomedicines/jobs/be3f5479-379e-4d48-9bd1-82a69b2dcfd3) |
 | Apex | Software Engineer Intern - Embedded Systems 🆕 | LA | Spring 2027 | 100% | 2026-09-03 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/apex-technology-inc/4203604c-2330-4c89-8432-37af718a6bda/application?embed=true) |
@@ -299,4 +289,6 @@ Updated **2026-09-16 19:19 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | ByteDance | Software Engineer Intern - CIS Knowledge Bank 🆕 | San Jose, CA | Fall 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7675345626188335365/detail) |
 | CACI | Software Engineer Co-op - Summer & Fall 2027 🆕 | Danbury, CT | Fall 2027 | 100% | 2026-08-31 | 2026-09-16 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354) |
 | CACI | Embedded Software Engineer Co-op - Fall 2027 🆕 | Danbury, CT | Fall 2027 | 100% | 2026-09-01 | 2026-09-16 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Embedded-Software-Engineering-Co-Op---Fall-2027_331393) |
+| CACI | Embedded Software Engineer Co-op 🆕 | Danbury, CT | Spring 2027 | 100% | 2026-09-01 | 2026-09-16 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Embedded-Software-Engineering-Co-op---Spring-2027_331368) |
+| Copart | Data Engineer Intern 🆕 | Dallas, TX | Fall 2026 | 100% | 2026-08-19 | 2026-09-16 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Data-Engineering-Intern_JR110617) |
 <!-- JOB-BOARD:END -->
