@@ -252,16 +252,22 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-722-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-13-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--15-informational)
+![open roles](https://img.shields.io/badge/open%20roles-731-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-24-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
 
-Updated **2026-09-15 22:10 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-16 00:44 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Ambrook | Software Engineer Co-op 🆕 | NYC | Spring 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/ambrook/29ffbcea-17c3-4488-9d57-a9f7249b49a5/application?embed=true) |
+| Duolingo | Software Engineer Intern - Thrive 🆕 | Pittsburgh, PA | Summer 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806115002) |
+| Duolingo | Software Engineer Intern 🆕 | Seattle, WA; Pittsburgh, PA; NYC | Summer 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://careers.duolingo.com/jobs/8805925002?gh_jid=8805925002) |
+| Duolingo | Software Engineer Intern - Thrive 🆕 | Pittsburgh, PA | Summer 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://careers.duolingo.com/jobs/8806114002?gh_jid=8806114002) |
+| Duolingo | Software Engineer Intern 🆕 | Seattle, WA; Pittsburgh, PA; NYC | Summer 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806878002) |
+| Hometap | Full Stack Engineer Co-op 🆕 | Boston, MA | Spring 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/hometapjobs/jobs/4927882007) |
+| SSOE Group | Software Developer Co-op Intern - Fall 2026 🆕 | Toledo, OH | Fall 2026 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://careers-ssoe.icims.com/jobs/3812/job?mobile=true&needsRedirect=false) |
 | Anduril | Winter 2027 Software Engineer Co-op 🆕 | Quincy, Massachusetts, United States | Winter 2027 | 100% (4 skills) | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5236563007?gh_jid=5236563007) |
 | Anduril | Winter 2027 Systems Engineer Co-op 🆕 | Quincy, Massachusetts, United States | Winter 2027 | 100% | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5236599007?gh_jid=5236599007) |
 | A Thinking Ape | Software Development Engineer Co-op | Remote in Canada | Winter 2027 | 100% | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://job-boards.greenhouse.io/athinkingape/jobs/8203048) |
-| Microsoft | AI Software Engineer Intern | Redmond, WA; Mountain View, CA | Fall 2026 | 100% | 2026-08-19 | 2026-09-15 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556962891) |
 | DoorDash | Software Engineer, Intern (Summer 2027) - US | New York, NY; San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA | Summer 2027 | 100% (6 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8171041) |
 | DEKA Research & Development | Software Engineering Co-Op- Spring 2027 | Manchester, NH | Spring 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](http://deka.applytojob.com/apply/ulNhn2xOvG/Software-Engineering-CoOp-Spring-2027) |
 | Intuit | Software Engineer Intern - Full Stack | Charlotte, NC; NYC; Mountain View, CA; Atlanta, GA; San Diego, CA | Summer 2027 | 100% | 2026-08-29 | 2026-09-14 | [**Apply ➜**](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864) |
@@ -272,10 +278,4 @@ Updated **2026-09-15 22:10 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Tesla | Product Engineer Intern - Applications Engineering | Fremont, CA | Winter 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283298) |
 | Tesla | System Integration and Test Automation Engineer Intern - Energy Engineering | Palo Alto, CA | Winter 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283396) |
 | GSK | Web App Developer Co-op | Cambridge, MA | Winter 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://gsk-us-earlytalent.icims.com/jobs/11013/job?mobile=true&needsRedirect=false) |
-| Tive | Software Engineer Co-op | Boston, MA | Winter 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://ats.rippling.com/tive-careers/jobs/c88ab3d3-a8e7-4639-b95b-d6c9b5290dd0) |
-| C3 AI | Platform Full-Stack Engineer - New Grad 2027 | Redwood City, CA | 2027 New Grad | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://c3.ai/job-description/8801434002?gh_jid=8801434002) |
-| C3.ai | Forward Deployed Engineer New Grad - 2027 | Redwood City, CA | 2027 New Grad | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://c3.ai/job-description/8804558002?gh_jid=8804558002) |
-| Copart | Software Engineer Intern | Dallas, TX | Fall 2026 | 100% | 2026-07-15 | 2026-09-14 | [**Apply ➜**](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109673) |
-| Emerson Electric | Software Engineer Co-op | Eden Prairie, MN | Winter 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010048) |
-| Figma | Software Engineer Intern (Summer 2027) | San Francisco, CA • New York, NY | Summer 2027 | 100% (5 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://boards.greenhouse.io/figma/jobs/6143238004?gh_jid=6143238004) |
 <!-- JOB-BOARD:END -->

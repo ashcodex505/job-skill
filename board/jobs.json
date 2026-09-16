@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-15T22:10:14.832Z",
+ "updatedAt": "2026-09-16T00:44:09.137Z",
  "jobs": [
   {
    "dedupeKey": "atlassian:111:26266",
@@ -928,94 +928,6 @@
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
-   "dedupeKey": "workday:JR2017522",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "PhD Software Engineering Intern, Decision Intelligence - Fall 2026",
-   "location": "US, CA, Santa Clara",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-22",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "workday:JR2022295",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "Software Engineering Intern, Dynamo - Fall 2026",
-   "location": "US, CA, Santa Clara",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-05",
-   "firstSeenAt": "2026-08-05T18:43:33.968Z"
-  },
-  {
-   "dedupeKey": "workday:JR2022645",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "Software Engineering Intern, NCCL - 2026",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645",
-   "season": "2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-18",
-   "firstSeenAt": "2026-08-18T03:05:44.336Z"
-  },
-  {
-   "dedupeKey": "workday:JR2024002",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "AI Developer Technology Engineer Intern, AI - 2027",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-24",
-   "firstSeenAt": "2026-08-24T07:17:56.744Z"
-  },
-  {
    "dedupeKey": "workday:R171666",
    "source": "workday",
    "company": "Adobe",
@@ -1110,6 +1022,94 @@
    },
    "postedAt": "2026-09-08",
    "firstSeenAt": "2026-09-08T17:23:47.799Z"
+  },
+  {
+   "dedupeKey": "workday:JR2017522",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "PhD Software Engineering Intern, Decision Intelligence - Fall 2026",
+   "location": "US, CA, Santa Clara",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-05-22",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "workday:JR2022295",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern, Dynamo - Fall 2026",
+   "location": "US, CA, Santa Clara",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-05",
+   "firstSeenAt": "2026-08-05T18:43:33.968Z"
+  },
+  {
+   "dedupeKey": "workday:JR2022645",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern, NCCL - 2026",
+   "location": "2 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645",
+   "season": "2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18",
+   "firstSeenAt": "2026-08-18T03:05:44.336Z"
+  },
+  {
+   "dedupeKey": "workday:JR2024002",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "AI Developer Technology Engineer Intern, AI - 2027",
+   "location": "2 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-24",
+   "firstSeenAt": "2026-08-24T07:17:56.744Z"
   },
   {
    "dedupeKey": "greenhouse:8052083",
@@ -1240,33 +1240,6 @@
    "firstSeenAt": "2026-09-04T16:17:55.133Z"
   },
   {
-   "dedupeKey": "greenhouse:4730851005",
-   "source": "greenhouse",
-   "company": "Scale AI",
-   "title": "Software Engineer - New Grad",
-   "location": "Doha, Qatar",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 86,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "React",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-09-14T09:09:35-04:00",
-   "firstSeenAt": "2026-09-14T13:56:47.708Z"
-  },
-  {
    "dedupeKey": "greenhouse:4730836005",
    "source": "greenhouse",
    "company": "Scale AI",
@@ -1292,6 +1265,33 @@
    },
    "postedAt": "2026-09-04",
    "firstSeenAt": "2026-09-04T16:17:55.133Z"
+  },
+  {
+   "dedupeKey": "greenhouse:4730851005",
+   "source": "greenhouse",
+   "company": "Scale AI",
+   "title": "Software Engineer - New Grad",
+   "location": "Doha, Qatar",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 86,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "React",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-09-14T09:09:35-04:00",
+   "firstSeenAt": "2026-09-14T13:56:47.708Z"
   },
   {
    "dedupeKey": "greenhouse:5228868007",
@@ -1527,77 +1527,6 @@
    "firstSeenAt": "2026-08-05T16:49:59.297Z"
   },
   {
-   "dedupeKey": "ashby:a561fff8-aa38-4a5d-8b29-66c191f7328e",
-   "source": "ashby",
-   "company": "Applied Intuition",
-   "title": "Cybersecurity Software Engineer - New Grad (December 2027)",
-   "location": "Sunnyvale",
-   "url": "https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-09-02T18:46:50.291+00:00",
-   "firstSeenAt": "2026-09-02T18:55:37.622Z"
-  },
-  {
-   "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
-   "source": "ashby",
-   "company": "Applied Intuition",
-   "title": "Software Integration Engineer - New Grad (2027)",
-   "location": "Sunnyvale",
-   "url": "https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-14",
-   "firstSeenAt": "2026-08-14T22:34:43.994Z"
-  },
-  {
-   "dedupeKey": "ashby:6b9a508b-359f-43c1-aa83-cabf55c3e03e",
-   "source": "ashby",
-   "company": "Applied Intuition",
-   "title": "Electrical System Integration Engineer - New Grad",
-   "location": "Sunnyvale",
-   "url": "https://jobs.ashbyhq.com/applied/6b9a508b-359f-43c1-aa83-cabf55c3e03e",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-09-09T03:48:42.896+00:00",
-   "firstSeenAt": "2026-09-09T04:39:03.021Z"
-  },
-  {
    "dedupeKey": "greenhouse:5210813007",
    "source": "greenhouse",
    "company": "Verkada",
@@ -1700,49 +1629,17 @@
    "firstSeenAt": "2026-08-25T18:54:45.779Z"
   },
   {
-   "dedupeKey": "greenhouse:8163709",
-   "source": "greenhouse",
-   "company": "DoorDash",
-   "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US",
-   "location": "Los Angeles, CA; New York, NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA",
-   "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8163709",
-   "season": null,
+   "dedupeKey": "ashby:a561fff8-aa38-4a5d-8b29-66c191f7328e",
+   "source": "ashby",
+   "company": "Applied Intuition",
+   "title": "Cybersecurity Software Engineer - New Grad (December 2027)",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e",
+   "season": "2027 New Grad",
    "roleType": "new_grad",
-   "score": 78,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "SQL",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 8
-   },
-   "postedAt": "2026-09-04T06:21:45-04:00",
-   "firstSeenAt": "2026-09-14T23:06:27.482Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8171041",
-   "source": "greenhouse",
-   "company": "DoorDash",
-   "title": "Software Engineer, Intern (Summer 2027) - US",
-   "location": "New York, NY; San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA",
-   "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8171041",
-   "season": "Summer 2027",
-   "roleType": "internship",
    "score": 100,
    "matchedSkills": [
     "Python",
-    "Java",
-    "SQL",
-    "AWS",
-    "Data Structures",
     "Algorithms"
    ],
    "breakdown": {
@@ -1751,10 +1648,56 @@
     "season": 25,
     "location": 0,
     "keywords": 10,
-    "skills": 9
+    "skills": 3
    },
-   "postedAt": "2026-09-14T18:51:00-04:00",
-   "firstSeenAt": "2026-09-14T23:06:27.482Z"
+   "postedAt": "2026-09-02T18:46:50.291+00:00",
+   "firstSeenAt": "2026-09-02T18:55:37.622Z"
+  },
+  {
+   "dedupeKey": "ashby:250080bd-10a8-4e5f-82b8-506029292d19",
+   "source": "ashby",
+   "company": "Applied Intuition",
+   "title": "Software Integration Engineer - New Grad (2027)",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-14",
+   "firstSeenAt": "2026-08-14T22:34:43.994Z"
+  },
+  {
+   "dedupeKey": "ashby:6b9a508b-359f-43c1-aa83-cabf55c3e03e",
+   "source": "ashby",
+   "company": "Applied Intuition",
+   "title": "Electrical System Integration Engineer - New Grad",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/6b9a508b-359f-43c1-aa83-cabf55c3e03e",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-09-09T03:48:42.896+00:00",
+   "firstSeenAt": "2026-09-09T04:39:03.021Z"
   },
   {
    "dedupeKey": "greenhouse:8142961",
@@ -1852,6 +1795,421 @@
    },
    "postedAt": "2026-09-14",
    "firstSeenAt": "2026-09-14T13:56:47.708Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8802897002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Security Software (Starshield)",
+   "location": "Washington, DC",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-09-11T19:36:47-04:00",
+   "firstSeenAt": "2026-09-12T01:04:46.155Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8802882002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Security Software (Starshield)",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-09-11T19:36:45-04:00",
+   "firstSeenAt": "2026-09-12T01:04:46.155Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8493079002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8493079002?gh_jid=8493079002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-04-03T10:07:16-04:00",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696097002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:22:47-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696080002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:22:28-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696058002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:22:04-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8730567002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software (Application Software)",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8730567002?gh_jid=8730567002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-19",
+   "firstSeenAt": "2026-08-19T19:35:07.029Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696158002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:38-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696143002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:23-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696156002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:32-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8724316002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-19T11:08:34-04:00",
+   "firstSeenAt": "2026-08-24T21:39:20.245Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8729121002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software (Starship)",
+   "location": "Starbase, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8729121002?gh_jid=8729121002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-19",
+   "firstSeenAt": "2026-08-19T04:49:09.076Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8743362002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software (Starship)",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8743362002?gh_jid=8743362002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-08T17:27:54-04:00",
+   "firstSeenAt": "2026-09-08T21:49:11.070Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8621756002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "Spring 2027 Software Engineering Internship/Co-op",
+   "location": "Flexible - Any SpaceX Site",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8621756002?gh_jid=8621756002",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "JavaScript"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-03",
+   "firstSeenAt": "2026-08-03T19:01:10.547Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8621757002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "Summer 2027 Software Engineering Internship/Co-op",
+   "location": "Flexible - Any SpaceX Site",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8621757002?gh_jid=8621757002",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "JavaScript"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-03",
+   "firstSeenAt": "2026-08-03T19:01:10.547Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8163709",
+   "source": "greenhouse",
+   "company": "DoorDash",
+   "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US",
+   "location": "Los Angeles, CA; New York, NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA",
+   "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8163709",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 78,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "SQL",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 8
+   },
+   "postedAt": "2026-09-04T06:21:45-04:00",
+   "firstSeenAt": "2026-09-14T23:06:27.482Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8171041",
+   "source": "greenhouse",
+   "company": "DoorDash",
+   "title": "Software Engineer, Intern (Summer 2027) - US",
+   "location": "New York, NY; San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA",
+   "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8171041",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "SQL",
+    "AWS",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 9
+   },
+   "postedAt": "2026-09-14T18:51:00-04:00",
+   "firstSeenAt": "2026-09-14T23:06:27.482Z"
   },
   {
    "dedupeKey": "greenhouse:8767726002",
@@ -2069,362 +2427,70 @@
    "firstSeenAt": "2026-07-26T08:59:26.070Z"
   },
   {
-   "dedupeKey": "greenhouse:8802882002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Security Software (Starshield)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-09-11T19:36:45-04:00",
-   "firstSeenAt": "2026-09-12T01:04:46.155Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8802897002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Security Software (Starshield)",
-   "location": "Washington, DC",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-09-11T19:36:47-04:00",
-   "firstSeenAt": "2026-09-12T01:04:46.155Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8493079002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8493079002?gh_jid=8493079002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-03T10:07:16-04:00",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8696097002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:22:47-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8696080002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:22:28-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8696058002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:22:04-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8730567002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software (Application Software)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8730567002?gh_jid=8730567002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-19",
-   "firstSeenAt": "2026-08-19T19:35:07.029Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8724316002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-19T11:08:34-04:00",
-   "firstSeenAt": "2026-08-24T21:39:20.245Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8696143002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:23-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8696158002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:38-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8696156002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:32-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8729121002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software (Starship)",
-   "location": "Starbase, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8729121002?gh_jid=8729121002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-19",
-   "firstSeenAt": "2026-08-19T04:49:09.076Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8743362002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software (Starship)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8743362002?gh_jid=8743362002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-08T17:27:54-04:00",
-   "firstSeenAt": "2026-09-08T21:49:11.070Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8621756002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "Spring 2027 Software Engineering Internship/Co-op",
-   "location": "Flexible - Any SpaceX Site",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8621756002?gh_jid=8621756002",
+   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
+   "source": "vansh",
+   "company": "Rendezvous Robotics",
+   "title": "Software Engineering Intern, Spring 2027",
+   "location": "Golden, CO",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
    "season": "Spring 2027",
    "roleType": "internship",
    "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "JavaScript"
-   ],
+   "matchedSkills": [],
    "breakdown": {
     "role": 40,
     "roleType": 30,
     "season": 25,
     "location": 0,
     "keywords": 10,
-    "skills": 5
+    "skills": 0
    },
-   "postedAt": "2026-08-03",
-   "firstSeenAt": "2026-08-03T19:01:10.547Z"
+   "postedAt": "2026-07-28T15:54:21.000Z",
+   "firstSeenAt": "2026-07-28T16:20:31.369Z"
   },
   {
-   "dedupeKey": "greenhouse:8621757002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "Summer 2027 Software Engineering Internship/Co-op",
-   "location": "Flexible - Any SpaceX Site",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8621757002?gh_jid=8621757002",
-   "season": "Summer 2027",
-   "roleType": "internship",
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
    "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "JavaScript"
-   ],
+   "matchedSkills": [],
    "breakdown": {
     "role": 40,
     "roleType": 30,
     "season": 25,
     "location": 0,
     "keywords": 10,
-    "skills": 5
+    "skills": 0
    },
-   "postedAt": "2026-08-03",
-   "firstSeenAt": "2026-08-03T19:01:10.547Z"
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "ashby:452afc2e-0c79-41f8-8201-1aab7df775db",
+   "source": "ashby",
+   "company": "Quora",
+   "title": "New Grad: Software Engineer",
+   "location": "Remote",
+   "url": "https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31T23:57:14.341Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:4651d102ca04fe9adfb641ed1fbd33e99c060869",
@@ -7361,72 +7427,6 @@
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
-   "dedupeKey": "vansh:54743b8f-2366-4655-a083-483baf96593c",
-   "source": "vansh",
-   "company": "Rendezvous Robotics",
-   "title": "Software Engineering Intern, Spring 2027",
-   "location": "Golden, CO",
-   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-28T15:54:21.000Z",
-   "firstSeenAt": "2026-07-28T16:20:31.369Z"
-  },
-  {
-   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
-   "source": "vansh",
-   "company": "Appian",
-   "title": "New Grad 2027: Software Engineer",
-   "location": "McLean, VA",
-   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T21:58:55.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "ashby:452afc2e-0c79-41f8-8201-1aab7df775db",
-   "source": "ashby",
-   "company": "Quora",
-   "title": "New Grad: Software Engineer",
-   "location": "Remote",
-   "url": "https://jobs.ashbyhq.com/quora/452afc2e-0c79-41f8-8201-1aab7df775db",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 5,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-31T23:57:14.341Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:267d5473-4baf-4bba-ba9c-ccd65a1c0e30",
    "source": "simplifyjobs",
    "company": "Palantir",
@@ -7777,28 +7777,6 @@
    },
    "postedAt": "2026-07-21T01:15:31.000Z",
    "firstSeenAt": "2026-07-21T02:14:34.883Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:bd40fda7-37cc-4439-aca3-fdc324bbba53",
-   "source": "simplifyjobs",
-   "company": "Lentech Inc.",
-   "title": "Entry Level Web Developer - Multiple Teams",
-   "location": "Laurel, MD",
-   "url": "https://lentechinc.applytojob.com/apply/qnjVhHgXdC/Entry-Web-Developer",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 70,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-07-23T06:15:29.000Z",
-   "firstSeenAt": "2026-08-07T01:09:11.897Z"
   },
   {
    "dedupeKey": "simplifyjobs:e3baf487-91f1-4382-825c-a0b8cbdd9ea8",
@@ -10167,6 +10145,94 @@
    "firstSeenAt": "2026-09-15T18:09:42.553Z"
   },
   {
+   "dedupeKey": "simplifyjobs:22a10269-db51-459d-b8ce-872e7a7ac070",
+   "source": "simplifyjobs",
+   "company": "Hardin Design",
+   "title": "Entry-Level Web Developer",
+   "location": "Madison, WI",
+   "url": "https://jobs.smartrecruiters.com/HardinDesign/744000149709275",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-09-15T22:06:18.000Z",
+   "firstSeenAt": "2026-09-16T00:44:09.137Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:058f10b5-7e10-4926-bb72-004c74c2a665",
+   "source": "simplifyjobs",
+   "company": "Rakuten International",
+   "title": "Early Career AI Engineer - Contract",
+   "location": "Bellevue, WA",
+   "url": "https://rakuten.wd1.myworkdayjobs.com/en-US/RakutenAmericas/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031437",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-15T22:07:58.000Z",
+   "firstSeenAt": "2026-09-16T00:44:09.137Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:00c861f1-fd31-484a-b291-99b763f24e3c",
+   "source": "simplifyjobs",
+   "company": "SingleStore",
+   "title": "Software Engineer New Grad",
+   "location": "United States",
+   "url": "https://job-boards.greenhouse.io/singlestore/jobs/8205389",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-15T22:13:56.000Z",
+   "firstSeenAt": "2026-09-16T00:44:09.137Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ba178d6f-1d3e-46f4-a920-876f0b880c8d",
+   "source": "simplifyjobs",
+   "company": "SingleStore",
+   "title": "Software Engineer New Grad",
+   "location": "United States",
+   "url": "https://job-boards.greenhouse.io/singlestore/jobs/8205427",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-15T22:14:05.000Z",
+   "firstSeenAt": "2026-09-16T00:44:09.137Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:b7ecf859-e102-435c-ad58-a6bb88c51c60",
    "source": "simplifyjobs",
    "company": "Muru",
@@ -12453,28 +12519,6 @@
    },
    "postedAt": "2026-08-18T22:06:44.000Z",
    "firstSeenAt": "2026-08-18T22:36:10.725Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b5b15050-2287-4ebf-8a26-f0745c794fd3",
-   "source": "simplifyjobs",
-   "company": "Microsoft",
-   "title": "AI Software Engineer Intern",
-   "location": "Redmond, WA; Mountain View, CA",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556962891",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-19T08:26:14.000Z",
-   "firstSeenAt": "2026-09-15T01:49:01.356Z"
   },
   {
    "dedupeKey": "simplifyjobs:ea8c5ebd-a6c4-49ff-9dac-f3532c41737a",
@@ -16003,6 +16047,160 @@
    "firstSeenAt": "2026-09-15T01:49:01.356Z"
   },
   {
+   "dedupeKey": "simplifyjobs:c5436868-7e21-49cc-a04a-94724650c511",
+   "source": "simplifyjobs",
+   "company": "Hometap",
+   "title": "Full Stack Engineer Co-op",
+   "location": "Boston, MA",
+   "url": "https://job-boards.greenhouse.io/hometapjobs/jobs/4927882007",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-15T22:14:24.000Z",
+   "firstSeenAt": "2026-09-16T00:44:09.137Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e52bfb8f-f77b-4362-9f4f-53084b21df2e",
+   "source": "simplifyjobs",
+   "company": "Ambrook",
+   "title": "Software Engineer Co-op",
+   "location": "NYC",
+   "url": "https://jobs.ashbyhq.com/ambrook/29ffbcea-17c3-4488-9d57-a9f7249b49a5/application?embed=true",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-15T22:22:33.000Z",
+   "firstSeenAt": "2026-09-16T00:44:09.137Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:edcdcb19-1dc2-452a-88bb-9b84fa4340c0",
+   "source": "simplifyjobs",
+   "company": "SSOE Group",
+   "title": "Software Developer Co-op Intern - Fall 2026",
+   "location": "Toledo, OH",
+   "url": "https://careers-ssoe.icims.com/jobs/3812/job?mobile=true&needsRedirect=false",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-15T22:18:32.000Z",
+   "firstSeenAt": "2026-09-16T00:44:09.137Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:99b19d5b-03dd-438a-91db-fbb3b10e7201",
+   "source": "simplifyjobs",
+   "company": "Duolingo",
+   "title": "Software Engineer Intern - Thrive",
+   "location": "Pittsburgh, PA",
+   "url": "https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806115002",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-15T22:38:43.000Z",
+   "firstSeenAt": "2026-09-16T00:44:09.137Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:32b50162-20ab-42eb-9e0c-dcff21dd5c0c",
+   "source": "simplifyjobs",
+   "company": "Duolingo",
+   "title": "Software Engineer Intern",
+   "location": "Seattle, WA; Pittsburgh, PA; NYC",
+   "url": "https://careers.duolingo.com/jobs/8805925002?gh_jid=8805925002",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-15T22:38:43.000Z",
+   "firstSeenAt": "2026-09-16T00:44:09.137Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:9a01359d-4d56-45ec-a90a-9d2f1d40cf52",
+   "source": "simplifyjobs",
+   "company": "Duolingo",
+   "title": "Software Engineer Intern - Thrive",
+   "location": "Pittsburgh, PA",
+   "url": "https://careers.duolingo.com/jobs/8806114002?gh_jid=8806114002",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-15T22:38:43.000Z",
+   "firstSeenAt": "2026-09-16T00:44:09.137Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:54d89b96-1ff8-49ce-99e9-b03c8d093745",
+   "source": "simplifyjobs",
+   "company": "Duolingo",
+   "title": "Software Engineer Intern",
+   "location": "Seattle, WA; Pittsburgh, PA; NYC",
+   "url": "https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806878002",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-15T22:38:43.000Z",
+   "firstSeenAt": "2026-09-16T00:44:09.137Z"
+  },
+  {
    "dedupeKey": "reverse-discovery:f83af2f4-3d80-42fc-b1b5-8e65342ce152",
    "source": "reverse-discovery",
    "company": "focal",
@@ -16169,16 +16367,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:d6adfc0f-f025-42f9-9f5b-0a52306e7501",
-   "company": "RTX",
-   "title": "Software Engineering Co-op",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-03T05:43:42.745Z",
-   "closedAt": "2026-09-08T23:36:36.910Z",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Winter-Spring-2027-_01870191"
-  },
   {
    "dedupeKey": "simplifyjobs:9ff8def7-4cc8-4f59-aadb-ddec79771bfa",
    "company": "NVIDIA",
@@ -16878,6 +17066,26 @@
    "firstSeenAt": "2026-08-21T20:36:43.100Z",
    "closedAt": "2026-09-15T22:10:14.832Z",
    "url": "https://job-boards.greenhouse.io/syskahennessy/jobs/8147733"
+  },
+  {
+   "dedupeKey": "simplifyjobs:bd40fda7-37cc-4439-aca3-fdc324bbba53",
+   "company": "Lentech Inc.",
+   "title": "Entry Level Web Developer - Multiple Teams",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-08-07T01:09:11.897Z",
+   "closedAt": "2026-09-16T00:44:09.137Z",
+   "url": "https://lentechinc.applytojob.com/apply/qnjVhHgXdC/Entry-Web-Developer"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b5b15050-2287-4ebf-8a26-f0745c794fd3",
+   "company": "Microsoft",
+   "title": "AI Software Engineer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-15T01:49:01.356Z",
+   "closedAt": "2026-09-16T00:44:09.137Z",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556962891"
   }
  ]
 }
