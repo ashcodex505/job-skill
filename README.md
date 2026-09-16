@@ -265,30 +265,30 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-737-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-6-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1740-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-1006-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
 
-Updated **2026-09-16 18:10 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-16 19:19 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Entergy | AI Developer Intern 🆕 | New Orleans, LA; The Woodlands, TX; Hammond, LA | Spring 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://jobs.entergy.com/job/New-Orleans-Student-Intern-AI-Developer-Spring-2027-Loui/1430299700/?ats=successfactors) |
-| Ambrook | Software Engineer Co-op | NYC | Spring 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/ambrook/29ffbcea-17c3-4488-9d57-a9f7249b49a5/application?embed=true) |
-| Duolingo | Software Engineer Intern - Thrive | Pittsburgh, PA | Summer 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806115002) |
-| Duolingo | Software Engineer Intern | Seattle, WA; Pittsburgh, PA; NYC | Summer 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://careers.duolingo.com/jobs/8805925002?gh_jid=8805925002) |
-| Duolingo | Software Engineer Intern - Thrive | Pittsburgh, PA | Summer 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://careers.duolingo.com/jobs/8806114002?gh_jid=8806114002) |
-| Duolingo | Software Engineer Intern | Seattle, WA; Pittsburgh, PA; NYC | Summer 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806878002) |
-| Hometap | Full Stack Engineer Co-op | Boston, MA | Spring 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/hometapjobs/jobs/4927882007) |
-| SingleStore | Software Engineer-New Grad 2027 | San Francisco, CA | 2027 New Grad | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/singlestore/jobs/8205427) |
-| SingleStore | Software Engineer-New Grad 2027 | Seattle, WA | 2027 New Grad | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/singlestore/jobs/8205389) |
-| SSOE Group | Software Developer Co-op Intern - Fall 2026 | Toledo, OH | Fall 2026 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://careers-ssoe.icims.com/jobs/3812/job?mobile=true&needsRedirect=false) |
-| Anduril | Winter 2027 Software Engineer Co-op | Quincy, Massachusetts, United States | Winter 2027 | 100% (4 skills) | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5236563007?gh_jid=5236563007) |
-| Anduril | Winter 2027 Systems Engineer Co-op | Quincy, Massachusetts, United States | Winter 2027 | 100% | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5236599007?gh_jid=5236599007) |
-| A Thinking Ape | Software Development Engineer Co-op | Remote in Canada | Winter 2027 | 100% | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://job-boards.greenhouse.io/athinkingape/jobs/8203048) |
-| DoorDash | Software Engineer, Intern (Summer 2027) - US | New York, NY; San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA | Summer 2027 | 100% (6 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8171041) |
-| DEKA Research & Development | Software Engineering Co-Op- Spring 2027 | Manchester, NH | Spring 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](http://deka.applytojob.com/apply/ulNhn2xOvG/Software-Engineering-CoOp-Spring-2027) |
-| Intuit | Software Engineer Intern - Full Stack | Charlotte, NC; NYC; Mountain View, CA; Atlanta, GA; San Diego, CA | Summer 2027 | 100% | 2026-08-29 | 2026-09-14 | [**Apply ➜**](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864) |
-| Intuit | Software Engineer Intern - Cybersecurity | Mountain View, CA | Summer 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-cybersecurity/27595/100620927616) |
-| Intuit | Mobile Software Engineer Intern - iOS | Charlotte, NC; NYC; Mountain View, CA; Atlanta, GA; San Diego, CA | Summer 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://jobs.intuit.com/job/mountain-view/summer-2027-mobile-software-engineering-intern-ios/27595/100620927568) |
-| Intuit | Mobile Software Engineer Intern - Android | Charlotte, NC; NYC; Mountain View, CA; Atlanta, GA; San Diego, CA | Summer 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://jobs.intuit.com/job/mountain-view/summer-2027-mobile-software-engineering-intern-android/27595/100620927552) |
-| Tesla | Software Engineer Intern - Camera & Robotics | Palo Alto, CA | Winter 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283274) |
+| Acxiom | Data Engineer Intern 🆕 | Conway, AR | Winter 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482) |
+| Altice USA | Data Engineer Intern 🆕 | Long Island City, Queens, NY | Fall 2026 | 100% | 2026-07-31 | 2026-09-16 | [**Apply ➜**](https://www.optimumcareers.com/job/Long-Island-City-Intern-Data-Engineer-NY-11101/1414286700/?ats=successfactors) |
+| AMD | Hardware Engineer Intern/Co-op - Hardware Engineering 🆕 | Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA | Winter 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/91182?icims=1) |
+| AMD | Firmware Engineer Intern/Co-op 🆕 | Secaucus, NJ; Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Massachusetts | Winter 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90801?icims=1) |
+| AMD | Firmware Engineering Intern Co-op - Undergrad 🆕 | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90807?icims=1) |
+| AMD | Hardware Engineering Intern/Co-op - Undergrad 🆕 | Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA | Spring 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/91173?icims=1) |
+| AMD | Firmware Engineer Co-op/Intern 🆕 | San Jose, CA; Santa Clara, CA | Spring 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90809?icims=1) |
+| AMD | Hardware Engineer Intern/Co-op 🆕 | San Jose, CA; Santa Clara, CA | Spring 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90894?icims=1) |
+| AMD | Firmware Engineer Intern/Co-op 🆕 | Secaucus, NJ; Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA | Spring 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90805?icims=1) |
+| Ampersand | Data Engineering Co-op - Open to Northeastern students only 🆕 | Boston, MA | Fall 2026 | 100% | 2026-08-20 | 2026-09-16 | [**Apply ➜**](https://ats.rippling.com/ampersand-biomedicines/jobs/be3f5479-379e-4d48-9bd1-82a69b2dcfd3) |
+| Apex | Software Engineer Intern - Embedded Systems 🆕 | LA | Spring 2027 | 100% | 2026-09-03 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/apex-technology-inc/4203604c-2330-4c89-8432-37af718a6bda/application?embed=true) |
+| Applied Intuition | Research Engineer - New Grad (2027) 🆕 | Sunnyvale | 2027 New Grad | 100% (2 skills) | 2026-08-14 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39) |
+| Applied Intuition | Embedded Software Engineer - New Grad (2027) 🆕 | Sunnyvale | 2027 New Grad | 100% | 2026-08-14 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/6971d533-1536-448b-96b8-544ad5383f44) |
+| Audax Group | Data Engineer Co-op 🆕 | Boston, MA | Winter 2027 | 100% | 2026-08-24 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/audaxgroup/jobs/4722779005) |
+| Audax Group | Data Engineer Co-op 🆕 | NYC | Winter 2027 | 100% | 2026-08-24 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/audaxgroup/jobs/4722770005) |
+| Blue Origin | Avionics / Embedded Software Engineer I - Early Career - 2027 Starts 🆕 | Seattle, WA +4 | 2027 New Grad | 100% | 2026-08-31 | 2026-09-16 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/Avionics---Embedded-Software-Engineer-I---Early-Career--2027-Starts-_R71324) |
+| ByteDance | Software Engineer Intern - Global Payment - Compliance 🆕 | San Jose, CA | Fall 2027 | 100% | 2026-08-06 | 2026-09-16 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7669774721406208261/detail) |
+| ByteDance | Software Engineer Intern - CIS Knowledge Bank 🆕 | San Jose, CA | Fall 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7675345626188335365/detail) |
+| CACI | Software Engineer Co-op - Summer & Fall 2027 🆕 | Danbury, CT | Fall 2027 | 100% | 2026-08-31 | 2026-09-16 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354) |
+| CACI | Embedded Software Engineer Co-op - Fall 2027 🆕 | Danbury, CT | Fall 2027 | 100% | 2026-09-01 | 2026-09-16 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Embedded-Software-Engineering-Co-Op---Fall-2027_331393) |
 <!-- JOB-BOARD:END -->
