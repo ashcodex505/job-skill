@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-734-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-14-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
+![open roles](https://img.shields.io/badge/open%20roles-723-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-12-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
 
-Updated **2026-09-16 07:38 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-16 10:06 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -271,11 +271,11 @@ Updated **2026-09-16 07:38 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | A Thinking Ape | Software Development Engineer Co-op | Remote in Canada | Winter 2027 | 100% | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://job-boards.greenhouse.io/athinkingape/jobs/8203048) |
 | DoorDash | Software Engineer, Intern (Summer 2027) - US | New York, NY; San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA | Summer 2027 | 100% (6 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8171041) |
 | DEKA Research & Development | Software Engineering Co-Op- Spring 2027 | Manchester, NH | Spring 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](http://deka.applytojob.com/apply/ulNhn2xOvG/Software-Engineering-CoOp-Spring-2027) |
-| Intuit | Software Engineer Intern - Full Stack | Charlotte, NC; NYC; Mountain View, CA; Atlanta, GA; San Diego, CA | Summer 2027 | 100% | 2026-08-29 | 2026-09-14 | [**Apply ➜**](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864) |
 | Intuit | Software Engineer Intern - Cybersecurity | Mountain View, CA | Summer 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-cybersecurity/27595/100620927616) |
 | Intuit | Mobile Software Engineer Intern - iOS | Charlotte, NC; NYC; Mountain View, CA; Atlanta, GA; San Diego, CA | Summer 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://jobs.intuit.com/job/mountain-view/summer-2027-mobile-software-engineering-intern-ios/27595/100620927568) |
 | Intuit | Mobile Software Engineer Intern - Android | Charlotte, NC; NYC; Mountain View, CA; Atlanta, GA; San Diego, CA | Summer 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://jobs.intuit.com/job/mountain-view/summer-2027-mobile-software-engineering-intern-android/27595/100620927552) |
 | Tesla | Software Engineer Intern - Camera & Robotics | Palo Alto, CA | Winter 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283274) |
 | Tesla | Product Engineer Intern - Applications Engineering | Fremont, CA | Winter 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283298) |
 | Tesla | System Integration and Test Automation Engineer Intern - Energy Engineering | Palo Alto, CA | Winter 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283396) |
+| GSK | Web App Developer Co-op | Cambridge, MA | Winter 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://gsk-us-earlytalent.icims.com/jobs/11013/job?mobile=true&needsRedirect=false) |
 <!-- JOB-BOARD:END -->
