@@ -252,9 +252,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-733-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-26-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
+![open roles](https://img.shields.io/badge/open%20roles-734-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-14-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
 
-Updated **2026-09-16 06:35 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-16 07:38 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -266,8 +266,8 @@ Updated **2026-09-16 06:35 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Duolingo | Software Engineer Intern 🆕 | Seattle, WA; Pittsburgh, PA; NYC | Summer 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806878002) |
 | Hometap | Full Stack Engineer Co-op 🆕 | Boston, MA | Spring 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/hometapjobs/jobs/4927882007) |
 | SSOE Group | Software Developer Co-op Intern - Fall 2026 🆕 | Toledo, OH | Fall 2026 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://careers-ssoe.icims.com/jobs/3812/job?mobile=true&needsRedirect=false) |
-| Anduril | Winter 2027 Software Engineer Co-op 🆕 | Quincy, Massachusetts, United States | Winter 2027 | 100% (4 skills) | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5236563007?gh_jid=5236563007) |
-| Anduril | Winter 2027 Systems Engineer Co-op 🆕 | Quincy, Massachusetts, United States | Winter 2027 | 100% | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5236599007?gh_jid=5236599007) |
+| Anduril | Winter 2027 Software Engineer Co-op | Quincy, Massachusetts, United States | Winter 2027 | 100% (4 skills) | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5236563007?gh_jid=5236563007) |
+| Anduril | Winter 2027 Systems Engineer Co-op | Quincy, Massachusetts, United States | Winter 2027 | 100% | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5236599007?gh_jid=5236599007) |
 | A Thinking Ape | Software Development Engineer Co-op | Remote in Canada | Winter 2027 | 100% | 2026-09-15 | 2026-09-15 | [**Apply ➜**](https://job-boards.greenhouse.io/athinkingape/jobs/8203048) |
 | DoorDash | Software Engineer, Intern (Summer 2027) - US | New York, NY; San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA | Summer 2027 | 100% (6 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8171041) |
 | DEKA Research & Development | Software Engineering Co-Op- Spring 2027 | Manchester, NH | Spring 2027 | 100% | 2026-09-14 | 2026-09-14 | [**Apply ➜**](http://deka.applytojob.com/apply/ulNhn2xOvG/Software-Engineering-CoOp-Spring-2027) |
