@@ -265,9 +265,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1709-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-984-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--16-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1707-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-984-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--17-informational)
 
-Updated **2026-09-16 23:49 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-17 00:28 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -287,8 +287,8 @@ Updated **2026-09-16 23:49 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Ampersand | Data Engineering Co-op - Open to Northeastern students only 🆕 | Boston, MA | Fall 2026 | 100% | 2026-08-20 | 2026-09-16 | [**Apply ➜**](https://ats.rippling.com/ampersand-biomedicines/jobs/be3f5479-379e-4d48-9bd1-82a69b2dcfd3) |
 | Apex | Software Engineer Intern - Embedded Systems 🆕 | LA | Spring 2027 | 100% | 2026-09-03 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/apex-technology-inc/4203604c-2330-4c89-8432-37af718a6bda/application?embed=true) |
 | Applied Intuition | Research Engineer - New Grad (2027) 🆕 | Sunnyvale | 2027 New Grad | 100% (2 skills) | 2026-08-14 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39) |
-| Applied Intuition | Embedded Software Engineer - New Grad (2027) 🆕 | Sunnyvale | 2027 New Grad | 100% | 2026-08-14 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/6971d533-1536-448b-96b8-544ad5383f44) |
 | Audax Group | Data Engineer Co-op 🆕 | Boston, MA | Winter 2027 | 100% | 2026-08-24 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/audaxgroup/jobs/4722779005) |
 | Audax Group | Data Engineer Co-op 🆕 | NYC | Winter 2027 | 100% | 2026-08-24 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/audaxgroup/jobs/4722770005) |
 | Blue Origin | Avionics / Embedded Software Engineer I - Early Career - 2027 Starts 🆕 | Seattle, WA +4 | 2027 New Grad | 100% | 2026-08-31 | 2026-09-16 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/Avionics---Embedded-Software-Engineer-I---Early-Career--2027-Starts-_R71324) |
+| ByteDance | Software Engineer Intern - Global Payment - Compliance 🆕 | San Jose, CA | Fall 2027 | 100% | 2026-08-06 | 2026-09-16 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7669774721406208261/detail) |
 <!-- JOB-BOARD:END -->
