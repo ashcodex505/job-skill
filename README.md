@@ -265,30 +265,30 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1706-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-984-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--17-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1686-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-32-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--17-informational)
 
-Updated **2026-09-17 06:06 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-17 10:10 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| The Walt Disney Company | Show Control Software Intern 🆕 | Lake Buena Vista, FL; Glendale, CA | Winter 2027 | 100% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/WDI-Show-Control-Software-Internship--Spring-2027_10160946) |
 | AMD | AI Model Optimization & Software Engineer Intern/Co-op 🆕 | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/92522?icims=1) |
 | AMD | AI Model Optimization & Software Engineer Intern/Co-op 🆕 | Austin, TX | Winter 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/92526?icims=1) |
 | Itron | Firmware Engineer Intern 🆕 | West Union, SC | Winter 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://itron.wd5.myworkdayjobs.com/Early_Careers/job/United-States-of-America-South-Carolina-West-Union/Intern----Firmware-Engineer--Spring-2027-_JR102920) |
 | Nanopath | Software Development Co-op 🆕 | Cambridge, MA | Winter 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/nanopathinc/jobs/4732881005) |
 | RTX | Software Engineer Co-op - Winter/Spring 2027 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Winter-Spring-2027-_01875464) |
 | Waymo | Quantitative Software Engineer Intern 🆕 | SF; Mountain View, CA | Summer 2027 | 100% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8197554) |
-| Tesla | Electronic Design Engineer Intern - Electronic Systems 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-08-10 | 2026-09-16 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279760) |
-| Acxiom | Data Engineer Intern 🆕 | Conway, AR | Winter 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482) |
-| Altice USA | Data Engineer Intern 🆕 | Long Island City, Queens, NY | Fall 2026 | 100% | 2026-07-31 | 2026-09-16 | [**Apply ➜**](https://www.optimumcareers.com/job/Long-Island-City-Intern-Data-Engineer-NY-11101/1414286700/?ats=successfactors) |
-| AMD | Firmware Engineer Intern/Co-op 🆕 | Secaucus, NJ; Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Massachusetts | Winter 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90801?icims=1) |
-| AMD | Firmware Engineering Intern Co-op - Undergrad 🆕 | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90807?icims=1) |
-| AMD | Firmware Engineer Co-op/Intern 🆕 | San Jose, CA; Santa Clara, CA | Spring 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90809?icims=1) |
-| AMD | Firmware Engineer Intern/Co-op 🆕 | Secaucus, NJ; Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA | Spring 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90805?icims=1) |
-| Ampersand | Data Engineering Co-op - Open to Northeastern students only 🆕 | Boston, MA | Fall 2026 | 100% | 2026-08-20 | 2026-09-16 | [**Apply ➜**](https://ats.rippling.com/ampersand-biomedicines/jobs/be3f5479-379e-4d48-9bd1-82a69b2dcfd3) |
-| Apex | Software Engineer Intern - Embedded Systems 🆕 | LA | Spring 2027 | 100% | 2026-09-03 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/apex-technology-inc/4203604c-2330-4c89-8432-37af718a6bda/application?embed=true) |
-| Applied Intuition | Research Engineer - New Grad (2027) 🆕 | Sunnyvale | 2027 New Grad | 100% (2 skills) | 2026-08-14 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39) |
-| Audax Group | Data Engineer Co-op 🆕 | Boston, MA | Winter 2027 | 100% | 2026-08-24 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/audaxgroup/jobs/4722779005) |
-| Audax Group | Data Engineer Co-op 🆕 | NYC | Winter 2027 | 100% | 2026-08-24 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/audaxgroup/jobs/4722770005) |
-| Blue Origin | Avionics / Embedded Software Engineer I - Early Career - 2027 Starts 🆕 | Seattle, WA +4 | 2027 New Grad | 100% | 2026-08-31 | 2026-09-16 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/Avionics---Embedded-Software-Engineer-I---Early-Career--2027-Starts-_R71324) |
-| ByteDance | Software Engineer Intern - Global Payment - Compliance 🆕 | San Jose, CA | Fall 2027 | 100% | 2026-08-06 | 2026-09-16 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7669774721406208261/detail) |
+| Tesla | Electronic Design Engineer Intern - Electronic Systems | Palo Alto, CA | Winter 2027 | 100% | 2026-08-10 | 2026-09-16 | [**Apply ➜**](https://www.tesla.com/careers/search/job/279760) |
+| Acxiom | Data Engineer Intern | Conway, AR | Winter 2027 | 100% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482) |
+| Altice USA | Data Engineer Intern | Long Island City, Queens, NY | Fall 2026 | 100% | 2026-07-31 | 2026-09-16 | [**Apply ➜**](https://www.optimumcareers.com/job/Long-Island-City-Intern-Data-Engineer-NY-11101/1414286700/?ats=successfactors) |
+| AMD | Firmware Engineer Intern/Co-op | Secaucus, NJ; Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Massachusetts | Winter 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90801?icims=1) |
+| AMD | Firmware Engineering Intern Co-op - Undergrad | San Jose, CA; Santa Clara, CA | Winter 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90807?icims=1) |
+| AMD | Firmware Engineer Co-op/Intern | San Jose, CA; Santa Clara, CA | Spring 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90809?icims=1) |
+| AMD | Firmware Engineer Intern/Co-op | Secaucus, NJ; Rochester, NY; Austin, TX; Longmont, CO; Fishkill, NY; Fort Collins, CO; Boxborough, MA | Spring 2027 | 100% | 2026-08-21 | 2026-09-16 | [**Apply ➜**](https://careers.amd.com/jobs/90805?icims=1) |
+| Ampersand | Data Engineering Co-op - Open to Northeastern students only | Boston, MA | Fall 2026 | 100% | 2026-08-20 | 2026-09-16 | [**Apply ➜**](https://ats.rippling.com/ampersand-biomedicines/jobs/be3f5479-379e-4d48-9bd1-82a69b2dcfd3) |
+| Apex | Software Engineer Intern - Embedded Systems | LA | Spring 2027 | 100% | 2026-09-03 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/apex-technology-inc/4203604c-2330-4c89-8432-37af718a6bda/application?embed=true) |
+| Applied Intuition | Research Engineer - New Grad (2027) | Sunnyvale | 2027 New Grad | 100% (2 skills) | 2026-08-14 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39) |
+| Audax Group | Data Engineer Co-op | Boston, MA | Winter 2027 | 100% | 2026-08-24 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/audaxgroup/jobs/4722779005) |
+| Audax Group | Data Engineer Co-op | NYC | Winter 2027 | 100% | 2026-08-24 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/audaxgroup/jobs/4722770005) |
+| Blue Origin | Avionics / Embedded Software Engineer I - Early Career - 2027 Starts | Seattle, WA +4 | 2027 New Grad | 100% | 2026-08-31 | 2026-09-16 | [**Apply ➜**](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/Avionics---Embedded-Software-Engineer-I---Early-Career--2027-Starts-_R71324) |
 <!-- JOB-BOARD:END -->
