@@ -77,13 +77,20 @@ verified.
 
 ## Security and healthcare expansion — 2026-09-16
 
-All 16 companies in the [target catalog](../career/security-healthcare-targets.md)
+All 17 companies in the [target catalog](../career/security-healthcare-targets.md)
 have direct scheduled routes: Greenhouse, Ashby, Workday, or the dedicated
 Throne public-HTML adapter. The catalog records careers URLs, exact endpoints,
 raw posting counts, and research evidence. Palo Alto Networks, Vanta, and
-Zscaler reuse existing registry entries; the other 13 are newly registered.
+Zscaler reuse existing registry entries; the other 14 are newly registered.
 Throne is server-rendered and requires no local browser. Missing or incomplete
 job-card markup raises a source error rather than silently closing jobs.
+
+Baseten was added on 2026-09-18 through its public Ashby board (`baseten`),
+which returned 99 raw postings during verification. It joins the scheduled
+approved and priority scans; the normal new-grad and experience filters remain
+in force for its inference, distributed-systems, infrastructure, and FDE roles.
+Internships and co-ops are included for any season, including rolling or
+unspecified dates, under the shared internship rules in `career/preferences.md`.
 
 Cyera and Function Health are documented follow-up candidates, not enabled
 sources: Comeet and Gem need verified adapters, and Function's legacy Breezy

@@ -50,6 +50,17 @@ and clinician workload. Throne Science is a reference for continuous personal
 health monitoring; wellness products should not be described as proven disease
 treatments.
 
+Baseten is a top-priority AI infrastructure company. I am especially interested
+in inference engineering built around distributed systems, production serving,
+reliability, latency, autoscaling, networking, observability, and developer
+infrastructure. Prefer inference roles that value strong software and systems
+engineering without requiring prior ML research or model-training experience.
+Actively monitor Baseten for internships and co-ops in any season, including
+inference, distributed-systems, infrastructure, platform, reliability, and FDE
+internships, as well as eligible new-grad roles.
+Do not assume I have an ML background; apply the normal new-grad and experience
+requirements before treating a Baseten role as eligible.
+
 Favor credible customer adoption, defensible technology, and potential for
 substantial growth over the next few years, with high agency, end-to-end
 ownership, initiative, and close contact with users. Funding and valuation are
@@ -76,6 +87,9 @@ rules in this file apply, so an approved company may have zero eligible roles.
 - Forward Deployed Software Engineer
 - Forward Deployed AI Engineer
 - Deployment Engineer
+- Inference Engineer
+- AI Inference Engineer
+- Inference Infrastructure Engineer
 - AI Engineer
 - Artificial Intelligence Engineer
 - Machine Learning Engineer
@@ -160,6 +174,7 @@ Edit this section whenever a newly identified company meets that bar.
 - Asana
 - Atlassian
 - Autodesk
+- Baseten
 - Block (Square)
 - Bloomberg
 - Booking.com
@@ -316,6 +331,8 @@ new-grad, season, or Summer 2027 company rules.
 - AI Engineer
 - Machine Learning
 - Distributed Systems
+- Inference
+- Model Serving
 - Engineer I
 - Engineer 1
 - Junior

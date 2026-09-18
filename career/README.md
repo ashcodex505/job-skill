@@ -34,8 +34,9 @@ Leaving one of these sections empty disables that particular hard filter.
 ## Security and healthcare targets
 
 The [researched company catalog](security-healthcare-targets.md) records the
-security and healthcare/AI shortlist, official careers URLs, growth and
-ownership evidence, and verified scheduled sources. `preferences.md` carries
+security, healthcare/AI, and AI-infrastructure shortlist, official careers
+URLs, growth and ownership evidence, and verified scheduled sources.
+`preferences.md` carries
 the company focus and approved names; `priority-companies.md` also includes
 these names for visibility in the dashboard. The watcher already unions both
 lists. The category prose is curation guidance, not an automatic company search.

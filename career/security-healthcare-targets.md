@@ -1,11 +1,11 @@
 # Security and healthcare company targets
 
-Researched and public job sources checked: **2026-09-16**.
+Researched and public job sources checked: **2026-09-18**.
 
-This is the rationale and source catalog for 16 additions to
+This is the rationale and source catalog for 17 additions to
 [preferences.md](preferences.md) and [priority-companies.md](priority-companies.md).
 The executable collection routes live in
-[`src/scraper/registry.ts`](../src/scraper/registry.ts). All 16 have direct
+[`src/scraper/registry.ts`](../src/scraper/registry.ts). All 17 have direct
 collection routes; Palo Alto Networks, Vanta, and Zscaler reuse existing entries.
 
 ## Selection approach
@@ -23,6 +23,12 @@ a strong mission/culture reference; its growth evidence is less established
 than the scaled companies below. Other entries span growth-stage startups and
 more mature private businesses. Ownership language is employer-reported;
 confirm actual autonomy, mentorship, and responsibility with the hiring team.
+
+## AI infrastructure target
+
+| Company and official careers page | Why monitor it; growth evidence | Role fit |
+| --- | --- | --- |
+| [Baseten](https://www.baseten.co/resources/careers/#join-our-team) | Builds production AI inference infrastructure used by companies including Cursor, Notion, OpenEvidence, and Abridge. Its [June 2026 Series F](https://www.baseten.co/blog/announcing-our-series-f/) announced $1.5B at a $13B valuation, 20x year-over-year revenue growth, and 40x inference-volume growth. | Top-priority path into inference through distributed systems and software infrastructure. Watch internships and co-ops in any season, plus eligible new-grad roles, across inference, GPU networking/distributed systems, infrastructure, reliability, observability, and FDE. Prefer roles that do not require prior ML research/model-training expertise. Current generic Baseten engineering roles may still require professional experience and must pass the normal early-career rules. |
 
 ## Software security targets
 
@@ -83,6 +89,7 @@ matches. No generated board or alert ledger was refreshed.
 | Abridge | Ashby | [Abridge](https://api.ashbyhq.com/posting-api/job-board/Abridge) | 42 |
 | Ambience Healthcare | Ashby | [ambiencehealthcare](https://api.ashbyhq.com/posting-api/job-board/ambiencehealthcare) | 14 |
 | Hippocratic AI | Ashby | [Hippocratic AI](https://api.ashbyhq.com/posting-api/job-board/Hippocratic%20AI) | 30 |
+| Baseten | Ashby | [baseten](https://api.ashbyhq.com/posting-api/job-board/baseten) | 99 |
 
 The existing `watch.yml` union of approved + priority + watched companies
 includes these sources after the changes are committed and pushed. The 12-hour
@@ -111,7 +118,7 @@ experienced-hire roles as suitable merely because the company is a target.
 
 I am also open to **internships and co-ops in any season**: Fall 2026, Winter
 2027, Spring 2027, Summer 2027, next fall (Fall 2027), and rolling or unspecified
-start dates. All 16 companies are approved for Summer 2027. Location, seniority,
+start dates. All 17 companies are approved for Summer 2027. Location, seniority,
 and degree/enrollment fit still matter. Matching recent postings can use the
 existing big-tech alert stream; no extra urgent watches are added.
 

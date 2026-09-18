@@ -24,8 +24,9 @@ AI, systems, security, and other technical areas are not claims of expertise.
 
 1. **2027 new-grad engineering:** software engineering and other technical engineering jobs suitable for a new graduate, including level-I and junior roles.
 2. **AI and distributed systems:** AI/ML, research engineering, backend, infrastructure, platform, cloud, data, security, and related technical roles at an appropriate experience level.
-3. **Forward Deployed Engineering (FDE):** explicitly open to customer-facing software/AI engineering, deployment, and production integration roles, including FDE internships/co-ops in any season and new-grad, entry-level, junior, or level-I FDE positions.
-4. **Internships and co-ops in any season:** Fall 2026, Winter 2027, Spring 2027, Summer 2027, next fall (Fall 2027), and rolling or unspecified dates, subject to enrollment and degree eligibility.
+3. **Inference engineering:** especially interested in Baseten internships, co-ops, and new-grad roles building distributed inference, model-serving infrastructure, reliability, latency, autoscaling, networking, and observability. Prefer systems/software paths that do not require prior ML research or model-training expertise; internships are welcome in any season.
+4. **Forward Deployed Engineering (FDE):** explicitly open to customer-facing software/AI engineering, deployment, and production integration roles, including FDE internships/co-ops in any season and new-grad, entry-level, junior, or level-I FDE positions.
+5. **Internships and co-ops in any season:** Fall 2026, Winter 2027, Spring 2027, Summer 2027, next fall (Fall 2027), and rolling or unspecified dates, subject to enrollment and degree eligibility.
 
 For Summer 2027, prioritize companies with exceptional engineering depth,
 selectivity, product impact, technical scale, or high-growth potential. Ordinary
@@ -35,7 +36,9 @@ fit for that season.
 Additional company priorities are software security and healthcare software/AI
 startups with credible growth potential and a culture of high agency and
 end-to-end ownership. Examples include CrowdStrike, Palo Alto Networks, and
-Throne Science; the curated list and careers links live in
+Throne Science. Baseten is a priority AI infrastructure target for inference
+and distributed-systems engineering internships, co-ops, and new-grad roles.
+The curated list and careers links live in
 [security-healthcare-targets.md](security-healthcare-targets.md). These are
 career interests, not claims of security or clinical expertise.
 

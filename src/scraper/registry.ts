@@ -171,6 +171,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Perplexity", website: "https://perplexity.ai", careersUrl: "https://perplexity.ai/careers", ats: "ashby", slug: "Perplexity" },
   { name: "ElevenLabs", website: "https://elevenlabs.io", careersUrl: "https://elevenlabs.io/careers", ats: "ashby", slug: "elevenlabs" },
   { name: "Supabase", website: "https://supabase.com", careersUrl: "https://supabase.com/careers", ats: "ashby", slug: "supabase" },
+  { name: "Baseten", website: "https://www.baseten.co", careersUrl: "https://www.baseten.co/resources/careers/", ats: "ashby", slug: "baseten" },
   { name: "Zapier", website: "https://zapier.com", careersUrl: "https://zapier.com/jobs", ats: "ashby", slug: "zapier" },
   { name: "Vanta", website: "https://vanta.com", careersUrl: "https://vanta.com/careers", ats: "ashby", slug: "vanta" },
   { name: "Confluent", website: "https://confluent.io", careersUrl: "https://careers.confluent.io", ats: "ashby", slug: "confluent" },

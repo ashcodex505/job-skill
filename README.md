@@ -141,9 +141,12 @@ offline and free.
 ### Security and healthcare company coverage
 
 The [security and healthcare target catalog](career/security-healthcare-targets.md)
-contains 16 researched companies, official careers links, growth/ownership
+contains 17 researched companies, official careers links, growth/ownership
 evidence, and verified collection routes, including CrowdStrike, Palo Alto
-Networks, and Throne Science. The approved and priority lists enable them in
+Networks, Throne Science, and Baseten. Baseten is prioritized for new-grad
+inference, distributed-systems, infrastructure, and FDE opportunities that do
+not require prior ML research/model-training experience. The approved and
+priority lists enable these companies in
 the existing scheduled watcher after push. Throne uses a dedicated public HTML
 adapter; the other targets use supported ATS APIs. Current preferences include
 new-grad/junior/Engineer I technical roles (including AI and distributed systems)

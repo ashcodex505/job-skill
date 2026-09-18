@@ -100,3 +100,4 @@ the committed copy of this file.
 - Throne Science
 - Vanta
 - Zscaler
+- Baseten
