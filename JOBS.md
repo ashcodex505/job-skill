@@ -1,13 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
-**1761 open roles** across **695 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-18 19:56 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1765 open roles** across **698 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-18 21:39 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (29)
+## 🆕 New this cycle (33)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Gemini | Software Engineering Intern (Winter 2027) 🆕 | New York, New York | Winter 2027 | 100% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214272&gh_jid=8214272) |
 | Together AI | Systems Research Engineer Intern - GPU Programming (Winter 2027) 🆕 | San Francisco | Winter 2027 | 100% (1 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238411007) |
 | Together AI | Systems Research Engineer Intern - GPU Programming (Summer 2027) 🆕 | San Francisco | Summer 2027 | 100% (1 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238460007) |
 | Together AI | Software Engineer, New Grad (2027) 🆕 | San Francisco | 2027 New Grad | 100% (3 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5211582007) |
@@ -15,6 +16,8 @@ Last updated: **2026-09-18 19:56 UTC** · auto-refreshed every 12h by [job-board
 | Together AI | Software Engineer Intern (Summer 2027) 🆕 | San Francisco | Summer 2027 | 100% (1 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5232036007) |
 | Together AI | Software Development In Test Intern (Summer 2027) 🆕 | San Francisco | Summer 2027 | 100% (4 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238472007) |
 | Samsara | Software Engineer I, External Platform EMEA (Poland, Remote) 🆕 | Remote - Poland | — | 88% (2 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8210695?gh_jid=8210695) |
+| Dayton Freight Lines | Software Developer Intern 🆕 | Dayton, OH | Winter 2026 | 90% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://careers-daytonfreight.icims.com/jobs/18249/job?mobile=true&needsRedirect=false) |
+| W.R. Berkley | Software Developer Intern - .NET 🆕 | Urbandale, IA | Winter 2026 | 90% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://careers-berkley.icims.com/jobs/14444/job?mobile=true&needsRedirect=false) |
 | Tesla | Software Engineer Intern - Energy Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283950) |
 | Tesla | Site Controller Software Engineer Intern - Energy Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283956) |
 | Tesla | Internship - System Integration & Test Automation Engineer - Energy Engineering - Winter/Spring 2027 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284026) |
@@ -37,11 +40,13 @@ Last updated: **2026-09-18 19:56 UTC** · auto-refreshed every 12h by [job-board
 | Amazon | Software Development Engineer Internship - Summer -2027 - USA 🆕 | Seattle, WA | 2027 | 90% | 2026-09-10 | 2026-09-18 | [**Apply ➜**](https://www.amazon.jobs/jobs/10552937/apply) |
 | Shure | Automated Test Software Engineering Intern 🆕 | Niles, IL | — | 80% | 2026-09-04 | 2026-09-18 | [**Apply ➜**](https://careersus-shure.icims.com/jobs/4964/automated-test-software-engineering-intern/job) |
 | GPC | Cloud Developer Intern 🆕 | Birmingham, AL | — | 80% | 2026-09-01 | 2026-09-18 | [**Apply ➜**](https://genpt.wd1.myworkdayjobs.com/en-US/careers/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133) |
+| Freedom Technology Solutions Group | Junior Software Engineer 🆕 | Annapolis Junction, MD | — | 80% | 2026-07-30 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/freedomconsulting/jobs/5199607007) |
 
-## 🛠️ Internships (1202)
+## 🛠️ Internships (1205)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Gemini | Software Engineering Intern (Winter 2027) 🆕 | New York, New York | Winter 2027 | 100% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214272&gh_jid=8214272) |
 | Amazon | Software Development Engineer Intern - Summer 2027 (USA) 🆕 | Seattle, Washington, USA | Summer 2027 | 100% | 2026-09-17 | 2026-09-18 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) |
 | Together AI | Software Development In Test Intern (Summer 2027) 🆕 | San Francisco | Summer 2027 | 100% (4 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238472007) |
 | Together AI | Software Engineer Intern (Summer 2027) 🆕 | San Francisco | Summer 2027 | 100% (1 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5232036007) |
@@ -441,10 +446,9 @@ Last updated: **2026-09-18 19:56 UTC** · auto-refreshed every 12h by [job-board
 | Verkada | Backend Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 96% (4 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5210813007) |
 | Verkada | Security Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 96% (4 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5213881007) |
 | Databricks | Software Engineering Intern (2027 Start) - Winter | Bellevue, Washington; Mountain View, California; San Francisco, California | 2027 | 96% (4 skills) | 2026-08-20 | 2026-08-20 | [**Apply ➜**](https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002) |
-| Anduril | 2027 Software Engineer Intern | Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States | 2027 | 96% (4 skills) | 2026-06-10 | 2026-07-26 | [**Apply ➜**](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 
-_…and 802 more (raise the cap in src/scraper/board.ts)._
-## 🎓 New Grad (559)
+_…and 805 more (raise the cap in src/scraper/board.ts)._
+## 🎓 New Grad (560)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -476,10 +480,10 @@ _…and 802 more (raise the cap in src/scraper/board.ts)._
 | Abnormal AI | Machine Learning Engineer I - Message Security Products | Remote - Singapore | — | 90% (3 skills) | 2026-07-27 | 2026-09-16 | [**Apply ➜**](https://abnormal.ai/careers/jobs/7816935003?gh_jid=7816935003) |
 | Affirm | Software Engineer I, Frontend (Upfunnel) | Remote Canada | — | 90% (3 skills) | 2026-09-11 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7985907003) |
 | Samsara | Software Engineer I, External Platform EMEA (Poland, Remote) 🆕 | Remote - Poland | — | 88% (2 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8210695?gh_jid=8210695) |
-| Affirm | Software Engineer I, Backend (Collections) | Remote Poland | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807508003) |
 | Affirm | Software Engineer I, Backend (Collections) | Remote Spain | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807506003) |
-| Affirm | Software Engineer I, Fullstack (Servicing International) | Remote Spain | — | 88% (2 skills) | 2026-08-05 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7809763003) |
+| Affirm | Software Engineer I, Backend (Collections) | Remote Poland | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807508003) |
 | Affirm | Software Engineer I, Fullstack (Servicing International) | Remote Poland | — | 88% (2 skills) | 2026-08-05 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7809761003) |
+| Affirm | Software Engineer I, Fullstack (Servicing International) | Remote Spain | — | 88% (2 skills) | 2026-08-05 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7809763003) |
 | DoorDash | Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US | Los Angeles, CA; New York, NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA | — | 88% (5 skills) | 2026-09-04 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8163709) |
 | Notion | Software Engineer, Early Career (AI) | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
 | Notion | Software Engineer, Early Career | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
@@ -539,6 +543,7 @@ _…and 802 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
+| Freedom Technology Solutions Group | Junior Software Engineer 🆕 | Annapolis Junction, MD | — | 80% | 2026-07-30 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/freedomconsulting/jobs/5199607007) |
 | ITA-International | Junior Power Platform Developer 🆕 | Newport News, VA | — | 80% | 2026-09-17 | 2026-09-18 | [**Apply ➜**](https://careers-ita-intl.icims.com/jobs/4501/junior-power-platform-developer/job) |
 | Raytheon | Software Engineer I - Onsite 🆕 | Tewksbury, MA | — | 80% | 2026-09-16 | 2026-09-18 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-I--Onsite-_01875565) |
 | Rocket Lab USA | Flight Software Engineer 1 | Littleton, CO | — | 80% | 2026-09-14 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/rocketlab/jobs/7992129003) |
@@ -847,9 +852,8 @@ _…and 802 more (raise the cap in src/scraper/board.ts)._
 | Notion | Software Engineer New Grad | SF | — | 80% | 2026-08-15 | 2026-08-15 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true) |
 | Applied Intuition | Software Integration Engineer New Grad | Sunnyvale, CA | — | 80% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/250080bd-10a8-4e5f-82b8-506029292d19/application?embed=true) |
 | WeRide | Software Engineer New Grad - Algorithm | San Jose, CA | — | 80% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://jobs.lever.co/weride/5a7cbc83-2381-482e-9d6d-e9c9d59ad63b/apply) |
-| Composio | Fullstack Engineer - Product Team - New Grad | San Francisco, CA | — | 80% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://jobs.ashbyhq.com/composio/01e0e7ad-44a2-44e8-9340-64ca70eff491) |
 
-_…and 159 more (raise the cap in src/scraper/board.ts)._
+_…and 160 more (raise the cap in src/scraper/board.ts)._
 ## 🚪 Recently closed (last 7 days) (115)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.

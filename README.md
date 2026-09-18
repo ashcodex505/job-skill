@@ -268,12 +268,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1761-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-29-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--18-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1765-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-33-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--18-informational)
 
-Updated **2026-09-18 19:56 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-18 21:39 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Gemini | Software Engineering Intern (Winter 2027) 🆕 | New York, New York | Winter 2027 | 100% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214272&gh_jid=8214272) |
 | Amazon | Software Development Engineer Intern - Summer 2027 (USA) 🆕 | Seattle, Washington, USA | Summer 2027 | 100% | 2026-09-17 | 2026-09-18 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) |
 | Together AI | Software Development In Test Intern (Summer 2027) 🆕 | San Francisco | Summer 2027 | 100% (4 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238472007) |
 | Together AI | Software Engineer Intern (Summer 2027) 🆕 | San Francisco | Summer 2027 | 100% (1 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5232036007) |
@@ -293,5 +294,4 @@ Updated **2026-09-18 19:56 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Marvell | SRAM Software Engineer Intern | Burlington, VT | Fall 2027 | 100% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760) |
 | Marvell | SRAM Software Engineer Intern | Burlington, VT | Fall 2027 | 100% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1) |
 | Robert Bosch Venture Capital | AI Engineering Intern | Plymouth, MI | Fall 2026 | 100% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://jobs.smartrecruiters.com/BoschGroup/744000150217869) |
-| Raytheon | Software Engineering Co-op - Winter/Spring 2027 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-16 | 2026-09-17 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Winter-Spring-2027-_01875464) |
 <!-- JOB-BOARD:END -->
