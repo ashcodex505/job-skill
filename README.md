@@ -265,9 +265,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1744-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-71-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--18-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1743-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-27-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--18-informational)
 
-Updated **2026-09-18 04:36 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-18 06:30 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -278,8 +278,8 @@ Updated **2026-09-18 04:36 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Marvell | SRAM Software Engineer Intern 🆕 | Burlington, VT | Fall 2027 | 100% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760) |
 | Marvell | SRAM Software Engineer Intern 🆕 | Burlington, VT | Fall 2027 | 100% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1) |
 | Robert Bosch Venture Capital | AI Engineering Intern 🆕 | Plymouth, MI | Fall 2026 | 100% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://jobs.smartrecruiters.com/BoschGroup/744000150217869) |
-| Raytheon | Software Engineering Co-op - Winter/Spring 2027 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-16 | 2026-09-17 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Winter-Spring-2027-_01875464) |
-| Walt Disney | WDI Show Control Software Intern - Spring 2027 🆕 | Lake Buena Vista, FL +1 | Spring 2027 | 100% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Lake-Buena-Vista-FL-USA/WDI-Show-Control-Software-Internship--Spring-2027_10160946) |
+| Raytheon | Software Engineering Co-op - Winter/Spring 2027 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-16 | 2026-09-17 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Winter-Spring-2027-_01875464) |
+| Walt Disney | WDI Show Control Software Intern - Spring 2027 | Lake Buena Vista, FL +1 | Spring 2027 | 100% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Lake-Buena-Vista-FL-USA/WDI-Show-Control-Software-Internship--Spring-2027_10160946) |
 | Axcelis Technologies | Manufacturing Software Development Co-op | Beverly, MA | Winter 2027 | 100% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://axcelis.wd1.myworkdayjobs.com/axcelis/job/Beverly-MA/Co-Op---Manufacturing-Software-Development-_12019) |
 | Visa | Software Engineer New Grad - 2027 | Austin, TX | 2027 New Grad | 100% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Engineer--New-College-Grad---2027--Austin--TX_REF088586W) |
 | The Walt Disney Company | Show Control Software Intern | Lake Buena Vista, FL; Glendale, CA | Winter 2027 | 100% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/WDI-Show-Control-Software-Internship--Spring-2027_10160946) |
