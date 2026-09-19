@@ -268,18 +268,18 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1778-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-18-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--19-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1778-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-4-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--19-informational)
 
-Updated **2026-09-19 14:23 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-19 14:44 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Bot Auto | Software Engineer Intern - AI Agents 🆕 | Houston, TX | Fall 2026 | 100% | 2026-09-19 | 2026-09-19 | [**Apply ➜**](https://job-boards.greenhouse.io/botauto/jobs/5429357008) |
-| Cotiviti | Generative AI Research Engineer Intern 🆕 | Remote in USA | Fall 2026 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://careers-cotiviti.icims.com/jobs/20183/job?mobile=true&needsRedirect=false) |
-| Nokia | Software Development Co-op - AI Assisted 🆕 | Sunnyvale, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40535) |
-| Rubrik | Software Engineering Intern 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://www.rubrik.com/company/careers/departments/job.8171088?gh_jid=8171088) |
-| Tesla | Embedded Software Engineer Intern - Body Controls Firmware 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283994) |
-| Tesla | Systems Integration Engineer Intern - Body Controls 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283990) |
+| Cotiviti | Generative AI Research Engineer Intern | Remote in USA | Fall 2026 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://careers-cotiviti.icims.com/jobs/20183/job?mobile=true&needsRedirect=false) |
+| Nokia | Software Development Co-op - AI Assisted | Sunnyvale, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40535) |
+| Rubrik | Software Engineering Intern | Palo Alto, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://www.rubrik.com/company/careers/departments/job.8171088?gh_jid=8171088) |
+| Tesla | Embedded Software Engineer Intern - Body Controls Firmware | Palo Alto, CA | Spring 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283994) |
+| Tesla | Systems Integration Engineer Intern - Body Controls | Palo Alto, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283990) |
 | Gemini | Software Engineering Intern (Winter 2027) | New York, New York | Winter 2027 | 100% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214272&gh_jid=8214272) |
 | Amazon | Software Development Engineer Intern - Summer 2027 (USA) | Seattle, Washington, USA | Summer 2027 | 100% | 2026-09-17 | 2026-09-18 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) |
 | Together AI | Software Development In Test Intern (Summer 2027) | San Francisco | Summer 2027 | 100% (4 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238472007) |

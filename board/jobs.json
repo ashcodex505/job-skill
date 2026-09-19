@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-19T14:23:05.893Z",
+ "updatedAt": "2026-09-19T14:44:05.175Z",
  "jobs": [
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
@@ -2190,52 +2190,6 @@
    "firstSeenAt": "2026-07-22T07:45:53.755Z"
   },
   {
-   "dedupeKey": "workday:R171519",
-   "source": "workday",
-   "company": "Adobe",
-   "title": "2027 Intern - Machine Learning Engineer",
-   "location": "6 Locations",
-   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-31",
-   "firstSeenAt": "2026-09-16T19:46:02.461Z"
-  },
-  {
-   "dedupeKey": "workday:R171666",
-   "source": "workday",
-   "company": "Adobe",
-   "title": "2027 Intern - Software Engineer",
-   "location": "7 Locations",
-   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-03",
-   "firstSeenAt": "2026-09-16T19:46:02.461Z"
-  },
-  {
    "dedupeKey": "workday:JR2022295",
    "source": "workday",
    "company": "NVIDIA",
@@ -2303,6 +2257,52 @@
    },
    "postedAt": "2026-08-24",
    "firstSeenAt": "2026-08-24T07:17:56.744Z"
+  },
+  {
+   "dedupeKey": "workday:R171519",
+   "source": "workday",
+   "company": "Adobe",
+   "title": "2027 Intern - Machine Learning Engineer",
+   "location": "6 Locations",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-31",
+   "firstSeenAt": "2026-09-16T19:46:02.461Z"
+  },
+  {
+   "dedupeKey": "workday:R171666",
+   "source": "workday",
+   "company": "Adobe",
+   "title": "2027 Intern - Software Engineer",
+   "location": "7 Locations",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-03",
+   "firstSeenAt": "2026-09-16T19:46:02.461Z"
   },
   {
    "dedupeKey": "greenhouse:8046074",
@@ -2543,34 +2543,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "greenhouse:4730834005",
-   "source": "greenhouse",
-   "company": "Scale AI",
-   "title": "Software Engineering Intern (Summer 2027)",
-   "location": "Doha, Qatar",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730834005",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "React",
-    "Algorithms"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-09-14T09:13:08-04:00",
-   "firstSeenAt": "2026-09-14T13:56:47.708Z"
-  },
-  {
    "dedupeKey": "greenhouse:4730845005",
    "source": "greenhouse",
    "company": "Scale AI",
@@ -2599,15 +2571,15 @@
    "firstSeenAt": "2026-09-04T16:17:55.133Z"
   },
   {
-   "dedupeKey": "greenhouse:4730836005",
+   "dedupeKey": "greenhouse:4730834005",
    "source": "greenhouse",
    "company": "Scale AI",
-   "title": "Software Engineer - New Grad",
-   "location": "San Francisco, CA",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730836005",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 86,
+   "title": "Software Engineering Intern (Summer 2027)",
+   "location": "Doha, Qatar",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730834005",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
    "matchedSkills": [
     "Python",
     "TypeScript",
@@ -2618,13 +2590,13 @@
    "breakdown": {
     "role": 40,
     "roleType": 30,
-    "season": 0,
+    "season": 25,
     "location": 0,
     "keywords": 10,
     "skills": 6
    },
-   "postedAt": "2026-09-04",
-   "firstSeenAt": "2026-09-04T16:17:55.133Z"
+   "postedAt": "2026-09-14T09:13:08-04:00",
+   "firstSeenAt": "2026-09-14T13:56:47.708Z"
   },
   {
    "dedupeKey": "greenhouse:4730851005",
@@ -2653,6 +2625,34 @@
    },
    "postedAt": "2026-09-14T09:09:35-04:00",
    "firstSeenAt": "2026-09-14T13:56:47.708Z"
+  },
+  {
+   "dedupeKey": "greenhouse:4730836005",
+   "source": "greenhouse",
+   "company": "Scale AI",
+   "title": "Software Engineer - New Grad",
+   "location": "San Francisco, CA",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730836005",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 86,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "React",
+    "Algorithms"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-09-04",
+   "firstSeenAt": "2026-09-04T16:17:55.133Z"
   },
   {
    "dedupeKey": "greenhouse:5228868007",
@@ -3116,6 +3116,31 @@
    "firstSeenAt": "2026-08-19T19:35:07.029Z"
   },
   {
+   "dedupeKey": "greenhouse:8696143002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:23-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
    "dedupeKey": "greenhouse:8696156002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -3188,31 +3213,6 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:21:38-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8696143002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:23-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -4061,29 +4061,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "greenhouse:8106224",
-   "source": "greenhouse",
-   "company": "Dropbox",
-   "title": "Software Engineering Intern (Summer 2027)",
-   "location": "Remote - US: All locations",
-   "url": "https://jobs.dropbox.com/listing/8106224?gh_jid=8106224",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 5,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-07",
-   "firstSeenAt": "2026-09-07T16:26:02.203Z"
-  },
-  {
    "dedupeKey": "greenhouse:8191506",
    "source": "greenhouse",
    "company": "Okta",
@@ -4107,6 +4084,29 @@
    },
    "postedAt": "2026-09-14T12:55:09-04:00",
    "firstSeenAt": "2026-09-14T19:18:21.574Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8106224",
+   "source": "greenhouse",
+   "company": "Dropbox",
+   "title": "Software Engineering Intern (Summer 2027)",
+   "location": "Remote - US: All locations",
+   "url": "https://jobs.dropbox.com/listing/8106224?gh_jid=8106224",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-07",
+   "firstSeenAt": "2026-09-07T16:26:02.203Z"
   },
   {
    "dedupeKey": "greenhouse:8193731",
@@ -27497,6 +27497,29 @@
    "firstSeenAt": "2026-09-19T05:48:10.643Z"
   },
   {
+   "dedupeKey": "simplifyjobs:0bef063c-0252-40bc-a594-e3c26379865e",
+   "source": "simplifyjobs",
+   "company": "Perseus Group",
+   "title": "Software Engineer 1",
+   "location": "Sharon, PA; Jacksonville, FL",
+   "url": "https://talentmanagementsolution.wd3.myworkdayjobs.com/en-US/perseus-careers/job/Sharon-Pennsylvania---USA/Software-Engineer-I_R54341",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-19T00:00:00.000Z",
+   "firstSeenAt": "2026-09-19T14:44:05.175Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:cf783ed0-c7de-4051-813a-018e1ba6e7fc",
    "source": "simplifyjobs",
    "company": "Core & Main",
@@ -39787,29 +39810,6 @@
    "firstSeenAt": "2026-09-16T23:49:28.046Z"
   },
   {
-   "dedupeKey": "simplifyjobs:f7d09a94-8bd0-4131-bc32-287f419b5e98",
-   "source": "simplifyjobs",
-   "company": "EQT Corporation",
-   "title": "Data Engineering Intern - Completions Services",
-   "location": "Canonsburg, PA",
-   "url": "https://job-boards.greenhouse.io/eqtcorporation/jobs/5422414008",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-16T22:31:55.000Z",
-   "firstSeenAt": "2026-09-16T23:49:28.046Z"
-  },
-  {
    "dedupeKey": "greenhouse:8202801",
    "source": "greenhouse",
    "company": "Waymo",
@@ -42589,6 +42589,16 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z",
    "closedAt": "2026-09-19T14:23:05.893Z",
    "url": "https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f7d09a94-8bd0-4131-bc32-287f419b5e98",
+   "company": "EQT Corporation",
+   "title": "Data Engineering Intern - Completions Services",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-16T23:49:28.046Z",
+   "closedAt": "2026-09-19T14:44:05.175Z",
+   "url": "https://job-boards.greenhouse.io/eqtcorporation/jobs/5422414008"
   }
  ]
 }
