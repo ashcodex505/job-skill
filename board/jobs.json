@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-19T22:57:56.591Z",
+ "updatedAt": "2026-09-19T23:27:21.677Z",
  "jobs": [
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
@@ -3897,32 +3897,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "ashby:45fc41cd-8280-4010-ba1f-def6114b3e39",
-   "source": "ashby",
-   "company": "Applied Intuition",
-   "title": "Research Engineer - New Grad (2027)",
-   "location": "Sunnyvale",
-   "url": "https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Algorithms"
-   ],
-   "acceptsMasters": true,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-08-14T21:59:13.521+00:00",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "workday:JR0285211",
    "source": "workday",
    "company": "Intel",
@@ -4035,6 +4009,32 @@
     "skills": 0
    },
    "postedAt": "2026-09-07",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "ashby:45fc41cd-8280-4010-ba1f-def6114b3e39",
+   "source": "ashby",
+   "company": "Applied Intuition",
+   "title": "Research Engineer - New Grad (2027)",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Algorithms"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-08-14T21:59:13.521+00:00",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
