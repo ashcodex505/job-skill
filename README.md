@@ -268,13 +268,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1802-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-44-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--19-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1780-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-40-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--19-informational)
 
-Updated **2026-09-19 18:12 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-19 19:25 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Bot Auto | Software Engineer Intern - AI Agents 🆕 | Houston, TX | Fall 2026 | 100% | 2026-09-19 | 2026-09-19 | [**Apply ➜**](https://job-boards.greenhouse.io/botauto/jobs/5429357008) |
+| Bot Auto | Software Engineer Intern - AI Agents | Houston, TX | Fall 2026 | 100% | 2026-09-19 | 2026-09-19 | [**Apply ➜**](https://job-boards.greenhouse.io/botauto/jobs/5429357008) |
 | Cotiviti | Generative AI Research Engineer Intern | Remote in USA | Fall 2026 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://careers-cotiviti.icims.com/jobs/20183/job?mobile=true&needsRedirect=false) |
 | Nokia | Software Development Co-op - AI Assisted | Sunnyvale, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40535) |
 | Tesla | Embedded Software Engineer Intern - Body Controls Firmware | Palo Alto, CA | Spring 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283994) |
