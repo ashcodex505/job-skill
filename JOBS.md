@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**1778 open roles** across **702 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-19 10:52 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1779 open roles** across **702 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-19 11:25 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (23)
@@ -32,7 +32,7 @@ Last updated: **2026-09-19 10:52 UTC** · auto-refreshed every 12h by [job-board
 | Toyota | Software Engineer - Early Career Professional 🆕 | Plano, TX | — | 80% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer--Early-Career-Professional-_10325071) |
 | RTX | Embedded Software Engineer 1 🆕 | Cedar Rapids, IA | — | 80% | 2026-08-27 | 2026-09-19 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Embedded-Software-Engineer-I--Onsite-_01870328) |
 
-## 🛠️ Internships (1218)
+## 🛠️ Internships (1219)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -335,6 +335,7 @@ Last updated: **2026-09-19 10:52 UTC** · auto-refreshed every 12h by [job-board
 | Foundation Finance | Full Stack Developer Intern | Rothschild, WI | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://careers.foundationfinance.com/jobs/2097?icims=1) |
 | L3Harris Technologies | Software Engineer Intern | Greenville, TX | Winter 2027 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Greenville-Intern,-Software-Engineer-Spring-2027-TX-75402/1420331200/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern | Palm Bay, FL | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1420321500/?ats=successfactors) |
+| RTX | Conversion Systems Engineer 1 Intern | Cedar Rapids, IA | Fall 2026 | 100% | 2026-08-17 | 2026-08-18 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion-Systems-Engineer-I--Onsite-_01866850) |
 | Encephalo Investments | Software Developer Intern | Woodbury, MN | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/EncephaloInvestments/743999734497349) |
 | KOSTAL Group | Systems Engineering Intern | Troy, MI | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/KOSTALGroup/744000138137225) |
 | RegDesk | Front End Developer Intern | Philadelphia, PA | Fall 2026 | 100% | 2026-08-18 | 2026-08-18 | [**Apply ➜**](https://jobs.smartrecruiters.com/RegDeskInc/92145731) |
@@ -435,9 +436,8 @@ Last updated: **2026-09-19 10:52 UTC** · auto-refreshed every 12h by [job-board
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 | Peachtree Corners, GA | Fall 2026 | 100% | 2026-06-16 | 2026-07-15 | [**Apply ➜**](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
 | Vital Lyfe | Software Engineering Internship - Fall 2026 | Los Angeles, CA | Fall 2026 | 100% | 2026-07-09 | 2026-07-15 | [**Apply ➜**](https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af) |
 | Atlassian | Software Engineer Intern, 2027 Summer U.S. | San Francisco - United States -   San Francisco, California 94104 United States; Seattle - United States -   Seattle, Washington  United States | 2027 | 98% (5 skills) | 2026-08-17 | 2026-09-01 | [**Apply ➜**](https://www.atlassian.com/company/careers/details/26266) |
-| creatify | Software Engineer Intern 2026 | Mountain View | 2026 | 98% (5 skills) | 2026-03-18 | 2026-08-30 | [**Apply ➜**](https://jobs.ashbyhq.com/creatify/75a1f1ad-13d2-4513-952c-71b6dfcaa84f) |
 
-_…and 818 more (raise the cap in src/scraper/board.ts)._
+_…and 819 more (raise the cap in src/scraper/board.ts)._
 ## 🎓 New Grad (560)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
@@ -844,14 +844,13 @@ _…and 818 more (raise the cap in src/scraper/board.ts)._
 | WeRide | Software Engineer New Grad - Algorithm | San Jose, CA | — | 80% | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://jobs.lever.co/weride/5a7cbc83-2381-482e-9d6d-e9c9d59ad63b/apply) |
 
 _…and 160 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (123)
+## 🚪 Recently closed (last 7 days) (122)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
 | RTX | Software Engineer 1 | — | 2026-09-19 |
-| RTX | Conversion Systems Engineer 1 Intern | Fall 2026 | 2026-09-19 |
 | RTX | Software Engineer 1 | — | 2026-09-19 |
 | RTX | Software Engineer Co-op - Summer/Fall 2027 | Fall 2027 | 2026-09-19 |
 | Renesas Electronics | Embedded Systems Intern | Winter 2026 | 2026-09-19 |
