@@ -1,6 +1,647 @@
 {
- "updatedAt": "2026-09-20T12:36:26.053Z",
+ "updatedAt": "2026-09-20T13:36:33.708Z",
  "jobs": [
+  {
+   "dedupeKey": "reverse-discovery:5429357008",
+   "source": "reverse-discovery",
+   "company": "botauto",
+   "title": "Intern, Software Engineer AI Agents (Fall 2026/Winter 2027)",
+   "location": "Houston, TX",
+   "url": "https://job-boards.greenhouse.io/botauto/jobs/5429357008",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "AWS",
+    "Docker",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 13
+   },
+   "postedAt": "2026-09-18T19:49:57-04:00",
+   "firstSeenAt": "2026-09-19T05:48:10.643Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:5412768008",
+   "source": "reverse-discovery",
+   "company": "breezecash",
+   "title": "Full Stack Engineer - Junior",
+   "location": "New York City, NY",
+   "url": "https://job-boards.greenhouse.io/breezecash/jobs/5412768008",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "TypeScript",
+    "React",
+    "Node.js"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-09-01T13:37:51-04:00",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:4713683006",
+   "source": "reverse-discovery",
+   "company": "brevium",
+   "title": "Software Engineer Intern",
+   "location": "American Fork, UT",
+   "url": "https://job-boards.greenhouse.io/brevium/jobs/4713683006",
+   "season": null,
+   "roleType": "internship",
+   "score": 82,
+   "matchedSkills": [
+    "SQL"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-09-15T18:12:39-04:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:d83143a9-f536-498e-9554-b419dff07a32",
+   "source": "reverse-discovery",
+   "company": "diversified-automation",
+   "title": "Applications Engineering Co-op",
+   "location": "Louisville, KY",
+   "url": "https://jobs.lever.co/diversified-automation/d83143a9-f536-498e-9554-b419dff07a32",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-27T19:19:11.167Z",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:827a092d-b8a3-4ca9-a84a-e8c236d1aabc",
+   "source": "reverse-discovery",
+   "company": "diversified-automation",
+   "title": "Software Engineering Co-op",
+   "location": "Louisville, KY",
+   "url": "https://jobs.lever.co/diversified-automation/827a092d-b8a3-4ca9-a84a-e8c236d1aabc",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-04",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:c801dd86-2e4a-4355-910b-969e847ee076",
+   "source": "reverse-discovery",
+   "company": "dreamgames",
+   "title": "DevOps Engineer (New Grad)",
+   "location": "Istanbul",
+   "url": "https://jobs.lever.co/dreamgames/c801dd86-2e4a-4355-910b-969e847ee076",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2023-07-07T08:07:31.810Z",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:0714caf0-4077-44f3-a1d4-8985b9baf1bc",
+   "source": "reverse-discovery",
+   "company": "dreamgames",
+   "title": "Software Engineer (New Grad)",
+   "location": "Istanbul",
+   "url": "https://jobs.lever.co/dreamgames/0714caf0-4077-44f3-a1d4-8985b9baf1bc",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2022-03-14T19:05:03.646Z",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:603f082e-07c8-4b1c-ac09-8963c51229ad",
+   "source": "reverse-discovery",
+   "company": "dynamiccatholic",
+   "title": "Internship - Front-End UX Intern",
+   "location": "Erlanger, Kentucky",
+   "url": "https://jobs.lever.co/dynamiccatholic/603f082e-07c8-4b1c-ac09-8963c51229ad",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-02T18:00:46.332Z",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:e94fa581-892c-4958-9515-0221f862ce57",
+   "source": "reverse-discovery",
+   "company": "dynamiccatholic",
+   "title": "Internship - Software Developer - Commerce Cloud",
+   "location": "Erlanger, Kentucky",
+   "url": "https://jobs.lever.co/dynamiccatholic/e94fa581-892c-4958-9515-0221f862ce57",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-02T20:55:13.080Z",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:09b4532f-3645-41bf-8546-e05b3448b8a0",
+   "source": "reverse-discovery",
+   "company": "educative",
+   "title": "Software Engineer (Entry-level)",
+   "location": "Lahore",
+   "url": "https://jobs.lever.co/educative/09b4532f-3645-41bf-8546-e05b3448b8a0",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 83,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "AWS",
+    "Docker",
+    "Linux"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 13
+   },
+   "postedAt": "2021-06-21T18:50:11.455Z",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:c097505b-0a28-4a33-a917-268f463641e8",
+   "source": "reverse-discovery",
+   "company": "gecko-robotics",
+   "title": "AI/Machine Learning Engineering Intern",
+   "location": "New York City",
+   "url": "https://jobs.ashbyhq.com/gecko-robotics/c097505b-0a28-4a33-a917-268f463641e8",
+   "season": null,
+   "roleType": "internship",
+   "score": 88,
+   "matchedSkills": [
+    "Python",
+    "SQL",
+    "Git",
+    "Docker",
+    "Linux"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-09-16T13:16:29.476+00:00",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:01138338-ff3c-4982-8ba3-5401386bf082",
+   "source": "reverse-discovery",
+   "company": "gecko-robotics",
+   "title": "Full Stack Software Engineering Intern",
+   "location": "New York City",
+   "url": "https://jobs.ashbyhq.com/gecko-robotics/01138338-ff3c-4982-8ba3-5401386bf082",
+   "season": null,
+   "roleType": "internship",
+   "score": 93,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "PostgreSQL",
+    "Git",
+    "Docker",
+    "Linux"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 13
+   },
+   "postedAt": "2026-09-16",
+   "firstSeenAt": "2026-09-17T16:55:21.807Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:24561868-f075-4edf-a991-59ff0174e92a",
+   "source": "reverse-discovery",
+   "company": "gecko-robotics",
+   "title": "Embedded Software Engineering Intern",
+   "location": "Pittsburgh",
+   "url": "https://jobs.ashbyhq.com/gecko-robotics/24561868-f075-4edf-a991-59ff0174e92a",
+   "season": null,
+   "roleType": "internship",
+   "score": 88,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "React",
+    "Git",
+    "Linux"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-09-15T17:18:09.087+00:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:9b5477f4-97af-4aaa-b855-910c982ce191",
+   "source": "reverse-discovery",
+   "company": "genmo",
+   "title": "Research Engineer (New Grad)",
+   "location": "San Francisco HQ",
+   "url": "https://jobs.ashbyhq.com/genmo/9b5477f4-97af-4aaa-b855-910c982ce191",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-09-14T23:33:38.719+00:00",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:96f0c2f8-3d97-4763-ab46-b6af6ad8b2e7",
+   "source": "reverse-discovery",
+   "company": "gigaml",
+   "title": "Software Engineer I / II",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/gigaml/96f0c2f8-3d97-4763-ab46-b6af6ad8b2e7",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2025-05-14T12:09:37.787+00:00",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:ea4abfde-77d8-4a80-878b-c5132163c7f0",
+   "source": "reverse-discovery",
+   "company": "gigaml",
+   "title": "Forward Deployed Engineer I/II",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/gigaml/ea4abfde-77d8-4a80-878b-c5132163c7f0",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 83,
+   "matchedSkills": [
+    "Python",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-06-12T18:26:52.564+00:00",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:ba9b543d-e85c-4bd1-978b-f838d7a4062f",
+   "source": "reverse-discovery",
+   "company": "gigaml",
+   "title": "Software Engineer I / II",
+   "location": "New York",
+   "url": "https://jobs.ashbyhq.com/gigaml/ba9b543d-e85c-4bd1-978b-f838d7a4062f",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-02-20T21:17:07.397+00:00",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:5ece3064-6884-43c2-923c-066d6187b25d",
+   "source": "reverse-discovery",
+   "company": "glide",
+   "title": "Full Stack Engineer - Early Career",
+   "location": "New York City",
+   "url": "https://jobs.ashbyhq.com/glide/5ece3064-6884-43c2-923c-066d6187b25d",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 89,
+   "matchedSkills": [
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Git",
+    "Docker"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 9
+   },
+   "postedAt": "2026-02-02T17:31:55.013+00:00",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:aa7c2419-7bb9-4080-9403-937c4db01bb6",
+   "source": "reverse-discovery",
+   "company": "graymatter-robotics",
+   "title": "Robotics Engineering Intern: Systems & Applications",
+   "location": "Los Angeles - HQ",
+   "url": "https://jobs.ashbyhq.com/graymatter-robotics/aa7c2419-7bb9-4080-9403-937c4db01bb6",
+   "season": null,
+   "roleType": "internship",
+   "score": 83,
+   "matchedSkills": [
+    "Python",
+    "Linux"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-09-10T22:51:49.289+00:00",
+   "firstSeenAt": "2026-09-11T05:54:14.100Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:be8855c5-f8c7-4f09-bd3f-04ecbcf4b42d",
+   "source": "reverse-discovery",
+   "company": "h3x-technologies",
+   "title": "Test Engineering Intern (Spring)",
+   "location": "Louisville, Colorado",
+   "url": "https://jobs.ashbyhq.com/h3x-technologies/be8855c5-f8c7-4f09-bd3f-04ecbcf4b42d",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T18:51:36.580+00:00",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:2b0423c6-947d-4226-8d23-90743bd5e63e",
+   "source": "reverse-discovery",
+   "company": "hadrian-automation",
+   "title": "Software Engineer Intern",
+   "location": "Los Angeles, CA",
+   "url": "https://jobs.ashbyhq.com/hadrian-automation/2b0423c6-947d-4226-8d23-90743bd5e63e",
+   "season": null,
+   "roleType": "internship",
+   "score": 83,
+   "matchedSkills": [
+    "Python",
+    "TypeScript"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-09-02T21:46:58.459+00:00",
+   "firstSeenAt": "2026-09-03T09:58:19.603Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:f718bcfe-3f5b-4682-a294-697499caf813",
+   "source": "reverse-discovery",
+   "company": "hadrian-automation",
+   "title": "Data Science/ Data Engineer Intern",
+   "location": "Los Angeles, CA",
+   "url": "https://jobs.ashbyhq.com/hadrian-automation/f718bcfe-3f5b-4682-a294-697499caf813",
+   "season": null,
+   "roleType": "internship",
+   "score": 83,
+   "matchedSkills": [
+    "Python",
+    "SQL"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-09-02T21:47:29.454+00:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:2f936add-3a94-48d9-9759-90c1e2c64d3e",
+   "source": "reverse-discovery",
+   "company": "handshake",
+   "title": "Software Engineer I, Quality",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/handshake/2f936add-3a94-48d9-9759-90c1e2c64d3e",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-09T16:22:54.248+00:00",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:a5a71f3e-d3c0-4ac1-b6c1-9d2ac50519fc",
+   "source": "reverse-discovery",
+   "company": "harmattan-ai",
+   "title": "Junior Mechanical Engineer – Quadcopter Systems",
+   "location": "Lausanne",
+   "url": "https://jobs.ashbyhq.com/harmattan-ai/a5a71f3e-d3c0-4ac1-b6c1-9d2ac50519fc",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T13:25:01.590+00:00",
+   "firstSeenAt": "2026-09-20T13:36:33.708Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:763",
+   "source": "reverse-discovery",
+   "company": "berkshiregrey",
+   "title": "Spring 2027 Software Co-op",
+   "location": "Bedford, Massachusetts",
+   "url": "https://berkshiregrey.bamboohr.com/careers/763",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-01T22:26:25.000Z",
+   "firstSeenAt": "2026-09-02T00:04:33.169Z"
+  },
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
    "source": "ashby",
@@ -7059,75 +7700,6 @@
    "firstSeenAt": "2026-09-17T16:55:21.807Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:bff1eeb3770a2fc4a0c754e6bd587f59dcf4998a",
-   "source": "speedyapply",
-   "company": "Brevium",
-   "title": "Software Engineer Intern",
-   "location": "American Fork, UT",
-   "url": "https://job-boards.greenhouse.io/brevium/jobs/4713683006",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-16",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:db6ceea2501af9387d531eb398718e282e2e4172",
-   "source": "speedyapply",
-   "company": "Gecko Robotics",
-   "title": "Full Stack Software Engineering Intern",
-   "location": "New York City, NY",
-   "url": "https://jobs.ashbyhq.com/gecko-robotics/01138338-ff3c-4982-8ba3-5401386bf082",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-16",
-   "firstSeenAt": "2026-09-17T16:55:21.807Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:3916bb0162014c3cbd328248da81a94da72de44a",
-   "source": "speedyapply",
-   "company": "Gecko Robotics",
-   "title": "Embedded Software Engineering Intern",
-   "location": "Pittsburgh, PA",
-   "url": "https://jobs.ashbyhq.com/gecko-robotics/24561868-f075-4edf-a991-59ff0174e92a",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-16",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:ee121515d800045f3975826a1895c6426e086392",
    "source": "speedyapply",
    "company": "General Dynamics Mission Systems",
@@ -10331,29 +10903,6 @@
    "firstSeenAt": "2026-09-04T05:03:03.873Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:96c2d57b8f39e26ed61042bcac20e7e82a395c8e",
-   "source": "speedyapply",
-   "company": "Hadrian",
-   "title": "Software Engineer Intern",
-   "location": "Torrance, CA",
-   "url": "https://jobs.ashbyhq.com/hadrian-automation/2b0423c6-947d-4226-8d23-90743bd5e63e",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-03",
-   "firstSeenAt": "2026-09-03T09:58:19.603Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:52782120c9281797005deff852460b0d390de480",
    "source": "speedyapply",
    "company": "National Information Solutions Cooperative",
@@ -13277,29 +13826,6 @@
    },
    "postedAt": "2026-08-05",
    "firstSeenAt": "2026-09-17T16:55:21.807Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:4c708b8c22f9e35cc6b281a26170eff93e3d7cef",
-   "source": "speedyapply",
-   "company": "Diversified Automation",
-   "title": "Software Engineering Co-op",
-   "location": "Louisville, KY",
-   "url": "https://jobs.lever.co/diversified-automation/827a092d-b8a3-4ca9-a84a-e8c236d1aabc",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-04",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:363d58a14b49f2827781a9a3f0dc26746541664d",
@@ -34474,29 +35000,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "simplifyjobs:328e0c60-a7b7-4d0e-b8d1-c2ce66574592",
-   "source": "simplifyjobs",
-   "company": "Berkshire Grey",
-   "title": "Software Co-op",
-   "location": "Bedford, MA",
-   "url": "https://berkshiregrey.bamboohr.com/careers/763/",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-01T22:26:25.000Z",
-   "firstSeenAt": "2026-09-02T00:04:33.169Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:cbbf5921-5565-4f8b-9599-adde9125fde0",
    "source": "simplifyjobs",
    "company": "Tesla",
@@ -35345,29 +35848,6 @@
     "skills": 0
    },
    "postedAt": "2026-09-03T03:52:56.000Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:8028ea71-392c-4173-9d2a-1dc31c5a4571",
-   "source": "simplifyjobs",
-   "company": "Hadrian",
-   "title": "Data Science/Data Engineer Intern",
-   "location": "LA; Torrance, CA",
-   "url": "https://jobs.ashbyhq.com/hadrian-automation/f718bcfe-3f5b-4682-a294-697499caf813/application?embed=true",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-03T03:52:55.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -38754,29 +39234,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "simplifyjobs:89ec8845-ea94-482e-9c4f-909bc1a1c017",
-   "source": "simplifyjobs",
-   "company": "GrayMatter Robotics",
-   "title": "Robotics Engineering Intern - Systems & Applications",
-   "location": "LA; Carson, CA",
-   "url": "https://jobs.ashbyhq.com/graymatter-robotics/aa7c2419-7bb9-4080-9403-937c4db01bb6/application?embed=true",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-11T01:25:36.000Z",
-   "firstSeenAt": "2026-09-11T05:54:14.100Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:85246fff-7e47-4644-a0e6-36d4ef176665",
    "source": "simplifyjobs",
    "company": "TD Bank",
@@ -41629,29 +42086,6 @@
    },
    "postedAt": "2026-09-18T22:07:14.000Z",
    "firstSeenAt": "2026-09-19T01:30:23.635Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:231bce7f-9106-478b-baf4-5af5b77f9cd1",
-   "source": "simplifyjobs",
-   "company": "Bot Auto",
-   "title": "Software Engineer Intern - AI Agents",
-   "location": "Houston, TX",
-   "url": "https://job-boards.greenhouse.io/botauto/jobs/5429357008",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-19T01:27:13.000Z",
-   "firstSeenAt": "2026-09-19T05:48:10.643Z"
   },
   {
    "dedupeKey": "greenhouse:8190889",
