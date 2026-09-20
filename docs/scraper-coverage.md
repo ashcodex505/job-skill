@@ -39,6 +39,12 @@ production adapter. Qualcomm returned a valid response with zero current
 matches; zero is reported as a registry warning rather than treated as a
 source failure.
 
+Workday has a recurring Saturday service window. During it, some CXS clusters
+return an HTTP-200 HTML maintenance page instead of JSON. The adapter retries
+that response and, when the window is active, records the affected company as
+unscanned rather than failed or successfully empty. This avoids false health
+issues and preserves existing board rows until the next successful scan.
+
 ## Remaining non-direct sources
 
 ### Local browser scan

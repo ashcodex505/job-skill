@@ -2,7 +2,14 @@ import { eq, inArray, notInArray, and } from "drizzle-orm";
 import { db, newId, now, tables } from "@/db";
 import { loadCareerConfig } from "@/lib/career/config";
 import { runPool } from "@/lib/concurrency";
-import { ADAPTERS, scrapeSimplifyFeeds, scrapeSpeedyApplyFeeds, scrapeVanshFeed, sleep } from "./adapters";
+import {
+  ADAPTERS,
+  isExpectedWorkdayMaintenanceError,
+  scrapeSimplifyFeeds,
+  scrapeSpeedyApplyFeeds,
+  scrapeVanshFeed,
+  sleep,
+} from "./adapters";
 import { resolvePostedAt } from "./board";
 import { scrapeReverseDiscovery, type DiscoveryCursor } from "./discover";
 import { dedupeJobs, explainNormalization, FEED_SOURCES, normalizeJob, type NormalizedJob } from "./normalize";
@@ -197,8 +204,15 @@ export async function runScraper(
       console.log(`  ${portal.name}: ${raw.length} postings, ${normalized.length} relevant`);
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
-      errors.push({ company: portal.name, message });
-      console.warn(`  ${portal.name}: FAILED — ${message}`);
+      if (portal.ats === "workday" && isExpectedWorkdayMaintenanceError(err)) {
+        // Workday's planned weekly downtime is not a broken company source.
+        // Do not add the company to scannedCompanies: mergeBoard/upsert logic
+        // will therefore retain its prior jobs until a later run can verify it.
+        console.warn(`  ${portal.name}: SKIPPED — Workday weekly maintenance window`);
+      } else {
+        errors.push({ company: portal.name, message });
+        console.warn(`  ${portal.name}: FAILED — ${message}`);
+      }
     }
     await sleep(COMPANY_DELAY_MS);
   });

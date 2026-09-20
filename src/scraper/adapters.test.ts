@@ -1,5 +1,14 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { ADAPTERS, parseShopifyInternshipsHtml, scrapeAtlassian, scrapeSimplifyFeeds } from "./adapters";
+import {
+  ADAPTERS,
+  fetchJson,
+  isExpectedWorkdayMaintenanceError,
+  isWorkdayMaintenanceWindow,
+  parseShopifyInternshipsHtml,
+  scrapeAtlassian,
+  scrapeSimplifyFeeds,
+  UnexpectedHtmlResponseError,
+} from "./adapters";
 import type { CompanyPortal } from "./registry";
 
 /** Mocked-fetch adapter tests: response shape → RawJob mapping. */
@@ -18,7 +27,44 @@ function mockFetchOnce(payloads: Record<string, unknown>) {
   );
 }
 
-afterEach(() => vi.unstubAllGlobals());
+afterEach(() => {
+  vi.useRealTimers();
+  vi.unstubAllGlobals();
+});
+
+describe("JSON response handling", () => {
+  it("retries an HTTP-200 HTML maintenance page before accepting JSON", async () => {
+    vi.useFakeTimers();
+    const mockedFetch = vi
+      .fn()
+      .mockResolvedValueOnce(new Response("<!DOCTYPE html><title>Maintenance</title>", {
+        status: 200,
+        headers: { "Content-Type": "text/html" },
+      }))
+      .mockResolvedValueOnce(new Response(JSON.stringify({ ok: true }), {
+        status: 200,
+        headers: { "Content-Type": "application/json" },
+      }));
+    vi.stubGlobal("fetch", mockedFetch);
+
+    const resultPromise = fetchJson<{ ok: boolean }>("https://example.com/jobs");
+    await vi.runAllTimersAsync();
+
+    await expect(resultPromise).resolves.toEqual({ ok: true });
+    expect(mockedFetch).toHaveBeenCalledTimes(2);
+  });
+
+  it("recognizes Workday's recurring Saturday maintenance window", () => {
+    const during = new Date("2026-09-19T06:30:00.000Z"); // 02:30 Saturday EDT
+    const after = new Date("2026-09-19T11:00:00.000Z"); // 07:00 Saturday EDT
+    const html = new UnexpectedHtmlResponseError("example.wd5.myworkdayjobs.com", "text/html");
+
+    expect(isWorkdayMaintenanceWindow(during)).toBe(true);
+    expect(isExpectedWorkdayMaintenanceError(html, during)).toBe(true);
+    expect(isWorkdayMaintenanceWindow(after)).toBe(false);
+    expect(isExpectedWorkdayMaintenanceError(html, after)).toBe(false);
+  });
+});
 
 describe("atlassian first-party adapter", () => {
   it("maps Atlassian's careers listing endpoint", async () => {

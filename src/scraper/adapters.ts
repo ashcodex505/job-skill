@@ -33,6 +33,22 @@ class FetchStatusError extends Error {
   }
 }
 
+/**
+ * Some ATS/CDN edges answer a JSON API request with an HTTP-200 HTML
+ * maintenance or bot-challenge page. Keep that distinct from malformed JSON:
+ * it is normally transient and safe to retry, and callers can recognize a
+ * provider's planned downtime without parsing a JavaScript SyntaxError.
+ */
+export class UnexpectedHtmlResponseError extends Error {
+  constructor(
+    public readonly host: string,
+    public readonly contentType: string | null,
+  ) {
+    super(`Expected JSON from ${host}, but received a temporary HTML response`);
+    this.name = "UnexpectedHtmlResponseError";
+  }
+}
+
 /** Parses a `Retry-After` header value (seconds, or an HTTP-date) to ms, or null. */
 function parseRetryAfterMs(value: string | null): number | null {
   if (!value) return null;
@@ -45,6 +61,7 @@ function parseRetryAfterMs(value: string | null): number | null {
 /** Timeout/abort or an HTTP 429/5xx — the symptoms of momentary throttling, not permanent breakage. */
 function isRetryable(err: unknown): boolean {
   if (err instanceof FetchStatusError) return err.status === 429 || err.status >= 500;
+  if (err instanceof UnexpectedHtmlResponseError) return true;
   return err instanceof Error && err.name === "AbortError";
 }
 
@@ -57,8 +74,18 @@ async function fetchOnce<T>(url: string, init?: RequestInit): Promise<T> {
       headers: { "User-Agent": USER_AGENT, Accept: "application/json", ...init?.headers },
       signal: controller.signal,
     });
-    if (!res.ok) throw new FetchStatusError(`HTTP ${res.status} from ${new URL(url).host}`, res.status, res.headers.get("retry-after"));
-    return (await res.json()) as T;
+    const host = new URL(url).host;
+    if (!res.ok) throw new FetchStatusError(`HTTP ${res.status} from ${host}`, res.status, res.headers.get("retry-after"));
+    const contentType = res.headers.get("content-type");
+    const body = await res.text();
+    if (/^\s*(?:<!doctype\s+html|<html\b)/i.test(body) || contentType?.toLowerCase().includes("text/html")) {
+      throw new UnexpectedHtmlResponseError(host, contentType);
+    }
+    try {
+      return JSON.parse(body) as T;
+    } catch {
+      throw new Error(`Invalid JSON response from ${host}`);
+    }
   } finally {
     clearTimeout(timer);
   }
@@ -87,6 +114,28 @@ export async function fetchJson<T>(url: string, init?: RequestInit): Promise<T> 
     }
   }
   throw lastErr;
+}
+
+/**
+ * Workday performs its recurring production service update early Saturday in
+ * US Eastern time. CXS job endpoints on the affected clusters return an HTML
+ * maintenance page with status 200 during that window. A skipped source must
+ * remain unscanned so existing board rows are preserved for the next run.
+ */
+export function isWorkdayMaintenanceWindow(now: Date = new Date()): boolean {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    weekday: "short",
+    hour: "numeric",
+    hourCycle: "h23",
+  }).formatToParts(now);
+  const weekday = parts.find((part) => part.type === "weekday")?.value;
+  const hour = Number(parts.find((part) => part.type === "hour")?.value);
+  return weekday === "Sat" && hour >= 2 && hour < 7;
+}
+
+export function isExpectedWorkdayMaintenanceError(err: unknown, now: Date = new Date()): boolean {
+  return err instanceof UnexpectedHtmlResponseError && isWorkdayMaintenanceWindow(now);
 }
 
 /** Same retry/backoff policy as fetchJson, for endpoints that return raw text (e.g. XML feeds). */
