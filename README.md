@@ -268,9 +268,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1837-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-46-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--22-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1833-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-28-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--22-informational)
 
-Updated **2026-09-22 10:16 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-22 14:47 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -283,7 +283,7 @@ Updated **2026-09-22 10:16 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Tesla | Residential Energy Device Software Engineer Intern - Energy Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284275) |
 | Tesla | Power Electronics Firmware Engineer Intern 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284029) |
 | Tesla | Reliability Test Engineer Intern - Energy Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284278) |
-| SRI International | Embedded Software Engineer Co-op 🆕 | Princeton, NJ | Fall 2026 | 100% | 2026-08-03 | 2026-09-21 | [**Apply ➜**](https://careers-sri.icims.com/jobs/6431/job?mobile=true&needsRedirect=false) |
+| SRI International | Embedded Software Engineer Co-op | Princeton, NJ | Fall 2026 | 100% | 2026-08-03 | 2026-09-21 | [**Apply ➜**](https://careers-sri.icims.com/jobs/6431/job?mobile=true&needsRedirect=false) |
 | Mercury | Software Engineering Intern - Spring 2027 | SF; Remote in USA; NYC; Portland, OR; Remote in Canada | Spring 2027 | 100% | 2026-09-21 | 2026-09-21 | [**Apply ➜**](https://job-boards.greenhouse.io/mercury/jobs/6199367004) |
 | Bank of Montreal | Software Developer - Winter 2027 - Internship - 4 months | San Ramon, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-20 | [**Apply ➜**](https://bmo.wd3.myworkdayjobs.com/en-US/external/job/San-Ramon-CA-USA/Software-Developer--Winter-2027--Internship----4-months_R260027197-2) |
 | GE Appliances | Software Engineer Co-op | Louisville, KY | Spring 2027 | 100% | 2026-07-10 | 2026-09-20 | [**Apply ➜**](https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Spring-2027_REQ-24832) |
