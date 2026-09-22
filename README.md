@@ -268,12 +268,21 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1818-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-37-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--22-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1833-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-57-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--22-informational)
 
-Updated **2026-09-22 00:16 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-22 04:47 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Entergy | Compliance and Systems Support Intern 🆕 | New Orleans, LA; The Woodlands, TX; Little Rock, AR | Spring 2027 | 100% | 2026-09-21 | 2026-09-22 | [**Apply ➜**](https://jobs.entergy.com/job/Little-Rock-Student,-Intern-Compliance-and-Systems-Support-Spring-2027-Arka/1432001400/?ats=successfactors) |
+| Rivian | Software Engineer Co-op Intern - Product Development Portal 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33745?icims=1) |
+| Rivian | Software Engineer Intern Co-op - Product Lifecycle Management 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33746?icims=1) |
+| Rivian | Software Engineer Intern Co-op - Design Automation 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33748?icims=1) |
+| Rivian | Software Engineer Co-op Intern - Enterprise Applications 🆕 | Plymouth, MI | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33804?icims=1) |
+| Rivian | Software Engineer Co-op Intern - Enterprise Applications 🆕 | Normal, IL | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33803?icims=1) |
+| Tesla | Residential Energy Device Software Engineer Intern - Energy Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284275) |
+| Tesla | Power Electronics Firmware Engineer Intern 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284029) |
+| Tesla | Reliability Test Engineer Intern - Energy Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284278) |
 | SRI International | Embedded Software Engineer Co-op 🆕 | Princeton, NJ | Fall 2026 | 100% | 2026-08-03 | 2026-09-21 | [**Apply ➜**](https://careers-sri.icims.com/jobs/6431/job?mobile=true&needsRedirect=false) |
 | Mercury | Software Engineering Intern - Spring 2027 | SF; Remote in USA; NYC; Portland, OR; Remote in Canada | Spring 2027 | 100% | 2026-09-21 | 2026-09-21 | [**Apply ➜**](https://job-boards.greenhouse.io/mercury/jobs/6199367004) |
 | Bank of Montreal | Software Developer - Winter 2027 - Internship - 4 months | San Ramon, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-20 | [**Apply ➜**](https://bmo.wd3.myworkdayjobs.com/en-US/external/job/San-Ramon-CA-USA/Software-Developer--Winter-2027--Internship----4-months_R260027197-2) |
@@ -285,13 +294,4 @@ Updated **2026-09-22 00:16 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Tesla | Systems Integration Engineer Intern - Body Controls | Palo Alto, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283990) |
 | Gemini | Software Engineering Intern (Winter 2027) | New York, New York | Winter 2027 | 100% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214272&gh_jid=8214272) |
 | Amazon | Software Development Engineer Intern - Summer 2027 (USA) | Seattle, Washington, USA | Summer 2027 | 100% | 2026-09-17 | 2026-09-18 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) |
-| Amazon | Software Development Engineer Intern - Summer 2027 - USA | Seattle, WA | Summer 2027 | 100% | 2026-09-10 | 2026-09-18 | [**Apply ➜**](https://www.amazon.jobs/jobs/10552937/apply) |
-| Together AI | Software Development In Test Intern (Summer 2027) | San Francisco | Summer 2027 | 100% (4 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238472007) |
-| Together AI | Software Engineer Intern (Summer 2027) | San Francisco | Summer 2027 | 100% (1 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5232036007) |
-| Together AI | Software Engineer Intern (Winter 2027) | San Francisco | Winter 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238031007) |
-| Together AI | Software Engineer, New Grad (2027) | San Francisco | 2027 New Grad | 100% (3 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5211582007) |
-| Together AI | Systems Research Engineer Intern - GPU Programming (Summer 2027) | San Francisco | Summer 2027 | 100% (1 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238460007) |
-| Together AI | Systems Research Engineer Intern - GPU Programming (Winter 2027) | San Francisco | Winter 2027 | 100% (1 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238411007) |
-| Tesla | Internship - Software Engineering - People Products - Winter/Spring 2027 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284003) |
-| Tesla | Internship - System Integration & Test Automation Engineer - Energy Engineering - Winter/Spring 2027 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284026) |
 <!-- JOB-BOARD:END -->
