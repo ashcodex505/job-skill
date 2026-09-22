@@ -268,12 +268,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1833-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-28-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--22-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1836-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-31-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--22-informational)
 
-Updated **2026-09-22 14:47 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-22 15:09 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Rippling | Full Stack Software Engineer Intern - Summer 2027 🆕 | San Francisco, CA | Summer 2027 | 100% | — | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
+| Rippling | Machine Learning Software Engineer Intern - Summer 2027 🆕 | San Francisco, CA | Summer 2027 | 100% | — | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d) |
 | Entergy | Compliance and Systems Support Intern 🆕 | New Orleans, LA; The Woodlands, TX; Little Rock, AR | Spring 2027 | 100% | 2026-09-21 | 2026-09-22 | [**Apply ➜**](https://jobs.entergy.com/job/Little-Rock-Student,-Intern-Compliance-and-Systems-Support-Spring-2027-Arka/1432001400/?ats=successfactors) |
 | Rivian | Software Engineer Co-op Intern - Product Development Portal 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33745?icims=1) |
 | Rivian | Software Engineer Intern Co-op - Product Lifecycle Management 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33746?icims=1) |
@@ -292,6 +294,4 @@ Updated **2026-09-22 14:47 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Nokia | Software Development Co-op - AI Assisted | Sunnyvale, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40535) |
 | Tesla | Embedded Software Engineer Intern - Body Controls Firmware | Palo Alto, CA | Spring 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283994) |
 | Tesla | Systems Integration Engineer Intern - Body Controls | Palo Alto, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://www.tesla.com/careers/search/job/283990) |
-| Gemini | Software Engineering Intern (Winter 2027) | New York, New York | Winter 2027 | 100% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214272&gh_jid=8214272) |
-| Amazon | Software Development Engineer Intern - Summer 2027 (USA) | Seattle, Washington, USA | Summer 2027 | 100% | 2026-09-17 | 2026-09-18 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) |
 <!-- JOB-BOARD:END -->
