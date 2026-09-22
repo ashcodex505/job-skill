@@ -26,8 +26,19 @@ const ROLE_KEYWORDS = [
   /back[- ]?end/i,
   /front[- ]?end/i,
   /full[- ]?stack/i,
-  /infrastructure/i,
-  /\bsystems?\b/i,
+  // Infrastructure and systems are only software signals with an engineering
+  // qualifier. Bare matches admitted investment infrastructure, power
+  // systems, systems marketing, mechanical systems, and similar roles.
+  /\binfrastructure (?:software )?engineer/i,
+  /\b(?:software|developer|production|cloud|data|ai|ml|inference|compute) infrastructure\b/i,
+  /\b(?:ai|ml)\b.*\binfrastructure\b/i,
+  /\bdistributed (?:systems?|computing)\b/i,
+  /\bsystems? software\b/i,
+  /\bsystems research engineer\b.*\b(?:gpu programming|distributed|inference|software)\b/i,
+  /\binference\b/i,
+  /\bmodel serving\b/i,
+  /\b(?:ai|ml|machine learning|generative ai) research engineer\b/i,
+  /\bresearch engineer\b.*\b(?:ai|ml|machine learning|software|distributed|inference)\b/i,
   /platform engineer/i,
   /\bml engineer\b/i,
   /machine learning engineer/i,

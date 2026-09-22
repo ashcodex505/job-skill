@@ -1,6 +1,8 @@
 import type { ScoreBreakdown } from "./classify";
+import { classifyTitle, isUsRemoteOrHybridLocation } from "./classify";
+import type { CareerConfig } from "@/lib/career/config";
 import { acceptsMasters, roleRestriction } from "./role-restrictions";
-import { canonicalUrl, FEED_SOURCES } from "./normalize";
+import { canonicalUrl, careerPolicyRejectionReason, FEED_SOURCES } from "./normalize";
 import type { NormalizedJob } from "./normalize";
 
 /**
@@ -89,6 +91,7 @@ export function mergeBoard(
   scraped: NormalizedJob[],
   now: string,
   scanned?: string[] | { companies?: string[]; sources?: string[] },
+  config?: CareerConfig,
 ): BoardData {
   const norm = scanned === undefined ? null : Array.isArray(scanned) ? { companies: scanned } : scanned;
   const companies = norm?.companies ? new Set(norm.companies.map((c) => c.toLowerCase())) : null;
@@ -176,14 +179,20 @@ export function mergeBoard(
     (c) => new Date(now).getTime() - new Date(c.closedAt).getTime() < CLOSED_RETENTION_MS,
   );
 
-  return filterRestrictedBoard({ updatedAt: now, jobs, closed });
+  return filterRestrictedBoard({ updatedAt: now, jobs, closed }, config);
 }
 
 /** Apply updated exclusions to carried-forward rows, including partial scans. */
-export function filterRestrictedBoard(board: BoardData): BoardData {
+export function filterRestrictedBoard(board: BoardData, config?: CareerConfig): BoardData {
   return {
     ...board,
-    jobs: board.jobs.filter((job) => !roleRestriction(job.title, null, job.acceptsMasters)),
+    jobs: board.jobs.filter((job) => {
+      if (roleRestriction(job.title, null, job.acceptsMasters)) return false;
+      if (!config) return true;
+      const classification = classifyTitle(job.title, job.location, config, new Date(board.updatedAt), job.season);
+      if (!classification.relevant || !isUsRemoteOrHybridLocation(job.location)) return false;
+      return careerPolicyRejectionReason({ company: job.company, title: job.title }, classification, config) === null;
+    }),
     closed: board.closed?.filter((job) => !roleRestriction(job.title)),
   };
 }

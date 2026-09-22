@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { closeJobs, isNewJob, mergeBoard, renderJobsMarkdown, updateReadme, README_END, README_START, type BoardData } from "./board";
 import type { NormalizedJob } from "./normalize";
+import type { CareerConfig } from "@/lib/career/config";
 
 const job = (overrides: Partial<NormalizedJob> = {}): NormalizedJob => ({
   source: "greenhouse",
@@ -22,7 +23,33 @@ const job = (overrides: Partial<NormalizedJob> = {}): NormalizedJob => ({
 
 const NOW = "2026-07-04T12:00:00.000Z";
 
+const softwareOnlyConfig: CareerConfig = {
+  skills: [],
+  targetRoles: ["Software Engineer", "Backend Engineer", "Distributed Systems Engineer", "Infrastructure Engineer", "Inference Engineer"],
+  seasons: ["2027 New Grad", "Summer 2027"],
+  requiredNewGradTitleKeywords: ["New Grad", "Entry Level", "Engineer I"],
+  internshipSeasons: ["Any"],
+  summer2027ApprovedCompanies: [],
+  locations: [],
+  positiveKeywords: [],
+  negativeKeywords: ["Hardware", "Firmware", "Embedded", "FPGA", "ASIC"],
+  maxPostingAgeDays: null,
+};
+
 describe("mergeBoard", () => {
+  it("reapplies current software policy to carried-forward jobs", () => {
+    const previous: BoardData = {
+      updatedAt: NOW,
+      jobs: [
+        { ...job({ dedupeKey: "g:software", title: "Backend Engineer Intern", url: "https://example.com/software" }), firstSeenAt: NOW },
+        { ...job({ dedupeKey: "g:firmware", title: "Firmware Engineer Intern", url: "https://example.com/firmware" }), firstSeenAt: NOW },
+        { ...job({ dedupeKey: "g:systems", title: "Mechanical Systems Engineer Intern", url: "https://example.com/systems" }), firstSeenAt: NOW },
+      ],
+    };
+    const merged = mergeBoard(previous, [], NOW, { companies: [], sources: [] }, softwareOnlyConfig);
+    expect(merged.jobs.map((entry) => entry.dedupeKey)).toEqual(["g:software"]);
+  });
+
   it("preserves firstSeenAt for jobs seen before", () => {
     const prev: BoardData = {
       updatedAt: "2026-07-01T00:00:00.000Z",

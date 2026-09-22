@@ -185,6 +185,7 @@ async function main() {
   }
 
   const now = new Date().toISOString();
+  const careerConfig = loadCareerConfig();
   let recoveryGap: RecoveryGap | null = null;
   if (watchMode || priorityMode) {
     let watchHealth: WatchHealthState | null = null;
@@ -199,7 +200,7 @@ async function main() {
   let board = mergeBoard(previous, summary.jobs, now, {
     companies: summary.scannedCompanies,
     sources: summary.scannedSources,
-  });
+  }, careerConfig);
 
   if (linkcheck && board.jobs.length > 0) {
     console.log(`Link-checking ${board.jobs.length} posting URLs...`);
@@ -297,7 +298,7 @@ async function main() {
   // company-scout.ts) — CI never runs the scout itself (it needs the local
   // Claude CLI), it just reads whatever that job already committed, same as
   // any other config file.
-  const approvedCompanies = [...loadCareerConfig().summer2027ApprovedCompanies, ...loadScoutCompanies()];
+  const approvedCompanies = [...careerConfig.summer2027ApprovedCompanies, ...loadScoutCompanies()];
   const bigTech = filterUnalerted(ledger, selectBigTechAlerts(newJobs, urgent, now, approvedCompanies));
   const bigTechTitle =
     bigTech.length === 1

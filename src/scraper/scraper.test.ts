@@ -99,6 +99,34 @@ describe("classify", () => {
     }
   });
 
+  it("recognizes software-specific systems, infrastructure, and inference roles", () => {
+    for (const title of [
+      "Distributed Systems Engineer Intern",
+      "Inference Runtime Engineer Intern",
+      "Model Serving Engineer Intern",
+      "Infrastructure Software Engineer Intern",
+      "Developer Infrastructure Engineer, New Grad",
+      "Systems Software Engineer Intern",
+      "Systems Research Engineer Intern - GPU Programming",
+      "Generative AI Research Engineer Intern",
+      "Infrastructure Intern - AI Foundation Models Infrastructure",
+    ]) {
+      expect(classifyTitle(title).breakdown.role, title).toBe(40);
+    }
+  });
+
+  it("does not treat bare systems or unrelated infrastructure as software roles", () => {
+    for (const title of [
+      "Mechanical Systems Engineer Intern",
+      "Power Systems Integration Intern",
+      "Systems Marketing Engineer Intern",
+      "Compliance and Systems Support Intern",
+      "Investment Infrastructure & Technology Intern",
+    ]) {
+      expect(classifyTitle(title).breakdown.role, title).toBe(0);
+    }
+  });
+
   it("rejects non-engineering roles", () => {
     expect(classifyTitle("Account Executive").relevant).toBe(false);
     expect(classifyTitle("Recruiting Coordinator").relevant).toBe(false);
@@ -187,6 +215,22 @@ describe("normalize + dedupe", () => {
   it("drops irrelevant jobs", () => {
     expect(normalizeJob(raw({ title: "Senior Staff Engineer" }))).toBeNull();
     expect(normalizeJob(raw({ title: "" }))).toBeNull();
+  });
+
+  it("hard-excludes hardware-adjacent engineering from the software search", () => {
+    const titles = [
+      "Firmware Engineer Intern",
+      "Embedded Software Engineer Intern",
+      "Software/Firmware Engineering Intern",
+      "FPGA Software Engineer Intern",
+      "ASIC Verification Engineer Intern",
+      "Hardware Engineering Intern",
+    ];
+    for (const title of titles) {
+      const result = explainNormalization(raw({ title }), strictConfig, REF);
+      expect(result.job, title).toBeNull();
+      expect(result.reason, title).toMatch(/^(hardware|firmware|embedded)_role$/);
+    }
   });
 
   it("enforces explicit new-grad or early-career wording for full-time roles", () => {

@@ -6,11 +6,13 @@ explanatory text documents the intent behind each rule.
 
 ## Eligibility policy
 
-I am a new-grad / early-career candidate seeking full-time technical engineering
+I am a new-grad / early-career candidate seeking full-time software engineering
 roles, including Forward Deployed Engineer (FDE), Software Engineer I / 1,
 AI and machine learning, distributed
 systems, infrastructure, platform, data, cloud, security, research engineering,
-and other technical engineering work suited to a graduating student. Explicit
+and other software-centered engineering work suited to a graduating student.
+Firmware, embedded, hardware, FPGA, and ASIC roles are outside this search,
+including titles that combine one of those specializations with “software.” Explicit
 new-grad, early-career, entry-level, junior, and Engineer I / 1 titles qualify
 for discovery. A level-I title is a lead to review, not proof of eligibility:
 check experience and degree requirements before applying. Generic experienced
@@ -95,21 +97,13 @@ rules in this file apply, so an approved company may have zero eligible roles.
 - Machine Learning Engineer
 - ML Engineer
 - Applied AI Engineer
-- Research Engineer
 - Distributed Systems Engineer
-- Systems Engineer
 - Infrastructure Engineer
 - Data Engineer
 - Cloud Engineer
 - Security Engineer
 - Site Reliability Engineer
 - DevOps Engineer
-- Test Engineer
-- QA Engineer
-- Solutions Engineer
-- Applications Engineer
-- Firmware Engineer
-- Embedded Engineer
 
 ## Seasons
 
@@ -337,7 +331,7 @@ new-grad, season, or Summer 2027 company rules.
 - Engineer 1
 - Junior
 
-## Degree eligibility and hardware exclusions
+## Degree eligibility and software-domain exclusions
 
 Accept roles open to master's students/graduates, including combined
 Master's / PhD, MS / PhD, and MSc / PhD opportunities. Exclude PhD-only or
@@ -345,9 +339,10 @@ doctoral-only roles. A PhD preference alone is not a PhD-only requirement.
 The scraper checks titles and available descriptions; when a source supplies
 no description, it can only apply degree rules to the title.
 
-Exclude any role with the word **hardware** in its title, even if it accepts
-master's candidates or is otherwise an internship/new-grad match. Incidental
-hardware mentions in software job descriptions do not disqualify a role.
+Exclude any role with **hardware**, **firmware**, **embedded**, **FPGA**, or
+**ASIC** in its title, even if it accepts master's candidates or is otherwise
+an internship/new-grad match. Incidental mentions in software job descriptions
+do not disqualify a role.
 
 ## Negative title keywords
 
@@ -361,6 +356,10 @@ search. A negative keyword always wins over a positive match.
 - Manager
 - Mid-Level
 - Experienced Hire
+- Embedded
+- Firmware
+- FPGA
+- ASIC
 - Hardware
 - COBOL
 - Mainframe

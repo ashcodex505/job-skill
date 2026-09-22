@@ -17,8 +17,14 @@ export function roleRestriction(
   title: string,
   description?: string | null,
   knownMastersEligible = false,
-): "hardware_role" | "phd_only" | null {
-  if (/\bhardware\b/i.test(title)) return "hardware_role";
+): "hardware_role" | "firmware_role" | "embedded_role" | "phd_only" | null {
+  // These are outside the software-only search even when a title also says
+  // "software" (for example, "Embedded Software Engineer") or is explicitly
+  // early-career. Keep this independent of career/preferences.md so every
+  // ingestion and carried-board path enforces the same domain boundary.
+  if (/\b(?:hardware|fpga|asic)\b/i.test(title)) return "hardware_role";
+  if (/\bfirmware\b/i.test(title)) return "firmware_role";
+  if (/\bembedded\b/i.test(title)) return "embedded_role";
   if (knownMastersEligible || acceptsMasters(title, description)) return null;
   if (PHD.test(title) && !/\b(?:preferred|optional)\b/i.test(title)) return "phd_only";
   const text = stripHtml((description ?? "").replace(/ph\.\s*d\.?/gi, "PhD"));

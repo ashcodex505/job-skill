@@ -67,6 +67,8 @@ export interface NormalizedJob extends Omit<RawJob, "description"> {
 
 export type NormalizationRejectionReason =
   | "hardware_role"
+  | "firmware_role"
+  | "embedded_role"
   | "phd_only"
   | "empty_title"
   | "irrelevant_title"
