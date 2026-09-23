@@ -268,18 +268,20 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1633-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-26-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--23-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1641-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-30-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--23-informational)
 
-Updated **2026-09-23 00:53 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-23 05:55 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Astranis | Flight Software Intern 🆕 | SF | Winter 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4704595006) |
+| Vital Lyfe | Software Engineering Intern 🆕 | Torrance, CA | Spring 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jobs.ashbyhq.com/vital-lyfe/c39b72aa-9ad5-43e7-a3fd-8ef2e152ee4b/application?embed=true) |
 | Together AI | Research Intern, Inference (Summer 2027) 🆕 | San Francisco | Summer 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238462007) |
 | Together AI | Research Intern, Inference (Winter 2027) 🆕 | San Francisco | Winter 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238461007) |
 | Optiver | Software Engineer Co-op 🆕 | Chicago, IL | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/optiverprivate/jobs/8784302002) |
-| Rippling | Software Engineer Intern - Backend Focused - Summer 2027 🆕 | New York, NY | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) |
-| Rippling | Full Stack Software Engineer Intern - Summer 2027 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
-| Rippling | Machine Learning Software Engineer Intern - Summer 2027 🆕 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d) |
+| Rippling | Software Engineer Intern - Backend Focused - Summer 2027 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) |
+| Rippling | Full Stack Software Engineer Intern - Summer 2027 | New York, NY | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
+| Rippling | Machine Learning Software Engineer Intern - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d) |
 | Rivian | Software Engineer Co-op Intern - Product Development Portal | Palo Alto, CA | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33745?icims=1) |
 | Rivian | Software Engineer Intern Co-op - Product Lifecycle Management | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33746?icims=1) |
 | Rivian | Software Engineer Intern Co-op - Design Automation | Palo Alto, CA | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33748?icims=1) |
@@ -292,6 +294,4 @@ Updated **2026-09-23 00:53 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Bot Auto | Software Engineer Intern - AI Agents | Houston, TX | Fall 2026 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://job-boards.greenhouse.io/botauto/jobs/5429357008) |
 | Cotiviti | Generative AI Research Engineer Intern | Remote in USA | Fall 2026 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://careers-cotiviti.icims.com/jobs/20183/job?mobile=true&needsRedirect=false) |
 | Nokia | Software Development Co-op - AI Assisted | Sunnyvale, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-19 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40535) |
-| Gemini | Software Engineering Intern (Winter 2027) | New York, New York | Winter 2027 | 100% | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214272&gh_jid=8214272) |
-| Amazon | Software Development Engineer Intern - Summer 2027 (USA) | Seattle, Washington, USA | Summer 2027 | 100% | 2026-09-17 | 2026-09-18 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) |
 <!-- JOB-BOARD:END -->
