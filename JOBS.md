@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
 **1633 open roles** across **675 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-23 00:25 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+Last updated: **2026-09-23 00:53 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (26)
@@ -17,8 +17,8 @@ Last updated: **2026-09-23 00:25 UTC** · auto-refreshed every 12h by [job-board
 | Cotiviti | Data Engineer Intern - Multiple Teams 🆕 | Remote in USA | Winter 2026 | 95% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers-cotiviti.icims.com/jobs/20383/job?mobile=true&needsRedirect=false) |
 | Abnormal AI | Software Engineer 1 - Data Platforms 🆕 | Remote - USA | — | 91% (4 skills) | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://abnormal.ai/careers/jobs/8001641003?gh_jid=8001641003) |
 | Waymo | 2027 Summer Intern, MS/PhD, Machine Learning Engineer 🆕 | San Francisco, CA, USA | 2027 | 93% (2 skills) | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8223735) |
-| Rippling | Software Engineer Intern - Backend Focused - Summer 2027 🆕 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) |
-| Rippling | Full Stack Software Engineer Intern - Summer 2027 🆕 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
+| Rippling | Software Engineer Intern - Backend Focused - Summer 2027 🆕 | New York, NY | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) |
+| Rippling | Full Stack Software Engineer Intern - Summer 2027 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
 | Rippling | Machine Learning Software Engineer Intern - Summer 2027 🆕 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d) |
 | Optiver | Software Engineer Co-op 🆕 | Chicago, IL | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/optiverprivate/jobs/8784302002) |
 | Vantor | AI Engineer Intern 🆕 | Remote in USA | Winter 2026 | 95% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://maxar.wd1.myworkdayjobs.com/Vantor/job/Remote-United-States/AI-Engineer-Intern_R24605) |
@@ -42,8 +42,8 @@ Last updated: **2026-09-23 00:25 UTC** · auto-refreshed every 12h by [job-board
 | Together AI | Research Intern, Inference (Summer 2027) 🆕 | San Francisco | Summer 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238462007) |
 | Together AI | Research Intern, Inference (Winter 2027) 🆕 | San Francisco | Winter 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238461007) |
 | Optiver | Software Engineer Co-op 🆕 | Chicago, IL | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/optiverprivate/jobs/8784302002) |
-| Rippling | Software Engineer Intern - Backend Focused - Summer 2027 🆕 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) |
-| Rippling | Full Stack Software Engineer Intern - Summer 2027 🆕 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
+| Rippling | Software Engineer Intern - Backend Focused - Summer 2027 🆕 | New York, NY | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) |
+| Rippling | Full Stack Software Engineer Intern - Summer 2027 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
 | Rippling | Machine Learning Software Engineer Intern - Summer 2027 🆕 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d) |
 | Rivian | Software Engineer Co-op Intern - Product Development Portal | Palo Alto, CA | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33745?icims=1) |
 | Rivian | Software Engineer Intern Co-op - Product Lifecycle Management | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33746?icims=1) |
@@ -476,8 +476,8 @@ _…and 712 more (raise the cap in src/scraper/board.ts)._
 | Affirm | Software Engineer I, Frontend (Upfunnel) | Remote Canada | — | 90% (3 skills) | 2026-09-11 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7985907003) |
 | glide | Full Stack Engineer - Early Career | New York City | — | 89% (6 skills) | 2026-02-02 | 2026-09-20 | [**Apply ➜**](https://jobs.ashbyhq.com/glide/5ece3064-6884-43c2-923c-066d6187b25d) |
 | Samsara | Software Engineer I, External Platform EMEA (Poland, Remote) | Remote - Poland | — | 88% (2 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8210695?gh_jid=8210695) |
-| Affirm | Software Engineer I, Backend (Collections) | Remote Spain | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807506003) |
 | Affirm | Software Engineer I, Backend (Collections) | Remote Poland | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807508003) |
+| Affirm | Software Engineer I, Backend (Collections) | Remote Spain | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807506003) |
 | Affirm | Software Engineer I, Fullstack ( Post-Purchase International) | Remote Spain | — | 88% (2 skills) | 2026-08-05 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7809763003) |
 | Affirm | Software Engineer I, Fullstack (Post-Purchase International) | Remote Poland | — | 88% (2 skills) | 2026-08-05 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7809761003) |
 | DoorDash | Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US | Los Angeles, CA; New York, NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA | — | 88% (5 skills) | 2026-09-04 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8163709) |
@@ -847,7 +847,7 @@ _…and 712 more (raise the cap in src/scraper/board.ts)._
 | TikTok | Backend Software Engineer New Grad - Trust & Safety | San Jose, CA | — | 80% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7665994926887291189) |
 
 _…and 121 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (298)
+## 🚪 Recently closed (last 7 days) (296)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -1149,8 +1149,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | PayPal | Software Engineer Intern | — | 2026-09-16 |
 | Coinbase | Machine Learning Engineer Intern | — | 2026-09-16 |
 | Rakuten International | Early Career AI Engineer - Contract | — | 2026-09-16 |
-| Lentech Inc. | Entry Level Web Developer - Multiple Teams | — | 2026-09-16 |
-| Microsoft | AI Software Engineer Intern | Fall 2026 | 2026-09-16 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
