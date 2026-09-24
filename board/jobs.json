@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-24T12:11:15.937Z",
+ "updatedAt": "2026-09-24T15:00:29.240Z",
  "jobs": [
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
@@ -1288,7 +1288,7 @@
    "source": "rippling",
    "company": "Rippling",
    "title": "Full Stack Software Engineer Intern - Summer 2027",
-   "location": "Seattle, WA",
+   "location": "New York, NY",
    "url": "https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262",
    "season": "Summer 2027",
    "roleType": "internship",
@@ -1357,7 +1357,7 @@
    "source": "rippling",
    "company": "Rippling",
    "title": "Software Engineer Intern - Backend Focused - Summer 2027",
-   "location": "Seattle, WA",
+   "location": "New York, NY",
    "url": "https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba",
    "season": "Summer 2027",
    "roleType": "internship",
@@ -1705,6 +1705,29 @@
    "firstSeenAt": "2026-09-17T22:25:31.283Z"
   },
   {
+   "dedupeKey": "oraclecloud:298784",
+   "source": "oraclecloud",
+   "company": "Dell",
+   "title": "Software Engineer 1 - IT",
+   "location": "TX, United States",
+   "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/298784",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-09T00:00:00.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "greenhouse:5238462007",
    "source": "greenhouse",
    "company": "Together AI",
@@ -1911,29 +1934,6 @@
    },
    "postedAt": "2026-09-18T11:45:36-04:00",
    "firstSeenAt": "2026-09-18T17:12:04.521Z"
-  },
-  {
-   "dedupeKey": "oraclecloud:298784",
-   "source": "oraclecloud",
-   "company": "Dell",
-   "title": "Software Engineer 1 - IT",
-   "location": "TX, United States",
-   "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/298784",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-09T00:00:00.000Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
    "dedupeKey": "greenhouse:6178851004",
@@ -2552,75 +2552,6 @@
    "firstSeenAt": "2026-09-16T19:46:02.461Z"
   },
   {
-   "dedupeKey": "workday:JR2022645",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "Software Engineering Intern, NCCL - 2026",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645",
-   "season": "2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-18",
-   "firstSeenAt": "2026-08-18T03:05:44.336Z"
-  },
-  {
-   "dedupeKey": "workday:JR2024002",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "AI Developer Technology Engineer Intern, AI - 2027",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-24",
-   "firstSeenAt": "2026-08-24T07:17:56.744Z"
-  },
-  {
-   "dedupeKey": "workday:JR2024054",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "AI Developer Technology Intern, Robotics - 2027",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Intern--Robotics---2027_JR2024054-1",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-26",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "greenhouse:8052083",
    "source": "greenhouse",
    "company": "Hudson River Trading",
@@ -2804,6 +2735,75 @@
     "skills": 9
    },
    "postedAt": "2026-07-08T17:35:13-04:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "workday:JR2022645",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern, NCCL - 2026",
+   "location": "2 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645",
+   "season": "2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18",
+   "firstSeenAt": "2026-08-18T03:05:44.336Z"
+  },
+  {
+   "dedupeKey": "workday:JR2024002",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "AI Developer Technology Engineer Intern, AI - 2027",
+   "location": "2 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-24",
+   "firstSeenAt": "2026-08-24T07:17:56.744Z"
+  },
+  {
+   "dedupeKey": "workday:JR2024054",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "AI Developer Technology Intern, Robotics - 2027",
+   "location": "2 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Intern--Robotics---2027_JR2024054-1",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-26",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -3982,6 +3982,35 @@
    "firstSeenAt": "2026-09-08T23:36:36.910Z"
   },
   {
+   "dedupeKey": "ashby:b5e81eae-06f9-4798-8988-2d06ca936dbc",
+   "source": "ashby",
+   "company": "Replit",
+   "title": "Software Engineer - New Grad (2027)",
+   "location": "Foster City, CA",
+   "url": "https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Node.js"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-09-09T18:23:24.396+00:00",
+   "firstSeenAt": "2026-09-09T23:29:08.424Z"
+  },
+  {
    "dedupeKey": "workday:JR0285211",
    "source": "workday",
    "company": "Intel",
@@ -4095,35 +4124,6 @@
    },
    "postedAt": "2026-09-07",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "ashby:b5e81eae-06f9-4798-8988-2d06ca936dbc",
-   "source": "ashby",
-   "company": "Replit",
-   "title": "Software Engineer - New Grad (2027)",
-   "location": "Foster City, CA",
-   "url": "https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "JavaScript",
-    "React",
-    "Node.js"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 8
-   },
-   "postedAt": "2026-09-09T18:23:24.396+00:00",
-   "firstSeenAt": "2026-09-09T23:29:08.424Z"
   },
   {
    "dedupeKey": "greenhouse:7807508003",
@@ -4301,31 +4301,6 @@
    },
    "postedAt": "2026-09-07",
    "firstSeenAt": "2026-09-07T16:26:02.203Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8191506",
-   "source": "greenhouse",
-   "company": "Okta",
-   "title": "Developer Support Associate (New Grad)",
-   "location": "Chicago, Illinois",
-   "url": "https://www.okta.com/company/careers/opportunity/8191506?gh_jid=8191506",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "JavaScript"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-09-14",
-   "firstSeenAt": "2026-09-14T19:18:21.574Z"
   },
   {
    "dedupeKey": "greenhouse:8193731",
@@ -4767,6 +4742,31 @@
    },
    "postedAt": "2026-09-18T15:48:52-04:00",
    "firstSeenAt": "2026-09-18T21:39:00.212Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8191506",
+   "source": "greenhouse",
+   "company": "Okta",
+   "title": "Developer Support Associate (New Grad)",
+   "location": "Chicago, Illinois",
+   "url": "https://www.okta.com/company/careers/opportunity/8191506?gh_jid=8191506",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "JavaScript"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-09-14",
+   "firstSeenAt": "2026-09-14T19:18:21.574Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:d56bcccb2611352bb4dfc57e4b0cdc18188bb6f6",
@@ -24590,29 +24590,6 @@
    "firstSeenAt": "2026-08-25T21:39:54.989Z"
   },
   {
-   "dedupeKey": "simplifyjobs:e745f9f7-84b2-4962-af95-6e3faf61a307",
-   "source": "simplifyjobs",
-   "company": "General Dynamics UK",
-   "title": "Junior Software Engineer",
-   "location": "Blackwood, UK",
-   "url": "https://jobs.smartrecruiters.com/GDMSI/744000145530335",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-25T23:49:15.000Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:ebce0ffb-1748-4999-b952-a7dbc9f36aae",
    "source": "simplifyjobs",
    "company": "Viavi Solutions",
@@ -27143,52 +27120,6 @@
    },
    "postedAt": "2026-06-30T22:05:14.000Z",
    "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b8c23e53-79db-45ab-a105-78a3d344b881",
-   "source": "simplifyjobs",
-   "company": "kos.ai",
-   "title": "Software Engineer Intern",
-   "location": "SF",
-   "url": "https://jobs.ashbyhq.com/kos.ai/efab6ffb-9658-47f7-8b5f-a295c55957d3/application",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-26T14:08:15.000Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:458415d1-7c6f-417e-9299-30a80dcdf88b",
-   "source": "simplifyjobs",
-   "company": "Espa AI",
-   "title": "Software Engineer Intern",
-   "location": "SF",
-   "url": "https://jobs.ashbyhq.com/espa/6fa2d441-971f-44c4-9a4e-3304ea041cc8/application",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-26T14:08:10.000Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
    "dedupeKey": "simplifyjobs:33da215d-313a-45b7-8ad3-bde21b250ffe",
@@ -41918,6 +41849,36 @@
    "firstSeenAt": "2026-09-16T23:49:28.046Z",
    "closedAt": "2026-09-24T12:11:15.937Z",
    "url": "https://job-boards.greenhouse.io/eqtcorporation/jobs/5422414008"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e745f9f7-84b2-4962-af95-6e3faf61a307",
+   "company": "General Dynamics UK",
+   "title": "Junior Software Engineer",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z",
+   "closedAt": "2026-09-24T15:00:29.240Z",
+   "url": "https://jobs.smartrecruiters.com/GDMSI/744000145530335"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b8c23e53-79db-45ab-a105-78a3d344b881",
+   "company": "kos.ai",
+   "title": "Software Engineer Intern",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z",
+   "closedAt": "2026-09-24T15:00:29.240Z",
+   "url": "https://jobs.ashbyhq.com/kos.ai/efab6ffb-9658-47f7-8b5f-a295c55957d3/application"
+  },
+  {
+   "dedupeKey": "simplifyjobs:458415d1-7c6f-417e-9299-30a80dcdf88b",
+   "company": "Espa AI",
+   "title": "Software Engineer Intern",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z",
+   "closedAt": "2026-09-24T15:00:29.240Z",
+   "url": "https://jobs.ashbyhq.com/espa/6fa2d441-971f-44c4-9a4e-3304ea041cc8/application"
   }
  ]
 }
