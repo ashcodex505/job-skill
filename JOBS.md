@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**1656 open roles** across **683 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-24 17:57 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1656 open roles** across **682 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-24 19:06 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (24)
@@ -530,11 +530,11 @@ _…and 737 more (raise the cap in src/scraper/board.ts)._
 | aquaticcapitalmanagement | Software Engineer, Early Career | Chicago; New York | — | 82% (1 skills) | 2026-04-01 | 2026-08-23 | [**Apply ➜**](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002) |
 | SpaceX | New Graduate Engineer, Software (Application Software) | Hawthorne, CA | — | 82% (1 skills) | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8730567002?gh_jid=8730567002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
-| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
+| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | Acrisure | Software Engineer I 🆕 | Austin, TX +1 | — | 80% | 2026-09-23 | 2026-09-24 | [**Apply ➜**](https://acrisure.wd1.myworkdayjobs.com/en-US/acrisure/job/816-Congress-Ave-Ste-1800----AUSTIN-TX/Software-Engineer-I_JR114404) |
 | Adyen | Full-Stack Developer - Junior - Docs Experience Engineering Team 🆕 | Chicago, IL | — | 80% | 2026-09-12 | 2026-09-24 | [**Apply ➜**](https://job-boards.greenhouse.io/adyen/jobs/8068230) |
 | CACI | Junior Cyber Software Engineer 🆕 | Aberdeen Proving Ground, MD | — | 80% | 2026-09-21 | 2026-09-24 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Aberdeen-Proving-Ground-MD-US/Junior-Cyber-Software-Engineer_332339) |
@@ -699,7 +699,6 @@ _…and 737 more (raise the cap in src/scraper/board.ts)._
 | PROS Holdings | Software Engineer I | Houston, TX | — | 80% | 2026-09-15 | 2026-09-16 | [**Apply ➜**](https://pros.wd5.myworkdayjobs.com/en-US/pros_careers/job/USA-TX-Houston-Office/Software-Engineer-I_R3608) |
 | Raytheon | Software Engineer I - Onsite | FT WAYNE, IN | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Software-Engineer-I--Onsite-_01871665) |
 | Remitly | Software Development Engineer I- IHUB | Seattle, WA | — | 80% | 2026-08-04 | 2026-09-16 | [**Apply ➜**](https://remitly.wd5.myworkdayjobs.com/en-US/remitly_careers/job/Seattle-Washington-United-States/Software-Development-Engineer-I--IHUB_R_106706) |
-| Revel | Full Stack Software Engineer - Entry-Junior | LA | — | 80% | 2026-07-21 | 2026-09-16 | [**Apply ➜**](https://jobs.ashbyhq.com/revel/49e46e96-e266-4ef6-8b62-e056d695dc52/application?embed=true) |
 | Rocket Companies | Software Engineer I | Detroit, MI +1 | — | 80% | 2026-08-07 | 2026-09-16 | [**Apply ➜**](https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Detroit-MI/Software-Engineer-I_R-083975) |
 | Rolls-Royce | Software Systems Controls Engineer I & II | Washington, DC | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://rollsroyce.wd3.myworkdayjobs.com/en-US/professional/job/Washington-DC-RRNA-Headquarters/Software-Systems-Controls-Engineer-I---II_JR6158703) |
 | Rolls-Royce | Junior Machine Learning Engineer | Indianapolis, IN | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://rollsroyce.wd3.myworkdayjobs.com/Intern_Graduate/job/Indianapolis/Junior-Machine-Learning-Engineering_JR6160142) |
@@ -831,6 +830,7 @@ _…and 737 more (raise the cap in src/scraper/board.ts)._
 | Freeform | Software Engineer New Grad | LA | — | 80% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7826634003) |
 | ByteDance | Large Language Model Inference System Engineer New Grad - Applied Machine Learning | San Jose, CA | — | 80% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7667726338627356933/detail) |
 | Atoms | Software Engineer New Grad | Seattle, WA; SF; LA; NYC; Mountain View, CA | — | 80% | 2026-08-06 | 2026-08-07 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8687930002) |
+| Salesforce | Software Engineering AMTS (College Grad) | 6 Locations | — | 80% | 2026-08-07 | 2026-08-07 | [**Apply ➜**](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250-1) |
 | Nooks | Software Engineer - New Grad | San Francisco, CA | — | 80% | 2026-07-30 | 2026-08-06 | [**Apply ➜**](https://jobs.ashbyhq.com/nooks/311d6e70-5cfa-4e80-89f6-fe00ac1f9f53) |
 | ByteDance | Backend Inference Runtime Engineer New Grad - AML Inference | San Jose, CA | — | 80% | 2026-08-06 | 2026-08-06 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7669789046777940229/detail) |
 | Lightfield | Software Engineer - Infrastructure - Early Career | Cambridge, MA | — | 80% | 2026-08-02 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/lightfield/9a7ef2f9-577a-4242-b884-719e3cdf4420) |
@@ -851,6 +851,7 @@ Postings that disappeared from their company's feed — if one of these was on y
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Revel | Full Stack Software Engineer - Entry-Junior | — | 2026-09-24 |
 | Optiver | Software Engineer Co-Op - January - April 2027 | 2027 | 2026-09-24 |
 | Booz Allen | University - 2027 Summer Games Software Developer Intern - McLean - VA | 2027 | 2026-09-24 |
 | Visa | 2027 Sophomore Internship Program - Software Engineer Intern - Bellevue | 2027 | 2026-09-24 |
@@ -860,7 +861,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Clearwater Analytics | Salesforce Developer Intern | — | 2026-09-24 |
 | GPC | Software Developer Intern | — | 2026-09-24 |
 | Johnson & Johnson | Software Engineering Co-Op - Spring 2027 | Spring 2027 | 2026-09-24 |
-| Salesforce | Software Engineering AMTS - College Grad | — | 2026-09-24 |
 | Striveworks | Junior Front-End Engineer | — | 2026-09-24 |
 | Wellpath | Business Intelligence - BI Developer I | — | 2026-09-24 |
 | Cox | Entry Level Software Engineer - Austin - TX | — | 2026-09-24 |
