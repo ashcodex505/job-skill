@@ -268,13 +268,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1634-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-23-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--24-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1658-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-25-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--24-informational)
 
-Updated **2026-09-24 20:36 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-24 21:45 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Notion | Software Engineer Intern, Mobile (Winter 2027) 🆕 | San Francisco, California; New York, New York | Winter 2027 | 100% (5 skills) | 2026-09-24 | 2026-09-24 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/2b587e66-deac-421a-a824-9415ba78b5a7) |
+| Franklin Electric | Fall 2027 Electrical/Software Engineering Co-op 🆕 | Fort Wayne, IN | Fall 2027 | 100% | 2026-09-24 | 2026-09-24 | [**Apply ➜**](https://franklin-electric.pinpointhq.com/en/postings/bb88589b-840e-4ed4-b3b8-cb545b71d9b1) |
 | Johnson & Johnson | Software Engineer Co-op | Halethorpe, MD | Spring 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jj.wd5.myworkdayjobs.com/JJ/job/Halethorpe-Maryland-United-States-of-America/Heart-Recovery-Software-R-D-Co-Op_R-101393) |
 | Qumulo | Software Development Engineer Intern | Seattle, WA | Winter 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jobs.ashbyhq.com/qumulo/43855947-3a85-4d1c-8b8e-e0c0ddcaf183/application?embed=true) |
 | Symbotic | Software Engineer Co-op | Wilmington, MA | Spring 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Co-op---Software-Engineer_R8111) |
@@ -293,5 +294,4 @@ Updated **2026-09-24 20:36 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Rivian | Software Engineer Co-op Intern - Enterprise Applications | Normal, IL | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33803?icims=1) |
 | Tesla | Residential Energy Device Software Engineer Intern - Energy Engineering | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284275) |
 | PrizePicks | Software Engineering Internship - Spring 2027 | Atlanta, GA | Spring 2027 | 100% | 2026-09-21 | 2026-09-21 | [**Apply ➜**](http://prizepicks.com/position?gh_jid=7996172003) |
-| Mercury | Software Engineering Intern - Spring 2027 | Remote - San Francisco, CA +2 | Spring 2027 | 100% | 2026-09-21 | 2026-09-21 | [**Apply ➜**](https://job-boards.greenhouse.io/mercury/jobs/6199367004) |
 <!-- JOB-BOARD:END -->
