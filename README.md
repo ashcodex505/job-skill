@@ -268,12 +268,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1656-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-64-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--24-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1660-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-69-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--24-informational)
 
-Updated **2026-09-24 00:49 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-24 04:40 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Sonos | Software Engineering Co-op - Signal Processing 🆕 | Boston, MA | Winter 2027 | 100% | 2026-09-23 | 2026-09-24 | [**Apply ➜**](https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Engineering-Co-op--Signal-Processing-_R2821-2) |
 | Johnson & Johnson | Software Engineer Co-op 🆕 | Halethorpe, MD | Spring 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jj.wd5.myworkdayjobs.com/JJ/job/Halethorpe-Maryland-United-States-of-America/Heart-Recovery-Software-R-D-Co-Op_R-101393) |
 | Qumulo | Software Development Engineer Intern 🆕 | Seattle, WA | Winter 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jobs.ashbyhq.com/qumulo/43855947-3a85-4d1c-8b8e-e0c0ddcaf183/application?embed=true) |
 | Symbotic | Software Engineer Co-op 🆕 | Wilmington, MA | Spring 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Co-op---Software-Engineer_R8111) |
@@ -293,5 +294,4 @@ Updated **2026-09-24 00:49 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Tesla | Residential Energy Device Software Engineer Intern - Energy Engineering | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284275) |
 | PrizePicks | Software Engineering Internship - Spring 2027 | Atlanta, GA | Spring 2027 | 100% | 2026-09-21 | 2026-09-21 | [**Apply ➜**](http://prizepicks.com/position?gh_jid=7996172003) |
 | Mercury | Software Engineering Intern - Spring 2027 | Remote - San Francisco, CA +2 | Spring 2027 | 100% | 2026-09-21 | 2026-09-21 | [**Apply ➜**](https://job-boards.greenhouse.io/mercury/jobs/6199367004) |
-| Bank of Montreal | Software Developer - Winter 2027 - Internship - 4 months | San Ramon, CA | Winter 2027 | 100% | 2026-09-18 | 2026-09-20 | [**Apply ➜**](https://bmo.wd3.myworkdayjobs.com/en-US/external/job/San-Ramon-CA-USA/Software-Developer--Winter-2027--Internship----4-months_R260027197-2) |
 <!-- JOB-BOARD:END -->
