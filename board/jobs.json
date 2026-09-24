@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-24T04:40:05.831Z",
+ "updatedAt": "2026-09-24T06:39:13.005Z",
  "jobs": [
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
@@ -2807,21 +2807,16 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "greenhouse:4730845005",
-   "source": "greenhouse",
-   "company": "Scale AI",
-   "title": "Software Engineering Intern (Summer 2027)",
-   "location": "San Francisco, CA",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730845005",
-   "season": "Summer 2027",
-   "roleType": "internship",
+   "dedupeKey": "workday:R0137558",
+   "source": "workday",
+   "company": "PayPal",
+   "title": "Software Engineer 1 - 2027 Graduate",
+   "location": "2 Locations",
+   "url": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-1---2027-Graduate_R0137558",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
    "score": 100,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "React",
-    "Algorithms"
-   ],
+   "matchedSkills": [],
    "acceptsMasters": false,
    "breakdown": {
     "role": 40,
@@ -2829,10 +2824,10 @@
     "season": 25,
     "location": 0,
     "keywords": 10,
-    "skills": 6
+    "skills": 0
    },
-   "postedAt": "2026-09-04",
-   "firstSeenAt": "2026-09-04T16:17:55.133Z"
+   "postedAt": "2026-09-23T12:02:18.557Z",
+   "firstSeenAt": "2026-09-23T12:02:18.557Z"
   },
   {
    "dedupeKey": "greenhouse:4730834005",
@@ -2863,15 +2858,15 @@
    "firstSeenAt": "2026-09-14T13:56:47.708Z"
   },
   {
-   "dedupeKey": "greenhouse:4730836005",
+   "dedupeKey": "greenhouse:4730845005",
    "source": "greenhouse",
    "company": "Scale AI",
-   "title": "Software Engineer - New Grad",
+   "title": "Software Engineering Intern (Summer 2027)",
    "location": "San Francisco, CA",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730836005",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 86,
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730845005",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
    "matchedSkills": [
     "Python",
     "TypeScript",
@@ -2882,7 +2877,7 @@
    "breakdown": {
     "role": 40,
     "roleType": 30,
-    "season": 0,
+    "season": 25,
     "location": 0,
     "keywords": 10,
     "skills": 6
@@ -2917,6 +2912,34 @@
    },
    "postedAt": "2026-09-14T09:09:35-04:00",
    "firstSeenAt": "2026-09-14T13:56:47.708Z"
+  },
+  {
+   "dedupeKey": "greenhouse:4730836005",
+   "source": "greenhouse",
+   "company": "Scale AI",
+   "title": "Software Engineer - New Grad",
+   "location": "San Francisco, CA",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730836005",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 86,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "React",
+    "Algorithms"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-09-04",
+   "firstSeenAt": "2026-09-04T16:17:55.133Z"
   },
   {
    "dedupeKey": "greenhouse:4736426005",
@@ -3213,31 +3236,6 @@
    "firstSeenAt": "2026-08-05T16:49:59.297Z"
   },
   {
-   "dedupeKey": "greenhouse:8802882002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Security Software (Starshield)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-09-11T19:36:45-04:00",
-   "firstSeenAt": "2026-09-12T01:04:46.155Z"
-  },
-  {
    "dedupeKey": "greenhouse:8802897002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -3260,6 +3258,31 @@
     "skills": 2
    },
    "postedAt": "2026-09-11T19:36:47-04:00",
+   "firstSeenAt": "2026-09-12T01:04:46.155Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8802882002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Security Software (Starshield)",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-09-11T19:36:45-04:00",
    "firstSeenAt": "2026-09-12T01:04:46.155Z"
   },
   {
@@ -3411,12 +3434,12 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8724316002",
+   "dedupeKey": "greenhouse:8696156002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
    "season": null,
    "roleType": "new_grad",
    "score": 82,
@@ -3432,8 +3455,8 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-08-19T11:08:34-04:00",
-   "firstSeenAt": "2026-08-24T21:39:20.245Z"
+   "postedAt": "2026-08-14T12:21:32-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
    "dedupeKey": "greenhouse:8696143002",
@@ -3461,12 +3484,12 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696156002",
+   "dedupeKey": "greenhouse:8724316002",
    "source": "greenhouse",
    "company": "SpaceX",
    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002",
    "season": null,
    "roleType": "new_grad",
    "score": 82,
@@ -3482,31 +3505,8 @@
     "keywords": 10,
     "skills": 2
    },
-   "postedAt": "2026-08-14T12:21:32-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8729121002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software (Starship)",
-   "location": "Starbase, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8729121002?gh_jid=8729121002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": true,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-19",
-   "firstSeenAt": "2026-08-19T04:49:09.076Z"
+   "postedAt": "2026-08-19T11:08:34-04:00",
+   "firstSeenAt": "2026-08-24T21:39:20.245Z"
   },
   {
    "dedupeKey": "greenhouse:8743362002",
@@ -3530,6 +3530,29 @@
    },
    "postedAt": "2026-09-08T17:27:54-04:00",
    "firstSeenAt": "2026-09-08T21:49:11.070Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8729121002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software (Starship)",
+   "location": "Starbase, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8729121002?gh_jid=8729121002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-19",
+   "firstSeenAt": "2026-08-19T04:49:09.076Z"
   },
   {
    "dedupeKey": "greenhouse:8621756002",
@@ -3956,32 +3979,6 @@
    "firstSeenAt": "2026-09-16T00:44:09.137Z"
   },
   {
-   "dedupeKey": "greenhouse:8052118",
-   "source": "greenhouse",
-   "company": "Datadog",
-   "title": "Software Engineering Intern (Summer)",
-   "location": "Boston, Massachusetts, USA; New York, New York, USA",
-   "url": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118",
-   "season": null,
-   "roleType": "internship",
-   "score": 83,
-   "matchedSkills": [
-    "Data Structures",
-    "Algorithms"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-09-08",
-   "firstSeenAt": "2026-09-08T23:36:36.910Z"
-  },
-  {
    "dedupeKey": "ashby:b5e81eae-06f9-4798-8988-2d06ca936dbc",
    "source": "ashby",
    "company": "Replit",
@@ -4011,30 +4008,30 @@
    "firstSeenAt": "2026-09-09T23:29:08.424Z"
   },
   {
-   "dedupeKey": "greenhouse:7807506003",
+   "dedupeKey": "greenhouse:8052118",
    "source": "greenhouse",
-   "company": "Affirm",
-   "title": "Software Engineer I, Backend (Collections)",
-   "location": "Remote Spain",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/7807506003",
+   "company": "Datadog",
+   "title": "Software Engineering Intern (Summer)",
+   "location": "Boston, Massachusetts, USA; New York, New York, USA",
+   "url": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118",
    "season": null,
-   "roleType": "new_grad",
-   "score": 88,
+   "roleType": "internship",
+   "score": 83,
    "matchedSkills": [
-    "Python",
-    "AWS"
+    "Data Structures",
+    "Algorithms"
    ],
    "acceptsMasters": false,
    "breakdown": {
     "role": 40,
     "roleType": 30,
     "season": 0,
-    "location": 5,
+    "location": 0,
     "keywords": 10,
     "skills": 3
    },
-   "postedAt": "2026-07-22T08:51:32-04:00",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+   "postedAt": "2026-09-08",
+   "firstSeenAt": "2026-09-08T23:36:36.910Z"
   },
   {
    "dedupeKey": "greenhouse:7807508003",
@@ -4060,6 +4057,32 @@
     "skills": 3
    },
    "postedAt": "2026-07-22T08:51:35-04:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7807506003",
+   "source": "greenhouse",
+   "company": "Affirm",
+   "title": "Software Engineer I, Backend (Collections)",
+   "location": "Remote Spain",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/7807506003",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 88,
+   "matchedSkills": [
+    "Python",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-07-22T08:51:32-04:00",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -4140,6 +4163,77 @@
    },
    "postedAt": "2026-08-05T06:20:40-04:00",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8767726002",
+   "source": "greenhouse",
+   "company": "Lyft",
+   "title": "Software Engineer Intern, Backend (Summer 2027 - SF)",
+   "location": "San Francisco, CA",
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-11",
+   "firstSeenAt": "2026-09-11T17:08:23.460Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8106224",
+   "source": "greenhouse",
+   "company": "Dropbox",
+   "title": "Software Engineering Intern (Summer 2027)",
+   "location": "Remote - US: All locations",
+   "url": "https://jobs.dropbox.com/listing/8106224?gh_jid=8106224",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-07",
+   "firstSeenAt": "2026-09-07T16:26:02.203Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8191506",
+   "source": "greenhouse",
+   "company": "Okta",
+   "title": "Developer Support Associate (New Grad)",
+   "location": "Chicago, Illinois",
+   "url": "https://www.okta.com/company/careers/opportunity/8191506?gh_jid=8191506",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "JavaScript"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-09-14",
+   "firstSeenAt": "2026-09-14T19:18:21.574Z"
   },
   {
    "dedupeKey": "workday:JR0285211",
@@ -4257,13 +4351,93 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "greenhouse:8767726002",
+   "dedupeKey": "greenhouse:6183293004",
    "source": "greenhouse",
-   "company": "Lyft",
-   "title": "Software Engineer Intern, Backend (Summer 2027 - SF)",
-   "location": "San Francisco, CA",
-   "url": "https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002",
-   "season": "Summer 2027",
+   "company": "Epic Games",
+   "title": "Backend Services Programmer Intern",
+   "location": "Cary,North Carolina,United States",
+   "url": "https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004",
+   "season": null,
+   "roleType": "internship",
+   "score": 83,
+   "matchedSkills": [
+    "Java",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-09-10",
+   "firstSeenAt": "2026-09-10T05:54:57.935Z"
+  },
+  {
+   "dedupeKey": "greenhouse:6173862004",
+   "source": "greenhouse",
+   "company": "Epic Games",
+   "title": "Frontend Programmer Intern",
+   "location": "Cary,North Carolina,United States",
+   "url": "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004",
+   "season": null,
+   "roleType": "internship",
+   "score": 85,
+   "matchedSkills": [
+    "TypeScript",
+    "JavaScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-31T15:08:30-04:00",
+   "firstSeenAt": "2026-08-31T23:48:00.919Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7816935003",
+   "source": "greenhouse",
+   "company": "Abnormal AI",
+   "title": "Machine Learning Engineer I - Message Security Products",
+   "location": "Remote - Singapore",
+   "url": "https://abnormal.ai/careers/jobs/7816935003?gh_jid=7816935003",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 90,
+   "matchedSkills": [
+    "Python",
+    "AWS",
+    "Algorithms"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-07-27T06:33:03-04:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8214272",
+   "source": "greenhouse",
+   "company": "Gemini",
+   "title": "Software Engineering Intern (Winter 2027)",
+   "location": "New York, New York",
+   "url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214272&gh_jid=8214272",
+   "season": "Winter 2027",
    "roleType": "internship",
    "score": 100,
    "matchedSkills": [],
@@ -4276,56 +4450,8 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-09-11",
-   "firstSeenAt": "2026-09-11T17:08:23.460Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8106224",
-   "source": "greenhouse",
-   "company": "Dropbox",
-   "title": "Software Engineering Intern (Summer 2027)",
-   "location": "Remote - US: All locations",
-   "url": "https://jobs.dropbox.com/listing/8106224?gh_jid=8106224",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 5,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-07",
-   "firstSeenAt": "2026-09-07T16:26:02.203Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8191506",
-   "source": "greenhouse",
-   "company": "Okta",
-   "title": "Developer Support Associate (New Grad)",
-   "location": "Chicago, Illinois",
-   "url": "https://www.okta.com/company/careers/opportunity/8191506?gh_jid=8191506",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "JavaScript"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-09-14",
-   "firstSeenAt": "2026-09-14T19:18:21.574Z"
+   "postedAt": "2026-09-18T15:48:52-04:00",
+   "firstSeenAt": "2026-09-18T21:39:00.212Z"
   },
   {
    "dedupeKey": "greenhouse:8193731",
@@ -4664,109 +4790,6 @@
    },
    "postedAt": "2025-12-22T18:35:42-05:00",
    "firstSeenAt": "2026-09-16T19:46:02.461Z"
-  },
-  {
-   "dedupeKey": "greenhouse:6183293004",
-   "source": "greenhouse",
-   "company": "Epic Games",
-   "title": "Backend Services Programmer Intern",
-   "location": "Cary,North Carolina,United States",
-   "url": "https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004",
-   "season": null,
-   "roleType": "internship",
-   "score": 83,
-   "matchedSkills": [
-    "Java",
-    "AWS"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-09-10",
-   "firstSeenAt": "2026-09-10T05:54:57.935Z"
-  },
-  {
-   "dedupeKey": "greenhouse:6173862004",
-   "source": "greenhouse",
-   "company": "Epic Games",
-   "title": "Frontend Programmer Intern",
-   "location": "Cary,North Carolina,United States",
-   "url": "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004",
-   "season": null,
-   "roleType": "internship",
-   "score": 85,
-   "matchedSkills": [
-    "TypeScript",
-    "JavaScript",
-    "React"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2026-08-31T15:08:30-04:00",
-   "firstSeenAt": "2026-08-31T23:48:00.919Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7816935003",
-   "source": "greenhouse",
-   "company": "Abnormal AI",
-   "title": "Machine Learning Engineer I - Message Security Products",
-   "location": "Remote - Singapore",
-   "url": "https://abnormal.ai/careers/jobs/7816935003?gh_jid=7816935003",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 90,
-   "matchedSkills": [
-    "Python",
-    "AWS",
-    "Algorithms"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 5,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2026-07-27T06:33:03-04:00",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8214272",
-   "source": "greenhouse",
-   "company": "Gemini",
-   "title": "Software Engineering Intern (Winter 2027)",
-   "location": "New York, New York",
-   "url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214272&gh_jid=8214272",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": true,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-18T15:48:52-04:00",
-   "firstSeenAt": "2026-09-18T21:39:00.212Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:d56bcccb2611352bb4dfc57e4b0cdc18188bb6f6",
@@ -24797,29 +24820,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "simplifyjobs:ed1c1803-cea0-4778-8d48-8ba69bc0716a",
-   "source": "simplifyjobs",
-   "company": "Altice USA",
-   "title": "Software Development Engineer 1",
-   "location": "Plano, TX; Bethpage, NY",
-   "url": "https://www.optimumcareers.com/job/Bethpage-Software-Dev-Engineer-I-NY-11714/1420351500/?ats=successfactors",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-21T09:23:02.000Z",
-   "firstSeenAt": "2026-09-23T05:55:15.351Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:94439f86-761e-479b-ad07-ff674a810362",
    "source": "simplifyjobs",
    "company": "Barry-Wehmiller",
@@ -29100,29 +29100,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "simplifyjobs:e87551ad-e266-4369-aa66-b85287a56ea2",
-   "source": "simplifyjobs",
-   "company": "Deloitte",
-   "title": "Summer Scholar Intern - Government & Public Services - Cyber Software Engineering",
-   "location": "Austin, TX",
-   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Summer-Scholar-Cyber-Software-Engineering/362346",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-10T22:36:59.000Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:af90f319-0d2d-4222-9f22-92f3dab0d342",
    "source": "simplifyjobs",
    "company": "Mujin",
@@ -32987,29 +32964,6 @@
    },
    "postedAt": "2026-09-03T22:11:14.000Z",
    "firstSeenAt": "2026-09-04T05:03:03.873Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:20632827-008e-4260-aec0-fd4d5db58b42",
-   "source": "simplifyjobs",
-   "company": "Walmart",
-   "title": "Software Engineer 2 Intern",
-   "location": "Bentonville, AR",
-   "url": "https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/XMLNAME-2026-Intern-Conversion--2027-FT-Software-Engineer-II---Bentonville_R-2630128",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-03T00:00:00.000Z",
-   "firstSeenAt": "2026-09-23T23:39:40.870Z"
   },
   {
    "dedupeKey": "simplifyjobs:ea127849-c2ce-48a3-8ef5-8024831dc02e",
@@ -38710,46 +38664,6 @@
  ],
  "closed": [
   {
-   "dedupeKey": "simplifyjobs:1e0b5f98-bf0a-433e-9dda-74853a116f53",
-   "company": "Copart",
-   "title": "Data Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-17T05:13:38.861Z",
-   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Data-Engineering-Intern_JR110617"
-  },
-  {
-   "dedupeKey": "simplifyjobs:bde086bf-dab1-4025-b1fa-8d581fc9b704",
-   "company": "RTX",
-   "title": "Software Engineer 1",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-17T06:06:19.619Z",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Software-Engineer-I--Onsite-_01867811"
-  },
-  {
-   "dedupeKey": "simplifyjobs:fb0f6a70-7886-4ed4-a59d-12e6a0e79c9d",
-   "company": "Geotab",
-   "title": "DataOps Developer Intern - Months",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-02T14:25:35.799Z",
-   "closedAt": "2026-09-17T06:06:19.619Z",
-   "url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5389379008"
-  },
-  {
-   "dedupeKey": "simplifyjobs:96cb7017-c8f1-4f02-92ae-1626a4d433b8",
-   "company": "L3Harris Technologies",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-17T06:06:19.619Z",
-   "url": "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1428513900/?ats=successfactors"
-  },
-  {
    "dedupeKey": "simplifyjobs:457bcb08-1acf-45d9-851c-715ee73dd22a",
    "company": "Western Alliance",
    "title": "Engineer 1 - Data Engineer",
@@ -41487,16 +41401,6 @@
    "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-I_01875564"
   },
   {
-   "dedupeKey": "workday:R0137558",
-   "company": "PayPal",
-   "title": "Software Engineer 1 - 2027 Graduate",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-23T12:02:18.557Z",
-   "closedAt": "2026-09-23T16:51:39.117Z",
-   "url": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer-1---2027-Graduate_R0137558"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:e3c109502bf0789a44b192dd7c69a0699ac67814",
    "company": "TikTok",
    "title": "Frontend Software Engineer Project Intern - Global CRM - 2026 Start（BS/MS）",
@@ -42094,6 +41998,36 @@
    "firstSeenAt": "2026-09-21T19:22:00.485Z",
    "closedAt": "2026-09-24T04:40:05.831Z",
    "url": "https://career-schwab.icims.com/jobs/127127/job?mobile=true&needsRedirect=false"
+  },
+  {
+   "dedupeKey": "simplifyjobs:ed1c1803-cea0-4778-8d48-8ba69bc0716a",
+   "company": "Altice USA",
+   "title": "Software Development Engineer 1",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-09-23T05:55:15.351Z",
+   "closedAt": "2026-09-24T06:39:13.005Z",
+   "url": "https://www.optimumcareers.com/job/Bethpage-Software-Dev-Engineer-I-NY-11714/1420351500/?ats=successfactors"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e87551ad-e266-4369-aa66-b85287a56ea2",
+   "company": "Deloitte",
+   "title": "Summer Scholar Intern - Government & Public Services - Cyber Software Engineering",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z",
+   "closedAt": "2026-09-24T06:39:13.005Z",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Summer-Scholar-Cyber-Software-Engineering/362346"
+  },
+  {
+   "dedupeKey": "simplifyjobs:20632827-008e-4260-aec0-fd4d5db58b42",
+   "company": "Walmart",
+   "title": "Software Engineer 2 Intern",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-23T23:39:40.870Z",
+   "closedAt": "2026-09-24T06:39:13.005Z",
+   "url": "https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/XMLNAME-2026-Intern-Conversion--2027-FT-Software-Engineer-II---Bentonville_R-2630128"
   }
  ]
 }
