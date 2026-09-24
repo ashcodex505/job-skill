@@ -1,13 +1,14 @@
 # 🎯 Job Board — SWE Early Career
 
-**1654 open roles** across **685 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-23 23:39 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1656 open roles** across **686 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-24 00:49 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (62)
+## 🆕 New this cycle (64)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Ramp | Software Engineer Internship, Frontend 🆕 | New York, NY (HQ) | — | 85% (3 skills) | 2026-09-24 | 2026-09-24 | [**Apply ➜**](https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74) |
 | ZipRecruiter | Software Engineer Intern 🆕 | Santa Monica, CA | Summer 2026 | 90% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://job-boards.greenhouse.io/ziprecruiter/jobs/8180455) |
 | SeatGeek | Software Engineer Intern 🆕 | NYC | Summer 2028 | 90% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://seatgeek.com/jobs/8227553?gh_jid=8227553) |
 | SeatGeek | Software Engineer New Grad 🆕 | NYC | — | 80% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://seatgeek.com/jobs/8227548?gh_jid=8227548) |
@@ -70,8 +71,9 @@ Last updated: **2026-09-23 23:39 UTC** · auto-refreshed every 12h by [job-board
 | BAGS | Junior Full Stack Engineer 🆕 | New York City, NY | — | 80% | 2026-08-18 | 2026-09-23 | [**Apply ➜**](https://jobs.ashbyhq.com/bagsfm/012239d1-0c6c-4e87-9cfa-22d8ba4e5cb4) |
 | State Street | Junior SIEM Data Engineer 🆕 | Quincy, MA | — | 80% | 2026-07-31 | 2026-09-23 | [**Apply ➜**](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Junior-SIEM-Data-Engineer_R-794329) |
 | Esri | Software Development Engineer I - Agentic AI - ArcGIS Enterprise 🆕 | Redlands, CA | — | 80% | 2026-07-15 | 2026-09-23 | [**Apply ➜**](https://www.esri.com/careers/5186832007?gh_jid=5186832007) |
+| Ramp | Software Engineering Intern, Backend 🆕 | New York, NY (HQ) | — | 85% (3 skills) | 2026-04-09 | 2026-09-24 | [**Apply ➜**](https://jobs.ashbyhq.com/ramp/acf6b28d-767f-483f-8ff2-114620cd7e04) |
 
-## 🛠️ Internships (1129)
+## 🛠️ Internships (1131)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -84,7 +86,7 @@ Last updated: **2026-09-23 23:39 UTC** · auto-refreshed every 12h by [job-board
 | Together AI | Research Intern, Inference (Summer 2027) | San Francisco | Summer 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238462007) |
 | Together AI | Research Intern, Inference (Winter 2027) | San Francisco | Winter 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238461007) |
 | Rippling | Software Engineer Intern - Backend Focused - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) |
-| Rippling | Full Stack Software Engineer Intern - Summer 2027 | New York, NY | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
+| Rippling | Full Stack Software Engineer Intern - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
 | Rippling | Machine Learning Software Engineer Intern - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d) |
 | Rivian | Software Engineer Co-op Intern - Product Development Portal | Palo Alto, CA | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33745?icims=1) |
 | Rivian | Software Engineer Intern Co-op - Product Lifecycle Management | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33746?icims=1) |
@@ -476,7 +478,7 @@ Last updated: **2026-09-23 23:39 UTC** · auto-refreshed every 12h by [job-board
 | Visa | Software Engineer - Intern - Bellevue - 2027 | USA +1 | 2027 | 90% | 2026-09-17 | 2026-09-20 | [**Apply ➜**](https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-1) |
 | Visa | Software Engineer - Intern - Highlands Ranch - CO - 2027 | Denver, CO | 2027 | 90% | 2026-09-17 | 2026-09-20 | [**Apply ➜**](https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W-2) |
 
-_…and 729 more (raise the cap in src/scraper/board.ts)._
+_…and 731 more (raise the cap in src/scraper/board.ts)._
 ## 🎓 New Grad (525)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
@@ -571,8 +573,8 @@ _…and 729 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | iManage | Applied AI Engineer New Grad 🆕 | Chicago, IL | — | 80% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://imanagecom.applytojob.com/apply/r4huAJvEWl/Applied-AI-Engineer-New-Or-Recent-Grad) |
 | Klaviyo | AI Engineer 1 🆕 | Boston, MA | — | 80% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://job-boards.greenhouse.io/klaviyocampus/jobs/8003259003) |
 | Qumulo | Software Development Engineer New Grad 🆕 | Seattle, WA | — | 80% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jobs.ashbyhq.com/qumulo/e1cebc33-3bfc-4c86-9581-4d558cd5f8cc/application?embed=true) |
@@ -883,7 +885,7 @@ _…and 729 more (raise the cap in src/scraper/board.ts)._
 | TikTok | Machine Learning Engineer New Grad - Trust and Safety | San Jose, CA | — | 80% | 2026-08-03 | 2026-08-03 | [**Apply ➜**](https://lifeattiktok.com/search/7665991852209932597) |
 
 _…and 125 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (341)
+## 🚪 Recently closed (last 7 days) (338)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -1227,9 +1229,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Geotab | DataOps Developer Intern - Months | Winter 2027 | 2026-09-17 |
 | L3Harris Technologies | Software Engineer Intern | Winter 2026 | 2026-09-17 |
 | Copart | Data Engineer Intern | Fall 2026 | 2026-09-17 |
-| Applied Intuition | Electrical System Integration Engineer - New Grad | — | 2026-09-17 |
-| Microchip Technology | Intern – Engineering - Device Software and Test | Fall 2026 | 2026-09-17 |
-| HP | Software Internship Roles - HP Solutions (HPS) | — | 2026-09-16 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._
