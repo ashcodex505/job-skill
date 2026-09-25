@@ -268,9 +268,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1699-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-43-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--25-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1673-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-42-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--25-informational)
 
-Updated **2026-09-25 07:43 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-25 10:20 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -285,8 +285,7 @@ Updated **2026-09-25 07:43 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Radiance Technologies | Software Engineer Intern 🆕 | Dayton, OH | Spring 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102446) |
 | Radiance Technologies | Software Engineer Intern 🆕 | Dayton, OH | Spring 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102443) |
 | Radiance Technologies | Software Engineer Intern 🆕 | Dayton, OH | Spring 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102444) |
-| Notion | Software Engineer Intern, Mobile (Winter 2027) 🆕 | San Francisco, California; New York, New York | Winter 2027 | 100% (5 skills) | 2026-09-24 | 2026-09-24 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/2b587e66-deac-421a-a824-9415ba78b5a7) |
-| Franklin Electric | Fall 2027 Electrical/Software Engineering Co-op | Fort Wayne, IN | Fall 2027 | 100% | 2026-09-24 | 2026-09-24 | [**Apply ➜**](https://franklin-electric.pinpointhq.com/en/postings/bb88589b-840e-4ed4-b3b8-cb545b71d9b1) |
+| Notion | Software Engineer Intern, Mobile (Winter 2027) | San Francisco, California; New York, New York | Winter 2027 | 100% (5 skills) | 2026-09-24 | 2026-09-24 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/2b587e66-deac-421a-a824-9415ba78b5a7) |
 | Johnson & Johnson | Software Engineer Co-op | Halethorpe, MD | Spring 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jj.wd5.myworkdayjobs.com/JJ/job/Halethorpe-Maryland-United-States-of-America/Heart-Recovery-Software-R-D-Co-Op_R-101393) |
 | Qumulo | Software Development Engineer Intern | Seattle, WA | Winter 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jobs.ashbyhq.com/qumulo/43855947-3a85-4d1c-8b8e-e0c0ddcaf183/application?embed=true) |
 | Symbotic | Software Engineer Co-op | Wilmington, MA | Spring 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Co-op---Software-Engineer_R8111) |
@@ -294,4 +293,5 @@ Updated **2026-09-25 07:43 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | NVIDIA | NVIDIA 2027 New College Graduate: Software Engineering - China | 3 Locations | 2027 New Grad | 100% | — | 2026-09-23 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--Software-Engineering---China_JR2024111) |
 | Astranis Space Technologies | Flight Software Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4704595006) |
 | Vital Lyfe | Software Engineering Internship - Spring 2027 | Los Angeles, CA | Spring 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jobs.ashbyhq.com/vital-lyfe/c39b72aa-9ad5-43e7-a3fd-8ef2e152ee4b) |
+| Together AI | Research Intern, Inference (Summer 2027) | San Francisco | Summer 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238462007) |
 <!-- JOB-BOARD:END -->
