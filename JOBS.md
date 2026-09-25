@@ -1,13 +1,23 @@
 # 🎯 Job Board — SWE Early Career
 
-**1682 open roles** across **680 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-25 21:48 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1684 open roles** across **680 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-25 22:16 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (29)
+## 🚨 Watchlist alerts (1)
+
+Roles matching [career/watchlist.md](career/watchlist.md) that appeared this cycle — these are the ones to apply to right now.
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| 🔴 Quora | Software Engineer New Grad, Machine Learning Platform - Quora (Remote) 🆕 | Remote - Multiple Locations; United States; Canada | — | 91% (4 skills) | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/cf34f80e-fe5c-454d-bc9a-4c59993ffda0) |
+
+## 🆕 New this cycle (31)
+
+| Company | Role | Location | Season | Match | Posted | First seen | Apply |
+|---|---|---|---|---|---|---|---|
+| Quora | Software Engineer New Grad, Machine Learning Platform - Quora (Remote) 🆕 | Remote - Multiple Locations; United States; Canada | — | 91% (4 skills) | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/cf34f80e-fe5c-454d-bc9a-4c59993ffda0) |
+| Waymo | 2027 Summer Intern, MS/PhD, Software Engineering, Sys Intel & ML 🆕 | Mountain View, CA, USA | 2027 | 93% (2 skills) | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8234161) |
 | Waymo | 2027 Summer Intern, MS/PhD, Software Engineer, Sys Intel & Machine Learning 🆕 | Mountain View, CA, USA | 2027 | 92% (1 skills) | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8233746) |
 | Waymo | 2027 Summer Intern, BS, Software Engineer, Driver Refinement Foundations 🆕 | Mountain View, CA, USA | 2027 | 95% (3 skills) | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8224900) |
 | Amazon | Software Development Engineer Intern - Summer 2027 - USA - Amazon Dedicated Cloud - ADC 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/jobs/10559746/apply) |
@@ -38,7 +48,7 @@ Last updated: **2026-09-25 21:48 UTC** · auto-refreshed every 12h by [job-board
 | PathAI | Software Engineer I, Fullstack 🆕 | Boston, MA (Hybrid) | — | 89% (6 skills) | 2026-08-11 | 2026-09-25 | [**Apply ➜**](https://www.pathai.com/careers/8696764002?gh_jid=8696764002) |
 | PathAI | Software Engineering, ML Ops Intern/Co-Op 🆕 | Boston, MA | — | 83% (2 skills) | 2026-07-27 | 2026-09-25 | [**Apply ➜**](https://www.pathai.com/careers/8651564002?gh_jid=8651564002) |
 
-## 🛠️ Internships (1159)
+## 🛠️ Internships (1160)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -67,7 +77,7 @@ Last updated: **2026-09-25 21:48 UTC** · auto-refreshed every 12h by [job-board
 | Together AI | Research Intern, Inference (Summer 2027) | San Francisco | Summer 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238462007) |
 | Together AI | Research Intern, Inference (Winter 2027) | San Francisco | Winter 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238461007) |
 | Rippling | Software Engineer Intern - Backend Focused - Summer 2027 | Seattle, WA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) |
-| Rippling | Full Stack Software Engineer Intern - Summer 2027 | New York, NY | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
+| Rippling | Full Stack Software Engineer Intern - Summer 2027 | Seattle, WA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
 | Rippling | Machine Learning Software Engineer Intern - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d) |
 | Rivian | Software Engineer Co-op Intern - Product Development Portal | Palo Alto, CA | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33745?icims=1) |
 | Rivian | Software Engineer Intern Co-op - Product Lifecycle Management | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33746?icims=1) |
@@ -403,6 +413,7 @@ Last updated: **2026-09-25 21:48 UTC** · auto-refreshed every 12h by [job-board
 | Domino Data Lab | Software Engineer - Intern - Campus Recruiting 2027 | Remote - New York City, NY | 2027 | 95% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://app.careerpuck.com/job-board/domino-data-lab/job/7992560?gh_jid=7992560) |
 | Waymo | 2027 Summer Intern, BS, SysEng Software Engineer | Mountain View, California, USA | 2027 | 95% (3 skills) | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8174099) |
 | Verkada | Frontend Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 95% (3 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5210942007) |
+| Waymo | 2027 Summer Intern, MS/PhD, Software Engineering, Sys Intel & ML 🆕 | Mountain View, CA, USA | 2027 | 93% (2 skills) | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8234161) |
 | Figma | Data Engineer Intern (2027) | San Francisco, CA • New York, NY | 2027 | 93% (2 skills) | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004) |
 | Waymo | 2027 Summer Intern, MS/PhD, Road Understanding, ML Engineer | Mountain View, California | 2027 | 93% (2 skills) | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8224746) |
 | Waymo | 2027 Summer Intern, MS/PhD, Software Engineer | Mountain View, California | 2027 | 93% (2 skills) | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8224729) |
@@ -441,10 +452,9 @@ Last updated: **2026-09-25 21:48 UTC** · auto-refreshed every 12h by [job-board
 | Northrop Grumman | 2027 Software Engineer Intern - San Diego CA | San Diego, CA | 2027 | 90% | 2026-09-22 | 2026-09-23 | [**Apply ➜**](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150) |
 | KLA | Software Engineering Intern - C++ - Unix | Milpitas, CA | Winter 2026 | 90% | 2026-09-22 | 2026-09-23 | [**Apply ➜**](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325) |
 | KLA Corporation | Software Engineering Intern - C++ - Unix | Milpitas, CA | Winter 2026 | 90% | 2026-09-22 | 2026-09-23 | [**Apply ➜**](https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1) |
-| American Family Insurance Group | Web Developer Intern | Madison, WI | Winter 2026 | 90% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Web-Develper-Intern_R39373) |
 
-_…and 759 more (raise the cap in src/scraper/board.ts)._
-## 🎓 New Grad (523)
+_…and 760 more (raise the cap in src/scraper/board.ts)._
+## 🎓 New Grad (524)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -474,6 +484,7 @@ _…and 759 more (raise the cap in src/scraper/board.ts)._
 | Visa | Software Engineer - New College Grad - Bellevue - 2027 | USA +1 | 2027 New Grad | 95% | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Software-Engineer--New-College-Grad--Bellevue---2027_REF088530W-3) |
 | Solace | Associate Software Engineer - College Grad 2027 | Redwood City, CA | 2027 New Grad | 95% | 2026-08-26 | 2026-09-15 | [**Apply ➜**](https://jobs.ashbyhq.com/solace/db008474-d93e-41a7-939e-8d5825eb0d0f) |
 | Belvedere Trading | Software Engineer - Entry Level 2027 | Chicago, IL | 2027 New Grad | 95% | 2026-08-04 | 2026-08-10 | [**Apply ➜**](https://jobs.lever.co/belvederetrading/2f6480e5-7bf1-4c41-b3b5-3c7404d95b5f) |
+| Quora | Software Engineer New Grad, Machine Learning Platform - Quora (Remote) 🆕 | Remote - Multiple Locations; United States; Canada | — | 91% (4 skills) | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/cf34f80e-fe5c-454d-bc9a-4c59993ffda0) |
 | Samsara | Software Engineer I, External Platform EMEA (Poland, Remote, B2B) | Remote - Poland | — | 91% (4 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8210695?gh_jid=8210695) |
 | Abnormal AI | Machine Learning Engineer I - Message Security Products | Remote - Singapore | — | 90% (3 skills) | 2026-07-27 | 2026-09-16 | [**Apply ➜**](https://abnormal.ai/careers/jobs/7816935003?gh_jid=7816935003) |
 | Affirm | Software Engineer I, Frontend (Upfunnel) | Remote Canada | — | 90% (3 skills) | 2026-09-11 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7985907003) |
@@ -537,8 +548,8 @@ _…and 759 more (raise the cap in src/scraper/board.ts)._
 | aquaticcapitalmanagement | Software Engineer, Early Career | Chicago; New York | — | 82% (1 skills) | 2026-04-01 | 2026-08-23 | [**Apply ➜**](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002) |
 | SpaceX | New Graduate Engineer, Software (Application Software) | Hawthorne, CA | — | 82% (1 skills) | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8730567002?gh_jid=8730567002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
-| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
+| SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
@@ -847,9 +858,8 @@ _…and 759 more (raise the cap in src/scraper/board.ts)._
 | ByteDance | Backend Inference Runtime Engineer New Grad - AML Inference | San Jose, CA | — | 80% | 2026-08-06 | 2026-08-06 | [**Apply ➜**](https://jobs.bytedance.com/en/position/7669789046777940229/detail) |
 | Lightfield | Software Engineer - Infrastructure - Early Career | Cambridge, MA | — | 80% | 2026-08-02 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/lightfield/9a7ef2f9-577a-4242-b884-719e3cdf4420) |
 | Retell AI | Software Engineer - New Grad | Redwood City, CA | — | 80% | 2026-08-03 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/retell-ai/ea775189-0496-43d8-a386-df8148265463) |
-| TikTok | Machine Learning Engineer New Grad - Performance Monetization | San Jose, CA | — | 80% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669691374918011141) |
 
-_…and 123 more (raise the cap in src/scraper/board.ts)._
+_…and 124 more (raise the cap in src/scraper/board.ts)._
 ## 🚪 Recently closed (last 7 days) (364)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
