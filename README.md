@@ -268,12 +268,15 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1691-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-57-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--25-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1698-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-65-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--25-informational)
 
-Updated **2026-09-25 01:27 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-25 06:32 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Snowflake | Software Engineer Intern - Database Engineering 🆕 | Menlo Park, CA; Bellevue, WA | Spring 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/snowflake/7bd393df-67d7-4009-ba4f-1cd79a82b0be/application?embed=true) |
+| Snowflake | Software Engineer Intern 🆕 | Menlo Park, CA; Bellevue, WA | Spring 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/snowflake/4be290ae-dd9d-488c-9d90-56fcd69101ca/application?embed=true) |
+| Snowflake | Software Engineer Intern - Core, Infrastructure & Security 🆕 | Menlo Park, CA; Bellevue, WA | Spring 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/snowflake/5315b6f6-2c14-4cb9-a884-c2bae69f2c69/application?embed=true) |
 | Amazon | Software Development Engineer Intern - Summer 2027 (USA) , Amazon Dedicated Cloud (ADC) 🆕 | Seattle, Washington, USA | Summer 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10559746/software-development-engineer-intern-summer-2027-usa-amazon-dedicated-cloud-adc) |
 | Amazon | Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA) 🆕 | Redmond, Washington, USA | Summer 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10559762/software-development-engineer-intern-amazon-leo-summer-2027-usa) |
 | Astranis | Software Developer – Network Software Intern 🆕 | SF | Winter 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4705599006) |
@@ -291,7 +294,4 @@ Updated **2026-09-25 01:27 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Astranis Space Technologies | Flight Software Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4704595006) |
 | Vital Lyfe | Software Engineering Internship - Spring 2027 | Los Angeles, CA | Spring 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jobs.ashbyhq.com/vital-lyfe/c39b72aa-9ad5-43e7-a3fd-8ef2e152ee4b) |
 | Together AI | Research Intern, Inference (Summer 2027) | San Francisco | Summer 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238462007) |
-| Together AI | Research Intern, Inference (Winter 2027) | San Francisco | Winter 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238461007) |
-| Rippling | Software Engineer Intern - Backend Focused - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) |
-| Rippling | Full Stack Software Engineer Intern - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
 <!-- JOB-BOARD:END -->
