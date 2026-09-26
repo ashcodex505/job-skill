@@ -268,18 +268,18 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1699-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-23-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--26-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1698-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-5-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--26-informational)
 
-Updated **2026-09-26 13:02 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-26 17:07 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Tesla | Mobile Application Software Engineer Intern - Energy Engineering 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-26 | 2026-09-26 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284776) |
-| DoorDash | Machine Learning Engineer Intern - Masters 🆕 | Seattle, WA; SF; NYC; Sunnyvale, CA | Summer 2027 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8204111) |
-| Metropolitan Transportation Authority | Software Analyst / Developer Intern - Fall 🆕 | NYC | Fall 2026 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://jobs.jobvite.com/metropolitantransportationauthority/job/o6WRAfwd?nl=1&nl=1&fr=false) |
-| Metropolitan Transportation Authority | Software Analyst / Developer Intern 🆕 | NYC | Fall 2026 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://jobs.jobvite.com/metropolitantransportationauthority/job/o4WRAfwb?nl=1&nl=1&fr=false) |
-| Rockwell Automation | AI Software Engineering Co-op - 6 months - 8 months 🆕 | Mayfield Heights, OH; Milwaukee, WI | Winter 2027 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982) |
-| Rockwell Automation | AI Software Engineering Co-op - 6 months - 8 months 🆕 | Mayfield Heights, OH; Milwaukee, WI | Winter 2027 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982-1) |
+| DoorDash | Machine Learning Engineer Intern - Masters | Seattle, WA; SF; NYC; Sunnyvale, CA | Summer 2027 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8204111) |
+| Metropolitan Transportation Authority | Software Analyst / Developer Intern - Fall | NYC | Fall 2026 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://jobs.jobvite.com/metropolitantransportationauthority/job/o6WRAfwd?nl=1&nl=1&fr=false) |
+| Metropolitan Transportation Authority | Software Analyst / Developer Intern | NYC | Fall 2026 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://jobs.jobvite.com/metropolitantransportationauthority/job/o4WRAfwb?nl=1&nl=1&fr=false) |
+| Rockwell Automation | AI Software Engineering Co-op - 6 months - 8 months | Mayfield Heights, OH; Milwaukee, WI | Winter 2027 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982) |
+| Rockwell Automation | AI Software Engineering Co-op - 6 months - 8 months | Mayfield Heights, OH; Milwaukee, WI | Winter 2027 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982-1) |
 | Amazon | Software Development Engineer Intern - Summer 2027 - USA - Amazon Dedicated Cloud - ADC | Seattle, WA | Summer 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/jobs/10559746/apply) |
 | Amazon | Software Development Engineer Intern - Amazon Leo - Summer 2027 - USA | Redmond, WA | Summer 2027 | 100% | 2026-09-19 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/jobs/10559762/apply) |
 | Ciena | WaveLogic Software Intern Spring 2027 | Atlanta, GA | Spring 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://ciena.wd5.myworkdayjobs.com/en-US/careers/job/Atlanta/WaveLogic-Software-Intern-Spring-2027_R031692) |
