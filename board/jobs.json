@@ -1,6 +1,421 @@
 {
- "updatedAt": "2026-09-27T13:55:18.787Z",
+ "updatedAt": "2026-09-27T14:43:14.066Z",
  "jobs": [
+  {
+   "dedupeKey": "reverse-discovery:8155152",
+   "source": "reverse-discovery",
+   "company": "bti36021",
+   "title": "Software Engineering Intern",
+   "location": "Herndon,VA",
+   "url": "https://job-boards.greenhouse.io/bti36021/jobs/8155152",
+   "season": null,
+   "roleType": "internship",
+   "score": 93,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "React",
+    "SQL",
+    "AWS",
+    "Docker",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 13
+   },
+   "postedAt": "2026-08-24T16:37:00-04:00",
+   "firstSeenAt": "2026-09-27T14:43:14.066Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:8099759",
+   "source": "reverse-discovery",
+   "company": "businessolver",
+   "title": "DevOps Engineer I (Remote)",
+   "location": "Remote - United States",
+   "url": "https://www.businessolver.com/careers/openings/?gh_jid=8099759",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 90,
+   "matchedSkills": [
+    "Python",
+    "AWS",
+    "Linux"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-11T11:05:48-04:00",
+   "firstSeenAt": "2026-09-27T14:43:14.066Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:8804558002",
+   "source": "reverse-discovery",
+   "company": "c3iot",
+   "title": "Forward Deployed Engineer, New Grad 2027",
+   "location": "Redwood City, California, United States",
+   "url": "https://c3.ai/job-description/8804558002?gh_jid=8804558002",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "React",
+    "Git",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 11
+   },
+   "postedAt": "2026-09-14T12:19:00-04:00",
+   "firstSeenAt": "2026-09-14T19:18:21.574Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:8801434002",
+   "source": "reverse-discovery",
+   "company": "c3iot",
+   "title": "Platform Full-Stack Engineer, New Grad 2027",
+   "location": "Redwood City, California, United States",
+   "url": "https://c3.ai/job-description/8801434002?gh_jid=8801434002",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-09-14",
+   "firstSeenAt": "2026-09-14T19:18:21.574Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:6707669",
+   "source": "reverse-discovery",
+   "company": "canonical",
+   "title": "Junior Ubuntu Software Engineer",
+   "location": "Home based - Worldwide",
+   "url": "https://job-boards.greenhouse.io/canonical/jobs/6707669",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 83,
+   "matchedSkills": [
+    "Python",
+    "Linux"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2025-11-07T11:35:52-05:00",
+   "firstSeenAt": "2026-09-27T14:43:14.066Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:5426460008",
+   "source": "reverse-discovery",
+   "company": "captivation",
+   "title": "Software Engineer 1/2/3 (Hybrid) - JavaScript/React/Angular/Java/Linux",
+   "location": "Annapolis Junction, MD - Hybrid",
+   "url": "https://job-boards.greenhouse.io/captivation/jobs/5426460008",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 86,
+   "matchedSkills": [
+    "Java",
+    "JavaScript",
+    "React",
+    "Linux"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-09-16T18:05:24-04:00",
+   "firstSeenAt": "2026-09-27T14:43:14.066Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:5426713008",
+   "source": "reverse-discovery",
+   "company": "captivation",
+   "title": "Software Engineer 1/2 - PostgreSQL/CI/CD/SpringBoot/Angular/MongoDB/Oracle/Docker/Kubernetes/JSON/XML/Jira",
+   "location": "Annapolis Junction, MD",
+   "url": "https://job-boards.greenhouse.io/captivation/jobs/5426713008",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-09-16T19:56:38-04:00",
+   "firstSeenAt": "2026-09-27T14:43:14.066Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:5426714008",
+   "source": "reverse-discovery",
+   "company": "captivation",
+   "title": "Software Engineer 1/2 - PostgreSQL/Java/Angular/Docker/Kubernetes/CI/CD",
+   "location": "Annapolis Junction, MD",
+   "url": "https://job-boards.greenhouse.io/captivation/jobs/5426714008",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-09-16T20:03:19-04:00",
+   "firstSeenAt": "2026-09-27T14:43:14.066Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:5426544008",
+   "source": "reverse-discovery",
+   "company": "captivation",
+   "title": "Software Engineer 1 - Java/Confluence/Jira/AWS/Maven/MapReduce",
+   "location": "Annapolis Junction, MD",
+   "url": "https://job-boards.greenhouse.io/captivation/jobs/5426544008",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 88,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "Git",
+    "AWS",
+    "Linux"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-09-16T18:48:57-04:00",
+   "firstSeenAt": "2026-09-27T14:43:14.066Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:5426537008",
+   "source": "reverse-discovery",
+   "company": "captivation",
+   "title": "Software Engineer 1 - Python/Kotlin/Java/Terraform/Elasticsearch/Opensearch/AWS",
+   "location": "Annapolis Junction, MD",
+   "url": "https://job-boards.greenhouse.io/captivation/jobs/5426537008",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-09-16T18:41:52-04:00",
+   "firstSeenAt": "2026-09-27T14:43:14.066Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:5426539008",
+   "source": "reverse-discovery",
+   "company": "captivation",
+   "title": "Software Engineer 1 - Python/PySpark/AWS",
+   "location": "Annapolis Junction, MD",
+   "url": "https://job-boards.greenhouse.io/captivation/jobs/5426539008",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 83,
+   "matchedSkills": [
+    "Python",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-09-16T18:44:34-04:00",
+   "firstSeenAt": "2026-09-27T14:43:14.066Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:c71c0650-b6f7-491f-b291-6b280f58ee9c",
+   "source": "reverse-discovery",
+   "company": "heliux",
+   "title": "Software Engineer (Internship, Spring 2027)",
+   "location": "HQ (San Francisco, CA)",
+   "url": "https://jobs.ashbyhq.com/heliux/c71c0650-b6f7-491f-b291-6b280f58ee9c",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "TypeScript"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-07-31",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:26e58057-83e9-46af-85eb-90142cf3b8ba",
+   "source": "reverse-discovery",
+   "company": "iambic-therapeutics",
+   "title": "Software Engineer I/II - Scientific Computing",
+   "location": "Boston Office",
+   "url": "https://jobs.ashbyhq.com/iambic-therapeutics/26e58057-83e9-46af-85eb-90142cf3b8ba",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 83,
+   "matchedSkills": [
+    "Python",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-09-25T17:51:43.229+00:00",
+   "firstSeenAt": "2026-09-27T14:43:14.066Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:2b6032f9-12a5-4083-b5e6-4bec5376cbaa",
+   "source": "reverse-discovery",
+   "company": "inferact",
+   "title": "Inference Engineering, Co-op",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/inferact/2b6032f9-12a5-4083-b5e6-4bec5376cbaa",
+   "season": null,
+   "roleType": "internship",
+   "score": 83,
+   "matchedSkills": [
+    "Python",
+    "Algorithms"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-09-10T22:29:10.000Z",
+   "firstSeenAt": "2026-09-18T09:25:20.704Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:eff79e22-1cf9-449d-be03-c9f4402955c7",
+   "source": "reverse-discovery",
+   "company": "interplay",
+   "title": "Junior Forward Deployed Engineer",
+   "location": "New York",
+   "url": "https://jobs.ashbyhq.com/interplay/eff79e22-1cf9-449d-be03-c9f4402955c7",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Python",
+    "Next.js",
+    "SQL"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-09-10T15:27:56.052+00:00",
+   "firstSeenAt": "2026-09-27T14:43:14.066Z"
+  },
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
    "source": "ashby",
@@ -14313,29 +14728,6 @@
    "firstSeenAt": "2026-08-03T23:42:10.720Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:00eb8f3d2adcd4b3268de36a3b1efe476d03e855",
-   "source": "speedyapply",
-   "company": "Heliux",
-   "title": "Software Engineer - Internship - Spring 2027",
-   "location": "San Francisco, CA",
-   "url": "https://jobs.ashbyhq.com/heliux/c71c0650-b6f7-491f-b291-6b280f58ee9c",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-31",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:7cd240dab54e2da2959b6d56f2522e59e16e75ee",
    "source": "speedyapply",
    "company": "Anthelion Capital",
@@ -16684,29 +17076,6 @@
    },
    "postedAt": "2026-09-15",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:046094a1bc36865c46ade0c43cf2954870961f43",
-   "source": "speedyapply",
-   "company": "C3 AI",
-   "title": "Platform Full-Stack Engineer - New Grad 2027",
-   "location": "Redwood City, CA",
-   "url": "https://c3.ai/job-description/8801434002?gh_jid=8801434002",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-14",
-   "firstSeenAt": "2026-09-14T19:18:21.574Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:b127a1f2831a49d9c82369e82ada57dadaa78f6f",
@@ -26576,29 +26945,6 @@
    "firstSeenAt": "2026-09-14T19:18:21.574Z"
   },
   {
-   "dedupeKey": "simplifyjobs:03b97072-0f60-464b-a78e-1f492c236a63",
-   "source": "simplifyjobs",
-   "company": "C3.ai",
-   "title": "Forward Deployed Engineer New Grad - 2027",
-   "location": "Redwood City, CA",
-   "url": "https://c3.ai/job-description/8804558002?gh_jid=8804558002",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-14T18:03:13.000Z",
-   "firstSeenAt": "2026-09-14T19:18:21.574Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:16d72e19-4fbb-4539-842e-ab1c221c3562",
    "source": "simplifyjobs",
    "company": "Rolls-Royce",
@@ -35343,29 +35689,6 @@
    },
    "postedAt": "2026-09-10T00:00:00.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:98ea5788-0156-42e7-a01a-2e72217c974c",
-   "source": "simplifyjobs",
-   "company": "Inferact",
-   "title": "Inference Engineer Co-op",
-   "location": "SF",
-   "url": "https://jobs.ashbyhq.com/inferact/2b6032f9-12a5-4083-b5e6-4bec5376cbaa/application?embed=true",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-10T22:29:10.000Z",
-   "firstSeenAt": "2026-09-18T09:25:20.704Z"
   },
   {
    "dedupeKey": "simplifyjobs:3c5a73cb-e206-4607-bba3-aa3fbb3b51b9",
