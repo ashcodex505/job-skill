@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**1698 open roles** across **683 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-26 23:49 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1697 open roles** across **683 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-27 01:23 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (1)
@@ -10,7 +10,7 @@ Last updated: **2026-09-26 23:49 UTC** · auto-refreshed every 12h by [job-board
 |---|---|---|---|---|---|---|---|
 | Raytheon | Software Engineer I - Onsite 🆕 | Marlborough, MA | — | 80% | 2026-09-24 | 2026-09-26 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-I--Onsite-_01877495) |
 
-## 🛠️ Internships (1172)
+## 🛠️ Internships (1171)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -415,7 +415,7 @@ Last updated: **2026-09-26 23:49 UTC** · auto-refreshed every 12h by [job-board
 | Major League Baseball | Software Engineer Intern - Baseball Systems | Cleveland, OH | Summer 2026 | 90% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://job-boards.greenhouse.io/clevelandguardiansbops/jobs/8827470002) |
 | Susquehanna International Group | Machine Learning Engineer Intern | Bala Cynwyd, PA | Winter 2026 | 90% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11555/job?mobile=true&needsRedirect=false) |
 
-_…and 772 more (raise the cap in src/scraper/board.ts)._
+_…and 771 more (raise the cap in src/scraper/board.ts)._
 ## 🎓 New Grad (526)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
@@ -822,12 +822,13 @@ _…and 772 more (raise the cap in src/scraper/board.ts)._
 | Lightfield | Software Engineer - Infrastructure - Early Career | Cambridge, MA | — | 80% | 2026-08-02 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/lightfield/9a7ef2f9-577a-4242-b884-719e3cdf4420) |
 
 _…and 126 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (350)
+## 🚪 Recently closed (last 7 days) (351)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| Airbus | Full-Stack Software Developer Intern | — | 2026-09-27 |
 | Raytheon | Software Engineer I - Onsite | — | 2026-09-26 |
 | Visa | Software Engineer - New College Grad - 2027 Foster City - CA | 2027 New Grad | 2026-09-26 |
 | BLN24 | Junior Data Integration Developer | — | 2026-09-26 |
