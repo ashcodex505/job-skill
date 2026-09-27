@@ -1,10 +1,10 @@
 # 🎯 Job Board — SWE Early Career
 
-**1690 open roles** across **681 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-27 12:23 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1689 open roles** across **681 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-27 13:55 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🛠️ Internships (1168)
+## 🛠️ Internships (1167)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -409,7 +409,7 @@ Last updated: **2026-09-27 12:23 UTC** · auto-refreshed every 12h by [job-board
 | Susquehanna International Group | Machine Learning Engineer Intern | Bala Cynwyd, PA | Winter 2026 | 90% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://careers-sig.icims.com/jobs/11555/job?mobile=true&needsRedirect=false) |
 | Insulet | Intern - DevOps Engineer: June-August 2027 - Onsite | San Diego, CA | 2027 | 90% | 2026-09-23 | 2026-09-24 | [**Apply ➜**](https://insulet.wd5.myworkdayjobs.com/en-US/insuletcareers/job/San-Diego-California/Intern--DevOps-Engineer--June-August-2027--Onsite-_REQ-2026-18202) |
 
-_…and 768 more (raise the cap in src/scraper/board.ts)._
+_…and 767 more (raise the cap in src/scraper/board.ts)._
 ## 🎓 New Grad (522)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
@@ -816,12 +816,13 @@ _…and 768 more (raise the cap in src/scraper/board.ts)._
 | TikTok | Frontend Software Engineer New Grad - Ads Interface | San Jose, CA | — | 80% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668569995571726597) |
 
 _…and 122 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (356)
+## 🚪 Recently closed (last 7 days) (357)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| L3Harris Technologies | Software Engineering Intern | Winter 2026 | 2026-09-27 |
 | RTX | Software Engineer 1 | — | 2026-09-27 |
 | Realm | Software Engineer Intern | Fall 2026 | 2026-09-27 |
 | F5 | Software Engineer Intern - Digital | — | 2026-09-27 |
