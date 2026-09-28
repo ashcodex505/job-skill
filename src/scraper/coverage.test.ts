@@ -39,6 +39,7 @@ describe("approved-company scraper coverage", () => {
       expect(rows.find((row) => row.company === company)).toMatchObject({ mode: "direct", source: "ashby" });
     }
     expect(rows.find((row) => row.company === "Together AI")).toMatchObject({ mode: "direct", source: "greenhouse" });
+    expect(rows.find((row) => row.company === "Wafer")).toMatchObject({ mode: "direct", source: "ashby" });
   });
 
   it("renders non-direct gaps without turning them into issue notifications", () => {

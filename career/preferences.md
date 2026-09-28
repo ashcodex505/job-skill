@@ -7,7 +7,7 @@ explanatory text documents the intent behind each rule.
 ## Eligibility policy
 
 I am a new-grad / early-career candidate seeking full-time software engineering
-roles, including Forward Deployed Engineer (FDE), Software Engineer I / 1,
+roles, including Forward Deployed Engineer (FDE), Site Reliability Engineer (SRE), Software Engineer I / 1,
 AI and machine learning, distributed
 systems, infrastructure, platform, data, cloud, security, research engineering,
 and other software-centered engineering work suited to a graduating student.
@@ -273,6 +273,7 @@ Edit this section whenever a newly identified company meets that bar.
 - Vercel
 - Verkada
 - VMware
+- Wafer
 - Waymo
 - Wiz
 - Workday

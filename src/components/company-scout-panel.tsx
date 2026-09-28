@@ -98,7 +98,7 @@ export function CompanyScoutPanel() {
       {state.companies.length === 0 ? (
         <p className="mt-2 text-xs text-muted">
           No companies added yet. This only ever proposes real companies already posting into your feeds — never invents one — and
-          only adds them after you (well, Claude, reasoning about your actual candidates) confirms they're genuinely big-tech/unicorn
+          only adds them after you (well, Claude, reasoning about your actual candidates) confirms they&apos;re genuinely big-tech/unicorn
           tier.
         </p>
       ) : null}

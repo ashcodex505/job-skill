@@ -184,6 +184,7 @@ export const COMPANY_PORTALS: CompanyPortal[] = [
   { name: "Cognition", website: "https://cognition.com", careersUrl: "https://cognition.com/careers", ats: "ashby", slug: "cognition" },
   { name: "Physical Intelligence", website: "https://www.pi.website", careersUrl: "https://jobs.ashbyhq.com/physicalintelligence", ats: "ashby", slug: "physicalintelligence" },
   { name: "Plaid", website: "https://plaid.com", careersUrl: "https://plaid.com/careers", ats: "ashby", slug: "plaid" },
+  { name: "Wafer", website: "https://www.wafer.ai", careersUrl: "https://jobs.ashbyhq.com/wafer", ats: "ashby", slug: "wafer" },
   // Wiz's former Ashby board now returns an empty board; its careers page
   // currently routes vacancies to LinkedIn, which has no anonymous API.
   { name: "Wiz", website: "https://wiz.io", careersUrl: "https://wiz.io/careers", ats: "unsupported", fallbackCoverage: "manual" },

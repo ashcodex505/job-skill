@@ -82,7 +82,7 @@ export const EXCLUDED_COMPANIES: string[] = [
 /** Role titles that are quant/trading/banking even at an allowed company. */
 const EXCLUDED_TITLE = /\b(quant(itative)?|trader|trading|market maker|portfolio|investment bank|treasury|actuar)/i;
 
-export interface BigTechAlertJob extends BoardJob {}
+export type BigTechAlertJob = BoardJob;
 
 /**
  * "New to our board" is not the same as "recently posted" — a company added

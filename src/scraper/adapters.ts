@@ -1,6 +1,7 @@
 import type { CompanyPortal } from "./registry";
 import type { RawJob } from "./normalize";
 import { parseThroneCareers, parseThroneDescription } from "./throne";
+import { runPool } from "@/lib/concurrency";
 
 /**
  * ATS adapters use public jobs APIs. Throne and Shopify also read public,
@@ -1219,10 +1220,19 @@ export async function scrapeSpeedyApplyFeeds(now: Date = new Date()): Promise<Ra
 
 async function scrapeThrone(): Promise<RawJob[]> {
   const jobs = parseThroneCareers(await fetchText("https://thronescience.com/pages/careers"));
-  for (const job of jobs) {
-    job.description = parseThroneDescription(await fetchText(job.url));
-    await sleep(150);
-  }
+  // Detail text improves skill scoring, but the listing page is the source of
+  // truth for whether a role is open. Fetch details in a small bounded pool so
+  // larger boards do not become serially slow, and retain the listing if one
+  // detail page is temporarily unavailable or changes layout.
+  await runPool(jobs, 3, async (job) => {
+    try {
+      job.description = parseThroneDescription(await fetchText(job.url));
+    } catch (err) {
+      console.warn(
+        `  Throne Science: description unavailable for ${job.title} — ${err instanceof Error ? err.message : String(err)}`,
+      );
+    }
+  });
   return jobs;
 }
 

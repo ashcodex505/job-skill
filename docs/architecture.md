@@ -142,7 +142,11 @@ A failing company records an error in `scraper_runs` and never aborts the
 run. Up to 5 companies are scraped concurrently (`runPool` in
 `lib/concurrency.ts`), portals interleaved by ATS type first so concurrent
 lanes land on different hosts instead of e.g. all hitting
-`boards-api.greenhouse.io` at once.
+`boards-api.greenhouse.io` at once. The three independent community feeds run
+concurrently with that company sweep. Persistence preloads existing job
+identities in one projection, avoiding a database read for every normalized
+job. Throne detail pages use a bounded three-lane pool; a failed detail fetch
+loses only optional description text, not the authoritative listing itself.
 
 **Reverse discovery (`discover.ts`).** Ported from career-ops'
 scan-ats-full.mjs: instead of only scanning the ~80 companies hand-curated

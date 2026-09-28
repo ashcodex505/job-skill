@@ -115,6 +115,17 @@ describe("classify", () => {
     }
   });
 
+  it("recognizes Site Reliability Engineer as an explicit target role", () => {
+    for (const title of [
+      "Site Reliability Engineer Intern",
+      "Site Reliability Engineer, New Grad 2027",
+      "SRE Engineer I",
+    ]) {
+      expect(classifyTitle(title).breakdown.role, title).toBe(40);
+      expect(classifyTitle(title).relevant, title).toBe(true);
+    }
+  });
+
   it("does not treat bare systems or unrelated infrastructure as software roles", () => {
     for (const title of [
       "Mechanical Systems Engineer Intern",

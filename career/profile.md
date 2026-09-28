@@ -12,7 +12,7 @@ hire.
 
 - Current level: student / early-career software engineer
 - Professional background: software engineering internships, projects, and coursework
-- Best-fit full-time roles: 2027 new-grad technical engineering, including Software Engineer I / 1, AI/ML, distributed systems, infrastructure, platform, data, cloud, security, research, and other technical engineering positions
+- Best-fit full-time roles: 2027 new-grad technical engineering, including Software Engineer I / 1, Site Reliability Engineer (SRE), AI/ML, distributed systems, infrastructure, platform, data, cloud, security, research, and other technical engineering positions
 - Accepted early-career signals: New Grad, New Graduate, Early Career, Entry Level, Junior, Engineer I / 1, Developer I / 1, SWE I / 1, or SDE I / 1
 - Out of scope: experienced-hire roles requiring post-graduation experience I do not have, and senior/staff/lead/manager roles
 
@@ -23,7 +23,7 @@ AI, systems, security, and other technical areas are not claims of expertise.
 ## Search priorities
 
 1. **2027 new-grad engineering:** software engineering and other technical engineering jobs suitable for a new graduate, including level-I and junior roles.
-2. **AI and distributed systems:** AI/ML, research engineering, backend, infrastructure, platform, cloud, data, security, and related technical roles at an appropriate experience level.
+2. **AI and distributed systems:** AI/ML, research engineering, backend, infrastructure, site reliability, platform, cloud, data, security, and related technical roles at an appropriate experience level.
 3. **Inference engineering:** especially interested in Baseten internships, co-ops, and new-grad roles building distributed inference, model-serving infrastructure, reliability, latency, autoscaling, networking, and observability. Prefer systems/software paths that do not require prior ML research or model-training expertise; internships are welcome in any season.
 4. **Forward Deployed Engineering (FDE):** explicitly open to customer-facing software/AI engineering, deployment, and production integration roles, including FDE internships/co-ops in any season and new-grad, entry-level, junior, or level-I FDE positions.
 5. **Internships and co-ops in any season:** Fall 2026, Winter 2027, Spring 2027, Summer 2027, next fall (Fall 2027), and rolling or unspecified dates, subject to enrollment and degree eligibility.

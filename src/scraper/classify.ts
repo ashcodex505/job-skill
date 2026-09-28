@@ -44,6 +44,7 @@ const ROLE_KEYWORDS = [
   /machine learning engineer/i,
   /\bai engineer\b/i,
   /site reliability/i,
+  /\bsre\b/i,
   /web developer/i,
   /applications engineer/i,
   // Customer-facing builders at AI labs and high-signal product companies.

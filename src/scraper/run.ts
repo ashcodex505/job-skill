@@ -101,11 +101,21 @@ export async function upsertNormalizedJobs(
   const timestamp = now();
   let newJobs = 0;
   const newJobKeys: string[] = [];
+  // One projection replaces an N+1 lookup per job. A full scrape commonly
+  // produces well over a thousand rows, so this removes the largest avoidable
+  // source of local SQLite/libSQL round trips without changing write order.
+  const existingRows = await db
+    .select({
+      id: tables.discoveredJobs.id,
+      dedupeKey: tables.discoveredJobs.dedupeKey,
+      postedAt: tables.discoveredJobs.postedAt,
+      firstSeenAt: tables.discoveredJobs.firstSeenAt,
+    })
+    .from(tables.discoveredJobs);
+  const existingByKey = new Map(existingRows.map((row) => [row.dedupeKey, row]));
 
   for (const job of jobs) {
-    const existing = await db.query.discoveredJobs.findFirst({
-      where: eq(tables.discoveredJobs.dedupeKey, job.dedupeKey),
-    });
+    const existing = existingByKey.get(job.dedupeKey);
     if (existing) {
       await db
         .update(tables.discoveredJobs)
@@ -184,11 +194,10 @@ export async function runScraper(
   // The community feed joins full runs by default; partial --company runs opt in.
   const includeFeed = options.simplifyFeed ?? !wanted;
 
-  // Up to COMPANY_CONCURRENCY companies scraped at once instead of one at a
-  // time; interleaved by ATS so concurrent lanes land on different hosts as
-  // much as possible. Each lane still keeps its own COMPANY_DELAY_MS pacing
-  // after every company, so this is "N polite lanes" rather than a burst.
-  await runPool(interleaveByAts(portals), COMPANY_CONCURRENCY, async (portal) => {
+  // Up to COMPANY_CONCURRENCY companies are scraped at once. Community feeds
+  // use unrelated endpoints, so start their bounded pool at the same time
+  // instead of waiting for the entire registry sweep to finish first.
+  const companyScan = runPool(interleaveByAts(portals), COMPANY_CONCURRENCY, async (portal) => {
     try {
       const raw = await ADAPTERS[portal.ats](portal);
       const normalized: NormalizedJob[] = [];
@@ -217,32 +226,37 @@ export async function runScraper(
     await sleep(COMPANY_DELAY_MS);
   });
 
-  if (includeFeed) {
-    const feeds = [
-      { name: "SimplifyJobs feed", source: "simplifyjobs", scrape: scrapeSimplifyFeeds },
-      { name: "speedyapply feed", source: "speedyapply", scrape: scrapeSpeedyApplyFeeds },
-      { name: "vanshb03 feed", source: "vansh", scrape: scrapeVanshFeed },
-    ] as const;
-    // All 3 feeds are independent of each other and of the company loop
-    // above (already finished by this point) — run them concurrently. They
-    // share one host (raw.githubusercontent.com), but each feed function is
-    // itself still sequential internally (its own repo/branch fallbacks,
-    // its own 300ms pacing), so this is at most 3 concurrent requests to a
-    // CDN built for far higher concurrency than that.
-    await runPool(feeds, feeds.length, async (feed) => {
-      try {
-        const raw = await feed.scrape();
-        const normalized = raw.map((job) => normalizeJob(job, careerConfig)).filter((j): j is NormalizedJob => j !== null);
-        allJobs.push(...normalized);
-        scannedSources.push(feed.source);
-        console.log(`  ${feed.name}: ${raw.length} recent listings, ${normalized.length} relevant`);
-      } catch (err) {
-        const message = err instanceof Error ? err.message : String(err);
-        errors.push({ company: feed.name, message });
-        console.warn(`  ${feed.name}: FAILED — ${message}`);
-      }
-    });
-  }
+  const feedScan = includeFeed
+    ? (async () => {
+        const feeds = [
+          { name: "SimplifyJobs feed", source: "simplifyjobs", scrape: scrapeSimplifyFeeds },
+          { name: "speedyapply feed", source: "speedyapply", scrape: scrapeSpeedyApplyFeeds },
+          { name: "vanshb03 feed", source: "vansh", scrape: scrapeVanshFeed },
+        ] as const;
+        // All 3 feeds are independent of each other and of the company loop.
+        // They share one host (raw.githubusercontent.com), but each feed
+        // function is itself sequential internally (its own repo/branch
+        // fallbacks and 300ms pacing), so this is at most 3 concurrent
+        // requests to a CDN built for far higher concurrency than that.
+        await runPool(feeds, feeds.length, async (feed) => {
+          try {
+            const raw = await feed.scrape();
+            const normalized = raw
+              .map((job) => normalizeJob(job, careerConfig))
+              .filter((j): j is NormalizedJob => j !== null);
+            allJobs.push(...normalized);
+            scannedSources.push(feed.source);
+            console.log(`  ${feed.name}: ${raw.length} recent listings, ${normalized.length} relevant`);
+          } catch (err) {
+            const message = err instanceof Error ? err.message : String(err);
+            errors.push({ company: feed.name, message });
+            console.warn(`  ${feed.name}: FAILED — ${message}`);
+          }
+        });
+      })()
+    : Promise.resolve();
+
+  await Promise.all([companyScan, feedScan]);
 
   // Reverse discovery: opt-in, separate from the curated registry entirely.
   // Deliberately NOT added to scannedCompanies/scannedSources — it only ever

@@ -106,6 +106,11 @@ Credentials/passwords are **never** stored in Supabase — resume files only.
 
 ## Job scraper
 
+New engineers should start with the
+[CI scraper and job-board as-built specification](docs/specs/ci-web-scraper-system.md).
+Future changes and open design questions live separately in the
+[scraper improvement specification](docs/specs/ci-web-scraper-improvements.md).
+
 `npm run scrape` (or the **Scrape now** button in Job Discovery) calls the
 official public jobs APIs behind each company's careers page — Greenhouse,
 Lever, Ashby boards and Workday career-site endpoints — with rate limiting
@@ -148,9 +153,10 @@ inference, distributed-systems, infrastructure, and FDE opportunities that do
 not require prior ML research/model-training experience. The approved and
 priority lists enable these companies in
 the existing scheduled watcher after push. Throne uses a dedicated public HTML
-adapter; the other targets use supported ATS APIs. Current preferences include
-new-grad/junior/Engineer I technical roles (including AI and distributed systems)
-and internships in any season, including Fall 2027 and unspecified dates.
+adapter; Wafer and the other Ashby targets use the official public posting API.
+Current preferences include new-grad/junior/Engineer I technical roles (including
+site reliability, AI, and distributed systems) and internships in any season,
+including Fall 2027 and unspecified dates.
 Seniority, location, and the Summer 2027 company allowlist still apply.
 
 ### Import from Simplify.jobs
