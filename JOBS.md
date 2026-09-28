@@ -1,27 +1,16 @@
 # 🎯 Job Board — SWE Early Career
 
-**1683 open roles** across **687 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-28 00:39 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1681 open roles** across **686 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-28 05:46 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (12)
+## 🆕 New this cycle (1)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| iambic-therapeutics | Software Engineer I/II - Scientific Computing 🆕 | Boston Office | — | 83% (2 skills) | 2026-09-25 | 2026-09-27 | [**Apply ➜**](https://jobs.ashbyhq.com/iambic-therapeutics/26e58057-83e9-46af-85eb-90142cf3b8ba) |
 | Raytheon | Software Engineer I - Test Solutions - Onsite 🆕 | Tucson, AZ | — | 80% | 2026-09-24 | 2026-09-27 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-AZ-TUCSON-801--1151-E-Hermans-Rd--BLDG-801-External-Site/Software-Engineer-I----Test-Solutions---Onsite_01836492) |
-| captivation | Software Engineer 1/2 - PostgreSQL/Java/Angular/Docker/Kubernetes/CI/CD 🆕 | Annapolis Junction, MD | — | 85% (3 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426714008) |
-| captivation | Software Engineer 1/2 - PostgreSQL/CI/CD/SpringBoot/Angular/MongoDB/Oracle/Docker/Kubernetes/JSON/XML/Jira 🆕 | Annapolis Junction, MD | — | 85% (3 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426713008) |
-| captivation | Software Engineer 1 - Java/Confluence/Jira/AWS/Maven/MapReduce 🆕 | Annapolis Junction, MD | — | 88% (5 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426544008) |
-| captivation | Software Engineer 1 - Python/PySpark/AWS 🆕 | Annapolis Junction, MD | — | 83% (2 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426539008) |
-| captivation | Software Engineer 1 - Python/Kotlin/Java/Terraform/Elasticsearch/Opensearch/AWS 🆕 | Annapolis Junction, MD | — | 85% (3 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426537008) |
-| captivation | Software Engineer 1/2/3 (Hybrid) - JavaScript/React/Angular/Java/Linux 🆕 | Annapolis Junction, MD - Hybrid | — | 86% (4 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426460008) |
-| interplay | Junior Forward Deployed Engineer 🆕 | New York | — | 85% (3 skills) | 2026-09-10 | 2026-09-27 | [**Apply ➜**](https://jobs.ashbyhq.com/interplay/eff79e22-1cf9-449d-be03-c9f4402955c7) |
-| bti36021 | Software Engineering Intern 🆕 | Herndon,VA | — | 93% (8 skills) | 2026-08-24 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/bti36021/jobs/8155152) |
-| businessolver | DevOps Engineer I (Remote) 🆕 | Remote - United States | — | 90% (3 skills) | 2026-08-11 | 2026-09-27 | [**Apply ➜**](https://www.businessolver.com/careers/openings/?gh_jid=8099759) |
-| canonical | Junior Ubuntu Software Engineer 🆕 | Home based - Worldwide | — | 83% (2 skills) | 2025-11-07 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/canonical/jobs/6707669) |
 
-## 🛠️ Internships (1157)
+## 🛠️ Internships (1155)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -218,7 +207,6 @@ Last updated: **2026-09-28 00:39 UTC** · auto-refreshed every 12h by [job-board
 | Google | Software Engineering Intern - MS - Summer 2027 | Mountain View, CA +29 | Summer 2027 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://www.google.com/about/careers/applications/jobs/results/94172495052972742) |
 | Micron Technology | AI Systems and Infrastructure Engineering Intern | Austin, TX | Fall 2026 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://micron.wd1.myworkdayjobs.com/External/job/Austin-TX/Intern---AI-Systems-and-Infrastructure-Engineering_JR109990) |
 | CIBC | Software Engineer Co-op | Chicago, IL | Spring 2027 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Spring-Term-Software-Engineer-Co-op---Chicago--Northeastern-University-_2617782-1) |
-| CIBC | Software Engineer Co-op | Chicago, IL | Spring 2027 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://cibc.wd3.myworkdayjobs.com/campus/job/Chicago-IL/XMLNAME-2027-Spring-Term-Software-Engineer-Co-op---Chicago--Northeastern-University-_2617782) |
 | Qorvo | Software Engineer Intern | Richardson, TX | Fall 2026 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://careers.qorvo.com/job/Richardson-Software-Engineering-Intern-TX-75080/1424729800/?ats=successfactors) |
 | Qorvo | Software Characterization Engineer Intern | Greensboro, NC | Fall 2026 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://careers.qorvo.com/job/Greensboro-Software-Characterization-Eng-Intern-NC-27409/1420018600/?ats=successfactors) |
 | Qorvo | Software Engineer Intern - SWR | Greensboro, NC | Fall 2026 | 100% | 2026-08-31 | 2026-08-31 | [**Apply ➜**](https://careers.qorvo.com/job/Greensboro-Software-Engineering-Intern,-SWR-NC-27409/1421982000/?ats=successfactors) |
@@ -384,7 +372,7 @@ Last updated: **2026-09-28 00:39 UTC** · auto-refreshed every 12h by [job-board
 | Domino Data Lab | Software Engineer - Intern - Campus Recruiting 2027 | Remote - New York City, NY | 2027 | 95% | 2026-09-10 | 2026-09-10 | [**Apply ➜**](https://app.careerpuck.com/job-board/domino-data-lab/job/7992560?gh_jid=7992560) |
 | Waymo | 2027 Summer Intern, BS, SysEng Software Engineer | Mountain View, California, USA | 2027 | 95% (3 skills) | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8174099) |
 | Verkada | Frontend Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 95% (3 skills) | 2026-08-25 | 2026-08-25 | [**Apply ➜**](https://job-boards.greenhouse.io/verkada/jobs/5210942007) |
-| bti36021 | Software Engineering Intern 🆕 | Herndon,VA | — | 93% (8 skills) | 2026-08-24 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/bti36021/jobs/8155152) |
+| bti36021 | Software Engineering Intern | Herndon,VA | — | 93% (8 skills) | 2026-08-24 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/bti36021/jobs/8155152) |
 | Waymo | 2027 Summer Intern, MS/PhD, Software Engineering, Sys Intel & ML | Mountain View, CA, USA | 2027 | 93% (2 skills) | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8234161) |
 | Figma | Data Engineer Intern (2027) | San Francisco, CA • New York, NY | 2027 | 93% (2 skills) | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004) |
 | Waymo | 2027 Summer Intern, MS/PhD, Road Understanding, ML Engineer | Mountain View, California | 2027 | 93% (2 skills) | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://careers.withwaymo.com/jobs?gh_jid=8224746) |
@@ -425,8 +413,9 @@ Last updated: **2026-09-28 00:39 UTC** · auto-refreshed every 12h by [job-board
 | Insulet | Intern - DevOps Engineer: June-August 2027 - Onsite | San Diego, CA | 2027 | 90% | 2026-09-23 | 2026-09-24 | [**Apply ➜**](https://insulet.wd5.myworkdayjobs.com/en-US/insuletcareers/job/San-Diego-California/Intern--DevOps-Engineer--June-August-2027--Onsite-_REQ-2026-18202) |
 | CAE | Weapons Simulation Software Co-op | Arlington, TX | Winter 2026 | 90% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Weapons-Simulation-Software-Co-Op_123873) |
 | L3Harris Technologies | Software Engineer Intern | Melbourne, FL | Winter 2026 | 90% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jobs.l3harris.com/job/Melbourne-Intern,-Software-Engineer-FL-32904/1433003500/?ats=successfactors) |
+| Booz Allen | University - 2027 Summer Games Software Developer Intern - Annapolis Junction - MD | Annapolis Junction, MD | 2027 | 90% | 2026-09-21 | 2026-09-23 | [**Apply ➜**](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0249873) |
 
-_…and 757 more (raise the cap in src/scraper/board.ts)._
+_…and 755 more (raise the cap in src/scraper/board.ts)._
 ## 🎓 New Grad (526)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
@@ -459,12 +448,12 @@ _…and 757 more (raise the cap in src/scraper/board.ts)._
 | Belvedere Trading | Software Engineer - Entry Level 2027 | Chicago, IL | 2027 New Grad | 95% | 2026-08-04 | 2026-08-10 | [**Apply ➜**](https://jobs.lever.co/belvederetrading/2f6480e5-7bf1-4c41-b3b5-3c7404d95b5f) |
 | Quora | Software Engineer New Grad, Machine Learning Platform - Quora (Remote) | Remote - Multiple Locations; United States; Canada | — | 91% (4 skills) | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/quora/cf34f80e-fe5c-454d-bc9a-4c59993ffda0) |
 | Samsara | Software Engineer I, External Platform EMEA (Poland, Remote, B2B) | Remote - Poland | — | 91% (4 skills) | 2026-09-18 | 2026-09-18 | [**Apply ➜**](https://www.samsara.com/company/careers/roles/8210695?gh_jid=8210695) |
-| businessolver | DevOps Engineer I (Remote) 🆕 | Remote - United States | — | 90% (3 skills) | 2026-08-11 | 2026-09-27 | [**Apply ➜**](https://www.businessolver.com/careers/openings/?gh_jid=8099759) |
+| businessolver | DevOps Engineer I (Remote) | Remote - United States | — | 90% (3 skills) | 2026-08-11 | 2026-09-27 | [**Apply ➜**](https://www.businessolver.com/careers/openings/?gh_jid=8099759) |
 | Abnormal AI | Machine Learning Engineer I - Message Security Products | Remote - Singapore | — | 90% (3 skills) | 2026-07-27 | 2026-09-16 | [**Apply ➜**](https://abnormal.ai/careers/jobs/7816935003?gh_jid=7816935003) |
 | Affirm | Software Engineer I, Frontend (Upfunnel) | Remote Canada | — | 90% (3 skills) | 2026-09-11 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7985907003) |
 | PathAI | Software Engineer I, Fullstack | Boston, MA (Hybrid) | — | 89% (6 skills) | 2026-08-11 | 2026-09-25 | [**Apply ➜**](https://www.pathai.com/careers/8696764002?gh_jid=8696764002) |
 | glide | Full Stack Engineer - Early Career | New York City | — | 89% (6 skills) | 2026-02-02 | 2026-09-20 | [**Apply ➜**](https://jobs.ashbyhq.com/glide/5ece3064-6884-43c2-923c-066d6187b25d) |
-| captivation | Software Engineer 1 - Java/Confluence/Jira/AWS/Maven/MapReduce 🆕 | Annapolis Junction, MD | — | 88% (5 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426544008) |
+| captivation | Software Engineer 1 - Java/Confluence/Jira/AWS/Maven/MapReduce | Annapolis Junction, MD | — | 88% (5 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426544008) |
 | Scale AI | Software Engineer, Public Sector - New Grad | San Francisco, CA | — | 88% (5 skills) | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4736426005) |
 | Affirm | Software Engineer I, Backend (Collections) | Remote Spain | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807506003) |
 | Affirm | Software Engineer I, Backend (Collections) | Remote Poland | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807508003) |
@@ -473,13 +462,13 @@ _…and 757 more (raise the cap in src/scraper/board.ts)._
 | DoorDash | Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US | Los Angeles, CA; New York, NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA | — | 88% (5 skills) | 2026-09-04 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8163709) |
 | Notion | Software Engineer, Early Career (AI) | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
 | Notion | Software Engineer, Early Career | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
-| captivation | Software Engineer 1/2/3 (Hybrid) - JavaScript/React/Angular/Java/Linux 🆕 | Annapolis Junction, MD - Hybrid | — | 86% (4 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426460008) |
+| captivation | Software Engineer 1/2/3 (Hybrid) - JavaScript/React/Angular/Java/Linux | Annapolis Junction, MD - Hybrid | — | 86% (4 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426460008) |
 | Scale AI | Software Engineer - New Grad | Doha, Qatar | — | 86% (4 skills) | 2026-09-14 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4730851005) |
 | Scale AI | Software Engineer - New Grad | San Francisco, CA | — | 86% (4 skills) | 2026-09-04 | 2026-09-04 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4730836005) |
-| captivation | Software Engineer 1/2 - PostgreSQL/CI/CD/SpringBoot/Angular/MongoDB/Oracle/Docker/Kubernetes/JSON/XML/Jira 🆕 | Annapolis Junction, MD | — | 85% (3 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426713008) |
-| captivation | Software Engineer 1/2 - PostgreSQL/Java/Angular/Docker/Kubernetes/CI/CD 🆕 | Annapolis Junction, MD | — | 85% (3 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426714008) |
-| captivation | Software Engineer 1 - Python/Kotlin/Java/Terraform/Elasticsearch/Opensearch/AWS 🆕 | Annapolis Junction, MD | — | 85% (3 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426537008) |
-| interplay | Junior Forward Deployed Engineer 🆕 | New York | — | 85% (3 skills) | 2026-09-10 | 2026-09-27 | [**Apply ➜**](https://jobs.ashbyhq.com/interplay/eff79e22-1cf9-449d-be03-c9f4402955c7) |
+| captivation | Software Engineer 1/2 - PostgreSQL/CI/CD/SpringBoot/Angular/MongoDB/Oracle/Docker/Kubernetes/JSON/XML/Jira | Annapolis Junction, MD | — | 85% (3 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426713008) |
+| captivation | Software Engineer 1/2 - PostgreSQL/Java/Angular/Docker/Kubernetes/CI/CD | Annapolis Junction, MD | — | 85% (3 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426714008) |
+| captivation | Software Engineer 1 - Python/Kotlin/Java/Terraform/Elasticsearch/Opensearch/AWS | Annapolis Junction, MD | — | 85% (3 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426537008) |
+| interplay | Junior Forward Deployed Engineer | New York | — | 85% (3 skills) | 2026-09-10 | 2026-09-27 | [**Apply ➜**](https://jobs.ashbyhq.com/interplay/eff79e22-1cf9-449d-be03-c9f4402955c7) |
 | CACI | Software Engineer - Early Career - Cloud | Remote - Hanover, MD | — | 85% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Hanover-MD-US/Software-Engineer---Early-Career---Cloud_330679) |
 | CACI | Software Engineer Early Career - Cloud | Remote in USA; Hanover, MD | — | 85% | 2026-09-24 | 2026-09-24 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/external/job/Hanover-MD-US/Software-Engineer---Early-Career---Cloud_330679) |
 | Abnormal Security | Software Engineer 1 - Data Platforms | Remote - USA | — | 85% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://abnormal.ai/careers/jobs/8001641003?gh_jid=8001641003) |
@@ -510,9 +499,9 @@ _…and 757 more (raise the cap in src/scraper/board.ts)._
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Washington, D.C. | — | 85% (3 skills) | 2025-08-19 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) |
 | Palantir | Software Engineer, New Grad - Production Infrastructure | New York, NY | — | 85% (3 skills) | 2025-06-26 | 2026-07-05 | [**Apply ➜**](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) |
-| canonical | Junior Ubuntu Software Engineer 🆕 | Home based - Worldwide | — | 83% (2 skills) | 2025-11-07 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/canonical/jobs/6707669) |
-| captivation | Software Engineer 1 - Python/PySpark/AWS 🆕 | Annapolis Junction, MD | — | 83% (2 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426539008) |
-| iambic-therapeutics | Software Engineer I/II - Scientific Computing 🆕 | Boston Office | — | 83% (2 skills) | 2026-09-25 | 2026-09-27 | [**Apply ➜**](https://jobs.ashbyhq.com/iambic-therapeutics/26e58057-83e9-46af-85eb-90142cf3b8ba) |
+| canonical | Junior Ubuntu Software Engineer | Home based - Worldwide | — | 83% (2 skills) | 2025-11-07 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/canonical/jobs/6707669) |
+| captivation | Software Engineer 1 - Python/PySpark/AWS | Annapolis Junction, MD | — | 83% (2 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426539008) |
+| iambic-therapeutics | Software Engineer I/II - Scientific Computing | Boston Office | — | 83% (2 skills) | 2026-09-25 | 2026-09-27 | [**Apply ➜**](https://jobs.ashbyhq.com/iambic-therapeutics/26e58057-83e9-46af-85eb-90142cf3b8ba) |
 | educative | Software Engineer (Entry-level) | Lahore | — | 83% (8 skills) | 2021-06-21 | 2026-09-20 | [**Apply ➜**](https://jobs.lever.co/educative/09b4532f-3645-41bf-8546-e05b3448b8a0) |
 | gigaml | Forward Deployed Engineer I/II | San Francisco | — | 83% (2 skills) | 2026-06-12 | 2026-09-20 | [**Apply ➜**](https://jobs.ashbyhq.com/gigaml/ea4abfde-77d8-4a80-878b-c5132163c7f0) |
 | Stripe | Software Engineer, Early Career — Immediate Start | San Francisco, Seattle, New York | — | 83% (2 skills) | 2026-09-17 | 2026-09-17 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8212508) |
@@ -639,8 +628,8 @@ _…and 757 more (raise the cap in src/scraper/board.ts)._
 | American Express | AI Engineer 1 - Enterprise Technology Services | NYC | — | 80% | 2026-09-02 | 2026-09-16 | [**Apply ➜**](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012982) |
 | American Express | Software Engineer 1 - Enterprise Technology Services | Charlotte, NC | — | 80% | 2026-09-02 | 2026-09-16 | [**Apply ➜**](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012869) |
 | American Express | AI Engineer 1 - Enterprise Technology Services | Sunrise, FL | — | 80% | 2026-09-02 | 2026-09-16 | [**Apply ➜**](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012988) |
-| Amerisure | Software Engineer 1 | Southfield, MI | — | 80% | 2026-07-30 | 2026-09-16 | [**Apply ➜**](https://osv-amerisure.wd5.myworkdayjobs.com/Amerisure/job/Farmington-Hills-MI/Software-Engineer-I_JR-002063) |
 | Amerisure | Software Engineer I | Farmington Hills, MI | — | 80% | 2026-07-30 | 2026-09-16 | [**Apply ➜**](https://osv-amerisure.wd5.myworkdayjobs.com/en-US/amerisure/job/Farmington-Hills-MI/Software-Engineer-I_JR-002063) |
+| Amerisure | Software Engineer 1 | Southfield, MI | — | 80% | 2026-07-30 | 2026-09-16 | [**Apply ➜**](https://osv-amerisure.wd5.myworkdayjobs.com/Amerisure/job/Farmington-Hills-MI/Software-Engineer-I_JR-002063) |
 | Anatomage | 3D Software Junior Developer | Santa Clara, CA | — | 80% | 2026-08-27 | 2026-09-16 | [**Apply ➜**](https://apply.workable.com/anatomage/j/9E0E93FEFF/) |
 | Astrion | Junior Software Developer - Datalinks Test Flight | Eglin AFB, FL | — | 80% | 2026-08-18 | 2026-09-16 | [**Apply ➜**](https://careers.astrion.us/jobs/24705?icims=1) |
 | Avanade | Junior DevOps Engineer | Cincinnati, OH | — | 80% | 2026-08-10 | 2026-09-16 | [**Apply ➜**](https://accenture.wd103.myworkdayjobs.com/en-US/avanadecareers/job/Cincinnati-4th-Street-Corp/Junior-DevOps-Engineer_R00332498) |
@@ -730,8 +719,8 @@ _…and 757 more (raise the cap in src/scraper/board.ts)._
 | Sentinel Group | Junior Fullstack Software Engineer | Wakefield, MA | — | 80% | 2026-09-16 | 2026-09-16 | [**Apply ➜**](https://sentinelgroup.applytojob.com/apply/Vjwkld3rI6/Junior-Fullstack-Software-Engineer) |
 | Silicon Laboratories | Software Engineer 1 - RAIL team | Austin, TX | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/Austin/Software-Engineer-I_21011-1) |
 | Silicon Labs | Software Engineer I | Austin, TX | — | 80% | 2026-09-14 | 2026-09-16 | [**Apply ➜**](https://silabs.wd1.myworkdayjobs.com/en-US/siliconlabscareers/job/Austin/Software-Engineer-I_21011-1) |
-| SimpliSafe | Software Engineer I | Boston, MA | — | 80% | 2026-07-07 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/simplisafe/jobs/8049515) |
 | SimpliSafe | Software Engineer I- User Systems | Boston, MA | — | 80% | 2026-08-03 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/simplisafe/jobs/8095181) |
+| SimpliSafe | Software Engineer I - Device Control | Boston, MA | — | 80% | 2026-07-07 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/simplisafe/jobs/8049515) |
 | Smarter Agent | Junior Data Engineer - Multiple Teams | Collingswood, NJ | — | 80% | 2026-08-18 | 2026-09-16 | [**Apply ➜**](https://jobs.smartrecruiters.com/SmarterAgent/743999706496509) |
 | SMX | Junior Software Engineer - 5510 | Huntsville, AL | — | 80% | 2026-08-07 | 2026-09-16 | [**Apply ➜**](https://www.smxtech.com/careers/?gh_jid=7832667003) |
 | SOCOTEC Global | Junior Software Engineer | NYC | — | 80% | 2026-08-03 | 2026-09-16 | [**Apply ➜**](https://jobs.smartrecruiters.com/Socotec/744000141326319) |
@@ -833,12 +822,14 @@ _…and 757 more (raise the cap in src/scraper/board.ts)._
 | Hudson River Trading | Algorithm Developer New Grad - Quant Researcher | NYC | — | 80% | 2026-07-13 | 2026-08-09 | [**Apply ➜**](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052050) |
 
 _…and 126 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (357)
+## 🚪 Recently closed (last 7 days) (359)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| CIBC | Software Engineer Co-op | Spring 2027 | 2026-09-28 |
+| Buildertrend | Software Engineer Intern | Summer 2026 | 2026-09-28 |
 | Palantir | Software Engineer Intern - Production Infrastructure | Winter 2028 | 2026-09-27 |
 | Palantir | Forward Deployed Software Engineer New Grad - Commercial | — | 2026-09-27 |
 | Palantir | Software Engineer New Grad - Defense | — | 2026-09-27 |
