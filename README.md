@@ -274,12 +274,17 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1614-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-19-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--29-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1647-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-37-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--29-informational)
 
-Updated **2026-09-29 21:29 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-29 23:11 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| GE Appliances | Software Engineering Co-op 🆕 | Louisville, KY | Fall 2026 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Fall-2026_REQ-26919) |
+| RTX | Software Engineer Co-op - Winter/Spring 2027 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-16 | 2026-09-29 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Winter-Spring-2027-_01875464) |
+| S&C Electric Company | Software Engineer Co-op 🆕 | Chicago, IL | Fall 2026 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107307) |
+| Tesla | Software Engineer Intern - Data Transformations 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284925) |
+| Tesla | Software Integration Engineer Intern - AI Platforms 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://www.tesla.com/careers/search/job/277009) |
 | Raytheon | Software Engineering Co-op - Summer/Fall 2027 🆕 | Cedar Rapids, IA | Fall 2027 | 100% | 2026-09-28 | 2026-09-29 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Co-op--Summer-Fall-2027-_01877158) |
 | Stryker | Software Engineering Co-op 🆕 | Belfast, UK | Fall 2027 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Belfast-United-Kingdom/Software-Engineering-Co-Op_R572094) |
 | RTX | Software Engineering Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-28 | 2026-09-29 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645) |
@@ -295,9 +300,4 @@ Updated **2026-09-29 21:29 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Snowflake | Software Engineer Intern - AI / ML - Spring 2027 | Menlo Park, CA +1 | Spring 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/snowflake/4be290ae-dd9d-488c-9d90-56fcd69101ca) |
 | Snowflake | Software Engineer Intern - Database Engineering - Spring 2027 | Menlo Park, CA +1 | Spring 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/snowflake/7bd393df-67d7-4009-ba4f-1cd79a82b0be) |
 | Snowflake | Software Engineer Intern - Core - Infrastructure & Security — Spring 2027 | Menlo Park, CA +1 | Spring 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/snowflake/5315b6f6-2c14-4cb9-a884-c2bae69f2c69) |
-| Amazon | Software Development Engineer Intern - Summer 2027 (USA) , Amazon Dedicated Cloud (ADC) | Seattle, Washington, USA | Summer 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10559746/software-development-engineer-intern-summer-2027-usa-amazon-dedicated-cloud-adc) |
-| Amazon | Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA) | Redmond, Washington, USA | Summer 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10559762/software-development-engineer-intern-amazon-leo-summer-2027-usa) |
-| Astranis Space Technologies | Software Developer - Network Software Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4705599006) |
-| Notion | Software Engineer Intern, Mobile (Winter 2027) | San Francisco, California; New York, New York | Winter 2027 | 100% (5 skills) | 2026-09-24 | 2026-09-24 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/2b587e66-deac-421a-a824-9415ba78b5a7) |
-| Johnson & Johnson | Software Engineer Co-op | Halethorpe, MD | Spring 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jj.wd5.myworkdayjobs.com/JJ/job/Halethorpe-Maryland-United-States-of-America/Heart-Recovery-Software-R-D-Co-Op_R-101393) |
 <!-- JOB-BOARD:END -->
