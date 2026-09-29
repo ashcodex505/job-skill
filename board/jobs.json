@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-29T14:18:17.202Z",
+ "updatedAt": "2026-09-29T15:45:30.933Z",
  "jobs": [
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
@@ -107,63 +107,6 @@
    },
    "postedAt": "2026-08-31T18:22:27-04:00",
    "firstSeenAt": "2026-08-31T23:48:00.919Z"
-  },
-  {
-   "dedupeKey": "atlassian:251:26267",
-   "source": "atlassian",
-   "company": "Atlassian",
-   "title": "Security Engineer Intern, 2027 Summer U.S.",
-   "location": "Seattle - United States -   Seattle, Washington  United States; San Francisco - United States -   San Francisco, California 94104 United States",
-   "url": "https://www.atlassian.com/company/careers/details/26267",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "JavaScript",
-    "Git"
-   ],
-   "acceptsMasters": true,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-09-23 09:42 PM",
-   "firstSeenAt": "2026-09-23T21:43:59.479Z"
-  },
-  {
-   "dedupeKey": "atlassian:111:26266",
-   "source": "atlassian",
-   "company": "Atlassian",
-   "title": "Software Engineer Intern, 2027 Summer U.S.",
-   "location": "San Francisco - United States -   San Francisco, California 94104 United States; Seattle - United States -   Seattle, Washington  United States",
-   "url": "https://www.atlassian.com/company/careers/details/26266",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 98,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "TypeScript",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "acceptsMasters": true,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 8
-   },
-   "postedAt": "2026-08-17 05:21 PM",
-   "firstSeenAt": "2026-09-01T18:26:00.355Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:11719f950e3b6859488ca1db11a76d6ffee92209",
@@ -19549,6 +19492,843 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
+   "dedupeKey": "atlassian:251:26267",
+   "source": "atlassian",
+   "company": "Atlassian",
+   "title": "Security Engineer Intern, 2027 Summer U.S.",
+   "location": "Seattle - United States -   Seattle, Washington  United States; San Francisco - United States -   San Francisco, California 94104 United States",
+   "url": "https://www.atlassian.com/company/careers/details/26267",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "Git"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-09-23 09:42 PM",
+   "firstSeenAt": "2026-09-23T21:43:59.479Z"
+  },
+  {
+   "dedupeKey": "atlassian:111:26266",
+   "source": "atlassian",
+   "company": "Atlassian",
+   "title": "Software Engineer Intern, 2027 Summer U.S.",
+   "location": "San Francisco - United States -   San Francisco, California 94104 United States; Seattle - United States -   Seattle, Washington  United States",
+   "url": "https://www.atlassian.com/company/careers/details/26266",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 98,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "TypeScript",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-08-17 05:21 PM",
+   "firstSeenAt": "2026-09-01T18:26:00.355Z"
+  },
+  {
+   "dedupeKey": "lever:3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Infrastructure Engineer, Internship - US Government",
+   "location": "Washington, D.C.",
+   "url": "https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-10T22:42:13.024Z",
+   "firstSeenAt": "2026-09-25T06:32:30.409Z"
+  },
+  {
+   "dedupeKey": "lever:8f362a1f-1eff-4327-94c1-ff46e2101c69",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Infrastructure Engineer, Internship - US Government",
+   "location": "Palo Alto, CA",
+   "url": "https://jobs.lever.co/palantir/8f362a1f-1eff-4327-94c1-ff46e2101c69",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-10T22:43:13.762Z",
+   "firstSeenAt": "2026-09-25T06:32:30.409Z"
+  },
+  {
+   "dedupeKey": "lever:cf5f44ff-1b0b-4752-bcd4-2dc88798f25b",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Infrastructure Engineer, Internship - US Government",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/cf5f44ff-1b0b-4752-bcd4-2dc88798f25b",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-10T22:42:44.034Z",
+   "firstSeenAt": "2026-09-25T06:32:30.409Z"
+  },
+  {
+   "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
+   "location": "Palo Alto, CA",
+   "url": "https://jobs.lever.co/palantir/33243fb5-6907-40c7-930c-968b25d825d0",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2025-10-29T20:26:17.197Z",
+   "firstSeenAt": "2026-07-25T07:31:40.675Z"
+  },
+  {
+   "dedupeKey": "lever:5a28f3a5-8655-47f2-ab19-a79b8a319da8",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
+   "location": "Washington, D.C.",
+   "url": "https://jobs.lever.co/palantir/5a28f3a5-8655-47f2-ab19-a79b8a319da8",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2025-10-29T20:27:12.326Z",
+   "firstSeenAt": "2026-07-25T07:31:40.675Z"
+  },
+  {
+   "dedupeKey": "lever:701a9307-0619-45d3-b077-cabe9897cd12",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
+   "location": "Honolulu, HI",
+   "url": "https://jobs.lever.co/palantir/701a9307-0619-45d3-b077-cabe9897cd12",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-31T16:27:36.814Z",
+   "firstSeenAt": "2026-08-31T19:59:55.152Z"
+  },
+  {
+   "dedupeKey": "lever:91117724-9389-48dc-912f-98e48d4d45d8",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/91117724-9389-48dc-912f-98e48d4d45d8",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2025-10-29T18:27:22.352Z",
+   "firstSeenAt": "2026-07-25T07:31:40.675Z"
+  },
+  {
+   "dedupeKey": "lever:cccfe1bd-f15b-4fe5-b044-c793e7961c1b",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer, Internship - Defense Tech",
+   "location": "Washington, D.C.",
+   "url": "https://jobs.lever.co/palantir/cccfe1bd-f15b-4fe5-b044-c793e7961c1b",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2024-08-05T23:14:32.789Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "lever:ac0dc094-2480-43c2-8495-26ade227ff4f",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer, Internship - France",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-03-10T12:26:55.948Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "lever:315f695d-04d1-4a9a-848e-cb2bec7a997e",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer, Internship - US Government",
+   "location": "Honolulu, HI",
+   "url": "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2025-12-11T22:26:14.632Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "lever:e0010393-c300-446f-bf67-fa2ef067f16f",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer, Internship - US Government",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/e0010393-c300-446f-bf67-fa2ef067f16f",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2022-06-30T21:20:50.237Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "lever:e6ff8bf2-135e-474d-ad37-24f490ae1dd2",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer, Internship - US Government",
+   "location": "Washington, D.C.",
+   "url": "https://jobs.lever.co/palantir/e6ff8bf2-135e-474d-ad37-24f490ae1dd2",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2021-07-01T22:12:43.840Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "lever:2e6b0ac8-83e9-4be5-a3aa-cf319f751728",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer, New Grad - Commercial",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2025-06-13T23:45:06.552Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:cbe90327-3e6e-451c-a54c-1d3cbcef5aeb",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer, New Grad - US Government",
+   "location": "Washington, D.C.",
+   "url": "https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2022-06-30T22:59:08.115Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:d1ac83d0-e923-42a5-8e6d-58dd0cab25ca",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer, New Grad - US Government",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2022-06-30T22:50:16.107Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:ef725594-42dd-4f0d-ba8e-df8179dbc6cb",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Information Security Engineer, Internship",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2022-08-03T19:25:24.044Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "lever:09846827-b931-4a9f-bd64-c3bb8860187b",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Privacy and Civil Liberties Software Engineer, Internship",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2016-10-06T22:34:11.878Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "lever:3ab9e715-1ea9-4c6c-ad50-7340eac14e86",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, Internship - Production Infrastructure",
+   "location": "Washington, D.C.",
+   "url": "https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86",
+   "season": null,
+   "roleType": "internship",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-08-19T09:41:27.314Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "lever:94984771-0704-446c-88c6-91ce748f6d92",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2021-07-01T20:24:57.701Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:c34b424e-caf2-455a-b104-ae1096ccca29",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad",
+   "location": "Denver, CO",
+   "url": "https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2020-10-27T18:32:40.993Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:0a838e66-1ab0-4fc4-b4d3-4671c0352278",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Defense",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-06-19T01:34:22.911Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:18d901fc-93bb-4d18-9f04-c72031e20d79",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Defense",
+   "location": "Washington, D.C.",
+   "url": "https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-06-19T01:37:46.017Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:f362d7aa-360d-4059-ab38-f482742693b3",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Defense",
+   "location": "Palo Alto, CA",
+   "url": "https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-06-19T01:36:20.878Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:4abf26b4-795c-420a-bf22-1ab98db268b4",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Infrastructure",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/4abf26b4-795c-420a-bf22-1ab98db268b4",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-06-26T01:01:09.277Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:7d75bed5-45d8-4876-840a-2d92ea79c98d",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Infrastructure",
+   "location": "Palo Alto, CA",
+   "url": "https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-08-19T09:45:38.032Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:15844944-fb69-4b57-9531-e988650b20c6",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Production Infrastructure",
+   "location": "Washington, D.C.",
+   "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-08-19T09:37:18.891Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:4d5a144e-87ea-45e2-a68c-3fad590629af",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Production Infrastructure",
+   "location": "Seattle, WA",
+   "url": "https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-06-26T19:54:49.498Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:e1a6c138-98bf-45e2-97f7-2c70371cc38a",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Software Engineer, New Grad - Production Infrastructure",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Java",
+    "TypeScript",
+    "React"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2025-06-26T19:53:39.925Z",
+   "firstSeenAt": "2026-07-05T06:56:59.748Z"
+  },
+  {
+   "dedupeKey": "lever:e6789b17-62fb-4226-a079-f8c17ff19e2d",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-03-20T19:02:47.514Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "lever:5c4c65c5-77da-4d36-856c-4ade87631019",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - USG",
+   "location": "Washington, D.C.",
+   "url": "https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-04-23T21:17:05.046Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "lever:5c7bb70c-83ea-43e7-8055-0c8f319f4333",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - USG",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-03-20T19:05:22.216Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "lever:655f9937-a4ce-4e7d-80e2-a6659af07329",
+   "source": "lever",
+   "company": "Palantir",
+   "title": "Year at Palantir - Software Engineer, Internship",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-03-20T19:07:35.933Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:209fc4a4-5626-4653-baa1-7a5393231ce9",
    "source": "simplifyjobs",
    "company": "Varsity Brands",
@@ -23476,29 +24256,6 @@
    "firstSeenAt": "2026-09-09T23:29:08.424Z"
   },
   {
-   "dedupeKey": "simplifyjobs:f19b1b6b-457a-436b-9a2a-d6488e452bbd",
-   "source": "simplifyjobs",
-   "company": "General Dynamics Mission Systems",
-   "title": "Software Engineer Entry Level",
-   "location": "Taunton, MA",
-   "url": "https://careers-gdms.icims.com/jobs/74828/job?mobile=true&needsRedirect=false",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 70,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-09-09T22:35:30.000Z",
-   "firstSeenAt": "2026-09-10T00:09:09.314Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:fb99fc9f-da10-4a0c-9d4c-565dd66138c8",
    "source": "simplifyjobs",
    "company": "KLA",
@@ -25347,29 +26104,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "simplifyjobs:27bc7565-972b-4dff-a2b6-d86296a62c88",
-   "source": "simplifyjobs",
-   "company": "Copart",
-   "title": "Software Engineer Intern",
-   "location": "Dallas, TX",
-   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-15T00:00:00.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:509af5ea-e34a-4b4c-bace-1d7ffbefc797",
    "source": "simplifyjobs",
    "company": "Denari",
@@ -25528,29 +26262,6 @@
     "skills": 0
    },
    "postedAt": "2026-07-30T01:15:47.000Z",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c63937cc-49b3-4672-b316-c4e35731c6af",
-   "source": "simplifyjobs",
-   "company": "Copart",
-   "title": "Software Engineer Intern",
-   "location": "Dallas, TX",
-   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-30T00:00:00.000Z",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
@@ -30113,29 +30824,6 @@
    "firstSeenAt": "2026-09-04T05:03:03.873Z"
   },
   {
-   "dedupeKey": "simplifyjobs:77f4f856-b89f-4e69-ad68-3f38aeda2b04",
-   "source": "simplifyjobs",
-   "company": "Visionist",
-   "title": "Software Engineer Intern",
-   "location": "Columbia, MD",
-   "url": "https://jobs.jobvite.com/visionist/job/oTxGAfwq?nl=1&nl=1&fr=false",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-03T23:14:07.000Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:2583c13c-1003-4d90-a33c-cb634ef5ba6e",
    "source": "simplifyjobs",
    "company": "Innovative Systems",
@@ -32277,29 +32965,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "simplifyjobs:fdf294f1-8d5f-4fc0-9d6b-3c418d70afc8",
-   "source": "simplifyjobs",
-   "company": "Fidelity Investments",
-   "title": "Software Engineer Co-op - Fidelity Center for Applied Technology",
-   "location": "Boston, MA",
-   "url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Engineer_2135200",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-11T00:00:00.000Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:ca226254-e5d4-44cf-9576-6aff5ce35d86",
    "source": "simplifyjobs",
    "company": "Baidu USA",
@@ -34274,29 +34939,6 @@
    "firstSeenAt": "2026-09-21T23:15:27.776Z"
   },
   {
-   "dedupeKey": "simplifyjobs:74c6f87e-771c-4105-bcf1-13937407ee3c",
-   "source": "simplifyjobs",
-   "company": "Leidos",
-   "title": "Software Engineer Intern",
-   "location": "Tucson, AZ",
-   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Tucson-AZ/Jr-Software-Engineer-Intern_R-00192184",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-21T00:00:00.000Z",
-   "firstSeenAt": "2026-09-21T23:15:27.776Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:282eda76-ee60-4f60-abe4-e0db76ac4fdb",
    "source": "simplifyjobs",
    "company": "Rivian",
@@ -34612,7 +35254,7 @@
    "source": "rippling",
    "company": "Rippling",
    "title": "Full Stack Software Engineer Intern - Summer 2027",
-   "location": "San Francisco, CA",
+   "location": "New York, NY",
    "url": "https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262",
    "season": "Summer 2027",
    "roleType": "internship",
@@ -35382,29 +36024,6 @@
    "firstSeenAt": "2026-09-29T01:52:40.023Z"
   },
   {
-   "dedupeKey": "simplifyjobs:a9a76fae-a7c1-48c3-8229-1804f208d98d",
-   "source": "simplifyjobs",
-   "company": "RTX",
-   "title": "Software Engineering Co-op",
-   "location": "Cedar Rapids, IA",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-28T00:00:00.000Z",
-   "firstSeenAt": "2026-09-29T01:52:40.023Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:8c93ba5d-c961-40fd-96f0-71e8be7211de",
    "source": "simplifyjobs",
    "company": "The Aerospace Corporation",
@@ -35524,786 +36143,6 @@
    "firstSeenAt": "2026-09-29T07:26:33.831Z"
   },
   {
-   "dedupeKey": "lever:3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Infrastructure Engineer, Internship - US Government",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-10T22:42:13.024Z",
-   "firstSeenAt": "2026-09-25T06:32:30.409Z"
-  },
-  {
-   "dedupeKey": "lever:8f362a1f-1eff-4327-94c1-ff46e2101c69",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Infrastructure Engineer, Internship - US Government",
-   "location": "Palo Alto, CA",
-   "url": "https://jobs.lever.co/palantir/8f362a1f-1eff-4327-94c1-ff46e2101c69",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-10T22:43:13.762Z",
-   "firstSeenAt": "2026-09-25T06:32:30.409Z"
-  },
-  {
-   "dedupeKey": "lever:cf5f44ff-1b0b-4752-bcd4-2dc88798f25b",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Infrastructure Engineer, Internship - US Government",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/cf5f44ff-1b0b-4752-bcd4-2dc88798f25b",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-10T22:42:44.034Z",
-   "firstSeenAt": "2026-09-25T06:32:30.409Z"
-  },
-  {
-   "dedupeKey": "lever:33243fb5-6907-40c7-930c-968b25d825d0",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
-   "location": "Palo Alto, CA",
-   "url": "https://jobs.lever.co/palantir/33243fb5-6907-40c7-930c-968b25d825d0",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2025-10-29T20:26:17.197Z",
-   "firstSeenAt": "2026-07-25T07:31:40.675Z"
-  },
-  {
-   "dedupeKey": "lever:5a28f3a5-8655-47f2-ab19-a79b8a319da8",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/5a28f3a5-8655-47f2-ab19-a79b8a319da8",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2025-10-29T20:27:12.326Z",
-   "firstSeenAt": "2026-07-25T07:31:40.675Z"
-  },
-  {
-   "dedupeKey": "lever:701a9307-0619-45d3-b077-cabe9897cd12",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
-   "location": "Honolulu, HI",
-   "url": "https://jobs.lever.co/palantir/701a9307-0619-45d3-b077-cabe9897cd12",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-31T16:27:36.814Z",
-   "firstSeenAt": "2026-08-31T19:59:55.152Z"
-  },
-  {
-   "dedupeKey": "lever:91117724-9389-48dc-912f-98e48d4d45d8",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/91117724-9389-48dc-912f-98e48d4d45d8",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2025-10-29T18:27:22.352Z",
-   "firstSeenAt": "2026-07-25T07:31:40.675Z"
-  },
-  {
-   "dedupeKey": "lever:cccfe1bd-f15b-4fe5-b044-c793e7961c1b",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, Internship - Defense Tech",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/cccfe1bd-f15b-4fe5-b044-c793e7961c1b",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2024-08-05T23:14:32.789Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "lever:ac0dc094-2480-43c2-8495-26ade227ff4f",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, Internship - France",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-03-10T12:26:55.948Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "lever:315f695d-04d1-4a9a-848e-cb2bec7a997e",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, Internship - US Government",
-   "location": "Honolulu, HI",
-   "url": "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2025-12-11T22:26:14.632Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "lever:e0010393-c300-446f-bf67-fa2ef067f16f",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, Internship - US Government",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/e0010393-c300-446f-bf67-fa2ef067f16f",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2022-06-30T21:20:50.237Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "lever:e6ff8bf2-135e-474d-ad37-24f490ae1dd2",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, Internship - US Government",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/e6ff8bf2-135e-474d-ad37-24f490ae1dd2",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2021-07-01T22:12:43.840Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "lever:2e6b0ac8-83e9-4be5-a3aa-cf319f751728",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, New Grad - Commercial",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2025-06-13T23:45:06.552Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:cbe90327-3e6e-451c-a54c-1d3cbcef5aeb",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, New Grad - US Government",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2022-06-30T22:59:08.115Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:d1ac83d0-e923-42a5-8e6d-58dd0cab25ca",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer, New Grad - US Government",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2022-06-30T22:50:16.107Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:ef725594-42dd-4f0d-ba8e-df8179dbc6cb",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Information Security Engineer, Internship",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2022-08-03T19:25:24.044Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "lever:09846827-b931-4a9f-bd64-c3bb8860187b",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Privacy and Civil Liberties Software Engineer, Internship",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2016-10-06T22:34:11.878Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "lever:3ab9e715-1ea9-4c6c-ad50-7340eac14e86",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, Internship - Production Infrastructure",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86",
-   "season": null,
-   "roleType": "internship",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-08-19T09:41:27.314Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "lever:94984771-0704-446c-88c6-91ce748f6d92",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2021-07-01T20:24:57.701Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:c34b424e-caf2-455a-b104-ae1096ccca29",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad",
-   "location": "Denver, CO",
-   "url": "https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2020-10-27T18:32:40.993Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:0a838e66-1ab0-4fc4-b4d3-4671c0352278",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Defense",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-06-19T01:34:22.911Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:18d901fc-93bb-4d18-9f04-c72031e20d79",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Defense",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-06-19T01:37:46.017Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:f362d7aa-360d-4059-ab38-f482742693b3",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Defense",
-   "location": "Palo Alto, CA",
-   "url": "https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-06-19T01:36:20.878Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:4abf26b4-795c-420a-bf22-1ab98db268b4",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Infrastructure",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/4abf26b4-795c-420a-bf22-1ab98db268b4",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-06-26T01:01:09.277Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:7d75bed5-45d8-4876-840a-2d92ea79c98d",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Infrastructure",
-   "location": "Palo Alto, CA",
-   "url": "https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-08-19T09:45:38.032Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:15844944-fb69-4b57-9531-e988650b20c6",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Production Infrastructure",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-08-19T09:37:18.891Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:4d5a144e-87ea-45e2-a68c-3fad590629af",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Production Infrastructure",
-   "location": "Seattle, WA",
-   "url": "https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-06-26T19:54:49.498Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:e1a6c138-98bf-45e2-97f7-2c70371cc38a",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Software Engineer, New Grad - Production Infrastructure",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 85,
-   "matchedSkills": [
-    "Java",
-    "TypeScript",
-    "React"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 5
-   },
-   "postedAt": "2025-06-26T19:53:39.925Z",
-   "firstSeenAt": "2026-07-05T06:56:59.748Z"
-  },
-  {
-   "dedupeKey": "lever:e6789b17-62fb-4226-a079-f8c17ff19e2d",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-03-20T19:02:47.514Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "lever:5c4c65c5-77da-4d36-856c-4ade87631019",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - USG",
-   "location": "Washington, D.C.",
-   "url": "https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-04-23T21:17:05.046Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "lever:5c7bb70c-83ea-43e7-8055-0c8f319f4333",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - USG",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-03-20T19:05:22.216Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "lever:655f9937-a4ce-4e7d-80e2-a6659af07329",
-   "source": "lever",
-   "company": "Palantir",
-   "title": "Year at Palantir - Software Engineer, Internship",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-03-20T19:07:35.933Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "rippling:sha1:49747cb087fb5d658d4b448634d3a19fe5142e73",
    "source": "rippling",
    "company": "Rippling",
@@ -36354,7 +36193,7 @@
    "source": "rippling",
    "company": "Rippling",
    "title": "Software Engineer Intern - Backend Focused - Summer 2027",
-   "location": "San Francisco, CA",
+   "location": "Seattle, WA",
    "url": "https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba",
    "season": "Summer 2027",
    "roleType": "internship",
@@ -36631,6 +36470,29 @@
    "firstSeenAt": "2026-09-18T17:12:04.521Z"
   },
   {
+   "dedupeKey": "oraclecloud:334333",
+   "source": "oraclecloud",
+   "company": "Oracle",
+   "title": "OCI Software Engineer Intern - OVIP",
+   "location": "Austin, TX, United States",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/334333",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-05-22T00:00:00.000Z",
+   "firstSeenAt": "2026-09-16T21:37:55.722Z"
+  },
+  {
    "dedupeKey": "workday:3167788",
    "source": "workday",
    "company": "HP",
@@ -36675,29 +36537,6 @@
    },
    "postedAt": "2026-08-21",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "oraclecloud:334333",
-   "source": "oraclecloud",
-   "company": "Oracle",
-   "title": "OCI Software Engineer Intern - OVIP",
-   "location": "Austin, TX, United States",
-   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/334333",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-22T00:00:00.000Z",
-   "firstSeenAt": "2026-09-16T21:37:55.722Z"
   },
   {
    "dedupeKey": "ashby:9246cf02-26fd-4ae8-90c5-639c6e85e9e2",
@@ -38258,36 +38097,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "workday:JR337715",
-   "company": "Salesforce",
-   "title": "Summer 2027 Intern - Software Engineer",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-07-22T07:45:53.755Z",
-   "closedAt": "2026-09-22T14:47:22.683Z",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e9a5d592-1c52-4eef-a4bf-e1bedc17f3cc",
-   "company": "RTX",
-   "title": "Software Engineer 1",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T14:47:22.683Z",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA4--1001-Boston-Post-Rd--BLDG-4/Software-Engineer-I--Onsite-_01874953"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2c50d66a-bdb8-46dc-8a47-f505dcf9f116",
-   "company": "Hiverge",
-   "title": "Research Engineer Intern",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T14:47:22.683Z",
-   "url": "https://jobs.ashbyhq.com/hiverge/ea6edea4-5216-4cdc-b368-909ba91c78a3/application"
-  },
   {
    "dedupeKey": "speedyapply:sha1:95408dae2aea6ee14ac4f77da6719a67a8bf3dae",
    "company": "Visa",
@@ -42144,6 +41953,76 @@
    "firstSeenAt": "2026-09-26T00:49:59.654Z",
    "closedAt": "2026-09-29T14:18:17.202Z",
    "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Data---AI-Intern_JR111596"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f19b1b6b-457a-436b-9a2a-d6488e452bbd",
+   "company": "General Dynamics Mission Systems",
+   "title": "Software Engineer Entry Level",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-09-10T00:09:09.314Z",
+   "closedAt": "2026-09-29T15:45:30.933Z",
+   "url": "https://careers-gdms.icims.com/jobs/74828/job?mobile=true&needsRedirect=false"
+  },
+  {
+   "dedupeKey": "simplifyjobs:27bc7565-972b-4dff-a2b6-d86296a62c88",
+   "company": "Copart",
+   "title": "Software Engineer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-09-29T15:45:30.933Z",
+   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689"
+  },
+  {
+   "dedupeKey": "simplifyjobs:c63937cc-49b3-4672-b316-c4e35731c6af",
+   "company": "Copart",
+   "title": "Software Engineer Intern",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z",
+   "closedAt": "2026-09-29T15:45:30.933Z",
+   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964"
+  },
+  {
+   "dedupeKey": "simplifyjobs:77f4f856-b89f-4e69-ad68-3f38aeda2b04",
+   "company": "Visionist",
+   "title": "Software Engineer Intern",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z",
+   "closedAt": "2026-09-29T15:45:30.933Z",
+   "url": "https://jobs.jobvite.com/visionist/job/oTxGAfwq?nl=1&nl=1&fr=false"
+  },
+  {
+   "dedupeKey": "simplifyjobs:fdf294f1-8d5f-4fc0-9d6b-3c418d70afc8",
+   "company": "Fidelity Investments",
+   "title": "Software Engineer Co-op - Fidelity Center for Applied Technology",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z",
+   "closedAt": "2026-09-29T15:45:30.933Z",
+   "url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Engineer_2135200"
+  },
+  {
+   "dedupeKey": "simplifyjobs:74c6f87e-771c-4105-bcf1-13937407ee3c",
+   "company": "Leidos",
+   "title": "Software Engineer Intern",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-21T23:15:27.776Z",
+   "closedAt": "2026-09-29T15:45:30.933Z",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Tucson-AZ/Jr-Software-Engineer-Intern_R-00192184"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a9a76fae-a7c1-48c3-8229-1804f208d98d",
+   "company": "RTX",
+   "title": "Software Engineering Co-op",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-29T01:52:40.023Z",
+   "closedAt": "2026-09-29T15:45:30.933Z",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645"
   }
  ]
 }
