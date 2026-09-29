@@ -274,15 +274,15 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1630-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-3-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--29-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1643-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-22-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--29-informational)
 
-Updated **2026-09-29 15:45 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-29 19:36 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| Raytheon | Software Engineering Co-op - Summer/Fall 2027 | Wilsonville, OR | Fall 2027 | 100% | 2026-09-27 | 2026-09-28 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Software-Engineering-Co-op--Summer-Fall-2027-_01870236) |
-| Raytheon | Software Engineering Co-op - Summer/Fall 2027 | Wilsonville, OR | Fall 2027 | 100% | 2026-09-27 | 2026-09-28 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Software-Engineering-Co-op--Summer-Fall-2027-_01873970) |
-| Raytheon | Software Engineering Co-op - Fall/Spring 2027 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-25 | 2026-09-28 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Co-op--Fall-Spring-2027-_01872683) |
+| Raytheon | Software Engineering Co-op - Summer/Fall 2027 🆕 | Cedar Rapids, IA | Fall 2027 | 100% | 2026-09-28 | 2026-09-29 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Co-op--Summer-Fall-2027-_01877158) |
+| Stryker | Software Engineering Co-op 🆕 | Belfast, UK | Fall 2027 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Belfast-United-Kingdom/Software-Engineering-Co-Op_R572094) |
+| RTX | Software Engineering Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-28 | 2026-09-29 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645) |
 | Tesla | Mobile Application Software Engineer Intern - Energy Engineering | Palo Alto, CA | Winter 2027 | 100% | 2026-09-26 | 2026-09-26 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284776) |
 | DoorDash | Machine Learning Engineer Intern - Masters | Seattle, WA; SF; NYC; Sunnyvale, CA | Summer 2027 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8204111) |
 | Metropolitan Transportation Authority | Software Analyst / Developer Intern - Fall | NYC | Fall 2026 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://jobs.jobvite.com/metropolitantransportationauthority/job/o6WRAfwd?nl=1&nl=1&fr=false) |
@@ -292,9 +292,9 @@ Updated **2026-09-29 15:45 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Amazon | Software Development Engineer Intern - Summer 2027 - USA - Amazon Dedicated Cloud - ADC | Seattle, WA | Summer 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/jobs/10559746/apply) |
 | Amazon | Software Development Engineer Intern - Amazon Leo - Summer 2027 - USA | Redmond, WA | Summer 2027 | 100% | 2026-09-18 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/jobs/10559762/apply) |
 | Ciena | WaveLogic Software Intern Spring 2027 | Atlanta, GA | Spring 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://ciena.wd5.myworkdayjobs.com/en-US/careers/job/Atlanta/WaveLogic-Software-Intern-Spring-2027_R031692) |
+| Snowflake | Software Engineer Intern - AI / ML - Spring 2027 | Menlo Park, CA +1 | Spring 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/snowflake/4be290ae-dd9d-488c-9d90-56fcd69101ca) |
 | Snowflake | Software Engineer Intern - Database Engineering - Spring 2027 | Menlo Park, CA +1 | Spring 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/snowflake/7bd393df-67d7-4009-ba4f-1cd79a82b0be) |
 | Snowflake | Software Engineer Intern - Core - Infrastructure & Security — Spring 2027 | Menlo Park, CA +1 | Spring 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/snowflake/5315b6f6-2c14-4cb9-a884-c2bae69f2c69) |
-| Snowflake | Software Engineer Intern - AI / ML - Spring 2027 | Menlo Park, CA +1 | Spring 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://jobs.ashbyhq.com/snowflake/4be290ae-dd9d-488c-9d90-56fcd69101ca) |
 | Amazon | Software Development Engineer Intern - Summer 2027 (USA) , Amazon Dedicated Cloud (ADC) | Seattle, Washington, USA | Summer 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10559746/software-development-engineer-intern-summer-2027-usa-amazon-dedicated-cloud-adc) |
 | Amazon | Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA) | Redmond, Washington, USA | Summer 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10559762/software-development-engineer-intern-amazon-leo-summer-2027-usa) |
 | Astranis Space Technologies | Software Developer - Network Software Intern - Winter 2027 | San Francisco, CA | Winter 2027 | 100% | 2026-09-24 | 2026-09-25 | [**Apply ➜**](https://job-boards.greenhouse.io/astranis/jobs/4705599006) |
