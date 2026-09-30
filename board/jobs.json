@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-30T02:20:29.547Z",
+ "updatedAt": "2026-09-30T06:39:52.792Z",
  "jobs": [
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
@@ -107,6 +107,63 @@
    },
    "postedAt": "2026-08-31T18:22:27-04:00",
    "firstSeenAt": "2026-08-31T23:48:00.919Z"
+  },
+  {
+   "dedupeKey": "atlassian:251:26267",
+   "source": "atlassian",
+   "company": "Atlassian",
+   "title": "Security Engineer Intern, 2027 Summer U.S.",
+   "location": "Seattle - United States -   Seattle, Washington  United States; San Francisco - United States -   San Francisco, California 94104 United States",
+   "url": "https://www.atlassian.com/company/careers/details/26267",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 96,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "Git"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-09-23 09:42 PM",
+   "firstSeenAt": "2026-09-23T21:43:59.479Z"
+  },
+  {
+   "dedupeKey": "atlassian:111:26266",
+   "source": "atlassian",
+   "company": "Atlassian",
+   "title": "Software Engineer Intern, 2027 Summer U.S.",
+   "location": "San Francisco - United States -   San Francisco, California 94104 United States; Seattle - United States -   Seattle, Washington  United States",
+   "url": "https://www.atlassian.com/company/careers/details/26266",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 98,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "TypeScript",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-08-17 05:21 PM",
+   "firstSeenAt": "2026-09-01T18:26:00.355Z"
   },
   {
    "dedupeKey": "lever:3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
@@ -1322,63 +1379,6 @@
    },
    "postedAt": "2026-03-20T19:07:35.933Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "atlassian:251:26267",
-   "source": "atlassian",
-   "company": "Atlassian",
-   "title": "Security Engineer Intern, 2027 Summer U.S.",
-   "location": "Seattle - United States -   Seattle, Washington  United States; San Francisco - United States -   San Francisco, California 94104 United States",
-   "url": "https://www.atlassian.com/company/careers/details/26267",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 96,
-   "matchedSkills": [
-    "Python",
-    "TypeScript",
-    "JavaScript",
-    "Git"
-   ],
-   "acceptsMasters": true,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-09-23 09:42 PM",
-   "firstSeenAt": "2026-09-23T21:43:59.479Z"
-  },
-  {
-   "dedupeKey": "atlassian:111:26266",
-   "source": "atlassian",
-   "company": "Atlassian",
-   "title": "Software Engineer Intern, 2027 Summer U.S.",
-   "location": "San Francisco - United States -   San Francisco, California 94104 United States; Seattle - United States -   Seattle, Washington  United States",
-   "url": "https://www.atlassian.com/company/careers/details/26266",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 98,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "TypeScript",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "acceptsMasters": true,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 8
-   },
-   "postedAt": "2026-08-17 05:21 PM",
-   "firstSeenAt": "2026-09-01T18:26:00.355Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:11719f950e3b6859488ca1db11a76d6ffee92209",
@@ -20149,6 +20149,98 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
+   "dedupeKey": "rippling:sha1:ea9caf87ff1cb899a9a58b9fafd1d97bb41dfc58",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Full Stack Software Engineer Intern - Summer 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-22T15:09:50.416Z",
+   "firstSeenAt": "2026-09-22T15:09:50.416Z"
+  },
+  {
+   "dedupeKey": "rippling:sha1:49747cb087fb5d658d4b448634d3a19fe5142e73",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Summer 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-22T15:09:50.416Z",
+   "firstSeenAt": "2026-09-22T15:09:50.416Z"
+  },
+  {
+   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Machine Learning Software Engineer Intern - Winter 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-06-05T22:09:20.000Z",
+   "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
+  {
+   "dedupeKey": "rippling:sha1:4f22e3e9e51a9990c131a11d1b0d0572dce983e2",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Software Engineer Intern - Backend Focused - Summer 2027",
+   "location": "San Francisco, CA",
+   "url": "https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-22T18:50:40.393Z",
+   "firstSeenAt": "2026-09-22T18:50:40.393Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:90b92c02-68ac-4402-b8f2-91494bc89e19",
    "source": "simplifyjobs",
    "company": "Headlands Tech Holdings",
@@ -23892,29 +23984,6 @@
    "firstSeenAt": "2026-09-04T23:13:47.011Z"
   },
   {
-   "dedupeKey": "simplifyjobs:78d9bccf-8fd2-497a-80a4-f3b00fed7d3a",
-   "source": "simplifyjobs",
-   "company": "Credence",
-   "title": "Entry-Level AI Software Engineer",
-   "location": "McLean, VA",
-   "url": "https://apply.workable.com/credence/j/BAD39E80E0/apply",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 70,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 0,
-    "skills": 0
-   },
-   "postedAt": "2026-09-04T22:44:02.000Z",
-   "firstSeenAt": "2026-09-04T23:13:47.011Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:271f04b2-4017-4e86-b67f-387e7a47b5fe",
    "source": "simplifyjobs",
    "company": "ID.me",
@@ -24744,29 +24813,6 @@
     "skills": 0
    },
    "postedAt": "2026-09-16T09:48:55.000Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:36a920b5-5fef-4b56-9386-d35c85e7ae48",
-   "source": "simplifyjobs",
-   "company": "RTX",
-   "title": "Software Engineer 1",
-   "location": "Tewksbury, MA",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-I--Onsite-_01875565",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-16T00:00:00.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -30757,29 +30803,6 @@
    "firstSeenAt": "2026-09-04T05:03:03.873Z"
   },
   {
-   "dedupeKey": "simplifyjobs:9d136976-01e5-4307-a617-04d2b97abacb",
-   "source": "simplifyjobs",
-   "company": "GE Vernova",
-   "title": "Software Engineer Co-op - Critical Infrastructure Communication",
-   "location": "Rochester, NY",
-   "url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Software-Engineering---Co-op---Spring-Summer-2027_R5051780-1",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-03T00:00:00.000Z",
-   "firstSeenAt": "2026-09-04T05:03:03.873Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:90873fc6-265d-4b32-9cdf-b4ce1e206cca",
    "source": "simplifyjobs",
    "company": "GE Vernova",
@@ -30870,6 +30893,29 @@
    },
    "postedAt": "2026-09-03T00:00:00.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:8c1d1574-d0f9-4d6a-8a1e-f992224724ea",
+   "source": "simplifyjobs",
+   "company": "GE Vernova",
+   "title": "Software Engineer Co-op - Critical Infrastructure Communication",
+   "location": "Rochester, NY",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Rochester/GE-Vernova-Software-Engineering---Co-op---Spring-Summer-2027_R5051780-2",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-03T00:00:00.000Z",
+   "firstSeenAt": "2026-09-04T05:03:03.873Z"
   },
   {
    "dedupeKey": "simplifyjobs:a5f886cf-d5b6-41ac-9bfc-98833aff9bb6",
@@ -35317,75 +35363,6 @@
    "firstSeenAt": "2026-09-22T23:41:26.313Z"
   },
   {
-   "dedupeKey": "rippling:sha1:4f22e3e9e51a9990c131a11d1b0d0572dce983e2",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Software Engineer Intern - Backend Focused - Summer 2027",
-   "location": "Seattle, WA",
-   "url": "https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-22T18:50:40.393Z",
-   "firstSeenAt": "2026-09-22T18:50:40.393Z"
-  },
-  {
-   "dedupeKey": "rippling:sha1:49747cb087fb5d658d4b448634d3a19fe5142e73",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Summer 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-22T15:09:50.416Z",
-   "firstSeenAt": "2026-09-22T15:09:50.416Z"
-  },
-  {
-   "dedupeKey": "rippling:sha1:ea9caf87ff1cb899a9a58b9fafd1d97bb41dfc58",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Full Stack Software Engineer Intern - Summer 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-22T15:09:50.416Z",
-   "firstSeenAt": "2026-09-22T15:09:50.416Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:668addc3-ee22-4b6d-b2be-f2536915cf3e",
    "source": "simplifyjobs",
    "company": "American Family Insurance Group",
@@ -36735,29 +36712,6 @@
    "firstSeenAt": "2026-09-30T02:20:29.547Z"
   },
   {
-   "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Machine Learning Software Engineer Intern - Winter 2027",
-   "location": "San Francisco, CA",
-   "url": "https://ats.rippling.com/rippling/jobs/82c13e8f-ae96-4c60-a872-c0ddf9eb0781",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-06-05T22:09:20.000Z",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z"
-  },
-  {
    "dedupeKey": "amazon:10559746",
    "source": "amazon",
    "company": "Amazon",
@@ -36963,29 +36917,6 @@
    },
    "postedAt": "2026-08-27",
    "firstSeenAt": "2026-08-27T20:22:07.623Z"
-  },
-  {
-   "dedupeKey": "oraclecloud:298784",
-   "source": "oraclecloud",
-   "company": "Dell",
-   "title": "Software Engineer 1 - IT",
-   "location": "TX, United States",
-   "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/298784",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-09T00:00:00.000Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
    "dedupeKey": "greenhouse:8210695",
@@ -37469,6 +37400,52 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "workday:JR0285211",
+   "source": "workday",
+   "company": "Intel",
+   "title": "Development Tools Software Intern",
+   "location": "Mexico, Guadalajara",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/Mexico-Guadalajara/Development-Tools-Software-Intern_JR0285211",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": null,
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "workday:JR0286946",
+   "source": "workday",
+   "company": "Intel",
+   "title": "AI/ML Software App Development Intern",
+   "location": "PRC, Chengdu",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Chengdu/AI-ML-Software-App-Development-Intern_JR0286946",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-07",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "greenhouse:8802882002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -37718,52 +37695,6 @@
     "skills": 3
    },
    "postedAt": "2026-07-22T08:51:32-04:00",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "workday:JR0285211",
-   "source": "workday",
-   "company": "Intel",
-   "title": "Development Tools Software Intern",
-   "location": "Mexico, Guadalajara",
-   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/Mexico-Guadalajara/Development-Tools-Software-Intern_JR0285211",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": null,
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "workday:JR0286946",
-   "source": "workday",
-   "company": "Intel",
-   "title": "AI/ML Software App Development Intern",
-   "location": "PRC, Chengdu",
-   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Chengdu/AI-ML-Software-App-Development-Intern_JR0286946",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-07",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -38593,16 +38524,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:92dbb10e-7ec8-4b64-9dd9-a1521850b0db",
-   "company": "RTX",
-   "title": "Software Engineer 1",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-23T06:33:40.840Z",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-I_01875564"
-  },
   {
    "dedupeKey": "speedyapply:sha1:e3c109502bf0789a44b192dd7c69a0699ac67814",
    "company": "TikTok",
@@ -41419,6 +41340,36 @@
    "firstSeenAt": "2026-09-23T23:39:40.870Z",
    "closedAt": "2026-09-30T00:23:02.508Z",
    "url": "https://imanagecom.applytojob.com/apply/r4huAJvEWl/Applied-AI-Engineer-New-Or-Recent-Grad"
+  },
+  {
+   "dedupeKey": "simplifyjobs:78d9bccf-8fd2-497a-80a4-f3b00fed7d3a",
+   "company": "Credence",
+   "title": "Entry-Level AI Software Engineer",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z",
+   "closedAt": "2026-09-30T06:39:52.792Z",
+   "url": "https://apply.workable.com/credence/j/BAD39E80E0/apply"
+  },
+  {
+   "dedupeKey": "simplifyjobs:36a920b5-5fef-4b56-9386-d35c85e7ae48",
+   "company": "RTX",
+   "title": "Software Engineer 1",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z",
+   "closedAt": "2026-09-30T06:39:52.792Z",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-I--Onsite-_01875565"
+  },
+  {
+   "dedupeKey": "oraclecloud:298784",
+   "company": "Dell",
+   "title": "Software Engineer 1 - IT",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z",
+   "closedAt": "2026-09-30T06:39:52.792Z",
+   "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/298784"
   }
  ]
 }
