@@ -274,18 +274,18 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1617-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-24-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--30-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1639-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-7-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--30-informational)
 
-Updated **2026-09-30 11:16 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-30 13:38 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Tesla | Software Developer Intern - Integration Tools 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284924) |
-| GE Appliances | Software Engineering Co-op 🆕 | Louisville, KY | Fall 2026 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Fall-2026_REQ-26919) |
-| RTX | Software Engineer Co-op - Winter/Spring 2027 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-16 | 2026-09-29 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Winter-Spring-2027-_01875464) |
-| S&C Electric Company | Software Engineer Co-op 🆕 | Chicago, IL | Fall 2026 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107307) |
-| Tesla | Software Engineer Intern - Data Transformations 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284925) |
-| Tesla | Software Integration Engineer Intern - AI Platforms 🆕 | Palo Alto, CA | Spring 2027 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://www.tesla.com/careers/search/job/277009) |
+| GE Appliances | Software Engineering Co-op | Louisville, KY | Fall 2026 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Fall-2026_REQ-26919) |
+| RTX | Software Engineer Co-op - Winter/Spring 2027 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-16 | 2026-09-29 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Winter-Spring-2027-_01875464) |
+| S&C Electric Company | Software Engineer Co-op | Chicago, IL | Fall 2026 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107307) |
+| Tesla | Software Engineer Intern - Data Transformations | Palo Alto, CA | Winter 2027 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284925) |
+| Tesla | Software Integration Engineer Intern - AI Platforms | Palo Alto, CA | Spring 2027 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://www.tesla.com/careers/search/job/277009) |
 | Raytheon | Software Engineering Co-op - Summer/Fall 2027 | Cedar Rapids, IA | Fall 2027 | 100% | 2026-09-28 | 2026-09-29 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Co-op--Summer-Fall-2027-_01877158) |
 | Stryker | Software Engineering Co-op | Belfast, UK | Fall 2027 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Belfast-United-Kingdom/Software-Engineering-Co-Op_R572094) |
 | RTX | Software Engineering Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-28 | 2026-09-29 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645) |
