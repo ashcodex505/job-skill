@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**1647 open roles** across **681 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-09-29 23:11 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1646 open roles** across **680 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-09-30 00:23 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (37)
@@ -82,9 +82,9 @@ Last updated: **2026-09-29 23:11 UTC** · auto-refreshed every 12h by [job-board
 | Vital Lyfe | Software Engineering Internship - Spring 2027 | Los Angeles, CA | Spring 2027 | 100% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jobs.ashbyhq.com/vital-lyfe/c39b72aa-9ad5-43e7-a3fd-8ef2e152ee4b) |
 | Together AI | Research Intern, Inference (Winter 2027) | San Francisco | Winter 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238461007) |
 | Together AI | Research Intern, Inference (Summer 2027) | San Francisco | Summer 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238462007) |
-| Rippling | Software Engineer Intern - Backend Focused - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) |
+| Rippling | Software Engineer Intern - Backend Focused - Summer 2027 | Seattle, WA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) |
 | Rippling | Machine Learning Software Engineer Intern - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d) |
-| Rippling | Full Stack Software Engineer Intern - Summer 2027 | Seattle, WA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
+| Rippling | Full Stack Software Engineer Intern - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
 | Rivian | Software Engineer Co-op Intern - Product Development Portal | Palo Alto, CA | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33745?icims=1) |
 | Rivian | Software Engineer Intern Co-op - Product Lifecycle Management | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33746?icims=1) |
 | Rivian | Software Engineer Intern Co-op - Design Automation | Palo Alto, CA | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33748?icims=1) |
@@ -452,7 +452,7 @@ Last updated: **2026-09-29 23:11 UTC** · auto-refreshed every 12h by [job-board
 | CSC Generation | Software Engineer Intern/Part Time - Legacy Applications & Modernization | Houston, TX | Winter 2026 | 90% | 2026-09-14 | 2026-09-22 | [**Apply ➜**](https://jobs.lever.co/cscgeneration-2/3a04b45f-a2eb-438a-a8ac-b07324223813/apply) |
 
 _…and 729 more (raise the cap in src/scraper/board.ts)._
-## 🎓 New Grad (518)
+## 🎓 New Grad (517)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -485,8 +485,8 @@ _…and 729 more (raise the cap in src/scraper/board.ts)._
 | glide | Full Stack Engineer - Early Career | New York City | — | 89% (6 skills) | 2026-02-02 | 2026-09-20 | [**Apply ➜**](https://jobs.ashbyhq.com/glide/5ece3064-6884-43c2-923c-066d6187b25d) |
 | captivation | Software Engineer 1 - Java/Confluence/Jira/AWS/Maven/MapReduce | Annapolis Junction, MD | — | 88% (5 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426544008) |
 | Scale AI | Software Engineer, Public Sector - New Grad | San Francisco, CA | — | 88% (5 skills) | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4736426005) |
-| Affirm | Software Engineer I, Backend (Collections) | Remote Poland | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807508003) |
 | Affirm | Software Engineer I, Backend (Collections) | Remote Spain | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807506003) |
+| Affirm | Software Engineer I, Backend (Collections) | Remote Poland | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807508003) |
 | DoorDash | Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US | Los Angeles, CA; New York, NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA | — | 88% (5 skills) | 2026-09-04 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8163709) |
 | Notion | Software Engineer, Early Career (AI) | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
 | Notion | Software Engineer, Early Career | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
@@ -550,9 +550,9 @@ _…and 729 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
 | Laminar | Junior Machine Learning Engineer - ML - Developer 🆕 | Somerville, MA | — | 80% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://jobs.lever.co/runlaminar/827f30da-67cd-4274-91e7-87fb12019a23/apply) |
 | RTX | Software Engineer 1 🆕 | Cedar Rapids, IA | — | 80% | 2026-07-23 | 2026-09-29 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineer-I--Onsite-_01861196) |
 | RTX | Software Engineer 1 🆕 | Marlborough, MA | — | 80% | 2026-09-15 | 2026-09-29 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA4--1001-Boston-Post-Rd--BLDG-4/Software-Engineer-I--Onsite-_01874953) |
@@ -592,7 +592,6 @@ _…and 729 more (raise the cap in src/scraper/board.ts)._
 | Hewlett Packard Enterprise | Systems / Software Engineer I Graduate | Roseville, CA | — | 80% | 2026-09-21 | 2026-09-24 | [**Apply ➜**](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Roseville-California-United-States-of-America/Systems---Software-Engineer-I-Graduate_1214984) |
 | Nuro | Software Engineer - Performance Tooling and Infrastructure New Grad | Mountain View, CA | — | 80% | 2026-09-24 | 2026-09-24 | [**Apply ➜**](https://nuro.ai/careersitem?gh_jid=8227399) |
 | Parallel Systems | Full Stack Software Engineer 1 - Interfaces | LA | — | 80% | 2026-09-24 | 2026-09-24 | [**Apply ➜**](https://boards.greenhouse.io/parallel/jobs/5247800007) |
-| iManage | Applied AI Engineer New Grad | Chicago, IL | — | 80% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://imanagecom.applytojob.com/apply/r4huAJvEWl/Applied-AI-Engineer-New-Or-Recent-Grad) |
 | Klaviyo | AI Engineer 1 | Boston, MA | — | 80% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://job-boards.greenhouse.io/klaviyocampus/jobs/8003259003) |
 | Qumulo | Software Development Engineer New Grad | Seattle, WA | — | 80% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://jobs.ashbyhq.com/qumulo/e1cebc33-3bfc-4c86-9581-4d558cd5f8cc/application?embed=true) |
 | RELX | Software Engineer New Grad | Alpharetta, GA | — | 80% | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Alpharetta-GA/Tech-Accelarate-Graduate-Program_R118810-1) |
@@ -856,14 +855,16 @@ _…and 729 more (raise the cap in src/scraper/board.ts)._
 | Retell AI | Software Engineer - New Grad | Redwood City, CA | — | 80% | 2026-08-03 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/retell-ai/ea775189-0496-43d8-a386-df8148265463) |
 | TikTok | Machine Learning Engineer New Grad - Performance Monetization | San Jose, CA | — | 80% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669691374918011141) |
 | TikTok | Frontend Software Engineer New Grad - Ads Interface | San Jose, CA | — | 80% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668569995571726597) |
+| TikTok | Machine Learning Engineer New Grad - Search Ads | San Jose, CA | — | 80% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669698543896054069) |
 
-_…and 118 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (402)
+_…and 117 more (raise the cap in src/scraper/board.ts)._
+## 🚪 Recently closed (last 7 days) (284)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| iManage | Applied AI Engineer New Grad | — | 2026-09-30 |
 | Varsity Brands | Software Engineer 1 | — | 2026-09-29 |
 | Tesla | Machine Learning Intern - AI Engineer - Tesla AI | Fall 2026 | 2026-09-29 |
 | Palo Alto Networks | Software Engineer Intern | Summer 2026 | 2026-09-29 |
@@ -1147,125 +1148,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | DataLab USA | Production Programmer - Entry Level SQL Developer | — | 2026-09-23 |
 | VivSoft Technologies | Software Engineer - Entry Level | — | 2026-09-23 |
 | RTX | Software Engineer 1 | — | 2026-09-23 |
-| HP | Data Analysis and Systems Internship | — | 2026-09-22 |
-| Hudson River Trading | Junior Trading Systems Engineer | — | 2026-09-22 |
-| Jump Trading | Campus Systems Engineer (Intern) | — | 2026-09-22 |
-| Anduril | 2027 Early Career Flight Test Engineer | 2027 New Grad | 2026-09-22 |
-| Anduril | Entry Level Systems Engineer, C2 Integration, Clearance Eligible | — | 2026-09-22 |
-| Anduril | Entry Level Systems Engineer, C2 Networking, Clearance Eligible | — | 2026-09-22 |
-| Anduril | New Grad Systems Engineer, C2 Integration, Clearance Eligible | — | 2026-09-22 |
-| Anduril | Winter 2027 Systems Engineer Co-op | Winter 2027 | 2026-09-22 |
-| Intel | Operations Research Engineer Intern | — | 2026-09-22 |
-| Applied Intuition | Research Engineer - New Grad (2027) | 2027 New Grad | 2026-09-22 |
-| General Dynamics Information Technology | Systems Engineer Intern | — | 2026-09-22 |
-| Copart | QA Engineering Intern | — | 2026-09-22 |
-| Figure | Power Systems Integration Intern | — | 2026-09-22 |
-| ByteDance | Research Scientist New Grad - Distributed NoSQL Database Systems | — | 2026-09-22 |
-| ByteDance | Research Scientist New Grad - Infrastructure System Lab | — | 2026-09-22 |
-| TikTok | Research Engineer New Grad - Multiple Teams | — | 2026-09-22 |
-| Johns Hopkins Applied Physics Laboratory | Computer Scientist New Grad - Tactical System Prototyping and Deployment | — | 2026-09-22 |
-| Micron Technology | AI Innovation Research Engineer New Grad | — | 2026-09-22 |
-| Susquehanna International Group | Trading System Engineer New Grad | — | 2026-09-22 |
-| Micron Technology | Design for Test Engineer New Grad - HBM | — | 2026-09-22 |
-| Johns Hopkins Applied Physics Laboratory | Sensor Systems/Data Analytics New Grad | — | 2026-09-22 |
-| NVIDIA | Applied Systems Engineering Rotation Engineer New Grad | — | 2026-09-22 |
-| Peraton | Entry-Level Systems Engineer | — | 2026-09-22 |
-| Micron Technology | Product Test Engineer New Grad | — | 2026-09-22 |
-| Micron Technology | Electrical Design Engineer New Grad - Systems Integration Group | — | 2026-09-22 |
-| Applied Materials | Systems Engineer 1 New Grad - Fusion | — | 2026-09-22 |
-| Crown Innovations | Systems Engineer 1 | — | 2026-09-22 |
-| Amentum | Entry Level Radiation Test Engineer | — | 2026-09-22 |
-| Astrion | Systems Integration and Test Engineer - Junior | — | 2026-09-22 |
-| General Matter | Test Engineer New Grad | — | 2026-09-22 |
-| Draper | System Integration and Test Engineer 1 | — | 2026-09-22 |
-| Johns Hopkins Applied Physics Laboratory | Data Scientist New Grad - Computer Scientist - Decision Systems | — | 2026-09-22 |
-| NXP Semiconductors | Entry Level Semiconductor Test Engineer | — | 2026-09-22 |
-| Nerdio | Solutions Engineer - Early Career | — | 2026-09-22 |
-| MBDA | Weapon Systems Algorithms Engineer New Grad | — | 2026-09-22 |
-| M.C. Dean | Systems Engineer 1 - Security and Electronic Systems | — | 2026-09-22 |
-| RTX | Test Engineer 1 - Vision Systems | — | 2026-09-22 |
-| Arcfield | Entry Level Systems Engineer | — | 2026-09-22 |
-| Micron Technology | Memory System Architect New Grad - HBM Generative AI | — | 2026-09-22 |
-| Citadel Securities | Quantitative Research Engineer Intern | Summer 2026 | 2026-09-22 |
-| Citadel | Quantitative Research Engineer Intern | Summer 2026 | 2026-09-22 |
-| TikTok | Machine Learning Engineer Intern - Basic Ranking | Summer 2027 | 2026-09-22 |
-| ByteDance | Research Scientist Intern - Distributed NoSQL Database Systems | Fall 2026 | 2026-09-22 |
-| ByteDance | Research Scientist Intern - Distributed NoSQL Database Systems | Fall 2026 | 2026-09-22 |
-| TikTok | Research Engineer Intern - Monetization Technology - Business Integrity | Fall 2026 | 2026-09-22 |
-| TikTok | Research Engineer Intern - Monetization Technology - Business Integrity | Summer 2027 | 2026-09-22 |
-| Tesla | Electronic Design Engineer Intern - Electronic Systems | Winter 2027 | 2026-09-22 |
-| National Laboratory of the Rockies | Transportation Systems Analysis Intern - Year-Round | Fall 2026 | 2026-09-22 |
-| KOSTAL Group | Systems Engineering Intern | Fall 2026 | 2026-09-22 |
-| RTX | Conversion Systems Engineer 1 Intern | Fall 2026 | 2026-09-22 |
-| Analog Devices | Systems Integration Engineer Intern | Fall 2026 | 2026-09-22 |
-| Rivet Industries | Software Engineer Intern - XR Team - Fall 2026 | Fall 2026 | 2026-09-22 |
-| Johns Hopkins Applied Physics Laboratory | Data Scientist Intern - Data Science - System Performance Evaluation | Fall 2026 | 2026-09-22 |
-| L3Harris Technologies | Integration and Test Engineer Intern - Non-Automation | Fall 2026 | 2026-09-22 |
-| TIAA | Investment Infrastructure & Technology Intern - IIT | Summer 2026 | 2026-09-22 |
-| Schweitzer Engineering Laboratories | Engineering Intern - Protection Systems Forensics | Fall 2026 | 2026-09-22 |
-| Qorvo | Test Engineer Intern - RF Load Pull | Fall 2026 | 2026-09-22 |
-| Qorvo | Research Engineer Intern - High Performance Analog | Fall 2026 | 2026-09-22 |
-| Qorvo | Test Engineering Intern | Fall 2026 | 2026-09-22 |
-| Qorvo | Test Engineer Intern | Fall 2026 | 2026-09-22 |
-| Qorvo | Test Engineer Intern | Fall 2026 | 2026-09-22 |
-| ByteDance | Research Intern - Frontier AI Systems | Winter 2026 | 2026-09-22 |
-| Verdantas | Environmental Data Analytics Intern - Geographic Information Systems | Winter 2026 | 2026-09-22 |
-| Micron Technology | Systems Performance Engineer Intern | Winter 2026 | 2026-09-22 |
-| Tesla | Robotaxi Simulation Engineer Intern - Systems Modeling & Optimization | Winter 2027 | 2026-09-22 |
-| Dedalus Labs | Systems Engineer Intern | Winter 2026 | 2026-09-22 |
-| Eight Sleep | Prototype & Test Engineer Intern - New Product Development | Fall 2026 | 2026-09-22 |
-| Booz Allen | Systems Engineer Intern - University - 2027 Summer Games | 2027 | 2026-09-22 |
-| Qorvo | Test Engineer Intern | Fall 2026 | 2026-09-22 |
-| Qorvo | Radio Systems and Test Intern | Fall 2026 | 2026-09-22 |
-| Qorvo | Test Engineer Intern - Advanced Cellular | Fall 2026 | 2026-09-22 |
-| Qorvo | Test Engineer Intern | Fall 2026 | 2026-09-22 |
-| Qorvo | Test Engineer Intern | Fall 2026 | 2026-09-22 |
-| Qorvo | Test Engineering Intern | Fall 2026 | 2026-09-22 |
-| Micron Technology | Product Test Engineer Intern - DRAM | Fall 2026 | 2026-09-22 |
-| Hewlett Packard | Personal Systems Product Management Intern | Winter 2026 | 2026-09-22 |
-| Texas Instruments | Product Engineer Intern - Test Engineering | Winter 2026 | 2026-09-22 |
-| L3Harris Technologies | Integration and Test Engineer Intern | Fall 2026 | 2026-09-22 |
-| SiFive | Design Verification Infrastructure Intern - Platform | Fall 2026 | 2026-09-22 |
-| Peak Energy | Systems Integration and Test Engineer Intern - Winter 2027 | Winter 2027 | 2026-09-22 |
-| Wonder | Robotics Systems Engineer Intern | Winter 2026 | 2026-09-22 |
-| Tesla | Access Control Systems Integration Engineer Intern - Access Control Systems | Winter 2027 | 2026-09-22 |
-| Micron Technology | Memory and System Architecture Research Intern | Winter 2026 | 2026-09-22 |
-| GE Vernova | CIC Systems Engineer Co-op | Winter 2027 | 2026-09-22 |
-| Sierra Nevada Corporation | Test Engineer Intern - Summer 2027 | Summer 2027 | 2026-09-22 |
-| Tesla | Electrical Test Engineer Intern - Vehicle Engineering | Winter 2027 | 2026-09-22 |
-| Merck | Computer Scientist Co-op - Agentic & Augmented Authoring Systems | Winter 2026 | 2026-09-22 |
-| General Dynamics Mission Systems | Systems Engineer Intern | Winter 2026 | 2026-09-22 |
-| RTX | Systems Co-op | Spring 2027 | 2026-09-22 |
-| Booz Allen | Systems Engineer Intern - University | Summer 2028 | 2026-09-22 |
-| Hewlett Packard | Business Intelligence and Infrastructure Analyst Intern | Winter 2026 | 2026-09-22 |
-| Allegion | Systems Engineering Intern | Summer 2026 | 2026-09-22 |
-| Blue Origin | Electrical Systems Engineer Co-op - Fixed Term | Winter 2027 | 2026-09-22 |
-| L3Harris Technologies | Integration/Test Engineer Intern | Winter 2026 | 2026-09-22 |
-| L3Harris Technologies | Integration/Test Engineer Intern | Winter 2026 | 2026-09-22 |
-| Microsoft | Robotics Systems and Control Intern | Winter 2026 | 2026-09-22 |
-| General Dynamics Mission Systems | Systems Engineer Intern | Winter 2026 | 2026-09-22 |
-| Emerson Electric | Test Engineer Intern | Winter 2026 | 2026-09-22 |
-| Texas Instruments | Systems Marketing Engineer Intern | Winter 2026 | 2026-09-22 |
-| AMD | Machine Learning System Engineering Intern/Co-op | Winter 2027 | 2026-09-22 |
-| Texas Instruments | Systems Engineering Intern | Winter 2026 | 2026-09-22 |
-| Texas Instruments | Systems Engineering Intern | Winter 2026 | 2026-09-22 |
-| AMD | AI Systems & GPU Performance Engineer Intern | Spring 2027 | 2026-09-22 |
-| Draper | Systems Engineering Co-op - Spring 2027 | Spring 2027 | 2026-09-22 |
-| Intel | System Technology Research Engineer Intern - Foundry System Technology | Summer 2026 | 2026-09-22 |
-| General Dynamics Mission Systems | Systems Engineer Intern | Winter 2026 | 2026-09-22 |
-| Tesla | System Integration and Test Automation Engineer Intern - Energy Engineering | Winter 2027 | 2026-09-22 |
-| Texas Instruments | Systems Marketing Engineer Intern - A&D | Winter 2026 | 2026-09-22 |
-| Analog Devices | Test Engineer Intern | Winter 2026 | 2026-09-22 |
-| KBR | Data Processing Systems Engineer Intern | Winter 2026 | 2026-09-22 |
-| Intel | Operations Research Engineering Analytics Intern | Winter 2026 | 2026-09-22 |
-| General Dynamics Mission Systems | Systems Engineer Intern - Autonomous Maritime Platforms | Spring 2026 | 2026-09-22 |
-| Navy Federal | Data Analyst Intern - Workplace Infrastructure & Analytics | Winter 2026 | 2026-09-22 |
-| Tesla | Internship - System Integration & Test Automation Engineer - Energy Engineering - Winter/Spring 2027 | Spring 2027 | 2026-09-22 |
-| Tesla | Systems Integration Engineer Intern - Body Controls | Winter 2027 | 2026-09-22 |
-| Koch Industries | Optical System Test Engineer Intern | Winter 2026 | 2026-09-22 |
-| SingleStore | Software Engineer Intern - Engine | Winter 2026 | 2026-09-22 |
-| Tesla | Reliability Test Engineer Intern - Energy Engineering | Winter 2027 | 2026-09-22 |
-| Entergy | Compliance and Systems Support Intern | Spring 2027 | 2026-09-22 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._

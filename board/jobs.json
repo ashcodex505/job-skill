@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-29T23:11:03.269Z",
+ "updatedAt": "2026-09-30T00:23:02.508Z",
  "jobs": [
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
@@ -25209,29 +25209,6 @@
    "firstSeenAt": "2026-09-23T23:39:40.870Z"
   },
   {
-   "dedupeKey": "simplifyjobs:cc4a8dbb-c15d-4fd8-a1fe-4ac7bffa903e",
-   "source": "simplifyjobs",
-   "company": "iManage",
-   "title": "Applied AI Engineer New Grad",
-   "location": "Chicago, IL",
-   "url": "https://imanagecom.applytojob.com/apply/r4huAJvEWl/Applied-AI-Engineer-New-Or-Recent-Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-23T22:21:15.000Z",
-   "firstSeenAt": "2026-09-23T23:39:40.870Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:e52a13ce-a653-4971-8d74-8ac2a350f68f",
    "source": "simplifyjobs",
    "company": "Parallel Systems",
@@ -35275,7 +35252,7 @@
    "source": "rippling",
    "company": "Rippling",
    "title": "Software Engineer Intern - Backend Focused - Summer 2027",
-   "location": "San Francisco, CA",
+   "location": "Seattle, WA",
    "url": "https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba",
    "season": "Summer 2027",
    "roleType": "internship",
@@ -35321,7 +35298,7 @@
    "source": "rippling",
    "company": "Rippling",
    "title": "Full Stack Software Engineer Intern - Summer 2027",
-   "location": "Seattle, WA",
+   "location": "San Francisco, CA",
    "url": "https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262",
    "season": "Summer 2027",
    "roleType": "internship",
@@ -36947,29 +36924,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "oraclecloud:334333",
-   "source": "oraclecloud",
-   "company": "Oracle",
-   "title": "OCI Software Engineer Intern - OVIP",
-   "location": "Austin, TX, United States",
-   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/334333",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-22T00:00:00.000Z",
-   "firstSeenAt": "2026-09-16T21:37:55.722Z"
-  },
-  {
    "dedupeKey": "ashby:9246cf02-26fd-4ae8-90c5-639c6e85e9e2",
    "source": "ashby",
    "company": "Perplexity",
@@ -37019,6 +36973,54 @@
    },
    "postedAt": "2026-07-01T12:19:30.009+00:00",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "oraclecloud:334333",
+   "source": "oraclecloud",
+   "company": "Oracle",
+   "title": "OCI Software Engineer Intern - OVIP",
+   "location": "Austin, TX, United States",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/334333",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-05-22T00:00:00.000Z",
+   "firstSeenAt": "2026-09-16T21:37:55.722Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8052083",
+   "source": "greenhouse",
+   "company": "Hudson River Trading",
+   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
+   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-07-13T11:35:06-04:00",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
    "dedupeKey": "workday:JR2022645",
@@ -37088,31 +37090,6 @@
    },
    "postedAt": "2026-08-26",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8052083",
-   "source": "greenhouse",
-   "company": "Hudson River Trading",
-   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
-   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-07-13T11:35:06-04:00",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
    "dedupeKey": "greenhouse:8052338",
@@ -37427,56 +37404,6 @@
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
   },
   {
-   "dedupeKey": "greenhouse:8724316002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-19T11:08:34-04:00",
-   "firstSeenAt": "2026-08-24T21:39:20.245Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8696156002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:32-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696143002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -37502,6 +37429,31 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
+   "dedupeKey": "greenhouse:8724316002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-19T11:08:34-04:00",
+   "firstSeenAt": "2026-08-24T21:39:20.245Z"
+  },
+  {
    "dedupeKey": "greenhouse:8696158002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -37524,6 +37476,31 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:21:38-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696156002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:32-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -37554,32 +37531,6 @@
    "firstSeenAt": "2026-09-14T13:56:47.708Z"
   },
   {
-   "dedupeKey": "greenhouse:7807508003",
-   "source": "greenhouse",
-   "company": "Affirm",
-   "title": "Software Engineer I, Backend (Collections)",
-   "location": "Remote Poland",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/7807508003",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 88,
-   "matchedSkills": [
-    "Python",
-    "AWS"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 5,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-07-22T08:51:35-04:00",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "greenhouse:7807506003",
    "source": "greenhouse",
    "company": "Affirm",
@@ -37603,6 +37554,32 @@
     "skills": 3
    },
    "postedAt": "2026-07-22T08:51:32-04:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7807508003",
+   "source": "greenhouse",
+   "company": "Affirm",
+   "title": "Software Engineer I, Backend (Collections)",
+   "location": "Remote Poland",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/7807508003",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 88,
+   "matchedSkills": [
+    "Python",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-07-22T08:51:35-04:00",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -38478,1196 +38455,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "workday:3168485",
-   "company": "HP",
-   "title": "Data Analysis and Systems Internship",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Tlaquepaque-Jalisco-Mexico/Data-Analysis-and-Systems-Internship--Evergreen-_3168485-1"
-  },
-  {
-   "dedupeKey": "greenhouse:8046074",
-   "company": "Hudson River Trading",
-   "title": "Junior Trading Systems Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8046074"
-  },
-  {
-   "dedupeKey": "greenhouse:8007788",
-   "company": "Jump Trading",
-   "title": "Campus Systems Engineer (Intern)",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=8007788"
-  },
-  {
-   "dedupeKey": "greenhouse:5246225007",
-   "company": "Anduril",
-   "title": "2027 Early Career Flight Test Engineer",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-22T18:50:40.393Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5246225007?gh_jid=5246225007"
-  },
-  {
-   "dedupeKey": "greenhouse:5243880007",
-   "company": "Anduril",
-   "title": "Entry Level Systems Engineer, C2 Integration, Clearance Eligible",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-21T19:22:00.485Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243880007?gh_jid=5243880007"
-  },
-  {
-   "dedupeKey": "greenhouse:5241149007",
-   "company": "Anduril",
-   "title": "Entry Level Systems Engineer, C2 Networking, Clearance Eligible",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-21T19:22:00.485Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5241149007?gh_jid=5241149007"
-  },
-  {
-   "dedupeKey": "greenhouse:5241134007",
-   "company": "Anduril",
-   "title": "New Grad Systems Engineer, C2 Integration, Clearance Eligible",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-21T19:22:00.485Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5241134007?gh_jid=5241134007"
-  },
-  {
-   "dedupeKey": "greenhouse:5236599007",
-   "company": "Anduril",
-   "title": "Winter 2027 Systems Engineer Co-op",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-15T18:09:42.553Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236599007?gh_jid=5236599007"
-  },
-  {
-   "dedupeKey": "workday:JR0286945",
-   "company": "Intel",
-   "title": "Operations Research Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/Operations-Research-Engineer-Intern_JR0286945"
-  },
-  {
-   "dedupeKey": "ashby:45fc41cd-8280-4010-ba1f-def6114b3e39",
-   "company": "Applied Intuition",
-   "title": "Research Engineer - New Grad (2027)",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39"
-  },
-  {
-   "dedupeKey": "vansh:a02b12ad-98b2-4614-9f9f-9cbe081d9f24",
-   "company": "General Dynamics Information Technology",
-   "title": "Systems Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.gd.com/careers/systems-engineer-intern-albany-ny-us-rq225289-gdit-opportunity"
-  },
-  {
-   "dedupeKey": "vansh:40ee3e02-a678-438e-9f67-af1dae8d523a",
-   "company": "Copart",
-   "title": "QA Engineering Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/QA-Engineering-Intern_JR109671"
-  },
-  {
-   "dedupeKey": "vansh:1ad039f9-d191-46e8-8949-933beb4efdbe",
-   "company": "Figure",
-   "title": "Power Systems Integration Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://job-boards.greenhouse.io/figureai/jobs/4702104006"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b2ed4463-96d0-44cd-b1c5-604bcce870ad",
-   "company": "ByteDance",
-   "title": "Research Scientist New Grad - Distributed NoSQL Database Systems",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-03T12:34:46.349Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.bytedance.com/en/position/7668365143156721973/detail"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b88a3852-64cb-44cf-ad65-71ede8a595e4",
-   "company": "ByteDance",
-   "title": "Research Scientist New Grad - Infrastructure System Lab",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-03T12:34:46.349Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.bytedance.com/en/position/7665108869591140613/detail"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a361534e-bae9-48ea-971f-acc6566fbb47",
-   "company": "TikTok",
-   "title": "Research Engineer New Grad - Multiple Teams",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://lifeattiktok.com/search/7667767820142643461"
-  },
-  {
-   "dedupeKey": "simplifyjobs:33f1e0dc-9651-4eef-92eb-c0a9247d5893",
-   "company": "Johns Hopkins Applied Physics Laboratory",
-   "title": "Computer Scientist New Grad - Tactical System Prototyping and Deployment",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-14T06:03:38.100Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.jhuapl.edu/jobs/59416?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:883f115b-b0ad-4eae-8a80-2bbf523964d4",
-   "company": "Micron Technology",
-   "title": "AI Innovation Research Engineer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/New-College-Grad---AI-Innovation-Research-Engineer_JR108594"
-  },
-  {
-   "dedupeKey": "simplifyjobs:eb3814c7-6fd3-4e58-852c-6cc00005cf9a",
-   "company": "Susquehanna International Group",
-   "title": "Trading System Engineer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-21T18:51:36.223Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers-sig.icims.com/jobs/11349/job?mobile=true&needsRedirect=false"
-  },
-  {
-   "dedupeKey": "simplifyjobs:158354ff-729f-4923-845b-d4f59eea424f",
-   "company": "Micron Technology",
-   "title": "Design for Test Engineer New Grad - HBM",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/New-College-Grad---Engineer---HBM-Design-for-Test--DFT-_JR109696"
-  },
-  {
-   "dedupeKey": "simplifyjobs:07ed29b5-1f97-4d0e-9dc0-c511ddcb781b",
-   "company": "Johns Hopkins Applied Physics Laboratory",
-   "title": "Sensor Systems/Data Analytics New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-01T04:59:19.368Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.jhuapl.edu/jobs/59770?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:fe751f52-a6e4-4204-990f-387c8238183d",
-   "company": "NVIDIA",
-   "title": "Applied Systems Engineering Rotation Engineer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-03T04:55:53.353Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Systems-Engineering-Rotation-Engineer---New-College-Graduate-2026_JR2024713"
-  },
-  {
-   "dedupeKey": "simplifyjobs:fe6bef22-123f-4be3-bc91-d205cf1b4c6e",
-   "company": "Peraton",
-   "title": "Entry-Level Systems Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-03T05:43:42.745Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers-peraton.icims.com/jobs/170126/job?mobile=true&needsRedirect=false"
-  },
-  {
-   "dedupeKey": "simplifyjobs:54cabb56-5337-4344-9f40-9ad54dc468b3",
-   "company": "Micron Technology",
-   "title": "Product Test Engineer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Product-Test-Engineer_JR109985"
-  },
-  {
-   "dedupeKey": "simplifyjobs:9bd9bb46-2f64-4736-aa7a-2b2095c05d99",
-   "company": "Micron Technology",
-   "title": "Electrical Design Engineer New Grad - Systems Integration Group",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-03T09:58:19.603Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---SIG-Building/New-College-Grad---ENGINEER--SIG-ELECTRICAL-DESIGN_JR109492"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b1a94042-0745-42b3-8e10-95436ad94aae",
-   "company": "Applied Materials",
-   "title": "Systems Engineer 1 New Grad - Fusion",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-03T11:08:24.139Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Engineer-Development-Rotation-Program---Systems-Engineer-I-New-College-Grad---BS-or-MS--Gloucester--MA-_R2625758-1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:9a8dfe52-a8c8-4604-9197-455c8a8630c0",
-   "company": "Crown Innovations",
-   "title": "Systems Engineer 1",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.smartrecruiters.com/CrownInnovationsInc/744000144160949"
-  },
-  {
-   "dedupeKey": "simplifyjobs:91b64c72-1312-4c2f-96f2-67f6b6e0be9e",
-   "company": "Amentum",
-   "title": "Entry Level Radiation Test Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-IN-Crane/Entry-Level-Radiation-Test-Engineer_R0169716"
-  },
-  {
-   "dedupeKey": "simplifyjobs:6903720f-3464-468b-8740-926f398cab89",
-   "company": "Astrion",
-   "title": "Systems Integration and Test Engineer - Junior",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.astrion.us/jobs/24603?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:df5178c3-1535-4962-aac1-d88d87dc2a97",
-   "company": "General Matter",
-   "title": "Test Engineer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://job-boards.greenhouse.io/generalmatter/jobs/5375985008"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f638a7a9-7858-44cf-a52d-23c7ec258ad8",
-   "company": "Draper",
-   "title": "System Integration and Test Engineer 1",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/System-Integ--Test--Engr-MTS2_JR001952"
-  },
-  {
-   "dedupeKey": "simplifyjobs:3c896aa0-4c92-4cf3-93d4-7da41b7a9f91",
-   "company": "Johns Hopkins Applied Physics Laboratory",
-   "title": "Data Scientist New Grad - Computer Scientist - Decision Systems",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-04T23:13:47.011Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.jhuapl.edu/jobs/59918?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b8e99c43-8e02-4d04-89d1-f5bd150c6cfc",
-   "company": "NXP Semiconductors",
-   "title": "Entry Level Semiconductor Test Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Chandler-Office/Entry-Level-Semiconductor-Test-Engineer_R-10064969-1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:5f62b02a-d87f-4a82-9762-6fdf7588a8f1",
-   "company": "Nerdio",
-   "title": "Solutions Engineer - Early Career",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://ats.rippling.com/nerdio-careers/jobs/0b82e6f3-fd54-40d7-996a-ca02b4c67f67"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a1e7acba-8ab8-465d-96ef-b9311e989cd7",
-   "company": "MBDA",
-   "title": "Weapon Systems Algorithms Engineer New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-14T22:43:04.813Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://mbda.wd3.myworkdayjobs.com/MBDA-UK/job/Bristol/Weapon-Systems-Algorithms-Engineer---Graduate-Programme-2027_R37707"
-  },
-  {
-   "dedupeKey": "simplifyjobs:248df7ed-e59a-4e04-b42d-955c2253768e",
-   "company": "M.C. Dean",
-   "title": "Systems Engineer 1 - Security and Electronic Systems",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.mcdean.com/jobs/32623?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:6ebf8c92-c4aa-4df0-95a6-817657df07b2",
-   "company": "RTX",
-   "title": "Test Engineer 1 - Vision Systems",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-GOLETA-B01--6825-Cortona-Dr--BLDG-B01/Vision-Systems--Test-Engineer-I_01874749"
-  },
-  {
-   "dedupeKey": "simplifyjobs:99a096e7-a5be-4022-8904-7687e11a9efa",
-   "company": "Arcfield",
-   "title": "Entry Level Systems Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-18T11:42:38.325Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.arcfield.com/jobs/8645?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:6e0688ef-afcd-41b8-88e4-a11a11519137",
-   "company": "Micron Technology",
-   "title": "Memory System Architect New Grad - HBM Generative AI",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-18T23:33:36.128Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Folsom-CA/New-College-Grad---Memory-System-Architect--HBM-Generative-AI_JR111840"
-  },
-  {
-   "dedupeKey": "simplifyjobs:40090818-c9a2-4104-9627-111a5b9cd079",
-   "company": "Citadel Securities",
-   "title": "Quantitative Research Engineer Intern",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.citadelsecurities.com/careers/details/quantitative-research-engineer-phd-intern-us/"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1f74ca3f-e832-45e6-bc13-b8222034e373",
-   "company": "Citadel",
-   "title": "Quantitative Research Engineer Intern",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.citadel.com/careers/details/quantitative-research-engineer-phd-intern-us/"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f5390082-331a-4384-ba8f-6385c2291080",
-   "company": "TikTok",
-   "title": "Machine Learning Engineer Intern - Basic Ranking",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://lifeattiktok.com/search/7667339583362025781"
-  },
-  {
-   "dedupeKey": "simplifyjobs:7125ebf4-f7ce-4863-8495-30a7f8d59f7d",
-   "company": "ByteDance",
-   "title": "Research Scientist Intern - Distributed NoSQL Database Systems",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-03T12:34:46.349Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.bytedance.com/en/position/7668371456348326149/detail"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e3086785-c94b-4a66-82a8-52a73cc4b994",
-   "company": "ByteDance",
-   "title": "Research Scientist Intern - Distributed NoSQL Database Systems",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-03T12:34:46.349Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.bytedance.com/en/position/7668371003554138421/detail"
-  },
-  {
-   "dedupeKey": "simplifyjobs:42c0c70a-f3aa-4aab-b737-a65c498589b7",
-   "company": "TikTok",
-   "title": "Research Engineer Intern - Monetization Technology - Business Integrity",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://lifeattiktok.com/search/7668204394458466565"
-  },
-  {
-   "dedupeKey": "simplifyjobs:14e4cecc-8df0-4784-b302-5fa8e96fae39",
-   "company": "TikTok",
-   "title": "Research Engineer Intern - Monetization Technology - Business Integrity",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://lifeattiktok.com/search/7668202602270951733"
-  },
-  {
-   "dedupeKey": "simplifyjobs:3ee0c355-bfb2-4580-a632-b2cd47e53858",
-   "company": "Tesla",
-   "title": "Electronic Design Engineer Intern - Electronic Systems",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:46:02.461Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.tesla.com/careers/search/job/279760"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b3da019d-7eab-458d-a999-34ab2aea473c",
-   "company": "National Laboratory of the Rockies",
-   "title": "Transportation Systems Analysis Intern - Year-Round",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-13T23:53:13.310Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--Year-Round--Intern---Transportation-Systems-Analysis_R14385"
-  },
-  {
-   "dedupeKey": "simplifyjobs:d269fad7-d513-4c35-b790-f31017a09c8a",
-   "company": "KOSTAL Group",
-   "title": "Systems Engineering Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-18T01:46:52.040Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.smartrecruiters.com/KOSTALGroup/744000138137225"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a167d0aa-3bb9-4b88-84a5-ee03be6a494f",
-   "company": "RTX",
-   "title": "Conversion Systems Engineer 1 Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-18T07:00:21.805Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion-Systems-Engineer-I--Onsite-_01866850"
-  },
-  {
-   "dedupeKey": "simplifyjobs:54925b41-cce3-4b81-9e12-22fabaa04d36",
-   "company": "Analog Devices",
-   "title": "Systems Integration Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-22T11:31:18.418Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/System-Integration-Engineer-Intern_R265305"
-  },
-  {
-   "dedupeKey": "simplifyjobs:39309c17-e806-4ea4-ba0d-0d69cfaca27f",
-   "company": "Rivet Industries",
-   "title": "Software Engineer Intern - XR Team - Fall 2026",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-25T01:47:50.982Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.ashbyhq.com/rivet/4e02461a-9f6c-4d3c-a511-6d54f31999bc/application?embed=true"
-  },
-  {
-   "dedupeKey": "simplifyjobs:5b23b4bf-a18e-40ed-b036-ccb603c87ef3",
-   "company": "Johns Hopkins Applied Physics Laboratory",
-   "title": "Data Scientist Intern - Data Science - System Performance Evaluation",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-25T18:54:45.779Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.jhuapl.edu/jobs/59800?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:83c30d71-5029-4a20-87e9-15ae1661b155",
-   "company": "L3Harris Technologies",
-   "title": "Integration and Test Engineer Intern - Non-Automation",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.l3harris.com/job/Northampton-Intern,-Integration-and-Test-Engineering-Non-Automation-MA-01060/1423743300/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:5fb362f5-5857-42ff-923b-348eb5582bc7",
-   "company": "TIAA",
-   "title": "Investment Infrastructure & Technology Intern - IIT",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/New-York-NY-USA/Churchill-Summer-Internship--Investment-Infrastructure---Technology--IIT-_R260800515-1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a61f9f72-9c0c-4aae-b389-6c806edc606a",
-   "company": "Schweitzer Engineering Laboratories",
-   "title": "Engineering Intern - Protection Systems Forensics",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-29T02:08:10.248Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Engineering-Intern_2025-18137"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c79182b9-3069-4d62-a2f6-44aa377f3167",
-   "company": "Qorvo",
-   "title": "Test Engineer Intern - RF Load Pull",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.qorvo.com/job/Richardson-Test-Engineering-Intern-TX-75081/1424731100/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b4076972-d2bd-46b3-9238-b44ff84af6b4",
-   "company": "Qorvo",
-   "title": "Research Engineer Intern - High Performance Analog",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.qorvo.com/job/Richardson-Research-Engineering-Intern-TX-75080/1424726900/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:70024d90-f585-47e3-a34d-e44315206f2d",
-   "company": "Qorvo",
-   "title": "Test Engineering Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.qorvo.com/job/Greensboro-Test-Engineering-Intern-NC-27409/1422393300/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:04450ddc-258f-4a5d-acc4-b9b06f3f6835",
-   "company": "Qorvo",
-   "title": "Test Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.qorvo.com/job/Hillsboro-Test-Engineering-Intern-OR-97124/1421978100/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:8c53032c-d29b-4077-82e5-835b75a70990",
-   "company": "Qorvo",
-   "title": "Test Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.qorvo.com/job/Richardson-Test-Engineering-Intern-TX-75080/1424797000/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b17bf4d1-60d8-41c7-b75c-116011568e8c",
-   "company": "ByteDance",
-   "title": "Research Intern - Frontier AI Systems",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.bytedance.com/en/position/7679894132806650165/detail"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c176703b-2d82-4f94-bdd2-b0c7f1f30680",
-   "company": "Verdantas",
-   "title": "Environmental Data Analytics Intern - Geographic Information Systems",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://verdantas.wd108.myworkdayjobs.com/Verdantas/job/Syracuse-NY/Data-Analytics-and-GIS-Intern_R-101135"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1155a976-0c8a-4ce5-8e4f-e717be6dff40",
-   "company": "Micron Technology",
-   "title": "Systems Performance Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Longmont-MAX--Office-CO/Intern---Systems-Performance-Engineer_JR109583"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c0acbe3a-c2ed-42ea-a71d-eb9df423a1c4",
-   "company": "Tesla",
-   "title": "Robotaxi Simulation Engineer Intern - Systems Modeling & Optimization",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-02T04:23:48.772Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.tesla.com/careers/search/job/281936"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c273bc4d-7d9a-423b-8487-df0419f55399",
-   "company": "Dedalus Labs",
-   "title": "Systems Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.ashbyhq.com/dedalus-labs/6037de96-d9c7-418f-ad23-56bb327225a6/application?embed=true"
-  },
-  {
-   "dedupeKey": "simplifyjobs:842ded34-df38-49e4-8d21-4a85f457c148",
-   "company": "Eight Sleep",
-   "title": "Prototype & Test Engineer Intern - New Product Development",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.ashbyhq.com/eightsleep/393ffe76-749e-4ec1-9975-a96b7fefe31f/application?embed=true"
-  },
-  {
-   "dedupeKey": "simplifyjobs:6aedf2d9-49ab-471f-8cb3-45c3813875b0",
-   "company": "Booz Allen",
-   "title": "Systems Engineer Intern - University - 2027 Summer Games",
-   "season": "2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-03T04:55:53.353Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Systems-Engineer-Intern---Annapolis-Junction--MD_R0248384"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f5cf3346-173a-44e6-847a-d9334db5775c",
-   "company": "Qorvo",
-   "title": "Test Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.qorvo.com/job/Richardson-Test-Engineer-D&A-CRAD-Intern-TX-75081/1424805300/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a7e65324-0658-4012-8e8b-24f252ba7a16",
-   "company": "Qorvo",
-   "title": "Radio Systems and Test Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-03T09:58:19.603Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.qorvo.com/job/Ft_-Lauderdale-Radio-Systems-and-Test-Intern-FL-33309/1422353400/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:98a12d6b-4d4d-4ded-92d5-9e4ff9d32b3b",
-   "company": "Qorvo",
-   "title": "Test Engineer Intern - Advanced Cellular",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.qorvo.com/job/Chandler-Test-Engineering-Intern-AZ-85226/1420082600/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:97a5cdb2-c516-4e29-977e-01d658fe992c",
-   "company": "Qorvo",
-   "title": "Test Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.qorvo.com/job/Richardson-Test-Engineering-Intern-TX-75080/1424729000/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:4ad7f33c-6b82-41f8-b6cd-526539584b53",
-   "company": "Qorvo",
-   "title": "Test Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.qorvo.com/job/Chelmsford-Test-Engineering-Intern-MA-1824/1421979300/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1be478be-f7c2-45e7-8bd3-3f25e5877371",
-   "company": "Qorvo",
-   "title": "Test Engineering Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.qorvo.com/job/Greensboro-Test-Engineering-Intern-NC-27409/1421444200/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:22e8ae7a-01f6-45a4-b1e6-5dbd92874d50",
-   "company": "Micron Technology",
-   "title": "Product Test Engineer Intern - DRAM",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/DRAM-Prodcut-Test-Engineer-Intern_JR109996"
-  },
-  {
-   "dedupeKey": "simplifyjobs:01120085-8f92-416b-9a1d-d797219a2165",
-   "company": "Hewlett Packard",
-   "title": "Personal Systems Product Management Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://hp.wd5.myworkdayjobs.com/externalcareersite/job/Austin-Texas-United-States-of-America/Personal-Systems-Product-Management-Intern_UNI4755-1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:599825f7-b453-45b1-870a-8ab037aefcb2",
-   "company": "Texas Instruments",
-   "title": "Product Engineer Intern - Test Engineering",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017571"
-  },
-  {
-   "dedupeKey": "simplifyjobs:0526ff10-b2e6-441a-931a-3013f9f82a67",
-   "company": "L3Harris Technologies",
-   "title": "Integration and Test Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Integration-and-Test-Engineer-FL-32905/1420320700/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:92ab58c5-5602-4e6b-be53-b0b8c76e6537",
-   "company": "SiFive",
-   "title": "Design Verification Infrastructure Intern - Platform",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-03T22:35:46.059Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://sifive.wd1.myworkdayjobs.com/en-US/sifivecareers/job/Santa-Clara-California-United-States/Intern---Design-Verification-Infrastructure-Engineer---Platform_R-101291-1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b9029de5-cfd9-4f5e-ad9d-29b2ec9e3c7e",
-   "company": "Peak Energy",
-   "title": "Systems Integration and Test Engineer Intern - Winter 2027",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-03T22:35:46.059Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://peakenergy.com/get-in-touch/careers/jobs?job_id=5185852007&gh_jid=5185852007"
-  },
-  {
-   "dedupeKey": "simplifyjobs:04e8aa73-2fa2-4703-833b-db9d9121ff45",
-   "company": "Wonder",
-   "title": "Robotics Systems Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://wonder.wd1.myworkdayjobs.com/WG/job/New-York-NY/Robotics-Systems-Engineer-Intern_JR101321"
-  },
-  {
-   "dedupeKey": "simplifyjobs:d1e4eec6-2b6b-4b94-a986-8a25822c4666",
-   "company": "Tesla",
-   "title": "Access Control Systems Integration Engineer Intern - Access Control Systems",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-04T05:03:03.873Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.tesla.com/careers/search/job/282258"
-  },
-  {
-   "dedupeKey": "simplifyjobs:710f0fcc-6683-46b1-a355-2c71a6561e20",
-   "company": "Micron Technology",
-   "title": "Memory and System Architecture Research Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Folsom-CA/Intern---Memory---System-Architecture-Research_JR110475"
-  },
-  {
-   "dedupeKey": "simplifyjobs:adc00b6f-fe39-46b8-a7d1-0f4ea72504eb",
-   "company": "GE Vernova",
-   "title": "CIC Systems Engineer Co-op",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-04T05:03:03.873Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-CIC-Systems-Engineer-Co-op---Spring---Summer-2027_R5051807-1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2bf1eede-29f5-47d4-9b3e-66bd4aa8cdcd",
-   "company": "Sierra Nevada Corporation",
-   "title": "Test Engineer Intern - Summer 2027",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Hagerstown-MD/Test-Engineering-Intern--Summer-2027-_R0030772"
-  },
-  {
-   "dedupeKey": "simplifyjobs:29d56467-920c-46e3-a94e-c6e396215e2d",
-   "company": "Tesla",
-   "title": "Electrical Test Engineer Intern - Vehicle Engineering",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.tesla.com/careers/search/job/278976"
-  },
-  {
-   "dedupeKey": "simplifyjobs:8149b9c0-8cb1-41d8-9f26-64a1ae9716b5",
-   "company": "Merck",
-   "title": "Computer Scientist Co-op - Agentic & Augmented Authoring Systems",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Computer-Scientist---Agentic---Augmented-Authoring-Systems---Co-op_R412857"
-  },
-  {
-   "dedupeKey": "simplifyjobs:cb671a4e-ff11-4624-a824-2b46cbf7a24f",
-   "company": "General Dynamics Mission Systems",
-   "title": "Systems Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers-gdms.icims.com/jobs/74776/job?mobile=true&needsRedirect=false"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a1c4c9f3-d62d-413d-937e-97b35075c9c6",
-   "company": "RTX",
-   "title": "Systems Co-op",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-08T23:36:36.910Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Spring-Summer-Co-Op---Systems---AVI-MIL-FMS-DAS_01872835"
-  },
-  {
-   "dedupeKey": "simplifyjobs:cbd02d2d-30f1-4f3f-9f68-eb6f0947c37f",
-   "company": "Booz Allen",
-   "title": "Systems Engineer Intern - University",
-   "season": "Summer 2028",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://bah.wd1.myworkdayjobs.com/Confidential/job/Lexington-MA/University---Systems-Engineer-Intern_R0248855"
-  },
-  {
-   "dedupeKey": "simplifyjobs:3724b7cc-4130-4342-8c6b-9df8f51c6e78",
-   "company": "Hewlett Packard",
-   "title": "Business Intelligence and Infrastructure Analyst Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://hp.wd5.myworkdayjobs.com/externalcareersite/job/Vancouver-Washington-United-States-of-America/Business-Intelligence-and-Infrastructure-Analysts--Intern_UNI4669-1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:27148df8-804c-4b4c-a33c-a6fc38d4b9a4",
-   "company": "Allegion",
-   "title": "Systems Engineering Intern",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Systems-Engineering_JR37479-1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:7fedfbc6-98b6-4de0-b225-0a62b5515501",
-   "company": "Blue Origin",
-   "title": "Electrical Systems Engineer Co-op - Fixed Term",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-10T11:11:52.969Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Los-Angeles-CA/Electronics-Electrical-Systems-Engineer-Co-Op_R71548"
-  },
-  {
-   "dedupeKey": "simplifyjobs:352fa54f-2951-4516-9bad-74ec4d58df98",
-   "company": "L3Harris Technologies",
-   "title": "Integration/Test Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.l3harris.com/job/Melbourne-IntegrationTest-Engineering-Intern-FL-32901/1428454000/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1ce2a613-e411-4a03-a5e2-73ef2a74935a",
-   "company": "L3Harris Technologies",
-   "title": "Integration/Test Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.l3harris.com/job/Melbourne-IntegrationTest-Engineering-Intern-FL-32901/1428454300/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:12081dae-1434-4294-84d6-903009f0c86b",
-   "company": "Microsoft",
-   "title": "Robotics Systems and Control Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556991724"
-  },
-  {
-   "dedupeKey": "simplifyjobs:58434625-8e53-4daa-82b0-f88457b0c764",
-   "company": "General Dynamics Mission Systems",
-   "title": "Systems Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers-gdms.icims.com/jobs/74773/job?mobile=true&needsRedirect=false"
-  },
-  {
-   "dedupeKey": "simplifyjobs:3e5d828e-8ac8-4e89-a534-9174541b21e0",
-   "company": "Emerson Electric",
-   "title": "Test Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010099"
-  },
-  {
-   "dedupeKey": "simplifyjobs:21433e01-e0cf-4ab4-be1a-9dd70f54f85b",
-   "company": "Texas Instruments",
-   "title": "Systems Marketing Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017540"
-  },
-  {
-   "dedupeKey": "simplifyjobs:daf764cc-9f18-4c08-8bf4-fd6a95cb1638",
-   "company": "AMD",
-   "title": "Machine Learning System Engineering Intern/Co-op",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-11T23:31:14.851Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.amd.com/jobs/92342?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:35ac9d4b-4222-4d9a-82df-3d81ec3a998c",
-   "company": "Texas Instruments",
-   "title": "Systems Engineering Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017917"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1220a95c-61c7-48a6-bcfd-965d9c18c997",
-   "company": "Texas Instruments",
-   "title": "Systems Engineering Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017542"
-  },
-  {
-   "dedupeKey": "simplifyjobs:fd459609-149f-4f12-8894-a6124c4b7163",
-   "company": "AMD",
-   "title": "AI Systems & GPU Performance Engineer Intern",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-11T23:31:14.851Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers.amd.com/jobs/92354?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:54015f6b-c5f8-4381-97e0-d1d98f7f69e0",
-   "company": "Draper",
-   "title": "Systems Engineering Co-op - Spring 2027",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-12T01:04:46.155Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Systems-Engineering-Co-Op--Spring-2027-_JR002882"
-  },
-  {
-   "dedupeKey": "simplifyjobs:00477c84-78f9-450f-a8d3-9a9d51505a67",
-   "company": "Intel",
-   "title": "System Technology Research Engineer Intern - Foundry System Technology",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/System-Technology-Research-Engineer----PhD-Intern-_JR0287000"
-  },
-  {
-   "dedupeKey": "simplifyjobs:37c7d447-a271-4b55-a24d-1c3b10578cf3",
-   "company": "General Dynamics Mission Systems",
-   "title": "Systems Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers-gdms.icims.com/jobs/74748/job?mobile=true&needsRedirect=false"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1510bbe6-322e-4e07-8054-1ce27bd0ba09",
-   "company": "Tesla",
-   "title": "System Integration and Test Automation Engineer Intern - Energy Engineering",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-14T22:43:04.813Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.tesla.com/careers/search/job/283396"
-  },
-  {
-   "dedupeKey": "simplifyjobs:86600746-519d-4407-b8a9-21dba55172f2",
-   "company": "Texas Instruments",
-   "title": "Systems Marketing Engineer Intern - A&D",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017921"
-  },
-  {
-   "dedupeKey": "simplifyjobs:83127520-9aed-4eb4-a7c5-63d711f65e1f",
-   "company": "Analog Devices",
-   "title": "Test Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Test-Engineering-Intern_R266146"
-  },
-  {
-   "dedupeKey": "simplifyjobs:979ac96d-8d31-44b0-b0ce-b26b281568e9",
-   "company": "KBR",
-   "title": "Data Processing Systems Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T23:49:28.046Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Sioux-Falls-South-Dakota/Data-Processing-Systems-Engineer-Intern_R2130060"
-  },
-  {
-   "dedupeKey": "simplifyjobs:02e5128c-f9d6-4224-9ba7-5ab3d06f1352",
-   "company": "Intel",
-   "title": "Operations Research Engineering Analytics Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T23:49:28.046Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Operations-Research--Engineering-Analytics-Graduate-Intern_JR0286502"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2fe60cb9-2191-4584-9824-1cda213b3458",
-   "company": "General Dynamics Mission Systems",
-   "title": "Systems Engineer Intern - Autonomous Maritime Platforms",
-   "season": "Spring 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-17T10:10:06.653Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://careers-gdms.icims.com/jobs/74840/job?mobile=true&needsRedirect=false"
-  },
-  {
-   "dedupeKey": "simplifyjobs:ea2d212a-7ea2-4505-9ff1-36417ed68976",
-   "company": "Navy Federal",
-   "title": "Data Analyst Intern - Workplace Infrastructure & Analytics",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-17T23:33:29.849Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32376"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2a08a446-034e-4632-878e-550a7d4d7748",
-   "company": "Tesla",
-   "title": "Internship - System Integration & Test Automation Engineer - Energy Engineering - Winter/Spring 2027",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-18T09:25:20.704Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.tesla.com/careers/search/job/284026"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b3e74a6e-d3af-4e37-808e-8a94de03c75d",
-   "company": "Tesla",
-   "title": "Systems Integration Engineer Intern - Body Controls",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-19T01:30:23.635Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.tesla.com/careers/search/job/283990"
-  },
-  {
-   "dedupeKey": "simplifyjobs:8dcf0c2f-08d7-44c1-8469-313723c64183",
-   "company": "Koch Industries",
-   "title": "Optical System Test Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-21T23:15:27.776Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://koch.avature.net/en_US/careers/JobDetail/194772"
-  },
-  {
-   "dedupeKey": "simplifyjobs:442f543a-aae1-40c1-bda1-e5d07a00fe43",
-   "company": "SingleStore",
-   "title": "Software Engineer Intern - Engine",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-22T04:47:40.879Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://job-boards.greenhouse.io/singlestore/jobs/8221924"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1a1a2a75-10ef-4a52-9850-702ee859dc3d",
-   "company": "Tesla",
-   "title": "Reliability Test Engineer Intern - Energy Engineering",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-22T04:47:40.879Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://www.tesla.com/careers/search/job/284278"
-  },
-  {
-   "dedupeKey": "simplifyjobs:8bc66f1e-97cf-452d-b8ff-de662e473691",
-   "company": "Entergy",
-   "title": "Compliance and Systems Support Intern",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-22T04:47:40.879Z",
-   "closedAt": "2026-09-22T23:41:26.313Z",
-   "url": "https://jobs.entergy.com/job/Little-Rock-Student,-Intern-Compliance-and-Systems-Support-Spring-2027-Arka/1432001400/?ats=successfactors"
-  },
   {
    "dedupeKey": "simplifyjobs:92dbb10e-7ec8-4b64-9dd9-a1521850b0db",
    "company": "RTX",
@@ -42494,6 +41281,16 @@
    "firstSeenAt": "2026-09-23T16:51:39.117Z",
    "closedAt": "2026-09-29T23:11:03.269Z",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--Software-Engineering---China_JR2024111"
+  },
+  {
+   "dedupeKey": "simplifyjobs:cc4a8dbb-c15d-4fd8-a1fe-4ac7bffa903e",
+   "company": "iManage",
+   "title": "Applied AI Engineer New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-09-23T23:39:40.870Z",
+   "closedAt": "2026-09-30T00:23:02.508Z",
+   "url": "https://imanagecom.applytojob.com/apply/r4huAJvEWl/Applied-AI-Engineer-New-Or-Recent-Grad"
   }
  ]
 }
