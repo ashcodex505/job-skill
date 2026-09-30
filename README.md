@@ -274,12 +274,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1634-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-33-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--30-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1634-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-34-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--09--30-informational)
 
-Updated **2026-09-30 19:12 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-09-30 20:59 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Stripe | High School Internship, Software Engineering (Summer 2027) 🆕 | Seattle, San Francisco | Summer 2027 | 100% (2 skills) | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8241260) |
 | CACI | Software Engineering Co-op - Summer & Fall 2027 🆕 | Danbury, CT | Fall 2027 | 100% | 2026-08-31 | 2026-09-30 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354) |
 | MFS | Junior Software Engineer Co-op 🆕 | Boston, MA | Spring 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://mfs.wd1.myworkdayjobs.com/en-US/MFS-Careers/job/Boston/Spring-2027-Jr-Software-Engineer-Co-op--January---June-_MFS-231979) |
 | MFS | Investment Data Engineer Co-op 🆕 | Boston, MA | Winter 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://mfs.wd1.myworkdayjobs.com/en-US/MFS-Careers/job/Boston/Spring-2027-Investment-Data-Engineer-Co-op--January---June-_MFS-231978) |
@@ -299,5 +300,4 @@ Updated **2026-09-30 19:12 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Rockwell Automation | AI Software Engineering Co-op - 6 months - 8 months | Mayfield Heights, OH; Milwaukee, WI | Winter 2027 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982) |
 | Rockwell Automation | AI Software Engineering Co-op - 6 months - 8 months | Mayfield Heights, OH; Milwaukee, WI | Winter 2027 | 100% | 2026-09-25 | 2026-09-26 | [**Apply ➜**](https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982-1) |
 | Amazon | Software Development Engineer Intern - Summer 2027 - USA - Amazon Dedicated Cloud - ADC | Seattle, WA | Summer 2027 | 100% | 2026-09-25 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/jobs/10559746/apply) |
-| Amazon | Software Development Engineer Intern - Amazon Leo - Summer 2027 - USA | Redmond, WA | Summer 2027 | 100% | 2026-09-18 | 2026-09-25 | [**Apply ➜**](https://www.amazon.jobs/jobs/10559762/apply) |
 <!-- JOB-BOARD:END -->
