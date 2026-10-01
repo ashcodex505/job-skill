@@ -274,9 +274,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1641-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-34-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--01-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1662-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-15-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--01-informational)
 
-Updated **2026-10-01 11:43 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-01 13:05 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -290,8 +290,8 @@ Updated **2026-10-01 11:43 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Tesla | Commercial UI Software Engineer Intern 🆕 | Palo Alto, CA | Winter 2027 | 100% | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/285202) |
 | Tesla | Data Engineer Intern - Data Engineer - Applications Engineering 🆕 | Fremont, CA | Spring 2027 | 100% | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/285179) |
 | Tesla | Data Engineer Intern - Data Engineering & Business Intelligence 🆕 | Fremont, CA | Spring 2027 | 100% | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/285291) |
-| Dow Chemical Company | Data Engineer / Data Platform Engineer Intern 🆕 | Champaign, IL | Spring 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Kankakee-IL-USA/Data-Engineer---Data-Platform-Engineer-Internship-Spring-2027-Semester-at-the-Dow-Delivery-Center-at-UIUC--Champaign--IL-_R2068792) |
-| Peraton | Software Engineering Co-op 🆕 | San Diego, CA | Spring 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://careers-peraton.icims.com/jobs/171547/job?mobile=true&needsRedirect=false) |
+| Dow Chemical Company | Data Engineer / Data Platform Engineer Intern | Champaign, IL | Spring 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Kankakee-IL-USA/Data-Engineer---Data-Platform-Engineer-Internship-Spring-2027-Semester-at-the-Dow-Delivery-Center-at-UIUC--Champaign--IL-_R2068792) |
+| Peraton | Software Engineering Co-op | San Diego, CA | Spring 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://careers-peraton.icims.com/jobs/171547/job?mobile=true&needsRedirect=false) |
 | Stripe | High School Internship, Software Engineering (Summer 2027) | Seattle, San Francisco | Summer 2027 | 100% (2 skills) | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8241260) |
 | CACI | Software Engineering Co-op - Summer & Fall 2027 | Danbury, CT | Fall 2027 | 100% | 2026-08-31 | 2026-09-30 | [**Apply ➜**](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354) |
 | MFS | Junior Software Engineer Co-op | Boston, MA | Spring 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://mfs.wd1.myworkdayjobs.com/en-US/MFS-Careers/job/Boston/Spring-2027-Jr-Software-Engineer-Co-op--January---June-_MFS-231979) |
