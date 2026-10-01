@@ -274,12 +274,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1658-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-42-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--01-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1660-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-44-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--01-informational)
 
-Updated **2026-10-01 18:52 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-01 19:47 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Applied Intuition | Cybersecurity Software Engineer - New Grad (2027) 🆕 | Sunnyvale | 2027 New Grad | 100% (2 skills) | 2026-09-02 | 2026-10-01 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e) |
+| Applied Intuition | Software Engineer - New Grad (2027) 🆕 | Sunnyvale; Ann Arbor | 2027 New Grad | 100% (2 skills) | 2026-08-14 | 2026-10-01 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a837cbd6-9fe4-4d74-a2dc-84f602c40694) |
 | Pinterest | Software Engineering Intern 2027 (Toronto) 🆕 | Toronto, ON, CA | 2027 | 100% (7 skills) | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=8138039) |
 | Pinterest | Software Engineer Intern 2027 (USA) 🆕 | San Francisco, CA, US; Remote, US | 2027 | 100% (7 skills) | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=7838577) |
 | Microsoft | Software Engineer Intern - CoreAI 🆕 | Redmond, WA | Summer 2027 | 100% | 2026-08-03 | 2026-10-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556951950) |
@@ -298,6 +300,4 @@ Updated **2026-10-01 18:52 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | MFS | Spring 2027 Jr Software Engineer Co-op - January - June | Boston, MA | Spring 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://mfs.wd1.myworkdayjobs.com/en-US/mfs-careers/job/Boston/Spring-2027-Jr-Software-Engineer-Co-op--January---June-_MFS-231979) |
 | MFS | Investment Data Engineer Co-op | Boston, MA | Winter 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://mfs.wd1.myworkdayjobs.com/en-US/MFS-Careers/job/Boston/Spring-2027-Investment-Data-Engineer-Co-op--January---June-_MFS-231978) |
 | Tesla | Software Developer Intern - Integration Tools | Palo Alto, CA | Winter 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284924) |
-| RTX | Software Engineer Co-op - Winter/Spring 2027 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-09-16 | 2026-09-29 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Winter-Spring-2027-_01875464) |
-| Tesla | Software Engineer Intern - Data Transformations | Palo Alto, CA | Winter 2027 | 100% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://www.tesla.com/careers/search/job/284925) |
 <!-- JOB-BOARD:END -->
