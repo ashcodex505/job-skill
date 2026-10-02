@@ -274,18 +274,19 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1679-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-57-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--02-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1682-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-28-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--02-informational)
 
-Updated **2026-10-02 06:05 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-02 09:41 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Mindex | Software Engineer Co-op 🆕 | Rochester, NY | Winter 2027 | 100% | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://apply.workable.com/mindex/j/84B10DB922/apply) |
 | Microsoft | Software Engineer Security & Identity Intern 🆕 | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-10-02 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922930) |
 | Amazon | Software Engineer Intern 🆕 | Seattle, WA; Jessup, MD; Arlington County, Arlington, VA; Denver, CO | Summer 2027 | 100% | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://amazon.jobs/en/jobs/10559746/software-development-engineer-intern-summer-2027-usa-amazon-dedicated-cloud-adc) |
-| Applied Intuition | Cybersecurity Software Engineer - New Grad (2027) 🆕 | Sunnyvale | 2027 New Grad | 100% (2 skills) | 2026-09-02 | 2026-10-01 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e) |
-| Applied Intuition | Software Engineer - New Grad (2027) 🆕 | Sunnyvale; Ann Arbor | 2027 New Grad | 100% (2 skills) | 2026-08-14 | 2026-10-01 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a837cbd6-9fe4-4d74-a2dc-84f602c40694) |
-| Pinterest | Software Engineer Intern 2027 (USA) 🆕 | San Francisco, CA, US; Remote, US | 2027 | 100% (7 skills) | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=7838577) |
-| Pinterest | Software Engineering Intern 2027 (Toronto) 🆕 | Toronto, ON, CA | 2027 | 100% (7 skills) | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=8138039) |
+| Applied Intuition | Cybersecurity Software Engineer - New Grad (2027) | Sunnyvale | 2027 New Grad | 100% (2 skills) | 2026-09-02 | 2026-10-01 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e) |
+| Applied Intuition | Software Engineer - New Grad (2027) | Sunnyvale; Ann Arbor | 2027 New Grad | 100% (2 skills) | 2026-08-14 | 2026-10-01 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a837cbd6-9fe4-4d74-a2dc-84f602c40694) |
+| Pinterest | Software Engineer Intern 2027 (USA) | San Francisco, CA, US; Remote, US | 2027 | 100% (7 skills) | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=7838577) |
+| Pinterest | Software Engineering Intern 2027 (Toronto) | Toronto, ON, CA | 2027 | 100% (7 skills) | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=8138039) |
 | Microsoft | Software Engineer Intern - CoreAI | Redmond, WA | Summer 2027 | 100% | 2026-08-03 | 2026-10-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556951950) |
 | Microsoft | Software Engineer: AI/ML & LLM Intern | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-10-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922929) |
 | Microsoft | Software Engineer Intern - Data Platform & Analytics | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-10-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922931) |
@@ -299,5 +300,4 @@ Updated **2026-10-02 06:05 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Dow Chemical Company | Data Engineer / Data Platform Engineer Intern | Champaign, IL | Spring 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Kankakee-IL-USA/Data-Engineer---Data-Platform-Engineer-Internship-Spring-2027-Semester-at-the-Dow-Delivery-Center-at-UIUC--Champaign--IL-_R2068792) |
 | Peraton | Software Engineering Co-op | San Diego, CA | Spring 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://careers-peraton.icims.com/jobs/171547/job?mobile=true&needsRedirect=false) |
 | Stripe | High School Internship, Software Engineering (Summer 2027) | Seattle, San Francisco | Summer 2027 | 100% (2 skills) | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://stripe.com/jobs/search?gh_jid=8241260) |
-| MFS | Spring 2027 Jr Software Engineer Co-op - January - June | Boston, MA | Spring 2027 | 100% | 2026-09-30 | 2026-09-30 | [**Apply ➜**](https://mfs.wd1.myworkdayjobs.com/en-US/mfs-careers/job/Boston/Spring-2027-Jr-Software-Engineer-Co-op--January---June-_MFS-231979) |
 <!-- JOB-BOARD:END -->
