@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**1678 open roles** across **677 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-10-01 23:09 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1676 open roles** across **676 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-10-02 00:07 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (60)
@@ -69,7 +69,7 @@ Last updated: **2026-10-01 23:09 UTC** · auto-refreshed every 12h by [job-board
 | Microsoft | Software Engineer Intern - Cloud & Distributed Backend 🆕 | Redmond, WA | Fall 2026 | 100% | 2026-08-04 | 2026-10-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556922923) |
 | Microsoft | Software Engineer Intern - CoreAI 🆕 | Redmond, WA | Summer 2027 | 100% | 2026-08-03 | 2026-10-01 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556951950) |
 
-## 🛠️ Internships (1154)
+## 🛠️ Internships (1153)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -474,8 +474,8 @@ Last updated: **2026-10-01 23:09 UTC** · auto-refreshed every 12h by [job-board
 | Keysight Technologies | Research and Development Software Engineer Intern | Santa Rosa, CA | Winter 2026 | 90% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://jobs.keysight.com/jobs/54414?icims=1) |
 | L3Harris Technologies | Software Engineer Intern | Rochester, NY | Winter 2026 | 90% | 2026-09-29 | 2026-09-29 | [**Apply ➜**](https://jobs.l3harris.com/job/Rochester-Software-Engineer-Intern-NY-14609/1434927900/?ats=successfactors) |
 
-_…and 754 more (raise the cap in src/scraper/board.ts)._
-## 🎓 New Grad (524)
+_…and 753 more (raise the cap in src/scraper/board.ts)._
+## 🎓 New Grad (523)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -573,9 +573,9 @@ _…and 754 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | AIG | Early Careers Analyst - Data Office: Data Engineering 🆕 | Charlotte, NC; Jersey City, NJ; NYC; Atlanta, GA | — | 80% | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://aig.wd1.myworkdayjobs.com/aig/job/200-South-College-Street-Charlotte-NC-USA/XMLNAME-2027-Early-Careers--Analyst--Data-Office--Data-Engineering---United-States--Multiple-Locations_JR2604249-1) |
 | Clay | Early Career Software Engineer 🆕 | NYC | — | 80% | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://jobs.ashbyhq.com/claylabs/16778e12-31cb-4ca1-a321-7f629a7cf273/application?embed=true) |
 | Reliance | AI Software Engineer 1 🆕 | Chicago, IL | — | 80% | 2026-08-11 | 2026-10-01 | [**Apply ➜**](https://careers.reliance.com/jobs/3330?icims=1) |
@@ -880,13 +880,15 @@ _…and 754 more (raise the cap in src/scraper/board.ts)._
 | Retell AI | Software Engineer - New Grad | Redwood City, CA | — | 80% | 2026-08-03 | 2026-08-05 | [**Apply ➜**](https://jobs.ashbyhq.com/retell-ai/ea775189-0496-43d8-a386-df8148265463) |
 | TikTok | Machine Learning Engineer New Grad - Performance Monetization | San Jose, CA | — | 80% | 2026-08-04 | 2026-08-04 | [**Apply ➜**](https://lifeattiktok.com/search/7669691374918011141) |
 
-_…and 124 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (305)
+_…and 123 more (raise the cap in src/scraper/board.ts)._
+## 🚪 Recently closed (last 7 days) (307)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| RTX | Software Engineer/Developer 1 | — | 2026-10-02 |
+| Interstates | Software Developer Intern | Winter 2026 | 2026-10-02 |
 | Interstates | Software Developer Intern | Winter 2026 | 2026-10-01 |
 | Microchip | Intern-Engineering - Software | — | 2026-10-01 |
 | Northrop Grumman | 2027 Software Engineer Intern - Linthicum Maryland | 2027 | 2026-10-01 |
