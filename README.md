@@ -274,12 +274,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1692-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-13-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--03-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1690-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-14-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--04-informational)
 
-Updated **2026-10-03 21:43 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-04 00:34 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Meridian Partners | Cloud Software Engineer Co-op 🆕 | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-10-04 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003) |
 | Affirm | Software Engineer (Machine Learning) Intern (Summer 2027) | San Francisco, California, United States | Summer 2027 | 100% (5 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/8008645003) |
 | Affirm | Software Engineer Intern (Summer 2027) | San Francisco, California, United States | Summer 2027 | 100% (5 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/8011590003) |
 | Tesla | Distributed Systems Software Engineer Intern - Energy Engineering | Palo Alto, CA | Winter 2027 | 100% | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/285508) |
@@ -299,5 +300,4 @@ Updated **2026-10-03 21:43 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Tesla | Backend Engineer Intern - Infrastructure Engineering | Fremont, CA | Winter 2027 | 100% | 2026-08-28 | 2026-10-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281467) |
 | Rivian | Software Engineer Intern Co-op - Applied AI | Palo Alto, CA | Spring 2027 | 100% | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://careers.rivian.com/jobs/33984?icims=1) |
 | Tesla | Commercial UI Software Engineer Intern | Palo Alto, CA | Winter 2027 | 100% | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/285202) |
-| Tesla | Data Engineer Intern - Data Engineer - Applications Engineering | Fremont, CA | Spring 2027 | 100% | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/285179) |
 <!-- JOB-BOARD:END -->
