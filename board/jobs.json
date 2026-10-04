@@ -1,6 +1,256 @@
 {
- "updatedAt": "2026-10-04T13:11:13.646Z",
+ "updatedAt": "2026-10-04T14:48:49.160Z",
  "jobs": [
+  {
+   "dedupeKey": "reverse-discovery:7107610002",
+   "source": "reverse-discovery",
+   "company": "careem",
+   "title": "Software Engineer I - Backend | NextGen Engineering",
+   "location": "Karachi, Pakistan; Lahore, Pakistan",
+   "url": "https://boards.greenhouse.io/careem/jobs/7107610002?gh_jid=7107610002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 88,
+   "matchedSkills": [
+    "Java",
+    "SQL",
+    "AWS",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2024-01-24T01:43:42-05:00",
+   "firstSeenAt": "2026-10-04T14:48:49.160Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:8050976",
+   "source": "reverse-discovery",
+   "company": "cargurus",
+   "title": "Application Security Engineer I",
+   "location": "Boston, Massachusetts, United States",
+   "url": "https://careers.cargurus.com/us/en/job/8050976?gh_jid=8050976",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-24T14:05:05-04:00",
+   "firstSeenAt": "2026-10-04T14:48:49.160Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:1af7ec98-9c2e-4101-868e-58e6f35cd23a",
+   "source": "reverse-discovery",
+   "company": "juicebox",
+   "title": "Software Engineer Intern",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/juicebox/1af7ec98-9c2e-4101-868e-58e6f35cd23a",
+   "season": null,
+   "roleType": "internship",
+   "score": 86,
+   "matchedSkills": [
+    "React",
+    "Next.js",
+    "Node.js",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 6
+   },
+   "postedAt": "2026-09-04T20:28:37.144+00:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:5e0b677a-f677-44de-93c6-f7848ab5a8e6",
+   "source": "reverse-discovery",
+   "company": "julius",
+   "title": "Software Engineer - Product (New Grad)",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/julius/5e0b677a-f677-44de-93c6-f7848ab5a8e6",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Python",
+    "React",
+    "Next.js"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-05-21T00:32:30.409+00:00",
+   "firstSeenAt": "2026-10-04T14:48:49.160Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:197c931d-3cda-44b3-b26b-470976730808",
+   "source": "reverse-discovery",
+   "company": "koahlabs",
+   "title": "Software Engineer, Early Career",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/koahlabs/197c931d-3cda-44b3-b26b-470976730808",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 88,
+   "matchedSkills": [
+    "Python",
+    "TypeScript",
+    "React",
+    "PostgreSQL",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-08-18",
+   "firstSeenAt": "2026-08-18T23:32:01.570Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5",
+   "source": "reverse-discovery",
+   "company": "kognitos",
+   "title": "Software Engineer Intern (AI-Native) — Fall 2026",
+   "location": "San Jose - HQ",
+   "url": "https://jobs.ashbyhq.com/kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "JavaScript",
+    "React",
+    "Git",
+    "AWS",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 11
+   },
+   "postedAt": "2026-08-26T20:24:56.771+00:00",
+   "firstSeenAt": "2026-08-29T02:08:10.248Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:a4bc3ebf-b619-4c1b-9c9e-784d16c8b148",
+   "source": "reverse-discovery",
+   "company": "kognitos",
+   "title": "Forward Deployed Engineer Intern (Mountain View)",
+   "location": "Mountain View",
+   "url": "https://jobs.ashbyhq.com/kognitos/a4bc3ebf-b619-4c1b-9c9e-784d16c8b148",
+   "season": null,
+   "roleType": "internship",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-07-28T18:59:00.455+00:00",
+   "firstSeenAt": "2026-10-04T14:48:49.160Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:dfbba971-a7e2-4feb-a0d9-8e38a1155134",
+   "source": "reverse-discovery",
+   "company": "langchain",
+   "title": "Deployed Engineer (Early Career-NYC)",
+   "location": "New York, NY",
+   "url": "https://jobs.ashbyhq.com/langchain/dfbba971-a7e2-4feb-a0d9-8e38a1155134",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Python",
+    "JavaScript",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-17T20:04:00.132+00:00",
+   "firstSeenAt": "2026-10-04T14:48:49.160Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:0f35c8e1-9318-411d-929b-04c60e6d8522",
+   "source": "reverse-discovery",
+   "company": "langchain",
+   "title": "Deployed Engineer (Early Career- SF)",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/langchain/0f35c8e1-9318-411d-929b-04c60e6d8522",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 85,
+   "matchedSkills": [
+    "Python",
+    "JavaScript",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 5
+   },
+   "postedAt": "2026-08-17T20:03:16.244+00:00",
+   "firstSeenAt": "2026-10-04T14:48:49.160Z"
+  },
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
    "source": "ashby",
@@ -8066,29 +8316,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "speedyapply:sha1:5539bf6c12afffde0028191fb080b88a7ee19930",
-   "source": "speedyapply",
-   "company": "Juicebox",
-   "title": "Software Engineer Intern",
-   "location": "San Francisco, CA",
-   "url": "https://jobs.ashbyhq.com/juicebox/1af7ec98-9c2e-4101-868e-58e6f35cd23a",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-05",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "speedyapply:sha1:48ac2d7dd74a556971f789fac14dda13da448998",
    "source": "speedyapply",
    "company": "Zipline",
@@ -9778,29 +10005,6 @@
    },
    "postedAt": "2026-08-26",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:fb47d5a48bc18e1cac92e422f26b05df3facb899",
-   "source": "speedyapply",
-   "company": "Kognitos",
-   "title": "Software Engineer Intern - AI-Native — Fall 2026",
-   "location": "San Jose, CA",
-   "url": "https://jobs.ashbyhq.com/kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-27",
-   "firstSeenAt": "2026-08-29T02:08:10.248Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:aae9cde8e3db176d6b723c62c58e74ef0a70c26f",
@@ -15246,29 +15450,6 @@
    },
    "postedAt": "2026-08-19",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:cfebf85ca668d3751f7500dd14461ce9b9f307f9",
-   "source": "speedyapply",
-   "company": "Koah Labs",
-   "title": "Software Engineer - Early Career",
-   "location": "San Francisco, CA",
-   "url": "https://jobs.ashbyhq.com/koahlabs/197c931d-3cda-44b3-b26b-470976730808",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-18",
-   "firstSeenAt": "2026-08-18T23:32:01.570Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:e9dc4e7139513b2085000c0fe621fea6d5bdc09b",
