@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T11:12:09.822Z",
+ "updatedAt": "2026-10-04T13:11:13.646Z",
  "jobs": [
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
@@ -2694,6 +2694,121 @@
    "firstSeenAt": "2026-10-03T17:15:22.059Z"
   },
   {
+   "dedupeKey": "speedyapply:sha1:ff8982376fd5dacc10735f4c6be1076dc6d1945f",
+   "source": "speedyapply",
+   "company": "Innovative Defense Technologies",
+   "title": "Software Engineer Intern",
+   "location": "Mount Laurel, NJ",
+   "url": "https://idtus.pinpointhq.com/en/postings/20817d1b-bd0e-4aa8-a3d5-78e4614b52a3",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-10-03",
+   "firstSeenAt": "2026-10-03T17:15:22.059Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:8f06507c1c186b00670efb70ed0eda22101723df",
+   "source": "speedyapply",
+   "company": "Innovative Defense Technologies",
+   "title": "Software Engineer Intern - JobID-0308",
+   "location": "Arlington, VA",
+   "url": "https://idtus.pinpointhq.com/en/postings/eac7d1ca-2dbd-4c60-8f65-979f0a9e3f33",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-10-02T18:41:09.395Z",
+   "firstSeenAt": "2026-10-02T18:41:09.395Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:1ad9e6ee20f884adc47469fc135baf06a2c0068b",
+   "source": "speedyapply",
+   "company": "Innovative Defense Technologies",
+   "title": "Software Engineer Intern",
+   "location": "San Diego, CA",
+   "url": "https://idtus.pinpointhq.com/en/postings/0900a5f2-65d5-4cfa-8b14-b2a58d156d53",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-10-03",
+   "firstSeenAt": "2026-10-03T17:15:22.059Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:74dfb3bf8820ca6959e5871d5499fe8e1bc050ac",
+   "source": "speedyapply",
+   "company": "Innovative Defense Technologies",
+   "title": "Software Systems Engineer Intern - JobID-0299",
+   "location": "Arlington, VA",
+   "url": "https://idtus.pinpointhq.com/en/postings/77292978-8fb0-4bdd-8c2e-b8e37eacdf46",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-10-02T18:41:09.395Z",
+   "firstSeenAt": "2026-10-02T18:41:09.395Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:f9e46597594cedc580b77499df69d280b1f3cdc0",
+   "source": "speedyapply",
+   "company": "Innovative Defense Technologies",
+   "title": "Software Systems Engineer Intern - JobID-0304",
+   "location": "Arlington, VA",
+   "url": "https://idtus.pinpointhq.com/en/postings/4f5ae5de-0eca-4427-8c17-85e949540be5",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-10-02T18:41:09.395Z",
+   "firstSeenAt": "2026-10-02T18:41:09.395Z"
+  },
+  {
    "dedupeKey": "speedyapply:sha1:9eba0f6c6eff8c311c849a9406dfeba4bfd05cb3",
    "source": "speedyapply",
    "company": "Profluent",
@@ -4204,6 +4319,29 @@
    },
    "postedAt": "2026-09-24",
    "firstSeenAt": "2026-09-25T18:04:16.777Z"
+  },
+  {
+   "dedupeKey": "speedyapply:sha1:46b0ed081d1afc84640e4b8a07fc4715dcff663a",
+   "source": "speedyapply",
+   "company": "Franklin Electric",
+   "title": "Fall 2027 Electrical/Software Engineering Co-op",
+   "location": "Fort Wayne, IN",
+   "url": "https://franklin-electric.pinpointhq.com/en/postings/bb88589b-840e-4ed4-b3b8-cb545b71d9b1",
+   "season": "Fall 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-24T17:57:45.699Z",
+   "firstSeenAt": "2026-09-24T17:57:45.699Z"
   },
   {
    "dedupeKey": "speedyapply:sha1:443e6b499208fdde9c5ed54bb7a975625a8a0804",
@@ -18202,6 +18340,29 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "vansh:12011286-0eca-4688-8c69-aa283024575d",
+   "source": "vansh",
+   "company": "Shopify",
+   "title": "Software Engineering Intern",
+   "location": "Remote",
+   "url": "https://www.shopify.com/careers/software-engineering-internships-winter-2027_404bb82e-37f3-4a78-b0f3-12923a7c4856?ashby_jid=404bb82e-37f3-4a78-b0f3-12923a7c4856",
+   "season": null,
+   "roleType": "internship",
+   "score": 85,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-06T13:52:29.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "vansh:d6b0d4fb-dd47-478e-ad9b-2887f64a1645",
    "source": "vansh",
    "company": "Teledyne Technologies Incorporated",
@@ -19053,6 +19214,29 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "vansh:9ed4ac46-4e59-4e9f-a06a-63a2fea39a34",
+   "source": "vansh",
+   "company": "Datadog",
+   "title": "Software Engineering Intern",
+   "location": "Boston, MA; New York, NY",
+   "url": "https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-17T15:35:41.651Z",
+   "firstSeenAt": "2026-08-17T15:35:41.651Z"
+  },
+  {
    "dedupeKey": "vansh:ab806a40-3173-438c-b929-7cb4e21780ed",
    "source": "vansh",
    "company": "Figma",
@@ -19122,6 +19306,29 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
+   "source": "vansh",
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "season": "2027 New Grad",
+   "roleType": "new_grad",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-30T21:58:55.000Z",
+   "firstSeenAt": "2026-08-02T20:17:01.441Z"
+  },
+  {
    "dedupeKey": "vansh:13a093ec-d85c-4c55-8ec4-856fd3cae380",
    "source": "vansh",
    "company": "Amerisure",
@@ -19142,6 +19349,29 @@
     "skills": 0
    },
    "postedAt": "2026-07-30T00:00:00.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "vansh:8e5e3f80-e111-43ad-94e7-502828c21003",
+   "source": "vansh",
+   "company": "Cisco",
+   "title": "Software Engineer 1",
+   "location": "San Jose, CA",
+   "url": "https://careers.cisco.com/global/en/job/1449197",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-31T20:16:43.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -19946,35 +20176,6 @@
    },
    "postedAt": "2026-03-20T19:07:35.933Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
-   "source": "ashby",
-   "company": "Notion",
-   "title": "Software Engineer, Early Career (AI)",
-   "location": "San Francisco, California",
-   "url": "https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 88,
-   "matchedSkills": [
-    "TypeScript",
-    "React",
-    "Node.js",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 8
-   },
-   "postedAt": "2026-07-06T18:37:42.434+00:00",
-   "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
    "dedupeKey": "ashby:297b4ece-765f-4eea-b1b8-46057cb6501f",
@@ -22046,6 +22247,29 @@
    "firstSeenAt": "2026-08-14T22:34:43.994Z"
   },
   {
+   "dedupeKey": "simplifyjobs:24b848e7-18bc-4eab-b684-9d352141cbdd",
+   "source": "simplifyjobs",
+   "company": "Wolverine Trading",
+   "title": "Entry Level C++ Software Engineer",
+   "location": "Chicago, IL",
+   "url": "https://wolve.pinpointhq.com/en/postings/e03d9864-a128-40ff-91b5-dfc9fd1b59d6?ats=pinpointhq",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-15T00:41:47.000Z",
+   "firstSeenAt": "2026-08-15T01:46:01.264Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:4ac72dac-062c-4ad9-94fb-8bd0961f1d95",
    "source": "simplifyjobs",
    "company": "Notion",
@@ -22066,6 +22290,29 @@
     "skills": 0
    },
    "postedAt": "2026-08-15T00:41:51.000Z",
+   "firstSeenAt": "2026-08-15T01:46:01.264Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:13e63ccc-9879-4a3a-a29a-f10688ec7ba6",
+   "source": "simplifyjobs",
+   "company": "Wolverine Trading",
+   "title": "Entry Level C++ Software Engineer",
+   "location": "Chicago, IL",
+   "url": "https://wolve.pinpointhq.com/en/postings/1f33c89b-2592-498d-b45a-1b2092cf944e?ats=pinpointhq",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-15T00:41:48.000Z",
    "firstSeenAt": "2026-08-15T01:46:01.264Z"
   },
   {
@@ -22533,6 +22780,29 @@
    "firstSeenAt": "2026-08-25T21:39:54.989Z"
   },
   {
+   "dedupeKey": "simplifyjobs:a3fa760c-c8ec-4d27-8090-1ff8948cd4d0",
+   "source": "simplifyjobs",
+   "company": "Johns Hopkins Applied Physics Laboratory",
+   "title": "Software Engineering/ML/Data Scientist New Grad - Intelligence Systems",
+   "location": "Laurel, MD",
+   "url": "https://careers.jhuapl.edu/jobs/59654?icims=1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-25T21:11:37.000Z",
+   "firstSeenAt": "2026-08-25T21:39:54.989Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:ebce0ffb-1748-4999-b952-a7dbc9f36aae",
    "source": "simplifyjobs",
    "company": "Viavi Solutions",
@@ -22876,6 +23146,52 @@
    },
    "postedAt": "2026-09-01T09:40:08.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:44c6ed71-01ca-4794-a690-e71ae479b79b",
+   "source": "simplifyjobs",
+   "company": "Johns Hopkins Applied Physics Laboratory",
+   "title": "Software Developer New Grad - Engagement Optimization",
+   "location": "Laurel, MD",
+   "url": "https://careers.jhuapl.edu/jobs/59510?icims=1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-01T18:48:07.000Z",
+   "firstSeenAt": "2026-09-01T20:00:36.952Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:06f545de-c635-4abb-8793-0950f995bc27",
+   "source": "simplifyjobs",
+   "company": "Johns Hopkins Applied Physics Laboratory",
+   "title": "Artificial Intelligence Engineer New Grad - Intelligent Autonomous Systems",
+   "location": "Laurel, MD",
+   "url": "https://careers.jhuapl.edu/jobs/59848?icims=1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-01T18:48:08.000Z",
+   "firstSeenAt": "2026-09-01T20:00:36.952Z"
   },
   {
    "dedupeKey": "simplifyjobs:0acf515c-4b43-46d7-955e-8fe59617605f",
@@ -23394,6 +23710,29 @@
    "firstSeenAt": "2026-09-14T23:06:27.482Z"
   },
   {
+   "dedupeKey": "simplifyjobs:c192d7cd-8e41-43d0-9f80-86b20fa05310",
+   "source": "simplifyjobs",
+   "company": "Johns Hopkins Applied Physics Laboratory",
+   "title": "Systems & Software Engineer New Grad - Multi-Domain Mission Planning Development",
+   "location": "Laurel, MD",
+   "url": "https://careers.jhuapl.edu/jobs/59974?icims=1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:07:29.000Z",
+   "firstSeenAt": "2026-09-04T23:13:47.011Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:271f04b2-4017-4e86-b67f-387e7a47b5fe",
    "source": "simplifyjobs",
    "company": "ID.me",
@@ -23904,6 +24243,29 @@
    "firstSeenAt": "2026-09-14T19:18:21.574Z"
   },
   {
+   "dedupeKey": "simplifyjobs:63be50b3-ad2c-4e52-889f-a54037b0da8c",
+   "source": "simplifyjobs",
+   "company": "Johns Hopkins Applied Physics Laboratory",
+   "title": "Developer Cyber-Physical Systems New Grad",
+   "location": "Laurel, MD",
+   "url": "https://careers.jhuapl.edu/jobs/60022?icims=1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-14T17:39:37.000Z",
+   "firstSeenAt": "2026-09-14T19:18:21.574Z"
+  },
+  {
    "dedupeKey": "reverse-discovery:8804558002",
    "source": "reverse-discovery",
    "company": "C3.ai",
@@ -24339,6 +24701,29 @@
    },
    "postedAt": "2026-07-30T22:19:59.000Z",
    "firstSeenAt": "2026-09-18T21:39:00.212Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:83d0a294-51a6-4b84-867f-e039c06781af",
+   "source": "simplifyjobs",
+   "company": "Wolverine Trading",
+   "title": "Entry Level C++ Software Engineer",
+   "location": "Chicago, IL",
+   "url": "https://wolve.pinpointhq.com/en/postings/2b2e514b-4709-4897-960d-77909fe33ab8?ats=pinpointhq",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-09-18T22:22:19.000Z",
+   "firstSeenAt": "2026-09-19T01:30:23.635Z"
   },
   {
    "dedupeKey": "simplifyjobs:87535675-cdd3-44ea-b36f-622b1a2be47b",
@@ -25127,29 +25512,6 @@
    "firstSeenAt": "2026-10-01T00:49:03.493Z"
   },
   {
-   "dedupeKey": "simplifyjobs:986968af-4a3a-4038-96dc-9caaa8a58066",
-   "source": "simplifyjobs",
-   "company": "Texas Sports Academy",
-   "title": "Junior AI Software Engineer",
-   "location": "Austin, TX",
-   "url": "https://apply.workable.com/texas-sports-academy-main/j/A9A9F4A25A/apply",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-10-01T01:17:05.000Z",
-   "firstSeenAt": "2026-10-01T05:44:20.577Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:79d832e4-94d6-41aa-b211-a7d13f45f875",
    "source": "simplifyjobs",
    "company": "RTX",
@@ -25493,6 +25855,98 @@
    },
    "postedAt": "2026-08-01T10:25:06.000Z",
    "firstSeenAt": "2026-10-04T10:04:39.102Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:75256d11-66da-429f-bdb3-8c3f1ca59318",
+   "source": "simplifyjobs",
+   "company": "Living Spaces",
+   "title": "Front End Web Developer 1",
+   "location": "La Mirada, CA",
+   "url": "https://livingspaces.wd5.myworkdayjobs.com/ls/job/La-Mirada-CA---Corporate/Front-End-Web-Developer-1_R45250",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 70,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 0,
+    "skills": 0
+   },
+   "postedAt": "2026-08-03T00:00:00.000Z",
+   "firstSeenAt": "2026-10-04T13:11:13.646Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:32c4defb-7dea-4ea6-af09-279f66cabd5e",
+   "source": "simplifyjobs",
+   "company": "Amentum",
+   "title": "C or C++ Junior Developer",
+   "location": "Dahlgren, VA",
+   "url": "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-VA-Dahlgren/C-or-C---Junior-Developer_R0165501",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-07-14T00:00:00.000Z",
+   "firstSeenAt": "2026-10-04T13:11:13.646Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:db894db3-f0ec-4d30-9a74-12bff5188ae7",
+   "source": "simplifyjobs",
+   "company": "Capgemini",
+   "title": "Junior Frontend Developer",
+   "location": "Atlanta, GA",
+   "url": "https://careers.capgemini.com/job/Atlanta,-GA-Junior-Frontend-Developer-GA-30301/1435951433/?ats=successfactors",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-10T22:14:51.000Z",
+   "firstSeenAt": "2026-10-04T13:11:13.646Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:4edf1be0-a1a4-4828-a955-e65c4946143d",
+   "source": "simplifyjobs",
+   "company": "Blue Origin",
+   "title": "Aerospace Software Applications Engineer 1 Intern - Aerospace Software Apps",
+   "location": "Seattle, WA; LA; Space Coast, FL; Longmont, CO; Arlington County, Arlington, VA; Reston, VA; Denver, CO; Huntsville, AL; Van Horn, TX",
+   "url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-11",
+   "firstSeenAt": "2026-08-12T13:38:04.550Z"
   },
   {
    "dedupeKey": "simplifyjobs:626bb7ad-7fc6-4fd0-99cd-31a7fb23cef3",
@@ -27314,6 +27768,52 @@
    "firstSeenAt": "2026-09-12T01:04:46.155Z"
   },
   {
+   "dedupeKey": "simplifyjobs:154ae79b-60c6-40a6-9be2-a48637bb96ff",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern - E-Commerce Governance",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7674029136531015941",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-17T13:21:52.000Z",
+   "firstSeenAt": "2026-08-17T14:39:18.135Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e95cee0e-a2ed-44d1-9017-9befd82e1561",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Data Engineer Intern - Data Platform Global Live",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7674032146438162693",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-17T13:21:49.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:fd3c39d2-33c3-49a1-9e2c-6c0f99a93001",
    "source": "simplifyjobs",
    "company": "NXP Semiconductors",
@@ -27475,6 +27975,29 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "simplifyjobs:ffbf2ca8-9b8e-4aa7-8227-9a11f77abc90",
+   "source": "simplifyjobs",
+   "company": "Foundation Finance",
+   "title": "Full Stack Developer Intern",
+   "location": "Rothschild, WI",
+   "url": "https://careers.foundationfinance.com/jobs/2097?icims=1",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18T22:06:44.000Z",
+   "firstSeenAt": "2026-08-18T22:36:10.725Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:ea8c5ebd-a6c4-49ff-9dac-f3532c41737a",
    "source": "simplifyjobs",
    "company": "NVIDIA",
@@ -27496,6 +28019,29 @@
    },
    "postedAt": "2026-08-19T00:00:00.000Z",
    "firstSeenAt": "2026-08-19T10:40:06.482Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:af0078da-4418-4e04-afb5-17ec87e8381a",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning MLOps Intern - Global Site Reliability Engineering",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7670875283026053381",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-19T20:47:03.000Z",
+   "firstSeenAt": "2026-10-04T13:11:13.646Z"
   },
   {
    "dedupeKey": "simplifyjobs:01f94977-fc40-414b-bd6d-f44693eacceb",
@@ -27521,6 +28067,29 @@
    "firstSeenAt": "2026-08-19T23:32:47.625Z"
   },
   {
+   "dedupeKey": "simplifyjobs:e1f3338c-95a0-4b9f-b987-07fa38a8a4a6",
+   "source": "simplifyjobs",
+   "company": "Ampersand",
+   "title": "Data Engineering Co-op - Open to Northeastern students only",
+   "location": "Boston, MA",
+   "url": "https://ats.rippling.com/ampersand-biomedicines/jobs/be3f5479-379e-4d48-9bd1-82a69b2dcfd3",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-20T00:47:32.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:1c385c6d-d388-465d-9ccb-4051032c9a09",
    "source": "simplifyjobs",
    "company": "Sysco",
@@ -27542,6 +28111,29 @@
    },
    "postedAt": "2026-08-20T00:00:00.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a908b011-3049-4c5c-831e-b0a4e17ddebf",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7675847556668295429",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-20T09:17:19.000Z",
+   "firstSeenAt": "2026-08-20T09:46:19.524Z"
   },
   {
    "dedupeKey": "simplifyjobs:7e502eb4-3d9c-4f91-8e83-a471504d8a4b",
@@ -27703,6 +28295,52 @@
    },
    "postedAt": "2026-08-21T06:22:18.000Z",
    "firstSeenAt": "2026-08-21T07:02:58.654Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:892947b6-4cac-464b-941a-7244615e4d0a",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Data Engineer Intern - E-commerce",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7676250516494436661",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-21T09:50:06.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:cd7682b8-7722-4a26-9813-42ece290a387",
+   "source": "simplifyjobs",
+   "company": "Google",
+   "title": "Software Engineer Intern",
+   "location": "Palo Alto, CA; Cambridge, MA; Madison, WI; Seattle, WA; Washington, DC; SF; Austin, TX; LA; San Jose, CA; Irvine, CA; South SF; Redwood City, CA; Raleigh, NC; San Bruno, CA; Redmond, WA; Durham, NC; Santa Cruz, CA; Chicago, IL; Goleta, CA; Pittsburgh, PA; Kirkland, WA; Reston, VA; NYC; Bellevue, WA; Sunnyvale, CA; Mountain View, CA; Portland, OR; Boulder, CO; Atlanta, GA; San Diego, CA",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/91436104816698054",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-24T14:36:05.000Z",
+   "firstSeenAt": "2026-09-16T19:46:02.461Z"
   },
   {
    "dedupeKey": "simplifyjobs:7f70a436-4619-458c-818b-33252bb0a7c9",
@@ -27981,6 +28619,52 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "simplifyjobs:c5f6ea15-e5f6-4de7-a91b-def695d75241",
+   "source": "simplifyjobs",
+   "company": "North Atlantic Industries",
+   "title": "Software Engineer Intern",
+   "location": "Bohemia, NY",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4450421",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-26T00:25:36.000Z",
+   "firstSeenAt": "2026-08-26T01:55:36.803Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:76570b32-69dc-4557-ad0d-dfd2480f1605",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "AI Infrastructure Engineer Intern - Recommendation & LLM",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7672671220798818613",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-26T00:34:11.000Z",
+   "firstSeenAt": "2026-08-26T01:55:36.803Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:4be8c595-47e2-4dbd-b5fa-40c7dd524910",
    "source": "simplifyjobs",
    "company": "Auto-Owners Insurance",
@@ -28232,6 +28916,29 @@
    },
    "postedAt": "2026-08-27T00:00:00.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:083cfc54-1c27-4fc6-ab89-6606e06aca1f",
+   "source": "simplifyjobs",
+   "company": "Leidos",
+   "title": "Software Developer Co-op",
+   "location": "Bethesda, MD",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Software-Developer-Co-op_R-00190766",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-27T00:00:00.000Z",
+   "firstSeenAt": "2026-09-17T23:33:29.849Z"
   },
   {
    "dedupeKey": "simplifyjobs:ae6480dc-19f7-41c1-93ec-fd10763825b1",
@@ -28510,6 +29217,29 @@
    "firstSeenAt": "2026-08-29T02:08:10.248Z"
   },
   {
+   "dedupeKey": "simplifyjobs:1795d6df-fcca-45dc-836d-41a82dc36894",
+   "source": "simplifyjobs",
+   "company": "Intuit",
+   "title": "Software Engineer Intern - Full Stack",
+   "location": "Charlotte, NC; NYC; Mountain View, CA; Atlanta, GA; San Diego, CA",
+   "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-29T00:39:09.000Z",
+   "firstSeenAt": "2026-09-14T22:43:04.813Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:3e77a1a2-8628-4836-9e07-b43a12a8468e",
    "source": "simplifyjobs",
    "company": "Equifax",
@@ -28694,6 +29424,52 @@
    "firstSeenAt": "2026-08-31T06:00:26.343Z"
   },
   {
+   "dedupeKey": "simplifyjobs:4b81bd00-4b97-4ec4-954b-892368c48de0",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern - E-Commerce Knowledge Graph",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7676652813409552645",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-31T05:07:21.000Z",
+   "firstSeenAt": "2026-08-31T06:00:26.343Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:30c6e50a-a52b-4624-ad9a-bff649958700",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern - E-Commerce Knowledge Graph",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7676650607912601861",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-31T05:07:21.000Z",
+   "firstSeenAt": "2026-08-31T06:00:26.343Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:e102b2db-3bfc-42d6-b363-84cbbe6172e5",
    "source": "simplifyjobs",
    "company": "DraftKings",
@@ -28809,6 +29585,52 @@
    "firstSeenAt": "2026-09-01T00:04:15.903Z"
   },
   {
+   "dedupeKey": "workday:R171519",
+   "source": "workday",
+   "company": "Adobe",
+   "title": "2027 Intern - Machine Learning Engineer",
+   "location": "7 Locations",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-31",
+   "firstSeenAt": "2026-09-16T19:46:02.461Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a7830137-29dd-4741-9150-826eb53d47a4",
+   "source": "simplifyjobs",
+   "company": "Emerson Electric",
+   "title": "Software Engineer Intern",
+   "location": "Houston, TX",
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009500",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-01T04:51:26.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:265926b4-8849-43af-b708-8d987f3dd528",
    "source": "simplifyjobs",
    "company": "Emerson Electric",
@@ -28829,6 +29651,29 @@
     "skills": 0
    },
    "postedAt": "2026-09-01T04:51:21.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:2ea6ef00-ed8b-496c-a8ad-437191623ee4",
+   "source": "simplifyjobs",
+   "company": "Emerson Electric",
+   "title": "Software Engineer Intern",
+   "location": "Shakopee, MN; Eden Prairie, MN; Chanhassen, MN",
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009673",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-01T04:51:27.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -29384,6 +30229,29 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "simplifyjobs:8450be07-8d66-4593-a2ad-cb5362c1af2d",
+   "source": "simplifyjobs",
+   "company": "Clearwater Analytics",
+   "title": "Quant Developer Intern",
+   "location": "NYC",
+   "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Quant-Developer-Intern_R12182",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-01T00:00:00.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:a3985ea3-6b46-4283-ad5c-a7701cb38169",
    "source": "simplifyjobs",
    "company": "Armadin",
@@ -29497,6 +30365,29 @@
    },
    "postedAt": "2026-09-01T00:00:00.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "workday:JR0286836",
+   "source": "workday",
+   "company": "Intel",
+   "title": "Software Engineering - Intern, Graduate",
+   "location": "5 Locations",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Graduate_JR0286836",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-02T00:00:00.000Z",
+   "firstSeenAt": "2026-09-03T09:58:19.603Z"
   },
   {
    "dedupeKey": "workday:JR0286834",
@@ -29637,6 +30528,29 @@
    "firstSeenAt": "2026-09-03T09:58:19.603Z"
   },
   {
+   "dedupeKey": "simplifyjobs:b207c0f1-7cb3-4dc3-a5dd-7917c737106b",
+   "source": "simplifyjobs",
+   "company": "V2X",
+   "title": "Software Engineer Intern",
+   "location": "Indianapolis, IN",
+   "url": "https://careers.gov2x.com/jobs/62682?icims=1",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-03T02:23:37.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:de8cb307-6829-4afa-8e31-0fefe60818e7",
    "source": "simplifyjobs",
    "company": "Tesla",
@@ -29658,6 +30572,52 @@
    },
    "postedAt": "2026-09-03T02:23:19.000Z",
    "firstSeenAt": "2026-09-03T09:58:19.603Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:d9696ea6-f208-467f-a8df-f2c2afb5b120",
+   "source": "simplifyjobs",
+   "company": "Hadrian",
+   "title": "Robotics Software Engineer Intern",
+   "location": "LA; Torrance, CA",
+   "url": "https://jobs.ashbyhq.com/hadrian-automation/02e33109-08c5-4db7-8881-67294c172584/application?embed=true",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-03T03:52:56.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "reverse-discovery:f718bcfe-3f5b-4682-a294-697499caf813",
+   "source": "reverse-discovery",
+   "company": "Hadrian",
+   "title": "Data Science/Data Engineer Intern",
+   "location": "LA; Torrance, CA",
+   "url": "https://jobs.ashbyhq.com/hadrian-automation/f718bcfe-3f5b-4682-a294-697499caf813/application?embed=true",
+   "season": "Fall 2026",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-02T21:47:29.454+00:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
    "dedupeKey": "simplifyjobs:5a8acc0c-6c7d-4c3d-ac18-fa531daf4a7f",
@@ -29750,29 +30710,6 @@
    },
    "postedAt": "2026-08-20T22:07:05.000Z",
    "firstSeenAt": "2026-09-03T11:08:24.139Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:4edf1be0-a1a4-4828-a955-e65c4946143d",
-   "source": "simplifyjobs",
-   "company": "Blue Origin",
-   "title": "Aerospace Software Applications Engineer 1 Intern",
-   "location": "Seattle, WA; LA; Florida; Longmont, CO; Arlington County, Arlington, VA; Reston, VA; Denver, CO; Huntsville, AL; Van Horn, TX",
-   "url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-11",
-   "firstSeenAt": "2026-08-12T13:38:04.550Z"
   },
   {
    "dedupeKey": "simplifyjobs:2aabd5c0-f81b-4d9c-9139-941364641e32",
@@ -30260,6 +31197,29 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "simplifyjobs:e0a1bb59-1fb6-4c2b-bd8e-8bd8ec2bc007",
+   "source": "simplifyjobs",
+   "company": "Garmin",
+   "title": "Software Engineer Intern - Automotive OEM",
+   "location": "Novi, MI",
+   "url": "https://careers.garmin.com/jobs/19999?icims=1",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:03:00.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:7c45d4ef-21c8-4acd-b82a-f56987b07548",
    "source": "simplifyjobs",
    "company": "Kodiak Robotics",
@@ -30280,6 +31240,52 @@
     "skills": 0
    },
    "postedAt": "2026-09-04T22:44:26.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:232ef965-ae5a-429d-99d3-cba2eca04afe",
+   "source": "simplifyjobs",
+   "company": "Fervo Energy",
+   "title": "Software Engineer Intern - Strategy",
+   "location": "Houston, TX",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4482043",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-04T22:43:24.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:d95c9645-60a9-4399-9ff8-4cf36da717b8",
+   "source": "simplifyjobs",
+   "company": "Fervo Energy",
+   "title": "AI Applications Engineering Intern",
+   "location": "Houston, TX",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4465652",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-31T23:02:40.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -30467,6 +31473,29 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "simplifyjobs:57c6e96e-e10b-4f87-bf6b-6448a90ed532",
+   "source": "simplifyjobs",
+   "company": "Gilead Sciences",
+   "title": "AI Engineer Intern - IT",
+   "location": "Raleigh, NC",
+   "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---North-Carolina---Raleigh/Intern---CFO---IT--AI-Engineer-_R0054744",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-08T00:00:00.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:2a92c757-3cf3-472c-ae04-1df20bde3598",
    "source": "simplifyjobs",
    "company": "Zions Bank",
@@ -30510,6 +31539,52 @@
     "skills": 0
    },
    "postedAt": "2026-09-08T14:05:21.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a86d976f-a45c-46f8-8e48-98b4b743b137",
+   "source": "simplifyjobs",
+   "company": "Fervo Energy",
+   "title": "Data Science & AI Engineering Intern",
+   "location": "Houston, TX",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4482829",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-08T16:09:50.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:5956d989-9997-4320-aaf9-1af66a816991",
+   "source": "simplifyjobs",
+   "company": "Fervo Energy",
+   "title": "Software Engineering Intern - IT",
+   "location": "Houston, TX",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4482857",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-05T01:44:24.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -30789,6 +31864,29 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "simplifyjobs:05f45fc6-6df7-4dee-8c20-77c07bce25ef",
+   "source": "simplifyjobs",
+   "company": "Graco",
+   "title": "Artificial Intelligence Engineer Intern",
+   "location": "Dayton, MN",
+   "url": "https://graco.wd501.myworkdayjobs.com/Graco_Careers/job/Dayton-Minnesota-USA-French-Lake/AI-Intern_R0023511-1",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-09T00:00:00.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:ac3275e6-e472-46bb-87d5-72c63714a25a",
    "source": "simplifyjobs",
    "company": "Graco",
@@ -31019,6 +32117,29 @@
    "firstSeenAt": "2026-09-10T00:09:09.314Z"
   },
   {
+   "dedupeKey": "simplifyjobs:eabf370c-678d-4de3-925f-22d7298aeb68",
+   "source": "simplifyjobs",
+   "company": "Domino Data Lab",
+   "title": "Forward Deployed Engineer Intern - Campus Recruiting 2027",
+   "location": "NYC",
+   "url": "https://app.careerpuck.com/job-board/domino-data-lab/job/7992534?gh_jid=7992534",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-09T22:13:16.000Z",
+   "firstSeenAt": "2026-09-10T11:11:52.969Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:bd0197ea-ca8d-4e77-beba-34e6e94538f1",
    "source": "simplifyjobs",
    "company": "L3Harris Technologies",
@@ -31108,6 +32229,29 @@
     "skills": 0
    },
    "postedAt": "2026-09-10T14:16:43.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f4acfdee-2d38-45db-a129-6a8e9671e853",
+   "source": "simplifyjobs",
+   "company": "L3Harris Technologies",
+   "title": "Software Engineering Intern",
+   "location": "Rochester, NY",
+   "url": "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610/1428444000/?ats=successfactors",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-10T14:16:16.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -31203,12 +32347,58 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "simplifyjobs:d87810fe-423a-4c90-94aa-56b6f291d9ea",
+   "source": "simplifyjobs",
+   "company": "L3Harris Technologies",
+   "title": "Software Engineer Intern",
+   "location": "Rochester, NY",
+   "url": "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14623/1428446200/?ats=successfactors",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-10T14:16:45.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:f4d6d386-99a1-4498-b1c0-beb1c2d1019d",
    "source": "simplifyjobs",
    "company": "L3Harris Technologies",
    "title": "Software Engineer Intern",
    "location": "Salt Lake City, UT",
    "url": "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428459800/?ats=successfactors",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-10T14:16:42.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f14ef6e4-d6a5-471c-af7e-f435c1fb1576",
+   "source": "simplifyjobs",
+   "company": "L3Harris Technologies",
+   "title": "Software Engineer Intern",
+   "location": "Rochester, NY",
+   "url": "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610/1428444200/?ats=successfactors",
    "season": "Winter 2026",
    "roleType": "internship",
    "score": 90,
@@ -31269,6 +32459,29 @@
     "skills": 0
    },
    "postedAt": "2026-09-10T14:16:40.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:17987e80-d467-41cd-bc02-48021abeb72c",
+   "source": "simplifyjobs",
+   "company": "L3Harris Technologies",
+   "title": "Software Engineer Intern",
+   "location": "Rochester, NY",
+   "url": "https://jobs.l3harris.com/job/Rochester-Software-Engineer-Intern-NY-14610/1428440000/?ats=successfactors",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-10T14:16:42.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -31732,6 +32945,52 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "simplifyjobs:85246fff-7e47-4644-a0e6-36d4ef176665",
+   "source": "simplifyjobs",
+   "company": "TD Bank",
+   "title": "Data Engineer Co-op - Global Technology & Solutions",
+   "location": "Mt Laurel Township, NJ",
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Data-Engineer_R_1510111",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-11T00:00:00.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:194a2192-6413-4ed0-9957-dfe5dc3f3f0c",
+   "source": "simplifyjobs",
+   "company": "TD Bank",
+   "title": "Software Engineer Co-op - Global Technology & Solutions",
+   "location": "Mt Laurel Township, NJ",
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Software-Engineer--SWE-_R_1509773",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-11T00:00:00.000Z",
+   "firstSeenAt": "2026-09-11T09:52:28.440Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:a6be63fe-0ed7-4ad2-a4f7-774bd97b77b8",
    "source": "simplifyjobs",
    "company": "Tesla",
@@ -31824,6 +33083,29 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "simplifyjobs:9ff89600-1ebc-46c4-a1af-887c05a633b9",
+   "source": "simplifyjobs",
+   "company": "Oshkosh",
+   "title": "Data Engineer Intern",
+   "location": "Oshkosh, WI",
+   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/Data-Engineer-Intern_R49868",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-11T00:00:00.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:92fe6d6b-6590-49b9-aa41-bb0f877535d9",
    "source": "simplifyjobs",
    "company": "Tesla",
@@ -31890,6 +33172,29 @@
     "skills": 0
    },
    "postedAt": "2026-09-11T00:00:00.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:7c26ef09-c2c9-47e6-b9a9-1e62b056f9dd",
+   "source": "simplifyjobs",
+   "company": "MegazoneCloud",
+   "title": "Data Engineer Co-op",
+   "location": "Rochester, NY",
+   "url": "https://jobs.ashbyhq.com/megazone/fde09888-986f-4207-88fe-3ff5b921a1fa/application?embed=true",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-11T23:53:17.000Z",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -31962,6 +33267,29 @@
    "firstSeenAt": "2026-09-14T19:18:21.574Z"
   },
   {
+   "dedupeKey": "simplifyjobs:9d613826-b169-4950-9be3-779d329aab98",
+   "source": "simplifyjobs",
+   "company": "Tive",
+   "title": "Software Engineer Co-op",
+   "location": "Boston, MA",
+   "url": "https://ats.rippling.com/tive-careers/jobs/c88ab3d3-a8e7-4639-b95b-d6c9b5290dd0",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-14T19:47:42.000Z",
+   "firstSeenAt": "2026-09-14T21:00:27.050Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:7f4d2358-707d-4cbf-83b4-694072fbba3e",
    "source": "simplifyjobs",
    "company": "Charta Health",
@@ -32031,6 +33359,52 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "simplifyjobs:a57d347e-4ce0-4590-bf80-9368dd106660",
+   "source": "simplifyjobs",
+   "company": "Intuit",
+   "title": "Software Engineer Intern - Cybersecurity",
+   "location": "Mountain View, CA",
+   "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-cybersecurity/27595/100620927616",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-14T21:08:06.000Z",
+   "firstSeenAt": "2026-09-14T22:43:04.813Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:99be0eea-8a7f-4470-894d-d0dcc34dc9c7",
+   "source": "simplifyjobs",
+   "company": "Intuit",
+   "title": "Mobile Software Engineer Intern - iOS",
+   "location": "Charlotte, NC; NYC; Mountain View, CA; Atlanta, GA; San Diego, CA",
+   "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mobile-software-engineering-intern-ios/27595/100620927568",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-14T21:08:08.000Z",
+   "firstSeenAt": "2026-09-14T22:43:04.813Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:3bb38aa8-f245-410c-8c91-5120b5b561a4",
    "source": "simplifyjobs",
    "company": "Tesla",
@@ -32074,6 +33448,75 @@
     "skills": 0
    },
    "postedAt": "2026-09-14T21:08:13.000Z",
+   "firstSeenAt": "2026-09-14T22:43:04.813Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:25c606c0-e37b-4e36-a6d9-5e9df8b3a2e7",
+   "source": "simplifyjobs",
+   "company": "Intuit",
+   "title": "Mobile Software Engineer Intern - Android",
+   "location": "Charlotte, NC; NYC; Mountain View, CA; Atlanta, GA; San Diego, CA",
+   "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mobile-software-engineering-intern-android/27595/100620927552",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-14T21:08:07.000Z",
+   "firstSeenAt": "2026-09-14T22:43:04.813Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:49b9153d-dd0a-4a39-8d08-d25c517c2417",
+   "source": "simplifyjobs",
+   "company": "Garmin",
+   "title": "Software Engineer Intern",
+   "location": "Yarmouth, ME",
+   "url": "https://careers.garmin.com/jobs/20165?icims=1",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-14T22:07:42.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8198218",
+   "source": "greenhouse",
+   "company": "Waymo",
+   "title": "2027 Summer Intern, BS/MS, Software Engineering, Commercialization",
+   "location": "Mountain View, California, United States; San Francisco, California, United States",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8198218",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-14T17:19:15-04:00",
    "firstSeenAt": "2026-09-14T22:43:04.813Z"
   },
   {
@@ -32217,6 +33660,29 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "simplifyjobs:781b4a1a-f2af-40b2-866b-03dcefc5245b",
+   "source": "simplifyjobs",
+   "company": "Trane Technologies",
+   "title": "Software Development Engineer Intern",
+   "location": "St Paul, MN",
+   "url": "https://careers.tranetechnologies.com/global/en/job/JR-15648",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-15T22:19:08.000Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:85a4e51c-6925-4a4d-9d6f-0f495333ce0c",
    "source": "simplifyjobs",
    "company": "FHLBank Chicago",
@@ -32307,6 +33773,52 @@
    },
    "postedAt": "2026-09-15T22:08:32.000Z",
    "firstSeenAt": "2026-09-16T06:35:24.321Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:f7d09a94-8bd0-4131-bc32-287f419b5e98",
+   "source": "simplifyjobs",
+   "company": "EQT Corporation",
+   "title": "Data Engineering Intern - Completions Services",
+   "location": "Canonsburg, PA",
+   "url": "https://job-boards.greenhouse.io/eqtcorporation/jobs/5422414008",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-16T22:31:55.000Z",
+   "firstSeenAt": "2026-09-16T23:49:28.046Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:3401f1fc-ebd7-4153-b9b5-359896f63953",
+   "source": "simplifyjobs",
+   "company": "Waymo",
+   "title": "Software Engineer Intern - MS/PhD",
+   "location": "Mountain View, CA",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8202801",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": true,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-16T17:43:47.057Z",
+   "firstSeenAt": "2026-09-16T17:43:47.057Z"
   },
   {
    "dedupeKey": "simplifyjobs:177c115c-79ac-48d5-b5a2-1ba78de7e323",
@@ -32470,6 +33982,29 @@
    "firstSeenAt": "2026-09-16T23:49:28.046Z"
   },
   {
+   "dedupeKey": "simplifyjobs:e30c1cc5-e220-4fd3-acc3-db8af1dcd0f5",
+   "source": "simplifyjobs",
+   "company": "Waymo",
+   "title": "Quantitative Software Engineer Intern",
+   "location": "SF; Mountain View, CA",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8197554",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-16T22:37:43.000Z",
+   "firstSeenAt": "2026-09-16T23:49:28.046Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:0c0ace06-0c5c-415d-8ea4-7c6fedad6324",
    "source": "simplifyjobs",
    "company": "Amperesand",
@@ -32493,6 +34028,29 @@
    "firstSeenAt": "2026-09-17T10:10:06.653Z"
   },
   {
+   "dedupeKey": "simplifyjobs:0f046a92-f831-47c1-8f88-5cc31f1722a8",
+   "source": "simplifyjobs",
+   "company": "Axcelis Technologies",
+   "title": "Manufacturing Software Development Co-op",
+   "location": "Beverly, MA",
+   "url": "https://axcelis.wd1.myworkdayjobs.com/axcelis/job/Beverly-MA/Co-Op---Manufacturing-Software-Development-_12019",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-17T00:00:00.000Z",
+   "firstSeenAt": "2026-09-17T15:16:53.835Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:1a99b100-e38e-443b-a9cc-1be8ada5aa7f",
    "source": "simplifyjobs",
    "company": "Keysight Technologies",
@@ -32513,6 +34071,29 @@
     "skills": 0
    },
    "postedAt": "2026-09-17T22:11:13.000Z",
+   "firstSeenAt": "2026-09-17T23:33:29.849Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:3560b9fe-52fc-4370-8c2a-da157231f4bf",
+   "source": "simplifyjobs",
+   "company": "Keysight Technologies",
+   "title": "Software Engineer Intern",
+   "location": "Santa Rosa, CA",
+   "url": "https://jobs.keysight.com/jobs/54329?icims=1",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-17T22:11:14.000Z",
    "firstSeenAt": "2026-09-17T23:33:29.849Z"
   },
   {
@@ -32562,6 +34143,29 @@
    "firstSeenAt": "2026-09-17T23:33:29.849Z"
   },
   {
+   "dedupeKey": "simplifyjobs:51cf3d3e-0806-455c-933f-ca151601a136",
+   "source": "simplifyjobs",
+   "company": "Garmin",
+   "title": "Data Engineering Intern",
+   "location": "Olathe, KS",
+   "url": "https://careers.garmin.com/jobs/20188?icims=1",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-17T22:08:54.000Z",
+   "firstSeenAt": "2026-09-17T23:33:29.849Z"
+  },
+  {
    "dedupeKey": "simplifyjobs:845cc78b-0767-4762-a34f-dc3d468a24da",
    "source": "simplifyjobs",
    "company": "W.R. Berkley",
@@ -32582,6 +34186,29 @@
     "skills": 0
    },
    "postedAt": "2026-09-17T22:05:21.000Z",
+   "firstSeenAt": "2026-09-17T23:33:29.849Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e93487a3-6a04-4449-a6f6-eb2616b57c63",
+   "source": "simplifyjobs",
+   "company": "Lennox International",
+   "title": "Full-Stack Software Engineering Intern",
+   "location": "Richardson, TX",
+   "url": "https://uscareers-lennox.icims.com/jobs/54888/job?mobile=true&needsRedirect=false",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-17T22:23:29.000Z",
    "firstSeenAt": "2026-09-17T23:33:29.849Z"
   },
   {
@@ -32652,6 +34279,29 @@
    },
    "postedAt": "2026-09-17T22:16:19.000Z",
    "firstSeenAt": "2026-09-17T23:33:29.849Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:7c51e306-a24c-4fac-b188-b36e0bc3f128",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern - E-Commerce Recommendation Mall",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7686283601340369205",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-18T01:13:34.000Z",
+   "firstSeenAt": "2026-09-18T04:36:32.561Z"
   },
   {
    "dedupeKey": "simplifyjobs:cf8d2b20-f6d6-4d82-a5e9-7a1e97484d23",
@@ -33354,29 +35004,6 @@
    "firstSeenAt": "2026-09-22T18:50:40.393Z"
   },
   {
-   "dedupeKey": "rippling:sha1:4f22e3e9e51a9990c131a11d1b0d0572dce983e2",
-   "source": "rippling",
-   "company": "Rippling",
-   "title": "Software Engineer Intern - Backend Focused - Summer 2027",
-   "location": "Seattle, WA",
-   "url": "https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-22T18:50:40.393Z",
-   "firstSeenAt": "2026-09-22T18:50:40.393Z"
-  },
-  {
    "dedupeKey": "rippling:sha1:ea9caf87ff1cb899a9a58b9fafd1d97bb41dfc58",
    "source": "rippling",
    "company": "Rippling",
@@ -33444,29 +35071,6 @@
    },
    "postedAt": "2026-09-22T22:13:00.000Z",
    "firstSeenAt": "2026-09-22T23:41:26.313Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b26371db-d53d-469b-b8e0-1f50db3f6004",
-   "source": "simplifyjobs",
-   "company": "KLA Corporation",
-   "title": "Software Engineering Intern - C++ - Unix",
-   "location": "Milpitas, CA",
-   "url": "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-22T00:00:00.000Z",
-   "firstSeenAt": "2026-09-23T06:33:40.840Z"
   },
   {
    "dedupeKey": "simplifyjobs:2e670f26-fa85-4586-a044-ad138d073cf3",
@@ -33773,29 +35377,6 @@
    },
    "postedAt": "2026-09-24T00:00:00.000Z",
    "firstSeenAt": "2026-09-25T00:45:15.438Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e61c4916-6a49-4922-a691-73e2250dd9c9",
-   "source": "simplifyjobs",
-   "company": "Leidos",
-   "title": "Software Development Intern",
-   "location": "Gaithersburg, MD",
-   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Gaithersburg-MD/Software-Development-Intern_R-00193103",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-25T00:00:00.000Z",
-   "firstSeenAt": "2026-09-25T18:04:16.777Z"
   },
   {
    "dedupeKey": "simplifyjobs:bc95ef3d-75d4-459b-bd69-5d99d0e7f95c",
@@ -34304,29 +35885,6 @@
    "firstSeenAt": "2026-09-30T16:05:02.405Z"
   },
   {
-   "dedupeKey": "simplifyjobs:b6e13db3-be91-4612-8719-470246e65112",
-   "source": "simplifyjobs",
-   "company": "MFS",
-   "title": "Investment Data Engineer Co-op",
-   "location": "Boston, MA",
-   "url": "https://mfs.wd1.myworkdayjobs.com/en-US/MFS-Careers/job/Boston/Spring-2027-Investment-Data-Engineer-Co-op--January---June-_MFS-231978",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-30T00:00:00.000Z",
-   "firstSeenAt": "2026-09-30T16:05:02.405Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:a7373af1-154a-4460-accf-0f684091471b",
    "source": "simplifyjobs",
    "company": "KLA",
@@ -34348,75 +35906,6 @@
    },
    "postedAt": "2026-09-30T00:00:00.000Z",
    "firstSeenAt": "2026-09-30T16:05:02.405Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e0190f47-ebc1-4e15-884d-ef5b3ddda1b3",
-   "source": "simplifyjobs",
-   "company": "KLA Corporation",
-   "title": "Software Engineer Intern",
-   "location": "Milpitas, CA",
-   "url": "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineering-Intern_2641572-1",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-30T00:00:00.000Z",
-   "firstSeenAt": "2026-09-30T16:05:02.405Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a81d9b15-5ceb-436d-bbb3-c8bb2fe509ea",
-   "source": "simplifyjobs",
-   "company": "KLA",
-   "title": "Software Engineer Intern",
-   "location": "Milpitas, CA",
-   "url": "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineering-Intern_2641581-1",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-30T00:00:00.000Z",
-   "firstSeenAt": "2026-09-30T23:44:13.476Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:82b7074b-3840-4347-a125-e4d8ed0f7c3a",
-   "source": "simplifyjobs",
-   "company": "Dow Chemical Company",
-   "title": "Data Engineer / Data Platform Engineer Intern",
-   "location": "Champaign, IL",
-   "url": "https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Kankakee-IL-USA/Data-Engineer---Data-Platform-Engineer-Internship-Spring-2027-Semester-at-the-Dow-Delivery-Center-at-UIUC--Champaign--IL-_R2068792",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-30T00:00:00.000Z",
-   "firstSeenAt": "2026-09-30T23:44:13.476Z"
   },
   {
    "dedupeKey": "simplifyjobs:f3437876-fa5c-490c-a81a-74af68437738",
@@ -34741,29 +36230,6 @@
    "firstSeenAt": "2026-10-01T23:09:03.623Z"
   },
   {
-   "dedupeKey": "simplifyjobs:59d6aad4-9652-4f35-9a72-29c3ef4f9d16",
-   "source": "simplifyjobs",
-   "company": "Intel",
-   "title": "Software Engineering Intern",
-   "location": "Hillsboro, OR",
-   "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering-PhD-Intern-New-2027_JR0287458-1",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-10-01T00:00:00.000Z",
-   "firstSeenAt": "2026-10-01T23:09:03.623Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:87936000-a3cf-45e2-86db-6a819789493b",
    "source": "simplifyjobs",
    "company": "Certara",
@@ -34923,6 +36389,29 @@
    },
    "postedAt": "2026-10-02T09:15:01.000Z",
    "firstSeenAt": "2026-10-02T09:41:19.124Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:5d055757-0085-458a-88e4-08dc3ab1edbb",
+   "source": "simplifyjobs",
+   "company": "FC Industries",
+   "title": "Business Intelligence Analyst/Data Engineering Intern",
+   "location": "Dayton, OH",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4361305",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-07T00:24:40.000Z",
+   "firstSeenAt": "2026-10-02T11:13:05.432Z"
   },
   {
    "dedupeKey": "simplifyjobs:5fddc6ec-c292-4275-bd64-25ad0e051ce9",
@@ -35086,6 +36575,29 @@
    "firstSeenAt": "2026-10-04T06:49:04.250Z"
   },
   {
+   "dedupeKey": "simplifyjobs:d6145bb9-e227-4e58-93d0-88787216d111",
+   "source": "simplifyjobs",
+   "company": "L3Harris Technologies",
+   "title": "Associate Multimedia Web Developer/Programmer Intern - Technical Training",
+   "location": "Rochester, NY",
+   "url": "https://jobs.l3harris.com/job/Rochester-Associate,-Multimedia-Web-DeveloperProgrammer-(Technical-Training)-NY-14609/1425480300/?ats=successfactors",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-01T19:01:43.000Z",
+   "firstSeenAt": "2026-10-04T13:11:13.646Z"
+  },
+  {
    "dedupeKey": "rippling:sha1:49747cb087fb5d658d4b448634d3a19fe5142e73",
    "source": "rippling",
    "company": "Rippling",
@@ -35130,6 +36642,52 @@
    },
    "postedAt": "2026-06-05T22:09:20.000Z",
    "firstSeenAt": "2026-08-06T07:37:02.524Z"
+  },
+  {
+   "dedupeKey": "rippling:sha1:4f22e3e9e51a9990c131a11d1b0d0572dce983e2",
+   "source": "rippling",
+   "company": "Rippling",
+   "title": "Software Engineer Intern - Backend Focused - Summer 2027",
+   "location": "Seattle, WA",
+   "url": "https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-22T18:50:40.393Z",
+   "firstSeenAt": "2026-09-22T18:50:40.393Z"
+  },
+  {
+   "dedupeKey": "smartrecruiters:744000153279380",
+   "source": "smartrecruiters",
+   "company": "ServiceNow",
+   "title": "Software Engineer, Core Infrastructure - Moveworks (New Grad)",
+   "location": "Mountain View, California, us",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000153279380",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-10-02T22:41:42.731Z",
+   "firstSeenAt": "2026-10-02T23:13:12.339Z"
   },
   {
    "dedupeKey": "greenhouse:7640764002",
@@ -35392,29 +36950,6 @@
    "firstSeenAt": "2026-08-27T20:22:07.623Z"
   },
   {
-   "dedupeKey": "smartrecruiters:744000153279380",
-   "source": "smartrecruiters",
-   "company": "ServiceNow",
-   "title": "Software Engineer, Core Infrastructure - Moveworks (New Grad)",
-   "location": "Mountain View, California, us",
-   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000153279380",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-10-02T22:41:42.731Z",
-   "firstSeenAt": "2026-10-02T23:13:12.339Z"
-  },
-  {
    "dedupeKey": "greenhouse:8210695",
    "source": "greenhouse",
    "company": "Samsara",
@@ -35441,6 +36976,66 @@
    },
    "postedAt": "2026-09-18T11:11:32-04:00",
    "firstSeenAt": "2026-09-18T17:12:04.521Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8138039",
+   "source": "greenhouse",
+   "company": "Pinterest",
+   "title": "Software Engineering Intern 2027 (Toronto)",
+   "location": "Toronto, ON, CA",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8138039",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 11
+   },
+   "postedAt": "2026-10-01T13:03:18-04:00",
+   "firstSeenAt": "2026-10-01T18:52:16.961Z"
+  },
+  {
+   "dedupeKey": "ashby:85947779-6b87-466a-98bc-30a640448c28",
+   "source": "ashby",
+   "company": "Notion",
+   "title": "Software Engineer, Early Career (AI)",
+   "location": "San Francisco, California",
+   "url": "https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 88,
+   "matchedSkills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-07-06T18:37:42.434+00:00",
+   "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
    "dedupeKey": "workday:3168142",
@@ -35510,37 +37105,6 @@
    },
    "postedAt": "2026-08-21",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8138039",
-   "source": "greenhouse",
-   "company": "Pinterest",
-   "title": "Software Engineering Intern 2027 (Toronto)",
-   "location": "Toronto, ON, CA",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8138039",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "TypeScript",
-    "JavaScript",
-    "React",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 11
-   },
-   "postedAt": "2026-10-01T13:03:18-04:00",
-   "firstSeenAt": "2026-10-01T18:52:16.961Z"
   },
   {
    "dedupeKey": "oraclecloud:334333",
@@ -35615,29 +37179,6 @@
    },
    "postedAt": "2026-07-01T12:19:30.009+00:00",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "workday:R171519",
-   "source": "workday",
-   "company": "Adobe",
-   "title": "2027 Intern - Machine Learning Engineer",
-   "location": "7 Locations",
-   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-31",
-   "firstSeenAt": "2026-09-16T19:46:02.461Z"
   },
   {
    "dedupeKey": "greenhouse:8052083",
@@ -35973,31 +37514,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "greenhouse:8802897002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Security Software (Starshield)",
-   "location": "Washington, DC",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-09-11T19:36:47-04:00",
-   "firstSeenAt": "2026-09-12T01:04:46.155Z"
-  },
-  {
    "dedupeKey": "greenhouse:8802882002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -36020,6 +37536,31 @@
     "skills": 2
    },
    "postedAt": "2026-09-11T19:36:45-04:00",
+   "firstSeenAt": "2026-09-12T01:04:46.155Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8802897002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Security Software (Starshield)",
+   "location": "Washington, DC",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-09-11T19:36:47-04:00",
    "firstSeenAt": "2026-09-12T01:04:46.155Z"
   },
   {
@@ -36071,31 +37612,6 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696158002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Palo Alto, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:38-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8696156002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -36118,6 +37634,31 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:21:32-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696158002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Palo Alto, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:38-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -36173,6 +37714,58 @@
    "firstSeenAt": "2026-09-14T13:56:47.708Z"
   },
   {
+   "dedupeKey": "greenhouse:7807508003",
+   "source": "greenhouse",
+   "company": "Affirm",
+   "title": "Software Engineer I, Backend (Collections)",
+   "location": "Remote Poland",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/7807508003",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 88,
+   "matchedSkills": [
+    "Python",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-07-22T08:51:35-04:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "greenhouse:7807506003",
+   "source": "greenhouse",
+   "company": "Affirm",
+   "title": "Software Engineer I, Backend (Collections)",
+   "location": "Remote Spain",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/7807506003",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 88,
+   "matchedSkills": [
+    "Python",
+    "AWS"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 5,
+    "keywords": 10,
+    "skills": 3
+   },
+   "postedAt": "2026-07-22T08:51:32-04:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "workday:JR0285211",
    "source": "workday",
    "company": "Intel",
@@ -36194,29 +37787,6 @@
    },
    "postedAt": null,
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "workday:JR0286836",
-   "source": "workday",
-   "company": "Intel",
-   "title": "Software Engineering - Intern, Graduate",
-   "location": "5 Locations",
-   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Graduate_JR0286836",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-02T00:00:00.000Z",
-   "firstSeenAt": "2026-09-03T09:58:19.603Z"
   },
   {
    "dedupeKey": "workday:JR0287583",
@@ -36263,81 +37833,6 @@
    },
    "postedAt": "2026-09-07",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7807506003",
-   "source": "greenhouse",
-   "company": "Affirm",
-   "title": "Software Engineer I, Backend (Collections)",
-   "location": "Remote Spain",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/7807506003",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 88,
-   "matchedSkills": [
-    "Python",
-    "AWS"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 5,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-07-22T08:51:32-04:00",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "greenhouse:7807508003",
-   "source": "greenhouse",
-   "company": "Affirm",
-   "title": "Software Engineer I, Backend (Collections)",
-   "location": "Remote Poland",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/7807508003",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 88,
-   "matchedSkills": [
-    "Python",
-    "AWS"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 5,
-    "keywords": 10,
-    "skills": 3
-   },
-   "postedAt": "2026-07-22T08:51:35-04:00",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8198218",
-   "source": "greenhouse",
-   "company": "Waymo",
-   "title": "2027 Summer Intern, BS/MS, Software Engineering, Commercialization",
-   "location": "Mountain View, California, United States; San Francisco, California, United States",
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8198218",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": true,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-14T17:19:15-04:00",
-   "firstSeenAt": "2026-09-14T22:43:04.813Z"
   },
   {
    "dedupeKey": "greenhouse:8223735",
@@ -36576,29 +38071,6 @@
     "skills": 5
    },
    "postedAt": "2026-07-27T06:33:03-04:00",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "reverse-discovery:f718bcfe-3f5b-4682-a294-697499caf813",
-   "source": "reverse-discovery",
-   "company": "Hadrian",
-   "title": "Data Science/Data Engineer Intern",
-   "location": "LA; Torrance, CA",
-   "url": "https://jobs.ashbyhq.com/hadrian-automation/f718bcfe-3f5b-4682-a294-697499caf813/application?embed=true",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-02T21:47:29.454+00:00",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -40455,16 +41927,6 @@
    "url": "https://careers.spiritaero.com/jobs/17433?icims=1"
   },
   {
-   "dedupeKey": "simplifyjobs:154ae79b-60c6-40a6-9be2-a48637bb96ff",
-   "company": "TikTok",
-   "title": "Machine Learning Engineer Intern - E-Commerce Governance",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-17T14:39:18.135Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://lifeattiktok.com/search/7674029136531015941"
-  },
-  {
    "dedupeKey": "simplifyjobs:2057d1a3-289b-49ae-8328-fa3527c533c5",
    "company": "AMD",
    "title": "Software Engineer Intern/Co-op - Masters",
@@ -40475,86 +41937,6 @@
    "url": "https://careers.amd.com/jobs/91176?icims=1"
   },
   {
-   "dedupeKey": "simplifyjobs:892947b6-4cac-464b-941a-7244615e4d0a",
-   "company": "TikTok",
-   "title": "Data Engineer Intern - E-commerce",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://lifeattiktok.com/search/7676250516494436661"
-  },
-  {
-   "dedupeKey": "simplifyjobs:083cfc54-1c27-4fc6-ab89-6606e06aca1f",
-   "company": "Leidos",
-   "title": "Software Developer Co-op",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-17T23:33:29.849Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Software-Developer-Co-op_R-00190766"
-  },
-  {
-   "dedupeKey": "simplifyjobs:1795d6df-fcca-45dc-836d-41a82dc36894",
-   "company": "Intuit",
-   "title": "Software Engineer Intern - Full Stack",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-14T22:43:04.813Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864"
-  },
-  {
-   "dedupeKey": "simplifyjobs:4b81bd00-4b97-4ec4-954b-892368c48de0",
-   "company": "TikTok",
-   "title": "Machine Learning Engineer Intern - E-Commerce Knowledge Graph",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-31T06:00:26.343Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://lifeattiktok.com/search/7676652813409552645"
-  },
-  {
-   "dedupeKey": "simplifyjobs:30c6e50a-a52b-4624-ad9a-bff649958700",
-   "company": "TikTok",
-   "title": "Machine Learning Engineer Intern - E-Commerce Knowledge Graph",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-31T06:00:26.343Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://lifeattiktok.com/search/7676650607912601861"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2ea6ef00-ed8b-496c-a8ad-437191623ee4",
-   "company": "Emerson Electric",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009673"
-  },
-  {
-   "dedupeKey": "simplifyjobs:17987e80-d467-41cd-bc02-48021abeb72c",
-   "company": "L3Harris Technologies",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://jobs.l3harris.com/job/Rochester-Software-Engineer-Intern-NY-14610/1428440000/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:194a2192-6413-4ed0-9957-dfe5dc3f3f0c",
-   "company": "TD Bank",
-   "title": "Software Engineer Co-op - Global Technology & Solutions",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-11T09:52:28.440Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Software-Engineer--SWE-_R_1509773"
-  },
-  {
    "dedupeKey": "simplifyjobs:4c49bc10-cd1b-499e-8eac-48cf3b26e69c",
    "company": "Swarm Aero",
    "title": "Software Engineer Intern",
@@ -40563,76 +41945,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z",
    "closedAt": "2026-10-04T10:04:39.102Z",
    "url": "https://jobs.ashbyhq.com/swarmaero/04cff1f6-c790-4773-8568-e487a03626f6/application?embed=true"
-  },
-  {
-   "dedupeKey": "simplifyjobs:25c606c0-e37b-4e36-a6d9-5e9df8b3a2e7",
-   "company": "Intuit",
-   "title": "Mobile Software Engineer Intern - Android",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-14T22:43:04.813Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mobile-software-engineering-intern-android/27595/100620927552"
-  },
-  {
-   "dedupeKey": "simplifyjobs:49b9153d-dd0a-4a39-8d08-d25c517c2417",
-   "company": "Garmin",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://careers.garmin.com/jobs/20165?icims=1"
-  },
-  {
-   "dedupeKey": "greenhouse:8202801",
-   "company": "Waymo",
-   "title": "Software Engineer Intern - MS/PhD",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T17:43:47.057Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8202801"
-  },
-  {
-   "dedupeKey": "simplifyjobs:0f046a92-f831-47c1-8f88-5cc31f1722a8",
-   "company": "Axcelis Technologies",
-   "title": "Manufacturing Software Development Co-op",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-17T15:16:53.835Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://axcelis.wd1.myworkdayjobs.com/axcelis/job/Beverly-MA/Co-Op---Manufacturing-Software-Development-_12019"
-  },
-  {
-   "dedupeKey": "simplifyjobs:3560b9fe-52fc-4370-8c2a-da157231f4bf",
-   "company": "Keysight Technologies",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-17T23:33:29.849Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://jobs.keysight.com/jobs/54329?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:51cf3d3e-0806-455c-933f-ca151601a136",
-   "company": "Garmin",
-   "title": "Data Engineering Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-17T23:33:29.849Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://careers.garmin.com/jobs/20188?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:7c51e306-a24c-4fac-b188-b36e0bc3f128",
-   "company": "TikTok",
-   "title": "Machine Learning Engineer Intern - E-Commerce Recommendation Mall",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-18T04:36:32.561Z",
-   "closedAt": "2026-10-04T10:04:39.102Z",
-   "url": "https://lifeattiktok.com/search/7686283601340369205"
   },
   {
    "dedupeKey": "simplifyjobs:40393754-cddc-4a20-94cc-f5d3c6f488bf",
@@ -40753,276 +42065,6 @@
    "firstSeenAt": "2026-10-02T23:13:12.339Z",
    "closedAt": "2026-10-04T10:04:39.102Z",
    "url": "https://www.mastercontrol.com/careers/job-listings/role/?role=4738478005&gh_jid=4738478005"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e95cee0e-a2ed-44d1-9017-9befd82e1561",
-   "company": "TikTok",
-   "title": "Data Engineer Intern - Data Platform Global Live",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://lifeattiktok.com/search/7674032146438162693"
-  },
-  {
-   "dedupeKey": "simplifyjobs:ffbf2ca8-9b8e-4aa7-8227-9a11f77abc90",
-   "company": "Foundation Finance",
-   "title": "Full Stack Developer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-18T22:36:10.725Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://careers.foundationfinance.com/jobs/2097?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e1f3338c-95a0-4b9f-b987-07fa38a8a4a6",
-   "company": "Ampersand",
-   "title": "Data Engineering Co-op - Open to Northeastern students only",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://ats.rippling.com/ampersand-biomedicines/jobs/be3f5479-379e-4d48-9bd1-82a69b2dcfd3"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a908b011-3049-4c5c-831e-b0a4e17ddebf",
-   "company": "TikTok",
-   "title": "Machine Learning Engineer Intern",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-20T09:46:19.524Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://lifeattiktok.com/search/7675847556668295429"
-  },
-  {
-   "dedupeKey": "simplifyjobs:cd7682b8-7722-4a26-9813-42ece290a387",
-   "company": "Google",
-   "title": "Software Engineer Intern",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:46:02.461Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/91436104816698054"
-  },
-  {
-   "dedupeKey": "simplifyjobs:76570b32-69dc-4557-ad0d-dfd2480f1605",
-   "company": "TikTok",
-   "title": "AI Infrastructure Engineer Intern - Recommendation & LLM",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-26T01:55:36.803Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://lifeattiktok.com/search/7672671220798818613"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a7830137-29dd-4741-9150-826eb53d47a4",
-   "company": "Emerson Electric",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009500"
-  },
-  {
-   "dedupeKey": "simplifyjobs:8450be07-8d66-4593-a2ad-cb5362c1af2d",
-   "company": "Clearwater Analytics",
-   "title": "Quant Developer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Quant-Developer-Intern_R12182"
-  },
-  {
-   "dedupeKey": "simplifyjobs:b207c0f1-7cb3-4dc3-a5dd-7917c737106b",
-   "company": "V2X",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://careers.gov2x.com/jobs/62682?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:d9696ea6-f208-467f-a8df-f2c2afb5b120",
-   "company": "Hadrian",
-   "title": "Robotics Software Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://jobs.ashbyhq.com/hadrian-automation/02e33109-08c5-4db7-8881-67294c172584/application?embed=true"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e0a1bb59-1fb6-4c2b-bd8e-8bd8ec2bc007",
-   "company": "Garmin",
-   "title": "Software Engineer Intern - Automotive OEM",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://careers.garmin.com/jobs/19999?icims=1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:57c6e96e-e10b-4f87-bf6b-6448a90ed532",
-   "company": "Gilead Sciences",
-   "title": "AI Engineer Intern - IT",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---North-Carolina---Raleigh/Intern---CFO---IT--AI-Engineer-_R0054744"
-  },
-  {
-   "dedupeKey": "simplifyjobs:05f45fc6-6df7-4dee-8c20-77c07bce25ef",
-   "company": "Graco",
-   "title": "Artificial Intelligence Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://graco.wd501.myworkdayjobs.com/Graco_Careers/job/Dayton-Minnesota-USA-French-Lake/AI-Intern_R0023511-1"
-  },
-  {
-   "dedupeKey": "simplifyjobs:eabf370c-678d-4de3-925f-22d7298aeb68",
-   "company": "Domino Data Lab",
-   "title": "Forward Deployed Engineer Intern - Campus Recruiting 2027",
-   "season": "2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-10T11:11:52.969Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://app.careerpuck.com/job-board/domino-data-lab/job/7992534?gh_jid=7992534"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f4acfdee-2d38-45db-a129-6a8e9671e853",
-   "company": "L3Harris Technologies",
-   "title": "Software Engineering Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610/1428444000/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:d87810fe-423a-4c90-94aa-56b6f291d9ea",
-   "company": "L3Harris Technologies",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14623/1428446200/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f14ef6e4-d6a5-471c-af7e-f435c1fb1576",
-   "company": "L3Harris Technologies",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610/1428444200/?ats=successfactors"
-  },
-  {
-   "dedupeKey": "simplifyjobs:85246fff-7e47-4644-a0e6-36d4ef176665",
-   "company": "TD Bank",
-   "title": "Data Engineer Co-op - Global Technology & Solutions",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Data-Engineer_R_1510111"
-  },
-  {
-   "dedupeKey": "simplifyjobs:9ff89600-1ebc-46c4-a1af-887c05a633b9",
-   "company": "Oshkosh",
-   "title": "Data Engineer Intern",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/Data-Engineer-Intern_R49868"
-  },
-  {
-   "dedupeKey": "simplifyjobs:7c26ef09-c2c9-47e6-b9a9-1e62b056f9dd",
-   "company": "MegazoneCloud",
-   "title": "Data Engineer Co-op",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://jobs.ashbyhq.com/megazone/fde09888-986f-4207-88fe-3ff5b921a1fa/application?embed=true"
-  },
-  {
-   "dedupeKey": "simplifyjobs:9d613826-b169-4950-9be3-779d329aab98",
-   "company": "Tive",
-   "title": "Software Engineer Co-op",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-14T21:00:27.050Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://ats.rippling.com/tive-careers/jobs/c88ab3d3-a8e7-4639-b95b-d6c9b5290dd0"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a57d347e-4ce0-4590-bf80-9368dd106660",
-   "company": "Intuit",
-   "title": "Software Engineer Intern - Cybersecurity",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-14T22:43:04.813Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-cybersecurity/27595/100620927616"
-  },
-  {
-   "dedupeKey": "simplifyjobs:99be0eea-8a7f-4470-894d-d0dcc34dc9c7",
-   "company": "Intuit",
-   "title": "Mobile Software Engineer Intern - iOS",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-14T22:43:04.813Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mobile-software-engineering-intern-ios/27595/100620927568"
-  },
-  {
-   "dedupeKey": "simplifyjobs:781b4a1a-f2af-40b2-866b-03dcefc5245b",
-   "company": "Trane Technologies",
-   "title": "Software Development Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://careers.tranetechnologies.com/global/en/job/JR-15648"
-  },
-  {
-   "dedupeKey": "simplifyjobs:f7d09a94-8bd0-4131-bc32-287f419b5e98",
-   "company": "EQT Corporation",
-   "title": "Data Engineering Intern - Completions Services",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T23:49:28.046Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://job-boards.greenhouse.io/eqtcorporation/jobs/5422414008"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e30c1cc5-e220-4fd3-acc3-db8af1dcd0f5",
-   "company": "Waymo",
-   "title": "Quantitative Software Engineer Intern",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T23:49:28.046Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8197554"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e93487a3-6a04-4449-a6f6-eb2616b57c63",
-   "company": "Lennox International",
-   "title": "Full-Stack Software Engineering Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-17T23:33:29.849Z",
-   "closedAt": "2026-10-04T11:12:09.822Z",
-   "url": "https://uscareers-lennox.icims.com/jobs/54888/job?mobile=true&needsRedirect=false"
   },
   {
    "dedupeKey": "simplifyjobs:31a0fc19-0802-4ac8-8ade-8e82adc4d1a9",
@@ -41175,220 +42217,84 @@
    "url": "https://jobs.ashbyhq.com/solink/8493613d-ea47-4182-ac0b-f5f24d11f49e/application?embed=true"
   },
   {
-   "dedupeKey": "speedyapply:sha1:ff8982376fd5dacc10735f4c6be1076dc6d1945f",
-   "company": "Innovative Defense Technologies",
-   "title": "Software Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-10-03T17:15:22.059Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:8f06507c1c186b00670efb70ed0eda22101723df",
-   "company": "Innovative Defense Technologies",
-   "title": "Software Engineer Intern - JobID-0308",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-10-02T18:41:09.395Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:1ad9e6ee20f884adc47469fc135baf06a2c0068b",
-   "company": "Innovative Defense Technologies",
-   "title": "Software Engineer Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-10-03T17:15:22.059Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:74dfb3bf8820ca6959e5871d5499fe8e1bc050ac",
-   "company": "Innovative Defense Technologies",
-   "title": "Software Systems Engineer Intern - JobID-0299",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-10-02T18:41:09.395Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:f9e46597594cedc580b77499df69d280b1f3cdc0",
-   "company": "Innovative Defense Technologies",
-   "title": "Software Systems Engineer Intern - JobID-0304",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-10-02T18:41:09.395Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "speedyapply:sha1:46b0ed081d1afc84640e4b8a07fc4715dcff663a",
-   "company": "Franklin Electric",
-   "title": "Fall 2027 Electrical/Software Engineering Co-op",
-   "season": "Fall 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-24T17:57:45.699Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "vansh:12011286-0eca-4688-8c69-aa283024575d",
-   "company": "Shopify",
-   "title": "Software Engineering Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "vansh:9ed4ac46-4e59-4e9f-a06a-63a2fea39a34",
-   "company": "Datadog",
-   "title": "Software Engineering Intern",
-   "season": null,
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-17T15:35:41.651Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "vansh:9178330b-1085-4ae5-820f-3efdbc32d8ea",
-   "company": "Appian",
-   "title": "New Grad 2027: Software Engineer",
-   "season": "2027 New Grad",
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-02T20:17:01.441Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "vansh:8e5e3f80-e111-43ad-94e7-502828c21003",
-   "company": "Cisco",
-   "title": "Software Engineer 1",
+   "dedupeKey": "simplifyjobs:986968af-4a3a-4038-96dc-9caaa8a58066",
+   "company": "Texas Sports Academy",
+   "title": "Junior AI Software Engineer",
    "season": null,
    "roleType": "new_grad",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
+   "firstSeenAt": "2026-10-01T05:44:20.577Z",
+   "closedAt": "2026-10-04T13:11:13.646Z",
+   "url": "https://apply.workable.com/texas-sports-academy-main/j/A9A9F4A25A/apply"
   },
   {
-   "dedupeKey": "simplifyjobs:24b848e7-18bc-4eab-b684-9d352141cbdd",
-   "company": "Wolverine Trading",
-   "title": "Entry Level C++ Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-15T01:46:01.264Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:13e63ccc-9879-4a3a-a29a-f10688ec7ba6",
-   "company": "Wolverine Trading",
-   "title": "Entry Level C++ Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-15T01:46:01.264Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a3fa760c-c8ec-4d27-8090-1ff8948cd4d0",
-   "company": "Johns Hopkins Applied Physics Laboratory",
-   "title": "Software Engineering/ML/Data Scientist New Grad - Intelligence Systems",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-08-25T21:39:54.989Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:44c6ed71-01ca-4794-a690-e71ae479b79b",
-   "company": "Johns Hopkins Applied Physics Laboratory",
-   "title": "Software Developer New Grad - Engagement Optimization",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-01T20:00:36.952Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:06f545de-c635-4abb-8793-0950f995bc27",
-   "company": "Johns Hopkins Applied Physics Laboratory",
-   "title": "Artificial Intelligence Engineer New Grad - Intelligent Autonomous Systems",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-01T20:00:36.952Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c192d7cd-8e41-43d0-9f80-86b20fa05310",
-   "company": "Johns Hopkins Applied Physics Laboratory",
-   "title": "Systems & Software Engineer New Grad - Multi-Domain Mission Planning Development",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-04T23:13:47.011Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:63be50b3-ad2c-4e52-889f-a54037b0da8c",
-   "company": "Johns Hopkins Applied Physics Laboratory",
-   "title": "Developer Cyber-Physical Systems New Grad",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-14T19:18:21.574Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:83d0a294-51a6-4b84-867f-e039c06781af",
-   "company": "Wolverine Trading",
-   "title": "Entry Level C++ Software Engineer",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-19T01:30:23.635Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c5f6ea15-e5f6-4de7-a91b-def695d75241",
-   "company": "North Atlantic Industries",
-   "title": "Software Engineer Intern",
-   "season": "Fall 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-26T01:55:36.803Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:232ef965-ae5a-429d-99d3-cba2eca04afe",
-   "company": "Fervo Energy",
-   "title": "Software Engineer Intern - Strategy",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:d95c9645-60a9-4399-9ff8-4cf36da717b8",
-   "company": "Fervo Energy",
-   "title": "AI Applications Engineering Intern",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:a86d976f-a45c-46f8-8e48-98b4b743b137",
-   "company": "Fervo Energy",
-   "title": "Data Science & AI Engineering Intern",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:5956d989-9997-4320-aaf9-1af66a816991",
-   "company": "Fervo Energy",
-   "title": "Software Engineering Intern - IT",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:5d055757-0085-458a-88e4-08dc3ab1edbb",
-   "company": "FC Industries",
-   "title": "Business Intelligence Analyst/Data Engineering Intern",
+   "dedupeKey": "simplifyjobs:b26371db-d53d-469b-b8e0-1f50db3f6004",
+   "company": "KLA Corporation",
+   "title": "Software Engineering Intern - C++ - Unix",
    "season": "Winter 2026",
    "roleType": "internship",
-   "firstSeenAt": "2026-10-02T11:13:05.432Z",
-   "closedAt": "2026-10-04T11:12:09.822Z"
+   "firstSeenAt": "2026-09-23T06:33:40.840Z",
+   "closedAt": "2026-10-04T13:11:13.646Z",
+   "url": "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e61c4916-6a49-4922-a691-73e2250dd9c9",
+   "company": "Leidos",
+   "title": "Software Development Intern",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-25T18:04:16.777Z",
+   "closedAt": "2026-10-04T13:11:13.646Z",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Gaithersburg-MD/Software-Development-Intern_R-00193103"
+  },
+  {
+   "dedupeKey": "simplifyjobs:b6e13db3-be91-4612-8719-470246e65112",
+   "company": "MFS",
+   "title": "Investment Data Engineer Co-op",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-30T16:05:02.405Z",
+   "closedAt": "2026-10-04T13:11:13.646Z",
+   "url": "https://mfs.wd1.myworkdayjobs.com/en-US/MFS-Careers/job/Boston/Spring-2027-Investment-Data-Engineer-Co-op--January---June-_MFS-231978"
+  },
+  {
+   "dedupeKey": "simplifyjobs:e0190f47-ebc1-4e15-884d-ef5b3ddda1b3",
+   "company": "KLA Corporation",
+   "title": "Software Engineer Intern",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-30T16:05:02.405Z",
+   "closedAt": "2026-10-04T13:11:13.646Z",
+   "url": "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineering-Intern_2641572-1"
+  },
+  {
+   "dedupeKey": "simplifyjobs:a81d9b15-5ceb-436d-bbb3-c8bb2fe509ea",
+   "company": "KLA",
+   "title": "Software Engineer Intern",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-30T23:44:13.476Z",
+   "closedAt": "2026-10-04T13:11:13.646Z",
+   "url": "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineering-Intern_2641581-1"
+  },
+  {
+   "dedupeKey": "simplifyjobs:82b7074b-3840-4347-a125-e4d8ed0f7c3a",
+   "company": "Dow Chemical Company",
+   "title": "Data Engineer / Data Platform Engineer Intern",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-30T23:44:13.476Z",
+   "closedAt": "2026-10-04T13:11:13.646Z",
+   "url": "https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Kankakee-IL-USA/Data-Engineer---Data-Platform-Engineer-Internship-Spring-2027-Semester-at-the-Dow-Delivery-Center-at-UIUC--Champaign--IL-_R2068792"
+  },
+  {
+   "dedupeKey": "simplifyjobs:59d6aad4-9652-4f35-9a72-29c3ef4f9d16",
+   "company": "Intel",
+   "title": "Software Engineering Intern",
+   "season": "Winter 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-10-01T23:09:03.623Z",
+   "closedAt": "2026-10-04T13:11:13.646Z",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering-PhD-Intern-New-2027_JR0287458-1"
   }
  ]
 }
