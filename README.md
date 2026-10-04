@@ -274,30 +274,30 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1707-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-27-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--04-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1704-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-38-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--04-informational)
 
-Updated **2026-10-04 15:30 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-04 18:08 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Revvity | Software Integration Co-Op - Spring 2027 🆕 | Akron, OH | Spring 2027 | 100% | 2026-10-03 | 2026-10-04 | [**Apply ➜**](https://revvity.wd103.myworkdayjobs.com/en-US/external/job/Akron/Software-Integration-Co-Op--Spring-2027-_JR-045618) |
+| Revvity | Software Integration Co-Op - Spring 2027 🆕 | Akron, OH | Spring 2027 | 100% | 2026-10-03 | 2026-10-04 | [**Apply ➜**](https://revvity.wd103.myworkdayjobs.com/en-US/external/job/Akron/Software-Integration-Co-Op--Spring-2027-_JR-045616) |
 | TikTok | Machine Learning MLOps Intern - Global Site Reliability Engineering 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-08-19 | 2026-10-04 | [**Apply ➜**](https://lifeattiktok.com/search/7670875283026053381) |
 | TikTok | Software Engineer Intern - ML Infra 🆕 | San Jose, CA | Fall 2026 | 100% | 2026-08-03 | 2026-10-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668696895234197813) |
 | Meridian Partners | Cloud Software Engineer Co-op | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-10-04 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003) |
-| Affirm | Software Engineer (Machine Learning) Intern (Summer 2027) | San Francisco, California, United States | Summer 2027 | 100% (5 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/8008645003) |
 | Affirm | Software Engineer Intern (Summer 2027) | San Francisco, California, United States | Summer 2027 | 100% (5 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/8011590003) |
+| Affirm | Software Engineer (Machine Learning) Intern (Summer 2027) | San Francisco, California, United States | Summer 2027 | 100% (5 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/8008645003) |
 | Tesla | Distributed Systems Software Engineer Intern - Energy Engineering | Palo Alto, CA | Winter 2027 | 100% | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/285508) |
 | Harvey | Software Engineer, New Grad (2027) | New York | 2027 New Grad | 100% (4 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/harvey/4d8dc9ba-eb86-4d88-af7d-65d2fdaf3fdc) |
 | Harvey | Software Engineer, New Grad (2027) | San Francisco | 2027 New Grad | 100% (4 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/harvey/b0996df6-6b6e-42be-a4f9-0084536068f5) |
-| xAI | Summer 2027 Software Engineering Internship/Co-op | Palo Alto, CA | Summer 2027 | 100% (3 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/xai/jobs/5255111007) |
 | xAI | Spring 2027 Software Engineering Internship/Co-op | Palo Alto, CA | Spring 2027 | 100% (3 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/xai/jobs/5252108007) |
+| xAI | Summer 2027 Software Engineering Internship/Co-op | Palo Alto, CA | Summer 2027 | 100% (3 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/xai/jobs/5255111007) |
 | Amazon | Software Development Engineer - ROBOTICS - Early Career - 2027 | North Reading, MA | 2027 New Grad | 100% | 2026-10-01 | 2026-10-02 | [**Apply ➜**](https://www.amazon.jobs/jobs/10567489/apply) |
-| Harvey | Software Engineering Intern (Summer 2027) | New York | Summer 2027 | 100% (4 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/harvey/06d64648-b84b-48ae-94a2-d9c06dfdcb5d) |
 | Harvey | Software Engineering Intern (Summer 2027) | San Francisco | Summer 2027 | 100% (4 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/harvey/3a34578d-d42e-45bb-ac5c-0c3357e8cbb7) |
+| Harvey | Software Engineering Intern (Summer 2027) | New York | Summer 2027 | 100% (4 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/harvey/06d64648-b84b-48ae-94a2-d9c06dfdcb5d) |
 | Mindex | Software Engineer Co-op | Rochester, NY | Winter 2027 | 100% | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://apply.workable.com/mindex/j/84B10DB922/apply) |
 | Amazon | Software Engineer Intern | Seattle, WA; Jessup, MD; Arlington County, Arlington, VA; Denver, CO | Summer 2027 | 100% | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://amazon.jobs/en/jobs/10559746/software-development-engineer-intern-summer-2027-usa-amazon-dedicated-cloud-adc) |
 | Applied Intuition | Cybersecurity Software Engineer - New Grad (2027) | Sunnyvale | 2027 New Grad | 100% (2 skills) | 2026-09-02 | 2026-10-01 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e) |
 | Applied Intuition | Software Engineer - New Grad (2027) | Sunnyvale; Ann Arbor | 2027 New Grad | 100% (2 skills) | 2026-08-14 | 2026-10-01 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a837cbd6-9fe4-4d74-a2dc-84f602c40694) |
 | Pinterest | Software Engineer Intern 2027 (USA) | San Francisco, CA, US; Remote, US | 2027 | 100% (7 skills) | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=7838577) |
-| Pinterest | Software Engineering Intern 2027 (Toronto) | Toronto, ON, CA | 2027 | 100% (7 skills) | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://www.pinterestcareers.com/jobs/?gh_jid=8138039) |
-| Tesla | Backend Engineer Intern - Infrastructure Engineering | Fremont, CA | Winter 2027 | 100% | 2026-08-28 | 2026-10-01 | [**Apply ➜**](https://www.tesla.com/careers/search/job/281467) |
 <!-- JOB-BOARD:END -->
