@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T21:21:51.700Z",
+ "updatedAt": "2026-10-04T22:29:53.765Z",
  "jobs": [
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
@@ -20155,35 +20155,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "ashby:297b4ece-765f-4eea-b1b8-46057cb6501f",
-   "source": "ashby",
-   "company": "Notion",
-   "title": "Software Engineer, Early Career",
-   "location": "San Francisco, California",
-   "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 88,
-   "matchedSkills": [
-    "TypeScript",
-    "React",
-    "Node.js",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 8
-   },
-   "postedAt": "2026-07-06T18:37:35.161+00:00",
-   "firstSeenAt": "2026-07-06T19:13:12.302Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:8ab3cc20-459a-4c6f-bfcb-4b8487e56196",
    "source": "simplifyjobs",
    "company": "Cerebras",
@@ -38073,6 +38044,35 @@
    "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
+   "dedupeKey": "ashby:297b4ece-765f-4eea-b1b8-46057cb6501f",
+   "source": "ashby",
+   "company": "Notion",
+   "title": "Software Engineer, Early Career",
+   "location": "San Francisco, California",
+   "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 88,
+   "matchedSkills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 8
+   },
+   "postedAt": "2026-07-06T18:37:35.161+00:00",
+   "firstSeenAt": "2026-07-06T19:13:12.302Z"
+  },
+  {
    "dedupeKey": "workday:3168142",
    "source": "workday",
    "company": "HP",
@@ -38216,31 +38216,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "greenhouse:8052083",
-   "source": "greenhouse",
-   "company": "Hudson River Trading",
-   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
-   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-07-13T11:35:06-04:00",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
    "dedupeKey": "workday:JR2022645",
    "source": "workday",
    "company": "NVIDIA",
@@ -38308,6 +38283,31 @@
    },
    "postedAt": "2026-08-26",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8052083",
+   "source": "greenhouse",
+   "company": "Hudson River Trading",
+   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
+   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-07-13T11:35:06-04:00",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
    "dedupeKey": "greenhouse:8052338",
@@ -38549,31 +38549,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "greenhouse:8802882002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Security Software (Starshield)",
-   "location": "Hawthorne, CA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-09-11T19:36:45-04:00",
-   "firstSeenAt": "2026-09-12T01:04:46.155Z"
-  },
-  {
    "dedupeKey": "greenhouse:8802897002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -38599,6 +38574,31 @@
    "firstSeenAt": "2026-09-12T01:04:46.155Z"
   },
   {
+   "dedupeKey": "greenhouse:8802882002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Security Software (Starshield)",
+   "location": "Hawthorne, CA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-09-11T19:36:45-04:00",
+   "firstSeenAt": "2026-09-12T01:04:46.155Z"
+  },
+  {
    "dedupeKey": "greenhouse:8493079002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -38620,31 +38620,6 @@
    },
    "postedAt": "2026-04-03T10:07:16-04:00",
    "firstSeenAt": "2026-08-02T20:17:01.441Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8696143002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Redmond, WA",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:23-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
    "dedupeKey": "greenhouse:8696156002",
@@ -38694,6 +38669,31 @@
     "skills": 2
    },
    "postedAt": "2026-08-14T12:21:38-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696143002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Redmond, WA",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:23-04:00",
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
@@ -38747,6 +38747,75 @@
    },
    "postedAt": "2026-09-14T08:00:08-04:00",
    "firstSeenAt": "2026-09-14T13:56:47.708Z"
+  },
+  {
+   "dedupeKey": "workday:JR0285211",
+   "source": "workday",
+   "company": "Intel",
+   "title": "Development Tools Software Intern",
+   "location": "Mexico, Guadalajara",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/Mexico-Guadalajara/Development-Tools-Software-Intern_JR0285211",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": null,
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "workday:JR0287583",
+   "source": "workday",
+   "company": "Intel",
+   "title": "AI Software Engineering Undergraduate Intern",
+   "location": "Costa Rica, San Jose",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/Costa-Rica-San-Jose/AI-Software-Engineering-Undergraduate-Intern_JR0287583",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-30",
+   "firstSeenAt": "2026-10-01T05:44:20.577Z"
+  },
+  {
+   "dedupeKey": "workday:JR0286946",
+   "source": "workday",
+   "company": "Intel",
+   "title": "AI/ML Software App Development Intern",
+   "location": "PRC, Chengdu",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Chengdu/AI-ML-Software-App-Development-Intern_JR0286946",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-07",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
    "dedupeKey": "greenhouse:7807508003",
@@ -38876,75 +38945,6 @@
     "skills": 5
    },
    "postedAt": "2026-07-27T06:33:03-04:00",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "workday:JR0285211",
-   "source": "workday",
-   "company": "Intel",
-   "title": "Development Tools Software Intern",
-   "location": "Mexico, Guadalajara",
-   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/Mexico-Guadalajara/Development-Tools-Software-Intern_JR0285211",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": null,
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "workday:JR0287583",
-   "source": "workday",
-   "company": "Intel",
-   "title": "AI Software Engineering Undergraduate Intern",
-   "location": "Costa Rica, San Jose",
-   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/Costa-Rica-San-Jose/AI-Software-Engineering-Undergraduate-Intern_JR0287583",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-30",
-   "firstSeenAt": "2026-10-01T05:44:20.577Z"
-  },
-  {
-   "dedupeKey": "workday:JR0286946",
-   "source": "workday",
-   "company": "Intel",
-   "title": "AI/ML Software App Development Intern",
-   "location": "PRC, Chengdu",
-   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Chengdu/AI-ML-Software-App-Development-Intern_JR0286946",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-07",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -39884,136 +39884,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:267d5473-4baf-4bba-ba9c-ccd65a1c0e30",
-   "company": "Palantir",
-   "title": "Forward Deployed Software Engineer New Grad - Commercial",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40/apply"
-  },
-  {
-   "dedupeKey": "simplifyjobs:057e0386-1d1a-425c-b6a6-d6e3374a3d52",
-   "company": "Palantir",
-   "title": "Software Engineer New Grad - Defense",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79/apply"
-  },
-  {
-   "dedupeKey": "simplifyjobs:645100d8-0e6e-414b-aa7c-96ecb3ea36e4",
-   "company": "Palantir",
-   "title": "Software Engineer New Grad - Defense",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278/apply"
-  },
-  {
-   "dedupeKey": "simplifyjobs:345a57b5-fae1-45c1-8deb-5bbec4479e03",
-   "company": "Palantir",
-   "title": "Software Engineer New Grad - Defense",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-07-05T08:25:11.093Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3/apply"
-  },
-  {
-   "dedupeKey": "simplifyjobs:e1cb71b6-18fc-4d48-9c80-55c54bb62a50",
-   "company": "Palantir",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2028",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d/apply"
-  },
-  {
-   "dedupeKey": "simplifyjobs:da1074aa-7344-4ad3-9b53-078f1dbd2edc",
-   "company": "Palantir",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2028",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249/apply"
-  },
-  {
-   "dedupeKey": "simplifyjobs:d0302d05-c84f-4a36-a91e-cc293f08604e",
-   "company": "Palantir",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2028",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c/apply"
-  },
-  {
-   "dedupeKey": "simplifyjobs:4a30dd71-73a0-48c8-9e4a-9422a6952920",
-   "company": "Palantir",
-   "title": "Software Engineer Intern - Defense Tech",
-   "season": "Winter 2028",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7/apply"
-  },
-  {
-   "dedupeKey": "simplifyjobs:0f0aeb67-6d9f-4204-85d7-29cb04386943",
-   "company": "Palantir",
-   "title": "Software Engineer Intern",
-   "season": "Winter 2028",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0/apply"
-  },
-  {
-   "dedupeKey": "simplifyjobs:2c1046a7-cf40-410a-bf96-843e6e4db629",
-   "company": "Palantir",
-   "title": "Software Engineer Intern - Production Infrastructure",
-   "season": "Winter 2028",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86/apply"
-  },
-  {
-   "dedupeKey": "simplifyjobs:ea21f599-680e-4822-8289-fe0af38a4bfe",
-   "company": "Palantir",
-   "title": "Privacy and Civil Liberties Software Engineer Intern",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "firstSeenAt": "2026-08-06T07:37:02.524Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c8c5aa40-1271-42fb-937f-a311fcaf917d",
-   "company": "Palantir",
-   "title": "Software Engineer Intern - Defense Tech",
-   "season": "Winter 2028",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d/apply"
-  },
-  {
-   "dedupeKey": "simplifyjobs:01a5ff88-29a2-4b09-9814-582b4e1fe212",
-   "company": "Palantir",
-   "title": "Software Engineer Intern - Defense Tech",
-   "season": "Winter 2028",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z",
-   "closedAt": "2026-09-27T22:04:59.966Z",
-   "url": "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e/apply"
-  },
   {
    "dedupeKey": "simplifyjobs:33da215d-313a-45b7-8ad3-bde21b250ffe",
    "company": "Palantir",
