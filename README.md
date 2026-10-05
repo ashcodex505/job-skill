@@ -274,15 +274,16 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1707-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-17-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--05-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1702-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-7-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--05-informational)
 
-Updated **2026-10-05 06:57 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-05 10:49 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| NVIDIA | Software Engineer Intern 🆕 | Santa Clara, CA | Summer 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958) |
 | State of North Carolina | Data Engineer Intern 🆕 | Raleigh, NC | Spring 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/Data-Engineering-Intern_JR-125224) |
-| Revvity | Software Integration Co-Op - Spring 2027 🆕 | Akron, OH | Spring 2027 | 100% | 2026-10-03 | 2026-10-04 | [**Apply ➜**](https://revvity.wd103.myworkdayjobs.com/en-US/external/job/Akron/Software-Integration-Co-Op--Spring-2027-_JR-045618) |
-| Revvity | Software Integration Co-Op - Spring 2027 🆕 | Akron, OH | Spring 2027 | 100% | 2026-10-03 | 2026-10-04 | [**Apply ➜**](https://revvity.wd103.myworkdayjobs.com/en-US/external/job/Akron/Software-Integration-Co-Op--Spring-2027-_JR-045616) |
+| Revvity | Software Integration Co-Op - Spring 2027 | Akron, OH | Spring 2027 | 100% | 2026-10-03 | 2026-10-04 | [**Apply ➜**](https://revvity.wd103.myworkdayjobs.com/en-US/external/job/Akron/Software-Integration-Co-Op--Spring-2027-_JR-045618) |
+| Revvity | Software Integration Co-Op - Spring 2027 | Akron, OH | Spring 2027 | 100% | 2026-10-03 | 2026-10-04 | [**Apply ➜**](https://revvity.wd103.myworkdayjobs.com/en-US/external/job/Akron/Software-Integration-Co-Op--Spring-2027-_JR-045616) |
 | TikTok | Machine Learning MLOps Intern - Global Site Reliability Engineering | San Jose, CA | Summer 2027 | 100% | 2026-08-19 | 2026-10-04 | [**Apply ➜**](https://lifeattiktok.com/search/7670875283026053381) |
 | TikTok | Software Engineer Intern - ML Infra | San Jose, CA | Fall 2026 | 100% | 2026-08-03 | 2026-10-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668696895234197813) |
 | Meridian Partners | Cloud Software Engineer Co-op | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-10-04 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003) |
@@ -299,5 +300,4 @@ Updated **2026-10-05 06:57 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Mindex | Software Engineer Co-op | Rochester, NY | Winter 2027 | 100% | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://apply.workable.com/mindex/j/84B10DB922/apply) |
 | Amazon | Software Engineer Intern | Seattle, WA; Jessup, MD; Arlington County, Arlington, VA; Denver, CO | Summer 2027 | 100% | 2026-10-01 | 2026-10-01 | [**Apply ➜**](https://amazon.jobs/en/jobs/10559746/software-development-engineer-intern-summer-2027-usa-amazon-dedicated-cloud-adc) |
 | Applied Intuition | Cybersecurity Software Engineer - New Grad (2027) | Sunnyvale | 2027 New Grad | 100% (2 skills) | 2026-09-02 | 2026-10-01 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e) |
-| Applied Intuition | Software Engineer - New Grad (2027) | Sunnyvale; Ann Arbor | 2027 New Grad | 100% (2 skills) | 2026-08-14 | 2026-10-01 | [**Apply ➜**](https://jobs.ashbyhq.com/applied/a837cbd6-9fe4-4d74-a2dc-84f602c40694) |
 <!-- JOB-BOARD:END -->

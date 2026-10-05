@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T06:57:25.649Z",
+ "updatedAt": "2026-10-05T10:49:36.904Z",
  "jobs": [
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
@@ -20155,52 +20155,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "simplifyjobs:8ab3cc20-459a-4c6f-bfcb-4b8487e56196",
-   "source": "simplifyjobs",
-   "company": "Cerebras",
-   "title": "Software Engineer New Grad",
-   "location": "Sunnyvale, CA",
-   "url": "https://jobs.ashbyhq.com/cerebras/987d7f64-c957-4c8f-b89d-2f9d64738507/application",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-07T09:11:53.000Z",
-   "firstSeenAt": "2026-07-08T07:44:25.607Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:c0479012-54e4-478d-922f-1948cd356ac4",
-   "source": "simplifyjobs",
-   "company": "Cerebras",
-   "title": "Software Engineer New Grad",
-   "location": "Toronto, ON, Canada; Sunnyvale, CA",
-   "url": "https://jobs.ashbyhq.com/cerebras/99c289fa-8fc6-49f7-b7e8-78ac4e9d99ac/application",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-07-07T09:11:59.000Z",
-   "firstSeenAt": "2026-07-08T07:44:25.607Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:fcd95104-5b2a-4e23-bb5e-ee0412e59f2c",
    "source": "simplifyjobs",
    "company": "Motorola",
@@ -24119,29 +24073,6 @@
     "skills": 0
    },
    "postedAt": "2026-09-14T14:43:03.000Z",
-   "firstSeenAt": "2026-09-14T19:18:21.574Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:63be50b3-ad2c-4e52-889f-a54037b0da8c",
-   "source": "simplifyjobs",
-   "company": "Johns Hopkins Applied Physics Laboratory",
-   "title": "Developer Cyber-Physical Systems New Grad",
-   "location": "Laurel, MD",
-   "url": "https://careers.jhuapl.edu/jobs/60022?icims=1",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-14T17:39:37.000Z",
    "firstSeenAt": "2026-09-14T19:18:21.574Z"
   },
   {
@@ -33330,29 +33261,6 @@
    "firstSeenAt": "2026-09-14T19:18:21.574Z"
   },
   {
-   "dedupeKey": "simplifyjobs:9d613826-b169-4950-9be3-779d329aab98",
-   "source": "simplifyjobs",
-   "company": "Tive",
-   "title": "Software Engineer Co-op",
-   "location": "Boston, MA",
-   "url": "https://ats.rippling.com/tive-careers/jobs/c88ab3d3-a8e7-4639-b95b-d6c9b5290dd0",
-   "season": "Winter 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-14T19:47:42.000Z",
-   "firstSeenAt": "2026-09-14T21:00:27.050Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:7f4d2358-707d-4cbf-83b4-694072fbba3e",
    "source": "simplifyjobs",
    "company": "Charta Health",
@@ -35270,7 +35178,7 @@
    "source": "rippling",
    "company": "Rippling",
    "title": "Software Engineer Intern - Backend Focused - Summer 2027",
-   "location": "Seattle, WA",
+   "location": "New York, NY",
    "url": "https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba",
    "season": "Summer 2027",
    "roleType": "internship",
@@ -35316,7 +35224,7 @@
    "source": "rippling",
    "company": "Rippling",
    "title": "Full Stack Software Engineer Intern - Summer 2027",
-   "location": "New York, NY",
+   "location": "Seattle, WA",
    "url": "https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262",
    "season": "Summer 2027",
    "roleType": "internship",
@@ -37535,29 +37443,6 @@
    "firstSeenAt": "2026-10-03T09:25:33.304Z"
   },
   {
-   "dedupeKey": "simplifyjobs:fb99fc9f-da10-4a0c-9d4c-565dd66138c8",
-   "source": "simplifyjobs",
-   "company": "KLA Corporation",
-   "title": "Software Engineer Intern",
-   "location": "Ann Arbor, MI",
-   "url": "https://kla.wd1.myworkdayjobs.com/annarbor/job/Ann-Arbor-MI/UIUC-Next-Day-On-Campus-Interviews_2640825-1",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-09T00:00:00.000Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:5675fa47-e852-4cdc-9992-395a0d1765b8",
    "source": "simplifyjobs",
    "company": "DocuSign",
@@ -37717,6 +37602,29 @@
    },
    "postedAt": "2026-10-05T00:00:00.000Z",
    "firstSeenAt": "2026-10-05T06:57:25.649Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:4cf30745-6f3b-4afc-b4a7-8c156b74804c",
+   "source": "simplifyjobs",
+   "company": "NVIDIA",
+   "title": "Software Engineer Intern",
+   "location": "Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-10-05T00:00:00.000Z",
+   "firstSeenAt": "2026-10-05T10:49:36.904Z"
   },
   {
    "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
@@ -38025,34 +37933,6 @@
    "firstSeenAt": "2026-08-27T20:22:07.623Z"
   },
   {
-   "dedupeKey": "greenhouse:8210695",
-   "source": "greenhouse",
-   "company": "Samsara",
-   "title": "Software Engineer I, Agentic Platform EMEA (Poland, Remote, B2B)",
-   "location": "Remote - Poland",
-   "url": "https://www.samsara.com/company/careers/roles/8210695?gh_jid=8210695",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 91,
-   "matchedSkills": [
-    "TypeScript",
-    "React",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 5,
-    "keywords": 10,
-    "skills": 6
-   },
-   "postedAt": "2026-09-18T11:11:32-04:00",
-   "firstSeenAt": "2026-09-18T17:12:04.521Z"
-  },
-  {
    "dedupeKey": "greenhouse:8138039",
    "source": "greenhouse",
    "company": "Pinterest",
@@ -38142,29 +38022,6 @@
    "firstSeenAt": "2026-07-06T19:13:12.302Z"
   },
   {
-   "dedupeKey": "workday:3168142",
-   "source": "workday",
-   "company": "HP",
-   "title": "Software and Engineering Intern Roles - Imaging and Print",
-   "location": "Corvallis, Oregon, United States of America",
-   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Corvallis-Oregon-United-States-of-America/Software-and-Engineering-Intern-Roles---Imaging-and-Print_3168142-1",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-16T19:19:34.250Z",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "workday:3167788",
    "source": "workday",
    "company": "HP",
@@ -38188,6 +38045,29 @@
    "firstSeenAt": "2026-09-21T19:22:00.485Z"
   },
   {
+   "dedupeKey": "workday:3168142",
+   "source": "workday",
+   "company": "HP",
+   "title": "Software and Engineering Intern Roles - Imaging and Print",
+   "location": "Corvallis, Oregon, United States of America",
+   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Corvallis-Oregon-United-States-of-America/Software-and-Engineering-Intern-Roles---Imaging-and-Print_3168142-1",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-16T19:19:34.250Z",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "workday:3167271",
    "source": "workday",
    "company": "HP",
@@ -38209,29 +38089,6 @@
    },
    "postedAt": "2026-08-21",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "oraclecloud:334333",
-   "source": "oraclecloud",
-   "company": "Oracle",
-   "title": "OCI Software Engineer Intern - OVIP",
-   "location": "Austin, TX, United States",
-   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/334333",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-05-22T00:00:00.000Z",
-   "firstSeenAt": "2026-09-16T21:37:55.722Z"
   },
   {
    "dedupeKey": "ashby:9246cf02-26fd-4ae8-90c5-639c6e85e9e2",
@@ -38285,6 +38142,29 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
+   "dedupeKey": "oraclecloud:334333",
+   "source": "oraclecloud",
+   "company": "Oracle",
+   "title": "OCI Software Engineer Intern - OVIP",
+   "location": "Austin, TX, United States",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/334333",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-05-22T00:00:00.000Z",
+   "firstSeenAt": "2026-09-16T21:37:55.722Z"
+  },
+  {
    "dedupeKey": "greenhouse:8052083",
    "source": "greenhouse",
    "company": "Hudson River Trading",
@@ -38308,75 +38188,6 @@
    },
    "postedAt": "2026-07-13T11:35:06-04:00",
    "firstSeenAt": "2026-07-15T08:30:50.814Z"
-  },
-  {
-   "dedupeKey": "workday:JR2022645",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "Software Engineering Intern, NCCL - 2026",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645",
-   "season": "2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-18",
-   "firstSeenAt": "2026-08-18T03:05:44.336Z"
-  },
-  {
-   "dedupeKey": "workday:JR2024002",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "AI Developer Technology Engineer Intern, AI - 2027",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-24",
-   "firstSeenAt": "2026-08-24T07:17:56.744Z"
-  },
-  {
-   "dedupeKey": "workday:JR2024054",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "AI Developer Technology Intern, Robotics - 2027",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Intern--Robotics---2027_JR2024054-1",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-26",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
    "dedupeKey": "greenhouse:8052338",
@@ -38479,6 +38290,75 @@
     "skills": 6
    },
    "postedAt": "2026-07-08T17:36:21-04:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "workday:JR2022645",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern, NCCL - 2026",
+   "location": "2 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645",
+   "season": "2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18",
+   "firstSeenAt": "2026-08-18T03:05:44.336Z"
+  },
+  {
+   "dedupeKey": "workday:JR2024002",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "AI Developer Technology Engineer Intern, AI - 2027",
+   "location": "2 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-24",
+   "firstSeenAt": "2026-08-24T07:17:56.744Z"
+  },
+  {
+   "dedupeKey": "workday:JR2024054",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "AI Developer Technology Intern, Robotics - 2027",
+   "location": "2 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Intern--Robotics---2027_JR2024054-1",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-26",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -43030,6 +42910,66 @@
    "firstSeenAt": "2026-10-03T02:18:09.868Z",
    "closedAt": "2026-10-05T06:57:25.649Z",
    "url": "https://jobs.ashbyhq.com/parasail/da595923-4e35-4ba1-875d-383276069cf7/application?embed=true"
+  },
+  {
+   "dedupeKey": "simplifyjobs:8ab3cc20-459a-4c6f-bfcb-4b8487e56196",
+   "company": "Cerebras",
+   "title": "Software Engineer New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-08T07:44:25.607Z",
+   "closedAt": "2026-10-05T10:49:36.904Z",
+   "url": "https://jobs.ashbyhq.com/cerebras/987d7f64-c957-4c8f-b89d-2f9d64738507/application"
+  },
+  {
+   "dedupeKey": "simplifyjobs:c0479012-54e4-478d-922f-1948cd356ac4",
+   "company": "Cerebras",
+   "title": "Software Engineer New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-07-08T07:44:25.607Z",
+   "closedAt": "2026-10-05T10:49:36.904Z",
+   "url": "https://jobs.ashbyhq.com/cerebras/99c289fa-8fc6-49f7-b7e8-78ac4e9d99ac/application"
+  },
+  {
+   "dedupeKey": "simplifyjobs:63be50b3-ad2c-4e52-889f-a54037b0da8c",
+   "company": "Johns Hopkins Applied Physics Laboratory",
+   "title": "Developer Cyber-Physical Systems New Grad",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-09-14T19:18:21.574Z",
+   "closedAt": "2026-10-05T10:49:36.904Z",
+   "url": "https://careers.jhuapl.edu/jobs/60022?icims=1"
+  },
+  {
+   "dedupeKey": "simplifyjobs:9d613826-b169-4950-9be3-779d329aab98",
+   "company": "Tive",
+   "title": "Software Engineer Co-op",
+   "season": "Winter 2027",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-14T21:00:27.050Z",
+   "closedAt": "2026-10-05T10:49:36.904Z",
+   "url": "https://ats.rippling.com/tive-careers/jobs/c88ab3d3-a8e7-4639-b95b-d6c9b5290dd0"
+  },
+  {
+   "dedupeKey": "simplifyjobs:fb99fc9f-da10-4a0c-9d4c-565dd66138c8",
+   "company": "KLA Corporation",
+   "title": "Software Engineer Intern",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z",
+   "closedAt": "2026-10-05T10:49:36.904Z",
+   "url": "https://kla.wd1.myworkdayjobs.com/annarbor/job/Ann-Arbor-MI/UIUC-Next-Day-On-Campus-Interviews_2640825-1"
+  },
+  {
+   "dedupeKey": "greenhouse:8210695",
+   "company": "Samsara",
+   "title": "Software Engineer I, Agentic Platform EMEA (Poland, Remote, B2B)",
+   "season": null,
+   "roleType": "new_grad",
+   "firstSeenAt": "2026-09-18T17:12:04.521Z",
+   "closedAt": "2026-10-05T10:49:36.904Z",
+   "url": "https://www.samsara.com/company/careers/roles/8210695?gh_jid=8210695"
   }
  ]
 }
