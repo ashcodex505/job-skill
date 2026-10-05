@@ -274,30 +274,30 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1694-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-8-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--05-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1697-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-15-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--05-informational)
 
-Updated **2026-10-05 19:44 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-05 22:36 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Atlassian | Data Engineer Intern 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://campus-americas.icims.com/jobs/26272/data-engineer-intern%2c-2027-summer-u.s./job) |
+| Expedia Group | Software Development Engineer Intern 🆕 | Seattle, WA; Austin, TX; San Jose, CA | Summer 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311) |
 | Atlassian | Data Engineer Intern, 2027 Summer U.S. 🆕 | Seattle - United States -   Seattle, Washington  United States; Remote - Remote | 2027 | 100% (3 skills) | 2026-09-18 | 2026-10-05 | [**Apply ➜**](https://www.atlassian.com/company/careers/details/26272) |
 | Cloudflare | People Analytics Data Engineering Intern (Winter/Spring 2027) 🆕 | Hybrid | Spring 2027 | 100% (2 skills) | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8241790?gh_jid=8241790) |
 | NVIDIA | Software Engineer Intern 🆕 | Santa Clara, CA | Summer 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958) |
-| State of North Carolina | Data Engineer Intern 🆕 | Raleigh, NC | Spring 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/Data-Engineering-Intern_JR-125224) |
-| Revvity | Software Integration Co-Op - Spring 2027 | Akron, OH | Spring 2027 | 100% | 2026-10-03 | 2026-10-04 | [**Apply ➜**](https://revvity.wd103.myworkdayjobs.com/en-US/external/job/Akron/Software-Integration-Co-Op--Spring-2027-_JR-045618) |
+| State of North Carolina | Data Engineer Intern | Raleigh, NC | Spring 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/Data-Engineering-Intern_JR-125224) |
 | Revvity | Software Integration Co-Op - Spring 2027 | Akron, OH | Spring 2027 | 100% | 2026-10-03 | 2026-10-04 | [**Apply ➜**](https://revvity.wd103.myworkdayjobs.com/en-US/external/job/Akron/Software-Integration-Co-Op--Spring-2027-_JR-045616) |
+| Revvity | Software Integration Co-Op - Spring 2027 | Akron, OH | Spring 2027 | 100% | 2026-10-03 | 2026-10-04 | [**Apply ➜**](https://revvity.wd103.myworkdayjobs.com/en-US/external/job/Akron/Software-Integration-Co-Op--Spring-2027-_JR-045618) |
 | TikTok | Machine Learning MLOps Intern - Global Site Reliability Engineering | San Jose, CA | Summer 2027 | 100% | 2026-08-19 | 2026-10-04 | [**Apply ➜**](https://lifeattiktok.com/search/7670875283026053381) |
 | TikTok | Software Engineer Intern - ML Infra | San Jose, CA | Fall 2026 | 100% | 2026-08-03 | 2026-10-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668696895234197813) |
 | Meridian Partners | Cloud Software Engineer Co-op | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-10-04 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003) |
 | Affirm | Software Engineer Intern (Summer 2027) | San Francisco, California, United States | Summer 2027 | 100% (5 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/8011590003) |
 | Affirm | Software Engineer (Machine Learning) Intern (Summer 2027) | San Francisco, California, United States | Summer 2027 | 100% (5 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/8008645003) |
-| Tesla | Distributed Systems Software Engineer Intern - Energy Engineering | Palo Alto, CA | Winter 2027 | 100% | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://www.tesla.com/careers/search/job/285508) |
-| Harvey | Software Engineer, New Grad (2027) | New York | 2027 New Grad | 100% (4 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/harvey/4d8dc9ba-eb86-4d88-af7d-65d2fdaf3fdc) |
 | Harvey | Software Engineer, New Grad (2027) | San Francisco | 2027 New Grad | 100% (4 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/harvey/b0996df6-6b6e-42be-a4f9-0084536068f5) |
-| xAI | Spring 2027 Software Engineering Internship/Co-op | Palo Alto, CA | Spring 2027 | 100% (3 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/xai/jobs/5252108007) |
+| Harvey | Software Engineer, New Grad (2027) | New York | 2027 New Grad | 100% (4 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/harvey/4d8dc9ba-eb86-4d88-af7d-65d2fdaf3fdc) |
 | xAI | Summer 2027 Software Engineering Internship/Co-op | Palo Alto, CA | Summer 2027 | 100% (3 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/xai/jobs/5255111007) |
+| xAI | Spring 2027 Software Engineering Internship/Co-op | Palo Alto, CA | Spring 2027 | 100% (3 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/xai/jobs/5252108007) |
 | Amazon | Software Development Engineer - ROBOTICS - Early Career - 2027 | North Reading, MA | 2027 New Grad | 100% | 2026-10-01 | 2026-10-02 | [**Apply ➜**](https://www.amazon.jobs/jobs/10567489/apply) |
-| Harvey | Software Engineering Intern (Summer 2027) | San Francisco | Summer 2027 | 100% (4 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/harvey/3a34578d-d42e-45bb-ac5c-0c3357e8cbb7) |
 | Harvey | Software Engineering Intern (Summer 2027) | New York | Summer 2027 | 100% (4 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/harvey/06d64648-b84b-48ae-94a2-d9c06dfdcb5d) |
-| Mindex | Software Engineer Co-op | Rochester, NY | Winter 2027 | 100% | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://apply.workable.com/mindex/j/84B10DB922/apply) |
+| Harvey | Software Engineering Intern (Summer 2027) | San Francisco | Summer 2027 | 100% (4 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/harvey/3a34578d-d42e-45bb-ac5c-0c3357e8cbb7) |
 <!-- JOB-BOARD:END -->
