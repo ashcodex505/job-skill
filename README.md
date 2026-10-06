@@ -274,12 +274,13 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1719-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-55-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--06-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1754-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-38-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--06-informational)
 
-Updated **2026-10-06 12:08 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-06 15:26 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Biogen | Machine Learning Engineering Co-op 🆕 | Remote in USA | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://biibhr.wd3.myworkdayjobs.com/external/job/Remote-USA/Co-op--Machine-Learning-Engineering_REQ24310) |
 | Astera Labs | Packaging Automation & Data Engineering Intern 🆕 | San Jose, CA | Spring 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4738127005) |
 | Atoms | Machine Learning Engineer Intern 🆕 | SF | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/atoms/jobs/8869105002) |
 | Liberty Mutual | Software Development Co-op 🆕 | Boston, MA | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://campus-libertymutual.icims.com/jobs/261797/job?mobile=true&needsRedirect=false) |
@@ -287,7 +288,7 @@ Updated **2026-10-06 12:08 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | StackAdapt | Software Engineer Backend Intern 🆕 | Remote in Canada | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/stackadapt-confidential/jobs/4386552009) |
 | StackAdapt | Machine Learning Engineer Intern 🆕 | Remote in Canada | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/stackadapt-confidential/jobs/4397976009) |
 | StackAdapt | Software Engineer Intern 🆕 | Remote in Canada | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/stackadapt-confidential/jobs/4386549009) |
-| Atoms | Machine Learning Engineer Intern 🆕 | SF | Winter 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8869106002) |
+| Atoms | Machine Learning Engineer Intern | SF | Winter 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8869106002) |
 | Atlassian | Data Engineer Intern | Seattle, WA | Summer 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://campus-americas.icims.com/jobs/26272/data-engineer-intern%2c-2027-summer-u.s./job) |
 | Expedia Group | Software Development Engineer Intern | Seattle, WA; Austin, TX; San Jose, CA | Summer 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311) |
 | Atlassian | Data Engineer Intern, 2027 Summer U.S. | Seattle - United States -   Seattle, Washington  United States; Remote - Remote | 2027 | 100% (3 skills) | 2026-09-18 | 2026-10-05 | [**Apply ➜**](https://www.atlassian.com/company/careers/details/26272) |
@@ -299,5 +300,4 @@ Updated **2026-10-06 12:08 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | TikTok | Machine Learning MLOps Intern - Global Site Reliability Engineering | San Jose, CA | Summer 2027 | 100% | 2026-08-19 | 2026-10-04 | [**Apply ➜**](https://lifeattiktok.com/search/7670875283026053381) |
 | TikTok | Software Engineer Intern - ML Infra | San Jose, CA | Fall 2026 | 100% | 2026-08-03 | 2026-10-04 | [**Apply ➜**](https://lifeattiktok.com/search/7668696895234197813) |
 | Meridian Partners | Cloud Software Engineer Co-op | Cambridge, MA | Fall 2026 | 100% | 2026-08-25 | 2026-10-04 | [**Apply ➜**](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003) |
-| Affirm | Software Engineer Intern (Summer 2027) | San Francisco, California, United States | Summer 2027 | 100% (5 skills) | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/8011590003) |
 <!-- JOB-BOARD:END -->
