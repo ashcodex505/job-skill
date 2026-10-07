@@ -274,9 +274,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1781-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-69-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--07-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1777-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-64-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--07-informational)
 
-Updated **2026-10-07 02:19 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-07 06:23 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -295,7 +295,7 @@ Updated **2026-10-07 02:19 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Philips | Software Engineer Co-op - R&D 🆕 | Cambridge, MA | Winter 2027 | 100% | 2026-09-01 | 2026-10-06 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Engineer--R-D----Cambridge--MA---January---August-2027_588891) |
 | Amazon | Software Development Engineer Intern - Mobile(iOS/Android) - Summer 2027 (USA) 🆕 | Seattle, Washington, USA | Summer 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10571004/software-development-engineer-intern-mobile-ios-android-summer-2027-usa) |
 | Zipline | Software Engineer Intern - Spring 2027 🆕 | South San Francisco, CA | Spring 2027 | 100% | 2026-08-21 | 2026-10-06 | [**Apply ➜**](https://www.zipline.com/open-roles/7907191003?gh_jid=7907191003) |
-| Biogen | Machine Learning Engineering Co-op 🆕 | Remote in USA | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://biibhr.wd3.myworkdayjobs.com/external/job/Remote-USA/Co-op--Machine-Learning-Engineering_REQ24310) |
+| Biogen | Machine Learning Engineering Co-op | Remote in USA | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://biibhr.wd3.myworkdayjobs.com/external/job/Remote-USA/Co-op--Machine-Learning-Engineering_REQ24310) |
 | Astera Labs | Packaging Automation & Data Engineering Intern | San Jose, CA | Spring 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4738127005) |
 | Atoms | Machine Learning Engineer Intern | SF | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/atoms/jobs/8869105002) |
 | Liberty Mutual | Software Development Co-op | Boston, MA | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://campus-libertymutual.icims.com/jobs/261797/job?mobile=true&needsRedirect=false) |
