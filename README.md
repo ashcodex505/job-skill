@@ -274,9 +274,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1777-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-39-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--07-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1748-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-32-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--07-informational)
 
-Updated **2026-10-07 10:11 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-07 11:54 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -292,7 +292,7 @@ Updated **2026-10-07 10:11 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Nokia | AI Engineering Co-op 🆕 | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40812) |
 | Nokia | AI Engineering Co-op 🆕 | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40807) |
 | RTX | Software Engineer Co-op 🆕 | Marlborough, MA; Tewksbury, MA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Co-op--January-2027-_01878330) |
-| Philips | Software Engineer Co-op - R&D 🆕 | Cambridge, MA | Winter 2027 | 100% | 2026-09-01 | 2026-10-06 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Engineer--R-D----Cambridge--MA---January---August-2027_588891) |
+| Philips | Software Engineer Co-op - R&D | Cambridge, MA | Winter 2027 | 100% | 2026-09-01 | 2026-10-06 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Engineer--R-D----Cambridge--MA---January---August-2027_588891) |
 | Amazon | Software Development Engineer Intern - Mobile(iOS/Android) - Summer 2027 (USA) | Seattle, Washington, USA | Summer 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10571004/software-development-engineer-intern-mobile-ios-android-summer-2027-usa) |
 | Zipline | Software Engineer Intern - Spring 2027 | South San Francisco, CA | Spring 2027 | 100% | 2026-08-21 | 2026-10-06 | [**Apply ➜**](https://www.zipline.com/open-roles/7907191003?gh_jid=7907191003) |
 | Biogen | Machine Learning Engineering Co-op | Remote in USA | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://biibhr.wd3.myworkdayjobs.com/external/job/Remote-USA/Co-op--Machine-Learning-Engineering_REQ24310) |
