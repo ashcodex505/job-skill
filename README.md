@@ -274,15 +274,23 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1747-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-38-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--06-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1775-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-63-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--07-informational)
 
-Updated **2026-10-06 22:38 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-07 00:02 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Cloudflare | People Team: Software Engineer Intern (Winter/Spring 2027) 🆕 | Hybrid | Spring 2027 | 100% (4 skills) | 2026-04-02 | 2026-10-07 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/7774167?gh_jid=7774167) |
+| KnowBe4 | Software Engineer Intern 🆕 | Tampa, FL | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://job-boards.greenhouse.io/knowbe4/jobs/8870749002) |
+| Nokia | AI Engineer Co-op 🆕 | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40566) |
+| Nokia | AI Engineer Co-op 🆕 | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40810) |
+| Nokia | AI Engineer Co-op 🆕 | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40809) |
+| Nokia | AI Engineering Co-op 🆕 | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40808) |
+| Nokia | AI Engineering Co-op 🆕 | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40806) |
+| Nokia | AI Engineering Co-op 🆕 | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40812) |
+| Nokia | AI Engineering Co-op 🆕 | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40807) |
+| RTX | Software Engineer Co-op 🆕 | Marlborough, MA; Tewksbury, MA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Co-op--January-2027-_01878330) |
 | Philips | Software Engineer Co-op - R&D 🆕 | Cambridge, MA | Winter 2027 | 100% | 2026-09-01 | 2026-10-06 | [**Apply ➜**](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Engineer--R-D----Cambridge--MA---January---August-2027_588891) |
-| Affirm | Software Engineer I (New Grad 2027) (NYC) 🆕 | New York, New York, United States | 2027 New Grad | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/8008649003) |
-| Affirm | Software Engineer I (New Grad 2027) (SF) 🆕 | San Francisco, California, United States | 2027 New Grad | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/8010617003) |
 | Amazon | Software Development Engineer Intern - Mobile(iOS/Android) - Summer 2027 (USA) 🆕 | Seattle, Washington, USA | Summer 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10571004/software-development-engineer-intern-mobile-ios-android-summer-2027-usa) |
 | Zipline | Software Engineer Intern - Spring 2027 🆕 | South San Francisco, CA | Spring 2027 | 100% | 2026-08-21 | 2026-10-06 | [**Apply ➜**](https://www.zipline.com/open-roles/7907191003?gh_jid=7907191003) |
 | Biogen | Machine Learning Engineering Co-op 🆕 | Remote in USA | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://biibhr.wd3.myworkdayjobs.com/external/job/Remote-USA/Co-op--Machine-Learning-Engineering_REQ24310) |
@@ -292,12 +300,4 @@ Updated **2026-10-06 22:38 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Magnite | Software Engineer Intern | Belfast, UK | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/United-Kingdom---Belfast/Software-Engineer---Student-Placement_R-01417-1) |
 | StackAdapt | Software Engineer Backend Intern | Remote in Canada | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/stackadapt-confidential/jobs/4386552009) |
 | StackAdapt | Machine Learning Engineer Intern | Remote in Canada | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/stackadapt-confidential/jobs/4397976009) |
-| StackAdapt | Software Engineer Intern | Remote in Canada | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/stackadapt-confidential/jobs/4386549009) |
-| Atoms | Machine Learning Engineer Intern | SF | Winter 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://job-boards.greenhouse.io/cssmerge/jobs/8869106002) |
-| Atlassian | Data Engineer Intern | Seattle, WA | Summer 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://campus-americas.icims.com/jobs/26272/data-engineer-intern%2c-2027-summer-u.s./job) |
-| Expedia Group | Software Development Engineer Intern | Seattle, WA; Austin, TX; San Jose, CA | Summer 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311) |
-| Atlassian | Data Engineer Intern, 2027 Summer U.S. | Seattle - United States -   Seattle, Washington  United States; Remote - Remote | 2027 | 100% (3 skills) | 2026-09-18 | 2026-10-05 | [**Apply ➜**](https://www.atlassian.com/company/careers/details/26272) |
-| Cloudflare | People Analytics Data Engineering Intern (Winter/Spring 2027) | Hybrid | Spring 2027 | 100% (2 skills) | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/8241790?gh_jid=8241790) |
-| NVIDIA | Software Engineer Intern | Santa Clara, CA | Summer 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958) |
-| State of North Carolina | Data Engineer Intern | Raleigh, NC | Spring 2027 | 100% | 2026-10-05 | 2026-10-05 | [**Apply ➜**](https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/Data-Engineering-Intern_JR-125224) |
 <!-- JOB-BOARD:END -->
