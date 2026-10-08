@@ -274,12 +274,16 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1757-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-27-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--07-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1775-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-44-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--08-informational)
 
-Updated **2026-10-07 23:03 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-08 00:23 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Bose | Data Engineer Co-op 🆕 | Bloomfield Hills, MI; Framingham, MA; Atlanta, GA | Winter 2027 | 100% | 2026-10-07 | 2026-10-08 | [**Apply ➜**](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Data-Engineer-Co-Op_R29270) |
+| RTX | Software Engineering Co-op 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-10-07 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01879727) |
+| RTX | Software Engineering Co-op - Summer/Fall 2027 🆕 | Cedar Rapids, IA | Fall 2027 | 100% | 2026-10-07 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01879738) |
+| RTX | Software Engineering Co-op 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-10-07 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01879726) |
 | Amazon | Software Development Engineer Intern - Mobile- iOS/Android - Summer 2027 - USA 🆕 | Seattle, WA | Summer 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://www.amazon.jobs/jobs/10571004/apply) |
 | Clēnera | Data Engineer Intern | Boise, ID | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://job-boards.greenhouse.io/clenera/jobs/5259423007) |
 | Figure | Middleware Software Intern | San Jose, CA | Winter 2027 | 100% | 2026-10-07 | 2026-10-07 | [**Apply ➜**](https://job-boards.greenhouse.io/figureai/jobs/4605724006) |
@@ -296,8 +300,4 @@ Updated **2026-10-07 23:03 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Amazon | Software Development Engineer Intern - Mobile(iOS/Android) - Summer 2027 (USA) | Seattle, Washington, USA | Summer 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://www.amazon.jobs/en/jobs/10571004/software-development-engineer-intern-mobile-ios-android-summer-2027-usa) |
 | Zipline | Software Engineer Intern - Spring 2027 | South San Francisco, CA | Spring 2027 | 100% | 2026-08-21 | 2026-10-06 | [**Apply ➜**](https://www.zipline.com/open-roles/7907191003?gh_jid=7907191003) |
 | Biogen | Machine Learning Engineering Co-op | Remote in USA | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://biibhr.wd3.myworkdayjobs.com/external/job/Remote-USA/Co-op--Machine-Learning-Engineering_REQ24310) |
-| Astera Labs | Packaging Automation & Data Engineering Intern | San Jose, CA | Spring 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4738127005) |
-| Atoms | Machine Learning Engineer Intern | SF | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://job-boards.greenhouse.io/atoms/jobs/8869105002) |
-| Liberty Mutual | Software Development Co-op | Boston, MA | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://campus-libertymutual.icims.com/jobs/261797/job?mobile=true&needsRedirect=false) |
-| Magnite | Software Engineer Intern | Belfast, UK | Winter 2027 | 100% | 2026-10-06 | 2026-10-06 | [**Apply ➜**](https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/United-Kingdom---Belfast/Software-Engineer---Student-Placement_R-01417-1) |
 <!-- JOB-BOARD:END -->
