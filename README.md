@@ -274,12 +274,15 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1740-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-14-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--08-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1788-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-29-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--08-informational)
 
-Updated **2026-10-08 22:15 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-08 23:18 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| RTX | Software Engineer Co-op 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01878369) |
+| SoloPulse | Software Engineer Intern Co-op 🆕 | Peachtree Corners, GA | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://jobs.lever.co/solopulseco/1b36afea-e8eb-4cea-a6e9-0afc384d06ef/apply) |
+| Tesla | Software Integration Engineer Intern - Service Tooling 🆕 | Fremont, CA | Winter 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://www.tesla.com/careers/search/job/286127) |
 | Replit | Software Engineering Intern – Winter 2027 (U.S. Based) 🆕 | Foster City, CA | Winter 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://jobs.ashbyhq.com/replit/7c3c9d29-cec2-4367-8564-eadaed165aea) |
 | Rugged Robotics | Robotics Software Intern Co-op 🆕 | Houston, TX | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://job-boards.greenhouse.io/ruggedrobotics/jobs/4730908005) |
 | TikTok | Machine Learning Engineer Intern - Monetization Technology - Ads Core Global 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://lifeattiktok.com/search/7687630614472149301) |
@@ -297,7 +300,4 @@ Updated **2026-10-08 22:15 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Cloudflare | People Team: Software Engineer Intern (Winter/Spring 2027) | Hybrid | Spring 2027 | 100% (4 skills) | 2026-04-02 | 2026-10-07 | [**Apply ➜**](https://boards.greenhouse.io/cloudflare/jobs/7774167?gh_jid=7774167) |
 | Nokia | AI Engineer Co-op | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40566) |
 | Nokia | AI Engineer Co-op | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40810) |
-| Nokia | AI Engineer Co-op | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40809) |
-| Nokia | AI Engineering Co-op | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40808) |
-| Nokia | AI Engineering Co-op | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40806) |
 <!-- JOB-BOARD:END -->
