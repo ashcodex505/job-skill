@@ -274,15 +274,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1786-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-12-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--08-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1773-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-14-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--08-informational)
 
-Updated **2026-10-08 17:52 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-08 20:05 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
 | Replit | Software Engineering Intern – Winter 2027 (U.S. Based) 🆕 | Foster City, CA | Winter 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://jobs.ashbyhq.com/replit/7c3c9d29-cec2-4367-8564-eadaed165aea) |
 | Rugged Robotics | Robotics Software Intern Co-op 🆕 | Houston, TX | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://job-boards.greenhouse.io/ruggedrobotics/jobs/4730908005) |
-| DoorDash | Software Engineer Intern 🆕 | SF; Sunnyvale, CA | Summer 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8263774) |
 | TikTok | Machine Learning Engineer Intern - Monetization Technology - Ads Core Global 🆕 | San Jose, CA | Summer 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://lifeattiktok.com/search/7687630614472149301) |
 | Amazon | Data Engineer Intern | Seattle, WA | Winter 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://amazon.jobs/en/jobs/10553907/data-engineer-internship-2027-us) |
 | TikTok | Machine Learning Engineer Intern | San Jose, CA | Summer 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://lifeattiktok.com/search/7694044547207268661) |
@@ -300,4 +299,5 @@ Updated **2026-10-08 17:52 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Nokia | AI Engineer Co-op | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40810) |
 | Nokia | AI Engineer Co-op | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40809) |
 | Nokia | AI Engineering Co-op | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40808) |
+| Nokia | AI Engineering Co-op | Sunnyvale, CA | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40806) |
 <!-- JOB-BOARD:END -->
