@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-08T23:18:55.922Z",
+ "updatedAt": "2026-10-09T00:37:09.322Z",
  "jobs": [
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
@@ -27104,29 +27104,6 @@
    "firstSeenAt": "2026-10-02T16:16:22.018Z"
   },
   {
-   "dedupeKey": "simplifyjobs:06b0612c-a611-422f-8305-6138964b2e4b",
-   "source": "simplifyjobs",
-   "company": "Ancestry",
-   "title": "Machine Learning Engineer Co-op",
-   "location": "Remote in USA",
-   "url": "https://ancestry.wd501.myworkdayjobs.com/Careers/job/Remote/Machine-Learning-Engineer--Co-op_R003377",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "score": 95,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 5,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-11T00:00:00.000Z",
-   "firstSeenAt": "2026-09-25T00:45:15.438Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:cd27aaf0-33b6-4d6a-950e-8acff7bbe6ce",
    "source": "simplifyjobs",
    "company": "Tesla",
@@ -28047,29 +28024,6 @@
    },
    "postedAt": "2026-08-24T15:07:18.000Z",
    "firstSeenAt": "2026-08-24T15:51:30.222Z"
-  },
-  {
-   "dedupeKey": "simplifyjobs:0df59faa-c7e2-47a6-83d7-e8637cc3d960",
-   "source": "simplifyjobs",
-   "company": "DuCharme, McMillen & Associates",
-   "title": "Software Development Intern - Spring 2027",
-   "location": "Indianapolis, IN; Fort Wayne, IN",
-   "url": "https://dmainc.wd5.myworkdayjobs.com/dma/job/Fort-Wayne-IN/Software-Development-Intern---Spring-2027_REQ634",
-   "season": "Spring 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-24T00:00:00.000Z",
-   "firstSeenAt": "2026-08-24T20:42:47.310Z"
   },
   {
    "dedupeKey": "simplifyjobs:5a92381f-f858-4847-a147-1dc9ffc07f92",
@@ -33504,29 +33458,6 @@
    "firstSeenAt": "2026-10-05T22:36:03.265Z"
   },
   {
-   "dedupeKey": "simplifyjobs:c059887d-a7ce-40a1-bc58-605181078fb9",
-   "source": "simplifyjobs",
-   "company": "Koch Industries",
-   "title": "Software Engineer Co-op - Information Technology",
-   "location": "Wichita, KS",
-   "url": "https://koch.avature.net/en_US/careers/JobDetail/192476",
-   "season": "Summer 2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-16T22:46:04.000Z",
-   "firstSeenAt": "2026-09-16T23:49:28.046Z"
-  },
-  {
    "dedupeKey": "simplifyjobs:e30c1cc5-e220-4fd3-acc3-db8af1dcd0f5",
    "source": "simplifyjobs",
    "company": "Waymo",
@@ -38685,7 +38616,7 @@
    "dedupeKey": "ashby:7c3c9d29-cec2-4367-8564-eadaed165aea",
    "source": "ashby",
    "company": "Replit",
-   "title": "Software Engineering Intern – Winter 2027 (U.S. Based)",
+   "title": "Software Engineering Intern – Winter 2027",
    "location": "Foster City, CA",
    "url": "https://jobs.ashbyhq.com/replit/7c3c9d29-cec2-4367-8564-eadaed165aea",
    "season": "Winter 2027",
@@ -40231,75 +40162,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "workday:JR2022645",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "Software Engineering Intern, NCCL - 2026",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645",
-   "season": "2026",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-18",
-   "firstSeenAt": "2026-08-18T03:05:44.336Z"
-  },
-  {
-   "dedupeKey": "workday:JR2024002",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "AI Developer Technology Engineer Intern, AI - 2027",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-24",
-   "firstSeenAt": "2026-08-24T07:17:56.744Z"
-  },
-  {
-   "dedupeKey": "workday:JR2024054",
-   "source": "workday",
-   "company": "NVIDIA",
-   "title": "AI Developer Technology Intern, Robotics - 2027",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Intern--Robotics---2027_JR2024054-1",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 90,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-26",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
    "dedupeKey": "greenhouse:8052083",
    "source": "greenhouse",
    "company": "Hudson River Trading",
@@ -40425,6 +40287,75 @@
     "skills": 6
    },
    "postedAt": "2026-07-08T17:36:21-04:00",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "workday:JR2022645",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern, NCCL - 2026",
+   "location": "2 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645",
+   "season": "2026",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-18",
+   "firstSeenAt": "2026-08-18T03:05:44.336Z"
+  },
+  {
+   "dedupeKey": "workday:JR2024002",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "AI Developer Technology Engineer Intern, AI - 2027",
+   "location": "2 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-24",
+   "firstSeenAt": "2026-08-24T07:17:56.744Z"
+  },
+  {
+   "dedupeKey": "workday:JR2024054",
+   "source": "workday",
+   "company": "NVIDIA",
+   "title": "AI Developer Technology Intern, Robotics - 2027",
+   "location": "2 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Intern--Robotics---2027_JR2024054-1",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 90,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-26",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
@@ -40564,31 +40495,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "greenhouse:8802897002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Security Software (Starshield)",
-   "location": "Washington, DC",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-09-11T19:36:47-04:00",
-   "firstSeenAt": "2026-09-12T01:04:46.155Z"
-  },
-  {
    "dedupeKey": "greenhouse:8802882002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -40611,6 +40517,31 @@
     "skills": 2
    },
    "postedAt": "2026-09-11T19:36:45-04:00",
+   "firstSeenAt": "2026-09-12T01:04:46.155Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8802897002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Security Software (Starshield)",
+   "location": "Washington, DC",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-09-11T19:36:47-04:00",
    "firstSeenAt": "2026-09-12T01:04:46.155Z"
   },
   {
@@ -41830,26 +41761,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:5d6bccf2-e43c-401c-bbe5-1b689f6fbe85",
-   "company": "RTX",
-   "title": "Software Engineer/Developer 1",
-   "season": null,
-   "roleType": "new_grad",
-   "firstSeenAt": "2026-09-30T23:44:13.476Z",
-   "closedAt": "2026-10-02T00:07:06.393Z",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-Developer-I--Onsite-_01879024"
-  },
-  {
-   "dedupeKey": "simplifyjobs:0a703703-0be7-4f89-89c2-56b288638eef",
-   "company": "Interstates",
-   "title": "Software Developer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-21T06:58:30.274Z",
-   "closedAt": "2026-10-02T00:07:06.393Z",
-   "url": "https://www.interstates.com/careers/jobs?gh_jid=4218341009&gh_jid=4218341009"
-  },
   {
    "dedupeKey": "simplifyjobs:dadef677-ca3e-4484-9f78-4a718f8c64f7",
    "company": "Acron Aviation",
@@ -44508,6 +44419,36 @@
    "firstSeenAt": "2026-09-20T16:47:42.910Z",
    "closedAt": "2026-10-08T22:15:07.397Z",
    "url": "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Spring-2027_REQ-24832"
+  },
+  {
+   "dedupeKey": "simplifyjobs:06b0612c-a611-422f-8305-6138964b2e4b",
+   "company": "Ancestry",
+   "title": "Machine Learning Engineer Co-op",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-25T00:45:15.438Z",
+   "closedAt": "2026-10-09T00:37:09.322Z",
+   "url": "https://ancestry.wd501.myworkdayjobs.com/Careers/job/Remote/Machine-Learning-Engineer--Co-op_R003377"
+  },
+  {
+   "dedupeKey": "simplifyjobs:0df59faa-c7e2-47a6-83d7-e8637cc3d960",
+   "company": "DuCharme, McMillen & Associates",
+   "title": "Software Development Intern - Spring 2027",
+   "season": "Spring 2027",
+   "roleType": "internship",
+   "firstSeenAt": "2026-08-24T20:42:47.310Z",
+   "closedAt": "2026-10-09T00:37:09.322Z",
+   "url": "https://dmainc.wd5.myworkdayjobs.com/dma/job/Fort-Wayne-IN/Software-Development-Intern---Spring-2027_REQ634"
+  },
+  {
+   "dedupeKey": "simplifyjobs:c059887d-a7ce-40a1-bc58-605181078fb9",
+   "company": "Koch Industries",
+   "title": "Software Engineer Co-op - Information Technology",
+   "season": "Summer 2026",
+   "roleType": "internship",
+   "firstSeenAt": "2026-09-16T23:49:28.046Z",
+   "closedAt": "2026-10-09T00:37:09.322Z",
+   "url": "https://koch.avature.net/en_US/careers/JobDetail/192476"
   }
  ]
 }
