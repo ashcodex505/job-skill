@@ -274,15 +274,15 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1749-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-23-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--09-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1776-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-8-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--09-informational)
 
-Updated **2026-10-09 12:01 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-09 13:09 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
-| RTX | Software Engineer Co-op 🆕 | Cedar Rapids, IA | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01878369) |
-| SoloPulse | Software Engineer Intern Co-op 🆕 | Peachtree Corners, GA | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://jobs.lever.co/solopulseco/1b36afea-e8eb-4cea-a6e9-0afc384d06ef/apply) |
-| Tesla | Software Integration Engineer Intern - Service Tooling 🆕 | Fremont, CA | Winter 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://www.tesla.com/careers/search/job/286127) |
+| RTX | Software Engineer Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01878369) |
+| SoloPulse | Software Engineer Intern Co-op | Peachtree Corners, GA | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://jobs.lever.co/solopulseco/1b36afea-e8eb-4cea-a6e9-0afc384d06ef/apply) |
+| Tesla | Software Integration Engineer Intern - Service Tooling | Fremont, CA | Winter 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://www.tesla.com/careers/search/job/286127) |
 | Replit | Software Engineering Intern – Winter 2027 | Foster City, CA | Winter 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://jobs.ashbyhq.com/replit/7c3c9d29-cec2-4367-8564-eadaed165aea) |
 | Rugged Robotics | Robotics Software Intern Co-op | Houston, TX | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://job-boards.greenhouse.io/ruggedrobotics/jobs/4730908005) |
 | TikTok | Machine Learning Engineer Intern - Monetization Technology - Ads Core Global | San Jose, CA | Summer 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://lifeattiktok.com/search/7687630614472149301) |
