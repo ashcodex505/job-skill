@@ -1,7 +1,7 @@
 # 🎯 Job Board — SWE Early Career
 
-**1776 open roles** across **706 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-10-09 13:09 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1775 open roles** across **706 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-10-09 13:43 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
 ## 🆕 New this cycle (8)
@@ -17,7 +17,7 @@ Last updated: **2026-10-09 13:09 UTC** · auto-refreshed every 12h by [job-board
 | AeroVironment | Software Engineer 1 - Apps 🆕 | San Diego, CA | — | 80% | 2026-10-08 | 2026-10-09 | [**Apply ➜**](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/7540-Metropolitan-Dr-San-Diego-CA/Software-Engineer--Apps---I_8655) |
 | Clark | Junior Software Engineer 🆕 | NYC | — | 80% | 2026-08-03 | 2026-10-09 | [**Apply ➜**](https://jobs.ashbyhq.com/clark/78fae57b-98da-46c2-be2e-11a1ca5bb5eb/application?embed=true) |
 
-## 🛠️ Internships (1225)
+## 🛠️ Internships (1224)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -107,7 +107,7 @@ Last updated: **2026-10-09 13:09 UTC** · auto-refreshed every 12h by [job-board
 | Together AI | Research Intern, Inference (Summer 2027) | San Francisco | Summer 2027 | 100% (2 skills) | 2026-09-18 | 2026-09-22 | [**Apply ➜**](https://job-boards.greenhouse.io/togetherai/jobs/5238462007) |
 | Rippling | Software Engineer Intern - Backend Focused - Summer 2027 | Seattle, WA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) |
 | Rippling | Machine Learning Software Engineer Intern - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d) |
-| Rippling | Full Stack Software Engineer Intern - Summer 2027 | New York, NY | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
+| Rippling | Full Stack Software Engineer Intern - Summer 2027 | San Francisco, CA | Summer 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) |
 | Rivian | Software Engineer Co-op Intern - Product Development Portal | Palo Alto, CA | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33745?icims=1) |
 | Rivian | Software Engineer Intern Co-op - Product Lifecycle Management | Palo Alto, CA | Winter 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33746?icims=1) |
 | Rivian | Software Engineer Intern Co-op - Design Automation | Palo Alto, CA | Spring 2027 | 100% | 2026-09-22 | 2026-09-22 | [**Apply ➜**](https://careers.rivian.com/jobs/33748?icims=1) |
@@ -422,7 +422,7 @@ Last updated: **2026-10-09 13:09 UTC** · auto-refreshed every 12h by [job-board
 | Bedrock Robotics | Behavior ML Engineer Intern - Learned Manipulation Policies | SF | Winter 2026 | 90% | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/bedrock-robotics/96a6423e-7439-4cb4-9109-117b14e47f7c/application?embed=true) |
 | Deloitte | Summer Scholar Intern - Government & Public Services - Cyber Software Engineering | Austin, TX | Summer 2026 | 90% | 2026-08-10 | 2026-10-02 | [**Apply ➜**](https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Summer-Scholar-Cyber-Software-Engineering/362346) |
 
-_…and 825 more (raise the cap in src/scraper/board.ts)._
+_…and 824 more (raise the cap in src/scraper/board.ts)._
 ## 🎓 New Grad (551)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
@@ -461,8 +461,8 @@ _…and 825 more (raise the cap in src/scraper/board.ts)._
 | careem | Software Engineer I - Backend \| NextGen Engineering | Karachi, Pakistan; Lahore, Pakistan | — | 88% (5 skills) | 2024-01-24 | 2026-10-04 | [**Apply ➜**](https://boards.greenhouse.io/careem/jobs/7107610002?gh_jid=7107610002) |
 | captivation | Software Engineer 1 - Java/Confluence/Jira/AWS/Maven/MapReduce | Annapolis Junction, MD | — | 88% (5 skills) | 2026-09-16 | 2026-09-27 | [**Apply ➜**](https://job-boards.greenhouse.io/captivation/jobs/5426544008) |
 | Scale AI | Software Engineer, Public Sector - New Grad | San Francisco, CA | — | 88% (5 skills) | 2026-09-23 | 2026-09-23 | [**Apply ➜**](https://job-boards.greenhouse.io/scaleai/jobs/4736426005) |
-| Affirm | Software Engineer I, Backend (Collections) | Remote Poland | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807508003) |
 | Affirm | Software Engineer I, Backend (Collections) | Remote Spain | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807506003) |
+| Affirm | Software Engineer I, Backend (Collections) | Remote Poland | — | 88% (2 skills) | 2026-07-22 | 2026-09-16 | [**Apply ➜**](https://job-boards.greenhouse.io/affirm/jobs/7807508003) |
 | DoorDash | Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US | Los Angeles, CA; New York, NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA | — | 88% (5 skills) | 2026-09-04 | 2026-09-14 | [**Apply ➜**](https://job-boards.greenhouse.io/doordashusa/jobs/8163709) |
 | Notion | Software Engineer, Early Career (AI) | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) |
 | Notion | Software Engineer, Early Career | San Francisco, California | — | 88% (5 skills) | 2026-07-06 | 2026-07-06 | [**Apply ➜**](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) |
@@ -531,8 +531,8 @@ _…and 825 more (raise the cap in src/scraper/board.ts)._
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002) |
 | SpaceX | New Graduate Engineer, Software - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Redmond, WA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002) |
-| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Bastrop, TX | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002) |
+| SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Palo Alto, CA | — | 82% (1 skills) | 2026-08-14 | 2026-08-14 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002) |
 | Clark | Junior Software Engineer 🆕 | NYC | — | 80% | 2026-08-03 | 2026-10-09 | [**Apply ➜**](https://jobs.ashbyhq.com/clark/78fae57b-98da-46c2-be2e-11a1ca5bb5eb/application?embed=true) |
 | AeroVironment | Software Engineer 1 - Apps 🆕 | San Diego, CA | — | 80% | 2026-10-08 | 2026-10-09 | [**Apply ➜**](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/7540-Metropolitan-Dr-San-Diego-CA/Software-Engineer--Apps---I_8655) |
 | Aurelian | Software Engineer New Grad 🆕 | Seattle, WA | — | 80% | 2026-10-09 | 2026-10-09 | [**Apply ➜**](https://jobs.ashbyhq.com/aurelian/a2bc965f-d639-41f7-946a-67c05c22e04e/application?embed=true) |
@@ -829,12 +829,13 @@ _…and 825 more (raise the cap in src/scraper/board.ts)._
 | Arch | Software Engineer - Early Careers | NYC | — | 80% | 2026-09-03 | 2026-09-03 | [**Apply ➜**](https://jobs.ashbyhq.com/arch.co/9fde8d03-9f47-44ac-bd14-53829722c06d/application?embed=true) |
 
 _…and 151 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (282)
+## 🚪 Recently closed (last 7 days) (283)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
 | Company | Role | Season | Closed |
 |---|---|---|---|
+| CoStar Group | Associate Software Engineer Intern | — | 2026-10-09 |
 | RTX | Software Engineer 1 | — | 2026-10-09 |
 | RTX | Software Engineer 1 | — | 2026-10-09 |
 | RTX | Software Engineer 1 - Test | — | 2026-10-09 |
