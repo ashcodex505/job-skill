@@ -1,13 +1,15 @@
 # 🎯 Job Board — SWE Early Career
 
-**1777 open roles** across **706 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
-Last updated: **2026-10-09 06:01 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
+**1779 open roles** across **706 companies**, scraped from official Greenhouse / Lever / Ashby / Workday / SmartRecruiters / Workable APIs and scored against [career/profile.md](career/profile.md).
+Last updated: **2026-10-09 06:38 UTC** · auto-refreshed every 12h by [job-board.yml](.github/workflows/job-board.yml) · 🆕 = new since the last update.
 **Match** = how well the role fits you, 0–100%: role type + intern/new-grad fit + your target season/location, plus how many skills from [career/profile.md](career/profile.md) appear in the posting (shown in parentheses).
 
-## 🆕 New this cycle (29)
+## 🆕 New this cycle (31)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| TikTok | Machine Learning Engineer Intern - E-Commerce User Growth 🆕 | San Jose, CA | — | 80% | 2026-10-09 | 2026-10-09 | [**Apply ➜**](https://lifeattiktok.com/search/7694354937320868149) |
+| TikTok | Machine Learning Engineer Intern 🆕 | Seattle, WA | — | 80% | 2026-10-09 | 2026-10-09 | [**Apply ➜**](https://lifeattiktok.com/search/7694356134081972533) |
 | Aurelian | Software Engineer New Grad 🆕 | Seattle, WA | — | 80% | 2026-10-09 | 2026-10-09 | [**Apply ➜**](https://jobs.ashbyhq.com/aurelian/a2bc965f-d639-41f7-946a-67c05c22e04e/application?embed=true) |
 | Forge Nano | Software Engineer 1 🆕 | Thornton, CO | — | 80% | 2026-10-09 | 2026-10-09 | [**Apply ➜**](https://forge-nano.breezy.hr/p/66630c61f7e4/apply) |
 | SoloPulse | Software Engineer Intern Co-op 🆕 | Peachtree Corners, GA | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://jobs.lever.co/solopulseco/1b36afea-e8eb-4cea-a6e9-0afc384d06ef/apply) |
@@ -38,7 +40,7 @@ Last updated: **2026-10-09 06:01 UTC** · auto-refreshed every 12h by [job-board
 | Leidos | Junior Software Engineer 🆕 | Huntsville, AL | — | 80% | 2026-10-07 | 2026-10-08 | [**Apply ➜**](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Huntsville-AL/Junior-Software-Engineer_R-00194081) |
 | WEX | Fullstack Software Engineer Intern - Undergraduate 🆕 | Remote - USA | — | 85% | 2026-10-05 | 2026-10-08 | [**Apply ➜**](https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Backend-Software-Engineer-Intern--Undergraduate-_R22593) |
 
-## 🛠️ Internships (1223)
+## 🛠️ Internships (1225)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -443,7 +445,7 @@ Last updated: **2026-10-09 06:01 UTC** · auto-refreshed every 12h by [job-board
 | Bedrock Robotics | Behavior ML Engineer Intern - Learned Manipulation Policies | SF | Winter 2026 | 90% | 2026-10-02 | 2026-10-02 | [**Apply ➜**](https://jobs.ashbyhq.com/bedrock-robotics/96a6423e-7439-4cb4-9109-117b14e47f7c/application?embed=true) |
 | Deloitte | Summer Scholar Intern - Government & Public Services - Cyber Software Engineering | Austin, TX | Summer 2026 | 90% | 2026-08-10 | 2026-10-02 | [**Apply ➜**](https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Summer-Scholar-Cyber-Software-Engineering/362346) |
 
-_…and 823 more (raise the cap in src/scraper/board.ts)._
+_…and 825 more (raise the cap in src/scraper/board.ts)._
 ## 🎓 New Grad (554)
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
@@ -543,8 +545,8 @@ _…and 823 more (raise the cap in src/scraper/board.ts)._
 | GliaCell Technologies | Junior Java Software Engineer | Annapolis Junction, MD | — | 82% (1 skills) | 2026-08-03 | 2026-09-16 | [**Apply ➜**](https://gliacelltechnologies.applytojob.com/apply/5LJjRwD5B9/Junior-Java-Software-Engineer) |
 | Huntington Bank | Junior Backend Java Developer- Enterprise Payments and Credit Card | Minnetonka, MN +1 | — | 82% (1 skills) | 2026-09-04 | 2026-09-16 | [**Apply ➜**](https://huntington.wd12.myworkdayjobs.com/en-US/hnbcareers/job/Minnetonka-MN/Enterprise-Payments-and-Credit-Card-Programmer-Analyst-2_R0070757) |
 | Walgreens | Software Engineer 1 - Java | Deerfield, IL | — | 82% (1 skills) | 2026-08-03 | 2026-09-16 | [**Apply ➜**](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=26336&siteid=5014&PageType=JobDetails&jobid=1855141) |
-| SpaceX | New Graduate Engineer, Security Software (Starshield) | Washington, DC | — | 82% (1 skills) | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002) |
 | SpaceX | New Graduate Engineer, Security Software (Starshield) | Hawthorne, CA | — | 82% (1 skills) | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002) |
+| SpaceX | New Graduate Engineer, Security Software (Starshield) | Washington, DC | — | 82% (1 skills) | 2026-09-11 | 2026-09-12 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002) |
 | SpaceX | New Graduate Engineer, Software Security - '26/'27 (Starlink) | Hawthorne, CA | — | 82% (1 skills) | 2026-08-19 | 2026-08-24 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8724316002?gh_jid=8724316002) |
 | aquaticcapitalmanagement | Software Engineer, Early Career | Chicago; New York | — | 82% (1 skills) | 2026-04-01 | 2026-08-23 | [**Apply ➜**](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002) |
 | SpaceX | New Graduate Engineer, Software (Application Software) | Hawthorne, CA | — | 82% (1 skills) | 2026-08-19 | 2026-08-19 | [**Apply ➜**](https://boards.greenhouse.io/spacex/jobs/8730567002?gh_jid=8730567002) |
@@ -850,7 +852,7 @@ _…and 823 more (raise the cap in src/scraper/board.ts)._
 | Cadence Design Systems | Software Engineer New Grad | San Jose, CA | — | 80% | 2026-09-03 | 2026-09-04 | [**Apply ➜**](https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/SAN-JOSE/Software-Engineer---new-college-grad-Dec-2026-_R55738) |
 
 _…and 154 more (raise the cap in src/scraper/board.ts)._
-## 🚪 Recently closed (last 7 days) (279)
+## 🚪 Recently closed (last 7 days) (278)
 
 Postings that disappeared from their company's feed — if one of these was on your list, it's gone.
 
@@ -1134,7 +1136,6 @@ Postings that disappeared from their company's feed — if one of these was on y
 | Droyd Robotics | Software Engineer Intern | Fall 2026 | 2026-10-02 |
 | General Dynamics | Entry Level Software Developer | — | 2026-10-02 |
 | Abbott | Software Engineer 1 - Multiple Teams | — | 2026-10-02 |
-| The Aerospace Corporation | Machine Learning Engineer Intern | Winter 2026 | 2026-10-02 |
 
 ---
 _Some listings via the MIT-licensed community feeds of [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions), SimplifyJobs Summer Internships, [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships), and [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027)._

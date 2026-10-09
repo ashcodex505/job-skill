@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-09T06:01:35.650Z",
+ "updatedAt": "2026-10-09T06:38:49.839Z",
  "jobs": [
   {
    "dedupeKey": "ashby:8e64dc7f-e925-4361-86d5-b01ee518c987",
@@ -39370,6 +39370,52 @@
    "firstSeenAt": "2026-10-08T23:18:55.922Z"
   },
   {
+   "dedupeKey": "simplifyjobs:ed1c0343-bea1-414d-b994-5f703129ea75",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7694356134081972533",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-10-09T06:15:45.000Z",
+   "firstSeenAt": "2026-10-09T06:38:49.839Z"
+  },
+  {
+   "dedupeKey": "simplifyjobs:c9025af2-3ad6-4507-b412-99016466963d",
+   "source": "simplifyjobs",
+   "company": "TikTok",
+   "title": "Machine Learning Engineer Intern - E-Commerce User Growth",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7694354937320868149",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-10-09T06:15:46.000Z",
+   "firstSeenAt": "2026-10-09T06:38:49.839Z"
+  },
+  {
    "dedupeKey": "rippling:sha1:d9bb01ac817668d8c7f17053a45886c233315c34",
    "source": "rippling",
    "company": "Rippling",
@@ -39699,12 +39745,12 @@
    "firstSeenAt": "2026-10-02T16:16:22.018Z"
   },
   {
-   "dedupeKey": "workday:UNI4516",
-   "source": "workday",
-   "company": "HP",
-   "title": "Software Product Management Intern",
-   "location": "2 Locations",
-   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Austin-Texas-United-States-of-America/Software-Product-Management-Intern_UNI4516-1",
+   "dedupeKey": "oraclecloud:300404",
+   "source": "oraclecloud",
+   "company": "Dell",
+   "title": "Cloud Software Security (CSS) Summer Internship, Undergraduate Intern",
+   "location": "Round Rock, TX, United States",
+   "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300404",
    "season": null,
    "roleType": "internship",
    "score": 80,
@@ -39718,85 +39764,8 @@
     "keywords": 10,
     "skills": 0
    },
-   "postedAt": "2026-10-07",
+   "postedAt": "2026-10-07T00:00:00.000Z",
    "firstSeenAt": "2026-10-07T20:08:26.676Z"
-  },
-  {
-   "dedupeKey": "workday:3167788",
-   "source": "workday",
-   "company": "HP",
-   "title": "Junior Inside Software Sales Specialists - Iberia",
-   "location": "2 Locations",
-   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Sant-Cugat-del-Valles-Barcelona-Spain/GSS-Iberia---Inside-Software-Specialists_3167788-1",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-09-21",
-   "firstSeenAt": "2026-09-21T19:22:00.485Z"
-  },
-  {
-   "dedupeKey": "workday:3167271",
-   "source": "workday",
-   "company": "HP",
-   "title": "Enterprise Operations Software Internship",
-   "location": "Spring, Texas, United States of America",
-   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-2",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-08-21",
-   "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8138039",
-   "source": "greenhouse",
-   "company": "Pinterest",
-   "title": "Software Engineering Intern 2027 (Toronto)",
-   "location": "Toronto, ON, CA",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8138039",
-   "season": "2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python",
-    "Java",
-    "TypeScript",
-    "JavaScript",
-    "React",
-    "Data Structures",
-    "Algorithms"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 10,
-    "location": 0,
-    "keywords": 10,
-    "skills": 11
-   },
-   "postedAt": "2026-10-01T13:03:18-04:00",
-   "firstSeenAt": "2026-10-01T18:52:16.961Z"
   },
   {
    "dedupeKey": "greenhouse:7774167",
@@ -39881,6 +39850,106 @@
    "firstSeenAt": "2026-10-06T02:56:30.662Z"
   },
   {
+   "dedupeKey": "greenhouse:8138039",
+   "source": "greenhouse",
+   "company": "Pinterest",
+   "title": "Software Engineering Intern 2027 (Toronto)",
+   "location": "Toronto, ON, CA",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8138039",
+   "season": "2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python",
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Data Structures",
+    "Algorithms"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 10,
+    "location": 0,
+    "keywords": 10,
+    "skills": 11
+   },
+   "postedAt": "2026-10-01T13:03:18-04:00",
+   "firstSeenAt": "2026-10-01T18:52:16.961Z"
+  },
+  {
+   "dedupeKey": "workday:UNI4516",
+   "source": "workday",
+   "company": "HP",
+   "title": "Software Product Management Intern",
+   "location": "2 Locations",
+   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Austin-Texas-United-States-of-America/Software-Product-Management-Intern_UNI4516-1",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-10-07",
+   "firstSeenAt": "2026-10-07T20:08:26.676Z"
+  },
+  {
+   "dedupeKey": "workday:3167788",
+   "source": "workday",
+   "company": "HP",
+   "title": "Junior Inside Software Sales Specialists - Iberia",
+   "location": "2 Locations",
+   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Sant-Cugat-del-Valles-Barcelona-Spain/GSS-Iberia---Inside-Software-Specialists_3167788-1",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-09-21",
+   "firstSeenAt": "2026-09-21T19:22:00.485Z"
+  },
+  {
+   "dedupeKey": "workday:3167271",
+   "source": "workday",
+   "company": "HP",
+   "title": "Enterprise Operations Software Internship",
+   "location": "Spring, Texas, United States of America",
+   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-2",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-08-21",
+   "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
    "dedupeKey": "ashby:9246cf02-26fd-4ae8-90c5-639c6e85e9e2",
    "source": "ashby",
    "company": "Perplexity",
@@ -39930,54 +39999,6 @@
    },
    "postedAt": "2026-07-01T12:19:30.009+00:00",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
-  },
-  {
-   "dedupeKey": "oraclecloud:300404",
-   "source": "oraclecloud",
-   "company": "Dell",
-   "title": "Cloud Software Security (CSS) Summer Internship, Undergraduate Intern",
-   "location": "Round Rock, TX, United States",
-   "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300404",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-10-07T00:00:00.000Z",
-   "firstSeenAt": "2026-10-07T20:08:26.676Z"
-  },
-  {
-   "dedupeKey": "greenhouse:8052083",
-   "source": "greenhouse",
-   "company": "Hudson River Trading",
-   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
-   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
-   "season": "Summer 2027",
-   "roleType": "internship",
-   "score": 100,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 25,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-07-13T11:35:06-04:00",
-   "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
    "dedupeKey": "workday:JR2022645",
@@ -40047,6 +40068,31 @@
    },
    "postedAt": "2026-08-26",
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8052083",
+   "source": "greenhouse",
+   "company": "Hudson River Trading",
+   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
+   "location": "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+   "season": "Summer 2027",
+   "roleType": "internship",
+   "score": 100,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 25,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-07-13T11:35:06-04:00",
+   "firstSeenAt": "2026-07-15T08:30:50.814Z"
   },
   {
    "dedupeKey": "greenhouse:8052338",
@@ -40288,31 +40334,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "greenhouse:8802897002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Security Software (Starshield)",
-   "location": "Washington, DC",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-09-11T19:36:47-04:00",
-   "firstSeenAt": "2026-09-12T01:04:46.155Z"
-  },
-  {
    "dedupeKey": "greenhouse:8802882002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -40335,6 +40356,31 @@
     "skills": 2
    },
    "postedAt": "2026-09-11T19:36:45-04:00",
+   "firstSeenAt": "2026-09-12T01:04:46.155Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8802897002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Security Software (Starshield)",
+   "location": "Washington, DC",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-09-11T19:36:47-04:00",
    "firstSeenAt": "2026-09-12T01:04:46.155Z"
   },
   {
@@ -40411,31 +40457,6 @@
    "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
-   "dedupeKey": "greenhouse:8696156002",
-   "source": "greenhouse",
-   "company": "SpaceX",
-   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
-   "location": "Bastrop, TX",
-   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
-   "season": null,
-   "roleType": "new_grad",
-   "score": 82,
-   "matchedSkills": [
-    "Python"
-   ],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 2
-   },
-   "postedAt": "2026-08-14T12:21:32-04:00",
-   "firstSeenAt": "2026-08-14T17:04:26.434Z"
-  },
-  {
    "dedupeKey": "greenhouse:8724316002",
    "source": "greenhouse",
    "company": "SpaceX",
@@ -40459,6 +40480,31 @@
    },
    "postedAt": "2026-08-19T11:08:34-04:00",
    "firstSeenAt": "2026-08-24T21:39:20.245Z"
+  },
+  {
+   "dedupeKey": "greenhouse:8696156002",
+   "source": "greenhouse",
+   "company": "SpaceX",
+   "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+   "location": "Bastrop, TX",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002",
+   "season": null,
+   "roleType": "new_grad",
+   "score": 82,
+   "matchedSkills": [
+    "Python"
+   ],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 2
+   },
+   "postedAt": "2026-08-14T12:21:32-04:00",
+   "firstSeenAt": "2026-08-14T17:04:26.434Z"
   },
   {
    "dedupeKey": "greenhouse:8123225",
@@ -40540,29 +40586,6 @@
    "firstSeenAt": "2026-09-16T19:19:34.250Z"
   },
   {
-   "dedupeKey": "workday:JR0287917",
-   "source": "workday",
-   "company": "Intel",
-   "title": "AI Software Engineering Graduate Intern",
-   "location": "2 Locations",
-   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/AI-Software-Engineering-Graduate-Intern_JR0287917",
-   "season": null,
-   "roleType": "internship",
-   "score": 80,
-   "matchedSkills": [],
-   "acceptsMasters": false,
-   "breakdown": {
-    "role": 40,
-    "roleType": 30,
-    "season": 0,
-    "location": 0,
-    "keywords": 10,
-    "skills": 0
-   },
-   "postedAt": "2026-10-08T06:34:38.251Z",
-   "firstSeenAt": "2026-10-08T06:34:38.251Z"
-  },
-  {
    "dedupeKey": "greenhouse:8174504",
    "source": "greenhouse",
    "company": "Waymo",
@@ -40612,6 +40635,29 @@
    },
    "postedAt": "2025-12-22T18:35:42-05:00",
    "firstSeenAt": "2026-09-16T19:46:02.461Z"
+  },
+  {
+   "dedupeKey": "workday:JR0287917",
+   "source": "workday",
+   "company": "Intel",
+   "title": "AI Software Engineering Graduate Intern",
+   "location": "2 Locations",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/AI-Software-Engineering-Graduate-Intern_JR0287917",
+   "season": null,
+   "roleType": "internship",
+   "score": 80,
+   "matchedSkills": [],
+   "acceptsMasters": false,
+   "breakdown": {
+    "role": 40,
+    "roleType": 30,
+    "season": 0,
+    "location": 0,
+    "keywords": 10,
+    "skills": 0
+   },
+   "postedAt": "2026-10-08T06:34:38.251Z",
+   "firstSeenAt": "2026-10-08T06:34:38.251Z"
   },
   {
    "dedupeKey": "greenhouse:7816935003",
@@ -41577,16 +41623,6 @@
   }
  ],
  "closed": [
-  {
-   "dedupeKey": "simplifyjobs:e9e5a7ad-e923-47e1-9db6-284c1cb7744f",
-   "company": "The Aerospace Corporation",
-   "title": "Machine Learning Engineer Intern",
-   "season": "Winter 2026",
-   "roleType": "internship",
-   "firstSeenAt": "2026-09-22T04:47:40.879Z",
-   "closedAt": "2026-10-02T06:05:57.550Z",
-   "url": "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Machine-Learning-Engineer-Undergrad-Intern_R016667"
-  },
   {
    "dedupeKey": "simplifyjobs:6760a173-39b3-42f0-bd2a-6e007b814c65",
    "company": "General Dynamics",
