@@ -274,9 +274,9 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1772-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-70-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--10-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1748-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-27-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--10-informational)
 
-Updated **2026-10-10 06:18 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-10 11:17 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
@@ -285,8 +285,8 @@ Updated **2026-10-10 06:18 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | Workday | Software Engineer Intern 🆕 | Pleasanton, CA | Summer 2027 | 100% | 2026-10-09 | 2026-10-10 | [**Apply ➜**](https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810) |
 | Microsoft | AI Software Engineer Intern 🆕 | Redmond, WA; Mountain View, CA | Fall 2026 | 100% | 2026-08-19 | 2026-10-10 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556962891) |
 | Tenet3 | Software Developer Intern - Full Stack 🆕 | Dayton, OH | Spring 2027 | 100% | 2026-10-09 | 2026-10-10 | [**Apply ➜**](https://job-boards.greenhouse.io/tenet3/jobs/8878874002) |
-| Johnson Controls | Software Engineer Co-op 🆕 | Burlington, MA | Winter 2027 | 100% | 2026-10-09 | 2026-10-09 | [**Apply ➜**](https://jci.wd5.myworkdayjobs.com/JCI/job/Burlington-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_EB00075408) |
-| SoloPulse | Software Engineer Intern/Co-op - Spring 2027 🆕 | Peachtree Corners, GA | Spring 2027 | 100% | 2026-10-08 | 2026-10-09 | [**Apply ➜**](https://jobs.lever.co/solopulseco/1b36afea-e8eb-4cea-a6e9-0afc384d06ef) |
+| Johnson Controls | Software Engineer Co-op | Burlington, MA | Winter 2027 | 100% | 2026-10-09 | 2026-10-09 | [**Apply ➜**](https://jci.wd5.myworkdayjobs.com/JCI/job/Burlington-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_EB00075408) |
+| SoloPulse | Software Engineer Intern/Co-op - Spring 2027 | Peachtree Corners, GA | Spring 2027 | 100% | 2026-10-08 | 2026-10-09 | [**Apply ➜**](https://jobs.lever.co/solopulseco/1b36afea-e8eb-4cea-a6e9-0afc384d06ef) |
 | RTX | Software Engineer Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01878369) |
 | SoloPulse | Software Engineer Intern Co-op | Peachtree Corners, GA | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://jobs.lever.co/solopulseco/1b36afea-e8eb-4cea-a6e9-0afc384d06ef/apply) |
 | Tesla | Software Integration Engineer Intern - Service Tooling | Fremont, CA | Winter 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://www.tesla.com/careers/search/job/286127) |
