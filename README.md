@@ -274,12 +274,15 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1767-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-65-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--10-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1772-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-70-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--10-informational)
 
-Updated **2026-10-10 00:18 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-10 05:44 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Workday | Machine Learning Engineer Intern 🆕 | Pleasanton, CA | Summer 2027 | 100% | 2026-10-09 | 2026-10-10 | [**Apply ➜**](https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Machine-Learning-Engineer-Intern_JR-0110812) |
+| Workday | Software Application Development Engineer Intern 🆕 | Pleasanton, CA | Summer 2027 | 100% | 2026-10-09 | 2026-10-10 | [**Apply ➜**](https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811) |
+| Workday | Software Engineer Intern 🆕 | Pleasanton, CA | Summer 2027 | 100% | 2026-10-09 | 2026-10-10 | [**Apply ➜**](https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810) |
 | Microsoft | AI Software Engineer Intern 🆕 | Redmond, WA; Mountain View, CA | Fall 2026 | 100% | 2026-08-19 | 2026-10-10 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556962891) |
 | Tenet3 | Software Developer Intern - Full Stack 🆕 | Dayton, OH | Spring 2027 | 100% | 2026-10-09 | 2026-10-10 | [**Apply ➜**](https://job-boards.greenhouse.io/tenet3/jobs/8878874002) |
 | Johnson Controls | Software Engineer Co-op 🆕 | Burlington, MA | Winter 2027 | 100% | 2026-10-09 | 2026-10-09 | [**Apply ➜**](https://jci.wd5.myworkdayjobs.com/JCI/job/Burlington-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_EB00075408) |
@@ -297,7 +300,4 @@ Updated **2026-10-10 00:18 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | TikTok | Machine Learning Engineer Intern | San Jose, CA | Summer 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://lifeattiktok.com/search/7694045969156426037) |
 | Bose | Data Engineer Co-op | Bloomfield Hills, MI; Framingham, MA; Atlanta, GA | Winter 2027 | 100% | 2026-10-07 | 2026-10-08 | [**Apply ➜**](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Data-Engineer-Co-Op_R29270) |
 | RTX | Software Engineering Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-10-07 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01879727) |
-| RTX | Software Engineering Co-op - Summer/Fall 2027 | Cedar Rapids, IA | Fall 2027 | 100% | 2026-10-07 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01879738) |
-| RTX | Software Engineering Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-10-07 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01879726) |
-| Amazon | Software Development Engineer Intern - Mobile- iOS/Android - Summer 2027 - USA | Seattle, WA | Summer 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://www.amazon.jobs/jobs/10571004/apply) |
 <!-- JOB-BOARD:END -->
