@@ -274,12 +274,14 @@ TypeScript scraper, shell-bundle Mac app instead of Tauri/Electron).
 <!-- JOB-BOARD:START -->
 ## 🎯 Top job matches right now
 
-![open roles](https://img.shields.io/badge/open%20roles-1725-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-47-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--09-informational)
+![open roles](https://img.shields.io/badge/open%20roles-1767-blue) ![new this cycle](https://img.shields.io/badge/new%20this%20cycle-65-brightgreen) ![updated](https://img.shields.io/badge/updated-2026--10--10-informational)
 
-Updated **2026-10-09 21:48 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
+Updated **2026-10-10 00:00 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 
 | Company | Role | Location | Season | Match | Posted | First seen | Apply |
 |---|---|---|---|---|---|---|---|
+| Microsoft | AI Software Engineer Intern 🆕 | Redmond, WA; Mountain View, CA | Fall 2026 | 100% | 2026-08-19 | 2026-10-10 | [**Apply ➜**](https://apply.careers.microsoft.com/careers/job/1970393556962891) |
+| Tenet3 | Software Developer Intern - Full Stack 🆕 | Dayton, OH | Spring 2027 | 100% | 2026-10-09 | 2026-10-10 | [**Apply ➜**](https://job-boards.greenhouse.io/tenet3/jobs/8878874002) |
 | Johnson Controls | Software Engineer Co-op 🆕 | Burlington, MA | Winter 2027 | 100% | 2026-10-09 | 2026-10-09 | [**Apply ➜**](https://jci.wd5.myworkdayjobs.com/JCI/job/Burlington-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_EB00075408) |
 | SoloPulse | Software Engineer Intern/Co-op - Spring 2027 🆕 | Peachtree Corners, GA | Spring 2027 | 100% | 2026-10-08 | 2026-10-09 | [**Apply ➜**](https://jobs.lever.co/solopulseco/1b36afea-e8eb-4cea-a6e9-0afc384d06ef) |
 | RTX | Software Engineer Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-10-08 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01878369) |
@@ -298,6 +300,4 @@ Updated **2026-10-09 21:48 UTC** · **[Full job board ➜ JOBS.md](JOBS.md)**
 | RTX | Software Engineering Co-op - Summer/Fall 2027 | Cedar Rapids, IA | Fall 2027 | 100% | 2026-10-07 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01879738) |
 | RTX | Software Engineering Co-op | Cedar Rapids, IA | Spring 2027 | 100% | 2026-10-07 | 2026-10-08 | [**Apply ➜**](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01879726) |
 | Amazon | Software Development Engineer Intern - Mobile- iOS/Android - Summer 2027 - USA | Seattle, WA | Summer 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://www.amazon.jobs/jobs/10571004/apply) |
-| Clēnera | Data Engineer Intern | Boise, ID | Winter 2027 | 100% | 2026-10-06 | 2026-10-07 | [**Apply ➜**](https://job-boards.greenhouse.io/clenera/jobs/5259423007) |
-| Figure | Middleware Software Intern | San Jose, CA | Winter 2027 | 100% | 2026-10-07 | 2026-10-07 | [**Apply ➜**](https://job-boards.greenhouse.io/figureai/jobs/4605724006) |
 <!-- JOB-BOARD:END -->
